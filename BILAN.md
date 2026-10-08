@@ -1,6 +1,6 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 08/10 20h35 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 08/10 20h41 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|

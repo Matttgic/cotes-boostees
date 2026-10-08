@@ -3,11 +3,11 @@
   "bookmaker": "Winamax",
   "cote_boostee": 4.25,
   "cote_boostee_initiale": 4.25,
-  "cote_origine": 3.65,
+  "cote_origine": 3.6,
   "debut": "2026-10-08T18:45+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
-  "hausse_pct": 16.4,
+  "hausse_pct": 18.1,
   "historique_cotes": [],
   "id": "winamax|714229410|2213811052",
   "jambes": [
@@ -40,7 +40,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Melsungen - Nantes",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Nantes gagne et plus de 58,5 buts dans le match",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -55,9 +55,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 4.25,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "ligne absente chez Pinnacle (RESULTAT_1N2 MATCH None EXT)",
+   "raison": "Pinnacle : ligne absente (RESULTAT_1N2 MATCH None EXT) ; Betfair : match introuvable (Melsungen - Nantes)",
    "statut": "non_evaluable"
   }
  },
@@ -67,7 +67,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.25,
   "debut": "2026-10-08T18:45+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 6.7,
   "historique_cotes": [],
@@ -90,7 +90,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Skanderborg Håndbold - Montpellier",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Montpellier marque au moins 34 buts",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -105,9 +105,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "ligne absente chez Pinnacle (TOTAL_EXT MATCH 33.5 PLUS)",
+   "raison": "Pinnacle : ligne absente (TOTAL_EXT MATCH 33.5 PLUS) ; Betfair : match introuvable (Skanderborg Håndbold - Montpellier)",
    "statut": "non_evaluable"
   }
  },
@@ -117,7 +117,7 @@
   "cote_boostee_initiale": 2.25,
   "cote_origine": 2.0,
   "debut": "2026-10-08T19:00+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 12.5,
   "historique_cotes": [],
@@ -140,7 +140,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Montauban - CA Brive",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Montauban gagne par au moins 6 points d'écart",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -155,9 +155,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.25,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "ligne absente chez Pinnacle (HANDICAP MATCH -5.5 DOM)",
+   "raison": "Pinnacle : ligne absente (HANDICAP MATCH -5.5 DOM) ; Betfair : match introuvable (Montauban - CA Brive)",
    "statut": "non_evaluable"
   }
  },
@@ -167,7 +167,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:00+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
@@ -202,7 +202,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Chicago White Sox - Cleveland Guardians",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Les deux équipes marquent chacune au moins 3 runs",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -218,33 +218,38 @@
   "valeur_derniere": {
    "cote_boostee": 2.4,
    "cote_juste": 2.423,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [
     {
      "cote_juste": 1.588,
-     "cote_pinnacle": 1.5348,
+     "cote_reference": 1.5348,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
      "marche": "TOTAL_DOM",
      "match": "Chicago White Sox - Cleveland Guardians",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     },
     {
      "cote_juste": 1.5258,
-     "cote_pinnacle": 1.4762,
+     "cote_reference": 1.4762,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
      "marche": "TOTAL_EXT",
      "match": "Chicago White Sox - Cleveland Guardians",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     }
    ],
    "ev_origine_pct": -11.3,
    "ev_pct": -0.9,
+   "sources": [
+    "Pinnacle"
+   ],
    "statut": "approx"
   },
   "valeur_initiale": {
@@ -286,7 +291,7 @@
   "cote_boostee_initiale": 3.6,
   "cote_origine": 3.2,
   "debut": "2026-10-08T22:30+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 12.5,
   "historique_cotes": [],
@@ -321,7 +326,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Santos - Flamengo",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Neymar buteur et les deux équipes marquent",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -336,9 +341,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.6,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "ligne absente chez Pinnacle (JOUEUR MATCH 0.5 PLUS)",
+   "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
   }
  },
@@ -348,7 +353,7 @@
   "cote_boostee_initiale": 3.0,
   "cote_origine": 2.55,
   "debut": "2026-10-09T02:15+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 17.6,
   "historique_cotes": [],
@@ -383,7 +388,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Vegas Golden Knights - Toronto Maple Leafs",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Vegas Golden Knights gagne et plus de 6,5 buts dans le match (prol. et TAB inclus)",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -398,34 +403,39 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.0,
-   "cote_juste": 3.321,
-   "date": "2026-10-08T18:35:34+00:00",
+   "cote_juste": 3.198,
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [
     {
-     "cote_juste": 1.6366,
-     "cote_pinnacle": 1.6061,
+     "cote_juste": 1.6407,
+     "cote_reference": 1.6098,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
      "marche": "VAINQUEUR",
      "match": "Vegas Golden Knights - Toronto Maple Leafs",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     },
     {
-     "cote_juste": 2.0291,
-     "cote_pinnacle": 1.9709,
+     "cote_juste": 1.949,
+     "cote_reference": 1.8929,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 6.5,
      "marche": "TOTAL",
      "match": "Vegas Golden Knights - Toronto Maple Leafs",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -23.2,
-   "ev_pct": -9.7,
+   "ev_origine_pct": -20.3,
+   "ev_pct": -6.2,
+   "sources": [
+    "Pinnacle"
+   ],
    "statut": "approx"
   },
   "valeur_initiale": {
@@ -467,7 +477,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.0,
   "debut": "2026-10-09T04:00+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 15.0,
   "historique_cotes": [],
@@ -490,7 +500,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Arthur Gea - Ugo Humbert",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Plus de 2,5 sets lors du match",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -505,23 +515,27 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.3,
-   "cote_juste": 2.674,
-   "date": "2026-10-08T18:35:34+00:00",
+   "cote_juste": 2.669,
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [
     {
-     "cote_juste": 2.6738,
-     "cote_pinnacle": 2.55,
+     "cote_juste": 2.6689,
+     "cote_reference": 2.54,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
      "marche": "SETS_TOTAL",
      "match": "Arthur Gea - Ugo Humbert",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -25.2,
-   "ev_pct": -14.0,
+   "ev_origine_pct": -25.1,
+   "ev_pct": -13.8,
+   "sources": [
+    "Pinnacle"
+   ],
    "statut": "exacte"
   },
   "valeur_initiale": {
@@ -552,7 +566,7 @@
   "cote_boostee_initiale": 3.5,
   "cote_origine": 3.09,
   "debut": "2026-10-08T23:15+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 13.3,
   "historique_cotes": [],
@@ -599,7 +613,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "NHL",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Carolina Hurricanes, Montreal Canadiens et Ottawa Senators gagnent chacun leur match (respectivement contre Vancouver Canucks, Nashville Predators et Philadelphia Flyers) (prol. et TAB inclus)",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -615,44 +629,50 @@
   "valeur_derniere": {
    "cote_boostee": 3.5,
    "cote_juste": 3.511,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [
     {
      "cote_juste": 1.3156,
-     "cote_pinnacle": 1.2976,
+     "cote_reference": 1.2976,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
      "marche": "VAINQUEUR",
      "match": "Carolina Hurricanes - Vancouver Canucks",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     },
     {
      "cote_juste": 1.6645,
-     "cote_pinnacle": 1.6329,
+     "cote_reference": 1.6329,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
      "marche": "VAINQUEUR",
      "match": "Montreal Canadiens - Nashville Predators",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     },
     {
      "cote_juste": 1.6034,
-     "cote_pinnacle": 1.5747,
+     "cote_reference": 1.5747,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
      "marche": "VAINQUEUR",
      "match": "Ottawa Senators - Philadelphia Flyers",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     }
    ],
    "ev_origine_pct": -12.0,
    "ev_pct": -0.3,
+   "sources": [
+    "Pinnacle"
+   ],
    "statut": "exacte"
   },
   "valeur_initiale": {
@@ -705,7 +725,7 @@
   "cote_boostee_initiale": 4.75,
   "cote_origine": 4.25,
   "debut": "2026-10-09T03:45+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 11.8,
   "historique_cotes": [],
@@ -728,7 +748,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "A.Lebrun / F.Lebrun - R.Wen / L.Yuan",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "A.Lebrun / F.Lebrun gagne le match 3-1",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -743,9 +763,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 4.75,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "condition non cotée par Pinnacle",
+   "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
   }
  },
@@ -755,7 +775,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:15+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
@@ -790,7 +810,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Dallas Cowboys - Tampa Bay Buccaneers",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "CeeDee Lamb marque au moins un touchdown et Dallas Cowboys gagne par au moins 5 points d'écart",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -805,21 +825,22 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [
     {
      "cote_juste": 2.0187,
-     "cote_pinnacle": 1.9259,
+     "cote_reference": 1.9259,
      "issue": "PLUS",
      "joueur": "CeeDee Lamb",
      "ligne": 0.5,
      "marche": "JOUEUR:Touchdowns",
      "match": "Dallas Cowboys - Tampa Bay Buccaneers",
      "periode": "MATCH",
-     "ressemblance": 1.0
+     "ressemblance": 1.0,
+     "source": "Pinnacle"
     }
    ],
-   "raison": "ligne absente chez Pinnacle (HANDICAP MATCH -4.5 DOM)",
+   "raison": "Pinnacle : ligne absente (HANDICAP MATCH -4.5 DOM) ; Betfair : ligne absente (HANDICAP MATCH 4.5 EXT)",
    "statut": "non_evaluable"
   }
  },
@@ -829,7 +850,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:15+00:00",
-  "derniere_vue": "2026-10-08T18:35:34+00:00",
+  "derniere_vue": "2026-10-08T18:41:28+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
@@ -852,7 +873,7 @@
   "jambes_modele": "gpt-6-luna",
   "match": "Dallas Cowboys - Tampa Bay Buccaneers",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Javonte Williams réalise au moins 81 yards à la course",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -867,9 +888,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "date": "2026-10-08T18:35:34+00:00",
+   "date": "2026-10-08T18:41:28+00:00",
    "detail": [],
-   "raison": "ligne absente chez Pinnacle (JOUEUR MATCH 80.5 PLUS)",
+   "raison": "Pinnacle : ligne absente (JOUEUR MATCH 80.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 80.5 PLUS)",
    "statut": "non_evaluable"
   }
  }
