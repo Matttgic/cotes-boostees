@@ -21,4 +21,7 @@ jobs:
         run: python scripts/test_ia.py | tee resultat.txt
       - name: Résultat dans le résumé
         if: always()
-        run: { echo '```'; cat resultat.txt 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat resultat.txt >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
