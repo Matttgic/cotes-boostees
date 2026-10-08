@@ -100,7 +100,7 @@ def test_consigne_contient_le_pari_et_les_regles():
 
 def test_rapport_markdown():
     base = {b["id"]: b for b in [boost(1, 50, 2.5, statut="gagné"), boost(2, 20, 4.25)]}
-    md = rapport.markdown(simulation.bilan(base), "2026-10-08T18:00:00+00:00")
+    md = rapport.markdown(simulation.strategies(base), "2026-10-08T18:00:00+00:00")
     assert "+75,00 €" in md and "ROI" in md and "⏳" in md
 
 

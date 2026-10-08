@@ -30,7 +30,14 @@ Toutes les heures (workflow « Collecte des boosts », `scripts/collecte.py`) :
    verdict gagné / perdu / remboursé avec score, explication et sources ; « inconnu » = nouvel essai 6 h
    plus tard, 4 essais au plus puis « à la main ». Corrections manuelles prioritaires dans
    `reglements_manuels.json` (`{"id du boost": "gagné"}`) ;
-5. bilan de la stratégie A : `bilan.json` et `BILAN.md` (gain net, ROI, par mise max, cote, sport, mois).
+5. valeur face à Pinnacle (stratégie B, `boosts/evaluation.py`) : l'IA décompose chaque nouveau boost en
+   conditions simples (`boosts/jambes.py`), chacune est cherchée telle quelle chez Pinnacle (API publique,
+   `boosts/pinnacle.py` copié de cotes-value) et sa probabilité juste (marge retirée) donne la cote juste
+   et l'EV (`boosts/valeur.py`). « exacte » : un pari ou des matchs différents ; « approx » : conditions
+   liées sur un même match (produit des probabilités) ; « non évaluable » : une condition absente chez
+   Pinnacle (jamais devinée) ;
+6. bilan : `bilan.json` et `BILAN.md` — A (tous les boosts), B-exacte et B-approx (EV ≥ 5 % au premier
+   calcul), A ventilée par valeur, mise max, cote, sport, mois.
 
 Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 
@@ -40,7 +47,7 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 | PMU | 🔍 accessible depuis l'IP française, source des données à trouver |
 | Unibet | ⛔ protégé par DataDome (défi JavaScript) : nécessiterait le Web Unlocker de Bright Data |
 
-Étapes suivantes : PMU, cote juste Pinnacle (stratégie B), règlement des paris, simulations A et B.
+Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
 
 ## Sondes
 
