@@ -47,10 +47,19 @@ OUT = Path("sonde")
 BRUT = OUT / "brut"
 
 
+def masquer(texte: str) -> str:
+    """Retire les secrets d'un texte (un message d'erreur peut contenir l'URL du proxy)."""
+    for nom in ("BRIGHTDATA_PASSWORD", "PULSESCORE_KEY"):
+        v = os.environ.get(nom, "").strip()
+        if v:
+            texte = texte.replace(v, "***").replace(quote(v, safe=""), "***")
+    return texte
+
+
 def ecrire_brut(nom: str, contenu) -> None:
     BRUT.mkdir(parents=True, exist_ok=True)
     with gzip.open(BRUT / f"{nom}.json.gz", "wt", encoding="utf-8") as f:
-        json.dump(contenu, f, ensure_ascii=False)
+        f.write(masquer(json.dumps(contenu, ensure_ascii=False)))
 
 
 def sans_accents(t: str) -> str:
@@ -126,21 +135,53 @@ def sonde_pulsescore(cle: str) -> dict:
 
 # --------------------------------------------------------------------------- B. sites directs
 
+CA_BRIGHTDATA = Path(__file__).resolve().parent.parent / "certs" / "brightdata_proxy_ca.crt"
+
+
+def proxy_francais() -> tuple[dict | None, str | bool]:
+    """Proxy Bright Data sortant en France si les secrets sont là, sinon accès direct.
+    Renvoie (proxies pour requests, vérification TLS)."""
+    client = os.environ.get("BRIGHTDATA_CUSTOMER_ID", "").strip()
+    zone = os.environ.get("BRIGHTDATA_ZONE", "").strip()
+    mdp = os.environ.get("BRIGHTDATA_PASSWORD", "").strip()
+    if not (client and zone and mdp):
+        return None, True
+    client = client.removeprefix("brd-customer-")
+    session = os.urandom(4).hex()          # même IP pour toute la sonde
+    url = (f"http://brd-customer-{client}-zone-{zone}-country-fr-session-{session}:"
+           f"{quote(mdp, safe='')}@brd.superproxy.io:33335")
+    return {"http": url, "https": url}, str(CA_BRIGHTDATA)
+
+
+def erreur_proxy(r: requests.Response) -> str | None:
+    """Code d'erreur Bright Data éventuel (ancien et nouvel en-tête)."""
+    return r.headers.get("x-brd-err-code") or r.headers.get("x-brd-error") or r.headers.get("Proxy-Status")
+
+
 def sonde_sites() -> dict:
-    res = {}
+    proxies, verif = proxy_francais()
+    res: dict = {"_acces": "proxy Bright Data (France)" if proxies else "direct (serveur GitHub)"}
     try:
-        res["_ip"] = requests.get("https://ipinfo.io/json", timeout=20).json()
-        res["_ip"] = {k: res["_ip"].get(k) for k in ("country", "region", "org")}
+        if proxies:
+            g = requests.get("https://geo.brdtest.com/mygeo.json", proxies=proxies, verify=verif, timeout=40)
+            j = g.json()
+            res["_ip"] = {"statut": g.status_code, "pays": j.get("country"),
+                          "ville": (j.get("geo") or {}).get("city"), "asn": j.get("asn")}
+        else:
+            j = requests.get("https://ipinfo.io/json", timeout=20).json()
+            res["_ip"] = {k: j.get(k) for k in ("country", "region", "org")}
     except Exception as e:  # information seulement
-        res["_ip"] = f"inconnu : {e!r}"[:120]
+        res["_ip"] = f"inconnu : {e!r}"[:300]
     for nom, url in SITES.items():
         info: dict = {"url": url}
         try:
-            r = requests.get(url, headers=NAVIGATEUR, timeout=40, allow_redirects=True)
+            r = requests.get(url, headers=NAVIGATEUR, timeout=60, allow_redirects=True,
+                             proxies=proxies, verify=verif)
         except requests.RequestException as e:
-            info["erreur"] = repr(e)[:200]
+            info["erreur"] = repr(e)[:300]
             res[nom] = info
             continue
+        info["erreur_proxy"] = erreur_proxy(r)
         html = r.text
         info.update({
             "statut": r.status_code,
@@ -167,10 +208,14 @@ def main() -> None:
     OUT.mkdir(exist_ok=True)
     resume = {"date_utc": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     cle = os.environ.get("PULSESCORE_KEY", "").strip()
-    resume["pulsescore"] = sonde_pulsescore(cle) if cle else "secret PULSESCORE_KEY absent"
+    if os.environ.get("SONDE_PULSESCORE", "oui") != "oui":
+        resume["pulsescore"] = "non lancé (déjà sondé)"
+    else:
+        resume["pulsescore"] = sonde_pulsescore(cle) if cle else "secret PULSESCORE_KEY absent"
     resume["sites"] = sonde_sites()
-    (OUT / "resume.json").write_text(json.dumps(resume, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps(resume, ensure_ascii=False, indent=2)[:60000])
+    texte = masquer(json.dumps(resume, ensure_ascii=False, indent=2))
+    (OUT / "resume.json").write_text(texte, encoding="utf-8")
+    print(texte[:60000])
 
 
 if __name__ == "__main__":

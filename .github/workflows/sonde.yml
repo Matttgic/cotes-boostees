@@ -2,6 +2,10 @@ name: Sonde des sources
 
 on:
   workflow_dispatch:
+    inputs:
+      pulsescore:
+        description: "Sonder aussi PulseScore (oui/non)"
+        default: "non"
 
 permissions:
   contents: write
@@ -23,6 +27,10 @@ jobs:
       - name: Sonde PulseScore + sites
         env:
           PULSESCORE_KEY: ${{ secrets.PULSESCORE_KEY }}
+          SONDE_PULSESCORE: ${{ inputs.pulsescore }}
+          BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
+          BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
+          BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}
         run: python scripts/sonde.py
 
       - name: Publier les résultats sur la branche « sonde »
