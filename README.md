@@ -32,8 +32,10 @@ Toutes les heures (workflow « Collecte des boosts », `scripts/collecte.py`) :
    `reglements_manuels.json` (`{"id du boost": "gagné"}`) ;
 5. valeur face à Pinnacle (stratégie B, `boosts/evaluation.py`) : l'IA décompose chaque nouveau boost en
    conditions simples (`boosts/jambes.py`), chacune est cherchée telle quelle chez Pinnacle (API publique,
-   `boosts/pinnacle.py` copié de cotes-value) et sa probabilité juste (marge retirée) donne la cote juste
-   et l'EV (`boosts/valeur.py`). « exacte » : un pari ou des matchs différents ; « approx » : conditions
+   `boosts/pinnacle.py` copié de cotes-value, gratuite, sans quota) et sa probabilité juste (marge
+   retirée) donne la cote juste et l'EV (`boosts/valeur.py`). Si Pinnacle n'a pas la condition, elle est
+   cherchée sur l'**échange Betfair via PulseScore** (milieu achat/vente, seulement si l'écart est serré
+   et l'argent engagé suffisant ; requêtes PulseScore seulement dans ce cas). « exacte » : un pari ou des matchs différents ; « approx » : conditions
    liées sur un même match (produit des probabilités) ; « non évaluable » : une condition absente chez
    Pinnacle (jamais devinée) ;
 6. bilan : `bilan.json` et `BILAN.md` — A (tous les boosts), B-exacte et B-approx (EV ≥ 5 % au premier

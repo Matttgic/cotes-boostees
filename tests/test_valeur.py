@@ -105,9 +105,34 @@ def test_evaluation_complete_et_strategie_b(monkeypatch, index):
          "jambes": [j(equipe_1="Montauban", equipe_2="CA Brive", type="handicap", equipe="Montauban", ligne=-5.5)]}
     base = {b["id"]: b}
     r = evaluer_boosts(base, "2026-10-08T18:00:00+00:00",
-                       collecter_pinnacle=lambda ids: [l for ls in index.lignes.values() for l in ls])
+                       collecter_pinnacle=lambda ids: [l for ls in index.lignes.values() for l in ls],
+                       collecter_betfair=lambda sports, h: ([], 0))
     assert r["exactes"] == 1 and b["valeur_initiale"]["statut"] == "exacte"
     s = simulation.strategies(base)
     assert s["A"]["global"]["paris"] == 1
     attendu = 1 if b["valeur_initiale"]["ev_pct"] >= simulation.EV_MIN_B else 0
     assert s["B_exacte"]["global"]["paris"] == attendu and s["B_approx"]["global"]["paris"] == 0
+
+
+def test_repli_betfair_quand_pinnacle_n_a_pas_la_ligne(index):
+    """Montauban −9,5 : absent chez Pinnacle, présent et liquide sur Betfair."""
+    brut = [{"source": "Betfair", "sport": "rugby", "ligue": "Pro D2", "match_id": "orbitxch|9", "domicile": "Montauban",
+             "exterieur": "Brive", "debut": "2026-10-08T19:00:00Z", "marche": "HANDICAP", "periode": "MATCH",
+             "ligne": -9.5, "issue": i, "cote": c, "cle_marche": "orbitxch|m1",
+             "achat": [{"price": a, "liquidity": 150}], "vente": [{"price": v, "liquidity": 90}]}
+            for i, c, a, v in (("DOM", 2.9, 2.9, 3.0), ("EXT", 1.5, 1.5, 1.52))]
+    bf = valeur.reference_betfair(brut)
+    assert len(bf) == 2
+    jj = [j(equipe_1="Montauban", equipe_2="CA Brive", type="handicap", equipe="Montauban", ligne=-9.5)]
+    b = boost("Rugby à XV", 3.4, "2026-10-08T19:00:00+00:00")
+    assert valeur.evaluer(b, jj, [("Pinnacle", index)])["statut"] == "non_evaluable"
+    v = valeur.evaluer(b, jj, [("Pinnacle", index), ("Betfair", valeur.Index(bf))])
+    assert v["statut"] == "exacte" and v["sources"] == ["Betfair"]
+
+
+def test_betfair_peu_liquide_ignore():
+    brut = [{"source": "Betfair", "sport": "rugby", "match_id": "orbitxch|9", "domicile": "A", "exterieur": "B",
+             "debut": "2026-10-08T19:00:00Z", "marche": "TOTAL", "periode": "MATCH", "ligne": 40.5, "issue": i,
+             "cote": 1.9, "cle_marche": "m", "achat": [{"price": 1.9, "liquidity": 5}],
+             "vente": [{"price": 1.95, "liquidity": 5}]} for i in ("PLUS", "MOINS")]
+    assert valeur.reference_betfair(brut) == []

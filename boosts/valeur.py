@@ -1,7 +1,9 @@
-"""Valeur d'un boost face à Pinnacle : cote juste, EV, et fiabilité du calcul.
+"""Valeur d'un boost face aux références « sharp » : cote juste, EV, et fiabilité du calcul.
 
-Pour chaque jambe (boosts/jambes.py) on cherche chez Pinnacle le MÊME pari (même match, même marché,
-même période, même ligne, même côté) et sa probabilité juste (marge retirée, méthode power).
+Pour chaque jambe (boosts/jambes.py) on cherche le MÊME pari (même match, même marché, même période,
+même ligne, même côté) chez Pinnacle (probabilité juste = marge retirée, méthode power), puis, si
+Pinnacle ne l'a pas, sur l'échange Betfair (via PulseScore : milieu achat/vente, seulement si l'écart
+achat/vente est serré et l'argent engagé suffisant). Chaque jambe garde sa source.
 - une seule jambe, ou des jambes sur des matchs différents (indépendantes) → calcul « exacte » ;
 - plusieurs jambes sur le même match → produit des probabilités, calcul « approx » (le lien entre les
   conditions est ignoré : voir README) ;
@@ -116,7 +118,7 @@ def cle_recherche(j: dict, match: dict, sport: str) -> tuple | str:
             return "équipe du total introuvable"
         return (UNITES[j["unite"]] + ("TOTAL_DOM" if cote == "DOM" else "TOTAL_EXT"), periode, j["ligne"], issue)
     if t == "les_deux_marquent":
-        return ("SPECIAL:Both Teams To Score?", periode, None, "Yes")
+        return ("BTTS", periode, None, "OUI")
     if t == "joueur":
         if not j["joueur"] or j["ligne"] is None:
             return "pari joueur incomplet"
@@ -130,9 +132,17 @@ def _egal(a, b) -> bool:
 
 def chercher_ligne(index: Index, match: dict, cle: tuple, j: dict) -> dict | None:
     marche, periode, ligne, issue = cle
+    if marche == "BTTS":                                   # Pinnacle (spécial) et Betfair (marché normal)
+        for l in index.lignes.get(match["match_id"], []):
+            if l["periode"] == periode and l["marche"] in ("SPECIAL:Both Teams To Score?", "BOTH_TEAMS_TO_SCORE") \
+                    and l["issue"] in ("Yes", "YES"):
+                return l
+        return None
     for l in index.lignes.get(match["match_id"], []):
         if l["periode"] != periode or l["issue"] != issue or not _egal(l.get("ligne"), ligne):
             continue
+        if marche == "BTTS":
+            continue                                        # traité plus haut (issue « Yes » / « YES »)
         if marche == "JOUEUR":
             if not l["marche"].startswith("JOUEUR:") or ressemblance(j["joueur"], l.get("joueur")) < 0.8:
                 continue
@@ -145,39 +155,97 @@ def chercher_ligne(index: Index, match: dict, cle: tuple, j: dict) -> dict | Non
     return None
 
 
-def evaluer(boost: dict, jambes: list[dict] | None, index: Index) -> dict:
-    """{statut: exacte | approx | non_evaluable, cote_juste, ev_pct, raison, detail}."""
+def _jambe(j: dict, sport: str, debut, index: Index):
+    """(ligne, match, ressemblance) ou la raison de l'échec."""
+    trouve = index.trouver_match(sport, j["equipe_1"], j["equipe_2"], debut)
+    if trouve is None:
+        return f"match introuvable ({j['equipe_1']} - {j['equipe_2']})"
+    match, _, score = trouve
+    cle = cle_recherche(j, match, sport)
+    if isinstance(cle, str):
+        return cle
+    l = chercher_ligne(index, match, cle, j)
+    if l is None:
+        return f"ligne absente ({cle[0]} {cle[1]} {cle[2]} {cle[3]})"
+    return l, match, score
+
+
+def evaluer(boost: dict, jambes: list[dict] | None, sources) -> dict:
+    """{statut: exacte | approx | non_evaluable, cote_juste, ev_pct, raison, detail}.
+    `sources` : [(nom, Index)…] dans l'ordre de préférence (un Index seul est accepté : « Pinnacle »)."""
+    if isinstance(sources, Index):
+        sources = [("Pinnacle", sources)]
     sport = sport_commun(boost.get("sport"))
     if not jambes:
         return {"statut": "non_evaluable", "raison": "pari non décomposé"}
     if sport is None:
-        return {"statut": "non_evaluable", "raison": f"sport non suivi chez Pinnacle ({boost.get('sport')})"}
+        return {"statut": "non_evaluable", "raison": f"sport non suivi ({boost.get('sport')})"}
     debut = _t(boost.get("debut"))
     proba, matchs_vus, detail = 1.0, [], []
     for j in jambes:
         if j["type"] == "autre":
-            return {"statut": "non_evaluable", "raison": "condition non cotée par Pinnacle", "detail": detail}
-        trouve = index.trouver_match(sport, j["equipe_1"], j["equipe_2"], debut)
-        if trouve is None:
-            return {"statut": "non_evaluable", "raison": f"match introuvable chez Pinnacle ({j['equipe_1']} - "
-                                                         f"{j['equipe_2']})", "detail": detail}
-        match, _, score = trouve
-        cle = cle_recherche(j, match, sport)
-        if isinstance(cle, str):
-            return {"statut": "non_evaluable", "raison": cle, "detail": detail}
-        l = chercher_ligne(index, match, cle, j)
-        if l is None:
-            return {"statut": "non_evaluable", "raison": f"ligne absente chez Pinnacle ({cle[0]} {cle[1]} "
-                                                         f"{cle[2]} {cle[3]})", "detail": detail}
+            return {"statut": "non_evaluable", "raison": "condition non cotée par les références", "detail": detail}
+        raisons, res = [], None
+        for nom, index in sources:
+            r = _jambe(j, sport, debut, index)
+            if isinstance(r, str):
+                raisons.append(f"{nom} : {r}")
+                continue
+            res = (nom, *r)
+            break
+        if res is None:
+            return {"statut": "non_evaluable", "raison": " ; ".join(raisons), "detail": detail}
+        nom, l, match, score = res
         proba *= l["proba_juste"]
-        matchs_vus.append(match["match_id"])
-        detail.append({"match": f"{match['domicile']} - {match['exterieur']}", "marche": l["marche"],
+        matchs_vus.append(f"{nom}|{match['match_id']}")
+        detail.append({"source": nom, "match": f"{match['domicile']} - {match['exterieur']}", "marche": l["marche"],
                        "periode": l["periode"], "ligne": l.get("ligne"), "issue": l["issue"],
-                       "joueur": l.get("joueur"), "cote_pinnacle": l["cote"], "cote_juste": l["cote_juste"],
+                       "joueur": l.get("joueur"), "cote_reference": l["cote"], "cote_juste": l["cote_juste"],
                        "ressemblance": round(score, 2)})
-    statut = "approx" if len(matchs_vus) != len(set(matchs_vus)) else "exacte"
+    # même match (même source) pour deux jambes = conditions liées ; deux sources pour un même match
+    # ne se reconnaissent pas ici, d'où la comparaison par nom de match en plus
+    noms = [d["match"] for d in detail]
+    lie = len(matchs_vus) != len(set(matchs_vus)) or len(noms) != len(set(noms)) or \
+        len({(j["equipe_1"], j["equipe_2"]) for j in jambes}) < len(jambes)
+    statut = "approx" if lie else "exacte"
     cote_juste = round(1 / proba, 3)
     ev = round((boost["cote_boostee"] * proba - 1) * 100, 1)
     ev_origine = round((boost["cote_origine"] * proba - 1) * 100, 1) if boost.get("cote_origine") else None
     return {"statut": statut, "cote_juste": cote_juste, "ev_pct": ev, "ev_origine_pct": ev_origine,
-            "detail": detail}
+            "sources": sorted({d["source"] for d in detail}), "detail": detail}
+
+
+# --------------------------------------------------------------------------- Betfair (échange)
+
+ECART_ACHAT_VENTE_MAX = 0.05
+ECART_RELATIF_MAX = 0.25
+LIQUIDITE_MIN = 20.0
+
+
+def reference_betfair(lignes: list[dict]) -> list[dict]:
+    """Lignes Betfair traduites (boosts/pulsescore.py) → probabilité juste = milieu achat/vente,
+    seulement pour les marchés complets, serrés et assez liquides (mêmes règles que cotes-value)."""
+    groupes: dict[tuple, list[dict]] = {}
+    for l in lignes:
+        groupes.setdefault((l["cle_marche"], l["marche"], l["periode"], l.get("ligne")), []).append(l)
+    out = []
+    for g in groupes.values():
+        probs, fiable = [], True
+        for l in g:
+            achat, vente = l.get("achat") or [], l.get("vente") or []
+            if not achat or not vente:
+                fiable = False
+                break
+            pb, pv = 1 / float(achat[0]["price"]), 1 / float(vente[0]["price"])
+            liq = min(float(achat[0].get("liquidity") or 0), float(vente[0].get("liquidity") or 0))
+            p = (pb + pv) / 2
+            if pb - pv > ECART_ACHAT_VENTE_MAX or pb - pv > ECART_RELATIF_MAX * min(p, 1 - p) or liq < LIQUIDITE_MIN:
+                fiable = False
+                break
+            probs.append(p)
+        if not fiable or len(probs) < 2:
+            continue
+        s = max(sum(probs), 1.0)              # renormalisé seulement à la baisse (issues manquantes)
+        for l, p in zip(g, probs):
+            out.append({**l, "source": "Betfair", "proba_juste": round(p / s, 6), "cote_juste": round(s / p, 4)})
+    return out
