@@ -1,10 +1,10 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 08/10 23h56 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 09/10 00h55 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 0 / 31 | 0 € | **+0,00 €** | **–** | +0,00 € |
+| **A — tout miser** | 2 / 32 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 
@@ -12,7 +12,7 @@ Mis à jour le 08/10 23h56 (heure de Paris). Argent fictif : un pari par boost, 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne 2,89 · pire série perdante 0
+A en détail : 0 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne 2,91 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -22,35 +22,35 @@ A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne
 |---|---|---|---|---|---|
 | EV < 0 (approx) | 0 / 2 | 0 € | +0,00 € | – | – |
 | EV < 0 (exacte) | 0 / 2 | 0 € | +0,00 € | – | – |
-| non évaluable | 0 / 27 | 0 € | +0,00 € | – | – |
+| non évaluable | 2 / 28 | 40 € | -40,00 € | -100,0 % | 0 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| Unibet | 0 / 20 | 0 € | +0,00 € | – | – |
-| Winamax | 0 / 11 | 0 € | +0,00 € | – | – |
+| Unibet | 0 / 21 | 0 € | +0,00 € | – | – |
+| Winamax | 2 / 11 | 40 € | -40,00 € | -100,0 % | 0 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| long terme (saison) | 0 / 19 | 0 € | +0,00 € | – | – |
-| match | 0 / 12 | 0 € | +0,00 € | – | – |
+| long terme (saison) | 0 / 20 | 0 € | +0,00 € | – | – |
+| match | 2 / 12 | 40 € | -40,00 € | -100,0 % | 0 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 0 / 11 | 0 € | +0,00 € | – | – |
-| 25 € | 0 / 20 | 0 € | +0,00 € | – | – |
+| 20 € | 2 / 11 | 40 € | -40,00 € | -100,0 % | 0 % |
+| 25 € | 0 / 21 | 0 € | +0,00 € | – | – |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2 – 3 | 0 / 12 | 0 € | +0,00 € | – | – |
-| 3 – 5 | 0 / 8 | 0 € | +0,00 € | – | – |
+| 2 – 3 | 1 / 12 | 20 € | -20,00 € | -100,0 % | 0 % |
+| 3 – 5 | 1 / 9 | 20 € | -20,00 € | -100,0 % | 0 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -60,9 +60,9 @@ A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne
 |---|---|---|---|---|---|
 | Baseball | 0 / 1 | 0 € | +0,00 € | – | – |
 | Basketball | 0 / 19 | 0 € | +0,00 € | – | – |
-| Football | 0 / 1 | 0 € | +0,00 € | – | – |
+| Football | 0 / 2 | 0 € | +0,00 € | – | – |
 | Football Américain | 0 / 2 | 0 € | +0,00 € | – | – |
-| Handball | 0 / 2 | 0 € | +0,00 € | – | – |
+| Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 0 / 2 | 0 € | +0,00 € | – | – |
 | Rugby à XV | 0 / 1 | 0 € | +0,00 € | – | – |
 | Tennis | 0 / 2 | 0 € | +0,00 € | – | – |
@@ -72,7 +72,7 @@ A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 0 / 31 | 0 € | +0,00 € | – | – |
+| 2026-10 | 2 / 32 | 40 € | -40,00 € | -100,0 % | 0 % |
 
 ### Derniers paris
 
@@ -97,6 +97,7 @@ A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne
 | 20/10 19h00 · Paris Trashtalk 26/27 | LA Lakers - Luka Doncic meilleur marqueur NBA en saison régulière (moyenne points/match, perdant si moins de 58 matchs joués) | 1,87 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | CHI Bulls - Caleb Wilson meilleur marqueur des Bulls (total de points) | 5,5 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds) | 2,5 | – | – | 25 € | ⏳ |
+| 09/10 20h00 · Ligue 2 - 09/10 | Plus de 1,5 buts dans chacun des 5 matchs de 20:00 | 3,65 | – | – | 25 € | ⏳ |
 | 09/10 06h00 · A.Gea - U.Humbert | Les 2 joueurs gagnent un set ? | 2,3 | – | – | 25 € | ⏳ |
 | 09/10 06h00 · Arthur Gea - Ugo Humbert | Plus de 2,5 sets lors du match | 2,3 | 2,674 | -14,0 % | 20 € | ⏳ |
 | 09/10 05h45 · A.Lebrun / F.Lebrun - R.Wen / L.Yuan | A.Lebrun / F.Lebrun gagne le match 3-1 | 4,75 | – | – | 20 € | ⏳ |
@@ -107,7 +108,7 @@ A en détail : 0 gagnés, 0 perdus, 0 remboursés, 31 en attente · cote moyenne
 | 09/10 01h15 · NHL | Carolina Hurricanes, Montreal Canadiens et Ottawa Senators gagnent chacun leur match (respectivement contre Vancouver Canucks, Nashville Predators et Philadelphia Flyers) (prol. et TAB inclus) | 3,5 | 3,511 | -0,3 % | 20 € | ⏳ |
 | 09/10 00h30 · Santos - Flamengo | Neymar buteur et les deux équipes marquent | 3,6 | – | – | 20 € | ⏳ |
 | 08/10 21h00 · Montauban - CA Brive | Montauban gagne par au moins 6 points d'écart | 2,25 | – | – | 20 € | ⏳ |
-| 08/10 20h45 · Skanderborg Håndbold - Montpellier | Montpellier marque au moins 34 buts | 2,4 | – | – | 20 € | ⏳ |
-| 08/10 20h45 · Melsungen - Nantes | Nantes gagne et plus de 58,5 buts dans le match | 4,25 | – | – | 20 € | ⏳ |
+| 08/10 20h45 · Skanderborg Håndbold - Montpellier | Montpellier marque au moins 34 buts | 2,4 | – | – | 20 € | ❌ -20,00 € |
+| 08/10 20h45 · Melsungen - Nantes | Nantes gagne et plus de 58,5 buts dans le match | 4,25 | – | – | 20 € | ❌ -20,00 € |
 
 ≈ : calcul approché (conditions liées sur un même match).

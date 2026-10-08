@@ -1,30 +1,39 @@
 {
  "A": {
-  "courbe": [],
+  "courbe": [
+   {
+    "cumul": -20.0,
+    "debut": "2026-10-08T18:45+00:00"
+   },
+   {
+    "cumul": -40.0,
+    "debut": "2026-10-08T18:45+00:00"
+   }
+  ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 2.89,
-   "en_attente": 31,
+   "cote_moyenne": 2.91,
+   "en_attente": 30,
    "gagnes": 0,
-   "gain_net": 0,
-   "mise_totale": 0,
-   "paris": 31,
-   "perdus": 0,
-   "pire_baisse": 0.0,
-   "pire_serie_perdante": 0,
-   "regles": 0,
+   "gain_net": -40.0,
+   "mise_totale": 40.0,
+   "paris": 32,
+   "perdus": 2,
+   "pire_baisse": -40.0,
+   "pire_serie_perdante": 2,
+   "regles": 2,
    "rembourses": 0,
-   "reussite_pct": null,
-   "roi_pct": null
+   "reussite_pct": 0.0,
+   "roi_pct": -100.0
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.82,
-    "en_attente": 20,
+    "cote_moyenne": 2.86,
+    "en_attente": 21,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 20,
+    "paris": 21,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -33,26 +42,26 @@
    },
    "Winamax": {
     "cote_moyenne": 3.02,
-    "en_attente": 11,
+    "en_attente": 9,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
     "paris": 11,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    }
   },
   "par_horizon": {
    "long terme (saison)": {
-    "cote_moyenne": 2.85,
-    "en_attente": 19,
+    "cote_moyenne": 2.89,
+    "en_attente": 20,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 19,
+    "paris": 20,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -61,39 +70,39 @@
    },
    "match": {
     "cote_moyenne": 2.96,
-    "en_attente": 12,
+    "en_attente": 10,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
     "paris": 12,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    }
   },
   "par_mise": {
    "20 €": {
     "cote_moyenne": 3.02,
-    "en_attente": 11,
+    "en_attente": 9,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
     "paris": 11,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "25 €": {
-    "cote_moyenne": 2.82,
-    "en_attente": 20,
+    "cote_moyenne": 2.86,
+    "en_attente": 21,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 20,
+    "paris": 21,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -103,17 +112,17 @@
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 2.89,
-    "en_attente": 31,
+    "cote_moyenne": 2.91,
+    "en_attente": 30,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
-    "paris": 31,
-    "perdus": 0,
-    "regles": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
+    "paris": 32,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    }
   },
   "par_sport": {
@@ -144,12 +153,12 @@
     "roi_pct": null
    },
    "Football": {
-    "cote_moyenne": 3.6,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -171,16 +180,16 @@
    },
    "Handball": {
     "cote_moyenne": 3.33,
-    "en_attente": 2,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
     "paris": 2,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.25,
@@ -238,29 +247,29 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.32,
-    "en_attente": 12,
+    "en_attente": 11,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -20.0,
+    "mise_totale": 20.0,
     "paris": 12,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "3 – 5": {
-    "cote_moyenne": 3.74,
+    "cote_moyenne": 3.73,
     "en_attente": 8,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
-    "paris": 8,
-    "perdus": 0,
-    "regles": 0,
+    "gain_net": -20.0,
+    "mise_totale": 20.0,
+    "paris": 9,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "5 – 10": {
     "cote_moyenne": 6.3,
@@ -317,17 +326,17 @@
     "roi_pct": null
    },
    "non évaluable": {
-    "cote_moyenne": 2.9,
-    "en_attente": 27,
+    "cote_moyenne": 2.93,
+    "en_attente": 26,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
-    "paris": 27,
-    "perdus": 0,
-    "regles": 0,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
+    "paris": 28,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    }
   },
   "paris": [
@@ -338,14 +347,14 @@
     "cote_origine": 3.6,
     "debut": "2026-10-08T18:45+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|714229410|2213811052",
     "match": "Melsungen - Nantes",
     "mise": 20.0,
     "pari": "Nantes gagne et plus de 58,5 buts dans le match",
     "sport": "Handball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -355,14 +364,14 @@
     "cote_origine": 2.25,
     "debut": "2026-10-08T18:45+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|714232056|2213818404",
     "match": "Skanderborg Håndbold - Montpellier",
     "mise": 20.0,
     "pari": "Montpellier marque au moins 34 buts",
     "sport": "Handball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -532,6 +541,23 @@
     "mise": 25.0,
     "pari": "Les 2 joueurs gagnent un set ?",
     "sport": "Tennis",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 3.65,
+    "cote_juste": null,
+    "cote_origine": 3.1,
+    "debut": "2026-10-09T18:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "long terme (saison)",
+    "id": "unibet|194481530|725504838",
+    "match": "Ligue 2 - 09/10",
+    "mise": 25.0,
+    "pari": "Plus de 1,5 buts dans chacun des 5 matchs de 20:00",
+    "sport": "Football",
     "statut": "en attente",
     "valeur": "non_evaluable"
    },
