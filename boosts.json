@@ -5,14 +5,42 @@
   "cote_boostee_initiale": 4.25,
   "cote_origine": 3.65,
   "debut": "2026-10-08T18:45+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 16.4,
   "historique_cotes": [],
   "id": "winamax|714229410|2213811052",
+  "jambes": [
+   {
+    "equipe": "Nantes",
+    "equipe_1": "Melsungen",
+    "equipe_2": "Nantes",
+    "joueur": null,
+    "ligne": null,
+    "periode": "temps_reglementaire",
+    "sens": null,
+    "stat": null,
+    "type": "resultat",
+    "unite": "buts"
+   },
+   {
+    "equipe": null,
+    "equipe_1": "Melsungen",
+    "equipe_2": "Nantes",
+    "joueur": null,
+    "ligne": 58.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Melsungen - Nantes",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Nantes gagne et plus de 58,5 buts dans le match",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -24,7 +52,14 @@
   },
   "sport": "Handball",
   "sport_id_winamax": 6,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 4.25,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "ligne absente chez Pinnacle (RESULTAT_1N2 MATCH None EXT)",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714232056|2213818404": {
   "bookmaker": "Winamax",
@@ -32,14 +67,30 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.25,
   "debut": "2026-10-08T18:45+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 6.7,
   "historique_cotes": [],
   "id": "winamax|714232056|2213818404",
+  "jambes": [
+   {
+    "equipe": "Montpellier",
+    "equipe_1": "Skanderborg Håndbold",
+    "equipe_2": "Montpellier",
+    "joueur": null,
+    "ligne": 33.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total_equipe",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Skanderborg Håndbold - Montpellier",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Montpellier marque au moins 34 buts",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -51,7 +102,14 @@
   },
   "sport": "Handball",
   "sport_id_winamax": 6,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.4,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "ligne absente chez Pinnacle (TOTAL_EXT MATCH 33.5 PLUS)",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714270492|2213919270": {
   "bookmaker": "Winamax",
@@ -59,14 +117,30 @@
   "cote_boostee_initiale": 2.25,
   "cote_origine": 2.0,
   "debut": "2026-10-08T19:00+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 12.5,
   "historique_cotes": [],
   "id": "winamax|714270492|2213919270",
+  "jambes": [
+   {
+    "equipe": "Montauban",
+    "equipe_1": "Montauban",
+    "equipe_2": "CA Brive",
+    "joueur": null,
+    "ligne": -5.5,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "handicap",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Montauban - CA Brive",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Montauban gagne par au moins 6 points d'écart",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -78,7 +152,14 @@
   },
   "sport": "Rugby à XV",
   "sport_id_winamax": 12,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.25,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "ligne absente chez Pinnacle (HANDICAP MATCH -5.5 DOM)",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714444471|2214440249": {
   "bookmaker": "Winamax",
@@ -86,14 +167,42 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:00+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
   "id": "winamax|714444471|2214440249",
+  "jambes": [
+   {
+    "equipe": "Chicago White Sox",
+    "equipe_1": "Chicago White Sox",
+    "equipe_2": "Cleveland Guardians",
+    "joueur": null,
+    "ligne": 2.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total_equipe",
+    "unite": "buts"
+   },
+   {
+    "equipe": "Cleveland Guardians",
+    "equipe_1": "Chicago White Sox",
+    "equipe_2": "Cleveland Guardians",
+    "joueur": null,
+    "ligne": 2.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total_equipe",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Chicago White Sox - Cleveland Guardians",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Les deux équipes marquent chacune au moins 3 runs",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -105,7 +214,71 @@
   },
   "sport": "Baseball",
   "sport_id_winamax": 3,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.4,
+   "cote_juste": 2.423,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.588,
+     "cote_pinnacle": 1.5348,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "TOTAL_DOM",
+     "match": "Chicago White Sox - Cleveland Guardians",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.5258,
+     "cote_pinnacle": 1.4762,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "TOTAL_EXT",
+     "match": "Chicago White Sox - Cleveland Guardians",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -11.3,
+   "ev_pct": -0.9,
+   "statut": "approx"
+  },
+  "valeur_initiale": {
+   "cote_boostee": 2.4,
+   "cote_juste": 2.423,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.588,
+     "cote_pinnacle": 1.5348,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "TOTAL_DOM",
+     "match": "Chicago White Sox - Cleveland Guardians",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.5258,
+     "cote_pinnacle": 1.4762,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "TOTAL_EXT",
+     "match": "Chicago White Sox - Cleveland Guardians",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -11.3,
+   "ev_pct": -0.9,
+   "statut": "approx"
+  }
  },
  "winamax|714470234|2214524885": {
   "bookmaker": "Winamax",
@@ -113,14 +286,42 @@
   "cote_boostee_initiale": 3.6,
   "cote_origine": 3.2,
   "debut": "2026-10-08T22:30+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 12.5,
   "historique_cotes": [],
   "id": "winamax|714470234|2214524885",
+  "jambes": [
+   {
+    "equipe": "Santos",
+    "equipe_1": "Santos",
+    "equipe_2": "Flamengo",
+    "joueur": "Neymar",
+    "ligne": 0.5,
+    "periode": "temps_reglementaire",
+    "sens": "plus",
+    "stat": "Goals",
+    "type": "joueur",
+    "unite": "buts"
+   },
+   {
+    "equipe": null,
+    "equipe_1": "Santos",
+    "equipe_2": "Flamengo",
+    "joueur": null,
+    "ligne": null,
+    "periode": "temps_reglementaire",
+    "sens": null,
+    "stat": null,
+    "type": "les_deux_marquent",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Santos - Flamengo",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Neymar buteur et les deux équipes marquent",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -132,7 +333,14 @@
   },
   "sport": "Football",
   "sport_id_winamax": 1,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 3.6,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "ligne absente chez Pinnacle (JOUEUR MATCH 0.5 PLUS)",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714478796|2214555101": {
   "bookmaker": "Winamax",
@@ -140,14 +348,42 @@
   "cote_boostee_initiale": 3.0,
   "cote_origine": 2.55,
   "debut": "2026-10-09T02:15+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 17.6,
   "historique_cotes": [],
   "id": "winamax|714478796|2214555101",
+  "jambes": [
+   {
+    "equipe": "Vegas Golden Knights",
+    "equipe_1": "Vegas Golden Knights",
+    "equipe_2": "Toronto Maple Leafs",
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "vainqueur",
+    "unite": "buts"
+   },
+   {
+    "equipe": null,
+    "equipe_1": "Vegas Golden Knights",
+    "equipe_2": "Toronto Maple Leafs",
+    "joueur": null,
+    "ligne": 6.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Vegas Golden Knights - Toronto Maple Leafs",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Vegas Golden Knights gagne et plus de 6,5 buts dans le match (prol. et TAB inclus)",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -159,7 +395,71 @@
   },
   "sport": "Hockey sur glace",
   "sport_id_winamax": 4,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 3.0,
+   "cote_juste": 3.321,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.6366,
+     "cote_pinnacle": 1.6061,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Vegas Golden Knights - Toronto Maple Leafs",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 2.0291,
+     "cote_pinnacle": 1.9709,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 6.5,
+     "marche": "TOTAL",
+     "match": "Vegas Golden Knights - Toronto Maple Leafs",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -23.2,
+   "ev_pct": -9.7,
+   "statut": "approx"
+  },
+  "valeur_initiale": {
+   "cote_boostee": 3.0,
+   "cote_juste": 3.321,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.6366,
+     "cote_pinnacle": 1.6061,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Vegas Golden Knights - Toronto Maple Leafs",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 2.0291,
+     "cote_pinnacle": 1.9709,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 6.5,
+     "marche": "TOTAL",
+     "match": "Vegas Golden Knights - Toronto Maple Leafs",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -23.2,
+   "ev_pct": -9.7,
+   "statut": "approx"
+  }
  },
  "winamax|714485925|2214577293": {
   "bookmaker": "Winamax",
@@ -167,14 +467,30 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.0,
   "debut": "2026-10-09T04:00+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 15.0,
   "historique_cotes": [],
   "id": "winamax|714485925|2214577293",
+  "jambes": [
+   {
+    "equipe": null,
+    "equipe_1": "Arthur Gea",
+    "equipe_2": "Ugo Humbert",
+    "joueur": null,
+    "ligne": 2.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": null,
+    "type": "total",
+    "unite": "sets"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Arthur Gea - Ugo Humbert",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Plus de 2,5 sets lors du match",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -186,7 +502,49 @@
   },
   "sport": "Tennis",
   "sport_id_winamax": 5,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.3,
+   "cote_juste": 2.674,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 2.6738,
+     "cote_pinnacle": 2.55,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "SETS_TOTAL",
+     "match": "Arthur Gea - Ugo Humbert",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -25.2,
+   "ev_pct": -14.0,
+   "statut": "exacte"
+  },
+  "valeur_initiale": {
+   "cote_boostee": 2.3,
+   "cote_juste": 2.674,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 2.6738,
+     "cote_pinnacle": 2.55,
+     "issue": "PLUS",
+     "joueur": null,
+     "ligne": 2.5,
+     "marche": "SETS_TOTAL",
+     "match": "Arthur Gea - Ugo Humbert",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -25.2,
+   "ev_pct": -14.0,
+   "statut": "exacte"
+  }
  },
  "winamax|714491579|2214595568": {
   "bookmaker": "Winamax",
@@ -194,14 +552,54 @@
   "cote_boostee_initiale": 3.5,
   "cote_origine": 3.09,
   "debut": "2026-10-08T23:15+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 13.3,
   "historique_cotes": [],
   "id": "winamax|714491579|2214595568",
+  "jambes": [
+   {
+    "equipe": "Carolina Hurricanes",
+    "equipe_1": "Carolina Hurricanes",
+    "equipe_2": "Vancouver Canucks",
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "vainqueur",
+    "unite": "buts"
+   },
+   {
+    "equipe": "Montreal Canadiens",
+    "equipe_1": "Montreal Canadiens",
+    "equipe_2": "Nashville Predators",
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "vainqueur",
+    "unite": "buts"
+   },
+   {
+    "equipe": "Ottawa Senators",
+    "equipe_1": "Ottawa Senators",
+    "equipe_2": "Philadelphia Flyers",
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "vainqueur",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "NHL",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Carolina Hurricanes, Montreal Canadiens et Ottawa Senators gagnent chacun leur match (respectivement contre Vancouver Canucks, Nashville Predators et Philadelphia Flyers) (prol. et TAB inclus)",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -213,7 +611,93 @@
   },
   "sport": "Hockey sur glace",
   "sport_id_winamax": 4,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 3.5,
+   "cote_juste": 3.511,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.3156,
+     "cote_pinnacle": 1.2976,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Carolina Hurricanes - Vancouver Canucks",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.6645,
+     "cote_pinnacle": 1.6329,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Montreal Canadiens - Nashville Predators",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.6034,
+     "cote_pinnacle": 1.5747,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Ottawa Senators - Philadelphia Flyers",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -12.0,
+   "ev_pct": -0.3,
+   "statut": "exacte"
+  },
+  "valeur_initiale": {
+   "cote_boostee": 3.5,
+   "cote_juste": 3.511,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 1.3156,
+     "cote_pinnacle": 1.2976,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Carolina Hurricanes - Vancouver Canucks",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.6645,
+     "cote_pinnacle": 1.6329,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Montreal Canadiens - Nashville Predators",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    },
+    {
+     "cote_juste": 1.6034,
+     "cote_pinnacle": 1.5747,
+     "issue": "DOM",
+     "joueur": null,
+     "ligne": null,
+     "marche": "VAINQUEUR",
+     "match": "Ottawa Senators - Philadelphia Flyers",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "ev_origine_pct": -12.0,
+   "ev_pct": -0.3,
+   "statut": "exacte"
+  }
  },
  "winamax|714522679|2214684354": {
   "bookmaker": "Winamax",
@@ -221,14 +705,30 @@
   "cote_boostee_initiale": 4.75,
   "cote_origine": 4.25,
   "debut": "2026-10-09T03:45+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 11.8,
   "historique_cotes": [],
   "id": "winamax|714522679|2214684354",
+  "jambes": [
+   {
+    "equipe": "A.Lebrun / F.Lebrun",
+    "equipe_1": "A.Lebrun / F.Lebrun",
+    "equipe_2": "R.Wen / L.Yuan",
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "autre",
+    "unite": "sets"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "A.Lebrun / F.Lebrun - R.Wen / L.Yuan",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "A.Lebrun / F.Lebrun gagne le match 3-1",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -240,7 +740,14 @@
   },
   "sport": "Tennis de table",
   "sport_id_winamax": 20,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 4.75,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "condition non cotée par Pinnacle",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714558428|2214792019": {
   "bookmaker": "Winamax",
@@ -248,14 +755,42 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:15+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
   "id": "winamax|714558428|2214792019",
+  "jambes": [
+   {
+    "equipe": null,
+    "equipe_1": "Dallas Cowboys",
+    "equipe_2": "Tampa Bay Buccaneers",
+    "joueur": "CeeDee Lamb",
+    "ligne": 0.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": "Touchdowns",
+    "type": "joueur",
+    "unite": "buts"
+   },
+   {
+    "equipe": "Dallas Cowboys",
+    "equipe_1": "Dallas Cowboys",
+    "equipe_2": "Tampa Bay Buccaneers",
+    "joueur": null,
+    "ligne": -4.5,
+    "periode": "match",
+    "sens": null,
+    "stat": null,
+    "type": "handicap",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Dallas Cowboys - Tampa Bay Buccaneers",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "CeeDee Lamb marque au moins un touchdown et Dallas Cowboys gagne par au moins 5 points d'écart",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -267,7 +802,26 @@
   },
   "sport": "Football Américain",
   "sport_id_winamax": 16,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.4,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [
+    {
+     "cote_juste": 2.0187,
+     "cote_pinnacle": 1.9259,
+     "issue": "PLUS",
+     "joueur": "CeeDee Lamb",
+     "ligne": 0.5,
+     "marche": "JOUEUR:Touchdowns",
+     "match": "Dallas Cowboys - Tampa Bay Buccaneers",
+     "periode": "MATCH",
+     "ressemblance": 1.0
+    }
+   ],
+   "raison": "ligne absente chez Pinnacle (HANDICAP MATCH -4.5 DOM)",
+   "statut": "non_evaluable"
+  }
  },
  "winamax|714563026|2214807403": {
   "bookmaker": "Winamax",
@@ -275,14 +829,30 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.15,
   "debut": "2026-10-09T00:15+00:00",
-  "derniere_vue": "2026-10-08T18:20:10+00:00",
+  "derniere_vue": "2026-10-08T18:35:34+00:00",
   "disponible": true,
   "hausse_pct": 11.6,
   "historique_cotes": [],
   "id": "winamax|714563026|2214807403",
+  "jambes": [
+   {
+    "equipe": null,
+    "equipe_1": "Dallas Cowboys",
+    "equipe_2": "Tampa Bay Buccaneers",
+    "joueur": "Javonte Williams",
+    "ligne": 80.5,
+    "periode": "match",
+    "sens": "plus",
+    "stat": "Rushing Yards",
+    "type": "joueur",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
   "match": "Dallas Cowboys - Tampa Bay Buccaneers",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "Javonte Williams réalise au moins 81 yards à la course",
   "premiere_vue": "2026-10-08T18:11:09+00:00",
   "ref": {
@@ -294,6 +864,13 @@
   },
   "sport": "Football Américain",
   "sport_id_winamax": 16,
-  "type": "cote boostée"
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.4,
+   "date": "2026-10-08T18:35:34+00:00",
+   "detail": [],
+   "raison": "ligne absente chez Pinnacle (JOUEUR MATCH 80.5 PLUS)",
+   "statut": "non_evaluable"
+  }
  }
 }
