@@ -5,7 +5,7 @@ on:
     inputs:
       script:
         description: "Sonde à lancer (sonde.py, sonde2.py, sonde3.py , sonde5.py ou sonde6.py)"
-        default: "sonde6.py"
+        default: "sonde7.py"
       pulsescore:
         description: "sonde.py : sonder aussi PulseScore (oui/non)"
         default: "non"
@@ -35,6 +35,8 @@ jobs:
           BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
           BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
           BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}
+          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
+          BRIGHTDATA_UNLOCKER_ZONE: ${{ secrets.BRIGHTDATA_UNLOCKER_ZONE }}
         run: python "${{ inputs.script }}"
 
       - name: Publier les résultats sur la branche « sonde » (en gardant les précédents)

@@ -46,8 +46,8 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 | Bookmaker | État (8/10/2026) |
 |---|---|
 | Winamax | ✅ collecté (`boosts/winamax.py`) |
-| PMU | 🔍 accessible depuis l'IP française, source des données à trouver |
-| Unibet | ⛔ protégé par DataDome (défi JavaScript) : nécessiterait le Web Unlocker de Bright Data |
+| PMU | ⛔ boosts visibles seulement une fois connecté (offre Kambi « pmusportsfr » publique, mais sans boosts) |
+| Unibet | 🔍 site protégé par DataDome : essai du Web Unlocker de Bright Data (sonde n° 7). Attention : l'offre Kambi « ub » est celle d'Unibet international, pas unibet.fr |
 
 Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
 
