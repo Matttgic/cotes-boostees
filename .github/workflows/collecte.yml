@@ -1,0 +1,62 @@
+name: Collecte des boosts
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # toutes les heures (minute 17 : moins de retard que l'heure pile)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Branche « donnees »
+        run: |
+          if git ls-remote --exit-code --heads origin donnees >/dev/null; then
+            git fetch --depth 1 origin donnees
+            git worktree add donnees FETCH_HEAD
+          else
+            mkdir -p donnees   # premier passage : la branche sera créée à la publication
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dépendances
+        run: pip install -r requirements.txt
+
+      - name: Tests
+        run: pip install -r requirements-dev.txt && python -m pytest -q
+
+      - name: Collecte
+        id: collecte
+        env:
+          DONNEES: donnees
+          BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
+          BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
+          BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}
+        run: python scripts/collecte.py
+
+      - name: Publier sur la branche « donnees »
+        if: always() && steps.collecte.outcome != 'skipped'
+        run: |
+          cd donnees
+          [ -f boosts.json ] || exit 0
+          # .git présent = copie de travail de la branche ; absent = tout premier passage
+          [ -e .git ] || git init -q -b donnees
+          git config user.name "collecte-bot"
+          git config user.email "collecte-bot@users.noreply.github.com"
+          git add boosts.json etat.json
+          git commit -q -m "Collecte $(date -u +%F_%H%M)" || { echo "Rien de nouveau"; exit 0; }
+          git push -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:donnees
