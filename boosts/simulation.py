@@ -42,6 +42,7 @@ def pari(boost: dict) -> dict | None:
     v = boost.get("valeur_initiale") or {}
     return {"id": boost["id"], "bookmaker": boost.get("bookmaker"), "sport": boost.get("sport") or "?",
             "valeur": v.get("statut") or "non_evaluable", "ev_pct": v.get("ev_pct"),
+            "horizon": "long terme (saison)" if boost.get("long_terme") else "match",
             "cote_juste": v.get("cote_juste"),
             "match": boost.get("match"), "pari": boost.get("pari"), "debut": boost.get("debut"),
             "mise": float(mise), "cote": cote, "cote_origine": boost.get("cote_origine"),
@@ -95,7 +96,8 @@ def bilan(base: dict[str, dict], filtre=None, nom: str = "A — toutes les cotes
 
     groupes = {"par_bookmaker": defaultdict(list), "par_sport": defaultdict(list),
                "par_tranche_de_cote": defaultdict(list), "par_mise": defaultdict(list),
-               "par_mois": defaultdict(list), "par_valeur": defaultdict(list)}
+               "par_mois": defaultdict(list), "par_valeur": defaultdict(list),
+               "par_horizon": defaultdict(list)}
     for p in paris:
         groupes["par_bookmaker"][p["bookmaker"]].append(p)
         groupes["par_sport"][p["sport"]].append(p)
@@ -103,6 +105,7 @@ def bilan(base: dict[str, dict], filtre=None, nom: str = "A — toutes les cotes
         groupes["par_mise"][f"{p['mise']:g} €"].append(p)
         groupes["par_mois"][_mois(p["debut"])].append(p)
         groupes["par_valeur"][_tranche_valeur(p)].append(p)
+        groupes["par_horizon"][p["horizon"]].append(p)
 
     # courbe des gains et pires moments, dans l'ordre des matchs
     cumul, sommet, pire_baisse, serie, pire_serie, courbe = 0.0, 0.0, 0.0, 0, 0, []

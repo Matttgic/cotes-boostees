@@ -47,7 +47,7 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 |---|---|
 | Winamax | ✅ collecté (`boosts/winamax.py`) |
 | PMU | ⛔ boosts visibles seulement une fois connecté (offre Kambi « pmusportsfr » publique, mais sans boosts) |
-| Unibet | 🔍 site protégé par DataDome : essai du Web Unlocker de Bright Data (sonde n° 7). Attention : l'offre Kambi « ub » est celle d'Unibet international, pas unibet.fr |
+| Unibet | ✅ collecté (`boosts/unibet.py`) : page /cotes-boostees + page de chaque paquet de boosts, par la zone ISP (le Web Unlocker refuse les sites de jeux sans vérification d'identité ; l'offre Kambi « ub » est Unibet international, pas unibet.fr). Mise max lue dans l'intitulé (25 € par défaut). Paris de saison marqués « long terme » : pas de valeur Pinnacle, règlement à partir de 120 jours puis chaque semaine |
 
 Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
 

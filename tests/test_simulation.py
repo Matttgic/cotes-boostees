@@ -122,3 +122,15 @@ def test_appel_openai_simule():
     assert verdict["statut"] == "perdu" and usage["recherches"] == 2 and usage["modele"] == "gpt-6-luna"
     reglement.appliquer(b, verdict, datetime(2026, 10, 9, tzinfo=timezone.utc), usage["modele"])
     assert simulation.pari(b)["gain"] == -20.0
+
+
+def test_paris_long_terme_regles_tard_et_sans_limite():
+    t = datetime(2026, 11, 1, tzinfo=timezone.utc)
+    b = {**boost(1, 25, 2.1, debut="2026-10-20T17:00:00+00:00"), "long_terme": True}
+    assert reglement.a_regler({b["id"]: b}, t) == []                  # saison en cours : rien à régler
+    t2 = datetime(2027, 4, 20, tzinfo=timezone.utc)
+    assert len(reglement.a_regler({b["id"]: b}, t2)) == 1
+    for _ in range(reglement.MAX_TENTATIVES + 2):
+        reglement.appliquer(b, {"statut": "inconnu", "score": "", "explication": "", "sources": []}, t2)
+    assert not b["reglement"].get("a_la_main")                        # jamais abandonné
+    assert simulation.pari(b)["horizon"] == "long terme (saison)"

@@ -33,6 +33,10 @@ ATTENTE_H = 6
 MAX_TENTATIVES = 4
 MAX_PAR_PASSAGE = int(os.environ.get("REGLEMENT_MAX", "15"))
 MAX_RECHERCHES = 4
+# paris à long terme (saison NBA, qualification en playoffs…) : premier essai 120 jours après le début,
+# puis un essai par semaine, sans limite (jamais « à la main » faute de résultat)
+DELAI_LONG_TERME_J = 120
+ATTENTE_LONG_TERME_J = 7
 
 # Règles Winamax utiles au règlement (règlement officiel, vérifiées pour cotes-value)
 REGLES_BOOKMAKER = {
@@ -42,6 +46,10 @@ REGLES_BOOKMAKER = {
         "manches supplémentaires incluses ; au football, temps réglementaire (90 min + arrêts de jeu) sauf "
         "mention contraire. Un pari sur un joueur qui ne participe pas au match est remboursé. "
         "Un match annulé ou reporté de plus de 48 h est remboursé."),
+    "Unibet": (
+        "Règles Unibet : sauf mention contraire, temps réglementaire (« Temps réglementaire » ou « 80 Mins » au "
+        "rugby) ; un pari sur un joueur qui ne débute pas le match est remboursé ; pour les paris de saison "
+        "(moyennes, meilleurs marqueurs…), le pari est perdu si le seuil de matchs joués indiqué n'est pas atteint."),
 }
 
 CONSIGNE = """Tu règles un pari sportif déjà joué. Cherche le résultat réel sur le web (sources fiables :
@@ -76,12 +84,15 @@ def a_regler(base: dict[str, dict], maintenant: datetime | None = None) -> list[
         r = b.get("reglement") or {}
         if r.get("statut") in REGLES or r.get("a_la_main"):
             continue
-        if not b.get("debut") or datetime.fromisoformat(b["debut"]) > t - timedelta(hours=DELAI_H):
+        lt = bool(b.get("long_terme"))
+        delai = timedelta(days=DELAI_LONG_TERME_J) if lt else timedelta(hours=DELAI_H)
+        attente = timedelta(days=ATTENTE_LONG_TERME_J) if lt else timedelta(hours=ATTENTE_H)
+        if not b.get("debut") or datetime.fromisoformat(b["debut"]) > t - delai:
             continue
-        if r.get("tentatives", 0) >= MAX_TENTATIVES:
+        if not lt and r.get("tentatives", 0) >= MAX_TENTATIVES:
             continue
         derniere = r.get("derniere_tentative")
-        if derniere and datetime.fromisoformat(derniere) > t - timedelta(hours=ATTENTE_H):
+        if derniere and datetime.fromisoformat(derniere) > t - attente:
             continue
         out.append(b)
     out.sort(key=lambda b: b["debut"])
@@ -176,7 +187,7 @@ def appliquer(b: dict, verdict: dict, quand: datetime, modele_utilise: str = "")
     if verdict["statut"] in REGLES:
         r["statut"] = verdict["statut"]
         r["regle_le"] = r["derniere_tentative"]
-    elif r["tentatives"] >= MAX_TENTATIVES:
+    elif r["tentatives"] >= MAX_TENTATIVES and not b.get("long_terme"):
         r["a_la_main"] = True
 
 

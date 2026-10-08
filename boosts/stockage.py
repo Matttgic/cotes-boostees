@@ -11,8 +11,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-CHAMPS_VIVANTS = ("cote_boostee", "cote_origine", "hausse_pct", "mise_max", "disponible", "debut", "match",
-                  "pari", "sport", "type")
+CHAMPS_VIVANTS = ("cote_boostee", "cote_origine", "hausse_pct", "mise_max", "mise_max_supposee", "disponible",
+                  "debut", "match", "pari", "sport", "type", "long_terme")
 
 
 def charger(chemin: Path) -> dict[str, dict]:

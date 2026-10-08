@@ -24,10 +24,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from boosts import evaluation, rapport, reglement, simulation, stockage, winamax  # noqa: E402
+from boosts import evaluation, rapport, reglement, simulation, stockage, unibet, winamax  # noqa: E402
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
-COLLECTEURS = {"winamax": winamax.collecter}
+COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter}
+AVEC_CACHE = {"unibet"}          # collecteurs qui gardent un cache entre deux passages (etat.json)
 JOURNAL_MAX = 200
 
 
@@ -42,7 +43,7 @@ def main() -> int:
         nav = Navigateur(Path(tmp))
         for nom, collecter in COLLECTEURS.items():
             try:
-                lus = collecter(nav)
+                lus = collecter(nav, etat.setdefault(f"cache_{nom}", {})) if nom in AVEC_CACHE else collecter(nav)
             except Exception as e:  # un bookmaker en panne n'arrête pas les autres
                 passage["bookmakers"][nom] = {"erreur": masquer(f"{type(e).__name__} : {e}")[:300]}
                 print(f"[{nom}] ERREUR", masquer(traceback.format_exc())[-1500:], file=sys.stderr)

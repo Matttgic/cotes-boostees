@@ -62,6 +62,7 @@ def markdown(bilans: dict, maj: str) -> str:
           "Joueurs Info Service : 09 74 75 13 13.", ""]
     l += _tableau("A par valeur face à Pinnacle (le filtre B marche-t-il ?)", a["par_valeur"])
     l += _tableau("A par bookmaker", a["par_bookmaker"])
+    l += _tableau("A par horizon (paris de saison réglés en fin de saison)", a["par_horizon"])
     l += _tableau("A par mise max", a["par_mise"])
     l += _tableau("A par tranche de cote", a["par_tranche_de_cote"])
     l += _tableau("A par sport", a["par_sport"])

@@ -39,7 +39,7 @@ def evaluer_boosts(base: dict[str, dict], maintenant: str, collecter_pinnacle=pi
     t = datetime.fromisoformat(maintenant) if maintenant else datetime.now(timezone.utc)
     resume = {"decomposes": 0, "echecs_decomposition": 0, "evalues": 0, "exactes": 0, "approx": 0,
               "non_evaluables": 0}
-    a_venir = [b for b in base.values() if _a_venir(b, t)]
+    a_venir = [b for b in base.values() if _a_venir(b, t) and not b.get("long_terme")]
     if not a_venir:
         return resume
 
