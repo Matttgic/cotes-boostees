@@ -1,22 +1,33 @@
 name: Collecte des boosts
 
+# GitHub saute ou retarde souvent les tâches planifiées (aucune exécution planifiée en 2 h le 8/10/2026,
+# même constat dans cotes-value) : chaque passage relance donc lui-même le suivant, une heure après son
+# début (tâche « relancer »). La tâche planifiée ne sert qu'à redémarrer la chaîne si elle s'arrête.
+# L'attente de la relance occupe un serveur GitHub : gratuit pour un dépôt PUBLIC. Si le dépôt devient
+# privé, mettre la variable CHAINE à « non » (sinon le quota gratuit de minutes est vite épuisé).
 on:
   schedule:
-    - cron: "17 * * * *"   # toutes les heures (minute 17 : moins de retard que l'heure pile)
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
+  actions: write
   contents: write
-
-concurrency:
-  group: collecte
-  cancel-in-progress: false
 
 jobs:
   collecte:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    concurrency:
+      group: collecte
+      cancel-in-progress: false
+    outputs:
+      debut: ${{ steps.debut.outputs.debut }}
     steps:
+      - name: Heure de début
+        id: debut
+        run: echo "debut=$(date +%s)" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v4
 
       - name: Branche « donnees »
@@ -64,3 +75,36 @@ jobs:
           git add boosts.json etat.json bilan.json BILAN.md reglements_manuels.json
           git commit -q -m "Collecte $(date -u +%F_%H%M)" || { echo "Rien de nouveau"; exit 0; }
           git push -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:donnees
+
+  relancer:
+    needs: collecte
+    if: always() && vars.CHAINE != 'non' && needs.collecte.result != 'cancelled' && needs.collecte.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Relancer le passage suivant (une heure après le début de celui-ci)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEBUT: ${{ needs.collecte.outputs.debut }}
+          DEPOT: ${{ github.repository }}
+        run: |
+          debut=${DEBUT:-$(date +%s)}
+          reste=$(( debut + 3600 - $(date +%s) - 60 ))
+          if [ "$reste" -gt 0 ]; then sleep "$reste"; fi
+          # une seule chaîne : seul le lancement le plus récent relance le suivant (erreurs passagères de
+          # l'API GitHub : jusqu'à 6 essais, en revérifiant qu'aucun lancement plus récent n'existe)
+          for essai in 1 2 3 4 5 6; do
+            cree=$(gh api "repos/$DEPOT/actions/runs/${{ github.run_id }}" --jq .created_at || true)
+            plus_recents=$(gh run list --repo "$DEPOT" --workflow collecte.yml --limit 20 \
+              --json createdAt,conclusion \
+              --jq "[.[] | select(.createdAt > \"$cree\") | select(.conclusion != \"cancelled\" and .conclusion != \"skipped\")] | length" || echo erreur)
+            if [ -n "$cree" ] && [ "$plus_recents" != erreur ]; then
+              if [ "$plus_recents" -gt 0 ]; then echo "Un lancement plus récent continue la chaîne."; exit 0; fi
+              if gh workflow run collecte.yml --repo "$DEPOT" --ref "${{ github.ref_name }}"; then
+                echo "Passage suivant lancé."; exit 0
+              fi
+            fi
+            echo "API GitHub indisponible (essai $essai), nouvel essai dans $((essai * 20)) s"
+            sleep $((essai * 20))
+          done
+          exit 1

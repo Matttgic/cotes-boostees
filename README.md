@@ -13,7 +13,10 @@ Jeu responsable : Joueurs Info Service, 09 74 75 13 13.
 
 ## Fonctionnement
 
-Toutes les heures (workflow « Collecte des boosts », `scripts/collecte.py`) :
+Toutes les heures (workflow « Collecte des boosts », `scripts/collecte.py`). GitHub sautant souvent les
+tâches planifiées, chaque passage relance le suivant une heure après son début ; la tâche planifiée ne
+sert qu'à redémarrer la chaîne. Dépôt public = minutes gratuites ; si le dépôt devient privé, mettre la
+variable `CHAINE` à `non`.
 
 1. lecture de la page « Cotes boostées » des bookmakers via une **IP française** (proxy Bright Data,
    zone ISP) et l'**empreinte d'un vrai Chrome** (`curl_cffi`), sans quoi les sites renvoient 403 ;
