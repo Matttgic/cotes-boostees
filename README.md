@@ -19,6 +19,6 @@ les serveurs GitHub. Résultats sur la branche `sonde` (`resume.json`).
 ## Secrets
 
 - `PULSESCORE_KEY` : clé PulseScore (Settings → Secrets and variables → Actions).
-- `BRIGHTDATA_CUSTOMER_ID`, `BRIGHTDATA_ZONE`, `BRIGHTDATA_PASSWORD` : zone proxy résidentiel
+- `BRIGHTDATA_CUSTOMER_ID`, `BRIGHTDATA_ZONE`, `BRIGHTDATA_PASSWORD` : zone proxy (ISP, sans vérification d’identité)
   Bright Data. Les sites des bookmakers refusent les serveurs GitHub (403, IP américaines) :
   on passe par une IP française (`-country-fr`). Certificat du proxy dans `certs/`.

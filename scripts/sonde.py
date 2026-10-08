@@ -150,7 +150,16 @@ def proxy_francais() -> tuple[dict | None, str | bool]:
     session = os.urandom(4).hex()          # même IP pour toute la sonde
     url = (f"http://brd-customer-{client}-zone-{zone}-country-fr-session-{session}:"
            f"{quote(mdp, safe='')}@brd.superproxy.io:33335")
-    return {"http": url, "https": url}, str(CA_BRIGHTDATA)
+    return {"http": url, "https": url}, bundle_certificats()
+
+
+def bundle_certificats() -> str:
+    """Certificats publics + celui de Bright Data : valable que la zone intercepte le TLS
+    (résidentiel) ou non (ISP, datacenter)."""
+    import certifi
+    chemin = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "ca_bundle_sonde.pem"
+    chemin.write_text(Path(certifi.where()).read_text() + "\n" + CA_BRIGHTDATA.read_text())
+    return str(chemin)
 
 
 def erreur_proxy(r: requests.Response) -> str | None:
