@@ -76,6 +76,16 @@ def test_inconnu_ne_regle_pas_et_passe_a_la_main():
     assert simulation.statut(b) == "en attente"
 
 
+def test_choix_du_modele(monkeypatch):
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-test")
+    assert reglement.fournisseur() == "openai"
+    assert reglement.modele("openai", 0) == "gpt-6-luna"
+    assert reglement.modele("openai", 2) == "gpt-6.1-sol"     # le modèle éco n'a pas su trancher
+    monkeypatch.delenv("OPENAI_API_KEY")
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    assert reglement.fournisseur() is None
+
+
 def test_reglement_manuel_prioritaire():
     b = boost(1, 20, 2.0, statut="perdu")
     base = {b["id"]: b}
@@ -92,3 +102,23 @@ def test_rapport_markdown():
     base = {b["id"]: b for b in [boost(1, 50, 2.5, statut="gagné"), boost(2, 20, 4.25)]}
     md = rapport.markdown(simulation.bilan(base), "2026-10-08T18:00:00+00:00")
     assert "+75,00 €" in md and "ROI" in md and "⏳" in md
+
+
+def test_appel_openai_simule():
+    """Chemin complet avec un faux client OpenAI (aucun appel réseau)."""
+    from types import SimpleNamespace as NS
+
+    class Faux:
+        class responses:
+            @staticmethod
+            def create(**kw):
+                assert kw["tools"][0]["type"] == "web_search" and "Pari 1" in kw["input"]
+                return NS(output=[NS(type="web_search_call"), NS(type="web_search_call"), NS(type="message")],
+                          output_text='{"statut": "perdu", "score": "28-30", "explication": "x", "sources": []}',
+                          usage=NS(input_tokens=1200, output_tokens=80))
+
+    b = boost(1, 20, 2.0)
+    verdict, usage = reglement.demander("openai", Faux, b)
+    assert verdict["statut"] == "perdu" and usage["recherches"] == 2 and usage["modele"] == "gpt-6-luna"
+    reglement.appliquer(b, verdict, datetime(2026, 10, 9, tzinfo=timezone.utc), usage["modele"])
+    assert simulation.pari(b)["gain"] == -20.0

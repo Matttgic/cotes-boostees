@@ -6,7 +6,7 @@ Fichiers (dossier $DONNEES, par défaut ./donnees, branche git `donnees`) :
 - reglements_manuels.json : tes corrections à la main, prioritaires ({"id du boost": "gagné"}) ;
 - bilan.json + BILAN.md : la stratégie A (chaque boost joué à la mise max).
 
-Règlement par Claude seulement si le secret ANTHROPIC_API_KEY est présent.
+Règlement par l'IA seulement si le secret OPENAI_API_KEY (ou ANTHROPIC_API_KEY) est présent.
 
 Code de sortie 1 si aucun bookmaker n'a pu être lu : le workflow passe au rouge et GitHub
 t'envoie un e-mail.
@@ -59,14 +59,14 @@ def main() -> int:
         stockage.ecrire(dossier / "reglements_manuels.json", {})
     manuels = stockage.charger(dossier / "reglements_manuels.json")
     passage["reglements_manuels"] = reglement.appliquer_manuels(base, manuels, maintenant)
-    if os.environ.get("ANTHROPIC_API_KEY", "").strip():
+    if reglement.fournisseur():
         try:
             passage["reglement"] = reglement.regler(base)
         except Exception as e:
             passage["reglement"] = {"erreur": f"{type(e).__name__} : {e}"[:300]}
         print("Règlement :", passage["reglement"])
     else:
-        passage["reglement"] = "secret ANTHROPIC_API_KEY absent : pas de règlement automatique"
+        passage["reglement"] = "aucune clé d'IA (OPENAI_API_KEY ou ANTHROPIC_API_KEY) : pas de règlement automatique"
 
     b = simulation.bilan(base)
     stockage.ecrire(dossier / "bilan.json", b)

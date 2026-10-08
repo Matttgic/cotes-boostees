@@ -46,6 +46,7 @@ jobs:
           BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
           BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
           BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REGLEMENT_MODELE: ${{ vars.REGLEMENT_MODELE }}
         run: python scripts/collecte.py

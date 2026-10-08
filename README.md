@@ -23,8 +23,10 @@ Toutes les heures (workflow « Collecte des boosts », `scripts/collecte.py`) :
    jamais effacé, avec première/dernière apparition et changements de cote) et `etat.json`
    (dernier passage, consommation du proxy, 200 derniers passages).
 
-4. règlement des boosts terminés (match commencé depuis 4 h ou plus) par **Claude avec recherche web**
-   (`boosts/reglement.py`, secret `ANTHROPIC_API_KEY`, modèle réglable par la variable `REGLEMENT_MODELE`) :
+4. règlement des boosts terminés (match commencé depuis 4 h ou plus) par une **IA avec recherche web**
+   (`boosts/reglement.py`) : **ChatGPT** si le secret `OPENAI_API_KEY` est présent (gpt-6-luna aux deux
+   premiers essais, puis gpt-6.1-sol), sinon Claude (`ANTHROPIC_API_KEY`) ; variable `REGLEMENT_MODELE`
+   pour imposer un modèle :
    verdict gagné / perdu / remboursé avec score, explication et sources ; « inconnu » = nouvel essai 6 h
    plus tard, 4 essais au plus puis « à la main ». Corrections manuelles prioritaires dans
    `reglements_manuels.json` (`{"id du boost": "gagné"}`) ;
@@ -48,7 +50,7 @@ Winamax). Résultats sur la branche `sonde`.
 
 ## Secrets
 
-- `ANTHROPIC_API_KEY` : clé de l'API Anthropic (console Claude), pour le règlement automatique.
+- `OPENAI_API_KEY` : clé de l'API OpenAI, pour le règlement automatique (ou `ANTHROPIC_API_KEY`).
 - `PULSESCORE_KEY` : clé PulseScore (Settings → Secrets and variables → Actions).
 - `BRIGHTDATA_CUSTOMER_ID`, `BRIGHTDATA_ZONE`, `BRIGHTDATA_PASSWORD` : zone proxy ISP Bright Data
   (sans vérification d'identité). Port 44445 (variable `BRIGHTDATA_PORT` pour le changer).
