@@ -6,6 +6,12 @@ on:
       script:
         description: "Sonde à lancer (sonde.py, sonde2.py, sonde3.py , sonde5.py ou sonde6.py)"
         default: "sonde9.py"
+      url:
+        description: "sonde9.py : adresse à lire (défaut : page des cotes boostées Unibet)"
+        default: ""
+      fichier:
+        description: "sonde9.py : nom du fichier brut"
+        default: ""
       pulsescore:
         description: "sonde.py : sonder aussi PulseScore (oui/non)"
         default: "non"
@@ -32,6 +38,8 @@ jobs:
         env:
           PULSESCORE_KEY: ${{ secrets.PULSESCORE_KEY }}
           SONDE_PULSESCORE: ${{ inputs.pulsescore }}
+          SONDE_URL: ${{ inputs.url }}
+          SONDE_FICHIER: ${{ inputs.fichier }}
           BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
           BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
           BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}

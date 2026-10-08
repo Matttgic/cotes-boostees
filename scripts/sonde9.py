@@ -10,7 +10,7 @@ from curl_cffi import requests as creq
 
 from sonde import BRUT, OUT, masquer, proxy_francais
 
-URL = "https://www.unibet.fr/cotes-boostees"
+URL = __import__("os").environ.get("SONDE_URL") or "https://www.unibet.fr/cotes-boostees"
 
 
 def main() -> None:
@@ -19,7 +19,7 @@ def main() -> None:
     proxies, verif = proxy_francais()
     r = creq.get(URL, impersonate="chrome", proxies=proxies, verify=verif, timeout=60,
                  headers={"Accept-Language": "fr-FR,fr;q=0.9"})
-    with gzip.open(BRUT / "unibet_page_complete.html.gz", "wt", encoding="utf-8") as f:
+    with gzip.open(BRUT / (__import__("os").environ.get("SONDE_FICHIER") or "unibet_page_complete.html.gz"), "wt", encoding="utf-8") as f:
         f.write(r.text)
     res = {"date_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "statut": r.status_code,
            "octets": len(r.content), "mise_max": r.text.count("Mise max")}
