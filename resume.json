@@ -1,0 +1,52 @@
+{
+  "date_utc": "2026-10-08T18:03:42+00:00",
+  "pulsescore": "non lancé (déjà sondé)",
+  "sites": {
+    "_acces": "proxy Bright Data (France)",
+    "_ip": {
+      "statut": 200,
+      "pays": "FR",
+      "ville": "Paris",
+      "asn": {
+        "asnum": 213541,
+        "org_name": "WS Telecom Inc"
+      }
+    },
+    "winamax": {
+      "url": "https://www.winamax.fr/paris-sportifs",
+      "erreur_proxy": null,
+      "statut": 403,
+      "url_finale": "https://www.winamax.fr/paris-sportifs",
+      "octets": 919,
+      "preloaded_state": false,
+      "next_data": false,
+      "occurrences_boost": 0,
+      "chemins_boost": [],
+      "blocage_probable": true
+    },
+    "unibet": {
+      "url": "https://www.unibet.fr/sport",
+      "erreur_proxy": null,
+      "statut": 403,
+      "url_finale": "https://www.unibet.fr/",
+      "octets": 769,
+      "preloaded_state": false,
+      "next_data": false,
+      "occurrences_boost": 0,
+      "chemins_boost": [],
+      "blocage_probable": true
+    },
+    "pmu": {
+      "url": "https://parisportif.pmu.fr/",
+      "erreur_proxy": null,
+      "statut": 200,
+      "url_finale": "https://www.pmu.fr/sport/",
+      "octets": 1757,
+      "preloaded_state": false,
+      "next_data": true,
+      "occurrences_boost": 0,
+      "chemins_boost": [],
+      "blocage_probable": false
+    }
+  }
+}

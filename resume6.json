@@ -1,0 +1,373 @@
+{
+  "date_utc": "2026-10-08T18:52:24+00:00",
+  "unibet_boosts": {
+    "statut": 200,
+    "octets": 8537,
+    "evenements": 5,
+    "offres": 5,
+    "tags": {
+      "OFFERED_PREMATCH": 5,
+      "PBA_DISABLED": 5,
+      "NOT_COMBINABLE": 5
+    },
+    "types": {
+      "Vainqueur": 5
+    },
+    "champs_offre": {
+      "id": 5,
+      "closed": 5,
+      "criterion": 5,
+      "betOfferType": 5,
+      "eventId": 5,
+      "outcomes": 5,
+      "tags": 5,
+      "sortOrder": 5,
+      "cashOutStatus": 5,
+      "extra": 4
+    },
+    "champs_issue": {
+      "id": 10,
+      "label": 10,
+      "englishLabel": 10,
+      "prevOdds": 10,
+      "participant": 10,
+      "type": 10,
+      "betOfferId": 10,
+      "changedDate": 10,
+      "participantId": 10,
+      "status": 10,
+      "cashOutStatus": 10,
+      "odds": 5,
+      "oddsFractional": 5,
+      "oddsAmerican": 5
+    },
+    "exemples": [
+      {
+        "evenement": "PSV Eindhoven - SC Heerenveen",
+        "debut": "2026-10-09T18:00:00Z",
+        "sport": "SPECIAL_BETS",
+        "chemin": [
+          "Cotes boostées",
+          "Football",
+          "Eredivisie"
+        ],
+        "critere": "Ivan Perisic & Guus Til marquent tous les deux à tout moment",
+        "tags": [
+          "OFFERED_PREMATCH",
+          "PBA_DISABLED",
+          "NOT_COMBINABLE"
+        ],
+        "issues": [
+          {
+            "label": "Non",
+            "englishLabel": "No",
+            "prevOdds": [],
+            "participant": "Non",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:04:27Z",
+            "participantId": 1000020985,
+            "status": "SUSPENDED",
+            "cashOutStatus": "ENABLED"
+          },
+          {
+            "label": "Oui",
+            "englishLabel": "Yes",
+            "odds": 6000,
+            "prevOdds": [],
+            "participant": "Oui",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:04:27Z",
+            "participantId": 1005482207,
+            "oddsFractional": "5/1",
+            "oddsAmerican": "500",
+            "status": "OPEN",
+            "cashOutStatus": "ENABLED"
+          }
+        ],
+        "autres": {
+          "closed": "2026-10-09T18:00:00Z",
+          "extra": "Les joueurs doivent commencer le match pour que les paris soient valables",
+          "betOfferType": {
+            "id": 4,
+            "name": "Vainqueur",
+            "englishName": "Winner"
+          },
+          "sortOrder": 1,
+          "cashOutStatus": "DISABLED"
+        }
+      },
+      {
+        "evenement": "Borussia Dortmund - Werder Bremen",
+        "debut": "2026-10-09T18:30:00Z",
+        "sport": "SPECIAL_BETS",
+        "chemin": [
+          "Cotes boostées",
+          "Football",
+          "Bundesliga"
+        ],
+        "critere": "Dortmund gagne & Max Beier marque à tout moment",
+        "tags": [
+          "OFFERED_PREMATCH",
+          "PBA_DISABLED",
+          "NOT_COMBINABLE"
+        ],
+        "issues": [
+          {
+            "label": "Non",
+            "englishLabel": "No",
+            "prevOdds": [],
+            "participant": "Non",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:02:49Z",
+            "participantId": 1000020985,
+            "status": "SUSPENDED",
+            "cashOutStatus": "ENABLED"
+          },
+          {
+            "label": "Oui",
+            "englishLabel": "Yes",
+            "odds": 3250,
+            "prevOdds": [],
+            "participant": "Oui",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:02:49Z",
+            "participantId": 1005454756,
+            "oddsFractional": "9/4",
+            "oddsAmerican": "225",
+            "status": "OPEN",
+            "cashOutStatus": "ENABLED"
+          }
+        ],
+        "autres": {
+          "closed": "2026-10-09T18:30:00Z",
+          "extra": "Le joueur doit débuter le match pour que les paris soient valides",
+          "betOfferType": {
+            "id": 4,
+            "name": "Vainqueur",
+            "englishName": "Winner"
+          },
+          "sortOrder": 1,
+          "cashOutStatus": "DISABLED"
+        }
+      },
+      {
+        "evenement": "Lens - Lyon",
+        "debut": "2026-10-09T18:45:00Z",
+        "sport": "SPECIAL_BETS",
+        "chemin": [
+          "Cotes boostées",
+          "Football",
+          "Ligue 1"
+        ],
+        "critere": "Lyon gagne & les deux équipes marquent",
+        "tags": [
+          "OFFERED_PREMATCH",
+          "PBA_DISABLED",
+          "NOT_COMBINABLE"
+        ],
+        "issues": [
+          {
+            "label": "Non",
+            "englishLabel": "No",
+            "prevOdds": [],
+            "participant": "Non",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:06:26Z",
+            "participantId": 1000020985,
+            "status": "SUSPENDED",
+            "cashOutStatus": "ENABLED"
+          },
+          {
+            "label": "Oui",
+            "englishLabel": "Yes",
+            "odds": 4250,
+            "prevOdds": [],
+            "participant": "Oui",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-05T13:06:26Z",
+            "participantId": 1005482207,
+            "oddsFractional": "13/4",
+            "oddsAmerican": "325",
+            "status": "OPEN",
+            "cashOutStatus": "ENABLED"
+          }
+        ],
+        "autres": {
+          "closed": "2026-10-09T18:45:00Z",
+          "betOfferType": {
+            "id": 4,
+            "name": "Vainqueur",
+            "englishName": "Winner"
+          },
+          "sortOrder": 1,
+          "cashOutStatus": "DISABLED"
+        }
+      },
+      {
+        "evenement": "Manchester United - Tottenham",
+        "debut": "2026-10-10T16:30:00Z",
+        "sport": "SPECIAL_BETS",
+        "chemin": [
+          "Cotes boostées",
+          "Football",
+          "Premier League"
+        ],
+        "critere": "Bruno Fernandes over 2,5 shots on target",
+        "tags": [
+          "OFFERED_PREMATCH",
+          "PBA_DISABLED",
+          "NOT_COMBINABLE"
+        ],
+        "issues": [
+          {
+            "label": "Non",
+            "englishLabel": "No",
+            "prevOdds": [],
+            "participant": "Non",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-07T13:09:00Z",
+            "participantId": 1000020985,
+            "status": "SUSPENDED",
+            "cashOutStatus": "ENABLED"
+          },
+          {
+            "label": "Oui",
+            "englishLabel": "Yes",
+            "odds": 6000,
+            "prevOdds": [],
+            "participant": "Oui",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-07T13:09:00Z",
+            "participantId": 1005131773,
+            "oddsFractional": "5/1",
+            "oddsAmerican": "500",
+            "status": "OPEN",
+            "cashOutStatus": "ENABLED"
+          }
+        ],
+        "autres": {
+          "closed": "2026-10-10T16:30:00Z",
+          "extra": "Paris réglés en fonction des données Opta. Le joueur doit commencer le match pour que les paris soient valables.",
+          "betOfferType": {
+            "id": 4,
+            "name": "Vainqueur",
+            "englishName": "Winner"
+          },
+          "sortOrder": 1,
+          "cashOutStatus": "DISABLED"
+        }
+      },
+      {
+        "evenement": "Liverpool - Manchester City",
+        "debut": "2026-10-11T15:30:00Z",
+        "sport": "SPECIAL_BETS",
+        "chemin": [
+          "Cotes boostées",
+          "Football",
+          "Premier League"
+        ],
+        "critere": "Erling Haaland to score a headed goal",
+        "tags": [
+          "OFFERED_PREMATCH",
+          "PBA_DISABLED",
+          "NOT_COMBINABLE"
+        ],
+        "issues": [
+          {
+            "label": "Non",
+            "englishLabel": "No",
+            "prevOdds": [],
+            "participant": "Non",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-07T13:11:19Z",
+            "participantId": 1000020985,
+            "status": "SUSPENDED",
+            "cashOutStatus": "ENABLED"
+          },
+          {
+            "label": "Oui",
+            "englishLabel": "Yes",
+            "odds": 5250,
+            "prevOdds": [],
+            "participant": "Oui",
+            "type": "OT_UNTYPED",
+            "changedDate": "2026-10-07T13:11:19Z",
+            "participantId": 1005131773,
+            "oddsFractional": "17/4",
+            "oddsAmerican": "425",
+            "status": "OPEN",
+            "cashOutStatus": "ENABLED"
+          }
+        ],
+        "autres": {
+          "closed": "2026-10-11T15:30:00Z",
+          "extra": "Le joueur doit débuter le match pour que les paris soient valides",
+          "betOfferType": {
+            "id": 4,
+            "name": "Vainqueur",
+            "englishName": "Winner"
+          },
+          "sortOrder": 1,
+          "cashOutStatus": "DISABLED"
+        }
+      }
+    ]
+  },
+  "pmu_football": {
+    "statut": 200,
+    "octets": 1443001,
+    "evenements": 520,
+    "offres": 1039,
+    "tags": {
+      "OFFERED_PREMATCH": 1039,
+      "OFFERED_LIVE": 1039,
+      "BET_BUILDER": 1038,
+      "MAIN": 520,
+      "MAIN_LINE": 519
+    },
+    "types": {
+      "Match": 520,
+      "Plus de/Moins de": 519
+    },
+    "champs_offre": {
+      "id": 1039,
+      "criterion": 1039,
+      "betOfferType": 1039,
+      "eventId": 1039,
+      "outcomes": 1039,
+      "tags": 1039,
+      "sortOrder": 1039,
+      "cashOutStatus": 1039,
+      "oddsStats": 5
+    },
+    "champs_issue": {
+      "id": 2598,
+      "label": 2598,
+      "englishLabel": 2598,
+      "type": 2598,
+      "betOfferId": 2598,
+      "changedDate": 2598,
+      "status": 2598,
+      "cashOutStatus": 2598,
+      "displayOrder": 2598,
+      "odds": 2592,
+      "oddsFractional": 2592,
+      "oddsAmerican": 2592,
+      "participant": 1040,
+      "participantId": 1040,
+      "line": 1038
+    },
+    "traces_boost": []
+  },
+  "pmu_accueil": {
+    "statut": 200,
+    "octets": 31163,
+    "evenements": 0,
+    "offres": 0,
+    "tags": {},
+    "types": {},
+    "champs_offre": {},
+    "champs_issue": {},
+    "traces_boost": []
+  }
+}
