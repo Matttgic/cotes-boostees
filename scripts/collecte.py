@@ -2,7 +2,11 @@
 
 Fichiers (dossier $DONNEES, par défaut ./donnees, branche git `donnees`) :
 - boosts.json : tous les boosts jamais vus (voir boosts/stockage.py) ;
-- etat.json   : dernier passage, compteurs, consommation du proxy, 200 derniers passages.
+- etat.json   : dernier passage, compteurs, consommation du proxy, 200 derniers passages ;
+- reglements_manuels.json : tes corrections à la main, prioritaires ({"id du boost": "gagné"}) ;
+- bilan.json + BILAN.md : la stratégie A (chaque boost joué à la mise max).
+
+Règlement par Claude seulement si le secret ANTHROPIC_API_KEY est présent.
 
 Code de sortie 1 si aucun bookmaker n'a pu être lu : le workflow passe au rouge et GitHub
 t'envoie un e-mail.
@@ -20,7 +24,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from boosts import stockage, winamax          # noqa: E402
+from boosts import rapport, reglement, simulation, stockage, winamax  # noqa: E402
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
 COLLECTEURS = {"winamax": winamax.collecter}
@@ -49,6 +53,26 @@ def main() -> int:
             print(f"[{nom}] {len(lus)} boosts en ligne, {nouveaux} nouveaux, {modifies} cotes modifiées")
         passage["octets_proxy"] = nav.octets
         passage["requetes"] = nav.requetes
+
+    # règlement : corrections manuelles d'abord, puis Claude pour les boosts terminés
+    if not (dossier / "reglements_manuels.json").exists():
+        stockage.ecrire(dossier / "reglements_manuels.json", {})
+    manuels = stockage.charger(dossier / "reglements_manuels.json")
+    passage["reglements_manuels"] = reglement.appliquer_manuels(base, manuels, maintenant)
+    if os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        try:
+            passage["reglement"] = reglement.regler(base)
+        except Exception as e:
+            passage["reglement"] = {"erreur": f"{type(e).__name__} : {e}"[:300]}
+        print("Règlement :", passage["reglement"])
+    else:
+        passage["reglement"] = "secret ANTHROPIC_API_KEY absent : pas de règlement automatique"
+
+    b = simulation.bilan(base)
+    stockage.ecrire(dossier / "bilan.json", b)
+    (dossier / "BILAN.md").write_text(rapport.markdown(b, maintenant), encoding="utf-8")
+    g = b["global"]
+    print(f"Stratégie A : {g['paris']} paris, {g['regles']} réglés, gain net {g['gain_net']} €, ROI {g['roi_pct']} %")
 
     etat["dernier_passage"] = passage
     etat["octets_proxy_total"] = int(etat.get("octets_proxy_total", 0)) + passage["octets_proxy"]
