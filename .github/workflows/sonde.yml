@@ -5,7 +5,7 @@ on:
     inputs:
       script:
         description: "Sonde à lancer (sonde.py, sonde2.py, sonde3.py , sonde5.py ou sonde6.py)"
-        default: "sonde7.py"
+        default: "sonde8.py"
       pulsescore:
         description: "sonde.py : sonder aussi PulseScore (oui/non)"
         default: "non"
