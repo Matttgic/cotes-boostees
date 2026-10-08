@@ -148,8 +148,10 @@ def proxy_francais() -> tuple[dict | None, str | bool]:
         return None, True
     client = client.removeprefix("brd-customer-")
     session = os.urandom(4).hex()          # même IP pour toute la sonde
+    # port affiché dans le panneau Bright Data de la zone (44445 pour cette zone ISP)
+    port = os.environ.get("BRIGHTDATA_PORT", "").strip() or "44445"
     url = (f"http://brd-customer-{client}-zone-{zone}-country-fr-session-{session}:"
-           f"{quote(mdp, safe='')}@brd.superproxy.io:33335")
+           f"{quote(mdp, safe='')}@brd.superproxy.io:{port}")
     return {"http": url, "https": url}, bundle_certificats()
 
 
