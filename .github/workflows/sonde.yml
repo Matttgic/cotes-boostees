@@ -3,8 +3,11 @@ name: Sonde des sources
 on:
   workflow_dispatch:
     inputs:
+      script:
+        description: "Sonde à lancer (sonde.py ou sonde2.py)"
+        default: "sonde2.py"
       pulsescore:
-        description: "Sonder aussi PulseScore (oui/non)"
+        description: "sonde.py : sonder aussi PulseScore (oui/non)"
         default: "non"
 
 permissions:
@@ -13,7 +16,7 @@ permissions:
 jobs:
   sonde:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -24,23 +27,28 @@ jobs:
       - name: Dépendances
         run: pip install -r requirements.txt
 
-      - name: Sonde PulseScore + sites
+      - name: Sonde
+        working-directory: scripts
         env:
           PULSESCORE_KEY: ${{ secrets.PULSESCORE_KEY }}
           SONDE_PULSESCORE: ${{ inputs.pulsescore }}
           BRIGHTDATA_CUSTOMER_ID: ${{ secrets.BRIGHTDATA_CUSTOMER_ID }}
           BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
           BRIGHTDATA_PASSWORD: ${{ secrets.BRIGHTDATA_PASSWORD }}
-        run: python scripts/sonde.py
+        run: python "${{ inputs.script }}"
 
-      - name: Publier les résultats sur la branche « sonde »
+      - name: Publier les résultats sur la branche « sonde » (en gardant les précédents)
         run: |
-          cp -r sonde /tmp/sonde
+          mkdir -p /tmp/sortie
+          if git fetch --depth 1 origin sonde 2>/dev/null; then
+            git --work-tree=/tmp/sortie checkout FETCH_HEAD -- . || true
+          fi
+          cp -r scripts/sonde/. /tmp/sortie/
           git config user.name "sonde-bot"
           git config user.email "sonde-bot@users.noreply.github.com"
-          git checkout --orphan sonde
+          git checkout --orphan sonde-tmp
           git rm -rf --quiet .
-          cp -r /tmp/sonde/. .
+          cp -r /tmp/sortie/. .
           git add -A
           git commit -m "Résultats de la sonde $(date -u +%F_%H%M)"
-          git push -f origin sonde
+          git push -f origin HEAD:sonde
