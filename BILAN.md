@@ -1,10 +1,10 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 09/10 02h25 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 09/10 03h24 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 3 / 32 | 60 € | **-15,00 €** | **-25,0 %** | -40,00 € |
+| **A — tout miser** | 3 / 33 | 60 € | **-15,00 €** | **-25,0 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 
@@ -12,7 +12,7 @@ Mis à jour le 09/10 02h25 (heure de Paris). Argent fictif : un pari par boost, 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 1 gagnés, 2 perdus, 0 remboursés, 29 en attente · cote moyenne 2,91 · pire série perdante 2
+A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne 2,9 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -22,34 +22,34 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 29 en attente · cote moyenne
 |---|---|---|---|---|---|
 | EV < 0 (approx) | 0 / 2 | 0 € | +0,00 € | – | – |
 | EV < 0 (exacte) | 0 / 2 | 0 € | +0,00 € | – | – |
-| non évaluable | 3 / 28 | 60 € | -15,00 € | -25,0 % | 33 % |
+| non évaluable | 3 / 29 | 60 € | -15,00 € | -25,0 % | 33 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 0 / 21 | 0 € | +0,00 € | – | – |
-| Winamax | 3 / 11 | 60 € | -15,00 € | -25,0 % | 33 % |
+| Winamax | 3 / 12 | 60 € | -15,00 € | -25,0 % | 33 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 20 | 0 € | +0,00 € | – | – |
-| match | 3 / 12 | 60 € | -15,00 € | -25,0 % | 33 % |
+| match | 3 / 13 | 60 € | -15,00 € | -25,0 % | 33 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 3 / 11 | 60 € | -15,00 € | -25,0 % | 33 % |
+| 20 € | 3 / 12 | 60 € | -15,00 € | -25,0 % | 33 % |
 | 25 € | 0 / 21 | 0 € | +0,00 € | – | – |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2 – 3 | 2 / 12 | 40 € | +5,00 € | +12,5 % | 50 % |
+| 2 – 3 | 2 / 13 | 40 € | +5,00 € | +12,5 % | 50 % |
 | 3 – 5 | 1 / 9 | 20 € | -20,00 € | -100,0 % | 0 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
@@ -65,14 +65,14 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 29 en attente · cote moyenne
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 0 / 2 | 0 € | +0,00 € | – | – |
 | Rugby à XV | 1 / 1 | 20 € | +25,00 € | +125,0 % | 100 % |
-| Tennis | 0 / 2 | 0 € | +0,00 € | – | – |
+| Tennis | 0 / 3 | 0 € | +0,00 € | – | – |
 | Tennis de table | 0 / 1 | 0 € | +0,00 € | – | – |
 
 ### A par mois
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 3 / 32 | 60 € | -15,00 € | -25,0 % | 33 % |
+| 2026-10 | 3 / 33 | 60 € | -15,00 € | -25,0 % | 33 % |
 
 ### Derniers paris
 
@@ -99,6 +99,7 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 29 en attente · cote moyenne
 | 20/10 19h00 · Paris Trashtalk 26/27 | SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds) | 2,5 | – | – | 25 € | ⏳ |
 | 09/10 20h00 · Ligue 2 - 09/10 | Plus de 1,5 buts dans chacun des 5 matchs de 20:00 | 3,65 | – | – | 25 € | ⏳ |
 | 09/10 06h00 · A.Gea - U.Humbert | Les 2 joueurs gagnent un set ? | 2,3 | – | – | 25 € | ⏳ |
+| 09/10 06h00 · Adrian Mannarino - Flavio Cobolli | Adrian Mannarino gagne le premier set | 2,4 | – | – | 20 € | ⏳ |
 | 09/10 06h00 · Arthur Gea - Ugo Humbert | Plus de 2,5 sets lors du match | 2,3 | 2,674 | -14,0 % | 20 € | ⏳ |
 | 09/10 05h45 · A.Lebrun / F.Lebrun - R.Wen / L.Yuan | A.Lebrun / F.Lebrun gagne le match 3-1 | 4,75 | – | – | 20 € | ⏳ |
 | 09/10 04h15 · Vegas Golden Knights - Toronto Maple Leafs | Vegas Golden Knights gagne et plus de 6,5 buts dans le match (prol. et TAB inclus) | 3,0 | 3,321 | -9,7 % ≈ | 20 € | ⏳ |
