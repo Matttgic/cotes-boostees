@@ -2,7 +2,7 @@
  "boosts_total": 59,
  "cache_unibet": {
   "3381006": {
-   "age": 3,
+   "age": 4,
    "boosts": [
     {
      "bookmaker": "Unibet",
@@ -503,10 +503,10 @@
   },
   "cerveau": {
    "boosts_observes": 38,
-   "decisions_enregistrees": 0,
+   "decisions_enregistrees": 1,
    "nouveaux_boosts": 0
   },
-  "date": "2026-10-09T20:09:04+00:00",
+  "date": "2026-10-09T21:08:14+00:00",
   "evaluation": {
    "approx": 1,
    "decomposes": 0,
@@ -516,20 +516,71 @@
    "non_evaluables": 4,
    "requetes_pulsescore": 1
   },
-  "octets_proxy": 415869,
+  "octets_proxy": 415019,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
-   "inconnus": 0,
-   "jetons": {},
-   "recherches": 0,
-   "regles": 0,
-   "soumis": 0
+   "inconnus": 1,
+   "jetons": {
+    "gpt-6-luna": {
+     "entree": 39482,
+     "sortie": 1579
+    }
+   },
+   "recherches": 5,
+   "regles": 1,
+   "soumis": 2
   },
   "reglements_manuels": 0,
   "requetes": 2
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 20,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 6,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 38,
+    "decisions_enregistrees": 1,
+    "nouveaux_boosts": 0
+   },
+   "date": "2026-10-09T21:08:14+00:00",
+   "evaluation": {
+    "approx": 1,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 6,
+    "exactes": 1,
+    "non_evaluables": 4,
+    "requetes_pulsescore": 1
+   },
+   "octets_proxy": 415019,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 1,
+    "jetons": {
+     "gpt-6-luna": {
+      "entree": 39482,
+      "sortie": 1579
+     }
+    },
+    "recherches": 5,
+    "regles": 1,
+    "soumis": 2
+   },
+   "reglements_manuels": 0,
+   "requetes": 2
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -1743,5 +1794,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 14287134
+ "octets_proxy_total": 14702153
 }
