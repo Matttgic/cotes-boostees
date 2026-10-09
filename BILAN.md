@@ -1,18 +1,18 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 09/10 14h14 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 09/10 15h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 14 / 51 | 285 € | **+186,50 €** | **+65,4 %** | -40,00 € |
+| **A — tout miser** | 15 / 51 | 305 € | **+166,50 €** | **+54,6 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **C — 10 € maximum** | 14 / 51 | 140 € | **+90,00 €** | **+64,3 %** | -20,00 € |
-| **D — cote 1,60–3,50** | 10 / 36 | 100 € | **+46,50 €** | **+46,5 %** | -20,00 € |
-| **E — dans les 48 h** | 14 / 30 | 140 € | **+90,00 €** | **+64,3 %** | -20,00 € |
+| **C — 10 € maximum** | 15 / 51 | 150 € | **+80,00 €** | **+53,3 %** | -20,00 € |
+| **D — cote 1,60–3,50** | 11 / 36 | 110 € | **+36,50 €** | **+33,2 %** | -20,00 € |
+| **E — dans les 48 h** | 15 / 30 | 150 € | **+80,00 €** | **+53,3 %** | -20,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 13 / 28 | 130 € | **+100,00 €** | **+76,9 %** | -20,00 € |
+| **H — un boost/match** | 14 / 28 | 140 € | **+90,00 €** | **+64,3 %** | -20,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -23,7 +23,7 @@ Mis à jour le 09/10 14h14 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne 2,93 · pire série perdante 2
+A en détail : 8 gagnés, 7 perdus, 0 remboursés, 36 en attente · cote moyenne 2,93 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -31,7 +31,7 @@ A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| EV < 0 (approx) | 2 / 3 | 40 € | +68,00 € | +170,0 % | 100 % |
+| EV < 0 (approx) | 3 / 3 | 60 € | +48,00 € | +80,0 % | 67 % |
 | EV < 0 (exacte) | 2 / 3 | 40 € | +6,00 € | +15,0 % | 50 % |
 | non évaluable | 10 / 45 | 205 € | +112,50 € | +54,9 % | 50 % |
 
@@ -40,27 +40,27 @@ A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 1 / 24 | 25 € | +32,50 € | +130,0 % | 100 % |
-| Winamax | 13 / 27 | 260 € | +154,00 € | +59,2 % | 54 % |
+| Winamax | 14 / 27 | 280 € | +134,00 € | +47,9 % | 50 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 21 | 0 € | +0,00 € | – | – |
-| match | 14 / 30 | 285 € | +186,50 € | +65,4 % | 57 % |
+| match | 15 / 30 | 305 € | +166,50 € | +54,6 % | 53 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 13 / 27 | 260 € | +154,00 € | +59,2 % | 54 % |
+| 20 € | 14 / 27 | 280 € | +134,00 € | +47,9 % | 50 % |
 | 25 € | 1 / 24 | 25 € | +32,50 € | +130,0 % | 100 % |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2 – 3 | 8 / 24 | 165 € | +79,50 € | +48,2 % | 62 % |
+| 2 – 3 | 9 / 24 | 185 € | +59,50 € | +32,2 % | 56 % |
 | 3 – 5 | 6 / 16 | 120 € | +107,00 € | +89,2 % | 50 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
@@ -70,7 +70,7 @@ A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
-| Basketball | 0 / 21 | 0 € | +0,00 € | – | – |
+| Basketball | 1 / 21 | 20 € | -20,00 € | -100,0 % | 0 % |
 | Football | 2 / 12 | 40 € | +32,00 € | +80,0 % | 50 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
@@ -84,7 +84,7 @@ A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 14 / 51 | 285 € | +186,50 € | +65,4 % | 57 % |
+| 2026-10 | 15 / 51 | 305 € | +166,50 € | +54,6 % | 53 % |
 
 ### Derniers paris
 
@@ -126,7 +126,7 @@ A en détail : 8 gagnés, 6 perdus, 0 remboursés, 37 en attente · cote moyenne
 | 09/10 12h00 · Novak Djokovic - Hubert Hurkacz | Novak Djokovic gagne 2-0 | 2,5 | – | – | 20 € | ⏳ |
 | 09/10 12h00 · J.League | Plus de 2,5 buts dans chacun des 2 matchs à 12h00 | 3,0 | – | – | 20 € | ⏳ |
 | 09/10 11h00 · ATP Shanghai | Francisco Cerundolo et Alexander Bublik gagnent chacun le premier set (respectivement contre Roman Safiullin et Tomas Machac) | 3,0 | 3,154 | -4,9 % | 20 € | ⏳ |
-| 09/10 10h30 · Illawarra Hawks - Tasmania Jackjumpers | Illawarra Hawks gagne à la mi-temps et à la fin du match (hors prol.) | 2,5 | 3,704 | -32,5 % ≈ | 20 € | ⏳ |
+| 09/10 10h30 · Illawarra Hawks - Tasmania Jackjumpers | Illawarra Hawks gagne à la mi-temps et à la fin du match (hors prol.) | 2,5 | 3,704 | -32,5 % ≈ | 20 € | ❌ -20,00 € |
 | 09/10 09h30 · K-League 1 | Les 2 équipes marquent dans chacun des 2 matchs à 9h30 | 4,5 | – | – | 20 € | ❌ -20,00 € |
 | 09/10 06h00 · A.Gea - U.Humbert | Les 2 joueurs gagnent un set ? | 2,3 | – | – | 25 € | ✅ +32,50 € |
 | 09/10 06h00 · Adrian Mannarino - Flavio Cobolli | Adrian Mannarino gagne le premier set | 2,4 | – | – | 20 € | ✅ +28,00 € |
