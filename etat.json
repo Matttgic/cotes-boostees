@@ -2,7 +2,7 @@
  "boosts_total": 45,
  "cache_unibet": {
   "3381006": {
-   "age": 0,
+   "age": 1,
    "boosts": [
     {
      "bookmaker": "Unibet",
@@ -469,43 +469,74 @@
    "unibet": {
     "boosts_en_ligne": 21,
     "cotes_modifiees": 0,
-    "nouveaux": 1
+    "nouveaux": 0
    },
    "winamax": {
-    "boosts_en_ligne": 9,
+    "boosts_en_ligne": 7,
     "cotes_modifiees": 0,
-    "nouveaux": 6
+    "nouveaux": 0
    }
   },
-  "date": "2026-10-09T08:17:26+00:00",
+  "date": "2026-10-09T09:16:36+00:00",
   "evaluation": {
-   "approx": 1,
-   "decomposes": 7,
+   "approx": 0,
+   "decomposes": 0,
    "echecs_decomposition": 0,
-   "evalues": 11,
-   "exactes": 1,
+   "evalues": 9,
+   "exactes": 0,
    "non_evaluables": 9,
    "requetes_pulsescore": 8
   },
-  "octets_proxy": 616135,
+  "octets_proxy": 425474,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
    "inconnus": 0,
-   "jetons": {
-    "gpt-6-luna": {
-     "entree": 124509,
-     "sortie": 3768
-    }
-   },
-   "recherches": 15,
-   "regles": 4,
-   "soumis": 4
+   "jetons": {},
+   "recherches": 0,
+   "regles": 0,
+   "soumis": 0
   },
   "reglements_manuels": 0,
-  "requetes": 3
+  "requetes": 2
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 21,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 7,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "date": "2026-10-09T09:16:36+00:00",
+   "evaluation": {
+    "approx": 0,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 9,
+    "exactes": 0,
+    "non_evaluables": 9,
+    "requetes_pulsescore": 8
+   },
+   "octets_proxy": 425474,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 2
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -1173,5 +1204,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 8356164
+ "octets_proxy_total": 8781638
 }
