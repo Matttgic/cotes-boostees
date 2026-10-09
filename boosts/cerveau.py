@@ -88,11 +88,14 @@ def _signature(x):
             x["mise_fictive"], tuple(x["raisons"]))
 
 
-def enregistrer(base: dict, registre: dict, maintenant: str) -> dict:
+def enregistrer(base: dict, registre: dict, maintenant: str, heure_execution: str | None = None) -> dict:
     """Ajoute des décisions datées avant le coup d'envoi ; aucun backfill des matchs passés."""
     t = instant(maintenant)
     if t is None:
         raise ValueError("Date de collecte invalide")
+    effectif = instant(heure_execution) if heure_execution else datetime.now(timezone.utc)
+    if effectif is None:
+        raise ValueError("Heure réelle invalide")
     registre.setdefault("schema", 1)
     registre.setdefault("modele", VERSION)
     entrees = registre.setdefault("entrees", {})
@@ -100,7 +103,7 @@ def enregistrer(base: dict, registre: dict, maintenant: str) -> dict:
     for b in sorted(base.values(), key=lambda x: str(x.get("id", ""))):
         identifiant = b.get("id")
         debut = instant(b.get("debut"))
-        if not identifiant or debut is None or debut <= t:
+        if not identifiant or debut is None or debut <= t or debut <= effectif:
             continue
         # Important : un ancien boost disponible=True n'est PAS forcément encore en vente.
         # Il doit avoir été effectivement vu au cours de CE passage.
@@ -198,7 +201,7 @@ def bilan(registre: dict, boosts: dict) -> dict:
     }
 
 
-def rafraichir(base: dict, registre: dict, maintenant: str) -> dict:
-    resume = enregistrer(base, registre, maintenant)
+def rafraichir(base: dict, registre: dict, maintenant: str, heure_execution: str | None = None) -> dict:
+    resume = enregistrer(base, registre, maintenant, heure_execution=heure_execution)
     registre["bilan"] = bilan(registre, base)
     return resume
