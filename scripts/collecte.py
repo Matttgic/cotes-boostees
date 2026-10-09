@@ -4,7 +4,8 @@ Fichiers (dossier $DONNEES, par défaut ./donnees, branche git `donnees`) :
 - boosts.json : tous les boosts jamais vus (voir boosts/stockage.py) ;
 - etat.json   : dernier passage, compteurs, consommation du proxy, 200 derniers passages ;
 - reglements_manuels.json : tes corrections à la main, prioritaires ({"id du boost": "gagné"}) ;
-- bilan.json + BILAN.md : stratégies A (tous les boosts) et B (boosts à +5 % d'EV face à Pinnacle).
+- bilan.json + BILAN.md : stratégies A-H ;
+- cerveau.json : décisions horodatées et bilans des choix fictifs avant match.
 
 Règlement par l'IA seulement si le secret OPENAI_API_KEY (ou ANTHROPIC_API_KEY) est présent.
 
@@ -24,7 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from boosts import evaluation, rapport, reglement, simulation, stockage, unibet, winamax  # noqa: E402
+from boosts import cerveau, evaluation, rapport, reglement, simulation, stockage, unibet, winamax  # noqa: E402
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
 COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter}
@@ -63,6 +64,14 @@ def main() -> int:
         print("Évaluation : ERREUR", traceback.format_exc()[-1500:], file=sys.stderr)
     print("Évaluation :", passage["evaluation"])
 
+    # Photographier les décisions pendant que les événements sont encore à venir.
+    registre_cerveau = stockage.charger(dossier / "cerveau.json") or {}
+    try:
+        passage["cerveau"] = cerveau.enregistrer(base, registre_cerveau, maintenant)
+    except Exception as e:
+        passage["cerveau"] = {"erreur": f"{type(e).__name__} : {e}"[:300]}
+        print("Cerveau : ERREUR", traceback.format_exc()[-1500:], file=sys.stderr)
+
     # règlement : corrections manuelles d'abord, puis Claude pour les boosts terminés
     if not (dossier / "reglements_manuels.json").exists():
         stockage.ecrire(dossier / "reglements_manuels.json", {})
@@ -76,6 +85,10 @@ def main() -> int:
         print("Règlement :", passage["reglement"])
     else:
         passage["reglement"] = "aucune clé d'IA (OPENAI_API_KEY ou ANTHROPIC_API_KEY) : pas de règlement automatique"
+
+    # Résultats observés APRÈS la sélection ; prix et mises des sélections figés.
+    registre_cerveau["bilan"] = cerveau.bilan(registre_cerveau, base)
+    stockage.ecrire(dossier / "cerveau.json", registre_cerveau)
 
     bilans = simulation.strategies(base)
     stockage.ecrire(dossier / "bilan.json", bilans)

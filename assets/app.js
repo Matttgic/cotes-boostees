@@ -21,7 +21,7 @@
     H_1_match: ['H', 'UN PAR MATCH', '1ER BOOST VU · 10 € MAX'],
   });
   const state = {
-    boosts: [], bilan: {}, etat: {}, view: 'actifs', strategy: 'A',
+    boosts: [], bilan: {}, etat: {}, brain: null, brainView: 'tous', view: 'actifs', strategy: 'A',
     search: '', sport: 'tous', bookmaker: 'tous', sort: 'recent',
     favoritesOnly: false, favorites: readFavorites(), expanded: new Set(),
     limit: PAGE_SIZE, loading: false, ready: false,
@@ -236,6 +236,60 @@
     document.querySelectorAll('[data-strategy]').forEach(btn => { const yes = btn.dataset.strategy === state.strategy; btn.classList.toggle('is-active', yes); btn.setAttribute('aria-pressed', String(yes)); });
   }
 
+
+  function renderBrain() {
+    const b = state.brain;
+    const stats = b && b.bilan ? b.bilan : {};
+    $('brain-observed').textContent = b && b.entrees ? fmt(number(stats.observes) || 0, 0) : '—';
+    $('brain-selected').textContent = b && b.entrees ? fmt(number(stats.paris_selectionnes) || 0, 0) : '—';
+    $('brain-settled').textContent = b && b.entrees ? (fmt(number(stats.paris_regles) || 0, 0) + ' / ' + fmt(number(stats.paris_selectionnes) || 0, 0)) : '—';
+    $('brain-roi').textContent = pct(number(stats.roi_pct));
+    $('brain-update').textContent = b && b.derniere_observation ? '· SCAN ' + dateText(b.derniere_observation) : '';
+    document.querySelectorAll('[data-brain]').forEach(btn => {
+      const yes = btn.dataset.brain === state.brainView;
+      btn.classList.toggle('is-active', yes);
+      btn.setAttribute('aria-pressed', String(yes));
+    });
+    if (!b || !b.entrees || !b.modele) {
+      $('brain-feed').innerHTML = '<p class="brain-empty">Aucune décision enregistrée pour l’instant. Le fichier du cerveau sera créé lors de la prochaine collecte GitHub. Aucune donnée fictive n’est affichée.</p>';
+      return;
+    }
+    const entries = Object.values(b.entrees).filter(e => Array.isArray(e.historique) && e.historique.length);
+    const filtered = entries.filter(e => state.brainView === 'tous' || e.historique[e.historique.length - 1].decision === state.brainView)
+      .sort((a, z) => {
+        const at = datetime(a.historique[a.historique.length - 1].horodatage)?.getTime() || 0;
+        const zt = datetime(z.historique[z.historique.length - 1].horodatage)?.getTime() || 0;
+        return zt - at || String(a.id).localeCompare(String(z.id));
+      });
+    if (!filtered.length) {
+      $('brain-feed').innerHTML = '<p class="brain-empty">Aucun événement pour cette catégorie à cette étape de l’observation.</p>';
+      return;
+    }
+    const tags = { selectionner: 'SÉLECTION FICTIVE', ecarter: 'ÉCARTÉ', abstention: 'ABSTENTION' };
+    const outcomes = new Map(state.boosts.map(x => [x.id, x.reglement && x.reglement.statut]));
+    $('brain-feed').innerHTML = filtered.slice(0, 30).map(e => {
+      const last = e.historique[e.historique.length - 1];
+      const status = ['selectionner', 'ecarter', 'abstention'].includes(last.decision) ? last.decision : 'abstention';
+      const selected = e.premiere_selection;
+      const result = outcomes.get(e.id);
+      const settlement = selected && ['gagné', 'perdu', 'remboursé'].includes(result) ? ' · RÉSULTAT ' + String(result).toUpperCase() : '';
+      const reasons = Array.isArray(last.raisons) ? last.raisons.join(' · ') : 'Raison indisponible';
+      const fair = number(last.ev_pct);
+      const stake = selected ? number(selected.mise_fictive) : null;
+      const odds = number(last.cote);
+      return '<article class="brain-entry" data-decision="' + esc(status) + '">'
+        + '<div class="brain-entry-top"><span class="brain-tag">' + esc(tags[status]) + '</span><span>' + esc(dateText(last.horodatage)) + '</span></div>'
+        + '<div class="brain-entry-body"><div><span class="brain-source">' + esc(plain(e.bookmaker)) + ' / ' + esc(plain(e.sport)) + '</span>'
+        + '<h3>' + esc(plain(e.match)) + '</h3><p class="brain-pari">' + esc(plain(e.pari)) + '</p>'
+        + '<p class="brain-reason">' + esc(reasons) + '</p></div>'
+        + '<div class="brain-numbers"><span>COTE OBSERVÉE</span><strong>' + (odds === null ? '—' : esc(fmt(odds, 2))) + '</strong>'
+        + '<span>EV DE RÉFÉRENCE</span><b>' + (fair === null ? 'NON CALCULABLE' : esc(pct(fair))) + '</b></div></div>'
+        + '<div class="brain-entry-bottom"><span>DÉBUT ' + esc(dateText(e.debut)) + settlement + '</span>'
+        + '<span>' + (selected ? '1RE SÉLECTION ' + esc(dateText(selected.horodatage)) + ' · MISE FICTIVE ' + esc(fmt(stake, 2)) + ' €' : 'AUCUNE MISE FICTIVE') + '</span></div>'
+        + '</article>';
+    }).join('');
+  }
+
   function renderSettlements() {
     const settled = (state.bilan?.A?.paris || []).filter(p => ['gagné','perdu','remboursé'].includes(p.statut)).sort((a,b) => (datetime(b.debut)?.getTime() || 0) - (datetime(a.debut)?.getTime() || 0)).slice(0, 10);
     if (!settled.length) { $('settled-table').innerHTML = '<tr><td colspan="5">Aucun résultat réglé disponible.</td></tr>'; return; }
@@ -256,11 +310,11 @@
     $('refresh').disabled = true; $('refresh').classList.add('is-loading');
     try {
       const key = Math.floor(Date.now() / 60000);
-      const [boosts, bilan, etat] = await Promise.all(['boosts.json','bilan.json','etat.json'].map(file => getJSON(file, key)));
+      const [boosts, bilan, etat, brain] = await Promise.all([...['boosts.json','bilan.json','etat.json'].map(file => getJSON(file, key)), getJSON('cerveau.json', key).catch(() => null)]);
       if (!boosts || typeof boosts !== 'object' || Array.isArray(boosts) || !bilan?.A?.global || !etat?.dernier_passage) throw new Error('Format des données inattendu');
       state.boosts = Object.values(boosts).filter(b => b && typeof b === 'object' && typeof b.id === 'string');
-      state.bilan = bilan; state.etat = etat; state.ready = true;
-      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderLab(); renderSettlements();
+      state.bilan = bilan; state.etat = etat; state.brain = brain; state.ready = true;
+      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderLab(); renderSettlements(); renderBrain();
     } catch (error) {
       if (!state.ready) {
         $('boost-list').innerHTML = '<div class="empty-state"><span class="empty-state-symbol">!</span><strong>REGISTRE INACCESSIBLE</strong><p>Les fichiers publics GitHub ne répondent pas. Aucun chiffre de remplacement n’est affiché.</p><button id="retry" type="button">RÉESSAYER ↗</button></div>';
@@ -278,6 +332,7 @@
     for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.limit = PAGE_SIZE; renderList(); });
     document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.limit = PAGE_SIZE; syncControls(); renderList(); }));
     $('strategy-switch').addEventListener('click', event => { const button = event.target.closest('button[data-strategy]'); if (button && STRATEGY_META[button.dataset.strategy]) { state.strategy = button.dataset.strategy; renderLab(); } });
+    document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; renderBrain(); } });
     $('favorites-only').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; state.limit = PAGE_SIZE; syncControls(); renderList(); });
     $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderList(); });
     $('boost-list').addEventListener('click', (e) => {
