@@ -1,17 +1,17 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 33,
+   "abstention": 35,
    "ecarter": 0,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-09T14:25:48+00:00",
+  "derniere_observation": "2026-10-09T15:24:59+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "observations_reglees": 0,
-  "observes": 33,
+  "observes": 35,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -19,7 +19,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-09T14:25:48+00:00",
+ "derniere_observation": "2026-10-09T15:24:59+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1036,6 +1036,41 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "winamax|715030061|2216203536": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-09T17:00+00:00",
+   "historique": [
+    {
+     "cote": 11.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 9.0,
+      "hausse_pct": 22.2,
+      "horizon_heures": 1.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-09T15:24:59+00:00",
+     "mise_fictive": null,
+     "raisons": [
+      "Marché absent, combiné ou probabilité non exacte"
+     ],
+     "source": [],
+     "version": "observation-v1"
+    }
+   ],
+   "id": "winamax|715030061|2216203536",
+   "match": "NBA 2026 - 2027",
+   "pari": "New York Knicks gagne le titre NBA",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
   "winamax|715067051|2216304721": {
    "bookmaker": "Winamax",
    "debut": "2026-10-09T14:10+00:00",
@@ -1175,6 +1210,41 @@
    "pari": "Plus de 164,5 points lors de chacun des matchs suivants : New York Liberty - Atlanta Dream et Las Vegas Aces - Golden State Valkyries",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|715199678|2216688834": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T07:30+00:00",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.5,
+      "hausse_pct": 11.1,
+      "horizon_heures": 16.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-09T15:24:59+00:00",
+     "mise_fictive": null,
+     "raisons": [
+      "Marché absent, combiné ou probabilité non exacte"
+     ],
+     "source": [],
+     "version": "observation-v1"
+    }
+   ],
+   "id": "winamax|715199678|2216688834",
+   "match": "Ch. du Monde +78 kg (F)",
+   "pari": "Léa Fontaine remporte la médaille d'or",
+   "premiere_selection": null,
+   "sport": "Judo"
   }
  },
  "modele": "observation-v1",
