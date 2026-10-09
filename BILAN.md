@@ -1,18 +1,18 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 09/10 17h24 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 09/10 18h24 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 18 / 56 | 365 € | **+106,50 €** | **+29,2 %** | -100,00 € |
+| **A — tout miser** | 19 / 56 | 385 € | **+144,50 €** | **+37,5 %** | -100,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **C — 10 € maximum** | 18 / 56 | 180 € | **+50,00 €** | **+27,8 %** | -50,00 € |
-| **D — cote 1,60–3,50** | 14 / 38 | 140 € | **+6,50 €** | **+4,6 %** | -40,00 € |
-| **E — dans les 48 h** | 18 / 35 | 180 € | **+50,00 €** | **+27,8 %** | -50,00 € |
+| **C — 10 € maximum** | 19 / 56 | 190 € | **+69,00 €** | **+36,3 %** | -50,00 € |
+| **D — cote 1,60–3,50** | 15 / 38 | 150 € | **+25,50 €** | **+17,0 %** | -40,00 € |
+| **E — dans les 48 h** | 19 / 35 | 190 € | **+69,00 €** | **+36,3 %** | -50,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 17 / 33 | 170 € | **+60,00 €** | **+35,3 %** | -50,00 € |
+| **H — un boost/match** | 18 / 33 | 180 € | **+79,00 €** | **+43,9 %** | -50,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -23,7 +23,7 @@ Mis à jour le 09/10 17h24 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenne 3,14 · pire série perdante 5
+A en détail : 9 gagnés, 10 perdus, 0 remboursés, 37 en attente · cote moyenne 3,14 · pire série perdante 5
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -33,27 +33,27 @@ A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenn
 |---|---|---|---|---|---|
 | EV < 0 (approx) | 3 / 3 | 60 € | +48,00 € | +80,0 % | 67 % |
 | EV < 0 (exacte) | 2 / 3 | 40 € | +6,00 € | +15,0 % | 50 % |
-| non évaluable | 13 / 50 | 265 € | +52,50 € | +19,8 % | 38 % |
+| non évaluable | 14 / 50 | 285 € | +90,50 € | +31,8 % | 43 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 1 / 24 | 25 € | +32,50 € | +130,0 % | 100 % |
-| Winamax | 17 / 32 | 340 € | +74,00 € | +21,8 % | 41 % |
+| Winamax | 18 / 32 | 360 € | +112,00 € | +31,1 % | 44 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 21 | 0 € | +0,00 € | – | – |
-| match | 18 / 35 | 365 € | +106,50 € | +29,2 % | 44 % |
+| match | 19 / 35 | 385 € | +144,50 € | +37,5 % | 47 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 17 / 32 | 340 € | +74,00 € | +21,8 % | 41 % |
+| 20 € | 18 / 32 | 360 € | +112,00 € | +31,1 % | 44 % |
 | 25 € | 1 / 24 | 25 € | +32,50 € | +130,0 % | 100 % |
 
 ### A par tranche de cote
@@ -61,7 +61,7 @@ A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenn
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
-| 2 – 3 | 11 / 24 | 225 € | +19,50 € | +8,7 % | 46 % |
+| 2 – 3 | 12 / 24 | 245 € | +57,50 € | +23,5 % | 50 % |
 | 3 – 5 | 7 / 19 | 140 € | +87,00 € | +62,1 % | 43 % |
 | 5 – 10 | 0 / 4 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
@@ -72,7 +72,7 @@ A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenn
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
 | Basketball | 1 / 24 | 20 € | -20,00 € | -100,0 % | 0 % |
-| Football | 3 / 13 | 60 € | +12,00 € | +20,0 % | 33 % |
+| Football | 4 / 13 | 80 € | +50,00 € | +62,5 % | 50 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 2 / 3 | 40 € | +20,00 € | +50,0 % | 50 % |
@@ -85,7 +85,7 @@ A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenn
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 18 / 56 | 365 € | +106,50 € | +29,2 % | 44 % |
+| 2026-10 | 19 / 56 | 385 € | +144,50 € | +37,5 % | 47 % |
 
 ### Derniers paris
 
@@ -127,7 +127,7 @@ A en détail : 8 gagnés, 10 perdus, 0 remboursés, 38 en attente · cote moyenn
 | 09/10 19h00 · NBA 2026 - 2027 | New York Knicks gagne le titre NBA | 11,0 | – | – | 20 € | ⏳ |
 | 09/10 19h00 · Galatasaray - Kasimpasa | Galatasaray gagne les deux mi-temps | 2,6 | – | – | 20 € | ⏳ |
 | 09/10 16h10 · Ch. du Monde -78 kg (F) | Kaïla Issoufi remporte la médaille d'or | 2,75 | – | – | 20 € | ⏳ |
-| 09/10 13h35 · Chine Super League | Plus de 2,5 buts dans chacun des 3 matchs à partir de 13h35 | 2,9 | – | – | 20 € | ⏳ |
+| 09/10 13h35 · Chine Super League | Plus de 2,5 buts dans chacun des 3 matchs à partir de 13h35 | 2,9 | – | – | 20 € | ✅ +38,00 € |
 | 09/10 13h00 · Elise Mertens - Iga Swiatek | Iga Swiatek mène après 2 jeux lors du match | 2,7 | – | – | 20 € | ❌ -20,00 € |
 | 09/10 12h00 · Novak Djokovic - Hubert Hurkacz | Novak Djokovic gagne 2-0 | 2,5 | – | – | 20 € | ❌ -20,00 € |
 | 09/10 12h00 · J.League | Plus de 2,5 buts dans chacun des 2 matchs à 12h00 | 3,0 | – | – | 20 € | ❌ -20,00 € |
