@@ -1,10 +1,10 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 09/10 08h19 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 09/10 09h18 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 9 / 34 | 180 € | **+45,00 €** | **+25,0 %** | -40,00 € |
+| **A — tout miser** | 9 / 38 | 180 € | **+45,00 €** | **+25,0 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 
@@ -12,7 +12,7 @@ Mis à jour le 09/10 08h19 (heure de Paris). Argent fictif : un pari par boost, 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 4 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne 2,89 · pire série perdante 2
+A en détail : 4 gagnés, 5 perdus, 0 remboursés, 29 en attente · cote moyenne 2,91 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -22,35 +22,35 @@ A en détail : 4 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 |---|---|---|---|---|---|
 | EV < 0 (approx) | 2 / 3 | 40 € | +68,00 € | +170,0 % | 100 % |
 | EV < 0 (exacte) | 1 / 2 | 20 € | -20,00 € | -100,0 % | 0 % |
-| non évaluable | 6 / 29 | 120 € | -3,00 € | -2,5 % | 33 % |
+| non évaluable | 6 / 33 | 120 € | -3,00 € | -2,5 % | 33 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| Unibet | 0 / 21 | 0 € | +0,00 € | – | – |
-| Winamax | 9 / 13 | 180 € | +45,00 € | +25,0 % | 44 % |
+| Unibet | 0 / 22 | 0 € | +0,00 € | – | – |
+| Winamax | 9 / 16 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 20 | 0 € | +0,00 € | – | – |
-| match | 9 / 14 | 180 € | +45,00 € | +25,0 % | 44 % |
+| match | 9 / 18 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 9 / 13 | 180 € | +45,00 € | +25,0 % | 44 % |
-| 25 € | 0 / 21 | 0 € | +0,00 € | – | – |
+| 20 € | 9 / 16 | 180 € | +45,00 € | +25,0 % | 44 % |
+| 25 € | 0 / 22 | 0 € | +0,00 € | – | – |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2 – 3 | 5 / 14 | 100 € | -7,00 € | -7,0 % | 40 % |
-| 3 – 5 | 4 / 9 | 80 € | +52,00 € | +65,0 % | 50 % |
+| 2 – 3 | 5 / 16 | 100 € | -7,00 € | -7,0 % | 40 % |
+| 3 – 5 | 4 / 11 | 80 € | +52,00 € | +65,0 % | 50 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -60,19 +60,19 @@ A en détail : 4 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
 | Basketball | 0 / 20 | 0 € | +0,00 € | – | – |
-| Football | 1 / 2 | 20 € | +52,00 € | +260,0 % | 100 % |
+| Football | 1 / 5 | 20 € | +52,00 € | +260,0 % | 100 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 2 / 2 | 40 € | +20,00 € | +50,0 % | 50 % |
 | Rugby à XV | 1 / 1 | 20 € | +25,00 € | +125,0 % | 100 % |
-| Tennis | 0 / 3 | 0 € | +0,00 € | – | – |
+| Tennis | 0 / 4 | 0 € | +0,00 € | – | – |
 | Tennis de table | 0 / 1 | 0 € | +0,00 € | – | – |
 
 ### A par mois
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 9 / 34 | 180 € | +45,00 € | +25,0 % | 44 % |
+| 2026-10 | 9 / 38 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### Derniers paris
 
@@ -97,8 +97,12 @@ A en détail : 4 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 | 20/10 19h00 · Paris Trashtalk 26/27 | LA Lakers - Luka Doncic meilleur marqueur NBA en saison régulière (moyenne points/match, perdant si moins de 58 matchs joués) | 1,87 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | CHI Bulls - Caleb Wilson meilleur marqueur des Bulls (total de points) | 5,5 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds) | 2,5 | – | – | 25 € | ⏳ |
+| 09/10 20h45 · Lens - Lyon | Le duo F.Thauvin / L.Openda cumule plus de 1,5 buts et passes décisives (remboursé si non titulaires) | 2,3 | – | – | 25 € | ⏳ |
 | 09/10 20h00 · Ligue 2 - 09/10 | Plus de 1,5 buts dans chacun des 5 matchs de 20:00 | 3,65 | – | – | 25 € | ⏳ |
+| 09/10 12h00 · Novak Djokovic - Hubert Hurkacz | Novak Djokovic gagne 2-0 | 2,5 | – | – | 20 € | ⏳ |
+| 09/10 12h00 · J.League | Plus de 2,5 buts dans chacun des 2 matchs à 12h00 | 3,0 | – | – | 20 € | ⏳ |
 | 09/10 10h30 · Illawarra Hawks - Tasmania Jackjumpers | Illawarra Hawks gagne à la mi-temps et à la fin du match (hors prol.) | 2,5 | 3,704 | -32,5 % ≈ | 20 € | ⏳ |
+| 09/10 09h30 · K-League 1 | Les 2 équipes marquent dans chacun des 2 matchs à 9h30 | 4,5 | – | – | 20 € | ⏳ |
 | 09/10 06h00 · A.Gea - U.Humbert | Les 2 joueurs gagnent un set ? | 2,3 | – | – | 25 € | ⏳ |
 | 09/10 06h00 · Adrian Mannarino - Flavio Cobolli | Adrian Mannarino gagne le premier set | 2,4 | – | – | 20 € | ⏳ |
 | 09/10 06h00 · Arthur Gea - Ugo Humbert | Plus de 2,5 sets lors du match | 2,3 | 2,674 | -14,0 % | 20 € | ⏳ |
