@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e6">
+  <meta name="description" content="Le registre indépendant des cotes boostées : offres Winamax et Unibet, écarts de cotes, évaluations et simulations documentées.">
+  <meta property="og:title" content="Cote Boostée — Le registre">
+  <meta property="og:description" content="Les boosts sous la loupe, sans promesses ni faux signaux.">
+  <title>COTE BOOSTÉE / Le registre</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#flux">Aller aux offres</a>
+  <div class="topline"><div class="wrap topline-inner"><span>OBSERVATOIRE INDÉPENDANT DES COTES</span><span class="topline-middle">PAS UN BOOKMAKER. PAS UN PRONOSTIQUEUR.</span><span>ÉDITION FRANÇAISE <span class="top-dot">●</span></span></div></div>
+  <header class="site-header wrap">
+    <a href="#accueil" class="brand" aria-label="Cote Boostée, accueil">
+      <span class="brand-symbol" aria-hidden="true"><span class="brand-flash">↗</span></span>
+      <span class="brand-type">COTE<span class="brand-accent">/</span><br>BOOSTÉE<span class="brand-period">.</span></span>
+    </a>
+    <nav class="header-nav" aria-label="Navigation principale"><a href="#flux">LE FLUX <span>01</span></a><a href="#bilan">LE LABO <span>02</span></a><a href="#journal">LE JOURNAL <span>03</span></a></nav>
+    <button class="refresh-btn" type="button" id="refresh" aria-label="Actualiser les données"><span class="refresh-symbol" aria-hidden="true">↻</span><span>ACTUALISER</span></button>
+  </header>
+
+  <main id="accueil">
+    <section class="intro wrap" aria-labelledby="hero-title">
+      <div class="issue-line"><span>LE REGISTRE <strong>— 001</strong></span><span>LES CHIFFRES, PAS LE BRUIT.</span></div>
+      <div class="intro-grid">
+        <div class="intro-title">
+          <p class="eyebrow"><span class="red-square"></span> ENQUÊTE EN COURS / WINAMAX · UNIBET</p>
+          <h1 id="hero-title">LA COTE<br><span>À LA LOUPE<span class="hero-dot">.</span></span></h1>
+          <p class="intro-copy">Une cote boostée n'est pas forcément une bonne affaire. On les collecte, on les compare et on vérifie ce qu'elles valent <em>vraiment.</em></p>
+        </div>
+        <aside class="issue-stamp" aria-label="Informations sur les données"><div class="stamp-corner">↗</div><span class="stamp-top">DERNIÈRE ÉDITION</span><strong id="scan-date">—</strong><span class="stamp-bottom" id="scan-time">Chargement des données…</span><div class="stamp-rule"></div><span class="stamp-small" id="data-status">CONNEXION AU REGISTRE</span></aside>
+      </div>
+      <div class="marquee" aria-hidden="true"><span>LE VRAI PRIX D'UN BOOST</span><span class="marquee-star">✳</span><span>LA MISE À L'ÉPREUVE</span><span class="marquee-star">✳</span><span>LES RÉSULTATS SANS RETOUCHE</span><span class="marquee-star">✳</span></div>
+    </section>
+
+    <section class="metrics wrap" aria-label="Chiffres du registre">
+      <div class="metric"><span class="metric-index">A / 01</span><strong id="metric-all">—</strong><span class="metric-name">BOOSTS ARCHIVÉS</span></div>
+      <div class="metric"><span class="metric-index">B / 02</span><strong id="metric-active">—</strong><span class="metric-name">REPÉRÉS AU DERNIER SCAN</span></div>
+      <div class="metric"><span class="metric-index">C / 03</span><strong id="metric-settled">—</strong><span class="metric-name">PARIS FICTIFS RÉGLÉS</span></div>
+      <div class="metric metric-accent"><span class="metric-index">D / 04 · STRATÉGIE A</span><strong id="metric-roi">—</strong><span class="metric-name">ROI SIMULÉ (PARIS RÉGLÉS)</span></div>
+    </section>
+
+    <section class="main-section wrap" id="flux" aria-labelledby="flux-title">
+      <div class="section-heading"><div><span class="section-number">01 / LE FLUX</span><h2 id="flux-title">DANS LE VISEUR<span class="heading-period">.</span></h2><p>Les offres telles qu'elles ont été observées. Les dates et la fraîcheur de la collecte comptent.</p></div><div class="section-aside"><span class="tiny-label">SOURCE</span><strong>WINAMAX / UNIBET</strong><span id="freshness-note">Synchronisation en cours</span></div></div>
+      <div class="content-grid">
+        <div class="stream-pane">
+          <div class="filterbar">
+            <div class="segmented" role="group" aria-label="Type d'offres"><button class="segment is-active" data-view="actifs" type="button" aria-pressed="true">REPÉRÉS <span id="tab-active-count">—</span></button><button class="segment" data-view="value" type="button" aria-pressed="false">EV ≥ 5 % <span id="tab-value-count">—</span></button><button class="segment" data-view="tous" type="button" aria-pressed="false">ARCHIVES <span id="tab-all-count">—</span></button></div>
+            <button class="favorites-toggle" id="favorites-only" type="button" aria-pressed="false" aria-label="Afficher uniquement mes favoris">☆ <span>MES REPÈRES</span></button>
+          </div>
+          <div class="controls"><label class="search-control"><span class="visually-hidden">Rechercher un match ou pari</span><span aria-hidden="true">⌕</span><input type="search" id="search" placeholder="Chercher un match, un pari, un joueur…" autocomplete="off"></label><label class="select-control"><span class="visually-hidden">Filtrer par sport</span><select id="sport"><option value="tous">TOUS LES SPORTS</option></select></label><label class="select-control"><span class="visually-hidden">Filtrer par bookmaker</span><select id="bookmaker"><option value="tous">TOUS LES BOOKS</option></select></label></div>
+          <div class="listing-line"><span id="result-count" aria-live="polite">CHARGEMENT…</span><label class="sort-control">TRIER <select id="sort" aria-label="Trier les offres"><option value="recent">PLUS RÉCENTES</option><option value="soon">PROCHAINS MATCHS</option><option value="uplift">PLUS GROS BOOSTS</option><option value="odd">COTES DÉCROISSANTES</option></select></label></div>
+          <div id="boost-list" class="boost-list" aria-live="polite"><div class="initial-loading"><span class="loading-mark">↗</span><strong>OUVERTURE DU REGISTRE</strong><small>Lecture des données publiques GitHub…</small></div></div>
+          <button class="load-more" type="button" id="load-more" hidden>VOIR LES AUTRES OFFRES <span aria-hidden="true">↘</span></button>
+        </div>
+        <aside class="side-pane">
+          <div class="side-section side-black"><span class="side-eyebrow">// LE POINT MÉTHODE</span><h3>BOOSTÉ<br>NE VEUT PAS<br>DIRE <em>VALUE.</em></h3><p>Le pourcentage de hausse d'une cote mesure la promotion. Pas sa rentabilité. Une EV n'est affichée que si une référence a pu être calculée.</p><div class="side-scribble" aria-hidden="true">≠</div></div>
+          <div class="side-section side-counter"><span class="side-eyebrow">LECTURE DU MARCHÉ</span><span class="counter-number" id="count-value">—</span><span class="counter-label">SIGNAUX EV ≥ 5 %<br><strong>EXACTS ET OBSERVÉS</strong></span><p id="value-summary">Données en cours de lecture.</p></div>
+          <div class="side-section side-note"><span class="side-eyebrow">LE BON RÉFLEXE</span><p><strong>Avant de considérer un boost :</strong> vérifier la disponibilité, l'heure, la mise maximale et surtout la fiabilité de sa cote juste.</p><a href="#bilan">COMPRENDRE LES SIMULATIONS <span aria-hidden="true">↗</span></a></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="lab-section" id="bilan" aria-labelledby="bilan-title"><div class="wrap">
+      <div class="section-heading lab-heading"><div><span class="section-number">02 / LE LABORATOIRE</span><h2 id="bilan-title">LE TEST DE VÉRITÉ<span class="heading-period">.</span></h2><p>Chaque boost à la mise maximale affichée, en argent fictif. Le bilan ne prédit pas l'avenir.</p></div><span class="lab-stamp">ARGENT FICTIF<br>RÉSULTATS RÉELS<br>CALCUL TRANSPARENT</span></div>
+      <div class="strategy-switch" role="group" aria-label="Choisir une simulation"><button type="button" data-strategy="A" class="strategy-button is-active" aria-pressed="true"><span>STRATÉGIE A</span><strong>TOUT PRENDRE</strong><small>TOUS LES BOOSTS</small></button><button type="button" data-strategy="B_exacte" class="strategy-button" aria-pressed="false"><span>STRATÉGIE B1</span><strong>FILTRER / EXACT</strong><small>EV ≥ 5 % · COTE JUSTE</small></button><button type="button" data-strategy="B_approx" class="strategy-button" aria-pressed="false"><span>STRATÉGIE B2</span><strong>FILTRER / ESTIMÉ</strong><small>EV ≥ 5 % · APPROXIMATION</small></button></div>
+      <div class="lab-result"><div class="lab-summary"><span class="tiny-label">RÉSULTAT NET / EN € FICTIFS</span><strong id="lab-gain">—</strong><span id="lab-detail" class="lab-detail">Chargement…</span><div class="lab-pair"><div><small>ROI RÉGLÉ</small><strong id="lab-roi">—</strong></div><div><small>PARIS RÉGLÉS</small><strong id="lab-settled">—</strong></div></div></div><div class="lab-chart"><div class="chart-heading"><span>TRAJECTOIRE DU GAIN CUMULÉ</span><span id="chart-caption">SIMULATION HISTORIQUE</span></div><div id="chart" class="chart-area" role="img" aria-label="Courbe du gain cumulé simulé"></div><div class="chart-footer"><span>DÉPART / 0 €</span><span>ÉVOLUTION DES PARIS RÉGLÉS →</span></div></div></div>
+      <p class="lab-disclaimer"><strong>À LIRE :</strong> le ROI porte uniquement sur les paris déjà réglés. Un petit échantillon peut afficher une performance spectaculaire mais peu représentative. Aucun résultat futur n'est garanti.</p>
+    </div></section>
+
+    <section class="journal-section wrap" id="journal" aria-labelledby="journal-title"><div class="section-heading"><div><span class="section-number">03 / LE JOURNAL</span><h2 id="journal-title">L'HISTORIQUE BRUT<span class="heading-period">.</span></h2><p>Les derniers paris fictifs réglés, sans sélection des seuls gagnants.</p></div><span class="journal-indicator">ARCHIVES CONSULTABLES</span></div><div class="table-scroll"><table class="settlements"><thead><tr><th>RENCONTRE / PARI</th><th>BOOK</th><th>COTE</th><th>ISSUE</th><th>GAIN NET FICTIF</th></tr></thead><tbody id="settled-table"><tr><td colspan="5">Lecture de l'historique…</td></tr></tbody></table></div><div class="journal-footer"><span>RÉSULTATS ISSUS DE LA BRANCHE « DONNEES »</span><a href="https://github.com/Matttgic/cotes-boostees/tree/donnees" target="_blank" rel="noopener noreferrer">VOIR LE JOURNAL COMPLET SUR GITHUB ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><div><strong>COTE/BOOSTÉE<span>.</span></strong><p>Un registre. Pas une promesse.</p></div><div class="footer-legal"><p>Simulation exclusivement. Les paris sportifs peuvent entraîner des pertes. Interdit aux mineurs.</p><p>Besoin d'aide ? <a href="https://www.joueurs-info-service.fr/" target="_blank" rel="noopener noreferrer">Joueurs Info Service</a> — 09 74 75 13 13</p></div><a class="footer-github" href="https://github.com/Matttgic/cotes-boostees" target="_blank" rel="noopener noreferrer">SOURCE OUVERTE ↗</a></div></footer>
+  <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
