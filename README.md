@@ -1,5 +1,7 @@
 # Cotes boostées
 
+**Webapp : https://cotes-boostees-five.vercel.app/** — interface de consultation, reliée à la branche `donnees`. Documentation : [`SITE.md`](SITE.md).
+
 Suivi des cotes boostées de **Winamax, Unibet et PMU** pour savoir si elles sont rentables.
 
 Deux stratégies simulées en parallèle, en argent fictif, chaque boost misé à son plafond :

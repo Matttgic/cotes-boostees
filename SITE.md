@@ -29,9 +29,9 @@ Puis ouvrir `http://localhost:8080/`. Aucun package ni compilation nécessaires.
 
 ## Publication
 
-Le workflow `.github/workflows/pages.yml` publie automatiquement le site depuis `main` sur **GitHub Pages** à chaque modification de l'interface. Dans **Settings → Pages**, choisir **Build and deployment → Source: GitHub Actions** pour activer Pages si nécessaire. Adresse attendue après publication : `https://matttgic.github.io/cotes-boostees/` (à confirmer dans le workflow).
+La version publique est déployée sur **Vercel** : https://cotes-boostees-five.vercel.app/
 
-Alternativement, connecter ce dépôt à Vercel avec le répertoire racine `/` et le preset **Other**, sans build.
+Le projet `cotes-boostees` est connecté au dépôt GitHub. La branche `main` est la branche de production. Framework **Other** (site HTML/CSS/JavaScript, sans build). Toute mise à jour de l'interface poussée sur `main` peut déclencher un nouveau déploiement Vercel. Aucun secret du collecteur n'est utilisé côté navigateur.
 
 ## Limites importantes
 

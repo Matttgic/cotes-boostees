@@ -47,7 +47,7 @@
     if (initial && ['exacte', 'approx'].includes(initial.statut) && valid(initial.ev_pct)) return initial;
     return null;
   }
-  function confirmedValue(b) { const v = evData(b); return observedRecently(b) && v && v.statut === 'exacte' && number(v.ev_pct) >= 5; }
+  function confirmedValue(b) { const v = b.valeur_derniere; return observedRecently(b) && v && v.statut === 'exacte' && number(v.ev_pct) >= 5; }
   function boostLift(b) {
     const uplift = number(b.hausse_pct);
     if (uplift !== null) return uplift;
@@ -129,7 +129,7 @@
     const original = number(b.cote_origine), boosted = number(b.cote_boostee);
     const rise = boostLift(b), v = evData(b), here = observedRecently(b);
     const fav = state.favorites.has(b.id), expanded = state.expanded.has(b.id);
-    const evMarkup = v ? `<span class="tiny-tag ${v.statut === 'exacte' ? 'value' : 'uncertain'}">${v.statut === 'exacte' ? 'EV' : 'EV ≈'} ${esc(pct(number(v.ev_pct)))}</span>` : '<span class="tiny-tag">EV NON ÉVALUÉE</span>';
+    const evMarkup = v ? `<span class="tiny-tag ${v.statut === 'exacte' ? 'value' : 'uncertain'}">${v === b.valeur_initiale && v !== b.valeur_derniere ? 'EV INIT.' : v.statut === 'exacte' ? 'EV' : 'EV ≈'} ${esc(pct(number(v.ev_pct)))}</span>` : '<span class="tiny-tag">EV NON ÉVALUÉE</span>';
     const date = b.long_terme ? 'SAISON / LONG TERME' : dateText(b.debut);
     const quality = v?.statut === 'exacte' ? 'Exacte selon la méthode du moteur.' : v?.statut === 'approx' ? 'Approchée : les conditions liées peuvent fausser la probabilité.' : 'Pas de référence suffisamment fiable.';
     const reason = b.valeur_derniere?.raison || b.valeur_initiale?.raison || '';
