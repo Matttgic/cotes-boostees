@@ -88,32 +88,48 @@
    {
     "cumul": 196.5,
     "debut": "2026-10-09T17:00+00:00"
+   },
+   {
+    "cumul": 228.5,
+    "debut": "2026-10-09T17:30+00:00"
+   },
+   {
+    "cumul": 208.5,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 188.5,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 168.5,
+    "debut": "2026-10-09T18:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 37,
-   "gagnes": 11,
-   "gain_net": 196.5,
-   "mise_totale": 445.0,
-   "paris": 59,
-   "perdus": 11,
+   "cote_moyenne": 3.14,
+   "en_attente": 34,
+   "gagnes": 12,
+   "gain_net": 168.5,
+   "mise_totale": 525.0,
+   "paris": 60,
+   "perdus": 14,
    "pire_baisse": -60.0,
    "pire_serie_perdante": 3,
-   "regles": 22,
+   "regles": 26,
    "rembourses": 0,
-   "reussite_pct": 50.0,
-   "roi_pct": 44.2
+   "reussite_pct": 46.2,
+   "roi_pct": 32.1
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.82,
-    "en_attente": 23,
+    "cote_moyenne": 2.81,
+    "en_attente": 24,
     "gagnes": 1,
     "gain_net": 32.5,
     "mise_totale": 25.0,
-    "paris": 24,
+    "paris": 25,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -122,16 +138,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.38,
-    "en_attente": 14,
-    "gagnes": 10,
-    "gain_net": 164.0,
-    "mise_totale": 420.0,
+    "en_attente": 10,
+    "gagnes": 11,
+    "gain_net": 136.0,
+    "mise_totale": 500.0,
     "paris": 35,
-    "perdus": 11,
-    "regles": 21,
+    "perdus": 14,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 47.6,
-    "roi_pct": 39.0
+    "reussite_pct": 44.0,
+    "roi_pct": 27.2
    }
   },
   "par_horizon": {
@@ -149,40 +165,40 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.3,
-    "en_attente": 16,
-    "gagnes": 11,
-    "gain_net": 196.5,
-    "mise_totale": 445.0,
-    "paris": 38,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.28,
+    "en_attente": 13,
+    "gagnes": 12,
+    "gain_net": 168.5,
+    "mise_totale": 525.0,
+    "paris": 39,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 44.2
+    "reussite_pct": 46.2,
+    "roi_pct": 32.1
    }
   },
   "par_mise": {
    "20 €": {
     "cote_moyenne": 3.38,
-    "en_attente": 14,
-    "gagnes": 10,
-    "gain_net": 164.0,
-    "mise_totale": 420.0,
+    "en_attente": 10,
+    "gagnes": 11,
+    "gain_net": 136.0,
+    "mise_totale": 500.0,
     "paris": 35,
-    "perdus": 11,
-    "regles": 21,
+    "perdus": 14,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 47.6,
-    "roi_pct": 39.0
+    "reussite_pct": 44.0,
+    "roi_pct": 27.2
    },
    "25 €": {
-    "cote_moyenne": 2.82,
-    "en_attente": 23,
+    "cote_moyenne": 2.81,
+    "en_attente": 24,
     "gagnes": 1,
     "gain_net": 32.5,
     "mise_totale": 25.0,
-    "paris": 24,
+    "paris": 25,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -192,17 +208,17 @@
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 37,
-    "gagnes": 11,
-    "gain_net": 196.5,
-    "mise_totale": 445.0,
-    "paris": 59,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.14,
+    "en_attente": 34,
+    "gagnes": 12,
+    "gain_net": 168.5,
+    "mise_totale": 525.0,
+    "paris": 60,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 44.2
+    "reussite_pct": 46.2,
+    "roi_pct": 32.1
    }
   },
   "par_sport": {
@@ -234,16 +250,16 @@
    },
    "Football": {
     "cote_moyenne": 3.24,
-    "en_attente": 10,
+    "en_attente": 8,
     "gagnes": 3,
-    "gain_net": 82.0,
-    "mise_totale": 100.0,
+    "gain_net": 42.0,
+    "mise_totale": 140.0,
     "paris": 15,
-    "perdus": 2,
-    "regles": 5,
+    "perdus": 4,
+    "regles": 7,
     "rembourses": 0,
-    "reussite_pct": 60.0,
-    "roi_pct": 82.0
+    "reussite_pct": 42.9,
+    "roi_pct": 30.0
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -273,16 +289,16 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.38,
-    "en_attente": 2,
+    "en_attente": 1,
     "gagnes": 1,
-    "gain_net": 20.0,
-    "mise_totale": 40.0,
+    "gain_net": 0.0,
+    "mise_totale": 60.0,
     "paris": 4,
-    "perdus": 1,
-    "regles": 2,
+    "perdus": 2,
+    "regles": 3,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 50.0
+    "reussite_pct": 33.3,
+    "roi_pct": 0.0
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -299,24 +315,24 @@
    },
    "Rugby à XV": {
     "cote_moyenne": 2.42,
-    "en_attente": 1,
-    "gagnes": 1,
-    "gain_net": 25.0,
-    "mise_totale": 20.0,
+    "en_attente": 0,
+    "gagnes": 2,
+    "gain_net": 57.0,
+    "mise_totale": 40.0,
     "paris": 2,
     "perdus": 0,
-    "regles": 1,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 100.0,
-    "roi_pct": 125.0
+    "roi_pct": 142.5
    },
    "Tennis": {
     "cote_moyenne": 2.53,
-    "en_attente": 0,
+    "en_attente": 1,
     "gagnes": 4,
     "gain_net": 86.5,
     "mise_totale": 125.0,
-    "paris": 6,
+    "paris": 7,
     "perdus": 2,
     "regles": 6,
     "rembourses": 0,
@@ -354,28 +370,28 @@
    "2 – 3": {
     "cote_moyenne": 2.45,
     "en_attente": 10,
-    "gagnes": 7,
-    "gain_net": 69.5,
-    "mise_totale": 285.0,
-    "paris": 24,
+    "gagnes": 8,
+    "gain_net": 101.5,
+    "mise_totale": 305.0,
+    "paris": 25,
     "perdus": 7,
-    "regles": 14,
+    "regles": 15,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 24.4
+    "reussite_pct": 53.3,
+    "roi_pct": 33.3
    },
    "3 – 5": {
     "cote_moyenne": 3.61,
-    "en_attente": 14,
+    "en_attente": 11,
     "gagnes": 4,
-    "gain_net": 127.0,
-    "mise_totale": 160.0,
+    "gain_net": 67.0,
+    "mise_totale": 220.0,
     "paris": 22,
-    "perdus": 4,
-    "regles": 8,
+    "perdus": 7,
+    "regles": 11,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 79.4
+    "reussite_pct": 36.4,
+    "roi_pct": 30.5
    },
    "5 – 10": {
     "cote_moyenne": 5.97,
@@ -432,17 +448,17 @@
     "roi_pct": 76.7
    },
    "non évaluable": {
-    "cote_moyenne": 3.19,
-    "en_attente": 35,
-    "gagnes": 7,
-    "gain_net": 102.5,
-    "mise_totale": 325.0,
-    "paris": 51,
-    "perdus": 9,
-    "regles": 16,
+    "cote_moyenne": 3.18,
+    "en_attente": 32,
+    "gagnes": 8,
+    "gain_net": 74.5,
+    "mise_totale": 405.0,
+    "paris": 52,
+    "perdus": 12,
+    "regles": 20,
     "rembourses": 0,
-    "reussite_pct": 43.8,
-    "roi_pct": 31.5
+    "reussite_pct": 40.0,
+    "roi_pct": 18.4
    }
   },
   "paris": [
@@ -844,14 +860,14 @@
     "cote_origine": 2.211,
     "debut": "2026-10-09T17:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 32.0,
     "horizon": "match",
     "id": "winamax|715003797|2216130419",
     "match": "Pro D2",
     "mise": 20.0,
     "pari": "Agen, Oyonnax et Stade Niçois gagnent chacun leur match (respectivement contre Dax, Narbonne et Nevers)",
     "sport": "Rugby à XV",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -861,14 +877,14 @@
     "cote_origine": 3.136,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|714916941|2215889347",
     "match": "Ligue 2 BKT®",
     "mise": 20.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -878,14 +894,14 @@
     "cote_origine": 3.132,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|714998727|2216115382",
     "match": "Synerglace Ligue Magnus",
     "mise": 20.0,
     "pari": "Plus de 4,5 buts dans chacun des 5 matchs du jour",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -895,14 +911,14 @@
     "cote_origine": 3.6,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|715008418|2216143812",
     "match": "Al Nassr - Diriyah Club",
     "mise": 20.0,
     "pari": "Cristiano Ronaldo marque 2 buts ou plus",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -1011,7 +1027,7 @@
     "bookmaker": "Winamax",
     "cote": 3.0,
     "cote_juste": 3.44,
-    "cote_origine": 2.623,
+    "cote_origine": 2.591,
     "debut": "2026-10-09T23:15+00:00",
     "ev_pct": -12.8,
     "gain": null,
@@ -1062,7 +1078,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.35,
+    "cote_origine": 3.3,
     "debut": "2026-10-10T01:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1106,6 +1122,23 @@
     "mise": 20.0,
     "pari": "Léa Fontaine remporte la médaille d'or",
     "sport": "Judo",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 2.5,
+    "cote_juste": null,
+    "cote_origine": 2.15,
+    "debut": "2026-10-10T11:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "unibet|194569294|725895834",
+    "match": "S.Baez - V.Vacherot",
+    "mise": 25.0,
+    "pari": "V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ?",
+    "sport": "Tennis",
     "statut": "en attente",
     "valeur": "non_evaluable"
    },
@@ -1597,32 +1630,48 @@
    {
     "cumul": 95.0,
     "debut": "2026-10-09T17:00+00:00"
+   },
+   {
+    "cumul": 111.0,
+    "debut": "2026-10-09T17:30+00:00"
+   },
+   {
+    "cumul": 101.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 91.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 81.0,
+    "debut": "2026-10-09T18:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 37,
-   "gagnes": 11,
-   "gain_net": 95.0,
-   "mise_totale": 220.0,
-   "paris": 59,
-   "perdus": 11,
+   "cote_moyenne": 3.14,
+   "en_attente": 34,
+   "gagnes": 12,
+   "gain_net": 81.0,
+   "mise_totale": 260.0,
+   "paris": 60,
+   "perdus": 14,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 22,
+   "regles": 26,
    "rembourses": 0,
-   "reussite_pct": 50.0,
-   "roi_pct": 43.2
+   "reussite_pct": 46.2,
+   "roi_pct": 31.2
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.82,
-    "en_attente": 23,
+    "cote_moyenne": 2.81,
+    "en_attente": 24,
     "gagnes": 1,
     "gain_net": 13.0,
     "mise_totale": 10.0,
-    "paris": 24,
+    "paris": 25,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -1631,16 +1680,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.38,
-    "en_attente": 14,
-    "gagnes": 10,
-    "gain_net": 82.0,
-    "mise_totale": 210.0,
+    "en_attente": 10,
+    "gagnes": 11,
+    "gain_net": 68.0,
+    "mise_totale": 250.0,
     "paris": 35,
-    "perdus": 11,
-    "regles": 21,
+    "perdus": 14,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 47.6,
-    "roi_pct": 39.0
+    "reussite_pct": 44.0,
+    "roi_pct": 27.2
    }
   },
   "par_horizon": {
@@ -1658,47 +1707,47 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.3,
-    "en_attente": 16,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 38,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.28,
+    "en_attente": 13,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 39,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.15,
-    "en_attente": 37,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 59,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.14,
+    "en_attente": 34,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 60,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 37,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 59,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.14,
+    "en_attente": 34,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 60,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_sport": {
@@ -1730,16 +1779,16 @@
    },
    "Football": {
     "cote_moyenne": 3.24,
-    "en_attente": 10,
+    "en_attente": 8,
     "gagnes": 3,
-    "gain_net": 41.0,
-    "mise_totale": 50.0,
+    "gain_net": 21.0,
+    "mise_totale": 70.0,
     "paris": 15,
-    "perdus": 2,
-    "regles": 5,
+    "perdus": 4,
+    "regles": 7,
     "rembourses": 0,
-    "reussite_pct": 60.0,
-    "roi_pct": 82.0
+    "reussite_pct": 42.9,
+    "roi_pct": 30.0
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -1769,16 +1818,16 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.38,
-    "en_attente": 2,
+    "en_attente": 1,
     "gagnes": 1,
-    "gain_net": 10.0,
-    "mise_totale": 20.0,
+    "gain_net": 0.0,
+    "mise_totale": 30.0,
     "paris": 4,
-    "perdus": 1,
-    "regles": 2,
+    "perdus": 2,
+    "regles": 3,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 50.0
+    "reussite_pct": 33.3,
+    "roi_pct": 0.0
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -1795,24 +1844,24 @@
    },
    "Rugby à XV": {
     "cote_moyenne": 2.42,
-    "en_attente": 1,
-    "gagnes": 1,
-    "gain_net": 12.5,
-    "mise_totale": 10.0,
+    "en_attente": 0,
+    "gagnes": 2,
+    "gain_net": 28.5,
+    "mise_totale": 20.0,
     "paris": 2,
     "perdus": 0,
-    "regles": 1,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 100.0,
-    "roi_pct": 125.0
+    "roi_pct": 142.5
    },
    "Tennis": {
     "cote_moyenne": 2.53,
-    "en_attente": 0,
+    "en_attente": 1,
     "gagnes": 4,
     "gain_net": 40.0,
     "mise_totale": 60.0,
-    "paris": 6,
+    "paris": 7,
     "perdus": 2,
     "regles": 6,
     "rembourses": 0,
@@ -1850,28 +1899,28 @@
    "2 – 3": {
     "cote_moyenne": 2.45,
     "en_attente": 10,
-    "gagnes": 7,
-    "gain_net": 31.5,
-    "mise_totale": 140.0,
-    "paris": 24,
+    "gagnes": 8,
+    "gain_net": 47.5,
+    "mise_totale": 150.0,
+    "paris": 25,
     "perdus": 7,
-    "regles": 14,
+    "regles": 15,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 22.5
+    "reussite_pct": 53.3,
+    "roi_pct": 31.7
    },
    "3 – 5": {
     "cote_moyenne": 3.61,
-    "en_attente": 14,
+    "en_attente": 11,
     "gagnes": 4,
-    "gain_net": 63.5,
-    "mise_totale": 80.0,
+    "gain_net": 33.5,
+    "mise_totale": 110.0,
     "paris": 22,
-    "perdus": 4,
-    "regles": 8,
+    "perdus": 7,
+    "regles": 11,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 79.4
+    "reussite_pct": 36.4,
+    "roi_pct": 30.5
    },
    "5 – 10": {
     "cote_moyenne": 5.97,
@@ -1928,17 +1977,17 @@
     "roi_pct": 76.7
    },
    "non évaluable": {
-    "cote_moyenne": 3.19,
-    "en_attente": 35,
-    "gagnes": 7,
-    "gain_net": 48.0,
-    "mise_totale": 160.0,
-    "paris": 51,
-    "perdus": 9,
-    "regles": 16,
+    "cote_moyenne": 3.18,
+    "en_attente": 32,
+    "gagnes": 8,
+    "gain_net": 34.0,
+    "mise_totale": 200.0,
+    "paris": 52,
+    "perdus": 12,
+    "regles": 20,
     "rembourses": 0,
-    "reussite_pct": 43.8,
-    "roi_pct": 30.0
+    "reussite_pct": 40.0,
+    "roi_pct": 17.0
    }
   },
   "paris": [
@@ -2340,14 +2389,14 @@
     "cote_origine": 2.211,
     "debut": "2026-10-09T17:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 16.0,
     "horizon": "match",
     "id": "winamax|715003797|2216130419",
     "match": "Pro D2",
     "mise": 10.0,
     "pari": "Agen, Oyonnax et Stade Niçois gagnent chacun leur match (respectivement contre Dax, Narbonne et Nevers)",
     "sport": "Rugby à XV",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -2357,14 +2406,14 @@
     "cote_origine": 3.136,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714916941|2215889347",
     "match": "Ligue 2 BKT®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -2374,14 +2423,14 @@
     "cote_origine": 3.132,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714998727|2216115382",
     "match": "Synerglace Ligue Magnus",
     "mise": 10.0,
     "pari": "Plus de 4,5 buts dans chacun des 5 matchs du jour",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -2391,14 +2440,14 @@
     "cote_origine": 3.6,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715008418|2216143812",
     "match": "Al Nassr - Diriyah Club",
     "mise": 10.0,
     "pari": "Cristiano Ronaldo marque 2 buts ou plus",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -2507,7 +2556,7 @@
     "bookmaker": "Winamax",
     "cote": 3.0,
     "cote_juste": 3.44,
-    "cote_origine": 2.623,
+    "cote_origine": 2.591,
     "debut": "2026-10-09T23:15+00:00",
     "ev_pct": -12.8,
     "gain": null,
@@ -2558,7 +2607,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.35,
+    "cote_origine": 3.3,
     "debut": "2026-10-10T01:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -2602,6 +2651,23 @@
     "mise": 10.0,
     "pari": "Léa Fontaine remporte la médaille d'or",
     "sport": "Judo",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 2.5,
+    "cote_juste": null,
+    "cote_origine": 2.15,
+    "debut": "2026-10-10T11:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "unibet|194569294|725895834",
+    "match": "S.Baez - V.Vacherot",
+    "mise": 10.0,
+    "pari": "V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ?",
+    "sport": "Tennis",
     "statut": "en attente",
     "valeur": "non_evaluable"
    },
@@ -3021,32 +3087,36 @@
    {
     "cumul": 51.5,
     "debut": "2026-10-09T17:00+00:00"
+   },
+   {
+    "cumul": 67.5,
+    "debut": "2026-10-09T17:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 2.53,
    "en_attente": 21,
-   "gagnes": 9,
-   "gain_net": 51.5,
-   "mise_totale": 180.0,
-   "paris": 39,
+   "gagnes": 10,
+   "gain_net": 67.5,
+   "mise_totale": 190.0,
+   "paris": 40,
    "perdus": 9,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 18,
+   "regles": 19,
    "rembourses": 0,
-   "reussite_pct": 50.0,
-   "roi_pct": 28.6
+   "reussite_pct": 52.6,
+   "roi_pct": 35.5
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.28,
-    "en_attente": 15,
+    "cote_moyenne": 2.29,
+    "en_attente": 16,
     "gagnes": 1,
     "gain_net": 13.0,
     "mise_totale": 10.0,
-    "paris": 16,
+    "paris": 17,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -3055,16 +3125,16 @@
    },
    "Winamax": {
     "cote_moyenne": 2.7,
-    "en_attente": 6,
-    "gagnes": 8,
-    "gain_net": 38.5,
-    "mise_totale": 170.0,
+    "en_attente": 5,
+    "gagnes": 9,
+    "gain_net": 54.5,
+    "mise_totale": 180.0,
     "paris": 23,
     "perdus": 9,
-    "regles": 17,
+    "regles": 18,
     "rembourses": 0,
-    "reussite_pct": 47.1,
-    "roi_pct": 22.6
+    "reussite_pct": 50.0,
+    "roi_pct": 30.3
    }
   },
   "par_horizon": {
@@ -3084,45 +3154,45 @@
    "match": {
     "cote_moyenne": 2.65,
     "en_attente": 8,
-    "gagnes": 9,
-    "gain_net": 51.5,
-    "mise_totale": 180.0,
-    "paris": 26,
+    "gagnes": 10,
+    "gain_net": 67.5,
+    "mise_totale": 190.0,
+    "paris": 27,
     "perdus": 9,
-    "regles": 18,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 28.6
+    "reussite_pct": 52.6,
+    "roi_pct": 35.5
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 2.53,
     "en_attente": 21,
-    "gagnes": 9,
-    "gain_net": 51.5,
-    "mise_totale": 180.0,
-    "paris": 39,
+    "gagnes": 10,
+    "gain_net": 67.5,
+    "mise_totale": 190.0,
+    "paris": 40,
     "perdus": 9,
-    "regles": 18,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 28.6
+    "reussite_pct": 52.6,
+    "roi_pct": 35.5
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 2.53,
     "en_attente": 21,
-    "gagnes": 9,
-    "gain_net": 51.5,
-    "mise_totale": 180.0,
-    "paris": 39,
+    "gagnes": 10,
+    "gain_net": 67.5,
+    "mise_totale": 190.0,
+    "paris": 40,
     "perdus": 9,
-    "regles": 18,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 28.6
+    "reussite_pct": 52.6,
+    "roi_pct": 35.5
    }
   },
   "par_sport": {
@@ -3219,24 +3289,24 @@
    },
    "Rugby à XV": {
     "cote_moyenne": 2.42,
-    "en_attente": 1,
-    "gagnes": 1,
-    "gain_net": 12.5,
-    "mise_totale": 10.0,
+    "en_attente": 0,
+    "gagnes": 2,
+    "gain_net": 28.5,
+    "mise_totale": 20.0,
     "paris": 2,
     "perdus": 0,
-    "regles": 1,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 100.0,
-    "roi_pct": 125.0
+    "roi_pct": 142.5
    },
    "Tennis": {
     "cote_moyenne": 2.53,
-    "en_attente": 0,
+    "en_attente": 1,
     "gagnes": 4,
     "gain_net": 40.0,
     "mise_totale": 60.0,
-    "paris": 6,
+    "paris": 7,
     "perdus": 2,
     "regles": 6,
     "rembourses": 0,
@@ -3248,15 +3318,15 @@
    "2 – 3": {
     "cote_moyenne": 2.45,
     "en_attente": 10,
-    "gagnes": 7,
-    "gain_net": 31.5,
-    "mise_totale": 140.0,
-    "paris": 24,
+    "gagnes": 8,
+    "gain_net": 47.5,
+    "mise_totale": 150.0,
+    "paris": 25,
     "perdus": 7,
-    "regles": 14,
+    "regles": 15,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 22.5
+    "reussite_pct": 53.3,
+    "roi_pct": 31.7
    },
    "3 – 5": {
     "cote_moyenne": 3.12,
@@ -3315,15 +3385,15 @@
    "non évaluable": {
     "cote_moyenne": 2.46,
     "en_attente": 20,
-    "gagnes": 5,
-    "gain_net": 4.5,
-    "mise_totale": 120.0,
-    "paris": 32,
+    "gagnes": 6,
+    "gain_net": 20.5,
+    "mise_totale": 130.0,
+    "paris": 33,
     "perdus": 7,
-    "regles": 12,
+    "regles": 13,
     "rembourses": 0,
-    "reussite_pct": 41.7,
-    "roi_pct": 3.8
+    "reussite_pct": 46.2,
+    "roi_pct": 15.8
    }
   },
   "paris": [
@@ -3640,14 +3710,14 @@
     "cote_origine": 2.211,
     "debut": "2026-10-09T17:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 16.0,
     "horizon": "match",
     "id": "winamax|715003797|2216130419",
     "match": "Pro D2",
     "mise": 10.0,
     "pari": "Agen, Oyonnax et Stade Niçois gagnent chacun leur match (respectivement contre Dax, Narbonne et Nevers)",
     "sport": "Rugby à XV",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -3739,7 +3809,7 @@
     "bookmaker": "Winamax",
     "cote": 3.0,
     "cote_juste": 3.44,
-    "cote_origine": 2.623,
+    "cote_origine": 2.591,
     "debut": "2026-10-09T23:15+00:00",
     "ev_pct": -12.8,
     "gain": null,
@@ -3766,6 +3836,23 @@
     "mise": 10.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 2.5,
+    "cote_juste": null,
+    "cote_origine": 2.15,
+    "debut": "2026-10-10T11:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "unibet|194569294|725895834",
+    "match": "S.Baez - V.Vacherot",
+    "mise": 10.0,
+    "pari": "V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ?",
+    "sport": "Tennis",
     "statut": "en attente",
     "valeur": "non_evaluable"
    },
@@ -4082,32 +4169,48 @@
    {
     "cumul": 95.0,
     "debut": "2026-10-09T17:00+00:00"
+   },
+   {
+    "cumul": 111.0,
+    "debut": "2026-10-09T17:30+00:00"
+   },
+   {
+    "cumul": 101.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 91.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 81.0,
+    "debut": "2026-10-09T18:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.3,
-   "en_attente": 16,
-   "gagnes": 11,
-   "gain_net": 95.0,
-   "mise_totale": 220.0,
-   "paris": 38,
-   "perdus": 11,
+   "cote_moyenne": 3.28,
+   "en_attente": 13,
+   "gagnes": 12,
+   "gain_net": 81.0,
+   "mise_totale": 260.0,
+   "paris": 39,
+   "perdus": 14,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 22,
+   "regles": 26,
    "rembourses": 0,
-   "reussite_pct": 50.0,
-   "roi_pct": 43.2
+   "reussite_pct": 46.2,
+   "roi_pct": 31.2
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.3,
-    "en_attente": 2,
+    "cote_moyenne": 2.35,
+    "en_attente": 3,
     "gagnes": 1,
     "gain_net": 13.0,
     "mise_totale": 10.0,
-    "paris": 3,
+    "paris": 4,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -4116,61 +4219,61 @@
    },
    "Winamax": {
     "cote_moyenne": 3.38,
-    "en_attente": 14,
-    "gagnes": 10,
-    "gain_net": 82.0,
-    "mise_totale": 210.0,
+    "en_attente": 10,
+    "gagnes": 11,
+    "gain_net": 68.0,
+    "mise_totale": 250.0,
     "paris": 35,
-    "perdus": 11,
-    "regles": 21,
+    "perdus": 14,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 47.6,
-    "roi_pct": 39.0
+    "reussite_pct": 44.0,
+    "roi_pct": 27.2
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.3,
-    "en_attente": 16,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 38,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.28,
+    "en_attente": 13,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 39,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.3,
-    "en_attente": 16,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 38,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.28,
+    "en_attente": 13,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 39,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.3,
-    "en_attente": 16,
-    "gagnes": 11,
-    "gain_net": 95.0,
-    "mise_totale": 220.0,
-    "paris": 38,
-    "perdus": 11,
-    "regles": 22,
+    "cote_moyenne": 3.28,
+    "en_attente": 13,
+    "gagnes": 12,
+    "gain_net": 81.0,
+    "mise_totale": 260.0,
+    "paris": 39,
+    "perdus": 14,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 43.2
+    "reussite_pct": 46.2,
+    "roi_pct": 31.2
    }
   },
   "par_sport": {
@@ -4202,16 +4305,16 @@
    },
    "Football": {
     "cote_moyenne": 3.21,
-    "en_attente": 9,
+    "en_attente": 7,
     "gagnes": 3,
-    "gain_net": 41.0,
-    "mise_totale": 50.0,
+    "gain_net": 21.0,
+    "mise_totale": 70.0,
     "paris": 14,
-    "perdus": 2,
-    "regles": 5,
+    "perdus": 4,
+    "regles": 7,
     "rembourses": 0,
-    "reussite_pct": 60.0,
-    "roi_pct": 82.0
+    "reussite_pct": 42.9,
+    "roi_pct": 30.0
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -4241,16 +4344,16 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.38,
-    "en_attente": 2,
+    "en_attente": 1,
     "gagnes": 1,
-    "gain_net": 10.0,
-    "mise_totale": 20.0,
+    "gain_net": 0.0,
+    "mise_totale": 30.0,
     "paris": 4,
-    "perdus": 1,
-    "regles": 2,
+    "perdus": 2,
+    "regles": 3,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 50.0
+    "reussite_pct": 33.3,
+    "roi_pct": 0.0
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -4267,24 +4370,24 @@
    },
    "Rugby à XV": {
     "cote_moyenne": 2.42,
-    "en_attente": 1,
-    "gagnes": 1,
-    "gain_net": 12.5,
-    "mise_totale": 10.0,
+    "en_attente": 0,
+    "gagnes": 2,
+    "gain_net": 28.5,
+    "mise_totale": 20.0,
     "paris": 2,
     "perdus": 0,
-    "regles": 1,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 100.0,
-    "roi_pct": 125.0
+    "roi_pct": 142.5
    },
    "Tennis": {
     "cote_moyenne": 2.53,
-    "en_attente": 0,
+    "en_attente": 1,
     "gagnes": 4,
     "gain_net": 40.0,
     "mise_totale": 60.0,
-    "paris": 6,
+    "paris": 7,
     "perdus": 2,
     "regles": 6,
     "rembourses": 0,
@@ -4322,28 +4425,28 @@
    "2 – 3": {
     "cote_moyenne": 2.5,
     "en_attente": 5,
-    "gagnes": 7,
-    "gain_net": 31.5,
-    "mise_totale": 140.0,
-    "paris": 19,
+    "gagnes": 8,
+    "gain_net": 47.5,
+    "mise_totale": 150.0,
+    "paris": 20,
     "perdus": 7,
-    "regles": 14,
+    "regles": 15,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 22.5
+    "reussite_pct": 53.3,
+    "roi_pct": 31.7
    },
    "3 – 5": {
     "cote_moyenne": 3.64,
-    "en_attente": 9,
+    "en_attente": 6,
     "gagnes": 4,
-    "gain_net": 63.5,
-    "mise_totale": 80.0,
+    "gain_net": 33.5,
+    "mise_totale": 110.0,
     "paris": 17,
-    "perdus": 4,
-    "regles": 8,
+    "perdus": 7,
+    "regles": 11,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 79.4
+    "reussite_pct": 36.4,
+    "roi_pct": 30.5
    },
    "5 – 10": {
     "cote_moyenne": 5.0,
@@ -4387,17 +4490,17 @@
     "roi_pct": 76.7
    },
    "non évaluable": {
-    "cote_moyenne": 3.4,
-    "en_attente": 14,
-    "gagnes": 7,
-    "gain_net": 48.0,
-    "mise_totale": 160.0,
-    "paris": 30,
-    "perdus": 9,
-    "regles": 16,
+    "cote_moyenne": 3.37,
+    "en_attente": 11,
+    "gagnes": 8,
+    "gain_net": 34.0,
+    "mise_totale": 200.0,
+    "paris": 31,
+    "perdus": 12,
+    "regles": 20,
     "rembourses": 0,
-    "reussite_pct": 43.8,
-    "roi_pct": 30.0
+    "reussite_pct": 40.0,
+    "roi_pct": 17.0
    }
   },
   "paris": [
@@ -4799,14 +4902,14 @@
     "cote_origine": 2.211,
     "debut": "2026-10-09T17:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 16.0,
     "horizon": "match",
     "id": "winamax|715003797|2216130419",
     "match": "Pro D2",
     "mise": 10.0,
     "pari": "Agen, Oyonnax et Stade Niçois gagnent chacun leur match (respectivement contre Dax, Narbonne et Nevers)",
     "sport": "Rugby à XV",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -4816,14 +4919,14 @@
     "cote_origine": 3.136,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714916941|2215889347",
     "match": "Ligue 2 BKT®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -4833,14 +4936,14 @@
     "cote_origine": 3.132,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714998727|2216115382",
     "match": "Synerglace Ligue Magnus",
     "mise": 10.0,
     "pari": "Plus de 4,5 buts dans chacun des 5 matchs du jour",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -4850,14 +4953,14 @@
     "cote_origine": 3.6,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715008418|2216143812",
     "match": "Al Nassr - Diriyah Club",
     "mise": 10.0,
     "pari": "Cristiano Ronaldo marque 2 buts ou plus",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -4949,7 +5052,7 @@
     "bookmaker": "Winamax",
     "cote": 3.0,
     "cote_juste": 3.44,
-    "cote_origine": 2.623,
+    "cote_origine": 2.591,
     "debut": "2026-10-09T23:15+00:00",
     "ev_pct": -12.8,
     "gain": null,
@@ -5000,7 +5103,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.35,
+    "cote_origine": 3.3,
     "debut": "2026-10-10T01:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5044,6 +5147,23 @@
     "mise": 10.0,
     "pari": "Léa Fontaine remporte la médaille d'or",
     "sport": "Judo",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 2.5,
+    "cote_juste": null,
+    "cote_origine": 2.15,
+    "debut": "2026-10-10T11:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "unibet|194569294|725895834",
+    "match": "S.Baez - V.Vacherot",
+    "mise": 10.0,
+    "pari": "V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ?",
+    "sport": "Tennis",
     "statut": "en attente",
     "valeur": "non_evaluable"
    }
@@ -5191,32 +5311,48 @@
    {
     "cumul": 105.0,
     "debut": "2026-10-09T17:00+00:00"
+   },
+   {
+    "cumul": 121.0,
+    "debut": "2026-10-09T17:30+00:00"
+   },
+   {
+    "cumul": 111.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 101.0,
+    "debut": "2026-10-09T18:00+00:00"
+   },
+   {
+    "cumul": 91.0,
+    "debut": "2026-10-09T18:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.35,
-   "en_attente": 15,
-   "gagnes": 11,
-   "gain_net": 105.0,
-   "mise_totale": 210.0,
-   "paris": 36,
-   "perdus": 10,
+   "cote_moyenne": 3.33,
+   "en_attente": 12,
+   "gagnes": 12,
+   "gain_net": 91.0,
+   "mise_totale": 250.0,
+   "paris": 37,
+   "perdus": 13,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 21,
+   "regles": 25,
    "rembourses": 0,
-   "reussite_pct": 52.4,
-   "roi_pct": 50.0
+   "reussite_pct": 48.0,
+   "roi_pct": 36.4
   },
   "par_bookmaker": {
    "Unibet": {
-    "cote_moyenne": 2.3,
-    "en_attente": 1,
+    "cote_moyenne": 2.37,
+    "en_attente": 2,
     "gagnes": 1,
     "gain_net": 13.0,
     "mise_totale": 10.0,
-    "paris": 2,
+    "paris": 3,
     "perdus": 0,
     "regles": 1,
     "rembourses": 0,
@@ -5225,61 +5361,61 @@
    },
    "Winamax": {
     "cote_moyenne": 3.41,
-    "en_attente": 14,
-    "gagnes": 10,
-    "gain_net": 92.0,
-    "mise_totale": 200.0,
+    "en_attente": 10,
+    "gagnes": 11,
+    "gain_net": 78.0,
+    "mise_totale": 240.0,
     "paris": 34,
-    "perdus": 10,
-    "regles": 20,
+    "perdus": 13,
+    "regles": 24,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 46.0
+    "reussite_pct": 45.8,
+    "roi_pct": 32.5
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.35,
-    "en_attente": 15,
-    "gagnes": 11,
-    "gain_net": 105.0,
-    "mise_totale": 210.0,
-    "paris": 36,
-    "perdus": 10,
-    "regles": 21,
+    "cote_moyenne": 3.33,
+    "en_attente": 12,
+    "gagnes": 12,
+    "gain_net": 91.0,
+    "mise_totale": 250.0,
+    "paris": 37,
+    "perdus": 13,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 52.4,
-    "roi_pct": 50.0
+    "reussite_pct": 48.0,
+    "roi_pct": 36.4
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.35,
-    "en_attente": 15,
-    "gagnes": 11,
-    "gain_net": 105.0,
-    "mise_totale": 210.0,
-    "paris": 36,
-    "perdus": 10,
-    "regles": 21,
+    "cote_moyenne": 3.33,
+    "en_attente": 12,
+    "gagnes": 12,
+    "gain_net": 91.0,
+    "mise_totale": 250.0,
+    "paris": 37,
+    "perdus": 13,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 52.4,
-    "roi_pct": 50.0
+    "reussite_pct": 48.0,
+    "roi_pct": 36.4
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.35,
-    "en_attente": 15,
-    "gagnes": 11,
-    "gain_net": 105.0,
-    "mise_totale": 210.0,
-    "paris": 36,
-    "perdus": 10,
-    "regles": 21,
+    "cote_moyenne": 3.33,
+    "en_attente": 12,
+    "gagnes": 12,
+    "gain_net": 91.0,
+    "mise_totale": 250.0,
+    "paris": 37,
+    "perdus": 13,
+    "regles": 25,
     "rembourses": 0,
-    "reussite_pct": 52.4,
-    "roi_pct": 50.0
+    "reussite_pct": 48.0,
+    "roi_pct": 36.4
    }
   },
   "par_sport": {
@@ -5311,16 +5447,16 @@
    },
    "Football": {
     "cote_moyenne": 3.28,
-    "en_attente": 8,
+    "en_attente": 6,
     "gagnes": 3,
-    "gain_net": 41.0,
-    "mise_totale": 50.0,
+    "gain_net": 21.0,
+    "mise_totale": 70.0,
     "paris": 13,
-    "perdus": 2,
-    "regles": 5,
+    "perdus": 4,
+    "regles": 7,
     "rembourses": 0,
-    "reussite_pct": 60.0,
-    "roi_pct": 82.0
+    "reussite_pct": 42.9,
+    "roi_pct": 30.0
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -5350,16 +5486,16 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.38,
-    "en_attente": 2,
+    "en_attente": 1,
     "gagnes": 1,
-    "gain_net": 10.0,
-    "mise_totale": 20.0,
+    "gain_net": 0.0,
+    "mise_totale": 30.0,
     "paris": 4,
-    "perdus": 1,
-    "regles": 2,
+    "perdus": 2,
+    "regles": 3,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 50.0
+    "reussite_pct": 33.3,
+    "roi_pct": 0.0
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -5376,24 +5512,24 @@
    },
    "Rugby à XV": {
     "cote_moyenne": 2.42,
-    "en_attente": 1,
-    "gagnes": 1,
-    "gain_net": 12.5,
-    "mise_totale": 10.0,
+    "en_attente": 0,
+    "gagnes": 2,
+    "gain_net": 28.5,
+    "mise_totale": 20.0,
     "paris": 2,
     "perdus": 0,
-    "regles": 1,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 100.0,
-    "roi_pct": 125.0
+    "roi_pct": 142.5
    },
    "Tennis": {
     "cote_moyenne": 2.53,
-    "en_attente": 0,
+    "en_attente": 1,
     "gagnes": 4,
     "gain_net": 40.0,
     "mise_totale": 60.0,
-    "paris": 6,
+    "paris": 7,
     "perdus": 2,
     "regles": 6,
     "rembourses": 0,
@@ -5431,28 +5567,28 @@
    "2 – 3": {
     "cote_moyenne": 2.51,
     "en_attente": 4,
-    "gagnes": 7,
-    "gain_net": 41.5,
-    "mise_totale": 130.0,
-    "paris": 17,
+    "gagnes": 8,
+    "gain_net": 57.5,
+    "mise_totale": 140.0,
+    "paris": 18,
     "perdus": 6,
-    "regles": 13,
+    "regles": 14,
     "rembourses": 0,
-    "reussite_pct": 53.8,
-    "roi_pct": 31.9
+    "reussite_pct": 57.1,
+    "roi_pct": 41.1
    },
    "3 – 5": {
     "cote_moyenne": 3.64,
-    "en_attente": 9,
+    "en_attente": 6,
     "gagnes": 4,
-    "gain_net": 63.5,
-    "mise_totale": 80.0,
+    "gain_net": 33.5,
+    "mise_totale": 110.0,
     "paris": 17,
-    "perdus": 4,
-    "regles": 8,
+    "perdus": 7,
+    "regles": 11,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 79.4
+    "reussite_pct": 36.4,
+    "roi_pct": 30.5
    },
    "5 – 10": {
     "cote_moyenne": 5.0,
@@ -5496,17 +5632,17 @@
     "roi_pct": 76.7
    },
    "non évaluable": {
-    "cote_moyenne": 3.47,
-    "en_attente": 13,
-    "gagnes": 7,
-    "gain_net": 58.0,
-    "mise_totale": 150.0,
-    "paris": 28,
-    "perdus": 8,
-    "regles": 15,
+    "cote_moyenne": 3.44,
+    "en_attente": 10,
+    "gagnes": 8,
+    "gain_net": 44.0,
+    "mise_totale": 190.0,
+    "paris": 29,
+    "perdus": 11,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 46.7,
-    "roi_pct": 38.7
+    "reussite_pct": 42.1,
+    "roi_pct": 23.2
    }
   },
   "paris": [
@@ -5891,14 +6027,14 @@
     "cote_origine": 2.211,
     "debut": "2026-10-09T17:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 16.0,
     "horizon": "match",
     "id": "winamax|715003797|2216130419",
     "match": "Pro D2",
     "mise": 10.0,
     "pari": "Agen, Oyonnax et Stade Niçois gagnent chacun leur match (respectivement contre Dax, Narbonne et Nevers)",
     "sport": "Rugby à XV",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -5908,14 +6044,14 @@
     "cote_origine": 3.136,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714916941|2215889347",
     "match": "Ligue 2 BKT®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -5925,14 +6061,14 @@
     "cote_origine": 3.132,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|714998727|2216115382",
     "match": "Synerglace Ligue Magnus",
     "mise": 10.0,
     "pari": "Plus de 4,5 buts dans chacun des 5 matchs du jour",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -5942,14 +6078,14 @@
     "cote_origine": 3.6,
     "debut": "2026-10-09T18:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715008418|2216143812",
     "match": "Al Nassr - Diriyah Club",
     "mise": 10.0,
     "pari": "Cristiano Ronaldo marque 2 buts ou plus",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -6024,7 +6160,7 @@
     "bookmaker": "Winamax",
     "cote": 3.0,
     "cote_juste": 3.44,
-    "cote_origine": 2.623,
+    "cote_origine": 2.591,
     "debut": "2026-10-09T23:15+00:00",
     "ev_pct": -12.8,
     "gain": null,
@@ -6075,7 +6211,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.35,
+    "cote_origine": 3.3,
     "debut": "2026-10-10T01:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -6119,6 +6255,23 @@
     "mise": 10.0,
     "pari": "Léa Fontaine remporte la médaille d'or",
     "sport": "Judo",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Unibet",
+    "cote": 2.5,
+    "cote_juste": null,
+    "cote_origine": 2.15,
+    "debut": "2026-10-10T11:00:00.000Z",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "unibet|194569294|725895834",
+    "match": "S.Baez - V.Vacherot",
+    "mise": 10.0,
+    "pari": "V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ?",
+    "sport": "Tennis",
     "statut": "en attente",
     "valeur": "non_evaluable"
    }
