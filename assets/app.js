@@ -8,6 +8,18 @@
   const RECENT_AT_SCAN_MS = 150 * 60 * 1000;
   const STALE_MS = 3 * 60 * 60 * 1000;
   const PAGE_SIZE = 12;
+  // Registre lisible : clés identiques à celles produites par le moteur Python.
+  const STRATEGY_META = Object.freeze({
+    A: ['A', 'TOUT PRENDRE', 'MISE MAX BOOKMAKER'],
+    B_exacte: ['B1', 'EV EXACTE', '≥ 5 % · MISE MAX'],
+    B_approx: ['B2', 'EV APPROCHÉE', '≥ 5 % · MISE MAX'],
+    C_plafond: ['C', 'MISE PLAFONNÉE', 'TOUT · 10 € MAX'],
+    D_moderee: ['D', 'COTES MODÉRÉES', '1,60–3,50 · 10 € MAX'],
+    E_48h: ['E', 'HORIZON COURT', 'MATCH ≤ 48 H · 10 € MAX'],
+    F_ev8: ['F', 'EV STRICTE', 'EXACTE ≥ 8 % · 10 € MAX'],
+    G_kelly: ['G', 'QUART KELLY', 'EXACTE ≥ 5 % · RISQUE LIMITÉ'],
+    H_1_match: ['H', 'UN PAR MATCH', '1ER BOOST VU · 10 € MAX'],
+  });
   const state = {
     boosts: [], bilan: {}, etat: {}, view: 'actifs', strategy: 'A',
     search: '', sport: 'tous', bookmaker: 'tous', sort: 'recent',
@@ -201,13 +213,24 @@
     </svg>`;
   }
 
+  function renderStrategyChoices() {
+    const keys = Object.keys(state.bilan || {}).filter(key => STRATEGY_META[key]);
+    if (!keys.includes(state.strategy)) state.strategy = 'A';
+    $('strategy-switch').innerHTML = keys.map(key => {
+      const [tag, title, subtitle] = STRATEGY_META[key];
+      return `<button type="button" data-strategy="${esc(key)}" class="strategy-button" aria-pressed="false">
+        <span>STRATÉGIE ${esc(tag)}</span><strong>${esc(title)}</strong><small>${esc(subtitle)}</small>
+      </button>`;
+    }).join('');
+  }
+
   function renderLab() {
     const b = state.bilan?.[state.strategy] || {}, g = b.global || {};
     const gain = number(g.gain_net), roi = number(g.roi_pct), settled = number(g.regles) || 0;
     const el = $('lab-gain'); el.textContent = gain === null ? '—' : euros(gain, 2); el.classList.toggle('positive', gain > 0); el.classList.toggle('negative', gain < 0);
     $('lab-roi').textContent = pct(roi);
     $('lab-settled').textContent = fmt(settled, 0);
-    $('lab-detail').textContent = `${fmt(number(g.paris) || 0, 0)} paris fictifs · ${fmt(number(g.en_attente) || 0, 0)} en attente · mise totale réglée ${fmt(number(g.mise_totale) || 0, 0)} €`;
+    $('lab-detail').textContent = `${fmt(number(g.paris) || 0, 0)} paris fictifs · ${fmt(number(g.en_attente) || 0, 0)} en attente · mises réglées ${fmt(number(g.mise_totale) || 0, 0)} € · pire baisse ${euros(number(g.pire_baisse))}`;
     $('chart-caption').textContent = `${settled} PARI${settled > 1 ? 'S' : ''} RÉGLÉ${settled > 1 ? 'S' : ''}`;
     drawChart(b.courbe);
     document.querySelectorAll('[data-strategy]').forEach(btn => { const yes = btn.dataset.strategy === state.strategy; btn.classList.toggle('is-active', yes); btn.setAttribute('aria-pressed', String(yes)); });
@@ -237,7 +260,7 @@
       if (!boosts || typeof boosts !== 'object' || Array.isArray(boosts) || !bilan?.A?.global || !etat?.dernier_passage) throw new Error('Format des données inattendu');
       state.boosts = Object.values(boosts).filter(b => b && typeof b === 'object' && typeof b.id === 'string');
       state.bilan = bilan; state.etat = etat; state.ready = true;
-      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderLab(); renderSettlements();
+      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderLab(); renderSettlements();
     } catch (error) {
       if (!state.ready) {
         $('boost-list').innerHTML = '<div class="empty-state"><span class="empty-state-symbol">!</span><strong>REGISTRE INACCESSIBLE</strong><p>Les fichiers publics GitHub ne répondent pas. Aucun chiffre de remplacement n’est affiché.</p><button id="retry" type="button">RÉESSAYER ↗</button></div>';
@@ -254,7 +277,7 @@
     $('search').addEventListener('input', (e) => { state.search = e.target.value.trim(); state.limit = PAGE_SIZE; renderList(); });
     for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.limit = PAGE_SIZE; renderList(); });
     document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.limit = PAGE_SIZE; syncControls(); renderList(); }));
-    document.querySelectorAll('[data-strategy]').forEach(button => button.addEventListener('click', () => { state.strategy = button.dataset.strategy; renderLab(); }));
+    $('strategy-switch').addEventListener('click', event => { const button = event.target.closest('button[data-strategy]'); if (button && STRATEGY_META[button.dataset.strategy]) { state.strategy = button.dataset.strategy; renderLab(); } });
     $('favorites-only').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; state.limit = PAGE_SIZE; syncControls(); renderList(); });
     $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderList(); });
     $('boost-list').addEventListener('click', (e) => {
