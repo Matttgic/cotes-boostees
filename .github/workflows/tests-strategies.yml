@@ -1,0 +1,32 @@
+name: Tests des stratégies
+
+on:
+  pull_request:
+    paths:
+      - "boosts/**"
+      - "tests/**"
+      - "assets/**"
+      - "index.html"
+      - ".github/workflows/tests-strategies.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Installer les dépendances
+        run: python -m pip install -r requirements.txt -r requirements-dev.txt
+      - name: Tests sans réseau
+        run: python -m pytest -q
+      - name: Syntaxe du JavaScript
+        run: |
+          node --check assets/app.js
