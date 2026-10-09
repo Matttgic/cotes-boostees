@@ -127,6 +127,9 @@ def bilan(base: dict[str, dict], filtre=None, nom: str = "A — toutes les cotes
 
 
 def strategies(base: dict[str, dict]) -> dict:
-    return {"A": bilan(base),
-            "B_exacte": bilan(base, filtre_b("exacte"), f"B-exacte — EV ≥ {EV_MIN_B:g} % (calcul exact), mise max"),
-            "B_approx": bilan(base, filtre_b("approx"), f"B-approx — EV ≥ {EV_MIN_B:g} % (jambes liées), mise max")}
+    from .strategies_experimentales import construire
+
+    originelles = {"A": bilan(base),
+                   "B_exacte": bilan(base, filtre_b("exacte"), f"B-exacte — EV ≥ {EV_MIN_B:g} % (calcul exact), mise max"),
+                   "B_approx": bilan(base, filtre_b("approx"), f"B-approx — EV ≥ {EV_MIN_B:g} % (jambes liées), mise max")}
+    return {**originelles, **construire(base)}
