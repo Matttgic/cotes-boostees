@@ -1,10 +1,10 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 09/10 04h23 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 09/10 05h22 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 3 / 33 | 60 € | **-15,00 €** | **-25,0 %** | -40,00 € |
+| **A — tout miser** | 5 / 33 | 100 € | **+17,00 €** | **+17,0 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 
@@ -12,7 +12,7 @@ Mis à jour le 09/10 04h23 (heure de Paris). Argent fictif : un pari par boost, 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne 2,9 · pire série perdante 2
+A en détail : 2 gagnés, 3 perdus, 0 remboursés, 28 en attente · cote moyenne 2,9 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -21,28 +21,28 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | EV < 0 (approx) | 0 / 2 | 0 € | +0,00 € | – | – |
-| EV < 0 (exacte) | 0 / 2 | 0 € | +0,00 € | – | – |
-| non évaluable | 3 / 29 | 60 € | -15,00 € | -25,0 % | 33 % |
+| EV < 0 (exacte) | 1 / 2 | 20 € | -20,00 € | -100,0 % | 0 % |
+| non évaluable | 4 / 29 | 80 € | +37,00 € | +46,2 % | 50 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 0 / 21 | 0 € | +0,00 € | – | – |
-| Winamax | 3 / 12 | 60 € | -15,00 € | -25,0 % | 33 % |
+| Winamax | 5 / 12 | 100 € | +17,00 € | +17,0 % | 40 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 20 | 0 € | +0,00 € | – | – |
-| match | 3 / 13 | 60 € | -15,00 € | -25,0 % | 33 % |
+| match | 5 / 13 | 100 € | +17,00 € | +17,0 % | 40 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 3 / 12 | 60 € | -15,00 € | -25,0 % | 33 % |
+| 20 € | 5 / 12 | 100 € | +17,00 € | +17,0 % | 40 % |
 | 25 € | 0 / 21 | 0 € | +0,00 € | – | – |
 
 ### A par tranche de cote
@@ -50,7 +50,7 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 2 – 3 | 2 / 13 | 40 € | +5,00 € | +12,5 % | 50 % |
-| 3 – 5 | 1 / 9 | 20 € | -20,00 € | -100,0 % | 0 % |
+| 3 – 5 | 3 / 9 | 60 € | +12,00 € | +20,0 % | 33 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -60,10 +60,10 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne
 |---|---|---|---|---|---|
 | Baseball | 0 / 1 | 0 € | +0,00 € | – | – |
 | Basketball | 0 / 19 | 0 € | +0,00 € | – | – |
-| Football | 0 / 2 | 0 € | +0,00 € | – | – |
+| Football | 1 / 2 | 20 € | +52,00 € | +260,0 % | 100 % |
 | Football Américain | 0 / 2 | 0 € | +0,00 € | – | – |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
-| Hockey sur glace | 0 / 2 | 0 € | +0,00 € | – | – |
+| Hockey sur glace | 1 / 2 | 20 € | -20,00 € | -100,0 % | 0 % |
 | Rugby à XV | 1 / 1 | 20 € | +25,00 € | +125,0 % | 100 % |
 | Tennis | 0 / 3 | 0 € | +0,00 € | – | – |
 | Tennis de table | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -72,7 +72,7 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 3 / 33 | 60 € | -15,00 € | -25,0 % | 33 % |
+| 2026-10 | 5 / 33 | 100 € | +17,00 € | +17,0 % | 40 % |
 
 ### Derniers paris
 
@@ -106,8 +106,8 @@ A en détail : 1 gagnés, 2 perdus, 0 remboursés, 30 en attente · cote moyenne
 | 09/10 02h15 · Dallas Cowboys - Tampa Bay Buccaneers | Javonte Williams réalise au moins 81 yards à la course | 2,4 | – | – | 20 € | ⏳ |
 | 09/10 02h15 · Dallas Cowboys - Tampa Bay Buccaneers | CeeDee Lamb marque au moins un touchdown et Dallas Cowboys gagne par au moins 5 points d'écart | 2,4 | – | – | 20 € | ⏳ |
 | 09/10 02h00 · Chicago White Sox - Cleveland Guardians | Les deux équipes marquent chacune au moins 3 runs | 2,4 | 2,423 | -0,9 % ≈ | 20 € | ⏳ |
-| 09/10 01h15 · NHL | Carolina Hurricanes, Montreal Canadiens et Ottawa Senators gagnent chacun leur match (respectivement contre Vancouver Canucks, Nashville Predators et Philadelphia Flyers) (prol. et TAB inclus) | 3,5 | 3,511 | -0,3 % | 20 € | ⏳ |
-| 09/10 00h30 · Santos - Flamengo | Neymar buteur et les deux équipes marquent | 3,6 | – | – | 20 € | ⏳ |
+| 09/10 01h15 · NHL | Carolina Hurricanes, Montreal Canadiens et Ottawa Senators gagnent chacun leur match (respectivement contre Vancouver Canucks, Nashville Predators et Philadelphia Flyers) (prol. et TAB inclus) | 3,5 | 3,511 | -0,3 % | 20 € | ❌ -20,00 € |
+| 09/10 00h30 · Santos - Flamengo | Neymar buteur et les deux équipes marquent | 3,6 | – | – | 20 € | ✅ +52,00 € |
 | 08/10 21h00 · Montauban - CA Brive | Montauban gagne par au moins 6 points d'écart | 2,25 | – | – | 20 € | ✅ +25,00 € |
 | 08/10 20h45 · Skanderborg Håndbold - Montpellier | Montpellier marque au moins 34 buts | 2,4 | – | – | 20 € | ❌ -20,00 € |
 | 08/10 20h45 · Melsungen - Nantes | Nantes gagne et plus de 58,5 buts dans le match | 4,25 | – | – | 20 € | ❌ -20,00 € |
