@@ -23,7 +23,7 @@
       <span class="brand-symbol" aria-hidden="true"><span class="brand-flash">↗</span></span>
       <span class="brand-type">COTE<span class="brand-accent">/</span><br>BOOSTÉE<span class="brand-period">.</span></span>
     </a>
-    <nav class="header-nav" aria-label="Navigation principale"><a href="#flux">LE FLUX <span>01</span></a><a href="#bilan">LE LABO <span>02</span></a><a href="#journal">LE JOURNAL <span>03</span></a></nav>
+    <nav class="header-nav" aria-label="Navigation principale"><a href="#flux">LE FLUX <span>01</span></a><a href="#cerveau">LE CERVEAU <span>02</span></a><a href="#bilan">LE LABO <span>03</span></a><a href="#journal">LE JOURNAL <span>04</span></a></nav>
     <button class="refresh-btn" type="button" id="refresh" aria-label="Actualiser les données"><span class="refresh-symbol" aria-hidden="true">↻</span><span>ACTUALISER</span></button>
   </header>
 
@@ -69,14 +69,42 @@
       </div>
     </section>
 
+    <section class="brain-section wrap" id="cerveau" aria-labelledby="brain-title">
+      <div class="section-heading">
+        <div><span class="section-number">02 / LE CERVEAU</span><h2 id="brain-title">LA DÉCISION<span class="heading-period">.</span></h2>
+          <p>Un observateur qui note ses choix AVANT les matchs. Aucune mise réelle, aucun résultat réécrit après coup.</p></div>
+        <span class="brain-stamp">PROTOCOLE 001<br>OBSERVATION<br>NON ENTRAÎNÉ</span>
+      </div>
+      <div class="brain-status">
+        <div class="brain-lead"><span class="tiny-label">PROTOCOLE ACTUEL</span><strong>ON MESURE D'ABORD. ON APPREND ENSUITE.</strong><p>La version initiale applique des règles transparentes : pari simple, EV exacte ≥ 5 %, cote de 1,60 à 5 et mise fictive de 10 € maximum. Sans référence fiable, elle s'abstient. Ce n'est pas encore un modèle de machine learning.</p></div>
+        <div class="brain-figures">
+          <div><small>BOOSTS OBSERVÉS</small><strong id="brain-observed">—</strong></div>
+          <div><small>SÉLECTIONS FICTIVES</small><strong id="brain-selected">—</strong></div>
+          <div><small>RÉGLÉS / SÉLECTIONS</small><strong id="brain-settled">—</strong></div>
+          <div><small>ROI DES SÉLECTIONS RÉGLÉES</small><strong id="brain-roi">—</strong></div>
+        </div>
+      </div>
+      <div class="brain-toolbar">
+        <span class="tiny-label">LE JOURNAL DES DÉCISIONS <span id="brain-update"></span></span>
+        <div class="brain-filters" role="group" aria-label="Filtrer les décisions du cerveau">
+          <button type="button" data-brain="tous" class="brain-filter is-active" aria-pressed="true">TOUTES</button>
+          <button type="button" data-brain="selectionner" class="brain-filter" aria-pressed="false">SÉLECTIONS</button>
+          <button type="button" data-brain="ecarter" class="brain-filter" aria-pressed="false">ÉCARTÉES</button>
+          <button type="button" data-brain="abstention" class="brain-filter" aria-pressed="false">ABSTENTIONS</button>
+        </div>
+      </div>
+      <div class="brain-feed" id="brain-feed" aria-live="polite"><p class="brain-empty">Lecture des décisions de la prochaine collecte…</p></div>
+      <p class="brain-disclaimer"><strong>IMPORTANT :</strong> une « sélection » est un pari fictif destiné à l'évaluation prospective, pas une recommandation de miser. Une absence de données n'est pas une mauvaise cote. Le ROI est calculé seulement sur les sélections réglées.</p>
+    </section>
+
     <section class="lab-section" id="bilan" aria-labelledby="bilan-title"><div class="wrap">
-      <div class="section-heading lab-heading"><div><span class="section-number">02 / LE LABORATOIRE</span><h2 id="bilan-title">LE TEST DE VÉRITÉ<span class="heading-period">.</span></h2><p>Les stratégies comparent des mises et des filtres différents, uniquement en argent fictif. Aucun bilan ne prédit l’avenir.</p></div><span class="lab-stamp">ARGENT FICTIF<br>RÉSULTATS RÉELS<br>CALCUL TRANSPARENT</span></div>
+      <div class="section-heading lab-heading"><div><span class="section-number">03 / LE LABORATOIRE</span><h2 id="bilan-title">LE TEST DE VÉRITÉ<span class="heading-period">.</span></h2><p>Les stratégies comparent des mises et des filtres différents, uniquement en argent fictif. Aucun bilan ne prédit l’avenir.</p></div><span class="lab-stamp">ARGENT FICTIF<br>RÉSULTATS RÉELS<br>CALCUL TRANSPARENT</span></div>
       <div class="strategy-switch" id="strategy-switch" role="group" aria-label="Choisir une simulation"><button type="button" data-strategy="A" class="strategy-button is-active" aria-pressed="true"><span>STRATÉGIE A</span><strong>TOUT PRENDRE</strong><small>TOUS LES BOOSTS</small></button><button type="button" data-strategy="B_exacte" class="strategy-button" aria-pressed="false"><span>STRATÉGIE B1</span><strong>FILTRER / EXACT</strong><small>EV ≥ 5 % · COTE JUSTE</small></button><button type="button" data-strategy="B_approx" class="strategy-button" aria-pressed="false"><span>STRATÉGIE B2</span><strong>FILTRER / ESTIMÉ</strong><small>EV ≥ 5 % · APPROXIMATION</small></button></div>
       <div class="lab-result"><div class="lab-summary"><span class="tiny-label">RÉSULTAT NET / EN € FICTIFS</span><strong id="lab-gain">—</strong><span id="lab-detail" class="lab-detail">Chargement…</span><div class="lab-pair"><div><small>ROI RÉGLÉ</small><strong id="lab-roi">—</strong></div><div><small>PARIS RÉGLÉS</small><strong id="lab-settled">—</strong></div></div></div><div class="lab-chart"><div class="chart-heading"><span>TRAJECTOIRE DU GAIN CUMULÉ</span><span id="chart-caption">SIMULATION HISTORIQUE</span></div><div id="chart" class="chart-area" role="img" aria-label="Courbe du gain cumulé simulé"></div><div class="chart-footer"><span>DÉPART / 0 €</span><span>ÉVOLUTION DES PARIS RÉGLÉS →</span></div></div></div>
       <p class="lab-disclaimer"><strong>À LIRE :</strong> le ROI porte uniquement sur les paris déjà réglés. Un petit échantillon peut afficher une performance spectaculaire mais peu représentative. Aucun résultat futur n'est garanti.</p>
     </div></section>
 
-    <section class="journal-section wrap" id="journal" aria-labelledby="journal-title"><div class="section-heading"><div><span class="section-number">03 / LE JOURNAL</span><h2 id="journal-title">L'HISTORIQUE BRUT<span class="heading-period">.</span></h2><p>Les derniers paris fictifs réglés, sans sélection des seuls gagnants.</p></div><span class="journal-indicator">ARCHIVES CONSULTABLES</span></div><div class="table-scroll"><table class="settlements"><thead><tr><th>RENCONTRE / PARI</th><th>BOOK</th><th>COTE</th><th>ISSUE</th><th>GAIN NET FICTIF</th></tr></thead><tbody id="settled-table"><tr><td colspan="5">Lecture de l'historique…</td></tr></tbody></table></div><div class="journal-footer"><span>RÉSULTATS ISSUS DE LA BRANCHE « DONNEES »</span><a href="https://github.com/Matttgic/cotes-boostees/tree/donnees" target="_blank" rel="noopener noreferrer">VOIR LE JOURNAL COMPLET SUR GITHUB ↗</a></div></section>
+    <section class="journal-section wrap" id="journal" aria-labelledby="journal-title"><div class="section-heading"><div><span class="section-number">04 / LE JOURNAL</span><h2 id="journal-title">L'HISTORIQUE BRUT<span class="heading-period">.</span></h2><p>Les derniers paris fictifs réglés, sans sélection des seuls gagnants.</p></div><span class="journal-indicator">ARCHIVES CONSULTABLES</span></div><div class="table-scroll"><table class="settlements"><thead><tr><th>RENCONTRE / PARI</th><th>BOOK</th><th>COTE</th><th>ISSUE</th><th>GAIN NET FICTIF</th></tr></thead><tbody id="settled-table"><tr><td colspan="5">Lecture de l'historique…</td></tr></tbody></table></div><div class="journal-footer"><span>RÉSULTATS ISSUS DE LA BRANCHE « DONNEES »</span><a href="https://github.com/Matttgic/cotes-boostees/tree/donnees" target="_blank" rel="noopener noreferrer">VOIR LE JOURNAL COMPLET SUR GITHUB ↗</a></div></section>
   </main>
   <footer class="footer"><div class="wrap footer-inner"><div><strong>COTE/BOOSTÉE<span>.</span></strong><p>Un registre. Pas une promesse.</p></div><div class="footer-legal"><p>Simulation exclusivement. Les paris sportifs peuvent entraîner des pertes. Interdit aux mineurs.</p><p>Besoin d'aide ? <a href="https://www.joueurs-info-service.fr/" target="_blank" rel="noopener noreferrer">Joueurs Info Service</a> — 09 74 75 13 13</p></div><a class="footer-github" href="https://github.com/Matttgic/cotes-boostees" target="_blank" rel="noopener noreferrer">SOURCE OUVERTE ↗</a></div></footer>
   <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
