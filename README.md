@@ -4,11 +4,34 @@
 
 Suivi des cotes boostées de **Winamax, Unibet et PMU** pour savoir si elles sont rentables.
 
-Deux stratégies simulées en parallèle, en argent fictif, chaque boost misé à son plafond :
+Neuf variantes de simulation en parallèle, en argent fictif : trois originales A/B1/B2 et six challengers C–H.
 
 - **A « Tout miser »** : chaque boost publié, **toujours à la mise max** (10, 20 ou 50 €), à la cote
   boostée vue au premier passage. Bilan dans **`BILAN.md`** sur la branche `donnees` ;
 - **B « Filtrée »** : seulement les boosts à +5 % d'EV ou plus face à la cote juste Pinnacle (marge retirée).
+
+### Six nouvelles hypothèses (C à H)
+
+| Code | Règle prédéfinie | Limitation du risque |
+|---|---|---|
+| C | Tous les boosts | 10 € maximum par boost |
+| D | Cote boostée initiale de 1,60 à 3,50 | 10 € maximum |
+| E | Match commençant dans les 48 h de la première collecte, hors longue durée | 10 € maximum |
+| F | EV **exacte ≥ 8 %** et cote du premier calcul EV ≤ 4 | 10 € maximum |
+| G | EV **exacte ≥ 5 %**, prix du premier calcul, quart Kelly | Banque fictive fixe de 1 000 €, 1 % maximum/pari |
+| H | Un seul boost par événement, celui observé en premier | 10 € maximum |
+
+L'EV minimale existante est **+5 % (pas +50 %)**. Une hausse du prix de la cote
+boostée (par rapport au prix d'origine) **n'est pas** une preuve d'EV positive.
+A/B restent inchangées comme étalons. Les autres hypothèses sont exploratoires :
+pas d'optimisation a posteriori des seuils avec 13 paris seulement réglés
+au 9 octobre 2026. Le ROI, le gain et la pire baisse doivent être comparés **sur les
+mêmes périodes** et avec assez de paris hors échantillon. Les mises plafonnées
+réduisent la perte maximale par pari mais n'améliorent pas mécaniquement le ROI.
+Les stratégies EV F/G refusent une évaluation tardive ou approximative et
+utilisent le prix noté au premier calcul (pas une ancienne cote possiblement disparue).
+Kelly n'est pas fiable sans calibration et diversification ; c'est un **test fictif**.
+
 
 ⚠️ Simulation uniquement. Les paris sportifs comportent un risque de perte.
 Jeu responsable : Joueurs Info Service, 09 74 75 13 13.
@@ -43,8 +66,8 @@ variable `CHAINE` à `non`.
    et l'argent engagé suffisant ; requêtes PulseScore seulement dans ce cas). « exacte » : un pari ou des matchs différents ; « approx » : conditions
    liées sur un même match (produit des probabilités) ; « non évaluable » : une condition absente chez
    Pinnacle (jamais devinée) ;
-6. bilan : `bilan.json` et `BILAN.md` — A (tous les boosts), B-exacte et B-approx (EV ≥ 5 % au premier
-   calcul), A ventilée par valeur, mise max, cote, sport, mois.
+6. bilan : `bilan.json` et `BILAN.md` — A, B-exacte, B-approx et C à H (six nouvelles variantes).
+   A reste ventilée par valeur, mise max, cote, sport, mois. Les 9 simulations sont visibles dans le site.
 
 Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 
