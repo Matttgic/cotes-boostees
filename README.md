@@ -33,6 +33,18 @@ utilisent le prix noté au premier calcul (pas une ancienne cote possiblement di
 Kelly n'est pas fiable sans calibration et diversification ; c'est un **test fictif**.
 
 
+## Cerveau — mode observation prospective (v0.1)
+
+Le fichier public `cerveau.json` (branche `donnees`) contient un journal **horodaté avant match** :
+
+- **Sélection fictive** : uniquement pari simple et référence `exacte` recalculée lors du passage, EV ≥ +5 %, cote entre 1,60 et 5, départ dans les 72 h, mise maximale **confirmée**. Mise fictive plafonnée à 10 €.
+- **Écarté** : marché exactement évalué mais EV insuffisante ou cote hors bornes.
+- **Abstention** : marché absent, combiné, manque de mise, longue durée, cotation ou référence non exploitable. Ne pas transformer les absences en paris perdants.
+
+Une sélection se **verrouille au premier instant** où tous les critères sont réunis. Les cotes et les mises ne sont jamais remplacées par celles vues après coup ; les changements ultérieurs forment un journal distinct. Le module regarde les résultats uniquement après la prise de décision et publie gains nets, ROI et pire baisse des paris fictifs réglés. Les boosts anciennement observés et déjà terminés ne sont pas backfillés comme des prédictions.
+
+**Important : c'est un moteur à règles, PAS encore un modèle entraîné.** Les caractéristiques archivées avant match pourront alimenter un modèle statistique après validation d'un échantillon suffisant. Le moteur ne place aucun pari, n'expose aucun secret et n'ajoute aucun appel aux API. Les règlements automatiques peuvent être erronés : corrections manuelles prévues dans le collecteur.
+
 ⚠️ Simulation uniquement. Les paris sportifs comportent un risque de perte.
 Jeu responsable : Joueurs Info Service, 09 74 75 13 13.
 
