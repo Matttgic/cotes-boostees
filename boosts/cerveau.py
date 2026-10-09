@@ -79,6 +79,19 @@ def _calcul(b, maintenant: str) -> dict:
         "cote_juste": juste if v.get("statut") == "exacte" else None,
         "source": list(v.get("sources") or []) if v.get("statut") == "exacte" else [],
         "mise_fictive": round(min(limite, MISE_PLAFOND), 2) if statut == "selectionner" else None,
+        # Features figées AVANT match pour un éventuel entraînement ultérieur.
+        # Jamais de résultat, score final ni date de règlement dans cet instantané.
+        "features": {
+            "cote_origine": nombre(b.get("cote_origine")),
+            "hausse_pct": nombre(b.get("hausse_pct")),
+            "mise_max": limite,
+            "mise_max_supposee": bool(b.get("mise_max_supposee")),
+            "type_boost": b.get("type"),
+            "horizon_heures": round((depart - t).total_seconds() / 3600, 1) if t and depart else None,
+            "long_terme": bool(b.get("long_terme")),
+            "qualite_reference": v.get("statut", "absente"),
+            "nb_conditions": len(v.get("detail") or []),
+        },
     }
 
 
@@ -143,9 +156,12 @@ def enregistrer(base: dict, registre: dict, maintenant: str, heure_execution: st
 def bilan(registre: dict, boosts: dict) -> dict:
     entrees = registre.get("entrees") or {}
     sorties = []
+    observations_reglees = 0
     for identifiant, entree in entrees.items():
         choisi = entree.get("premiere_selection")
         b = boosts.get(identifiant) or {}
+        if (b.get("reglement") or {}).get("statut") in REGLES:
+            observations_reglees += 1
         if not choisi:
             continue
         s = (b.get("reglement") or {}).get("statut", "en attente")
@@ -187,6 +203,7 @@ def bilan(registre: dict, boosts: dict) -> dict:
                 compteurs[statut] += 1
     return {
         "observes": len(entrees),
+        "observations_reglees": observations_reglees,
         "derniere_observation": registre.get("derniere_observation"),
         "decisions_courantes": compteurs,
         "paris_selectionnes": len(sorties),
