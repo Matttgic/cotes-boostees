@@ -4,11 +4,12 @@ Site statique sans framework, sans backend supplémentaire, et sans clés secrè
 
 ## Source de données
 
-Le navigateur lit trois fichiers **publics** issus de la branche `donnees` :
+Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :
 
 - `boosts.json` : historique, cotes, disponibilité à la dernière collecte, évaluations ;
 - `bilan.json` : bilans et trajectoires simulés par le moteur Python ;
-- `etat.json` : dernier passage, diagnostics des bookmakers.
+- `etat.json` : dernier passage, diagnostics des bookmakers ;
+- `cerveau.json` : signaux prospectifs, abstentions, historiques de décision pré-match et bilans fictifs. Le fichier est facultatif tant que la première collecte ne l'a pas créé.
 
 Les données proviennent de `https://raw.githubusercontent.com/Matttgic/cotes-boostees/donnees/`.
 Le chargement a lieu à l'ouverture, sur clic « Actualiser », et toutes les 5 minutes lorsque l'onglet est visible. La mise à jour dépend donc **aussi** de la cadence et du succès de la collecte GitHub Actions : ce n'est pas un flux de cotes en temps réel.
@@ -39,3 +40,9 @@ Le projet `cotes-boostees` est connecté au dépôt GitHub. La branche `main` es
 - Le pourcentage de boost est une hausse de cote, pas une probabilité de gain.
 - Les ROI affichés portent uniquement sur les paris fictifs déjà réglés et peuvent être très volatils.
 - L'interface est en lecture seule : elle n'envoie pas de paris et ne modifie pas la collecte.
+
+## Cerveau v0.1
+
+L'onglet « Le cerveau » lit **seulement** `cerveau.json` et refuse d'afficher des recommandations inventées si ce fichier manque. Filtrage par sélection fictive / écarté / abstention, explications documentées, prix au moment de la première sélection et performance de sélection historique. Les cartes ne sont pas des recommandations de jouer.
+
+La sélection et la journalisation ont lieu côté Python dans `boosts/cerveau.py` **après collecte et évaluation, mais avant règlement**. Les instantanés figent les informations disponibles à ce moment, avec date et version de protocole, et excluent les matchs déjà commencés. Le fichier est archivé automatiquement sur la branche `donnees`. Aucun entraînement n'est activé et rien n'est optimisé sur les gains du passé.
