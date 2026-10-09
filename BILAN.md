@@ -1,10 +1,10 @@
 # Bilan des cotes boostées (mise max)
 
-Mis à jour le 09/10 07h21 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
+Mis à jour le 09/10 08h19 (heure de Paris). Argent fictif : un pari par boost, à la mise max, à la cote boostée vue au premier passage.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 8 / 33 | 160 € | **+5,00 €** | **+3,1 %** | -40,00 € |
+| **A — tout miser** | 9 / 34 | 180 € | **+45,00 €** | **+25,0 %** | -40,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 
@@ -12,7 +12,7 @@ Mis à jour le 09/10 07h21 (heure de Paris). Argent fictif : un pari par boost, 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne 2,9 · pire série perdante 2
+A en détail : 4 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne 2,89 · pire série perdante 2
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -20,7 +20,7 @@ A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| EV < 0 (approx) | 1 / 2 | 20 € | +28,00 € | +140,0 % | 100 % |
+| EV < 0 (approx) | 2 / 3 | 40 € | +68,00 € | +170,0 % | 100 % |
 | EV < 0 (exacte) | 1 / 2 | 20 € | -20,00 € | -100,0 % | 0 % |
 | non évaluable | 6 / 29 | 120 € | -3,00 € | -2,5 % | 33 % |
 
@@ -29,28 +29,28 @@ A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 0 / 21 | 0 € | +0,00 € | – | – |
-| Winamax | 8 / 12 | 160 € | +5,00 € | +3,1 % | 38 % |
+| Winamax | 9 / 13 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 20 | 0 € | +0,00 € | – | – |
-| match | 8 / 13 | 160 € | +5,00 € | +3,1 % | 38 % |
+| match | 9 / 14 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 8 / 12 | 160 € | +5,00 € | +3,1 % | 38 % |
+| 20 € | 9 / 13 | 180 € | +45,00 € | +25,0 % | 44 % |
 | 25 € | 0 / 21 | 0 € | +0,00 € | – | – |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2 – 3 | 5 / 13 | 100 € | -7,00 € | -7,0 % | 40 % |
-| 3 – 5 | 3 / 9 | 60 € | +12,00 € | +20,0 % | 33 % |
+| 2 – 3 | 5 / 14 | 100 € | -7,00 € | -7,0 % | 40 % |
+| 3 – 5 | 4 / 9 | 80 € | +52,00 € | +65,0 % | 50 % |
 | 5 – 10 | 0 / 3 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -59,11 +59,11 @@ A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
-| Basketball | 0 / 19 | 0 € | +0,00 € | – | – |
+| Basketball | 0 / 20 | 0 € | +0,00 € | – | – |
 | Football | 1 / 2 | 20 € | +52,00 € | +260,0 % | 100 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
-| Hockey sur glace | 1 / 2 | 20 € | -20,00 € | -100,0 % | 0 % |
+| Hockey sur glace | 2 / 2 | 40 € | +20,00 € | +50,0 % | 50 % |
 | Rugby à XV | 1 / 1 | 20 € | +25,00 € | +125,0 % | 100 % |
 | Tennis | 0 / 3 | 0 € | +0,00 € | – | – |
 | Tennis de table | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -72,7 +72,7 @@ A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 8 / 33 | 160 € | +5,00 € | +3,1 % | 38 % |
+| 2026-10 | 9 / 34 | 180 € | +45,00 € | +25,0 % | 44 % |
 
 ### Derniers paris
 
@@ -98,11 +98,12 @@ A en détail : 3 gagnés, 5 perdus, 0 remboursés, 25 en attente · cote moyenne
 | 20/10 19h00 · Paris Trashtalk 26/27 | CHI Bulls - Caleb Wilson meilleur marqueur des Bulls (total de points) | 5,5 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds) | 2,5 | – | – | 25 € | ⏳ |
 | 09/10 20h00 · Ligue 2 - 09/10 | Plus de 1,5 buts dans chacun des 5 matchs de 20:00 | 3,65 | – | – | 25 € | ⏳ |
+| 09/10 10h30 · Illawarra Hawks - Tasmania Jackjumpers | Illawarra Hawks gagne à la mi-temps et à la fin du match (hors prol.) | 2,5 | 3,704 | -32,5 % ≈ | 20 € | ⏳ |
 | 09/10 06h00 · A.Gea - U.Humbert | Les 2 joueurs gagnent un set ? | 2,3 | – | – | 25 € | ⏳ |
 | 09/10 06h00 · Adrian Mannarino - Flavio Cobolli | Adrian Mannarino gagne le premier set | 2,4 | – | – | 20 € | ⏳ |
 | 09/10 06h00 · Arthur Gea - Ugo Humbert | Plus de 2,5 sets lors du match | 2,3 | 2,674 | -14,0 % | 20 € | ⏳ |
 | 09/10 05h45 · A.Lebrun / F.Lebrun - R.Wen / L.Yuan | A.Lebrun / F.Lebrun gagne le match 3-1 | 4,75 | – | – | 20 € | ⏳ |
-| 09/10 04h15 · Vegas Golden Knights - Toronto Maple Leafs | Vegas Golden Knights gagne et plus de 6,5 buts dans le match (prol. et TAB inclus) | 3,0 | 3,321 | -9,7 % ≈ | 20 € | ⏳ |
+| 09/10 04h15 · Vegas Golden Knights - Toronto Maple Leafs | Vegas Golden Knights gagne et plus de 6,5 buts dans le match (prol. et TAB inclus) | 3,0 | 3,321 | -9,7 % ≈ | 20 € | ✅ +40,00 € |
 | 09/10 02h15 · Dallas Cowboys - Tampa Bay Buccaneers | Javonte Williams réalise au moins 81 yards à la course | 2,4 | – | – | 20 € | ❌ -20,00 € |
 | 09/10 02h15 · Dallas Cowboys - Tampa Bay Buccaneers | CeeDee Lamb marque au moins un touchdown et Dallas Cowboys gagne par au moins 5 points d'écart | 2,4 | – | – | 20 € | ❌ -20,00 € |
 | 09/10 02h00 · Chicago White Sox - Cleveland Guardians | Les deux équipes marquent chacune au moins 3 runs | 2,4 | 2,423 | -0,9 % ≈ | 20 € | ✅ +28,00 € |
