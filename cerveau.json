@@ -1,29 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 51,
+   "abstention": 52,
    "ecarter": 5,
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T19:52:34+00:00",
+  "derniere_observation": "2026-10-10T20:51:41+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 6,
+   "combiné_lie": 5,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 4,
-   "ligne_absente": 7,
+   "ligne_absente": 6,
    "long_terme": 23,
-   "marche_non_cote": 8,
-   "match_introuvable": 11,
+   "marche_non_cote": 7,
+   "match_introuvable": 15,
    "sport_non_suivi": 2
   },
-  "observations_reglees": 28,
-  "observes": 79,
+  "observations_reglees": 34,
+  "observes": 80,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T19:52:34+00:00",
+ "derniere_observation": "2026-10-10T20:51:41+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1818,6 +1818,43 @@
    "pari": "Clermont gagne et le duo B.Delguy/B.Massa marque au moins 1 essai",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|194702741|726416833": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-11T10:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 13.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T20:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (A.Zverev - Q.Halys)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194702741|726416833",
+   "match": "A.Zverev - Q.Halys",
+   "pari": "Q.Halys remporte au moins un set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -4112,6 +4149,32 @@
      "reference_raison": "condition non cotée par les références",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 10.7,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T20:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Atlas - Guadalajara) ; Betfair : ligne absente (TOTAL_EXT MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716279895|2220145722",
@@ -4149,6 +4212,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 13.3,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T20:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Inter Miami - DC United) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716283851|2220156099",
@@ -4184,6 +4273,32 @@
       "Conditions liées : probabilité seulement approximative"
      ],
      "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 10.9,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T20:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Sao Paulo FC - Vitoria) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -4252,6 +4367,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.34,
+     "decision": "ecarter",
+     "ev_pct": -13.6,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T20:51:41+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
