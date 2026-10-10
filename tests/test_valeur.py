@@ -136,3 +136,42 @@ def test_betfair_peu_liquide_ignore():
              "cote": 1.9, "cle_marche": "m", "achat": [{"price": 1.9, "liquidity": 5}],
              "vente": [{"price": 1.95, "liquidity": 5}]} for i in ("PLUS", "MOINS")]
     assert valeur.reference_betfair(brut) == []
+
+
+def test_reconstruit_nom_manquant_seulement_si_titre_precis(index):
+    """Un nom de l'affiche connu par l'IA + titre non ambigu, sans invention de probabilité."""
+    b = boost("Rugby à XV", 2.25, "2026-10-08T19:00:00+00:00")
+    b["match"] = "Montauban - Brive"
+    jj = [j(equipe_1="Montauban", equipe_2=None, type="handicap", equipe="Montauban", ligne=-5.5)]
+    v = valeur.evaluer(b, jj, index)
+    assert v["statut"] == "exacte"
+    assert jj[0]["equipe_2"] is None                  # pas de mutation de l'original
+    # Sans nom connu, ou avec un titre qui n'est qu'un nom de compétition, on s'abstient.
+    jj[0]["equipe_1"] = None
+    assert valeur.evaluer(b, jj, index)["statut"] == "non_evaluable"
+    jj[0]["equipe_1"] = "Montauban"
+    b["match"] = "Pro D2"
+    assert valeur.evaluer(b, jj, index)["statut"] == "non_evaluable"
+
+
+def test_refuse_d_inventer_une_equipe_sur_titre_inverse(index):
+    b = boost("Rugby à XV", 2.25, "2026-10-08T19:00:00+00:00")
+    b["match"] = "Brive - Montauban"       # inversé : source non vérifiée
+    jj = [j(equipe_1="Montauban", equipe_2=None, type="handicap", equipe="Montauban", ligne=-5.5)]
+    assert valeur.evaluer(b, jj, index)["statut"] == "non_evaluable"
+
+
+def test_matchs_identiques_priorite_a_la_rencontre_la_plus_proche():
+    lignes = []
+    # La rencontre plus éloignée est délibérément présentée en premier.
+    lignes += lignes_marche("tennis", 8, "A. Durand", "B. Martin",
+        "2026-10-09T17:00:00Z", "VAINQUEUR", "MATCH",
+        [(None, "DOM", 1.8), (None, "EXT", 2.0)])
+    lignes += lignes_marche("tennis", 9, "A. Durand", "B. Martin",
+        "2026-10-08T18:30:00Z", "VAINQUEUR", "MATCH",
+        [(None, "DOM", 1.8), (None, "EXT", 2.0)])
+    idx = valeur.Index(lignes)
+    match, inverse, score = idx.trouver_match("tennis", "A. Durand", "B. Martin",
+        valeur._t("2026-10-08T18:45:00Z"))
+    assert match["match_id"] == 9
+    assert not inverse and score >= 0.9
