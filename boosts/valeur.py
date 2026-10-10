@@ -63,9 +63,11 @@ class Index:
             direct = min(ressemblance(e1, m["domicile"]), ressemblance(e2, m["exterieur"]))
             inverse = min(ressemblance(e1, m["exterieur"]), ressemblance(e2, m["domicile"]))
             score, inv = max((direct, False), (inverse, True))
-            if score >= SCORE_MIN and (meilleur is None or score > meilleur[2]):
-                meilleur = (m, inv, score)
-        return meilleur
+            ecart = abs((m["debut"] - debut).total_seconds()) if debut else 0
+            # A ressemblance identique, choisir le coup d’envoi le plus proche.
+            if score >= SCORE_MIN and (meilleur is None or (score, -ecart) > (meilleur[2], -meilleur[3])):
+                meilleur = (m, inv, score, ecart)
+        return meilleur[:3] if meilleur else None
 
 
 def _cote_equipe(match: dict, nom: str | None) -> str | None:
@@ -155,6 +157,26 @@ def chercher_ligne(index: Index, match: dict, cle: tuple, j: dict) -> dict | Non
     return None
 
 
+def _completer_equipe_depuis_titre(j: dict, titre: str | None) -> dict:
+    """Complète une équipe manquante si l'autre correspond strictement au titre.
+
+    Ne devine rien quand les deux équipes sont inconnues ou le titre ambigu.
+    """
+    if not titre or titre.count(" - ") != 1:
+        return j
+    domicile, exterieur = (nom.strip() for nom in titre.split(" - ", 1))
+    if not re.search(r"[a-zA-ZÀ-ÿ]", domicile) or not re.search(r"[a-zA-ZÀ-ÿ]", exterieur):
+        return j
+    e1, e2 = j.get("equipe_1"), j.get("equipe_2")
+    if bool(e1) == bool(e2):
+        return j
+    if e1 and ressemblance(e1, domicile) >= 0.9:
+        return {**j, "equipe_2": exterieur}
+    if e2 and ressemblance(e2, exterieur) >= 0.9:
+        return {**j, "equipe_1": domicile}
+    return j
+
+
 def _jambe(j: dict, sport: str, debut, index: Index):
     """(ligne, match, ressemblance) ou la raison de l'échec."""
     trouve = index.trouver_match(sport, j["equipe_1"], j["equipe_2"], debut)
@@ -182,7 +204,9 @@ def evaluer(boost: dict, jambes: list[dict] | None, sources) -> dict:
         return {"statut": "non_evaluable", "raison": f"sport non suivi ({boost.get('sport')})"}
     debut = _t(boost.get("debut"))
     proba, matchs_vus, detail = 1.0, [], []
-    for j in jambes:
+    for original in jambes:
+        # Complément strict réservé à un pari simple sur une rencontre explicite.
+        j = _completer_equipe_depuis_titre(original, boost.get("match")) if len(jambes) == 1 else original
         if j["type"] == "autre":
             return {"statut": "non_evaluable", "raison": "condition non cotée par les références", "detail": detail}
         raisons, res = [], None

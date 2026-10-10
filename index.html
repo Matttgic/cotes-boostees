@@ -84,6 +84,7 @@
           <div><small>ROI DES SÉLECTIONS RÉGLÉES</small><strong id="brain-roi">—</strong></div>
         </div>
       </div>
+      <div class="brain-diagnostics" id="brain-diagnostics" aria-label="Répartition des motifs du cerveau"></div>
       <div class="brain-toolbar">
         <span class="tiny-label">LE JOURNAL DES DÉCISIONS <span id="brain-update"></span></span>
         <div class="brain-filters" role="group" aria-label="Filtrer les décisions du cerveau">
@@ -91,6 +92,7 @@
           <button type="button" data-brain="selectionner" class="brain-filter" aria-pressed="false">SÉLECTIONS</button>
           <button type="button" data-brain="ecarter" class="brain-filter" aria-pressed="false">ÉCARTÉES</button>
           <button type="button" data-brain="abstention" class="brain-filter" aria-pressed="false">ABSTENTIONS</button>
+          <button type="button" data-brain="hors_perimetre" class="brain-filter" aria-pressed="false">HORS CHAMP</button>
         </div>
       </div>
       <div class="brain-feed" id="brain-feed" aria-live="polite"><p class="brain-empty">Lecture des décisions de la prochaine collecte…</p></div>

@@ -92,3 +92,20 @@
  .brain-numbers strong{font-size:32px}
  .brain-filter{padding:9px 10px}
 }
+
+
+/* Diagnostics du cerveau : les paris de saison ne gonflent plus les abstentions techniques. */
+.brain-diagnostics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--ink);background:var(--paper-hi)}
+.brain-diagnostic{min-width:0;display:flex;flex-direction:column;gap:4px;padding:18px 16px;border-right:1px solid var(--line)}
+.brain-diagnostic:last-child{border-right:0}
+.brain-diagnostic strong{font:800 38px/1 var(--display);font-variant-numeric:tabular-nums}
+.brain-diagnostic small{font:500 9px/1.45 var(--mono);color:var(--mute)}
+.brain-entry[data-decision="hors_perimetre"]{border-top-color:var(--line-dark)}
+.brain-entry[data-decision="hors_perimetre"] .brain-tag{color:var(--mute)}
+@media(max-width:620px){
+.brain-diagnostics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.brain-diagnostic{padding:14px 10px;border-bottom:1px solid var(--line)}
+.brain-diagnostic:nth-child(2){border-right:0}
+.brain-diagnostic:nth-child(n+3){border-bottom:0}
+.brain-diagnostic strong{font-size:34px}
+}

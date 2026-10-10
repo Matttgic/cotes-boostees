@@ -46,3 +46,15 @@ Le projet `cotes-boostees` est connecté au dépôt GitHub. La branche `main` es
 L'onglet « Le cerveau » lit **seulement** `cerveau.json` et refuse d'afficher des recommandations inventées si ce fichier manque. Filtrage par sélection fictive / écarté / abstention, explications documentées, prix au moment de la première sélection et performance de sélection historique. Les cartes ne sont pas des recommandations de jouer.
 
 La sélection et la journalisation ont lieu côté Python dans `boosts/cerveau.py` **après collecte et évaluation, mais avant règlement**. Les instantanés figent les informations disponibles à ce moment, avec date et version de protocole, et excluent les matchs déjà commencés. Le fichier est archivé automatiquement sur la branche `donnees`. Aucun entraînement n'est activé et rien n'est optimisé sur les gains du passé.
+
+## Comprendre les abstentions (v1.1)
+
+Le laboratoire sépare :
+- **Hors champ** : offres long terme, date non identifiable ou match hors des 72 h ; ce ne sont pas des rejets pour manque d'EV ;
+- **Abstention** : aucune probabilité de référence exploitable, combiné lié, équipe introuvable ou mise maximale inconnue ;
+- **Écarté** : référence exacte disponible mais EV insuffisante ou cote hors des bornes du protocole ;
+- **Sélection fictive** : référence exacte et actualisée, EV ≥ 5 % et mise fictive plafonnée.
+
+Le détail des raisons est enregistré sous `motif_code`, `raisons`, `reference_raison` et agrégé dans `bilan.motifs_courants`. Les anciens instantanés restent inchangés, et leur `motif_code` absent figure comme `ancien_format` jusqu'à une nouvelle observation pré-match. Le cerveau peut maintenant traiter plusieurs jambes sur des rencontres **distinctes** avec EV calculée exactement, mais les combinés liés et les marchés non cotés restent sans signal.
+
+L'amélioration des correspondances n'élargit pas les seuils de similarité des noms. Un nom manquant est rempli uniquement quand l'autre équipe correspond à l'affiche explicite « domicile - extérieur », sinon l'offre reste non évaluable.

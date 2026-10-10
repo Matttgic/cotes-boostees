@@ -245,6 +245,18 @@
     $('brain-settled').textContent = b && b.entrees ? (fmt(number(stats.paris_regles) || 0, 0) + ' / ' + fmt(number(stats.paris_selectionnes) || 0, 0)) : '—';
     $('brain-roi').textContent = pct(number(stats.roi_pct));
     $('brain-update').textContent = b && b.derniere_observation ? '· SCAN ' + dateText(b.derniere_observation) : '';
+    const decisions = stats.decisions_courantes || {};
+    const reasonCounts = stats.motifs_courants || {};
+    const diagnostics = [
+      ['HORS CHAMP', number(decisions.hors_perimetre) || 0],
+      ['RÉFÉRENCES ABSENTES', ['match_introuvable', 'ligne_absente', 'marche_non_cote', 'reference_absente', 'sport_non_suivi'].reduce((sum, k) => sum + (number(reasonCounts[k]) || 0), 0)],
+      ['COMBINÉS INCERTAINS', ['combiné_lie','independance_non_verifiee'].reduce((sum, k) => sum + (number(reasonCounts[k]) || 0), 0)],
+      ['ABSTENTIONS TOTALES', number(decisions.abstention) || 0]
+    ];
+    $('brain-diagnostics').innerHTML = diagnostics.map(([name, count]) =>
+      '<div class="brain-diagnostic"><strong>' + esc(fmt(count, 0)) + '</strong><small>' + esc(name) + '</small></div>'
+    ).join('');
+
     document.querySelectorAll('[data-brain]').forEach(btn => {
       const yes = btn.dataset.brain === state.brainView;
       btn.classList.toggle('is-active', yes);
@@ -265,15 +277,17 @@
       $('brain-feed').innerHTML = '<p class="brain-empty">Aucun événement pour cette catégorie à cette étape de l’observation.</p>';
       return;
     }
-    const tags = { selectionner: 'SÉLECTION FICTIVE', ecarter: 'ÉCARTÉ', abstention: 'ABSTENTION' };
+    const tags = { selectionner: 'SÉLECTION FICTIVE', ecarter: 'ÉCARTÉ', abstention: 'ABSTENTION', hors_perimetre: 'HORS CHAMP' };
     const outcomes = new Map(state.boosts.map(x => [x.id, x.reglement && x.reglement.statut]));
-    $('brain-feed').innerHTML = filtered.slice(0, 30).map(e => {
+    $('brain-feed').innerHTML = filtered.slice(0, 50).map(e => {
       const last = e.historique[e.historique.length - 1];
-      const status = ['selectionner', 'ecarter', 'abstention'].includes(last.decision) ? last.decision : 'abstention';
+      const status = ['selectionner', 'ecarter', 'abstention', 'hors_perimetre'].includes(last.decision) ? last.decision : 'abstention';
       const selected = e.premiere_selection;
       const result = outcomes.get(e.id);
       const settlement = selected && ['gagné', 'perdu', 'remboursé'].includes(result) ? ' · RÉSULTAT ' + String(result).toUpperCase() : '';
       const reasons = Array.isArray(last.raisons) ? last.raisons.join(' · ') : 'Raison indisponible';
+      const diagnostic = plain(last.reference_raison);
+      const lastReason = diagnostic && !reasons.includes(diagnostic) ? ' · Source : ' + diagnostic : '';
       const fair = number(last.ev_pct);
       const stake = selected ? number(selected.mise_fictive) : null;
       const odds = number(last.cote);
@@ -281,7 +295,7 @@
         + '<div class="brain-entry-top"><span class="brain-tag">' + esc(tags[status]) + '</span><span>' + esc(dateText(last.horodatage)) + '</span></div>'
         + '<div class="brain-entry-body"><div><span class="brain-source">' + esc(plain(e.bookmaker)) + ' / ' + esc(plain(e.sport)) + '</span>'
         + '<h3>' + esc(plain(e.match)) + '</h3><p class="brain-pari">' + esc(plain(e.pari)) + '</p>'
-        + '<p class="brain-reason">' + esc(reasons) + '</p></div>'
+        + '<p class="brain-reason">' + esc(reasons + lastReason) + '</p></div>'
         + '<div class="brain-numbers"><span>COTE OBSERVÉE</span><strong>' + (odds === null ? '—' : esc(fmt(odds, 2))) + '</strong>'
         + '<span>EV DE RÉFÉRENCE</span><b>' + (fair === null ? 'NON CALCULABLE' : esc(pct(fair))) + '</b></div></div>'
         + '<div class="brain-entry-bottom"><span>DÉBUT ' + esc(dateText(e.debut)) + settlement + '</span>'
@@ -332,7 +346,7 @@
     for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.limit = PAGE_SIZE; renderList(); });
     document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.limit = PAGE_SIZE; syncControls(); renderList(); }));
     $('strategy-switch').addEventListener('click', event => { const button = event.target.closest('button[data-strategy]'); if (button && STRATEGY_META[button.dataset.strategy]) { state.strategy = button.dataset.strategy; renderLab(); } });
-    document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; renderBrain(); } });
+    document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention','hors_perimetre'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; renderBrain(); } });
     $('favorites-only').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; state.limit = PAGE_SIZE; syncControls(); renderList(); });
     $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderList(); });
     $('boost-list').addEventListener('click', (e) => {
