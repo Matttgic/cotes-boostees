@@ -37,7 +37,7 @@ Kelly n'est pas fiable sans calibration et diversification ; c'est un **test fic
 
 Le fichier public `cerveau.json` (branche `donnees`) contient un journal **horodaté avant match** :
 
-- **Sélection fictive** : uniquement pari simple et référence `exacte` recalculée lors du passage, EV ≥ +5 %, cote entre 1,60 et 5, départ dans les 72 h, mise maximale **confirmée**. Mise fictive plafonnée à 10 €.
+- **Sélection fictive** : pari simple ou combiné de rencontres distinctes avec référence `exacte` recalculée lors du passage, EV ≥ +5 %, cote entre 1,60 et 5, départ dans les 72 h, mise maximale **confirmée**. Mise fictive plafonnée à 10 €.
 - **Écarté** : marché exactement évalué mais EV insuffisante ou cote hors bornes.
 - **Abstention** : marché absent, combiné, manque de mise, longue durée, cotation ou référence non exploitable. Ne pas transformer les absences en paris perdants.
 
