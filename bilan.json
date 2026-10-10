@@ -148,23 +148,27 @@
    {
     "cumul": 165.5,
     "debut": "2026-10-10T08:30+00:00"
+   },
+   {
+    "cumul": 145.5,
+    "debut": "2026-10-10T09:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 52,
+   "cote_moyenne": 3.16,
+   "en_attente": 55,
    "gagnes": 16,
-   "gain_net": 165.5,
-   "mise_totale": 755.0,
-   "paris": 89,
-   "perdus": 21,
-   "pire_baisse": -120.0,
-   "pire_serie_perdante": 6,
-   "regles": 37,
+   "gain_net": 145.5,
+   "mise_totale": 775.0,
+   "paris": 93,
+   "perdus": 22,
+   "pire_baisse": -140.0,
+   "pire_serie_perdante": 7,
+   "regles": 38,
    "rembourses": 0,
-   "reussite_pct": 43.2,
-   "roi_pct": 21.9
+   "reussite_pct": 42.1,
+   "roi_pct": 18.8
   },
   "par_bookmaker": {
    "Unibet": {
@@ -182,16 +186,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.41,
-    "en_attente": 21,
+    "en_attente": 24,
     "gagnes": 13,
-    "gain_net": 68.0,
-    "mise_totale": 680.0,
-    "paris": 55,
-    "perdus": 21,
-    "regles": 34,
+    "gain_net": 48.0,
+    "mise_totale": 700.0,
+    "paris": 59,
+    "perdus": 22,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 38.2,
-    "roi_pct": 10.0
+    "reussite_pct": 37.1,
+    "roi_pct": 6.9
    }
   },
   "par_horizon": {
@@ -209,32 +213,32 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.15,
-    "en_attente": 27,
+    "cote_moyenne": 3.16,
+    "en_attente": 30,
     "gagnes": 16,
-    "gain_net": 165.5,
-    "mise_totale": 755.0,
-    "paris": 64,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 145.5,
+    "mise_totale": 775.0,
+    "paris": 68,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 21.9
+    "reussite_pct": 42.1,
+    "roi_pct": 18.8
    }
   },
   "par_mise": {
    "20 €": {
     "cote_moyenne": 3.41,
-    "en_attente": 21,
+    "en_attente": 24,
     "gagnes": 13,
-    "gain_net": 68.0,
-    "mise_totale": 680.0,
-    "paris": 55,
-    "perdus": 21,
-    "regles": 34,
+    "gain_net": 48.0,
+    "mise_totale": 700.0,
+    "paris": 59,
+    "perdus": 22,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 38.2,
-    "roi_pct": 10.0
+    "reussite_pct": 37.1,
+    "roi_pct": 6.9
    },
    "25 €": {
     "cote_moyenne": 2.73,
@@ -252,17 +256,17 @@
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 52,
+    "cote_moyenne": 3.16,
+    "en_attente": 55,
     "gagnes": 16,
-    "gain_net": 165.5,
-    "mise_totale": 755.0,
-    "paris": 89,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 145.5,
+    "mise_totale": 775.0,
+    "paris": 93,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 21.9
+    "reussite_pct": 42.1,
+    "roi_pct": 18.8
    }
   },
   "par_sport": {
@@ -293,12 +297,12 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "cote_moyenne": 3.26,
-    "en_attente": 21,
+    "cote_moyenne": 3.28,
+    "en_attente": 24,
     "gagnes": 7,
     "gain_net": 119.0,
     "mise_totale": 290.0,
-    "paris": 35,
+    "paris": 38,
     "perdus": 7,
     "regles": 14,
     "rembourses": 0,
@@ -320,16 +324,16 @@
    },
    "Formule 1": {
     "cote_moyenne": 3.5,
-    "en_attente": 1,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -20.0,
+    "mise_totale": 20.0,
     "paris": 1,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Handball": {
     "cote_moyenne": 3.33,
@@ -345,12 +349,12 @@
     "roi_pct": -100.0
    },
    "Hockey sur glace": {
-    "cote_moyenne": 3.38,
-    "en_attente": 0,
+    "cote_moyenne": 3.35,
+    "en_attente": 1,
     "gagnes": 1,
     "gain_net": -20.0,
     "mise_totale": 80.0,
-    "paris": 4,
+    "paris": 5,
     "perdus": 3,
     "regles": 4,
     "rembourses": 0,
@@ -451,17 +455,17 @@
     "roi_pct": 45.2
    },
    "3 – 5": {
-    "cote_moyenne": 3.65,
-    "en_attente": 16,
+    "cote_moyenne": 3.63,
+    "en_attente": 19,
     "gagnes": 5,
-    "gain_net": -13.0,
-    "mise_totale": 360.0,
-    "paris": 34,
-    "perdus": 13,
-    "regles": 18,
+    "gain_net": -33.0,
+    "mise_totale": 380.0,
+    "paris": 38,
+    "perdus": 14,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 27.8,
-    "roi_pct": -3.6
+    "reussite_pct": 26.3,
+    "roi_pct": -8.7
    },
    "5 – 10": {
     "cote_moyenne": 5.73,
@@ -504,6 +508,19 @@
     "reussite_pct": null,
     "roi_pct": null
    },
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
+    "en_attente": 1,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 1,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   },
    "EV 5 à 10 % (approx)": {
     "cote_moyenne": 3.75,
     "en_attente": 1,
@@ -531,12 +548,12 @@
     "roi_pct": 35.0
    },
    "EV < 0 (exacte)": {
-    "cote_moyenne": 2.99,
-    "en_attente": 1,
+    "cote_moyenne": 3.1,
+    "en_attente": 3,
     "gagnes": 2,
     "gain_net": 26.0,
     "mise_totale": 80.0,
-    "paris": 5,
+    "paris": 7,
     "perdus": 2,
     "regles": 4,
     "rembourses": 0,
@@ -547,14 +564,14 @@
     "cote_moyenne": 3.16,
     "en_attente": 47,
     "gagnes": 12,
-    "gain_net": 111.5,
-    "mise_totale": 595.0,
-    "paris": 76,
-    "perdus": 17,
-    "regles": 29,
+    "gain_net": 91.5,
+    "mise_totale": 615.0,
+    "paris": 77,
+    "perdus": 18,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 41.4,
-    "roi_pct": 18.7
+    "reussite_pct": 40.0,
+    "roi_pct": 14.9
    }
   },
   "paris": [
@@ -1262,14 +1279,14 @@
     "cote_origine": 3.25,
     "debut": "2026-10-10T09:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|715652219|2218222586",
     "match": "Grand Prix de Singapour - Sprint",
     "mise": 20.0,
     "pari": "George Russell remporte la course",
     "sport": "Formule 1",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -1412,7 +1429,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.978,
+    "cote_origine": 2.075,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1429,7 +1446,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": 3.492,
-    "cote_origine": 3.45,
+    "cote_origine": 3.5,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": 7.4,
     "gain": null,
@@ -1446,7 +1463,7 @@
     "bookmaker": "Winamax",
     "cote": 2.6,
     "cote_juste": null,
-    "cote_origine": 2.231,
+    "cote_origine": 2.276,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1463,7 +1480,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.902,
+    "cote_origine": 1.938,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1480,7 +1497,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.927,
+    "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1531,7 +1548,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.4,
+    "cote_origine": 3.55,
     "debut": "2026-10-10T16:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1597,9 +1614,43 @@
    },
    {
     "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.854,
+    "cote_origine": 2.95,
+    "debut": "2026-10-10T18:00+00:00",
+    "ev_pct": -9.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715903019|2218957235",
+    "match": "Saint-Etienne - Rodez",
+    "mise": 20.0,
+    "pari": "Saint-Etienne gagne par au moins 3 buts d'écart",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "exacte"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 20.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 4.2,
+    "cote_origine": 4.3,
     "debut": "2026-10-10T18:45+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1608,6 +1659,23 @@
     "match": "Paris SG - Le Mans",
     "mise": 20.0,
     "pari": "Paris SG gagne le match 4-0 ou 5-0 ou 6-0",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": null,
+    "cote_origine": 3.25,
+    "debut": "2026-10-10T18:45+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715897808|2218940786",
+    "match": "Naples - Frosinone",
+    "mise": 20.0,
+    "pari": "Kevin De Bruyne buteur et Naples gagne",
     "sport": "Football",
     "statut": "en attente",
     "valeur": "non_evaluable"
@@ -1713,6 +1781,23 @@
     "sport": "Rugby",
     "statut": "en attente",
     "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.25,
+    "cote_juste": 3.501,
+    "cote_origine": 2.949,
+    "debut": "2026-10-10T19:30+00:00",
+    "ev_pct": -7.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715916595|2219003720",
+    "match": "NHL",
+    "mise": 20.0,
+    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
+    "sport": "Hockey sur glace",
+    "statut": "en attente",
+    "valeur": "exacte"
    },
    {
     "bookmaker": "Unibet",
@@ -2078,12 +2163,12 @@
   "courbe": [],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.75,
-   "en_attente": 1,
+   "cote_moyenne": 3.62,
+   "en_attente": 2,
    "gagnes": 0,
    "gain_net": 0,
    "mise_totale": 0,
-   "paris": 1,
+   "paris": 2,
    "perdus": 0,
    "pire_baisse": 0.0,
    "pire_serie_perdante": 0,
@@ -2094,12 +2179,12 @@
   },
   "par_bookmaker": {
    "Winamax": {
-    "cote_moyenne": 3.75,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -2109,12 +2194,12 @@
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.75,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -2124,12 +2209,12 @@
   },
   "par_mise": {
    "20 €": {
-    "cote_moyenne": 3.75,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -2139,12 +2224,12 @@
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.75,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -2154,12 +2239,12 @@
   },
   "par_sport": {
    "Football": {
-    "cote_moyenne": 3.75,
-    "en_attente": 1,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
     "gagnes": 0,
     "gain_net": 0,
     "mise_totale": 0,
-    "paris": 1,
+    "paris": 2,
     "perdus": 0,
     "regles": 0,
     "rembourses": 0,
@@ -2169,7 +2254,22 @@
   },
   "par_tranche_de_cote": {
    "3 – 5": {
-    "cote_moyenne": 3.75,
+    "cote_moyenne": 3.62,
+    "en_attente": 2,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 2,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   }
+  },
+  "par_valeur": {
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
     "en_attente": 1,
     "gagnes": 0,
     "gain_net": 0,
@@ -2180,9 +2280,7 @@
     "rembourses": 0,
     "reussite_pct": null,
     "roi_pct": null
-   }
-  },
-  "par_valeur": {
+   },
    "EV 5 à 10 % (approx)": {
     "cote_moyenne": 3.75,
     "en_attente": 1,
@@ -2202,7 +2300,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": 3.492,
-    "cote_origine": 3.45,
+    "cote_origine": 3.5,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": 7.4,
     "gain": null,
@@ -2211,6 +2309,23 @@
     "match": "Alaves - Atletico Madrid",
     "mise": 20.0,
     "pari": "Atletico Madrid gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 20.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
@@ -2395,23 +2510,27 @@
    {
     "cumul": 73.0,
     "debut": "2026-10-10T08:30+00:00"
+   },
+   {
+    "cumul": 63.0,
+    "debut": "2026-10-10T09:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 52,
+   "cote_moyenne": 3.16,
+   "en_attente": 55,
    "gagnes": 16,
-   "gain_net": 73.0,
-   "mise_totale": 370.0,
-   "paris": 89,
-   "perdus": 21,
-   "pire_baisse": -60.0,
-   "pire_serie_perdante": 6,
-   "regles": 37,
+   "gain_net": 63.0,
+   "mise_totale": 380.0,
+   "paris": 93,
+   "perdus": 22,
+   "pire_baisse": -70.0,
+   "pire_serie_perdante": 7,
+   "regles": 38,
    "rembourses": 0,
-   "reussite_pct": 43.2,
-   "roi_pct": 19.7
+   "reussite_pct": 42.1,
+   "roi_pct": 16.6
   },
   "par_bookmaker": {
    "Unibet": {
@@ -2429,16 +2548,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.41,
-    "en_attente": 21,
+    "en_attente": 24,
     "gagnes": 13,
-    "gain_net": 34.0,
-    "mise_totale": 340.0,
-    "paris": 55,
-    "perdus": 21,
-    "regles": 34,
+    "gain_net": 24.0,
+    "mise_totale": 350.0,
+    "paris": 59,
+    "perdus": 22,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 38.2,
-    "roi_pct": 10.0
+    "reussite_pct": 37.1,
+    "roi_pct": 6.9
    }
   },
   "par_horizon": {
@@ -2456,47 +2575,47 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.15,
-    "en_attente": 27,
+    "cote_moyenne": 3.16,
+    "en_attente": 30,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 64,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 68,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.15,
-    "en_attente": 52,
+    "cote_moyenne": 3.16,
+    "en_attente": 55,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 89,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 93,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 52,
+    "cote_moyenne": 3.16,
+    "en_attente": 55,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 89,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 93,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_sport": {
@@ -2527,12 +2646,12 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "cote_moyenne": 3.26,
-    "en_attente": 21,
+    "cote_moyenne": 3.28,
+    "en_attente": 24,
     "gagnes": 7,
     "gain_net": 53.0,
     "mise_totale": 140.0,
-    "paris": 35,
+    "paris": 38,
     "perdus": 7,
     "regles": 14,
     "rembourses": 0,
@@ -2554,16 +2673,16 @@
    },
    "Formule 1": {
     "cote_moyenne": 3.5,
-    "en_attente": 1,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -10.0,
+    "mise_totale": 10.0,
     "paris": 1,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Handball": {
     "cote_moyenne": 3.33,
@@ -2579,12 +2698,12 @@
     "roi_pct": -100.0
    },
    "Hockey sur glace": {
-    "cote_moyenne": 3.38,
-    "en_attente": 0,
+    "cote_moyenne": 3.35,
+    "en_attente": 1,
     "gagnes": 1,
     "gain_net": -10.0,
     "mise_totale": 40.0,
-    "paris": 4,
+    "paris": 5,
     "perdus": 3,
     "regles": 4,
     "rembourses": 0,
@@ -2685,17 +2804,17 @@
     "roi_pct": 41.8
    },
    "3 – 5": {
-    "cote_moyenne": 3.65,
-    "en_attente": 16,
+    "cote_moyenne": 3.63,
+    "en_attente": 19,
     "gagnes": 5,
-    "gain_net": -6.5,
-    "mise_totale": 180.0,
-    "paris": 34,
-    "perdus": 13,
-    "regles": 18,
+    "gain_net": -16.5,
+    "mise_totale": 190.0,
+    "paris": 38,
+    "perdus": 14,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 27.8,
-    "roi_pct": -3.6
+    "reussite_pct": 26.3,
+    "roi_pct": -8.7
    },
    "5 – 10": {
     "cote_moyenne": 5.73,
@@ -2738,6 +2857,19 @@
     "reussite_pct": null,
     "roi_pct": null
    },
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
+    "en_attente": 1,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 1,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   },
    "EV 5 à 10 % (approx)": {
     "cote_moyenne": 3.75,
     "en_attente": 1,
@@ -2765,12 +2897,12 @@
     "roi_pct": 35.0
    },
    "EV < 0 (exacte)": {
-    "cote_moyenne": 2.99,
-    "en_attente": 1,
+    "cote_moyenne": 3.1,
+    "en_attente": 3,
     "gagnes": 2,
     "gain_net": 13.0,
     "mise_totale": 40.0,
-    "paris": 5,
+    "paris": 7,
     "perdus": 2,
     "regles": 4,
     "rembourses": 0,
@@ -2781,14 +2913,14 @@
     "cote_moyenne": 3.16,
     "en_attente": 47,
     "gagnes": 12,
-    "gain_net": 46.0,
-    "mise_totale": 290.0,
-    "paris": 76,
-    "perdus": 17,
-    "regles": 29,
+    "gain_net": 36.0,
+    "mise_totale": 300.0,
+    "paris": 77,
+    "perdus": 18,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 41.4,
-    "roi_pct": 15.9
+    "reussite_pct": 40.0,
+    "roi_pct": 12.0
    }
   },
   "paris": [
@@ -3496,14 +3628,14 @@
     "cote_origine": 3.25,
     "debut": "2026-10-10T09:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715652219|2218222586",
     "match": "Grand Prix de Singapour - Sprint",
     "mise": 10.0,
     "pari": "George Russell remporte la course",
     "sport": "Formule 1",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -3646,7 +3778,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.978,
+    "cote_origine": 2.075,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3663,7 +3795,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": 3.492,
-    "cote_origine": 3.45,
+    "cote_origine": 3.5,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": 7.4,
     "gain": null,
@@ -3680,7 +3812,7 @@
     "bookmaker": "Winamax",
     "cote": 2.6,
     "cote_juste": null,
-    "cote_origine": 2.231,
+    "cote_origine": 2.276,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3697,7 +3829,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.902,
+    "cote_origine": 1.938,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3714,7 +3846,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.927,
+    "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3765,7 +3897,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.4,
+    "cote_origine": 3.55,
     "debut": "2026-10-10T16:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3831,9 +3963,43 @@
    },
    {
     "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.854,
+    "cote_origine": 2.95,
+    "debut": "2026-10-10T18:00+00:00",
+    "ev_pct": -9.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715903019|2218957235",
+    "match": "Saint-Etienne - Rodez",
+    "mise": 10.0,
+    "pari": "Saint-Etienne gagne par au moins 3 buts d'écart",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "exacte"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 10.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 4.2,
+    "cote_origine": 4.3,
     "debut": "2026-10-10T18:45+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3842,6 +4008,23 @@
     "match": "Paris SG - Le Mans",
     "mise": 10.0,
     "pari": "Paris SG gagne le match 4-0 ou 5-0 ou 6-0",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": null,
+    "cote_origine": 3.25,
+    "debut": "2026-10-10T18:45+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715897808|2218940786",
+    "match": "Naples - Frosinone",
+    "mise": 10.0,
+    "pari": "Kevin De Bruyne buteur et Naples gagne",
     "sport": "Football",
     "statut": "en attente",
     "valeur": "non_evaluable"
@@ -3947,6 +4130,23 @@
     "sport": "Rugby",
     "statut": "en attente",
     "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.25,
+    "cote_juste": 3.501,
+    "cote_origine": 2.949,
+    "debut": "2026-10-10T19:30+00:00",
+    "ev_pct": -7.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715916595|2219003720",
+    "match": "NHL",
+    "mise": 10.0,
+    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
+    "sport": "Hockey sur glace",
+    "statut": "en attente",
+    "valeur": "exacte"
    },
    {
     "bookmaker": "Unibet",
@@ -4413,23 +4613,27 @@
    {
     "cumul": 99.5,
     "debut": "2026-10-10T01:30+00:00"
+   },
+   {
+    "cumul": 89.5,
+    "debut": "2026-10-10T09:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 2.56,
-   "en_attente": 33,
+   "cote_moyenne": 2.61,
+   "en_attente": 36,
    "gagnes": 14,
-   "gain_net": 99.5,
-   "mise_totale": 260.0,
-   "paris": 59,
-   "perdus": 12,
+   "gain_net": 89.5,
+   "mise_totale": 270.0,
+   "paris": 63,
+   "perdus": 13,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 26,
+   "regles": 27,
    "rembourses": 0,
-   "reussite_pct": 53.8,
-   "roi_pct": 38.3
+   "reussite_pct": 51.9,
+   "roi_pct": 33.1
   },
   "par_bookmaker": {
    "Unibet": {
@@ -4446,17 +4650,17 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 2.7,
-    "en_attente": 10,
+    "cote_moyenne": 2.78,
+    "en_attente": 13,
     "gagnes": 11,
-    "gain_net": 60.5,
-    "mise_totale": 230.0,
-    "paris": 33,
-    "perdus": 12,
-    "regles": 23,
+    "gain_net": 50.5,
+    "mise_totale": 240.0,
+    "paris": 37,
+    "perdus": 13,
+    "regles": 24,
     "rembourses": 0,
-    "reussite_pct": 47.8,
-    "roi_pct": 26.3
+    "reussite_pct": 45.8,
+    "roi_pct": 21.0
    }
   },
   "par_horizon": {
@@ -4474,47 +4678,47 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 2.65,
-    "en_attente": 17,
+    "cote_moyenne": 2.72,
+    "en_attente": 20,
     "gagnes": 14,
-    "gain_net": 99.5,
-    "mise_totale": 260.0,
-    "paris": 43,
-    "perdus": 12,
-    "regles": 26,
+    "gain_net": 89.5,
+    "mise_totale": 270.0,
+    "paris": 47,
+    "perdus": 13,
+    "regles": 27,
     "rembourses": 0,
-    "reussite_pct": 53.8,
-    "roi_pct": 38.3
+    "reussite_pct": 51.9,
+    "roi_pct": 33.1
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 2.56,
-    "en_attente": 33,
+    "cote_moyenne": 2.61,
+    "en_attente": 36,
     "gagnes": 14,
-    "gain_net": 99.5,
-    "mise_totale": 260.0,
-    "paris": 59,
-    "perdus": 12,
-    "regles": 26,
+    "gain_net": 89.5,
+    "mise_totale": 270.0,
+    "paris": 63,
+    "perdus": 13,
+    "regles": 27,
     "rembourses": 0,
-    "reussite_pct": 53.8,
-    "roi_pct": 38.3
+    "reussite_pct": 51.9,
+    "roi_pct": 33.1
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 2.56,
-    "en_attente": 33,
+    "cote_moyenne": 2.61,
+    "en_attente": 36,
     "gagnes": 14,
-    "gain_net": 99.5,
-    "mise_totale": 260.0,
-    "paris": 59,
-    "perdus": 12,
-    "regles": 26,
+    "gain_net": 89.5,
+    "mise_totale": 270.0,
+    "paris": 63,
+    "perdus": 13,
+    "regles": 27,
     "rembourses": 0,
-    "reussite_pct": 53.8,
-    "roi_pct": 38.3
+    "reussite_pct": 51.9,
+    "roi_pct": 33.1
    }
   },
   "par_sport": {
@@ -4545,12 +4749,12 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "cote_moyenne": 2.69,
-    "en_attente": 12,
+    "cote_moyenne": 2.8,
+    "en_attente": 15,
     "gagnes": 6,
     "gain_net": 77.0,
     "mise_totale": 80.0,
-    "paris": 20,
+    "paris": 23,
     "perdus": 2,
     "regles": 8,
     "rembourses": 0,
@@ -4572,16 +4776,16 @@
    },
    "Formule 1": {
     "cote_moyenne": 3.5,
-    "en_attente": 1,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -10.0,
+    "mise_totale": 10.0,
     "paris": 1,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Handball": {
     "cote_moyenne": 2.4,
@@ -4597,12 +4801,12 @@
     "roi_pct": -100.0
    },
    "Hockey sur glace": {
-    "cote_moyenne": 3.17,
-    "en_attente": 0,
+    "cote_moyenne": 3.19,
+    "en_attente": 1,
     "gagnes": 1,
     "gain_net": 0.0,
     "mise_totale": 30.0,
-    "paris": 3,
+    "paris": 4,
     "perdus": 2,
     "regles": 3,
     "rembourses": 0,
@@ -4677,17 +4881,17 @@
     "roi_pct": 41.8
    },
    "3 – 5": {
-    "cote_moyenne": 3.17,
-    "en_attente": 7,
+    "cote_moyenne": 3.23,
+    "en_attente": 10,
     "gagnes": 3,
-    "gain_net": 20.0,
-    "mise_totale": 70.0,
-    "paris": 14,
-    "perdus": 4,
-    "regles": 7,
+    "gain_net": 10.0,
+    "mise_totale": 80.0,
+    "paris": 18,
+    "perdus": 5,
+    "regles": 8,
     "rembourses": 0,
-    "reussite_pct": 42.9,
-    "roi_pct": 28.6
+    "reussite_pct": 37.5,
+    "roi_pct": 12.5
    },
    "< 2": {
     "cote_moyenne": 1.71,
@@ -4717,6 +4921,19 @@
     "reussite_pct": null,
     "roi_pct": null
    },
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
+    "en_attente": 1,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 1,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   },
    "EV < 0 (approx)": {
     "cote_moyenne": 2.63,
     "en_attente": 0,
@@ -4731,12 +4948,12 @@
     "roi_pct": 80.0
    },
    "EV < 0 (exacte)": {
-    "cote_moyenne": 2.99,
-    "en_attente": 1,
+    "cote_moyenne": 3.1,
+    "en_attente": 3,
     "gagnes": 2,
     "gain_net": 13.0,
     "mise_totale": 40.0,
-    "paris": 5,
+    "paris": 7,
     "perdus": 2,
     "regles": 4,
     "rembourses": 0,
@@ -4744,17 +4961,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 2.5,
+    "cote_moyenne": 2.52,
     "en_attente": 31,
     "gagnes": 10,
-    "gain_net": 62.5,
-    "mise_totale": 190.0,
-    "paris": 50,
-    "perdus": 9,
-    "regles": 19,
+    "gain_net": 52.5,
+    "mise_totale": 200.0,
+    "paris": 51,
+    "perdus": 10,
+    "regles": 20,
     "rembourses": 0,
-    "reussite_pct": 52.6,
-    "roi_pct": 32.9
+    "reussite_pct": 50.0,
+    "roi_pct": 26.2
    }
   },
   "paris": [
@@ -5224,14 +5441,14 @@
     "cote_origine": 3.25,
     "debut": "2026-10-10T09:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715652219|2218222586",
     "match": "Grand Prix de Singapour - Sprint",
     "mise": 10.0,
     "pari": "George Russell remporte la course",
     "sport": "Formule 1",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -5306,7 +5523,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.978,
+    "cote_origine": 2.075,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5323,7 +5540,7 @@
     "bookmaker": "Winamax",
     "cote": 2.6,
     "cote_juste": null,
-    "cote_origine": 2.231,
+    "cote_origine": 2.276,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5340,7 +5557,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.902,
+    "cote_origine": 1.938,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5357,7 +5574,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.927,
+    "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5434,6 +5651,57 @@
     "match": "FC Barcelone - Getafe",
     "mise": 10.0,
     "pari": "L.Yamal décisif au moins 2 fois ? (remboursé si non titulaire)",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.854,
+    "cote_origine": 2.95,
+    "debut": "2026-10-10T18:00+00:00",
+    "ev_pct": -9.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715903019|2218957235",
+    "match": "Saint-Etienne - Rodez",
+    "mise": 10.0,
+    "pari": "Saint-Etienne gagne par au moins 3 buts d'écart",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "exacte"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 10.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": null,
+    "cote_origine": 3.25,
+    "debut": "2026-10-10T18:45+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715897808|2218940786",
+    "match": "Naples - Frosinone",
+    "mise": 10.0,
+    "pari": "Kevin De Bruyne buteur et Naples gagne",
     "sport": "Football",
     "statut": "en attente",
     "valeur": "non_evaluable"
@@ -5522,6 +5790,23 @@
     "sport": "Rugby",
     "statut": "en attente",
     "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.25,
+    "cote_juste": 3.501,
+    "cote_origine": 2.949,
+    "debut": "2026-10-10T19:30+00:00",
+    "ev_pct": -7.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715916595|2219003720",
+    "match": "NHL",
+    "mise": 10.0,
+    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
+    "sport": "Hockey sur glace",
+    "statut": "en attente",
+    "valeur": "exacte"
    },
    {
     "bookmaker": "Unibet",
@@ -5913,23 +6198,27 @@
    {
     "cumul": 73.0,
     "debut": "2026-10-10T08:30+00:00"
+   },
+   {
+    "cumul": 63.0,
+    "debut": "2026-10-10T09:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 27,
+   "cote_moyenne": 3.16,
+   "en_attente": 30,
    "gagnes": 16,
-   "gain_net": 73.0,
-   "mise_totale": 370.0,
-   "paris": 64,
-   "perdus": 21,
-   "pire_baisse": -60.0,
-   "pire_serie_perdante": 6,
-   "regles": 37,
+   "gain_net": 63.0,
+   "mise_totale": 380.0,
+   "paris": 68,
+   "perdus": 22,
+   "pire_baisse": -70.0,
+   "pire_serie_perdante": 7,
+   "regles": 38,
    "rembourses": 0,
-   "reussite_pct": 43.2,
-   "roi_pct": 19.7
+   "reussite_pct": 42.1,
+   "roi_pct": 16.6
   },
   "par_bookmaker": {
    "Unibet": {
@@ -5946,62 +6235,62 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.27,
-    "en_attente": 20,
+    "cote_moyenne": 3.28,
+    "en_attente": 23,
     "gagnes": 13,
-    "gain_net": 34.0,
-    "mise_totale": 340.0,
-    "paris": 54,
-    "perdus": 21,
-    "regles": 34,
+    "gain_net": 24.0,
+    "mise_totale": 350.0,
+    "paris": 58,
+    "perdus": 22,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 38.2,
-    "roi_pct": 10.0
+    "reussite_pct": 37.1,
+    "roi_pct": 6.9
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.15,
-    "en_attente": 27,
+    "cote_moyenne": 3.16,
+    "en_attente": 30,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 64,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 68,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.15,
-    "en_attente": 27,
+    "cote_moyenne": 3.16,
+    "en_attente": 30,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 64,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 68,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 27,
+    "cote_moyenne": 3.16,
+    "en_attente": 30,
     "gagnes": 16,
-    "gain_net": 73.0,
-    "mise_totale": 370.0,
-    "paris": 64,
-    "perdus": 21,
-    "regles": 37,
+    "gain_net": 63.0,
+    "mise_totale": 380.0,
+    "paris": 68,
+    "perdus": 22,
+    "regles": 38,
     "rembourses": 0,
-    "reussite_pct": 43.2,
-    "roi_pct": 19.7
+    "reussite_pct": 42.1,
+    "roi_pct": 16.6
    }
   },
   "par_sport": {
@@ -6032,12 +6321,12 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "cote_moyenne": 3.29,
-    "en_attente": 18,
+    "cote_moyenne": 3.31,
+    "en_attente": 21,
     "gagnes": 7,
     "gain_net": 53.0,
     "mise_totale": 140.0,
-    "paris": 32,
+    "paris": 35,
     "perdus": 7,
     "regles": 14,
     "rembourses": 0,
@@ -6059,16 +6348,16 @@
    },
    "Formule 1": {
     "cote_moyenne": 3.5,
-    "en_attente": 1,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -10.0,
+    "mise_totale": 10.0,
     "paris": 1,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Handball": {
     "cote_moyenne": 3.33,
@@ -6084,12 +6373,12 @@
     "roi_pct": -100.0
    },
    "Hockey sur glace": {
-    "cote_moyenne": 3.38,
-    "en_attente": 0,
+    "cote_moyenne": 3.35,
+    "en_attente": 1,
     "gagnes": 1,
     "gain_net": -10.0,
     "mise_totale": 40.0,
-    "paris": 4,
+    "paris": 5,
     "perdus": 3,
     "regles": 4,
     "rembourses": 0,
@@ -6177,17 +6466,17 @@
     "roi_pct": 41.8
    },
    "3 – 5": {
-    "cote_moyenne": 3.68,
-    "en_attente": 11,
+    "cote_moyenne": 3.65,
+    "en_attente": 14,
     "gagnes": 5,
-    "gain_net": -6.5,
-    "mise_totale": 180.0,
-    "paris": 29,
-    "perdus": 13,
-    "regles": 18,
+    "gain_net": -16.5,
+    "mise_totale": 190.0,
+    "paris": 33,
+    "perdus": 14,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 27.8,
-    "roi_pct": -3.6
+    "reussite_pct": 26.3,
+    "roi_pct": -8.7
    },
    "5 – 10": {
     "cote_moyenne": 5.17,
@@ -6206,6 +6495,19 @@
   "par_valeur": {
    "EV 0 à 5 % (approx)": {
     "cote_moyenne": 2.8,
+    "en_attente": 1,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 1,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   },
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
     "en_attente": 1,
     "gagnes": 0,
     "gain_net": 0,
@@ -6244,12 +6546,12 @@
     "roi_pct": 35.0
    },
    "EV < 0 (exacte)": {
-    "cote_moyenne": 2.99,
-    "en_attente": 1,
+    "cote_moyenne": 3.1,
+    "en_attente": 3,
     "gagnes": 2,
     "gain_net": 13.0,
     "mise_totale": 40.0,
-    "paris": 5,
+    "paris": 7,
     "perdus": 2,
     "regles": 4,
     "rembourses": 0,
@@ -6257,17 +6559,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.16,
+    "cote_moyenne": 3.17,
     "en_attente": 22,
     "gagnes": 12,
-    "gain_net": 46.0,
-    "mise_totale": 290.0,
-    "paris": 51,
-    "perdus": 17,
-    "regles": 29,
+    "gain_net": 36.0,
+    "mise_totale": 300.0,
+    "paris": 52,
+    "perdus": 18,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 41.4,
-    "roi_pct": 15.9
+    "reussite_pct": 40.0,
+    "roi_pct": 12.0
    }
   },
   "paris": [
@@ -6941,14 +7243,14 @@
     "cote_origine": 3.25,
     "debut": "2026-10-10T09:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715652219|2218222586",
     "match": "Grand Prix de Singapour - Sprint",
     "mise": 10.0,
     "pari": "George Russell remporte la course",
     "sport": "Formule 1",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -7074,7 +7376,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.978,
+    "cote_origine": 2.075,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7091,7 +7393,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": 3.492,
-    "cote_origine": 3.45,
+    "cote_origine": 3.5,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": 7.4,
     "gain": null,
@@ -7108,7 +7410,7 @@
     "bookmaker": "Winamax",
     "cote": 2.6,
     "cote_juste": null,
-    "cote_origine": 2.231,
+    "cote_origine": 2.276,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7125,7 +7427,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.902,
+    "cote_origine": 1.938,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7142,7 +7444,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.927,
+    "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7193,7 +7495,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.4,
+    "cote_origine": 3.55,
     "debut": "2026-10-10T16:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7259,9 +7561,43 @@
    },
    {
     "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.854,
+    "cote_origine": 2.95,
+    "debut": "2026-10-10T18:00+00:00",
+    "ev_pct": -9.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715903019|2218957235",
+    "match": "Saint-Etienne - Rodez",
+    "mise": 10.0,
+    "pari": "Saint-Etienne gagne par au moins 3 buts d'écart",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "exacte"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 10.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 4.2,
+    "cote_origine": 4.3,
     "debut": "2026-10-10T18:45+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7270,6 +7606,23 @@
     "match": "Paris SG - Le Mans",
     "mise": 10.0,
     "pari": "Paris SG gagne le match 4-0 ou 5-0 ou 6-0",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": null,
+    "cote_origine": 3.25,
+    "debut": "2026-10-10T18:45+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715897808|2218940786",
+    "match": "Naples - Frosinone",
+    "mise": 10.0,
+    "pari": "Kevin De Bruyne buteur et Naples gagne",
     "sport": "Football",
     "statut": "en attente",
     "valeur": "non_evaluable"
@@ -7358,6 +7711,23 @@
     "sport": "Rugby",
     "statut": "en attente",
     "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.25,
+    "cote_juste": 3.501,
+    "cote_origine": 2.949,
+    "debut": "2026-10-10T19:30+00:00",
+    "ev_pct": -7.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715916595|2219003720",
+    "match": "NHL",
+    "mise": 10.0,
+    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
+    "sport": "Hockey sur glace",
+    "statut": "en attente",
+    "valeur": "exacte"
    }
   ],
   "strategie": "E — match dans les 48 h à la découverte, 10 € maximum"
@@ -7559,23 +7929,27 @@
    {
     "cumul": 70.0,
     "debut": "2026-10-10T08:30+00:00"
+   },
+   {
+    "cumul": 60.0,
+    "debut": "2026-10-10T09:00+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.14,
-   "en_attente": 24,
+   "cote_moyenne": 3.15,
+   "en_attente": 27,
    "gagnes": 15,
-   "gain_net": 70.0,
-   "mise_totale": 350.0,
-   "paris": 59,
-   "perdus": 20,
-   "pire_baisse": -60.0,
-   "pire_serie_perdante": 6,
-   "regles": 35,
+   "gain_net": 60.0,
+   "mise_totale": 360.0,
+   "paris": 63,
+   "perdus": 21,
+   "pire_baisse": -70.0,
+   "pire_serie_perdante": 7,
+   "regles": 36,
    "rembourses": 0,
-   "reussite_pct": 42.9,
-   "roi_pct": 20.0
+   "reussite_pct": 41.7,
+   "roi_pct": 16.7
   },
   "par_bookmaker": {
    "Unibet": {
@@ -7592,62 +7966,62 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.25,
-    "en_attente": 17,
+    "cote_moyenne": 3.26,
+    "en_attente": 20,
     "gagnes": 13,
-    "gain_net": 44.0,
-    "mise_totale": 330.0,
-    "paris": 50,
-    "perdus": 20,
-    "regles": 33,
+    "gain_net": 34.0,
+    "mise_totale": 340.0,
+    "paris": 54,
+    "perdus": 21,
+    "regles": 34,
     "rembourses": 0,
-    "reussite_pct": 39.4,
-    "roi_pct": 13.3
+    "reussite_pct": 38.2,
+    "roi_pct": 10.0
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.14,
-    "en_attente": 24,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 15,
-    "gain_net": 70.0,
-    "mise_totale": 350.0,
-    "paris": 59,
-    "perdus": 20,
-    "regles": 35,
+    "gain_net": 60.0,
+    "mise_totale": 360.0,
+    "paris": 63,
+    "perdus": 21,
+    "regles": 36,
     "rembourses": 0,
-    "reussite_pct": 42.9,
-    "roi_pct": 20.0
+    "reussite_pct": 41.7,
+    "roi_pct": 16.7
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.14,
-    "en_attente": 24,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 15,
-    "gain_net": 70.0,
-    "mise_totale": 350.0,
-    "paris": 59,
-    "perdus": 20,
-    "regles": 35,
+    "gain_net": 60.0,
+    "mise_totale": 360.0,
+    "paris": 63,
+    "perdus": 21,
+    "regles": 36,
     "rembourses": 0,
-    "reussite_pct": 42.9,
-    "roi_pct": 20.0
+    "reussite_pct": 41.7,
+    "roi_pct": 16.7
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.14,
-    "en_attente": 24,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 15,
-    "gain_net": 70.0,
-    "mise_totale": 350.0,
-    "paris": 59,
-    "perdus": 20,
-    "regles": 35,
+    "gain_net": 60.0,
+    "mise_totale": 360.0,
+    "paris": 63,
+    "perdus": 21,
+    "regles": 36,
     "rembourses": 0,
-    "reussite_pct": 42.9,
-    "roi_pct": 20.0
+    "reussite_pct": 41.7,
+    "roi_pct": 16.7
    }
   },
   "par_sport": {
@@ -7678,12 +8052,12 @@
     "roi_pct": -100.0
    },
    "Football": {
-    "cote_moyenne": 3.26,
-    "en_attente": 15,
+    "cote_moyenne": 3.29,
+    "en_attente": 18,
     "gagnes": 6,
     "gain_net": 40.0,
     "mise_totale": 130.0,
-    "paris": 28,
+    "paris": 31,
     "perdus": 7,
     "regles": 13,
     "rembourses": 0,
@@ -7705,16 +8079,16 @@
    },
    "Formule 1": {
     "cote_moyenne": 3.5,
-    "en_attente": 1,
+    "en_attente": 0,
     "gagnes": 0,
-    "gain_net": 0,
-    "mise_totale": 0,
+    "gain_net": -10.0,
+    "mise_totale": 10.0,
     "paris": 1,
-    "perdus": 0,
-    "regles": 0,
+    "perdus": 1,
+    "regles": 1,
     "rembourses": 0,
-    "reussite_pct": null,
-    "roi_pct": null
+    "reussite_pct": 0.0,
+    "roi_pct": -100.0
    },
    "Handball": {
     "cote_moyenne": 3.33,
@@ -7730,12 +8104,12 @@
     "roi_pct": -100.0
    },
    "Hockey sur glace": {
-    "cote_moyenne": 3.38,
-    "en_attente": 0,
+    "cote_moyenne": 3.35,
+    "en_attente": 1,
     "gagnes": 1,
     "gain_net": -10.0,
     "mise_totale": 40.0,
-    "paris": 4,
+    "paris": 5,
     "perdus": 3,
     "regles": 4,
     "rembourses": 0,
@@ -7823,17 +8197,17 @@
     "roi_pct": 45.0
    },
    "3 – 5": {
-    "cote_moyenne": 3.65,
-    "en_attente": 8,
+    "cote_moyenne": 3.62,
+    "en_attente": 11,
     "gagnes": 5,
-    "gain_net": -6.5,
-    "mise_totale": 180.0,
-    "paris": 26,
-    "perdus": 13,
-    "regles": 18,
+    "gain_net": -16.5,
+    "mise_totale": 190.0,
+    "paris": 30,
+    "perdus": 14,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 27.8,
-    "roi_pct": -3.6
+    "reussite_pct": 26.3,
+    "roi_pct": -8.7
    },
    "5 – 10": {
     "cote_moyenne": 5.17,
@@ -7852,6 +8226,19 @@
   "par_valeur": {
    "EV 0 à 5 % (approx)": {
     "cote_moyenne": 2.8,
+    "en_attente": 1,
+    "gagnes": 0,
+    "gain_net": 0,
+    "mise_totale": 0,
+    "paris": 1,
+    "perdus": 0,
+    "regles": 0,
+    "rembourses": 0,
+    "reussite_pct": null,
+    "roi_pct": null
+   },
+   "EV 10 % et + (approx)": {
+    "cote_moyenne": 3.5,
     "en_attente": 1,
     "gagnes": 0,
     "gain_net": 0,
@@ -7890,12 +8277,12 @@
     "roi_pct": 35.0
    },
    "EV < 0 (exacte)": {
-    "cote_moyenne": 2.99,
-    "en_attente": 1,
+    "cote_moyenne": 3.1,
+    "en_attente": 3,
     "gagnes": 2,
     "gain_net": 13.0,
     "mise_totale": 40.0,
-    "paris": 5,
+    "paris": 7,
     "perdus": 2,
     "regles": 4,
     "rembourses": 0,
@@ -7903,17 +8290,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.14,
+    "cote_moyenne": 3.15,
     "en_attente": 19,
     "gagnes": 11,
-    "gain_net": 43.0,
-    "mise_totale": 270.0,
-    "paris": 46,
-    "perdus": 16,
-    "regles": 27,
+    "gain_net": 33.0,
+    "mise_totale": 280.0,
+    "paris": 47,
+    "perdus": 17,
+    "regles": 28,
     "rembourses": 0,
-    "reussite_pct": 40.7,
-    "roi_pct": 15.9
+    "reussite_pct": 39.3,
+    "roi_pct": 11.8
    }
   },
   "paris": [
@@ -8553,14 +8940,14 @@
     "cote_origine": 3.25,
     "debut": "2026-10-10T09:00+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715652219|2218222586",
     "match": "Grand Prix de Singapour - Sprint",
     "mise": 10.0,
     "pari": "George Russell remporte la course",
     "sport": "Formule 1",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -8686,7 +9073,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.978,
+    "cote_origine": 2.075,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8703,7 +9090,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": 3.492,
-    "cote_origine": 3.45,
+    "cote_origine": 3.5,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": 7.4,
     "gain": null,
@@ -8720,7 +9107,7 @@
     "bookmaker": "Winamax",
     "cote": 2.6,
     "cote_juste": null,
-    "cote_origine": 2.231,
+    "cote_origine": 2.276,
     "debut": "2026-10-10T14:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8737,7 +9124,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.902,
+    "cote_origine": 1.938,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8754,7 +9141,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.927,
+    "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8853,6 +9240,57 @@
     "valeur": "non_evaluable"
    },
    {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.854,
+    "cote_origine": 2.95,
+    "debut": "2026-10-10T18:00+00:00",
+    "ev_pct": -9.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715903019|2218957235",
+    "match": "Saint-Etienne - Rodez",
+    "mise": 10.0,
+    "pari": "Saint-Etienne gagne par au moins 3 buts d'écart",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "exacte"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": 3.103,
+    "cote_origine": 3.1,
+    "debut": "2026-10-10T18:30+00:00",
+    "ev_pct": 12.8,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715908783|2218975115",
+    "match": "Chicago Fire - New York City FC",
+    "mise": 10.0,
+    "pari": "Chicago Fire gagne et les deux équipes marquent",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.5,
+    "cote_juste": null,
+    "cote_origine": 3.25,
+    "debut": "2026-10-10T18:45+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715897808|2218940786",
+    "match": "Naples - Frosinone",
+    "mise": 10.0,
+    "pari": "Kevin De Bruyne buteur et Naples gagne",
+    "sport": "Football",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
+   },
+   {
     "bookmaker": "Unibet",
     "cote": 3.3,
     "cote_juste": null,
@@ -8919,6 +9357,23 @@
     "sport": "Rugby",
     "statut": "en attente",
     "valeur": "non_evaluable"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.25,
+    "cote_juste": 3.501,
+    "cote_origine": 2.949,
+    "debut": "2026-10-10T19:30+00:00",
+    "ev_pct": -7.2,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715916595|2219003720",
+    "match": "NHL",
+    "mise": 10.0,
+    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
+    "sport": "Hockey sur glace",
+    "statut": "en attente",
+    "valeur": "exacte"
    }
   ],
   "strategie": "H — premier boost par match, 10 € maximum"

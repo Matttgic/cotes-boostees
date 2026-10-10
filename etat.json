@@ -1,8 +1,8 @@
 {
- "boosts_total": 89,
+ "boosts_total": 93,
  "cache_unibet": {
   "3381006": {
-   "age": 2,
+   "age": 3,
    "boosts": [
     {
      "bookmaker": "Unibet",
@@ -520,47 +520,95 @@
     "nouveaux": 0
    },
    "winamax": {
-    "boosts_en_ligne": 15,
+    "boosts_en_ligne": 16,
     "cotes_modifiees": 0,
-    "nouveaux": 1
+    "nouveaux": 4
    }
   },
   "cerveau": {
-   "boosts_observes": 68,
-   "decisions_enregistrees": 3,
-   "nouveaux_boosts": 1
+   "boosts_observes": 72,
+   "decisions_enregistrees": 4,
+   "nouveaux_boosts": 4
   },
-  "date": "2026-10-10T12:42:35+00:00",
+  "date": "2026-10-10T13:41:46+00:00",
   "evaluation": {
-   "approx": 3,
+   "approx": 4,
    "avec_betfair": 1,
-   "decomposes": 1,
+   "decomposes": 4,
    "echecs_decomposition": 0,
-   "evalues": 20,
-   "exactes": 1,
-   "non_evaluables": 16,
-   "requetes_pulsescore": 13
+   "evalues": 21,
+   "exactes": 2,
+   "non_evaluables": 15,
+   "requetes_pulsescore": 11
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 456512,
+  "octets_proxy": 457873,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
    "inconnus": 0,
    "jetons": {
     "gpt-6-luna": {
-     "entree": 48662,
-     "sortie": 1276
+     "entree": 22236,
+     "sortie": 607
     }
    },
-   "recherches": 6,
-   "regles": 2,
-   "soumis": 2
+   "recherches": 2,
+   "regles": 1,
+   "soumis": 1
   },
   "reglements_manuels": 0,
   "requetes": 2
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 27,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 16,
+     "cotes_modifiees": 0,
+     "nouveaux": 4
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 72,
+    "decisions_enregistrees": 4,
+    "nouveaux_boosts": 4
+   },
+   "date": "2026-10-10T13:41:46+00:00",
+   "evaluation": {
+    "approx": 4,
+    "avec_betfair": 1,
+    "decomposes": 4,
+    "echecs_decomposition": 0,
+    "evalues": 21,
+    "exactes": 2,
+    "non_evaluables": 15,
+    "requetes_pulsescore": 11
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 457873,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {
+     "gpt-6-luna": {
+      "entree": 22236,
+      "sortie": 607
+     }
+    },
+    "recherches": 2,
+    "regles": 1,
+    "soumis": 1
+   },
+   "reglements_manuels": 0,
+   "requetes": 2
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -2576,5 +2624,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 22567944
+ "octets_proxy_total": 23025817
 }
