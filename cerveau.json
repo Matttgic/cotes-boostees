@@ -1,28 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 46,
-   "ecarter": 3,
+   "abstention": 51,
+   "ecarter": 5,
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T18:53:30+00:00",
+  "derniere_observation": "2026-10-10T19:52:34+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 5,
-   "ev_insuffisante": 3,
-   "ligne_absente": 6,
+   "combiné_lie": 6,
+   "cote_hors_bornes": 1,
+   "ev_insuffisante": 4,
+   "ligne_absente": 7,
    "long_terme": 23,
-   "marche_non_cote": 5,
+   "marche_non_cote": 8,
    "match_introuvable": 11,
    "sport_non_suivi": 2
   },
   "observations_reglees": 28,
-  "observes": 72,
+  "observes": 79,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -30,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T18:53:30+00:00",
+ "derniere_observation": "2026-10-10T19:52:34+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -4081,6 +4082,269 @@
    "pari": "Edmonton Oilers et New Jersey Devils gagnent chacun leur match (respectivement contre San Jose Sharks et Vancouver Canucks) (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|716279895|2220145722": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T01:00+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 10.7,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716279895|2220145722",
+   "match": "Atlas - Guadalajara",
+   "pari": "Guadalajara marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716283851|2220156099": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 13.3,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716283851|2220156099",
+   "match": "Inter Miami - DC United",
+   "pari": "L. Messi et L. Suarez marquent chacun au moins un but et Inter Miami gagne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716284341|2220157283": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T00:00+00:00",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 10.9,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716284341|2220157283",
+   "match": "Sao Paulo FC - Vitoria",
+   "pari": "Sao Paulo gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716288404|2220168644": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T04:00+00:00",
+   "historique": [
+    {
+     "cote": 6.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 5.7,
+      "hausse_pct": 14.0,
+      "horizon_heures": 8.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716288404|2220168644",
+   "match": "Ben Shelton - Arthur Gea",
+   "pari": "Arthur Gea gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|716289978|2220172822": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T02:15+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": 4.41,
+     "decision": "ecarter",
+     "ev_pct": -15.0,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 6.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716289978|2220172822",
+   "match": "Vegas Golden Knights - Los Angeles Kings",
+   "pari": "Vegas Golden Knights marque au moins 5 buts (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|716291462|2220176483": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T23:10+00:00",
+   "historique": [
+    {
+     "cote": 5.25,
+     "cote_juste": 4.733,
+     "decision": "ecarter",
+     "ev_pct": 10.9,
+     "features": {
+      "cote_origine": 4.725,
+      "hausse_pct": 11.1,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "cote_hors_bornes",
+     "raisons": [
+      "Cote hors intervalle 1,60–5,00 du protocole"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716291462|2220176483",
+   "match": "NHL",
+   "pari": "Nathan MacKinnon et Cole Caufield marquent chacun au moins un but (respectivement contre Toronto Maple Leafs et Detroit Red Wings) (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|716294144|2220183864": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T11:30+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.7,
+      "hausse_pct": 14.9,
+      "horizon_heures": 15.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T19:52:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716294144|2220183864",
+   "match": "Qinwen Zheng - Mirra Andreeva",
+   "pari": "Mirra Andreeva gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
