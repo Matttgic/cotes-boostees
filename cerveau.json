@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 41,
+   "abstention": 43,
    "ecarter": 1,
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T10:57:16+00:00",
+  "derniere_observation": "2026-10-10T11:56:26+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,14 +15,14 @@
    "ancien_format": 17,
    "combiné_lie": 3,
    "ev_insuffisante": 1,
-   "ligne_absente": 2,
+   "ligne_absente": 4,
    "long_terme": 23,
    "marche_non_cote": 5,
    "match_introuvable": 12,
    "sport_non_suivi": 2
   },
   "observations_reglees": 14,
-  "observes": 65,
+  "observes": 67,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -30,7 +30,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T10:57:16+00:00",
+ "derniere_observation": "2026-10-10T11:56:26+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1577,6 +1577,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (Real Madrid - Villarreal)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "unibet|194524960|725684529",
@@ -2771,6 +2797,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": 3.575,
+     "decision": "ecarter",
+     "ev_pct": -13.3,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 10.7,
+      "horizon_heures": 1.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715680871|2218295256",
@@ -3008,6 +3062,32 @@
      "reference_raison": "condition non cotée par les références",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.2,
+      "hausse_pct": 13.1,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715720080|2218396480",
@@ -3043,6 +3123,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (Real Madrid - Villarreal)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -3274,6 +3380,80 @@
    "pari": "Les 2 équipes marquent dans chacun des 3 matchs du jour",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|715809378|2218656752": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T14:35+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.95,
+      "hausse_pct": 17.9,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (équipe à domicile du match 1 (non précisée) - équipe à l'extérieur du match 1 (non précisée)) ; Betfair : match introuvable (équipe à domicile du match 1 (non précisée) - équipe à l'extérieu",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715809378|2218656752",
+   "match": "Top 14",
+   "pari": "Chaque équipe à domicile gagne (4 matchs à 16h35)",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|715846158|2218777343": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T19:00+00:00",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.3,
+      "hausse_pct": 16.3,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T11:56:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (ASM Clermont - Bordeaux-Bègles)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715846158|2218777343",
+   "match": "ASM Clermont - Bordeaux-Bègles",
+   "pari": "L. Bielle-Biarrey et A. Raka marquent chacun au moins un essai",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
   }
  },
  "modele": "observation-v1",
