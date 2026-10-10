@@ -21,6 +21,38 @@ SPORT_BOOSTS = 100000
 RE_MISE = re.compile(r"mise\s+max(?:imale)?\s*(?:de\s*)?(\d+(?:[.,]\d+)?)\s*€", re.I)
 
 
+
+# Issue décidée à la fin de la saison, non au démarrage de l'événement Winamax.
+RE_LONG_TERME = re.compile(
+    r"\b(?:gagne\s+le\s+titre|remporte\s+le\s+titre|"
+    r"remporte\s+(?:la|sa)\s+division|"
+    r"meilleur\s+(?:marqueur|buteur|passeur|rebondeur)\s+(?:de\s+la|en)\s+saison|"
+    r"champion(?:ne)?\s+(?:de|du|d')|"
+    r"saison\s+r[ée]guli[èe]re)\b",
+    re.I,
+)
+RE_TITRE_SAISON = re.compile(r"\b20\d{2}\s*[-/]\s*(?:20\d{2}|\d{2})\b")
+
+
+def est_long_terme(titre: str | None, pari: str | None) -> bool:
+    """Détection restrictive : un simple nom de ligue ne suffit pas."""
+    p, t = pari or "", titre or ""
+    return bool(RE_LONG_TERME.search(p) or
+                (RE_TITRE_SAISON.search(t) and
+                 re.search(r"\b(?:titre|division|champion|saison|playoffs?)\b", p, re.I)))
+
+
+def corriger_long_terme(base: dict[str, dict]) -> int:
+    """Marque aussi les paris anciens qui ne figurent plus dans le scan."""
+    total = 0
+    for b in base.values():
+        if (b.get("bookmaker") == "Winamax" and not b.get("long_terme")
+                and est_long_terme(b.get("match"), b.get("pari"))):
+            b["long_terme"] = True
+            total += 1
+    return total
+
+
 class PageInattendue(RuntimeError):
     pass
 
@@ -102,6 +134,7 @@ def boosts(e: dict) -> list[dict]:
                     "sport": cat.get("categoryName"),
                     "sport_id_winamax": cat.get("boostedOddSportId"),
                     "pari": _texte(o.get("label")),
+                    "long_terme": est_long_terme(titre, o.get("label")),
                     "cote_origine": origine,
                     "cote_boostee": cote,
                     "hausse_pct": round((cote / origine - 1) * 100, 1) if origine else None,
