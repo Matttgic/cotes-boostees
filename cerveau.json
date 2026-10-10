@@ -1,26 +1,27 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 27,
-   "ecarter": 0,
+   "abstention": 32,
+   "ecarter": 1,
    "hors_perimetre": 22,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T07:00:45+00:00",
+  "derniere_observation": "2026-10-10T07:59:52+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 1,
+   "combiné_lie": 2,
+   "ev_insuffisante": 1,
    "long_terme": 22,
-   "marche_non_cote": 3,
-   "match_introuvable": 4,
+   "marche_non_cote": 4,
+   "match_introuvable": 7,
    "sport_non_suivi": 2
   },
   "observations_reglees": 13,
-  "observes": 49,
+  "observes": 55,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -28,7 +29,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T07:00:45+00:00",
+ "derniere_observation": "2026-10-10T07:59:52+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1627,6 +1628,80 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|194595028|726037808": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T12:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Stade Français - Montpellier) ; Betfair : match introuvable (Stade Français - Montpellier)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194595028|726037808",
+   "match": "Stade Français - Montpellier",
+   "pari": "Le Stade Français gagne et le duo J.Ward/L.Barré marque au moins 1 essai",
+   "premiere_selection": null,
+   "sport": "Rugby"
+  },
+  "unibet|194595061|726038106": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Clermont - Bordeaux) ; Betfair : match introuvable (Clermont - Bordeaux)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194595061|726038106",
+   "match": "Clermont - Bordeaux",
+   "pari": "Clermont gagne et le duo B.Delguy/B.Massa marque au moins 1 essai",
+   "premiere_selection": null,
+   "sport": "Rugby"
+  },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
    "debut": "2026-10-09T18:00+00:00",
@@ -2488,6 +2563,156 @@
    "id": "winamax|715673642|2218276938",
    "match": "Arsenal - Leeds",
    "pari": "Arsenal gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715680871|2218295256": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T13:30+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": 3.748,
+     "decision": "ecarter",
+     "ev_pct": -16.0,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 10.5,
+      "horizon_heures": 5.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715680871|2218295256",
+   "match": "Augsbourg - Bayern Munich",
+   "pari": "Bayern Munich marque plus de 4,5 buts lors du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715688230|2218315854": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T14:15+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 10.3,
+      "horizon_heures": 6.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715688230|2218315854",
+   "match": "Alaves - Atletico Madrid",
+   "pari": "Atletico Madrid gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715696489|2218336689": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T16:30+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 17.6,
+      "horizon_heures": 8.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715696489|2218336689",
+   "match": "FC Barcelone - Getafe",
+   "pari": "Lamine Yamal premier buteur du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715698884|2218342827": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T16:00+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:59:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Inter Milan - Parme) ; Betfair : match introuvable (Inter Milan - Parme)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715698884|2218342827",
+   "match": "Inter Milan - Parme",
+   "pari": "Inter Milan gagne et les deux équipes marquent",
    "premiere_selection": null,
    "sport": "Football"
   }
