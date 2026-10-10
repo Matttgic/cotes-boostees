@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 19,
+   "abstention": 21,
    "ecarter": 0,
    "hors_perimetre": 20,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T05:01:06+00:00",
+  "derniere_observation": "2026-10-10T06:00:07+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -14,11 +14,12 @@
   "motifs_courants": {
    "ancien_format": 17,
    "long_terme": 20,
+   "marche_non_cote": 2,
    "match_introuvable": 1,
    "sport_non_suivi": 1
   },
   "observations_reglees": 13,
-  "observes": 39,
+  "observes": 41,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -26,7 +27,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T05:01:06+00:00",
+ "derniere_observation": "2026-10-10T06:00:07+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2118,6 +2119,80 @@
    "pari": "Union De Santa Fe gagne à la mi-temps et à la fin du match",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|715638835|2218187258": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T06:40+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.475,
+      "hausse_pct": 11.1,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T06:00:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715638835|2218187258",
+   "match": "ATP Shanghai",
+   "pari": "Arthur Fils et Learner Tien gagnent chacun leur match 2-0 (respectivement contre Pavel Kotov et Zachary Svajda)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|715641393|2218192968": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T08:30+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 7.5,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T06:00:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715641393|2218192968",
+   "match": "SE Melbourne Phoenix - Melbourne United",
+   "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
