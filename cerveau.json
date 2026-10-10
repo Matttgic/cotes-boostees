@@ -6,20 +6,20 @@
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T20:51:41+00:00",
+  "derniere_observation": "2026-10-10T21:50:51+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 5,
+   "combiné_lie": 6,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 4,
-   "ligne_absente": 6,
+   "ligne_absente": 7,
    "long_terme": 23,
-   "marche_non_cote": 7,
-   "match_introuvable": 15,
+   "marche_non_cote": 8,
+   "match_introuvable": 12,
    "sport_non_suivi": 2
   },
   "observations_reglees": 34,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T20:51:41+00:00",
+ "derniere_observation": "2026-10-10T21:50:51+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -4175,6 +4175,32 @@
      "reference_raison": "Pinnacle : match introuvable (Atlas - Guadalajara) ; Betfair : ligne absente (TOTAL_EXT MT1 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T21:50:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716279895|2220145722",
@@ -4238,6 +4264,32 @@
      "reference_raison": "Pinnacle : match introuvable (Inter Miami - DC United) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 13.3,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T21:50:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716283851|2220156099",
@@ -4299,6 +4351,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : match introuvable (Sao Paulo FC - Vitoria) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 10.9,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T21:50:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -4395,6 +4473,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T20:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.309,
+     "decision": "ecarter",
+     "ev_pct": -13.0,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T21:50:51+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
