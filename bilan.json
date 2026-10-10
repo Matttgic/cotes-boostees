@@ -140,23 +140,31 @@
    {
     "cumul": 205.5,
     "debut": "2026-10-10T01:00+00:00"
+   },
+   {
+    "cumul": 185.5,
+    "debut": "2026-10-10T01:30+00:00"
+   },
+   {
+    "cumul": 165.5,
+    "debut": "2026-10-10T08:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.16,
-   "en_attente": 53,
+   "cote_moyenne": 3.15,
+   "en_attente": 52,
    "gagnes": 16,
-   "gain_net": 205.5,
-   "mise_totale": 715.0,
-   "paris": 88,
-   "perdus": 19,
-   "pire_baisse": -80.0,
-   "pire_serie_perdante": 4,
-   "regles": 35,
+   "gain_net": 165.5,
+   "mise_totale": 755.0,
+   "paris": 89,
+   "perdus": 21,
+   "pire_baisse": -120.0,
+   "pire_serie_perdante": 6,
+   "regles": 37,
    "rembourses": 0,
-   "reussite_pct": 45.7,
-   "roi_pct": 28.7
+   "reussite_pct": 43.2,
+   "roi_pct": 21.9
   },
   "par_bookmaker": {
    "Unibet": {
@@ -173,17 +181,17 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.44,
-    "en_attente": 22,
+    "cote_moyenne": 3.41,
+    "en_attente": 21,
     "gagnes": 13,
-    "gain_net": 108.0,
-    "mise_totale": 640.0,
-    "paris": 54,
-    "perdus": 19,
-    "regles": 32,
+    "gain_net": 68.0,
+    "mise_totale": 680.0,
+    "paris": 55,
+    "perdus": 21,
+    "regles": 34,
     "rembourses": 0,
-    "reussite_pct": 40.6,
-    "roi_pct": 16.9
+    "reussite_pct": 38.2,
+    "roi_pct": 10.0
    }
   },
   "par_horizon": {
@@ -201,32 +209,32 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.16,
-    "en_attente": 28,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 16,
-    "gain_net": 205.5,
-    "mise_totale": 715.0,
-    "paris": 63,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 165.5,
+    "mise_totale": 755.0,
+    "paris": 64,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 28.7
+    "reussite_pct": 43.2,
+    "roi_pct": 21.9
    }
   },
   "par_mise": {
    "20 €": {
-    "cote_moyenne": 3.44,
-    "en_attente": 22,
+    "cote_moyenne": 3.41,
+    "en_attente": 21,
     "gagnes": 13,
-    "gain_net": 108.0,
-    "mise_totale": 640.0,
-    "paris": 54,
-    "perdus": 19,
-    "regles": 32,
+    "gain_net": 68.0,
+    "mise_totale": 680.0,
+    "paris": 55,
+    "perdus": 21,
+    "regles": 34,
     "rembourses": 0,
-    "reussite_pct": 40.6,
-    "roi_pct": 16.9
+    "reussite_pct": 38.2,
+    "roi_pct": 10.0
    },
    "25 €": {
     "cote_moyenne": 2.73,
@@ -244,17 +252,17 @@
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.16,
-    "en_attente": 53,
+    "cote_moyenne": 3.15,
+    "en_attente": 52,
     "gagnes": 16,
-    "gain_net": 205.5,
-    "mise_totale": 715.0,
-    "paris": 88,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 165.5,
+    "mise_totale": 755.0,
+    "paris": 89,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 28.7
+    "reussite_pct": 43.2,
+    "roi_pct": 21.9
    }
   },
   "par_sport": {
@@ -272,14 +280,14 @@
     "roi_pct": 140.0
    },
    "Basketball": {
-    "cote_moyenne": 3.2,
-    "en_attente": 24,
+    "cote_moyenne": 3.16,
+    "en_attente": 23,
     "gagnes": 0,
-    "gain_net": -40.0,
-    "mise_totale": 40.0,
-    "paris": 26,
-    "perdus": 2,
-    "regles": 2,
+    "gain_net": -80.0,
+    "mise_totale": 80.0,
+    "paris": 27,
+    "perdus": 4,
+    "regles": 4,
     "rembourses": 0,
     "reussite_pct": 0.0,
     "roi_pct": -100.0
@@ -430,12 +438,12 @@
     "roi_pct": null
    },
    "2 – 3": {
-    "cote_moyenne": 2.46,
-    "en_attente": 20,
+    "cote_moyenne": 2.45,
+    "en_attente": 21,
     "gagnes": 11,
     "gain_net": 178.5,
     "mise_totale": 395.0,
-    "paris": 39,
+    "paris": 40,
     "perdus": 8,
     "regles": 19,
     "rembourses": 0,
@@ -444,16 +452,16 @@
    },
    "3 – 5": {
     "cote_moyenne": 3.65,
-    "en_attente": 18,
+    "en_attente": 16,
     "gagnes": 5,
-    "gain_net": 27.0,
-    "mise_totale": 320.0,
+    "gain_net": -13.0,
+    "mise_totale": 360.0,
     "paris": 34,
-    "perdus": 11,
-    "regles": 16,
+    "perdus": 13,
+    "regles": 18,
     "rembourses": 0,
-    "reussite_pct": 31.2,
-    "roi_pct": 8.4
+    "reussite_pct": 27.8,
+    "roi_pct": -3.6
    },
    "5 – 10": {
     "cote_moyenne": 5.73,
@@ -536,17 +544,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.17,
-    "en_attente": 48,
+    "cote_moyenne": 3.16,
+    "en_attente": 47,
     "gagnes": 12,
-    "gain_net": 151.5,
-    "mise_totale": 555.0,
-    "paris": 75,
-    "perdus": 15,
-    "regles": 27,
+    "gain_net": 111.5,
+    "mise_totale": 595.0,
+    "paris": 76,
+    "perdus": 17,
+    "regles": 29,
     "rembourses": 0,
-    "reussite_pct": 44.4,
-    "roi_pct": 27.3
+    "reussite_pct": 41.4,
+    "roi_pct": 18.7
    }
   },
   "paris": [
@@ -1186,14 +1194,14 @@
     "cote_origine": 2.6,
     "debut": "2026-10-10T01:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|715170751|2216603302",
     "match": "Las Vegas Aces - Golden State Valkyries",
     "mise": 20.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -1237,14 +1245,14 @@
     "cote_origine": 3.35,
     "debut": "2026-10-10T08:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|715641393|2218192968",
     "match": "SE Melbourne Phoenix - Melbourne United",
     "mise": 20.0,
     "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -1353,7 +1361,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.37,
+    "cote_origine": 3.334,
     "debut": "2026-10-10T13:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1370,7 +1378,7 @@
     "bookmaker": "Winamax",
     "cote": 3.15,
     "cote_juste": 3.748,
-    "cote_origine": 2.8,
+    "cote_origine": 2.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": -16.0,
     "gain": null,
@@ -1387,7 +1395,7 @@
     "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 3.821,
+    "cote_origine": 3.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1404,7 +1412,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.96,
+    "cote_origine": 1.978,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1455,7 +1463,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.95,
+    "cote_origine": 1.902,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1472,7 +1480,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.912,
+    "cote_origine": 1.927,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -1489,7 +1497,7 @@
     "bookmaker": "Winamax",
     "cote": 2.8,
     "cote_juste": 2.673,
-    "cote_origine": 2.55,
+    "cote_origine": 2.5,
     "debut": "2026-10-10T16:00+00:00",
     "ev_pct": 4.7,
     "gain": null,
@@ -1501,6 +1509,23 @@
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 2.1,
+    "cote_juste": null,
+    "cote_origine": 1.793,
+    "debut": "2026-10-10T16:00+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715878193|2218881069",
+    "match": "1re division professionnelle",
+    "mise": 20.0,
+    "pari": "Plus de 159,5 points lors de chacun des matchs suivants : Cholet - Pau-Lacq-Orthez et Chalon-sur-Saône - Nancy",
+    "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
    },
    {
     "bookmaker": "Winamax",
@@ -2362,23 +2387,31 @@
    {
     "cumul": 93.0,
     "debut": "2026-10-10T01:00+00:00"
+   },
+   {
+    "cumul": 83.0,
+    "debut": "2026-10-10T01:30+00:00"
+   },
+   {
+    "cumul": 73.0,
+    "debut": "2026-10-10T08:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.16,
-   "en_attente": 53,
+   "cote_moyenne": 3.15,
+   "en_attente": 52,
    "gagnes": 16,
-   "gain_net": 93.0,
-   "mise_totale": 350.0,
-   "paris": 88,
-   "perdus": 19,
-   "pire_baisse": -40.0,
-   "pire_serie_perdante": 4,
-   "regles": 35,
+   "gain_net": 73.0,
+   "mise_totale": 370.0,
+   "paris": 89,
+   "perdus": 21,
+   "pire_baisse": -60.0,
+   "pire_serie_perdante": 6,
+   "regles": 37,
    "rembourses": 0,
-   "reussite_pct": 45.7,
-   "roi_pct": 26.6
+   "reussite_pct": 43.2,
+   "roi_pct": 19.7
   },
   "par_bookmaker": {
    "Unibet": {
@@ -2395,17 +2428,17 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.44,
-    "en_attente": 22,
+    "cote_moyenne": 3.41,
+    "en_attente": 21,
     "gagnes": 13,
-    "gain_net": 54.0,
-    "mise_totale": 320.0,
-    "paris": 54,
-    "perdus": 19,
-    "regles": 32,
+    "gain_net": 34.0,
+    "mise_totale": 340.0,
+    "paris": 55,
+    "perdus": 21,
+    "regles": 34,
     "rembourses": 0,
-    "reussite_pct": 40.6,
-    "roi_pct": 16.9
+    "reussite_pct": 38.2,
+    "roi_pct": 10.0
    }
   },
   "par_horizon": {
@@ -2423,47 +2456,47 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 3.16,
-    "en_attente": 28,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 63,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 64,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.16,
-    "en_attente": 53,
+    "cote_moyenne": 3.15,
+    "en_attente": 52,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 88,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 89,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.16,
-    "en_attente": 53,
+    "cote_moyenne": 3.15,
+    "en_attente": 52,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 88,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 89,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_sport": {
@@ -2481,14 +2514,14 @@
     "roi_pct": 140.0
    },
    "Basketball": {
-    "cote_moyenne": 3.2,
-    "en_attente": 24,
+    "cote_moyenne": 3.16,
+    "en_attente": 23,
     "gagnes": 0,
-    "gain_net": -20.0,
-    "mise_totale": 20.0,
-    "paris": 26,
-    "perdus": 2,
-    "regles": 2,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
+    "paris": 27,
+    "perdus": 4,
+    "regles": 4,
     "rembourses": 0,
     "reussite_pct": 0.0,
     "roi_pct": -100.0
@@ -2639,12 +2672,12 @@
     "roi_pct": null
    },
    "2 – 3": {
-    "cote_moyenne": 2.46,
-    "en_attente": 20,
+    "cote_moyenne": 2.45,
+    "en_attente": 21,
     "gagnes": 11,
     "gain_net": 79.5,
     "mise_totale": 190.0,
-    "paris": 39,
+    "paris": 40,
     "perdus": 8,
     "regles": 19,
     "rembourses": 0,
@@ -2653,16 +2686,16 @@
    },
    "3 – 5": {
     "cote_moyenne": 3.65,
-    "en_attente": 18,
+    "en_attente": 16,
     "gagnes": 5,
-    "gain_net": 13.5,
-    "mise_totale": 160.0,
+    "gain_net": -6.5,
+    "mise_totale": 180.0,
     "paris": 34,
-    "perdus": 11,
-    "regles": 16,
+    "perdus": 13,
+    "regles": 18,
     "rembourses": 0,
-    "reussite_pct": 31.2,
-    "roi_pct": 8.4
+    "reussite_pct": 27.8,
+    "roi_pct": -3.6
    },
    "5 – 10": {
     "cote_moyenne": 5.73,
@@ -2745,17 +2778,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.17,
-    "en_attente": 48,
+    "cote_moyenne": 3.16,
+    "en_attente": 47,
     "gagnes": 12,
-    "gain_net": 66.0,
-    "mise_totale": 270.0,
-    "paris": 75,
-    "perdus": 15,
-    "regles": 27,
+    "gain_net": 46.0,
+    "mise_totale": 290.0,
+    "paris": 76,
+    "perdus": 17,
+    "regles": 29,
     "rembourses": 0,
-    "reussite_pct": 44.4,
-    "roi_pct": 24.4
+    "reussite_pct": 41.4,
+    "roi_pct": 15.9
    }
   },
   "paris": [
@@ -3395,14 +3428,14 @@
     "cote_origine": 2.6,
     "debut": "2026-10-10T01:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715170751|2216603302",
     "match": "Las Vegas Aces - Golden State Valkyries",
     "mise": 10.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -3446,14 +3479,14 @@
     "cote_origine": 3.35,
     "debut": "2026-10-10T08:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715641393|2218192968",
     "match": "SE Melbourne Phoenix - Melbourne United",
     "mise": 10.0,
     "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -3562,7 +3595,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.37,
+    "cote_origine": 3.334,
     "debut": "2026-10-10T13:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3579,7 +3612,7 @@
     "bookmaker": "Winamax",
     "cote": 3.15,
     "cote_juste": 3.748,
-    "cote_origine": 2.8,
+    "cote_origine": 2.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": -16.0,
     "gain": null,
@@ -3596,7 +3629,7 @@
     "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 3.821,
+    "cote_origine": 3.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3613,7 +3646,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.96,
+    "cote_origine": 1.978,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3664,7 +3697,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.95,
+    "cote_origine": 1.902,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3681,7 +3714,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.912,
+    "cote_origine": 1.927,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -3698,7 +3731,7 @@
     "bookmaker": "Winamax",
     "cote": 2.8,
     "cote_juste": 2.673,
-    "cote_origine": 2.55,
+    "cote_origine": 2.5,
     "debut": "2026-10-10T16:00+00:00",
     "ev_pct": 4.7,
     "gain": null,
@@ -3710,6 +3743,23 @@
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 2.1,
+    "cote_juste": null,
+    "cote_origine": 1.793,
+    "debut": "2026-10-10T16:00+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715878193|2218881069",
+    "match": "1re division professionnelle",
+    "mise": 10.0,
+    "pari": "Plus de 159,5 points lors de chacun des matchs suivants : Cholet - Pau-Lacq-Orthez et Chalon-sur-Saône - Nancy",
+    "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
    },
    {
     "bookmaker": "Winamax",
@@ -4359,6 +4409,10 @@
    {
     "cumul": 109.5,
     "debut": "2026-10-09T23:15+00:00"
+   },
+   {
+    "cumul": 99.5,
+    "debut": "2026-10-10T01:30+00:00"
    }
   ],
   "global": {
@@ -4366,16 +4420,16 @@
    "cote_moyenne": 2.56,
    "en_attente": 33,
    "gagnes": 14,
-   "gain_net": 109.5,
-   "mise_totale": 250.0,
-   "paris": 58,
-   "perdus": 11,
+   "gain_net": 99.5,
+   "mise_totale": 260.0,
+   "paris": 59,
+   "perdus": 12,
    "pire_baisse": -30.0,
    "pire_serie_perdante": 3,
-   "regles": 25,
+   "regles": 26,
    "rembourses": 0,
-   "reussite_pct": 56.0,
-   "roi_pct": 43.8
+   "reussite_pct": 53.8,
+   "roi_pct": 38.3
   },
   "par_bookmaker": {
    "Unibet": {
@@ -4392,17 +4446,17 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 2.72,
+    "cote_moyenne": 2.7,
     "en_attente": 10,
     "gagnes": 11,
-    "gain_net": 70.5,
-    "mise_totale": 220.0,
-    "paris": 32,
-    "perdus": 11,
-    "regles": 22,
+    "gain_net": 60.5,
+    "mise_totale": 230.0,
+    "paris": 33,
+    "perdus": 12,
+    "regles": 23,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 32.0
+    "reussite_pct": 47.8,
+    "roi_pct": 26.3
    }
   },
   "par_horizon": {
@@ -4420,17 +4474,17 @@
     "roi_pct": null
    },
    "match": {
-    "cote_moyenne": 2.67,
+    "cote_moyenne": 2.65,
     "en_attente": 17,
     "gagnes": 14,
-    "gain_net": 109.5,
-    "mise_totale": 250.0,
-    "paris": 42,
-    "perdus": 11,
-    "regles": 25,
+    "gain_net": 99.5,
+    "mise_totale": 260.0,
+    "paris": 43,
+    "perdus": 12,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 56.0,
-    "roi_pct": 43.8
+    "reussite_pct": 53.8,
+    "roi_pct": 38.3
    }
   },
   "par_mise": {
@@ -4438,14 +4492,14 @@
     "cote_moyenne": 2.56,
     "en_attente": 33,
     "gagnes": 14,
-    "gain_net": 109.5,
-    "mise_totale": 250.0,
-    "paris": 58,
-    "perdus": 11,
-    "regles": 25,
+    "gain_net": 99.5,
+    "mise_totale": 260.0,
+    "paris": 59,
+    "perdus": 12,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 56.0,
-    "roi_pct": 43.8
+    "reussite_pct": 53.8,
+    "roi_pct": 38.3
    }
   },
   "par_mois": {
@@ -4453,14 +4507,14 @@
     "cote_moyenne": 2.56,
     "en_attente": 33,
     "gagnes": 14,
-    "gain_net": 109.5,
-    "mise_totale": 250.0,
-    "paris": 58,
-    "perdus": 11,
-    "regles": 25,
+    "gain_net": 99.5,
+    "mise_totale": 260.0,
+    "paris": 59,
+    "perdus": 12,
+    "regles": 26,
     "rembourses": 0,
-    "reussite_pct": 56.0,
-    "roi_pct": 43.8
+    "reussite_pct": 53.8,
+    "roi_pct": 38.3
    }
   },
   "par_sport": {
@@ -4478,14 +4532,14 @@
     "roi_pct": 140.0
    },
    "Basketball": {
-    "cote_moyenne": 2.32,
+    "cote_moyenne": 2.3,
     "en_attente": 15,
     "gagnes": 0,
-    "gain_net": -10.0,
-    "mise_totale": 10.0,
-    "paris": 16,
-    "perdus": 1,
-    "regles": 1,
+    "gain_net": -20.0,
+    "mise_totale": 20.0,
+    "paris": 17,
+    "perdus": 2,
+    "regles": 2,
     "rembourses": 0,
     "reussite_pct": 0.0,
     "roi_pct": -100.0
@@ -4610,12 +4664,12 @@
   },
   "par_tranche_de_cote": {
    "2 – 3": {
-    "cote_moyenne": 2.46,
-    "en_attente": 20,
+    "cote_moyenne": 2.45,
+    "en_attente": 21,
     "gagnes": 11,
     "gain_net": 79.5,
     "mise_totale": 190.0,
-    "paris": 39,
+    "paris": 40,
     "perdus": 8,
     "regles": 19,
     "rembourses": 0,
@@ -4624,16 +4678,16 @@
    },
    "3 – 5": {
     "cote_moyenne": 3.17,
-    "en_attente": 8,
+    "en_attente": 7,
     "gagnes": 3,
-    "gain_net": 30.0,
-    "mise_totale": 60.0,
+    "gain_net": 20.0,
+    "mise_totale": 70.0,
     "paris": 14,
-    "perdus": 3,
-    "regles": 6,
+    "perdus": 4,
+    "regles": 7,
     "rembourses": 0,
-    "reussite_pct": 50.0,
-    "roi_pct": 50.0
+    "reussite_pct": 42.9,
+    "roi_pct": 28.6
    },
    "< 2": {
     "cote_moyenne": 1.71,
@@ -4690,17 +4744,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 2.51,
+    "cote_moyenne": 2.5,
     "en_attente": 31,
     "gagnes": 10,
-    "gain_net": 72.5,
-    "mise_totale": 180.0,
-    "paris": 49,
-    "perdus": 8,
-    "regles": 18,
+    "gain_net": 62.5,
+    "mise_totale": 190.0,
+    "paris": 50,
+    "perdus": 9,
+    "regles": 19,
     "rembourses": 0,
-    "reussite_pct": 55.6,
-    "roi_pct": 40.3
+    "reussite_pct": 52.6,
+    "roi_pct": 32.9
    }
   },
   "paris": [
@@ -5136,14 +5190,14 @@
     "cote_origine": 2.6,
     "debut": "2026-10-10T01:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715170751|2216603302",
     "match": "Las Vegas Aces - Golden State Valkyries",
     "mise": 10.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -5235,7 +5289,7 @@
     "bookmaker": "Winamax",
     "cote": 3.15,
     "cote_juste": 3.748,
-    "cote_origine": 2.8,
+    "cote_origine": 2.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": -16.0,
     "gain": null,
@@ -5252,7 +5306,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.96,
+    "cote_origine": 1.978,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5286,7 +5340,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.95,
+    "cote_origine": 1.902,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5303,7 +5357,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.912,
+    "cote_origine": 1.927,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5320,7 +5374,7 @@
     "bookmaker": "Winamax",
     "cote": 2.8,
     "cote_juste": 2.673,
-    "cote_origine": 2.55,
+    "cote_origine": 2.5,
     "debut": "2026-10-10T16:00+00:00",
     "ev_pct": 4.7,
     "gain": null,
@@ -5332,6 +5386,23 @@
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 2.1,
+    "cote_juste": null,
+    "cote_origine": 1.793,
+    "debut": "2026-10-10T16:00+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715878193|2218881069",
+    "match": "1re division professionnelle",
+    "mise": 10.0,
+    "pari": "Plus de 159,5 points lors de chacun des matchs suivants : Cholet - Pau-Lacq-Orthez et Chalon-sur-Saône - Nancy",
+    "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
    },
    {
     "bookmaker": "Unibet",
@@ -5834,23 +5905,31 @@
    {
     "cumul": 93.0,
     "debut": "2026-10-10T01:00+00:00"
+   },
+   {
+    "cumul": 83.0,
+    "debut": "2026-10-10T01:30+00:00"
+   },
+   {
+    "cumul": 73.0,
+    "debut": "2026-10-10T08:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.16,
-   "en_attente": 28,
+   "cote_moyenne": 3.15,
+   "en_attente": 27,
    "gagnes": 16,
-   "gain_net": 93.0,
-   "mise_totale": 350.0,
-   "paris": 63,
-   "perdus": 19,
-   "pire_baisse": -40.0,
-   "pire_serie_perdante": 4,
-   "regles": 35,
+   "gain_net": 73.0,
+   "mise_totale": 370.0,
+   "paris": 64,
+   "perdus": 21,
+   "pire_baisse": -60.0,
+   "pire_serie_perdante": 6,
+   "regles": 37,
    "rembourses": 0,
-   "reussite_pct": 45.7,
-   "roi_pct": 26.6
+   "reussite_pct": 43.2,
+   "roi_pct": 19.7
   },
   "par_bookmaker": {
    "Unibet": {
@@ -5867,62 +5946,62 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.29,
-    "en_attente": 21,
+    "cote_moyenne": 3.27,
+    "en_attente": 20,
     "gagnes": 13,
-    "gain_net": 54.0,
-    "mise_totale": 320.0,
-    "paris": 53,
-    "perdus": 19,
-    "regles": 32,
+    "gain_net": 34.0,
+    "mise_totale": 340.0,
+    "paris": 54,
+    "perdus": 21,
+    "regles": 34,
     "rembourses": 0,
-    "reussite_pct": 40.6,
-    "roi_pct": 16.9
+    "reussite_pct": 38.2,
+    "roi_pct": 10.0
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.16,
-    "en_attente": 28,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 63,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 64,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.16,
-    "en_attente": 28,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 63,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 64,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.16,
-    "en_attente": 28,
+    "cote_moyenne": 3.15,
+    "en_attente": 27,
     "gagnes": 16,
-    "gain_net": 93.0,
-    "mise_totale": 350.0,
-    "paris": 63,
-    "perdus": 19,
-    "regles": 35,
+    "gain_net": 73.0,
+    "mise_totale": 370.0,
+    "paris": 64,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 45.7,
-    "roi_pct": 26.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.7
    }
   },
   "par_sport": {
@@ -5940,14 +6019,14 @@
     "roi_pct": 140.0
    },
    "Basketball": {
-    "cote_moyenne": 3.27,
-    "en_attente": 2,
+    "cote_moyenne": 3.04,
+    "en_attente": 1,
     "gagnes": 0,
-    "gain_net": -20.0,
-    "mise_totale": 20.0,
-    "paris": 4,
-    "perdus": 2,
-    "regles": 2,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
+    "paris": 5,
+    "perdus": 4,
+    "regles": 4,
     "rembourses": 0,
     "reussite_pct": 0.0,
     "roi_pct": -100.0
@@ -6085,12 +6164,12 @@
   },
   "par_tranche_de_cote": {
    "2 – 3": {
-    "cote_moyenne": 2.49,
-    "en_attente": 12,
+    "cote_moyenne": 2.48,
+    "en_attente": 13,
     "gagnes": 11,
     "gain_net": 79.5,
     "mise_totale": 190.0,
-    "paris": 31,
+    "paris": 32,
     "perdus": 8,
     "regles": 19,
     "rembourses": 0,
@@ -6099,16 +6178,16 @@
    },
    "3 – 5": {
     "cote_moyenne": 3.68,
-    "en_attente": 13,
+    "en_attente": 11,
     "gagnes": 5,
-    "gain_net": 13.5,
-    "mise_totale": 160.0,
+    "gain_net": -6.5,
+    "mise_totale": 180.0,
     "paris": 29,
-    "perdus": 11,
-    "regles": 16,
+    "perdus": 13,
+    "regles": 18,
     "rembourses": 0,
-    "reussite_pct": 31.2,
-    "roi_pct": 8.4
+    "reussite_pct": 27.8,
+    "roi_pct": -3.6
    },
    "5 – 10": {
     "cote_moyenne": 5.17,
@@ -6178,17 +6257,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.18,
-    "en_attente": 23,
+    "cote_moyenne": 3.16,
+    "en_attente": 22,
     "gagnes": 12,
-    "gain_net": 66.0,
-    "mise_totale": 270.0,
-    "paris": 50,
-    "perdus": 15,
-    "regles": 27,
+    "gain_net": 46.0,
+    "mise_totale": 290.0,
+    "paris": 51,
+    "perdus": 17,
+    "regles": 29,
     "rembourses": 0,
-    "reussite_pct": 44.4,
-    "roi_pct": 24.4
+    "reussite_pct": 41.4,
+    "roi_pct": 15.9
    }
   },
   "paris": [
@@ -6794,14 +6873,14 @@
     "cote_origine": 2.6,
     "debut": "2026-10-10T01:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715170751|2216603302",
     "match": "Las Vegas Aces - Golden State Valkyries",
     "mise": 10.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -6845,14 +6924,14 @@
     "cote_origine": 3.35,
     "debut": "2026-10-10T08:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715641393|2218192968",
     "match": "SE Melbourne Phoenix - Melbourne United",
     "mise": 10.0,
     "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -6944,7 +7023,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.37,
+    "cote_origine": 3.334,
     "debut": "2026-10-10T13:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -6961,7 +7040,7 @@
     "bookmaker": "Winamax",
     "cote": 3.15,
     "cote_juste": 3.748,
-    "cote_origine": 2.8,
+    "cote_origine": 2.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": -16.0,
     "gain": null,
@@ -6978,7 +7057,7 @@
     "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 3.821,
+    "cote_origine": 3.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -6995,7 +7074,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.96,
+    "cote_origine": 1.978,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7046,7 +7125,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.95,
+    "cote_origine": 1.902,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7063,7 +7142,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.912,
+    "cote_origine": 1.927,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -7080,7 +7159,7 @@
     "bookmaker": "Winamax",
     "cote": 2.8,
     "cote_juste": 2.673,
-    "cote_origine": 2.55,
+    "cote_origine": 2.5,
     "debut": "2026-10-10T16:00+00:00",
     "ev_pct": 4.7,
     "gain": null,
@@ -7092,6 +7171,23 @@
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 2.1,
+    "cote_juste": null,
+    "cote_origine": 1.793,
+    "debut": "2026-10-10T16:00+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715878193|2218881069",
+    "match": "1re division professionnelle",
+    "mise": 10.0,
+    "pari": "Plus de 159,5 points lors de chacun des matchs suivants : Cholet - Pau-Lacq-Orthez et Chalon-sur-Saône - Nancy",
+    "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
    },
    {
     "bookmaker": "Winamax",
@@ -7455,23 +7551,31 @@
    {
     "cumul": 90.0,
     "debut": "2026-10-10T01:00+00:00"
+   },
+   {
+    "cumul": 80.0,
+    "debut": "2026-10-10T01:30+00:00"
+   },
+   {
+    "cumul": 70.0,
+    "debut": "2026-10-10T08:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
-   "cote_moyenne": 3.15,
-   "en_attente": 25,
+   "cote_moyenne": 3.14,
+   "en_attente": 24,
    "gagnes": 15,
-   "gain_net": 90.0,
-   "mise_totale": 330.0,
-   "paris": 58,
-   "perdus": 18,
-   "pire_baisse": -40.0,
-   "pire_serie_perdante": 4,
-   "regles": 33,
+   "gain_net": 70.0,
+   "mise_totale": 350.0,
+   "paris": 59,
+   "perdus": 20,
+   "pire_baisse": -60.0,
+   "pire_serie_perdante": 6,
+   "regles": 35,
    "rembourses": 0,
-   "reussite_pct": 45.5,
-   "roi_pct": 27.3
+   "reussite_pct": 42.9,
+   "roi_pct": 20.0
   },
   "par_bookmaker": {
    "Unibet": {
@@ -7488,62 +7592,62 @@
     "roi_pct": 130.0
    },
    "Winamax": {
-    "cote_moyenne": 3.27,
-    "en_attente": 18,
+    "cote_moyenne": 3.25,
+    "en_attente": 17,
     "gagnes": 13,
-    "gain_net": 64.0,
-    "mise_totale": 310.0,
-    "paris": 49,
-    "perdus": 18,
-    "regles": 31,
+    "gain_net": 44.0,
+    "mise_totale": 330.0,
+    "paris": 50,
+    "perdus": 20,
+    "regles": 33,
     "rembourses": 0,
-    "reussite_pct": 41.9,
-    "roi_pct": 20.6
+    "reussite_pct": 39.4,
+    "roi_pct": 13.3
    }
   },
   "par_horizon": {
    "match": {
-    "cote_moyenne": 3.15,
-    "en_attente": 25,
+    "cote_moyenne": 3.14,
+    "en_attente": 24,
     "gagnes": 15,
-    "gain_net": 90.0,
-    "mise_totale": 330.0,
-    "paris": 58,
-    "perdus": 18,
-    "regles": 33,
+    "gain_net": 70.0,
+    "mise_totale": 350.0,
+    "paris": 59,
+    "perdus": 20,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 45.5,
-    "roi_pct": 27.3
+    "reussite_pct": 42.9,
+    "roi_pct": 20.0
    }
   },
   "par_mise": {
    "10 €": {
-    "cote_moyenne": 3.15,
-    "en_attente": 25,
+    "cote_moyenne": 3.14,
+    "en_attente": 24,
     "gagnes": 15,
-    "gain_net": 90.0,
-    "mise_totale": 330.0,
-    "paris": 58,
-    "perdus": 18,
-    "regles": 33,
+    "gain_net": 70.0,
+    "mise_totale": 350.0,
+    "paris": 59,
+    "perdus": 20,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 45.5,
-    "roi_pct": 27.3
+    "reussite_pct": 42.9,
+    "roi_pct": 20.0
    }
   },
   "par_mois": {
    "2026-10": {
-    "cote_moyenne": 3.15,
-    "en_attente": 25,
+    "cote_moyenne": 3.14,
+    "en_attente": 24,
     "gagnes": 15,
-    "gain_net": 90.0,
-    "mise_totale": 330.0,
-    "paris": 58,
-    "perdus": 18,
-    "regles": 33,
+    "gain_net": 70.0,
+    "mise_totale": 350.0,
+    "paris": 59,
+    "perdus": 20,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 45.5,
-    "roi_pct": 27.3
+    "reussite_pct": 42.9,
+    "roi_pct": 20.0
    }
   },
   "par_sport": {
@@ -7561,14 +7665,14 @@
     "roi_pct": 140.0
    },
    "Basketball": {
-    "cote_moyenne": 3.27,
-    "en_attente": 2,
+    "cote_moyenne": 3.04,
+    "en_attente": 1,
     "gagnes": 0,
-    "gain_net": -20.0,
-    "mise_totale": 20.0,
-    "paris": 4,
-    "perdus": 2,
-    "regles": 2,
+    "gain_net": -40.0,
+    "mise_totale": 40.0,
+    "paris": 5,
+    "perdus": 4,
+    "regles": 4,
     "rembourses": 0,
     "reussite_pct": 0.0,
     "roi_pct": -100.0
@@ -7706,12 +7810,12 @@
   },
   "par_tranche_de_cote": {
    "2 – 3": {
-    "cote_moyenne": 2.5,
-    "en_attente": 12,
+    "cote_moyenne": 2.49,
+    "en_attente": 13,
     "gagnes": 10,
     "gain_net": 76.5,
     "mise_totale": 170.0,
-    "paris": 29,
+    "paris": 30,
     "perdus": 7,
     "regles": 17,
     "rembourses": 0,
@@ -7720,16 +7824,16 @@
    },
    "3 – 5": {
     "cote_moyenne": 3.65,
-    "en_attente": 10,
+    "en_attente": 8,
     "gagnes": 5,
-    "gain_net": 13.5,
-    "mise_totale": 160.0,
+    "gain_net": -6.5,
+    "mise_totale": 180.0,
     "paris": 26,
-    "perdus": 11,
-    "regles": 16,
+    "perdus": 13,
+    "regles": 18,
     "rembourses": 0,
-    "reussite_pct": 31.2,
-    "roi_pct": 8.4
+    "reussite_pct": 27.8,
+    "roi_pct": -3.6
    },
    "5 – 10": {
     "cote_moyenne": 5.17,
@@ -7799,17 +7903,17 @@
     "roi_pct": 32.5
    },
    "non évaluable": {
-    "cote_moyenne": 3.17,
-    "en_attente": 20,
+    "cote_moyenne": 3.14,
+    "en_attente": 19,
     "gagnes": 11,
-    "gain_net": 63.0,
-    "mise_totale": 250.0,
-    "paris": 45,
-    "perdus": 14,
-    "regles": 25,
+    "gain_net": 43.0,
+    "mise_totale": 270.0,
+    "paris": 46,
+    "perdus": 16,
+    "regles": 27,
     "rembourses": 0,
-    "reussite_pct": 44.0,
-    "roi_pct": 25.2
+    "reussite_pct": 40.7,
+    "roi_pct": 15.9
    }
   },
   "paris": [
@@ -8381,14 +8485,14 @@
     "cote_origine": 2.6,
     "debut": "2026-10-10T01:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715170751|2216603302",
     "match": "Las Vegas Aces - Golden State Valkyries",
     "mise": 10.0,
     "pari": "A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -8432,14 +8536,14 @@
     "cote_origine": 3.35,
     "debut": "2026-10-10T08:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715641393|2218192968",
     "match": "SE Melbourne Phoenix - Melbourne United",
     "mise": 10.0,
     "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -8531,7 +8635,7 @@
     "bookmaker": "Winamax",
     "cote": 4.0,
     "cote_juste": null,
-    "cote_origine": 3.37,
+    "cote_origine": 3.334,
     "debut": "2026-10-10T13:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8548,7 +8652,7 @@
     "bookmaker": "Winamax",
     "cote": 3.15,
     "cote_juste": 3.748,
-    "cote_origine": 2.8,
+    "cote_origine": 2.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": -16.0,
     "gain": null,
@@ -8565,7 +8669,7 @@
     "bookmaker": "Winamax",
     "cote": 4.5,
     "cote_juste": null,
-    "cote_origine": 3.821,
+    "cote_origine": 3.85,
     "debut": "2026-10-10T13:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8582,7 +8686,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.96,
+    "cote_origine": 1.978,
     "debut": "2026-10-10T14:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8633,7 +8737,7 @@
     "bookmaker": "Winamax",
     "cote": 2.3,
     "cote_juste": null,
-    "cote_origine": 1.95,
+    "cote_origine": 1.902,
     "debut": "2026-10-10T14:35+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8650,7 +8754,7 @@
     "bookmaker": "Winamax",
     "cote": 2.4,
     "cote_juste": null,
-    "cote_origine": 1.912,
+    "cote_origine": 1.927,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
     "gain": null,
@@ -8667,7 +8771,7 @@
     "bookmaker": "Winamax",
     "cote": 2.8,
     "cote_juste": 2.673,
-    "cote_origine": 2.55,
+    "cote_origine": 2.5,
     "debut": "2026-10-10T16:00+00:00",
     "ev_pct": 4.7,
     "gain": null,
@@ -8679,6 +8783,23 @@
     "sport": "Football",
     "statut": "en attente",
     "valeur": "approx"
+   },
+   {
+    "bookmaker": "Winamax",
+    "cote": 2.1,
+    "cote_juste": null,
+    "cote_origine": 1.793,
+    "debut": "2026-10-10T16:00+00:00",
+    "ev_pct": null,
+    "gain": null,
+    "horizon": "match",
+    "id": "winamax|715878193|2218881069",
+    "match": "1re division professionnelle",
+    "mise": 10.0,
+    "pari": "Plus de 159,5 points lors de chacun des matchs suivants : Cholet - Pau-Lacq-Orthez et Chalon-sur-Saône - Nancy",
+    "sport": "Basketball",
+    "statut": "en attente",
+    "valeur": "non_evaluable"
    },
    {
     "bookmaker": "Winamax",
