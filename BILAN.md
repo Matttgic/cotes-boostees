@@ -1,18 +1,18 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 10/10 11h58 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 10/10 12h57 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 34 / 81 | 695 € | **+225,50 €** | **+32,4 %** | -80,00 € |
+| **A — tout miser** | 35 / 86 | 715 € | **+205,50 €** | **+28,7 %** | -80,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 1 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **C — 10 € maximum** | 34 / 81 | 340 € | **+103,00 €** | **+30,3 %** | -40,00 € |
-| **D — cote 1,60–3,50** | 25 / 54 | 250 € | **+109,50 €** | **+43,8 %** | -30,00 € |
-| **E — dans les 48 h** | 34 / 57 | 340 € | **+103,00 €** | **+30,3 %** | -40,00 € |
+| **C — 10 € maximum** | 35 / 86 | 350 € | **+93,00 €** | **+26,6 %** | -40,00 € |
+| **D — cote 1,60–3,50** | 25 / 57 | 250 € | **+109,50 €** | **+43,8 %** | -30,00 € |
+| **E — dans les 48 h** | 35 / 61 | 350 € | **+93,00 €** | **+26,6 %** | -40,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 32 / 52 | 320 € | **+100,00 €** | **+31,2 %** | -40,00 € |
+| **H — un boost/match** | 33 / 56 | 330 € | **+90,00 €** | **+27,3 %** | -40,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -23,7 +23,7 @@ Mis à jour le 10/10 11h58 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 16 gagnés, 18 perdus, 0 remboursés, 47 en attente · cote moyenne 3,14 · pire série perdante 4
+A en détail : 16 gagnés, 19 perdus, 0 remboursés, 51 en attente · cote moyenne 3,15 · pire série perdante 4
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -35,37 +35,37 @@ A en détail : 16 gagnés, 18 perdus, 0 remboursés, 47 en attente · cote moyen
 | EV 5 à 10 % (approx) | 0 / 1 | 0 € | +0,00 € | – | – |
 | EV < 0 (approx) | 4 / 6 | 80 € | +28,00 € | +35,0 % | 50 % |
 | EV < 0 (exacte) | 4 / 5 | 80 € | +26,00 € | +32,5 % | 50 % |
-| non évaluable | 26 / 68 | 535 € | +171,50 € | +32,1 % | 46 % |
+| non évaluable | 27 / 73 | 555 € | +151,50 € | +27,3 % | 44 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| Unibet | 3 / 33 | 75 € | +97,50 € | +130,0 % | 100 % |
-| Winamax | 31 / 48 | 620 € | +128,00 € | +20,6 % | 42 % |
+| Unibet | 3 / 34 | 75 € | +97,50 € | +130,0 % | 100 % |
+| Winamax | 32 / 52 | 640 € | +108,00 € | +16,9 % | 41 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| long terme (saison) | 0 / 24 | 0 € | +0,00 € | – | – |
-| match | 34 / 57 | 695 € | +225,50 € | +32,4 % | 47 % |
+| long terme (saison) | 0 / 25 | 0 € | +0,00 € | – | – |
+| match | 35 / 61 | 715 € | +205,50 € | +28,7 % | 46 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 31 / 48 | 620 € | +128,00 € | +20,6 % | 42 % |
-| 25 € | 3 / 33 | 75 € | +97,50 € | +130,0 % | 100 % |
+| 20 € | 32 / 52 | 640 € | +108,00 € | +16,9 % | 41 % |
+| 25 € | 3 / 34 | 75 € | +97,50 € | +130,0 % | 100 % |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
-| 2 – 3 | 19 / 35 | 395 € | +178,50 € | +45,2 % | 58 % |
-| 3 – 5 | 15 / 33 | 300 € | +47,00 € | +15,7 % | 33 % |
-| 5 – 10 | 0 / 4 | 0 € | +0,00 € | – | – |
+| 2 – 3 | 19 / 38 | 395 € | +178,50 € | +45,2 % | 58 % |
+| 3 – 5 | 16 / 34 | 320 € | +27,00 € | +8,4 % | 31 % |
+| 5 – 10 | 0 / 5 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
 ### A par sport
@@ -73,8 +73,8 @@ A en détail : 16 gagnés, 18 perdus, 0 remboursés, 47 en attente · cote moyen
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
-| Basketball | 1 / 25 | 20 € | -20,00 € | -100,0 % | 0 % |
-| Football | 14 / 31 | 290 € | +119,00 € | +41,0 % | 50 % |
+| Basketball | 2 / 26 | 40 € | -40,00 € | -100,0 % | 0 % |
+| Football | 14 / 35 | 290 € | +119,00 € | +41,0 % | 50 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Formule 1 | 0 / 1 | 0 € | +0,00 € | – | – |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
@@ -89,12 +89,13 @@ A en détail : 16 gagnés, 18 perdus, 0 remboursés, 47 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 34 / 81 | 695 € | +225,50 € | +32,4 % | 47 % |
+| 2026-10 | 35 / 86 | 715 € | +205,50 € | +28,7 % | 46 % |
 
 ### Derniers paris
 
 | Match | Pari | Cote | Juste | EV | Mise | Résultat |
 |---|---|---|---|---|---|---|
+| 20/10 19h00 · Paris Trashtalk 26/27 | TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes) | 2,0 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | IND Pacers - Les Pacers remportent la Division Centrale | 4,25 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | MEM Grizzlies - Cameron Boozer prend 8 rebonds ou + (moyenne) | 1,8 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | LA Clippers - Darius Garland fait 7 passes ou + (moyenne) | 1,6 | – | – | 25 € | ⏳ |
@@ -126,14 +127,13 @@ A en détail : 16 gagnés, 18 perdus, 0 remboursés, 47 en attente · cote moyen
 | 10/10 18h30 · Manchester United - Tottenham | Manchester United gagne et plus de 3,5 buts dans le match | 3,6 | 4,268 | -15,7 % ≈ | 20 € | ⏳ |
 | 10/10 18h30 · FC Barcelone - Getafe | Lamine Yamal premier buteur du match | 4,0 | – | – | 20 € | ⏳ |
 | 10/10 18h00 · Inter Milan - Parme | Inter Milan gagne et les deux équipes marquent | 2,8 | 2,673 | +4,7 % ≈ | 20 € | ⏳ |
+| 10/10 17h15 · Ligue 1 McDonald's® | Plus de 1,5 buts dans chacun des 5 matchs du jour | 2,4 | – | – | 20 € | ⏳ |
+| 10/10 16h15 · LaLiga | Real Madrid, FC Barcelone et Atletico Madrid marquent chacun au moins 2 buts (respectivement contre Villarreal, Getafe et Alaves) | 2,6 | – | – | 20 € | ⏳ |
 | 10/10 16h15 · Alaves - Atletico Madrid | Atletico Madrid gagne et les deux équipes marquent | 3,75 | 3,492 | +7,4 % ≈ | 20 € | ⏳ |
 | 10/10 16h00 · Premier League | Chaque équipe à domicile marque au moins un but (4 matchs à partir de 16:00h) | 2,3 | – | – | 20 € | ⏳ |
 | 10/10 15h30 · Bundesliga | Plus de 2,5 buts dans chacun des 5 matchs à partir de 15h30 | 4,5 | – | – | 20 € | ⏳ |
 | 10/10 15h30 · Augsbourg - Bayern Munich | Bayern Munich marque plus de 4,5 buts lors du match | 3,15 | 3,748 | -16,0 % | 20 € | ⏳ |
+| 10/10 15h00 · Serie A | Plus de 2,5 buts dans chacun des 3 matchs du jour | 4,0 | – | – | 20 € | ⏳ |
 | 10/10 14h30 · Stade Français - Montpellier | Le Stade Français gagne et le duo J.Ward/L.Barré marque au moins 1 essai | 2,5 | – | – | 25 € | ⏳ |
-| 10/10 13h30 · Top Football Européen - 10/10 | Le trio V.Gyokeres / H.Kane / C.Palmer marque plus de 2,5 buts en cumulé ? (Remboursé si non titulaires) | 2,75 | – | – | 25 € | ⏳ |
-| 10/10 13h30 · Arsenal - Leeds | Arsenal gagne et plus de 3,5 buts dans le match | 3,6 | 4,843 | -25,7 % ≈ | 20 € | ⏳ |
-| 10/10 13h00 · S.Baez - V.Vacherot | V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ? | 2,5 | – | – | 25 € | ⏳ |
-| 10/10 11h00 · Grand Prix de Singapour - Sprint | George Russell remporte la course | 3,5 | – | – | 20 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).

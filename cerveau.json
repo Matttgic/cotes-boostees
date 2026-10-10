@@ -1,28 +1,28 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 37,
+   "abstention": 41,
    "ecarter": 1,
-   "hors_perimetre": 22,
+   "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T09:58:11+00:00",
+  "derniere_observation": "2026-10-10T10:57:16+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 4,
+   "combiné_lie": 3,
    "ev_insuffisante": 1,
-   "ligne_absente": 1,
-   "long_terme": 22,
+   "ligne_absente": 2,
+   "long_terme": 23,
    "marche_non_cote": 5,
-   "match_introuvable": 8,
+   "match_introuvable": 12,
    "sport_non_suivi": 2
   },
-  "observations_reglees": 13,
-  "observes": 60,
+  "observations_reglees": 14,
+  "observes": 65,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -30,7 +30,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T09:58:11+00:00",
+ "derniere_observation": "2026-10-10T10:57:16+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -162,6 +162,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T03:02:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 16.7,
+      "horizon_heures": 246.0,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
      "mise_fictive": null,
      "motif_code": "long_terme",
      "raisons": [
@@ -663,6 +689,43 @@
    "id": "unibet|193345273|720329962",
    "match": "Paris Trashtalk 26/27",
    "pari": "BKN Nets - Mikel Brown Jr meilleur passeur des Nets (total de passes)",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|193345391|720330463": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 246.0,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|193345391|720330463",
+   "match": "Paris Trashtalk 26/27",
+   "pari": "TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes)",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -2680,6 +2743,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": 3.454,
+     "decision": "ecarter",
+     "ev_pct": -10.2,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715680871|2218295256",
@@ -2815,6 +2906,32 @@
       "Conditions liées : probabilité seulement approximative"
      ],
      "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 5.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Inter Milan - Parme) ; Betfair : ligne absente (RESULTAT_1N2 MATCH None DOM)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -3007,6 +3124,154 @@
    "id": "winamax|715752859|2218486855",
    "match": "Premier League",
    "pari": "Chaque équipe à domicile marque au moins un but (4 matchs à partir de 16:00h)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715759648|2218508406": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T14:15+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.224,
+      "hausse_pct": 16.9,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL_DOM MATCH 1.5 PLUS) ; Betfair : ligne absente (TOTAL_DOM MATCH 1.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715759648|2218508406",
+   "match": "LaLiga",
+   "pari": "Real Madrid, FC Barcelone et Atletico Madrid marquent chacun au moins 2 buts (respectivement contre Villarreal, Getafe et Alaves)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715781910|2218573139": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T15:15+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.928,
+      "hausse_pct": 24.5,
+      "horizon_heures": 4.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715781910|2218573139",
+   "match": "Ligue 1 McDonald's®",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715791069|2218600140": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T13:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.344,
+      "hausse_pct": 19.6,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715791069|2218600140",
+   "match": "Serie A",
+   "pari": "Plus de 2,5 buts dans chacun des 3 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715794731|2218612431": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T12:00+00:00",
+   "historique": [
+    {
+     "cote": 5.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.351,
+      "hausse_pct": 26.4,
+      "horizon_heures": 1.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (équipe à domicile du match 1 - équipe à l'extérieur du match 1) ; Betfair : match introuvable (équipe à domicile du match 1 - équipe à l'extérieur du match 1)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715794731|2218612431",
+   "match": "Ligue 2 BKT®",
+   "pari": "Les 2 équipes marquent dans chacun des 3 matchs du jour",
    "premiere_selection": null,
    "sport": "Football"
   }

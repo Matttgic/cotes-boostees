@@ -1,18 +1,42 @@
 {
- "boosts_total": 81,
+ "boosts_total": 86,
  "cache_unibet": {
   "3381006": {
-   "age": 4,
+   "age": 0,
    "boosts": [
     {
      "bookmaker": "Unibet",
-     "cote_boostee": 2.8,
-     "cote_origine": 2.4,
+     "cote_boostee": 2.0,
+     "cote_origine": null,
      "debut": "2026-10-20T17:00:00.000Z",
      "disponible": true,
-     "hausse_pct": 16.7,
+     "hausse_pct": null,
+     "id": "unibet|193345391|720330463",
+     "intitule_brut": "Boost TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes) (1,70 -> 2 / Mise max 25€)",
+     "ligue": "Cotes Boostées NBA",
+     "long_terme": true,
+     "match": "Paris Trashtalk 26/27",
+     "mise_max": 25.0,
+     "mise_max_supposee": false,
+     "pari": "TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes)",
+     "ref": {
+      "event_id": 3381006,
+      "market_id": 193345391,
+      "outcome_id": 720330463,
+      "periode": "Temps réglementaire"
+     },
+     "sport": "Basketball",
+     "type": "cote boostée"
+    },
+    {
+     "bookmaker": "Unibet",
+     "cote_boostee": 2.4,
+     "cote_origine": null,
+     "debut": "2026-10-20T17:00:00.000Z",
+     "disponible": true,
+     "hausse_pct": null,
      "id": "unibet|193344613|720327399",
-     "intitule_brut": "Boost CLE Cavaliers - Les Cavaliers remportent la Division Centrale (2,40 -> 2,80 / Mise max 25€)",
+     "intitule_brut": "CLE Cavaliers - Les Cavaliers remportent la Division Centrale (Mise max 25€)",
      "ligue": "Cotes Boostées NBA",
      "long_terme": true,
      "match": "Paris Trashtalk 26/27",
@@ -485,53 +509,104 @@
      "type": "cote boostée"
     }
    ],
-   "count": 20
+   "count": 21
   }
  },
  "dernier_passage": {
   "bookmakers": {
    "unibet": {
-    "boosts_en_ligne": 28,
-    "cotes_modifiees": 0,
-    "nouveaux": 0
+    "boosts_en_ligne": 29,
+    "cotes_modifiees": 1,
+    "nouveaux": 1
    },
    "winamax": {
-    "boosts_en_ligne": 10,
-    "cotes_modifiees": 0,
-    "nouveaux": 2
+    "boosts_en_ligne": 14,
+    "cotes_modifiees": 1,
+    "nouveaux": 4
    }
   },
   "cerveau": {
-   "boosts_observes": 60,
-   "decisions_enregistrees": 4,
-   "nouveaux_boosts": 2
+   "boosts_observes": 65,
+   "decisions_enregistrees": 8,
+   "nouveaux_boosts": 5
   },
-  "date": "2026-10-10T09:58:11+00:00",
+  "date": "2026-10-10T10:57:16+00:00",
   "evaluation": {
-   "approx": 4,
-   "avec_betfair": 1,
-   "decomposes": 2,
+   "approx": 3,
+   "decomposes": 4,
    "echecs_decomposition": 0,
-   "evalues": 17,
+   "evalues": 21,
    "exactes": 1,
-   "non_evaluables": 12,
-   "requetes_pulsescore": 13
+   "non_evaluables": 17,
+   "requetes_pulsescore": 12
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 451857,
+  "octets_proxy": 650387,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
-   "inconnus": 0,
-   "jetons": {},
-   "recherches": 0,
-   "regles": 0,
-   "soumis": 0
+   "inconnus": 1,
+   "jetons": {
+    "gpt-6-luna": {
+     "entree": 39768,
+     "sortie": 2062
+    }
+   },
+   "recherches": 5,
+   "regles": 1,
+   "soumis": 2
   },
   "reglements_manuels": 0,
-  "requetes": 2
+  "requetes": 3
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 29,
+     "cotes_modifiees": 1,
+     "nouveaux": 1
+    },
+    "winamax": {
+     "boosts_en_ligne": 14,
+     "cotes_modifiees": 1,
+     "nouveaux": 4
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 65,
+    "decisions_enregistrees": 8,
+    "nouveaux_boosts": 5
+   },
+   "date": "2026-10-10T10:57:16+00:00",
+   "evaluation": {
+    "approx": 3,
+    "decomposes": 4,
+    "echecs_decomposition": 0,
+    "evalues": 21,
+    "exactes": 1,
+    "non_evaluables": 17,
+    "requetes_pulsescore": 12
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 650387,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 1,
+    "jetons": {
+     "gpt-6-luna": {
+      "entree": 39768,
+      "sortie": 2062
+     }
+    },
+    "recherches": 5,
+    "regles": 1,
+    "soumis": 2
+   },
+   "reglements_manuels": 0,
+   "requetes": 3
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -2405,5 +2480,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 21004529
+ "octets_proxy_total": 21654916
 }
