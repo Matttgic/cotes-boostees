@@ -1,18 +1,18 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 10/10 06h01 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 10/10 07h01 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 32 / 60 | 655 € | **+265,50 €** | **+40,5 %** | -80,00 € |
+| **A — tout miser** | 34 / 60 | 695 € | **+225,50 €** | **+32,4 %** | -80,00 € |
 | **B-exacte (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **C — 10 € maximum** | 32 / 60 | 320 € | **+123,00 €** | **+38,4 %** | -40,00 € |
+| **C — 10 € maximum** | 34 / 60 | 340 € | **+103,00 €** | **+30,3 %** | -40,00 € |
 | **D — cote 1,60–3,50** | 25 / 40 | 250 € | **+109,50 €** | **+43,8 %** | -30,00 € |
-| **E — dans les 48 h** | 32 / 38 | 320 € | **+123,00 €** | **+38,4 %** | -40,00 € |
+| **E — dans les 48 h** | 34 / 38 | 340 € | **+103,00 €** | **+30,3 %** | -40,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 30 / 36 | 300 € | **+120,00 €** | **+40,0 %** | -40,00 € |
+| **H — un boost/match** | 32 / 36 | 320 € | **+100,00 €** | **+31,2 %** | -40,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -23,7 +23,7 @@ Mis à jour le 10/10 06h01 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyenne 3,14 · pire série perdante 4
+A en détail : 16 gagnés, 18 perdus, 0 remboursés, 26 en attente · cote moyenne 3,14 · pire série perdante 4
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -31,29 +31,29 @@ A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| EV < 0 (approx) | 3 / 4 | 60 € | +48,00 € | +80,0 % | 67 % |
+| EV < 0 (approx) | 4 / 4 | 80 € | +28,00 € | +35,0 % | 50 % |
 | EV < 0 (exacte) | 4 / 4 | 80 € | +26,00 € | +32,5 % | 50 % |
-| non évaluable | 25 / 52 | 515 € | +191,50 € | +37,2 % | 48 % |
+| non évaluable | 26 / 52 | 535 € | +171,50 € | +32,1 % | 46 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 3 / 25 | 75 € | +97,50 € | +130,0 % | 100 % |
-| Winamax | 29 / 35 | 580 € | +168,00 € | +29,0 % | 45 % |
+| Winamax | 31 / 35 | 620 € | +128,00 € | +20,6 % | 42 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 22 | 0 € | +0,00 € | – | – |
-| match | 32 / 38 | 655 € | +265,50 € | +40,5 % | 50 % |
+| match | 34 / 38 | 695 € | +225,50 € | +32,4 % | 47 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 29 / 35 | 580 € | +168,00 € | +29,0 % | 45 % |
+| 20 € | 31 / 35 | 620 € | +128,00 € | +20,6 % | 42 % |
 | 25 € | 3 / 25 | 75 € | +97,50 € | +130,0 % | 100 % |
 
 ### A par tranche de cote
@@ -62,7 +62,7 @@ A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyen
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2 – 3 | 19 / 25 | 395 € | +178,50 € | +45,2 % | 58 % |
-| 3 – 5 | 13 / 22 | 260 € | +87,00 € | +33,5 % | 38 % |
+| 3 – 5 | 15 / 22 | 300 € | +47,00 € | +15,7 % | 33 % |
 | 5 – 10 | 0 / 4 | 0 € | +0,00 € | – | – |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -72,7 +72,7 @@ A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyen
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
 | Basketball | 1 / 24 | 20 € | -20,00 € | -100,0 % | 0 % |
-| Football | 12 / 15 | 250 € | +159,00 € | +63,6 % | 58 % |
+| Football | 14 / 15 | 290 € | +119,00 € | +41,0 % | 50 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 4 / 4 | 80 € | -20,00 € | -25,0 % | 25 % |
@@ -85,7 +85,7 @@ A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 32 / 60 | 655 € | +265,50 € | +40,5 % | 50 % |
+| 2026-10 | 34 / 60 | 695 € | +225,50 € | +32,4 % | 47 % |
 
 ### Derniers paris
 
@@ -114,8 +114,8 @@ A en détail : 16 gagnés, 16 perdus, 0 remboursés, 28 en attente · cote moyen
 | 10/10 13h00 · S.Baez - V.Vacherot | V.Vacherot gagne le 1er set et moins de 9,5 jeux dans le set ? | 2,5 | – | – | 25 € | ⏳ |
 | 10/10 09h30 · Ch. du Monde +78 kg (F) | Léa Fontaine remporte la médaille d'or | 5,0 | – | – | 20 € | ⏳ |
 | 10/10 03h30 · Las Vegas Aces - Golden State Valkyries | A'ja Wilson marque au moins 30 points et Las Vegas Aces gagne | 3,0 | – | – | 20 € | ⏳ |
-| 10/10 03h00 · Puebla - Leon | Leon marque dans les deux mi-temps | 3,75 | – | – | 20 € | ⏳ |
-| 10/10 02h45 · Union De Santa Fe - Defensa Y Justicia | Union De Santa Fe gagne à la mi-temps et à la fin du match | 3,75 | 7,172 | -47,7 % ≈ | 20 € | ⏳ |
+| 10/10 03h00 · Puebla - Leon | Leon marque dans les deux mi-temps | 3,75 | – | – | 20 € | ❌ -20,00 € |
+| 10/10 02h45 · Union De Santa Fe - Defensa Y Justicia | Union De Santa Fe gagne à la mi-temps et à la fin du match | 3,75 | 7,172 | -47,7 % ≈ | 20 € | ❌ -20,00 € |
 | 10/10 01h30 · WNBA | Plus de 164,5 points lors de chacun des matchs suivants : New York Liberty - Atlanta Dream et Las Vegas Aces - Golden State Valkyries | 4,0 | – | – | 20 € | ⏳ |
 | 10/10 01h15 · NHL | Plus de 5,5 buts lors de chacun des matchs suivants : Washington Capitals - New York Rangers et Detroit Red Wings - Seattle Kraken | 3,0 | 3,44 | -12,8 % | 20 € | ❌ -20,00 € |
 | 09/10 21h15 · Braga - Sporting Portugal | Braga ou Sporting Portugal gagne et les deux équipes marquent | 3,0 | – | – | 20 € | ✅ +40,00 € |
