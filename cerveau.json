@@ -1,27 +1,28 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 32,
+   "abstention": 35,
    "ecarter": 1,
    "hors_perimetre": 22,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T07:59:52+00:00",
+  "derniere_observation": "2026-10-10T08:59:01+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 2,
+   "combiné_lie": 3,
    "ev_insuffisante": 1,
+   "ligne_absente": 1,
    "long_terme": 22,
-   "marche_non_cote": 4,
+   "marche_non_cote": 5,
    "match_introuvable": 7,
    "sport_non_suivi": 2
   },
   "observations_reglees": 13,
-  "observes": 55,
+  "observes": 58,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -29,7 +30,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T07:59:52+00:00",
+ "derniere_observation": "2026-10-10T08:59:01+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1450,6 +1451,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (FC Barcelone - Getafe)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 7.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T08:59:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "unibet|194524911|725684295",
@@ -2597,6 +2624,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.15,
+     "cote_juste": 3.674,
+     "decision": "ecarter",
+     "ev_pct": -14.3,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 8.6,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T08:59:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715680871|2218295256",
@@ -2713,6 +2768,117 @@
    "id": "winamax|715698884|2218342827",
    "match": "Inter Milan - Parme",
    "pari": "Inter Milan gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715715515|2218384261": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T16:30+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 12.5,
+      "horizon_heures": 7.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T08:59:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715715515|2218384261",
+   "match": "Manchester United - Tottenham",
+   "pari": "Manchester United gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715720080|2218396480": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.95,
+      "hausse_pct": 13.9,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T08:59:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715720080|2218396480",
+   "match": "Paris SG - Le Mans",
+   "pari": "Paris SG gagne le match 4-0 ou 5-0 ou 6-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715736208|2218439149": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 10.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T08:59:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (Real Madrid - Villarreal)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715736208|2218439149",
+   "match": "Real Madrid - Villarreal",
+   "pari": "Kylian Mbappé marque 2 buts ou plus",
    "premiere_selection": null,
    "sport": "Football"
   }
