@@ -1,8 +1,8 @@
 {
- "boosts_total": 79,
+ "boosts_total": 81,
  "cache_unibet": {
   "3381006": {
-   "age": 3,
+   "age": 4,
    "boosts": [
     {
      "bookmaker": "Unibet",
@@ -496,28 +496,29 @@
     "nouveaux": 0
    },
    "winamax": {
-    "boosts_en_ligne": 9,
+    "boosts_en_ligne": 10,
     "cotes_modifiees": 0,
-    "nouveaux": 3
+    "nouveaux": 2
    }
   },
   "cerveau": {
-   "boosts_observes": 58,
-   "decisions_enregistrees": 5,
-   "nouveaux_boosts": 3
+   "boosts_observes": 60,
+   "decisions_enregistrees": 4,
+   "nouveaux_boosts": 2
   },
-  "date": "2026-10-10T08:59:01+00:00",
+  "date": "2026-10-10T09:58:11+00:00",
   "evaluation": {
-   "approx": 3,
-   "decomposes": 3,
+   "approx": 4,
+   "avec_betfair": 1,
+   "decomposes": 2,
    "echecs_decomposition": 0,
-   "evalues": 16,
+   "evalues": 17,
    "exactes": 1,
    "non_evaluables": 12,
    "requetes_pulsescore": 13
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 448805,
+  "octets_proxy": 451857,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
@@ -531,6 +532,49 @@
   "requetes": 2
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 28,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 10,
+     "cotes_modifiees": 0,
+     "nouveaux": 2
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 60,
+    "decisions_enregistrees": 4,
+    "nouveaux_boosts": 2
+   },
+   "date": "2026-10-10T09:58:11+00:00",
+   "evaluation": {
+    "approx": 4,
+    "avec_betfair": 1,
+    "decomposes": 2,
+    "echecs_decomposition": 0,
+    "evalues": 17,
+    "exactes": 1,
+    "non_evaluables": 12,
+    "requetes_pulsescore": 13
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 451857,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 2
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -2361,5 +2405,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 20552672
+ "octets_proxy_total": 21004529
 }

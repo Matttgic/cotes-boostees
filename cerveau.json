@@ -1,28 +1,28 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 35,
+   "abstention": 37,
    "ecarter": 1,
    "hors_perimetre": 22,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T08:59:01+00:00",
+  "derniere_observation": "2026-10-10T09:58:11+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 3,
+   "combiné_lie": 4,
    "ev_insuffisante": 1,
    "ligne_absente": 1,
    "long_terme": 22,
    "marche_non_cote": 5,
-   "match_introuvable": 7,
+   "match_introuvable": 8,
    "sport_non_suivi": 2
   },
   "observations_reglees": 13,
-  "observes": 58,
+  "observes": 60,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -30,7 +30,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T08:59:01+00:00",
+ "derniere_observation": "2026-10-10T09:58:11+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2652,6 +2652,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.15,
+     "cote_juste": 3.538,
+     "decision": "ecarter",
+     "ev_pct": -11.0,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 12.5,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T09:58:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715680871|2218295256",
@@ -2761,6 +2789,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : match introuvable (Inter Milan - Parme) ; Betfair : match introuvable (Inter Milan - Parme)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 6.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T09:58:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -2879,6 +2933,80 @@
    "id": "winamax|715736208|2218439149",
    "match": "Real Madrid - Villarreal",
    "pari": "Kylian Mbappé marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715742521|2218456933": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T13:30+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.69,
+      "hausse_pct": 22.0,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T09:58:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715742521|2218456933",
+   "match": "Bundesliga",
+   "pari": "Plus de 2,5 buts dans chacun des 5 matchs à partir de 15h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|715752859|2218486855": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T14:00+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.978,
+      "hausse_pct": 16.3,
+      "horizon_heures": 4.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T09:58:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (équipe à domicile - équipe à l'extérieur) ; Betfair : match introuvable (équipe à domicile - équipe à l'extérieur)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715752859|2218486855",
+   "match": "Premier League",
+   "pari": "Chaque équipe à domicile marque au moins un but (4 matchs à partir de 16:00h)",
    "premiere_selection": null,
    "sport": "Football"
   }
