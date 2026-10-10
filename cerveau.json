@@ -1,25 +1,26 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 21,
+   "abstention": 27,
    "ecarter": 0,
-   "hors_perimetre": 20,
+   "hors_perimetre": 22,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T06:01:41+00:00",
+  "derniere_observation": "2026-10-10T07:00:45+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "long_terme": 20,
-   "marche_non_cote": 2,
-   "match_introuvable": 1,
-   "sport_non_suivi": 1
+   "combiné_lie": 1,
+   "long_terme": 22,
+   "marche_non_cote": 3,
+   "match_introuvable": 4,
+   "sport_non_suivi": 2
   },
   "observations_reglees": 13,
-  "observes": 41,
+  "observes": 49,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -27,7 +28,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T06:01:41+00:00",
+ "derniere_observation": "2026-10-10T07:00:45+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -1308,6 +1309,228 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "unibet|194524794|725683923": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 9.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Man. United - Tottenham) ; Betfair : match introuvable (Man. United - Tottenham)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524794|725683923",
+   "match": "Man. United - Tottenham",
+   "pari": "B.Fernandes décisif et son équipe gagne (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194524841|725684042": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 14.0,
+      "horizon_heures": 11.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524841|725684042",
+   "match": "Ligue 1 - 10/10",
+   "pari": "Plus de 0,5 buts à la mi-temps de chacun des 4 matchs de 20h45 ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194524880|725684142": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 15.8,
+      "horizon_heures": 11.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524880|725684142",
+   "match": "Paris SG - Le Mans",
+   "pari": "Paris SG gagne 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194524911|725684295": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 9.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (FC Barcelone - Getafe)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524911|725684295",
+   "match": "FC Barcelone - Getafe",
+   "pari": "L.Yamal décisif au moins 2 fois ? (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194524960|725684529": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (Real Madrid - Villarreal)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524960|725684529",
+   "match": "Real Madrid - Villarreal",
+   "pari": "K.Mbappé buteur, son équipe mène à la mi-temps et gagne le match ? (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194524991|725684642": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-10T11:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 14.6,
+      "horizon_heures": 4.5,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194524991|725684642",
+   "match": "Top Football Européen - 10/10",
+   "pari": "Le trio V.Gyokeres / H.Kane / C.Palmer marque plus de 2,5 buts en cumulé ? (Remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|194526116|725687993": {
    "bookmaker": "Unibet",
    "debut": "2026-10-09T18:45:00.000Z",
@@ -2193,6 +2416,80 @@
    "pari": "N. Sobey + C. Anthony marquent 55 points ou plus",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|715652219|2218222586": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T09:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 7.7,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "sport_non_suivi",
+     "raisons": [
+      "Sport non suivi par les références"
+     ],
+     "reference_raison": "sport non suivi (Formule 1)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715652219|2218222586",
+   "match": "Grand Prix de Singapour - Sprint",
+   "pari": "George Russell remporte la course",
+   "premiere_selection": null,
+   "sport": "Formule 1"
+  },
+  "winamax|715673642|2218276938": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-10T11:30+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 10.8,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T07:00:45+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|715673642|2218276938",
+   "match": "Arsenal - Leeds",
+   "pari": "Arsenal gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
