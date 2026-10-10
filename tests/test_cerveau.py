@@ -130,8 +130,8 @@ def test_regles_de_confiance_et_rejet():
 def test_mises_et_disponibilite_non_confirmees_sont_abstention():
     assert cerveau._calcul(boost(mise_max=None), T0)["decision"] == "abstention"
     assert cerveau._calcul(boost(mise_max_supposee=True), T0)["decision"] == "abstention"
-    assert cerveau._calcul(boost(long_terme=True), T0)["decision"] == "abstention"
-    assert cerveau._calcul(boost(debut="2026-11-09T13:00:00+00:00"), T0)["decision"] == "abstention"
+    assert cerveau._calcul(boost(long_terme=True), T0)["decision"] == "hors_perimetre"
+    assert cerveau._calcul(boost(debut="2026-11-09T13:00:00+00:00"), T0)["decision"] == "hors_perimetre"
 
 
 def test_les_reglements_sur_boosts_non_selectionnes_ne_creent_ni_profit_ni_pari():
@@ -170,3 +170,78 @@ def test_un_changement_de_decision_est_conserve_dans_historique():
     assert len(e["historique"]) == 2
     assert e["historique"][-1]["decision"] == "ecarter"
     assert e["premiere_selection"]["decision"] == "selectionner"
+
+
+def test_combine_vraiment_distinct_avec_ev_exacte_est_selectionne():
+    b = boost()
+    b["valeur_derniere"]["detail"] = [
+        {"match": "Nantes - Lyon", "source": "Pinnacle"},
+        {"match": "Braga - Sporting Portugal", "source": "Betfair"},
+    ]
+    d = cerveau._calcul(b, T0)
+    assert d["decision"] == "selectionner"
+    assert d["mise_fictive"] == 10
+    assert d["motif_code"] == "ev_positive"
+    assert any("2 rencontres" in r for r in d["raisons"])
+
+
+def test_combine_meme_match_inverse_ou_nom_variation_reste_abstention():
+    b = boost()
+    b["valeur_derniere"]["detail"] = [
+        {"match": "Paris SG - Lyon"},
+        {"match": "Lyon - Paris SG"},
+    ]
+    d = cerveau._calcul(b, T0)
+    assert d["decision"] == "abstention"
+    assert d["motif_code"] == "independance_non_verifiee"
+    b["valeur_derniere"]["detail"][1]["match"] = "Lyon - Paris SG FC"
+    assert cerveau._calcul(b, T0)["decision"] == "abstention"
+
+
+def test_combine_sans_rencontres_identifiables_reste_abstention():
+    b = boost()
+    b["valeur_derniere"]["detail"] = [{"match": "Nantes - Lyon"}, {"marche": "TOTAL"}]
+    assert cerveau._calcul(b, T0)["motif_code"] == "independance_non_verifiee"
+
+
+def test_combine_lie_avec_ev_approximative_ne_se_selectionne_pas():
+    b = boost()
+    b["valeur_derniere"]["statut"] = "approx"
+    b["valeur_derniere"]["detail"] = [{"match": "Nantes - Lyon"}, {"match": "Nantes - Lyon"}]
+    d = cerveau._calcul(b, T0)
+    assert d["decision"] == "abstention"
+    assert d["motif_code"] == "combiné_lie"
+
+
+def test_diagnostic_precis_marche_introuvable_et_sport_non_suivi():
+    b = boost()
+    b["valeur_derniere"] = {"statut": "non_evaluable", "date": T0,
+                            "raison": "Pinnacle : match introuvable (X - Y)"}
+    v = cerveau._calcul(b, T0)
+    assert v["motif_code"] == "match_introuvable"
+    assert v["reference_raison"].startswith("Pinnacle")
+    b["valeur_derniere"]["raison"] = "sport non suivi (Judo)"
+    assert cerveau._calcul(b, T0)["motif_code"] == "sport_non_suivi"
+    b["valeur_derniere"]["raison"] = "Betfair : ligne absente (JOUEUR MATCH)"
+    assert cerveau._calcul(b, T0)["motif_code"] == "ligne_absente"
+
+
+def test_hors_perimetre_separe_et_journal_retrospectif_preserve():
+    b = boost(long_terme=True)
+    registre = {}
+    observer({"1": b}, registre)
+    stats = registre["bilan"]
+    assert stats["decisions_courantes"]["hors_perimetre"] == 1
+    assert stats["decisions_courantes"]["abstention"] == 0
+    assert stats["motifs_courants"]["long_terme"] == 1
+    assert stats["paris_selectionnes"] == 0
+    # Historique ancien : il reste lisible et aucune décision n'est reconstruite rétroactivement.
+    ancien = {"schema": 1, "entrees": {"ancien": {
+        "id": "ancien", "historique": [{"decision": "abstention", "cote": 2,
+          "ev_pct": None, "cote_juste": None, "mise_fictive": None,
+          "raisons": ["Paris long terme ou horaire non vérifiable"]}],
+        "premiere_selection": None
+    }}}
+    vieux = cerveau.bilan(ancien, {})
+    assert vieux["decisions_courantes"]["abstention"] == 1
+    assert vieux["motifs_courants"]["ancien_format"] == 1
