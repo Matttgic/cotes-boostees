@@ -56,6 +56,10 @@ def main() -> int:
         passage["octets_proxy"] = nav.octets
         passage["requetes"] = nav.requetes
 
+    # Les paris "titre NBA" de Winamax doivent attendre la fin de saison,
+    # même lorsque leur date de début officielle est déjà passée.
+    passage["long_terme_winamax_corriges"] = winamax.corriger_long_terme(base)
+
     # valeur face à Pinnacle (stratégie B) : décomposition IA puis cotes justes
     try:
         passage["evaluation"] = evaluation.evaluer_boosts(base, maintenant)

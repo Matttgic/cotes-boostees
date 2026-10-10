@@ -72,3 +72,31 @@ def test_fusion_ne_touche_pas_aux_champs_ajoutes(lignes):
     base[lignes[0]["id"]]["statut"] = "gagné"           # ajouté plus tard par le règlement
     stockage.fusionner(base, lignes[:1], "t2")
     assert base[lignes[0]["id"]]["statut"] == "gagné"
+
+
+
+def test_titre_nba_classe_long_terme_et_historique_corrige():
+    assert winamax.est_long_terme("NBA 2026 - 2027", "New York Knicks gagne le titre NBA")
+    ancien = {"winamax|715030061|2216203536": {
+        "id": "winamax|715030061|2216203536", "bookmaker": "Winamax",
+        "match": "NBA 2026 - 2027", "pari": "New York Knicks gagne le titre NBA",
+        "debut": "2026-10-09T17:00:00+00:00",
+        "reglement": {"tentatives": 1, "derniere_tentative": "2026-10-09T21:08:28+00:00"},
+    }}
+    assert winamax.corriger_long_terme(ancien) == 1
+    assert ancien["winamax|715030061|2216203536"]["long_terme"] is True
+    assert winamax.corriger_long_terme(ancien) == 0
+    from datetime import datetime, timezone
+    from boosts.reglement import a_regler
+    assert a_regler(ancien, datetime(2026, 10, 10, 2, tzinfo=timezone.utc)) == []
+
+
+def test_matchs_normaux_non_marqués_long_terme():
+    for titre, pari in [
+        ("Lyon - Lens", "Lens gagne la rencontre"),
+        ("NBA", "New York Knicks - Boston Celtics : plus de 220,5 points"),
+        ("Coupe du monde", "Finale : l'équipe A gagne"),
+        ("NBA 2026 - 2027", "Plus de 230,5 points Lakers - Bucks"),
+    ]:
+        assert winamax.est_long_terme(titre, pari) is False
+    assert winamax.est_long_terme("NBA 2026 - 2027", "Chicago Bulls champion de la conférence") is True
