@@ -43,6 +43,8 @@ Le fichier public `cerveau.json` (branche `donnees`) contient un journal **horod
 
 Une sélection se **verrouille au premier instant** où tous les critères sont réunis. Les cotes et les mises ne sont jamais remplacées par celles vues après coup ; les changements ultérieurs forment un journal distinct. Le module regarde les résultats uniquement après la prise de décision et publie gains nets, ROI et pire baisse des paris fictifs réglés. Les boosts anciennement observés et déjà terminés ne sont pas backfillés comme des prédictions.
 
+**Diagnostic des abstentions (v1.1).** Les paris de saison et événements hors des 72 h sont classés `hors_perimetre` plutôt qu'en abstention technique. Les refus sans cote juste distinguent désormais rencontre introuvable, marché ou ligne absent, sport non pris en charge et combiné lié. Un combiné de rencontres distinctes peut être sélectionné uniquement si son calcul est `exacte`, chaque rencontre est identifiable et l'EV passe le seuil ; un combiné corrélé reste une abstention. Les résultats du passé ne sont jamais transformés rétrospectivement en sélections. Pour éviter les fausses correspondances, un nom d'équipe manquant n'est complété que si l'autre nom coïncide avec un titre d'affiche explicite.
+
 **Important : c'est un moteur à règles, PAS encore un modèle entraîné.** Les caractéristiques archivées avant match pourront alimenter un modèle statistique après validation d'un échantillon suffisant. Le moteur ne place aucun pari, n'expose aucun secret et n'ajoute aucun appel aux API. Les règlements automatiques peuvent être erronés : corrections manuelles prévues dans le collecteur.
 
 ⚠️ Simulation uniquement. Les paris sportifs comportent un risque de perte.
