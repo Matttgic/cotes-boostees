@@ -6,7 +6,7 @@
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-10T17:38:21+00:00",
+  "derniere_observation": "2026-10-10T17:54:23+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -30,7 +30,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-10T17:38:21+00:00",
+ "derniere_observation": "2026-10-10T17:54:23+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -3750,6 +3750,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.911,
+     "decision": "ecarter",
+     "ev_pct": -10.5,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 18.6,
+      "horizon_heures": 0.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T17:54:23+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|715903019|2218957235",
@@ -3805,6 +3833,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T16:39:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 12.3,
+      "horizon_heures": 0.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T17:54:23+00:00",
      "mise_fictive": null,
      "motif_code": "combiné_lie",
      "raisons": [
@@ -3954,6 +4008,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T17:38:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": 3.504,
+     "decision": "ecarter",
+     "ev_pct": -7.3,
+     "features": {
+      "cote_origine": 3.018,
+      "hausse_pct": 7.7,
+      "horizon_heures": 1.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-10T17:54:23+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
