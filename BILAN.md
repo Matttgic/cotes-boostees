@@ -1,6 +1,6 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 10/10 04h03 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 10/10 05h02 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -9,10 +9,10 @@ Mis à jour le 10/10 04h03 (heure de Paris). Argent fictif : A/B à la mise max 
 | **B-approx (EV ≥ 5 %)** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **C — 10 € maximum** | 31 / 60 | 310 € | **+133,00 €** | **+42,9 %** | -40,00 € |
 | **D — cote 1,60–3,50** | 24 / 40 | 240 € | **+119,50 €** | **+49,8 %** | -30,00 € |
-| **E — dans les 48 h** | 31 / 39 | 310 € | **+133,00 €** | **+42,9 %** | -40,00 € |
+| **E — dans les 48 h** | 31 / 38 | 310 € | **+133,00 €** | **+42,9 %** | -40,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 29 / 37 | 290 € | **+130,00 €** | **+44,8 %** | -40,00 € |
+| **H — un boost/match** | 29 / 36 | 290 € | **+130,00 €** | **+44,8 %** | -40,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -46,8 +46,8 @@ A en détail : 16 gagnés, 15 perdus, 0 remboursés, 29 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| long terme (saison) | 0 / 21 | 0 € | +0,00 € | – | – |
-| match | 31 / 39 | 635 € | +285,50 € | +45,0 % | 52 % |
+| long terme (saison) | 0 / 22 | 0 € | +0,00 € | – | – |
+| match | 31 / 38 | 635 € | +285,50 € | +45,0 % | 52 % |
 
 ### A par mise max
 
