@@ -1,18 +1,18 @@
 # Bilan des cotes boostées (stratégies et risques)
 
-Mis à jour le 11/10 06h59 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 11/10 07h58 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 71 / 101 | 1470 € | **+38,00 €** | **+2,6 %** | -300,50 € |
+| **A — tout miser** | 72 / 101 | 1490 € | **+18,00 €** | **+1,2 %** | -300,50 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 2 / 2 | 40 € | **+105,00 €** | **+262,5 %** | +0,00 € |
-| **C — 10 € maximum** | 71 / 101 | 710 € | **+20,50 €** | **+2,9 %** | -139,00 € |
-| **D — cote 1,60–3,50** | 49 / 67 | 490 € | **+79,50 €** | **+16,2 %** | -86,50 € |
-| **E — dans les 48 h** | 71 / 76 | 710 € | **+20,50 €** | **+2,9 %** | -139,00 € |
+| **C — 10 € maximum** | 72 / 101 | 720 € | **+10,50 €** | **+1,5 %** | -139,00 € |
+| **D — cote 1,60–3,50** | 50 / 67 | 500 € | **+69,50 €** | **+13,9 %** | -86,50 € |
+| **E — dans les 48 h** | 72 / 76 | 720 € | **+10,50 €** | **+1,5 %** | -139,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 66 / 71 | 660 € | **+47,50 €** | **+7,2 %** | -119,00 € |
+| **H — un boost/match** | 67 / 71 | 670 € | **+37,50 €** | **+5,6 %** | -119,00 € |
 
 **Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.
 
@@ -23,7 +23,7 @@ Mis à jour le 11/10 06h59 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyenne 3,22 · pire série perdante 6
+A en détail : 25 gagnés, 47 perdus, 0 remboursés, 29 en attente · cote moyenne 3,22 · pire série perdante 6
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -37,27 +37,27 @@ A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyen
 | EV 5 à 10 % (approx) | 1 / 1 | 20 € | +55,00 € | +275,0 % | 100 % |
 | EV < 0 (approx) | 7 / 7 | 140 € | -32,00 € | -22,9 % | 29 % |
 | EV < 0 (exacte) | 7 / 8 | 140 € | +31,00 € | +22,1 % | 43 % |
-| non évaluable | 53 / 82 | 1110 € | -26,00 € | -2,3 % | 34 % |
+| non évaluable | 54 / 82 | 1130 € | -46,00 € | -4,1 % | 33 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 10 / 35 | 250 € | -15,00 € | -6,0 % | 40 % |
-| Winamax | 61 / 66 | 1220 € | +53,00 € | +4,3 % | 34 % |
+| Winamax | 62 / 66 | 1240 € | +33,00 € | +2,7 % | 34 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 25 | 0 € | +0,00 € | – | – |
-| match | 71 / 76 | 1470 € | +38,00 € | +2,6 % | 35 % |
+| match | 72 / 76 | 1490 € | +18,00 € | +1,2 % | 35 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 61 / 66 | 1220 € | +53,00 € | +4,3 % | 34 % |
+| 20 € | 62 / 66 | 1240 € | +33,00 € | +2,7 % | 34 % |
 | 25 € | 10 / 35 | 250 € | -15,00 € | -6,0 % | 40 % |
 
 ### A par tranche de cote
@@ -66,7 +66,7 @@ A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyen
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2 – 3 | 33 / 42 | 705 € | +28,00 € | +4,0 % | 42 % |
-| 3 – 5 | 34 / 42 | 685 € | +90,00 € | +13,1 % | 32 % |
+| 3 – 5 | 35 / 42 | 705 € | +70,00 € | +9,9 % | 31 % |
 | 5 – 10 | 4 / 8 | 80 € | -80,00 € | -100,0 % | 0 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -76,7 +76,7 @@ A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyen
 |---|---|---|---|---|---|
 | Baseball | 1 / 1 | 20 € | +28,00 € | +140,0 % | 100 % |
 | Basketball | 5 / 27 | 100 € | -58,00 € | -58,0 % | 20 % |
-| Football | 37 / 41 | 770 € | +2,00 € | +0,3 % | 32 % |
+| Football | 38 / 41 | 790 € | -18,00 € | -2,3 % | 32 % |
 | Football Américain | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Formule 1 | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
@@ -91,7 +91,7 @@ A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 71 / 101 | 1470 € | +38,00 € | +2,6 % | 35 % |
+| 2026-10 | 72 / 101 | 1490 € | +18,00 € | +1,2 % | 35 % |
 
 ### Derniers paris
 
@@ -122,7 +122,7 @@ A en détail : 25 gagnés, 46 perdus, 0 remboursés, 30 en attente · cote moyen
 | 11/10 12h00 · A.Zverev - Q.Halys | Q.Halys remporte au moins un set ? | 2,5 | – | – | 25 € | ⏳ |
 | 11/10 06h00 · Ben Shelton - Arthur Gea | Arthur Gea gagne 2-1 | 6,5 | – | – | 20 € | ⏳ |
 | 11/10 04h15 · Vegas Golden Knights - Los Angeles Kings | Vegas Golden Knights marque au moins 5 buts (hors prol. et TAB) | 3,75 | 4,41 | -15,0 % | 20 € | ⏳ |
-| 11/10 03h00 · Atlas - Guadalajara | Guadalajara marque dans les deux mi-temps | 3,1 | – | – | 20 € | ⏳ |
+| 11/10 03h00 · Atlas - Guadalajara | Guadalajara marque dans les deux mi-temps | 3,1 | – | – | 20 € | ❌ -20,00 € |
 | 11/10 02h00 · Sao Paulo FC - Vitoria | Sao Paulo gagne à la mi-temps et à la fin du match | 2,55 | 3,997 | -36,2 % ≈ | 20 € | ❌ -20,00 € |
 | 11/10 01h30 · Inter Miami - DC United | L. Messi et L. Suarez marquent chacun au moins un but et Inter Miami gagne | 3,4 | – | – | 20 € | ✅ +48,00 € |
 | 11/10 01h10 · NHL | Nathan MacKinnon et Cole Caufield marquent chacun au moins un but (respectivement contre Toronto Maple Leafs et Detroit Red Wings) (avec Garantie Golden Goal) | 5,25 | 4,733 | +10,9 % | 20 € | ❌ -20,00 € |
