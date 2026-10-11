@@ -1,29 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 52,
-   "ecarter": 5,
+   "abstention": 55,
+   "ecarter": 6,
    "hors_perimetre": 23,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T05:58:33+00:00",
+  "derniere_observation": "2026-10-11T06:57:38+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 6,
+   "combiné_lie": 7,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 4,
+   "ev_insuffisante": 5,
    "ligne_absente": 7,
    "long_terme": 23,
    "marche_non_cote": 8,
-   "match_introuvable": 12,
+   "match_introuvable": 14,
    "sport_non_suivi": 2
   },
-  "observations_reglees": 51,
-  "observes": 80,
+  "observations_reglees": 52,
+  "observes": 84,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T05:58:33+00:00",
+ "derniere_observation": "2026-10-11T06:57:38+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -4786,6 +4786,156 @@
    "pari": "Mirra Andreeva gagne 2-1",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|716534367|2221024506": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T11:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.63,
+      "hausse_pct": 23.6,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T06:57:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716534367|2221024506",
+   "match": "2. Bundesliga",
+   "pari": "Plus de 2,5 buts dans chacun des 3 matchs à 13h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716536781|2221031588": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 11.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T06:57:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716536781|2221031588",
+   "match": "Troyes - Marseille",
+   "pari": "Marseille gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716538506|2221037037": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T15:30+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 12.5,
+      "horizon_heures": 8.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T06:57:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : équipe du pari introuvable dans le match ; Betfair : match introuvable (Liverpool - Manchester City)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716538506|2221037037",
+   "match": "Liverpool - Manchester City",
+   "pari": "Liverpool ou Manchester City gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716542596|2221048998": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T10:30+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": 2.634,
+     "decision": "ecarter",
+     "ev_pct": -8.9,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 11.6,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T06:57:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716542596|2221048998",
+   "match": "Come - AS Rome",
+   "pari": "Plus de 1,5 buts lors de la première mi-temps du match",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
