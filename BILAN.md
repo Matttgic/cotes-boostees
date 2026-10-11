@@ -15,19 +15,19 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 11/10 22h49 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 11/10 23h48 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 93 / 137 | 1935 € | **+54,50 €** | **+2,8 %** | -375,00 € |
+| **A — tout miser** | 94 / 137 | 1955 € | **+34,50 €** | **+1,8 %** | -375,00 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 2 / 3 | 40 € | **+105,00 €** | **+262,5 %** | +0,00 € |
-| **C — 10 € maximum** | 93 / 137 | 930 € | **+22,00 €** | **+2,4 %** | -177,50 € |
-| **D — cote 1,60–3,50** | 65 / 94 | 650 € | **+63,50 €** | **+9,8 %** | -86,50 € |
-| **E — dans les 48 h** | 93 / 110 | 930 € | **+22,00 €** | **+2,4 %** | -177,50 € |
+| **C — 10 € maximum** | 94 / 137 | 940 € | **+12,00 €** | **+1,3 %** | -177,50 € |
+| **D — cote 1,60–3,50** | 66 / 94 | 660 € | **+53,50 €** | **+8,1 %** | -86,50 € |
+| **E — dans les 48 h** | 94 / 110 | 940 € | **+12,00 €** | **+1,3 %** | -177,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 86 / 102 | 860 € | **+35,50 €** | **+4,1 %** | -147,50 € |
+| **H — un boost/match** | 87 / 102 | 870 € | **+25,50 €** | **+2,9 %** | -147,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 
@@ -40,7 +40,7 @@ Mis à jour le 11/10 22h49 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyenne 3,23 · pire série perdante 6
+A en détail : 32 gagnés, 62 perdus, 0 remboursés, 43 en attente · cote moyenne 3,23 · pire série perdante 6
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -54,27 +54,27 @@ A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyen
 | EV 5 à 10 % (approx) | 1 / 1 | 20 € | +55,00 € | +275,0 % | 100 % |
 | EV < 0 (approx) | 9 / 15 | 180 € | -72,00 € | -40,0 % | 22 % |
 | EV < 0 (exacte) | 10 / 13 | 200 € | +38,00 € | +19,0 % | 40 % |
-| non évaluable | 70 / 104 | 1475 € | +23,50 € | +1,6 % | 34 % |
+| non évaluable | 71 / 104 | 1495 € | +3,50 € | +0,2 % | 34 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 15 / 44 | 375 € | +52,50 € | +14,0 % | 47 % |
-| Winamax | 78 / 93 | 1560 € | +2,00 € | +0,1 % | 32 % |
+| Winamax | 79 / 93 | 1580 € | -18,00 € | -1,1 % | 32 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 27 | 0 € | +0,00 € | – | – |
-| match | 93 / 110 | 1935 € | +54,50 € | +2,8 % | 34 % |
+| match | 94 / 110 | 1955 € | +34,50 € | +1,8 % | 34 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 78 / 93 | 1560 € | +2,00 € | +0,1 % | 32 % |
+| 20 € | 79 / 93 | 1580 € | -18,00 € | -1,1 % | 32 % |
 | 25 € | 15 / 44 | 375 € | +52,50 € | +14,0 % | 47 % |
 
 ### A par tranche de cote
@@ -82,7 +82,7 @@ A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyen
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
-| 2 – 3 | 39 / 52 | 845 € | +80,50 € | +9,5 % | 44 % |
+| 2 – 3 | 40 / 52 | 865 € | +60,50 € | +7,0 % | 42 % |
 | 3 – 5 | 49 / 67 | 990 € | +74,00 € | +7,5 % | 31 % |
 | 5 – 10 | 5 / 9 | 100 € | -100,00 € | -100,0 % | 0 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
@@ -94,7 +94,7 @@ A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyen
 | Baseball | 1 / 2 | 20 € | +28,00 € | +140,0 % | 100 % |
 | Basketball | 5 / 28 | 100 € | -58,00 € | -58,0 % | 20 % |
 | Football | 51 / 61 | 1065 € | +126,00 € | +11,8 % | 35 % |
-| Football Américain | 2 / 5 | 40 € | -40,00 € | -100,0 % | 0 % |
+| Football Américain | 3 / 5 | 60 € | -60,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 3 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 9 / 11 | 180 € | -55,00 € | -30,6 % | 22 % |
@@ -108,7 +108,7 @@ A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 93 / 137 | 1935 € | +54,50 € | +2,8 % | 34 % |
+| 2026-10 | 94 / 137 | 1955 € | +34,50 € | +1,8 % | 34 % |
 
 ### Derniers paris
 
@@ -153,6 +153,6 @@ A en détail : 32 gagnés, 61 perdus, 0 remboursés, 44 en attente · cote moyen
 | 11/10 20h45 · Troyes - Marseille | I.Paixao décisif et son équipe gagne (remboursé si non titulaire) | 2,65 | – | – | 25 € | ⏳ |
 | 11/10 20h45 · Cagliari - Juventus | Juventus gagne et plus de 2,5 buts dans le match | 2,6 | 3,51 | -25,9 % ≈ | 20 € | ⏳ |
 | 11/10 20h45 · Troyes - Marseille | Marseille gagne à la mi-temps et à la fin du match | 3,0 | 5,122 | -41,4 % ≈ | 20 € | ⏳ |
-| 11/10 19h00 · NFL | Plus de 2,5 touchdowns dans chacun des 8 matchs à 19h00 | 2,75 | – | – | 20 € | ⏳ |
+| 11/10 19h00 · NFL | Plus de 2,5 touchdowns dans chacun des 8 matchs à 19h00 | 2,75 | – | – | 20 € | ❌ -20,00 € |
 
 ≈ : calcul approché (conditions liées sur un même match).
