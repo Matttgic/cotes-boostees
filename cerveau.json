@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 79,
-   "ecarter": 9,
+   "abstention": 81,
+   "ecarter": 10,
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T19:50:31+00:00",
+  "derniere_observation": "2026-10-11T20:49:33+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,15 +15,15 @@
    "ancien_format": 17,
    "combiné_lie": 15,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 8,
-   "ligne_absente": 10,
+   "ev_insuffisante": 9,
+   "ligne_absente": 11,
    "long_terme": 25,
    "marche_non_cote": 14,
-   "match_introuvable": 19,
+   "match_introuvable": 20,
    "sport_non_suivi": 4
   },
-  "observations_reglees": 69,
-  "observes": 113,
+  "observations_reglees": 72,
+  "observes": 116,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T19:50:31+00:00",
+ "derniere_observation": "2026-10-11T20:49:33+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2281,6 +2281,43 @@
    "pari": "Le trio A.Capuozzo, M.Lebel et T.Menoncello marque 3 essais ou +",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|194819234|726970989": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-12T07:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 10.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T20:49:33+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (A.Fils - Van De Zandsch) ; Betfair : match introuvable (A.Fils - Van De Zandsch)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194819234|726970989",
+   "match": "A.Fils - Van De Zandsch",
+   "pari": "A.Fils remporte le 1er set et moins de 9,5 jeux dans le set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -6909,6 +6946,82 @@
    "pari": "Felix Auger-Aliassime gagne 2-1",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|717151072|2222846444": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T05:10+00:00",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": 5.843,
+     "decision": "ecarter",
+     "ev_pct": -14.4,
+     "features": {
+      "cote_origine": 4.2,
+      "hausse_pct": 19.0,
+      "horizon_heures": 8.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T20:49:33+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717151072|2222846444",
+   "match": "Jiri Lehecka - Rafael Jodar",
+   "pari": "Rafael Jodar gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|717166882|2222893970": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T00:20+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.3,
+      "hausse_pct": 13.6,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T20:49:33+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 53.5 PLUS) ; Betfair : ligne absente (TOTAL MATCH 53.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717166882|2222893970",
+   "match": "Atlanta Falcons - Baltimore Ravens",
+   "pari": "Plus de 53,5 points lors du match",
+   "premiere_selection": null,
+   "sport": "Football Américain"
   }
  },
  "modele": "observation-v1",
