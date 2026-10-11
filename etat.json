@@ -1,5 +1,5 @@
 {
- "boosts_total": 122,
+ "boosts_total": 126,
  "cache_unibet": {
   "3381006": {
    "age": 0,
@@ -47,30 +47,6 @@
       "event_id": 3381006,
       "market_id": 193345391,
       "outcome_id": 720330463,
-      "periode": "Temps réglementaire"
-     },
-     "sport": "Basketball",
-     "type": "cote boostée"
-    },
-    {
-     "bookmaker": "Unibet",
-     "cote_boostee": 2.4,
-     "cote_origine": null,
-     "debut": "2026-10-20T17:00:00.000Z",
-     "disponible": true,
-     "hausse_pct": null,
-     "id": "unibet|193344613|720327399",
-     "intitule_brut": "CLE Cavaliers - Les Cavaliers remportent la Division Centrale (Mise max 25€)",
-     "ligue": "Cotes Boostées NBA",
-     "long_terme": true,
-     "match": "Paris Trashtalk 26/27",
-     "mise_max": 25.0,
-     "mise_max_supposee": false,
-     "pari": "CLE Cavaliers - Les Cavaliers remportent la Division Centrale",
-     "ref": {
-      "event_id": 3381006,
-      "market_id": 193344613,
-      "outcome_id": 720327399,
       "periode": "Temps réglementaire"
      },
      "sport": "Basketball",
@@ -533,39 +509,39 @@
      "type": "cote boostée"
     }
    ],
-   "count": 22
+   "count": 21
   }
  },
  "dernier_passage": {
   "bookmakers": {
    "unibet": {
-    "boosts_en_ligne": 29,
-    "cotes_modifiees": 1,
-    "nouveaux": 1
-   },
-   "winamax": {
-    "boosts_en_ligne": 14,
+    "boosts_en_ligne": 28,
     "cotes_modifiees": 0,
     "nouveaux": 0
+   },
+   "winamax": {
+    "boosts_en_ligne": 17,
+    "cotes_modifiees": 2,
+    "nouveaux": 4
    }
   },
   "cerveau": {
-   "boosts_observes": 101,
-   "decisions_enregistrees": 3,
-   "nouveaux_boosts": 1
+   "boosts_observes": 105,
+   "decisions_enregistrees": 7,
+   "nouveaux_boosts": 4
   },
-  "date": "2026-10-11T10:15:23+00:00",
+  "date": "2026-10-11T11:14:29+00:00",
   "evaluation": {
-   "approx": 3,
-   "decomposes": 0,
+   "approx": 4,
+   "decomposes": 4,
    "echecs_decomposition": 0,
-   "evalues": 20,
-   "exactes": 2,
-   "non_evaluables": 15,
+   "evalues": 23,
+   "exactes": 1,
+   "non_evaluables": 18,
    "requetes_pulsescore": 11
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 641622,
+  "octets_proxy": 645419,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
@@ -579,6 +555,48 @@
   "requetes": 3
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 28,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 17,
+     "cotes_modifiees": 2,
+     "nouveaux": 4
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 105,
+    "decisions_enregistrees": 7,
+    "nouveaux_boosts": 4
+   },
+   "date": "2026-10-11T11:14:29+00:00",
+   "evaluation": {
+    "approx": 4,
+    "decomposes": 4,
+    "echecs_decomposition": 0,
+    "evalues": 23,
+    "exactes": 1,
+    "non_evaluables": 18,
+    "requetes_pulsescore": 11
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 645419,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 3
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -3722,5 +3740,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 33853137
+ "octets_proxy_total": 34498556
 }
