@@ -2,6 +2,13 @@
 
 Site statique sans framework, sans backend supplémentaire, et sans clés secrètes côté navigateur.
 
+## Pages
+
+Une section à la fois, au lieu d'une longue page : **Accueil**, **Le flux**, **Le cerveau**, **Le labo**,
+**Le journal** (adresses `#accueil`, `#flux`, `#cerveau`, `#bilan` ou `#labo`, `#journal`). Sur téléphone,
+barre d'onglets en bas de l'écran ; sur ordinateur, menu du haut. Les listes (offres, décisions du
+cerveau, journal des paris réglés) sont découpées en pages de 10 avec boutons « préc. / suiv. ».
+
 ## Source de données
 
 Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :

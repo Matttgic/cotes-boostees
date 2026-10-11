@@ -7,7 +7,9 @@
   const REFRESH_MS = 5 * 60 * 1000;
   const RECENT_AT_SCAN_MS = 150 * 60 * 1000;
   const STALE_MS = 3 * 60 * 60 * 1000;
-  const PAGE_SIZE = 12;
+  const PAGE_SIZE = 10;
+  const PAGES = ['accueil', 'flux', 'cerveau', 'bilan', 'journal'];
+  const ALIAS = { labo: 'bilan', laboratoire: 'bilan', offres: 'flux' };
   // Registre lisible : clés identiques à celles produites par le moteur Python.
   const STRATEGY_META = Object.freeze({
     A: ['A', 'TOUT PRENDRE', 'MISE MAX BOOKMAKER'],
@@ -24,7 +26,7 @@
     boosts: [], bilan: {}, etat: {}, brain: null, brainView: 'tous', view: 'actifs', strategy: 'A',
     search: '', sport: 'tous', bookmaker: 'tous', sort: 'recent',
     favoritesOnly: false, favorites: readFavorites(), expanded: new Set(),
-    limit: PAGE_SIZE, loading: false, ready: false,
+    pages: { flux: 1, brain: 1, journal: 1 }, loading: false, ready: false,
   };
   const $ = (id) => document.getElementById(id);
   const number = (v) => v === null || v === undefined || v === '' ? null : Number.isFinite(Number(v)) ? Number(v) : null;
@@ -177,9 +179,9 @@
         : state.favoritesOnly ? 'Aucun repère enregistré pour ces filtres. Étoile une offre dans la liste pour la retrouver.'
         : 'Aucun résultat avec ces filtres. Essaie le registre complet ou élargis la recherche.';
       $('boost-list').innerHTML = `<div class="empty-state"><span class="empty-state-symbol">∅</span><strong>RIEN À SIGNALER</strong><p>${esc(description)}</p><button type="button" id="reset-filters">EFFACER LES FILTRES ↗</button></div>`;
-      $('reset-filters').addEventListener('click', () => { state.view = 'tous'; state.search = ''; state.sport = 'tous'; state.bookmaker = 'tous'; state.favoritesOnly = false; state.limit = PAGE_SIZE; $('search').value = ''; $('sport').value = 'tous'; $('bookmaker').value = 'tous'; syncControls(); renderList(); });
-    } else { $('boost-list').innerHTML = rows.slice(0, state.limit).map(boostCard).join(''); }
-    $('load-more').hidden = rows.length <= state.limit;
+      $('reset-filters').addEventListener('click', () => { state.view = 'tous'; state.search = ''; state.sport = 'tous'; state.bookmaker = 'tous'; state.favoritesOnly = false; state.pages.flux = 1; $('search').value = ''; $('sport').value = 'tous'; $('bookmaker').value = 'tous'; syncControls(); renderList(); });
+    } else { const debut = pageStart('flux', rows.length); $('boost-list').innerHTML = rows.slice(debut, debut + PAGE_SIZE).map((b, i) => boostCard(b, debut + i)).join(''); }
+    renderPager('flux-pager', 'flux', rows.length);
   }
 
   function syncControls() {
@@ -279,7 +281,9 @@
     }
     const tags = { selectionner: 'SÉLECTION FICTIVE', ecarter: 'ÉCARTÉ', abstention: 'ABSTENTION', hors_perimetre: 'HORS CHAMP' };
     const outcomes = new Map(state.boosts.map(x => [x.id, x.reglement && x.reglement.statut]));
-    $('brain-feed').innerHTML = filtered.slice(0, 50).map(e => {
+    const debutBrain = pageStart('brain', filtered.length);
+    renderPager('brain-pager', 'brain', filtered.length);
+    $('brain-feed').innerHTML = filtered.slice(debutBrain, debutBrain + PAGE_SIZE).map(e => {
       const last = e.historique[e.historique.length - 1];
       const status = ['selectionner', 'ecarter', 'abstention', 'hors_perimetre'].includes(last.decision) ? last.decision : 'abstention';
       const selected = e.premiere_selection;
@@ -305,9 +309,11 @@
   }
 
   function renderSettlements() {
-    const settled = (state.bilan?.A?.paris || []).filter(p => ['gagné','perdu','remboursé'].includes(p.statut)).sort((a,b) => (datetime(b.debut)?.getTime() || 0) - (datetime(a.debut)?.getTime() || 0)).slice(0, 10);
+    const settled = (state.bilan?.A?.paris || []).filter(p => ['gagné','perdu','remboursé'].includes(p.statut)).sort((a,b) => (datetime(b.debut)?.getTime() || 0) - (datetime(a.debut)?.getTime() || 0));
+    renderPager('journal-pager', 'journal', settled.length);
     if (!settled.length) { $('settled-table').innerHTML = '<tr><td colspan="5">Aucun résultat réglé disponible.</td></tr>'; return; }
-    $('settled-table').innerHTML = settled.map(p => {
+    const debutJournal = pageStart('journal', settled.length);
+    $('settled-table').innerHTML = settled.slice(debutJournal, debutJournal + PAGE_SIZE).map(p => {
       const won = p.statut === 'gagné', lost = p.statut === 'perdu', gain = number(p.gain);
       return `<tr><td>${esc(plain(p.match) || 'Rencontre inconnue')}<small>${esc(plain(p.pari))}</small></td><td>${esc(plain(p.bookmaker))}</td><td>${esc(fmt(number(p.cote),2))}</td><td><span class="result-chip ${won ? 'won' : lost ? 'lost' : ''}">${esc(plain(p.statut).toUpperCase())}</span></td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td></tr>`;
     }).join('');
@@ -340,15 +346,58 @@
     } finally { state.loading = false; $('refresh').disabled = false; $('refresh').classList.remove('is-loading'); }
   }
 
+  // ---------------------------------------------------------------- pages (une section à la fois)
+  function currentPage() {
+    const h = decodeURIComponent((location.hash || '').slice(1)).toLowerCase();
+    const p = ALIAS[h] || h;
+    return PAGES.includes(p) ? p : 'accueil';
+  }
+  function showPage(scroll = true) {
+    const page = currentPage();
+    document.querySelectorAll('main [data-page]').forEach(el => { el.hidden = el.dataset.page !== page; });
+    document.querySelectorAll('.header-nav a, .tabbar a').forEach(a => {
+      const cible = (a.getAttribute('href') || '').slice(1);
+      if ((ALIAS[cible] || cible) === page) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
+    });
+    document.body.dataset.pageActive = page;
+    if (scroll) window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+  // ---------------------------------------------------------------- pagination des listes
+  function pageCount(total) { return Math.max(1, Math.ceil(total / PAGE_SIZE)); }
+  function pageStart(key, total) {
+    state.pages[key] = Math.min(Math.max(1, state.pages[key] || 1), pageCount(total));
+    return (state.pages[key] - 1) * PAGE_SIZE;
+  }
+  function renderPager(id, key, total) {
+    const el = $(id); if (!el) return;
+    const n = pageCount(total), p = Math.min(state.pages[key] || 1, n);
+    el.hidden = n <= 1;
+    if (n <= 1) { el.innerHTML = ''; return; }
+    el.innerHTML = `<button type="button" data-pager="${key}" data-go="prev" ${p <= 1 ? 'disabled' : ''} aria-label="Page précédente">← PRÉC.</button>`
+      + `<span class="pager-count">PAGE <strong>${p}</strong> / ${n}</span>`
+      + `<button type="button" data-pager="${key}" data-go="next" ${p >= n ? 'disabled' : ''} aria-label="Page suivante">SUIV. →</button>`;
+  }
+  function onPager(event) {
+    const btn = event.target.closest('button[data-pager]'); if (!btn || btn.disabled) return;
+    const key = btn.dataset.pager;
+    state.pages[key] = (state.pages[key] || 1) + (btn.dataset.go === 'next' ? 1 : -1);
+    if (key === 'flux') renderList(); else if (key === 'brain') renderBrain(); else renderSettlements();
+    const section = btn.closest('[data-page]');
+    const ancre = key === 'flux' ? $('boost-list') : key === 'brain' ? $('brain-feed') : section;
+    if (ancre) ancre.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+
   function initialize() {
     $('refresh').addEventListener('click', refresh);
-    $('search').addEventListener('input', (e) => { state.search = e.target.value.trim(); state.limit = PAGE_SIZE; renderList(); });
-    for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.limit = PAGE_SIZE; renderList(); });
-    document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.limit = PAGE_SIZE; syncControls(); renderList(); }));
+    window.addEventListener('hashchange', () => showPage(true));
+    showPage(false);
+    ['flux-pager', 'brain-pager', 'journal-pager'].forEach(id => $(id) && $(id).addEventListener('click', onPager));
+    $('search').addEventListener('input', (e) => { state.search = e.target.value.trim(); state.pages.flux = 1; renderList(); });
+    for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.pages.flux = 1; renderList(); });
+    document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.pages.flux = 1; syncControls(); renderList(); }));
     $('strategy-switch').addEventListener('click', event => { const button = event.target.closest('button[data-strategy]'); if (button && STRATEGY_META[button.dataset.strategy]) { state.strategy = button.dataset.strategy; renderLab(); } });
-    document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention','hors_perimetre'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; renderBrain(); } });
-    $('favorites-only').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; state.limit = PAGE_SIZE; syncControls(); renderList(); });
-    $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderList(); });
+    document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention','hors_perimetre'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; state.pages.brain = 1; renderBrain(); } });
+    $('favorites-only').addEventListener('click', () => { state.favoritesOnly = !state.favoritesOnly; state.pages.flux = 1; syncControls(); renderList(); });
     $('boost-list').addEventListener('click', (e) => {
       const button = e.target.closest('button[data-action]'); if (!button) return;
       const id = button.dataset.id;
