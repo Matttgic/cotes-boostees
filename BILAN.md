@@ -15,19 +15,19 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 12/10 00h47 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 12/10 01h44 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 97 / 137 | 2020 € | **-30,50 €** | **-1,5 %** | -375,00 € |
+| **A — tout miser** | 99 / 137 | 2065 € | **-25,50 €** | **-1,2 %** | -375,00 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 2 / 3 | 40 € | **+105,00 €** | **+262,5 %** | +0,00 € |
-| **C — 10 € maximum** | 97 / 137 | 970 € | **-18,00 €** | **-1,9 %** | -177,50 € |
-| **D — cote 1,60–3,50** | 69 / 94 | 690 € | **+23,50 €** | **+3,4 %** | -96,00 € |
-| **E — dans les 48 h** | 97 / 110 | 970 € | **-18,00 €** | **-1,9 %** | -177,50 € |
+| **C — 10 € maximum** | 99 / 137 | 990 € | **-13,00 €** | **-1,3 %** | -177,50 € |
+| **D — cote 1,60–3,50** | 71 / 94 | 710 € | **+28,50 €** | **+4,0 %** | -96,00 € |
+| **E — dans les 48 h** | 99 / 110 | 990 € | **-13,00 €** | **-1,3 %** | -177,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 89 / 102 | 890 € | **+5,50 €** | **+0,6 %** | -147,50 € |
+| **H — un boost/match** | 91 / 102 | 910 € | **+10,50 €** | **+1,2 %** | -147,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 
@@ -40,7 +40,7 @@ Mis à jour le 12/10 00h47 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 32 gagnés, 65 perdus, 0 remboursés, 40 en attente · cote moyenne 3,23 · pire série perdante 6
+A en détail : 33 gagnés, 66 perdus, 0 remboursés, 38 en attente · cote moyenne 3,23 · pire série perdante 6
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -54,36 +54,36 @@ A en détail : 32 gagnés, 65 perdus, 0 remboursés, 40 en attente · cote moyen
 | EV 5 à 10 % (approx) | 1 / 1 | 20 € | +55,00 € | +275,0 % | 100 % |
 | EV < 0 (approx) | 11 / 15 | 220 € | -112,00 € | -50,9 % | 18 % |
 | EV < 0 (exacte) | 10 / 13 | 200 € | +38,00 € | +19,0 % | 40 % |
-| non évaluable | 72 / 104 | 1520 € | -21,50 € | -1,4 % | 33 % |
+| non évaluable | 74 / 104 | 1565 € | -16,50 € | -1,1 % | 34 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| Unibet | 16 / 44 | 400 € | +27,50 € | +6,9 % | 44 % |
-| Winamax | 81 / 93 | 1620 € | -58,00 € | -3,6 % | 31 % |
+| Unibet | 17 / 44 | 425 € | +2,50 € | +0,6 % | 41 % |
+| Winamax | 82 / 93 | 1640 € | -28,00 € | -1,7 % | 32 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 27 | 0 € | +0,00 € | – | – |
-| match | 97 / 110 | 2020 € | -30,50 € | -1,5 % | 33 % |
+| match | 99 / 110 | 2065 € | -25,50 € | -1,2 % | 33 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 81 / 93 | 1620 € | -58,00 € | -3,6 % | 31 % |
-| 25 € | 16 / 44 | 400 € | +27,50 € | +6,9 % | 44 % |
+| 20 € | 82 / 93 | 1640 € | -28,00 € | -1,7 % | 32 % |
+| 25 € | 17 / 44 | 425 € | +2,50 € | +0,6 % | 41 % |
 
 ### A par tranche de cote
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
-| 2 – 3 | 42 / 52 | 910 € | +15,50 € | +1,7 % | 40 % |
-| 3 – 5 | 50 / 67 | 1010 € | +54,00 € | +5,3 % | 30 % |
+| 2 – 3 | 43 / 52 | 930 € | +45,50 € | +4,9 % | 42 % |
+| 3 – 5 | 51 / 67 | 1035 € | +29,00 € | +2,8 % | 29 % |
 | 5 – 10 | 5 / 9 | 100 € | -100,00 € | -100,0 % | 0 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -99,8 +99,8 @@ A en détail : 32 gagnés, 65 perdus, 0 remboursés, 40 en attente · cote moyen
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Hockey sur glace | 9 / 11 | 180 € | -55,00 € | -30,6 % | 22 % |
 | Judo | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
-| Rugby | 2 / 3 | 50 € | +12,50 € | +25,0 % | 50 % |
-| Rugby à XV | 4 / 5 | 80 € | +17,00 € | +21,2 % | 50 % |
+| Rugby | 3 / 3 | 75 € | -12,50 € | -16,7 % | 33 % |
+| Rugby à XV | 5 / 5 | 100 € | +47,00 € | +47,0 % | 60 % |
 | Tennis | 11 / 14 | 235 € | +94,00 € | +40,0 % | 54 % |
 | Tennis de table | 1 / 1 | 20 € | +75,00 € | +375,0 % | 100 % |
 
@@ -108,7 +108,7 @@ A en détail : 32 gagnés, 65 perdus, 0 remboursés, 40 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 97 / 137 | 2020 € | -30,50 € | -1,5 % | 33 % |
+| 2026-10 | 99 / 137 | 2065 € | -25,50 € | -1,2 % | 33 % |
 
 ### Derniers paris
 
@@ -147,8 +147,8 @@ A en détail : 32 gagnés, 65 perdus, 0 remboursés, 40 en attente · cote moyen
 | 12/10 01h00 · St. Louis City - Los Angeles Galaxy | St. Louis City gagne les deux mi-temps | 3,55 | 3,044 | +16,6 % ≈ | 20 € | ⏳ |
 | 11/10 23h15 · Washington Capitals - Seattle Kraken | Alexander Ovechkin buteur et Washington Capitals gagne (hors prol. et TAB) | 4,25 | 6,234 | -31,8 % ≈ | 20 € | ⏳ |
 | 11/10 22h05 · NFL | Plus de 42,5 points lors de chacun des matchs suivants : Los Angeles Chargers - Denver Broncos, Arizona Cardinals - Detroit Lions et Seattle Seahawks - San Francisco 49ers | 3,75 | – | – | 20 € | ⏳ |
-| 11/10 21h05 · Toulouse - Bayonne | Le trio A.Capuozzo, M.Lebel et T.Menoncello marque 3 essais ou + | 3,0 | – | – | 25 € | ⏳ |
-| 11/10 21h05 · Stade Toulousain - Bayonne | A. Dupont + A. Capuozzo marquent 2 essais ou plus | 2,5 | – | – | 20 € | ⏳ |
+| 11/10 21h05 · Toulouse - Bayonne | Le trio A.Capuozzo, M.Lebel et T.Menoncello marque 3 essais ou + | 3,0 | – | – | 25 € | ❌ -25,00 € |
+| 11/10 21h05 · Stade Toulousain - Bayonne | A. Dupont + A. Capuozzo marquent 2 essais ou plus | 2,5 | – | – | 20 € | ✅ +30,00 € |
 | 11/10 20h45 · Top Football Européen (11/10) | Au moins 2 joueurs marquent dans le trio : A.Gouiri/R.Kolo Muani/H.Duro ? (Remboursé si non titulaire(s)) | 3,15 | – | – | 25 € | ⏳ |
 | 11/10 20h45 · Troyes - Marseille | I.Paixao décisif et son équipe gagne (remboursé si non titulaire) | 2,65 | – | – | 25 € | ❌ -25,00 € |
 | 11/10 20h45 · Cagliari - Juventus | Juventus gagne et plus de 2,5 buts dans le match | 2,6 | 3,51 | -25,9 % ≈ | 20 € | ❌ -20,00 € |
