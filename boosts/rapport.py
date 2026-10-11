@@ -16,7 +16,11 @@ NOMS = {
     "F_ev8": "F — EV exacte ≥ 8 %",
     "G_kelly": "G — quart Kelly",
     "H_1_match": "H — un boost/match",
+    "B_valeur": "B — valeur ≥ +5 %",
+    "B0_valeur": "B0 — valeur ≥ 0 %",
 }
+NOMS_SUIVIES = {"A": "A — témoin", "B_valeur": "B — valeur ≥ +5 %", "B0_valeur": "B0 — valeur ≥ 0 %",
+                "D_moderee": "D — hypothèse (cotes 1,60–3,50)"}
 
 
 def _e(x) -> str:
@@ -46,10 +50,29 @@ def _tableau(titre: str, groupes: dict) -> list[str]:
     return lignes + [""]
 
 
-def markdown(bilans: dict, maj: str) -> str:
+def _protocole(proto: dict | None) -> list[str]:
+    if not proto:
+        return []
+    l = [f"## Protocole gelé ({proto['version']}) — seuls ces résultats comptent", "",
+         f"Règles fixées le {_heure(proto['date_gel'])} avant de connaître leurs résultats ; jugées uniquement sur "
+         f"les boosts découverts après ({proto['boosts_apres_gel']} pour l'instant).", "",
+         "| Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |",
+         "|---|---|---|---|---|---|"]
+    for k, b in proto["apres_gel"].items():
+        x = b["global"]
+        ev = "–" if x.get("ev_moyenne_pct") is None else f"{_pct(x['ev_moyenne_pct'])} ({x['paris_avec_ev']} paris)"
+        l.append(f"| **{NOMS_SUIVIES.get(k, k)}** | {x['regles']} / {x['paris']} | {x['mise_totale']:.0f} € "
+                 f"| **{_e(x['gain_net'])}** | **{_pct(x['roi_pct'])}** | {ev} |")
+    return l + ["", "« Valeur moyenne jouée » : écart moyen entre la cote prise et la cote juste (Pinnacle / Betfair), "
+                    "sur les paris dont la valeur était calculable avant le match. Indicateur peu bruité, lisible en "
+                    "quelques jours ; le ROI, lui, demande des centaines de paris.", "",
+                "## Toutes les stratégies depuis le début (archives, non jugées)", ""]
+
+
+def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
     a = bilans["A"]
     g = a["global"]
-    l = ["# Bilan des cotes boostées (stratégies et risques)", "",
+    l = ["# Bilan des cotes boostées (stratégies et risques)", "", *_protocole(proto),
          f"Mis à jour le {_heure(maj)} (heure de Paris). Argent fictif : A/B à la mise max ; C-H "
          "avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.", "",
          "| Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |", "|---|---|---|---|---|---|"]

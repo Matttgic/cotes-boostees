@@ -135,3 +135,15 @@ body[data-page-active]:not([data-page-active="accueil"]) main{padding-top:6px}
 .pager button[disabled]{opacity:.3;cursor:default}
 .pager-count strong{font-size:15px;color:var(--orange)}
 .lab-section .pager,.journal-section .pager{border-color:var(--ink)}
+
+/* ---------------------------------------------------------------- protocole gelé (Labo) */
+.protocol{border:2px solid var(--ink);background:var(--paper-hi);margin:0 0 28px;padding:20px 22px}
+.protocol-head strong{display:block;font-family:var(--display);font-size:34px;font-weight:900;letter-spacing:-.01em;margin:6px 0 4px}
+.protocol-head p,.protocol-note{font-size:13px;line-height:1.5;color:var(--ink-soft);margin:0 0 14px}
+.protocol-note{margin:14px 0 0;font-size:12px}
+.protocol-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px}
+.protocol-table th,.protocol-table td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+.protocol-table thead th{font-size:10px;color:var(--mute);border-bottom:1px solid var(--ink)}
+.protocol-table tbody th{font-family:var(--body);font-weight:800;font-size:13px}
+.protocol-table small{color:var(--mute);font-size:10px}
+@media(max-width:650px){.protocol{padding:16px 14px}.protocol-head strong{font-size:27px}.protocol-table th,.protocol-table td{padding:10px 6px;font-size:11px}}

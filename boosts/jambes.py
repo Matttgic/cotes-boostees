@@ -16,7 +16,11 @@ import re
 
 from .reglement import MODELES, client_ia, fournisseur
 
-TYPES = {"resultat", "vainqueur", "handicap", "total", "total_equipe", "les_deux_marquent", "joueur", "autre"}
+VERSION = 2          # 2 : périodes (tiers-temps, 2e mi-temps, 1er set) et score en sets au tennis
+TYPES = {"resultat", "vainqueur", "handicap", "total", "total_equipe", "les_deux_marquent", "joueur", "score_sets",
+         "autre"}
+PERIODES = ("match", "temps_reglementaire", "mi_temps_1", "mi_temps_2", "tiers_temps_1", "tiers_temps_2",
+            "tiers_temps_3", "set_1")
 
 CONSIGNE = """Décompose ce pari sportif en conditions élémentaires (« jambes »). Toutes doivent être vraies
 pour que le pari soit gagné.
@@ -29,11 +33,12 @@ Réponds UNIQUEMENT par un objet JSON :
 {{"jambes": [{{
   "equipe_1": "équipe à domicile du match concerné (première citée dans le titre, sinon dans le pari)",
   "equipe_2": "équipe à l'extérieur de ce match",
-  "type": "resultat | vainqueur | handicap | total | total_equipe | les_deux_marquent | joueur | autre",
+  "type": "resultat | vainqueur | handicap | total | total_equipe | les_deux_marquent | joueur | score_sets | autre",
   "equipe": "équipe visée (ou \\"nul\\" pour un match nul), sinon null",
   "sens": "plus | moins | null",
   "ligne": nombre ou null,
-  "periode": "match | temps_reglementaire | mi_temps_1",
+  "periode": "match | temps_reglementaire | mi_temps_1 | mi_temps_2 | tiers_temps_1 | tiers_temps_2 | tiers_temps_3 | set_1",
+  "score": "score en sets du point de vue de l'équipe visée (\"2-1\", \"2-0\") pour score_sets, sinon null",
   "unite": "buts | sets | jeux | corners",
   "joueur": "nom complet du joueur ou null",
   "stat": "statistique du joueur en anglais façon bookmaker (Goals, Points, Rebounds, Assists, Shots On Goal, Rushing Yards, Receiving Yards, Passing Yards, Touchdowns, Hits, Strikeouts…) ou null"
@@ -49,6 +54,12 @@ Règles de traduction :
   « moins de N,5 » → sens moins, ligne N,5.
 - « X marque au moins N buts » → type total_equipe, equipe X, sens plus, ligne N - 0,5.
 - « plus de 2,5 sets » → type total, unite sets. Total de jeux au tennis → unite jeux.
+- Tennis (match en 2 sets gagnants) : « X remporte au moins un set » → handicap, equipe X, ligne 1,5, unite sets ;
+  « X gagne 2-0 » (ou « en deux sets ») → handicap, equipe X, ligne -1,5, unite sets ; « les deux joueurs
+  gagnent un set » → total, sens plus, ligne 2,5, unite sets ; « X gagne 2-1 » → score_sets, equipe X,
+  score "2-1". « X gagne le premier set » → vainqueur, periode set_1.
+- Périodes : « à la mi-temps » / « 1re mi-temps » → mi_temps_1 ; « 2e mi-temps » → mi_temps_2 ; hockey
+  « premier tiers-temps » → tiers_temps_1 (2e → tiers_temps_2, 3e → tiers_temps_3).
 - Joueur : « Y buteur » → type joueur, stat Goals, sens plus, ligne 0,5 ; « Y marque au moins un
   touchdown » → stat Touchdowns, ligne 0,5 ; « Y réalise au moins 81 yards à la course » → stat
   Rushing Yards, sens plus, ligne 80,5.
@@ -95,8 +106,8 @@ def lire(texte: str) -> list[dict] | None:
                 "equipe": (str(j["equipe"]).strip() or None) if j.get("equipe") else None,
                 "sens": (str(j.get("sens") or "").lower() or None) if j.get("sens") in ("plus", "moins") else None,
                 "ligne": _nombre(j.get("ligne")),
-                "periode": j.get("periode") if j.get("periode") in ("match", "temps_reglementaire", "mi_temps_1")
-                else "match",
+                "periode": j.get("periode") if j.get("periode") in PERIODES else "match",
+                "score": str(j["score"]).strip() if j.get("score") else None,
                 "unite": j.get("unite") if j.get("unite") in ("buts", "sets", "jeux", "corners") else "buts",
                 "joueur": (str(j["joueur"]).strip() or None) if j.get("joueur") else None,
                 "stat": (str(j["stat"]).strip() or None) if j.get("stat") else None,

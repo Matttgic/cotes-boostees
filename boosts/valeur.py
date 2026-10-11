@@ -9,10 +9,16 @@ achat/vente est serré et l'argent engagé suffisant). Chaque jambe garde sa sou
   conditions est ignoré : voir README) ;
 - une jambe introuvable chez Pinnacle (ligne différente, marché absent, type « autre ») →
   « non évaluable », jamais d'à-peu-près.
+Équivalences EXACTES utilisées quand le marché direct manque (protocole gel-1, 11/10/2026) :
+- « X gagne » (3 issues) sur une période ≡ handicap -0,5 de X sur cette période ;
+- tennis, « X gagne 2-1 » ≡ P(X gagne) − P(X gagne avec -1,5 set) (même source, même match).
+Ligne voisine (statut « interpolee », jamais « exacte ») : total ou total d'équipe ≥ 10 absent, mais encadré
+par deux lignes en ,5 à 3 unités au plus de chaque côté → probabilité interpolée (linéaire en logit).
 EV = cote boostée × probabilité juste − 1.
 """
 from __future__ import annotations
 
+import math
 import re
 from datetime import datetime, timedelta
 
@@ -82,8 +88,15 @@ def _cote_equipe(match: dict, nom: str | None) -> str | None:
 
 
 def _periode(j: dict, sport: str) -> str:
-    if j["periode"] == "mi_temps_1":
+    p = j["periode"]
+    if p == "mi_temps_1":
         return "MT1"
+    if p == "mi_temps_2":
+        return "MT2"
+    if p.startswith("tiers_temps_") and sport == "hockey":
+        return "P" + p[-1]
+    if p == "set_1" and sport == "tennis":
+        return "SET1"
     if j["periode"] == "temps_reglementaire" and sport == "hockey":
         return "TEMPS_REG"
     return "MATCH"
@@ -121,6 +134,11 @@ def cle_recherche(j: dict, match: dict, sport: str) -> tuple | str:
         return (UNITES[j["unite"]] + ("TOTAL_DOM" if cote == "DOM" else "TOTAL_EXT"), periode, j["ligne"], issue)
     if t == "les_deux_marquent":
         return ("BTTS", periode, None, "OUI")
+    if t == "score_sets":
+        cote = _cote_equipe(match, j["equipe"])
+        if sport != "tennis" or cote not in ("DOM", "EXT") or j.get("score") not in ("2-1", "2-0"):
+            return "score en sets non calculable"
+        return ("SCORE_SETS", "MATCH", j["score"], cote)
     if t == "joueur":
         if not j["joueur"] or j["ligne"] is None:
             return "pari joueur incomplet"
@@ -132,8 +150,74 @@ def _egal(a, b) -> bool:
     return (a is None and b is None) or (a is not None and b is not None and abs(float(a) - float(b)) < 1e-6)
 
 
+def _logit(p: float) -> float:
+    return math.log(p / (1 - p))
+
+
+def _ligne_derivee(base: dict, proba: float, marche: str, ligne, methode: str) -> dict:
+    proba = min(max(proba, 1e-6), 1 - 1e-6)
+    return {**base, "marche": marche, "ligne": ligne, "proba_juste": round(proba, 6),
+            "cote_juste": round(1 / proba, 4), "cote": round(1 / proba, 4), "methode": methode}
+
+
+INTERPOLABLES = {"TOTAL", "TOTAL_DOM", "TOTAL_EXT", "JEUX_TOTAL", "JEUX_TOTAL_DOM", "JEUX_TOTAL_EXT"}
+LIGNE_MIN_INTERPOLATION = 10.0
+ECART_MAX_INTERPOLATION = 3.0
+
+
+def interpoler(lignes: list[dict], marche: str, periode: str, ligne: float, issue: str) -> dict | None:
+    """Ligne absente d'un total élevé : interpolation entre les deux lignes en ,5 les plus proches."""
+    if marche not in INTERPOLABLES or ligne is None or ligne < LIGNE_MIN_INTERPOLATION or ligne % 1 != 0.5:
+        return None
+    voisines = {}
+    for l in lignes:
+        x = l.get("ligne")
+        if l["marche"] == marche and l["periode"] == periode and l["issue"] == issue and x is not None \
+                and float(x) % 1 == 0.5 and 0 < l["proba_juste"] < 1:
+            voisines[float(x)] = l
+    bas = [x for x in voisines if ligne - ECART_MAX_INTERPOLATION <= x < ligne]
+    haut = [x for x in voisines if ligne < x <= ligne + ECART_MAX_INTERPOLATION]
+    if not bas or not haut:
+        return None
+    x1, x2 = max(bas), min(haut)
+    p1, p2 = voisines[x1]["proba_juste"], voisines[x2]["proba_juste"]
+    # cohérence : la proba de « plus » baisse quand la ligne monte (et l'inverse pour « moins »)
+    if (issue == "PLUS" and not p1 > p2) or (issue == "MOINS" and not p1 < p2):
+        return None
+    w = (ligne - x1) / (x2 - x1)
+    p = 1 / (1 + math.exp(-((1 - w) * _logit(p1) + w * _logit(p2))))
+    return _ligne_derivee(voisines[x1], p, marche, ligne, f"interpolée entre {x1:g} et {x2:g}")
+
+
+def _chercher_simple(lignes: list[dict], marche: str, periode: str, ligne, issue: str) -> dict | None:
+    for l in lignes:
+        if l["marche"] == marche and l["periode"] == periode and l["issue"] == issue and _egal(l.get("ligne"), ligne):
+            return l
+    return None
+
+
 def chercher_ligne(index: Index, match: dict, cle: tuple, j: dict) -> dict | None:
     marche, periode, ligne, issue = cle
+    lignes_match = index.lignes.get(match["match_id"], [])
+    if marche == "SCORE_SETS":                 # tennis, 2 sets gagnants
+        moins_15 = -1.5 if issue == "DOM" else 1.5                     # handicap du domicile
+        h = _chercher_simple(lignes_match, "SETS_HANDICAP", "MATCH", moins_15, issue)
+        if h is None:
+            return None
+        if ligne == "2-0":
+            return {**h, "methode": "handicap -1,5 set"}
+        v = _chercher_simple(lignes_match, "VAINQUEUR", "MATCH", None, issue)
+        if v is None or not v["proba_juste"] > h["proba_juste"]:
+            return None
+        return _ligne_derivee(v, v["proba_juste"] - h["proba_juste"], "SCORE_SETS", "2-1",
+                              "vainqueur moins victoire 2-0 (handicap -1,5 set)")
+    if marche == "RESULTAT_1N2" and issue in ("DOM", "EXT"):
+        direct = _chercher_simple(lignes_match, marche, periode, None, issue)
+        if direct is not None:
+            return direct
+        # « X gagne » (3 issues) ≡ handicap -0,5 de X ; Pinnacle note le handicap du domicile
+        h = _chercher_simple(lignes_match, "HANDICAP", periode, -0.5 if issue == "DOM" else 0.5, issue)
+        return {**h, "methode": "équivalence handicap -0,5"} if h is not None else None
     if marche == "BTTS":                                   # Pinnacle (spécial) et Betfair (marché normal)
         for l in index.lignes.get(match["match_id"], []):
             if l["periode"] == periode and l["marche"] in ("SPECIAL:Both Teams To Score?", "BOTH_TEAMS_TO_SCORE") \
@@ -154,6 +238,8 @@ def chercher_ligne(index: Index, match: dict, cle: tuple, j: dict) -> dict | Non
             return l
         if l["marche"] == marche:
             return l
+    if marche != "JOUEUR":
+        return interpoler(lignes_match, marche, periode, ligne, issue)
     return None
 
 
@@ -203,7 +289,7 @@ def evaluer(boost: dict, jambes: list[dict] | None, sources) -> dict:
     if sport is None:
         return {"statut": "non_evaluable", "raison": f"sport non suivi ({boost.get('sport')})"}
     debut = _t(boost.get("debut"))
-    proba, matchs_vus, detail = 1.0, [], []
+    proba, matchs_vus, detail, methodes = 1.0, [], [], []
     for original in jambes:
         # Complément strict réservé à un pari simple sur une rencontre explicite.
         j = _completer_equipe_depuis_titre(original, boost.get("match")) if len(jambes) == 1 else original
@@ -222,7 +308,10 @@ def evaluer(boost: dict, jambes: list[dict] | None, sources) -> dict:
         nom, l, match, score = res
         proba *= l["proba_juste"]
         matchs_vus.append(f"{nom}|{match['match_id']}")
+        if l.get("methode"):
+            methodes.append(l["methode"])
         detail.append({"source": nom, "match": f"{match['domicile']} - {match['exterieur']}", "marche": l["marche"],
+                       "methode": l.get("methode"),
                        "periode": l["periode"], "ligne": l.get("ligne"), "issue": l["issue"],
                        "joueur": l.get("joueur"), "cote_reference": l["cote"], "cote_juste": l["cote_juste"],
                        "ressemblance": round(score, 2)})
@@ -231,7 +320,7 @@ def evaluer(boost: dict, jambes: list[dict] | None, sources) -> dict:
     noms = [d["match"] for d in detail]
     lie = len(matchs_vus) != len(set(matchs_vus)) or len(noms) != len(set(noms)) or \
         len({(j["equipe_1"], j["equipe_2"]) for j in jambes}) < len(jambes)
-    statut = "approx" if lie else "exacte"
+    statut = "approx" if lie else "interpolee" if any(m.startswith("interpolée") for m in methodes) else "exacte"
     cote_juste = round(1 / proba, 3)
     ev = round((boost["cote_boostee"] * proba - 1) * 100, 1)
     ev_origine = round((boost["cote_origine"] * proba - 1) * 100, 1) if boost.get("cote_origine") else None

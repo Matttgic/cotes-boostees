@@ -25,7 +25,8 @@ def test_garde_les_trois_strategies_initiales_et_en_ajoute_six():
     original = deepcopy(b)
     bilans = simulation.strategies({b["id"]: b})
     assert list(bilans) == ["A", "B_exacte", "B_approx", "C_plafond",
-                            "D_moderee", "E_48h", "F_ev8", "G_kelly", "H_1_match"]
+                            "D_moderee", "E_48h", "F_ev8", "G_kelly", "H_1_match",
+                            "B_valeur", "B0_valeur"]
     assert bilans["A"]["global"]["gain_net"] == 75.0
     assert bilans["C_plafond"]["global"]["gain_net"] == 15.0
     assert bilans["C_plafond"]["global"]["mise_totale"] == 10

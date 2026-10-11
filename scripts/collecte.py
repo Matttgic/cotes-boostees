@@ -95,8 +95,9 @@ def main() -> int:
     stockage.ecrire(dossier / "cerveau.json", registre_cerveau)
 
     bilans = simulation.strategies(base)
-    stockage.ecrire(dossier / "bilan.json", bilans)
-    (dossier / "BILAN.md").write_text(rapport.markdown(bilans, maintenant), encoding="utf-8")
+    proto = simulation.protocole(base)
+    stockage.ecrire(dossier / "bilan.json", {**bilans, "protocole": proto})
+    (dossier / "BILAN.md").write_text(rapport.markdown(bilans, maintenant, proto), encoding="utf-8")
     for k, b in bilans.items():
         g = b["global"]
         print(f"Stratégie {k} : {g['paris']} paris, {g['regles']} réglés, gain net {g['gain_net']} €, ROI {g['roi_pct']} %")

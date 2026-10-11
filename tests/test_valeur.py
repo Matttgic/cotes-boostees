@@ -175,3 +175,105 @@ def test_matchs_identiques_priorite_a_la_rencontre_la_plus_proche():
         valeur._t("2026-10-08T18:45:00Z"))
     assert match["match_id"] == 9
     assert not inverse and score >= 0.9
+
+
+# ---------------------------------------------------------------- protocole gel-1 : couverture élargie
+
+def _index_couverture():
+    l = []
+    # hockey : pas de 1N2 sur le 1er tiers-temps, mais un handicap -0,5 (équivalence exacte)
+    l += lignes_marche("hockey", 11, "Philadelphia Flyers", "Carolina Hurricanes", "2026-10-11T23:00:00Z",
+                       "HANDICAP", "P1", [(-0.5, "DOM", 3.10), (-0.5, "EXT", 1.38)])
+    # tennis : vainqueur + handicap de sets
+    l += lignes_marche("tennis", 12, "Pablo Carreno Busta", "Felix Auger-Aliassime", "2026-10-12T04:00:00Z",
+                       "VAINQUEUR", "MATCH", [(None, "DOM", 3.0), (None, "EXT", 1.4)])
+    l += lignes_marche("tennis", 12, "Pablo Carreno Busta", "Felix Auger-Aliassime", "2026-10-12T04:00:00Z",
+                       "SETS_HANDICAP", "MATCH", [(1.5, "DOM", 1.62), (1.5, "EXT", 2.30)])
+    # NFL : totaux 41,5 et 43,5 mais pas 42,5
+    for x, po, pu in ((41.5, 1.80, 2.02), (43.5, 2.05, 1.78)):
+        l += lignes_marche("football_americain", 13, "Los Angeles Chargers", "Denver Broncos", "2026-10-11T20:05:00Z",
+                           "TOTAL", "MATCH", [(x, "PLUS", po), (x, "MOINS", pu)])
+    # football : 1,5 et 3,5 mais pas 2,5 (trop bas pour interpoler)
+    for x, po, pu in ((1.5, 1.25, 3.9), (3.5, 2.9, 1.42)):
+        l += lignes_marche("football", 14, "Lyon", "Lens", "2026-10-11T19:00:00Z", "TOTAL", "MATCH",
+                           [(x, "PLUS", po), (x, "MOINS", pu)])
+    return valeur.Index(l)
+
+
+def test_resultat_par_equivalence_handicap():
+    v = valeur.evaluer(boost("Hockey sur glace", 3.4, "2026-10-11T23:00:00+00:00"),
+                       [j(equipe_1="Philadelphia Flyers", equipe_2="Carolina Hurricanes", type="resultat",
+                          equipe="Philadelphia Flyers", periode="tiers_temps_1")], _index_couverture())
+    assert v["statut"] == "exacte" and v["detail"][0]["methode"] == "équivalence handicap -0,5"
+    assert v["detail"][0]["periode"] == "P1"
+
+
+def test_tennis_gagne_2_1():
+    idx = _index_couverture()
+    p_v = [l for l in idx.lignes[12] if l["marche"] == "VAINQUEUR" and l["issue"] == "EXT"][0]["proba_juste"]
+    p_h = [l for l in idx.lignes[12] if l["marche"] == "SETS_HANDICAP" and l["issue"] == "EXT"][0]["proba_juste"]
+    v = valeur.evaluer(boost("Tennis", 3.55, "2026-10-12T04:00:00+00:00"),
+                       [j(equipe_1="Pablo Carreno-Busta", equipe_2="Felix Auger-Aliassime", type="score_sets",
+                          equipe="Felix Auger-Aliassime", score="2-1")], idx)
+    assert v["statut"] == "exacte"
+    assert v["cote_juste"] == pytest.approx(1 / (p_v - p_h), abs=0.01)
+
+
+def test_interpolation_total_eleve_seulement():
+    idx = _index_couverture()
+    v = valeur.evaluer(boost("Football Américain", 2.2, "2026-10-11T20:05:00+00:00"),
+                       [j(equipe_1="Los Angeles Chargers", equipe_2="Denver Broncos", type="total", sens="plus",
+                          ligne=42.5)], idx)
+    assert v["statut"] == "interpolee" and "interpolée entre 41.5 et 43.5" in v["detail"][0]["methode"]
+    p415 = [l for l in idx.lignes[13] if l["ligne"] == 41.5 and l["issue"] == "PLUS"][0]["proba_juste"]
+    p435 = [l for l in idx.lignes[13] if l["ligne"] == 43.5 and l["issue"] == "PLUS"][0]["proba_juste"]
+    assert p435 < 1 / v["cote_juste"] < p415
+    # 2,5 buts au football : ligne trop basse, jamais interpolée
+    v2 = valeur.evaluer(boost("Football", 2.0, "2026-10-11T19:00:00+00:00"),
+                        [j(equipe_1="Lyon", equipe_2="Lens", type="total", sens="plus", ligne=2.5)], idx)
+    assert v2["statut"] == "non_evaluable"
+
+
+def test_combine_lie_reste_approx_meme_avec_interpolation():
+    idx = _index_couverture()
+    jj = [j(equipe_1="Los Angeles Chargers", equipe_2="Denver Broncos", type="total", sens="plus", ligne=42.5),
+          j(equipe_1="Los Angeles Chargers", equipe_2="Denver Broncos", type="total", sens="plus", ligne=41.5)]
+    assert valeur.evaluer(boost("Football Américain", 2.2, "2026-10-11T20:05:00+00:00"), jj, idx)["statut"] == "approx"
+
+
+def test_interpolation_incoherente_refusee():
+    l = []
+    for x, po, pu in ((41.5, 2.2, 1.7), (43.5, 1.8, 2.0)):      # « plus » plus probable à 43,5 qu'à 41,5 : absurde
+        l += lignes_marche("basket", 15, "A", "B", "2026-10-11T20:05:00Z", "TOTAL", "MATCH",
+                           [(x, "PLUS", po), (x, "MOINS", pu)])
+    assert valeur.interpoler(valeur.Index(l).lignes[15], "TOTAL", "MATCH", 42.5, "PLUS") is None
+
+
+def test_jambes_score_et_periodes():
+    t = '{"jambes": [{"equipe_1": "A", "equipe_2": "B", "type": "score_sets", "equipe": "B", "score": "2-1",' \
+        ' "periode": "tiers_temps_1"}]}'
+    jj = jambes.lire(t)
+    assert jj[0]["type"] == "score_sets" and jj[0]["score"] == "2-1" and jj[0]["periode"] == "tiers_temps_1"
+
+
+def test_redecomposition_unique_des_anciens_non_evaluables(monkeypatch, index):
+    from boosts import evaluation
+    appels = []
+
+    def faux(b, client, fourn):
+        appels.append(b["id"])
+        return [j(equipe_1="Montauban", equipe_2="CA Brive", type="handicap", equipe="Montauban", ligne=-5.5)], "m"
+
+    monkeypatch.setattr(evaluation, "client_ia", lambda f: object())
+    monkeypatch.setattr(evaluation, "fournisseur", lambda: "openai")
+    monkeypatch.setattr(evaluation.jb, "decomposer", faux)
+    b = {"id": "w|1|1", "sport": "Rugby à XV", "cote_boostee": 2.25, "debut": "2026-10-08T19:00:00+00:00",
+         "jambes": [j(type="autre")], "valeur_derniere": {"statut": "non_evaluable"}}
+    base = {b["id"]: b}
+    pin = lambda ids: [l for ls in index.lignes.values() for l in ls]
+    evaluation.evaluer_boosts(base, "2026-10-08T18:00:00+00:00", collecter_pinnacle=pin,
+                              collecter_betfair=lambda s, h: ([], 0))
+    assert appels == ["w|1|1"] and b["jambes_version"] == jambes.VERSION and b["jambes"][0]["type"] == "handicap"
+    evaluation.evaluer_boosts(base, "2026-10-08T18:10:00+00:00", collecter_pinnacle=pin,
+                              collecter_betfair=lambda s, h: ([], 0))
+    assert appels == ["w|1|1"]                                     # pas de seconde décomposition

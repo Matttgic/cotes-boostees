@@ -80,6 +80,9 @@ variable `CHAINE` à `non`.
    et l'argent engagé suffisant ; requêtes PulseScore seulement dans ce cas). « exacte » : un pari ou des matchs différents ; « approx » : conditions
    liées sur un même match (produit des probabilités) ; « non évaluable » : une condition absente chez
    Pinnacle (jamais devinée) ;
+   Équivalences exactes quand le marché direct manque : « X gagne » ≡ handicap -0,5 sur la période ;
+   tennis « X gagne 2-1 » ≡ P(X gagne) − P(X -1,5 set). Ligne absente d'un total ≥ 10 : interpolée entre
+   deux lignes en ,5 à 3 unités au plus (statut « interpolee », compté à part) ;
 6. bilan : `bilan.json` et `BILAN.md` — A, B-exacte, B-approx et C à H (six nouvelles variantes).
    A reste ventilée par valeur, mise max, cote, sport, mois. Les 9 simulations sont visibles dans le site.
 
@@ -92,6 +95,16 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 | Unibet | ✅ collecté (`boosts/unibet.py`) : page /cotes-boostees + page de chaque paquet de boosts, par la zone ISP (le Web Unlocker refuse les sites de jeux sans vérification d'identité ; l'offre Kambi « ub » est Unibet international, pas unibet.fr). Mise max lue dans l'intitulé (25 € par défaut). Paris de saison marqués « long terme » : pas de valeur Pinnacle, règlement à partir de 120 jours puis chaque semaine |
 
 Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
+
+## Protocole gelé (gel-1, 11/10/2026 22 h)
+
+Pour ne pas « optimiser » sur le hasard des premiers résultats, quatre stratégies sont figées et jugées
+**uniquement sur les boosts découverts après le gel** (`boosts/simulation.py`, `DATE_GEL`) :
+A (témoin), B (valeur ≥ +5 %, exacte ou interpolée, mise max), B0 (valeur ≥ 0 %), D (hypothèse : cotes
+1,60–3,50, 10 € max, repérée en regardant les premiers résultats). Indicateur principal à court terme :
+la **valeur moyenne jouée** (cote prise face à la cote juste), bien moins bruitée que le ROI.
+Les autres stratégies restent calculées pour mémoire. Diagnostic des boosts non évaluables :
+`scripts/diagnostic_valeur.py` (workflow « Sonde des sources »).
 
 ## Sondes
 

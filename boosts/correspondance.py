@@ -59,6 +59,9 @@ def normaliser(nom: str | None) -> tuple[tuple[str, ...], bool, frozenset]:
     s = re.sub(r"\bf\.\s?c\.?", "fc", s)                 # « F.C. » -> fc
     s = re.sub(r"\bb\.\s?c\.?", "bc", s)                 # « AEK B.C. » (club de basket) -> bc, pas l'équipe B
     s = re.sub(r"\((\d{2})\)", r" u\1", s)                 # « Italie(21) » -> italie u21
+    # sigles à points : « U.N.A.M. » -> unam (Pinnacle : « Pumas UNAM ») ; les initiales de prénom
+    # (« A.Gea ») ne sont pas touchées (au moins deux lettres isolées suivies d'un point)
+    s = re.sub(r"\b(?:[a-z]\.){2,}(?:[a-z]\b\.?)?", lambda m: m.group(0).replace(".", "") + " ", s)
     fem = bool(FEMININ.search(s))
     s = FEMININ.sub(" ", s)
     s = s.replace("&", " and ").replace("'", " ")

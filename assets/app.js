@@ -21,7 +21,12 @@
     F_ev8: ['F', 'EV STRICTE', 'EXACTE ≥ 8 % · 10 € MAX'],
     G_kelly: ['G', 'QUART KELLY', 'EXACTE ≥ 5 % · RISQUE LIMITÉ'],
     H_1_match: ['H', 'UN PAR MATCH', '1ER BOOST VU · 10 € MAX'],
+    B_valeur: ['B', 'VALEUR ≥ +5 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
+    B0_valeur: ['B0', 'VALEUR ≥ 0 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
   });
+  // Protocole gelé : les quatre stratégies suivies d'abord, les autres ensuite (archives).
+  const SUIVIES_ORDRE = ['A', 'B_valeur', 'B0_valeur', 'D_moderee'];
+  const NOMS_SUIVIES = { A: 'A · TÉMOIN', B_valeur: 'B · VALEUR ≥ +5 %', B0_valeur: 'B0 · VALEUR ≥ 0 %', D_moderee: 'D · HYPOTHÈSE 1,60–3,50' };
   const state = {
     boosts: [], bilan: {}, etat: {}, brain: null, brainView: 'tous', view: 'actifs', strategy: 'A',
     search: '', sport: 'tous', bookmaker: 'tous', sort: 'recent',
@@ -216,7 +221,8 @@
   }
 
   function renderStrategyChoices() {
-    const keys = Object.keys(state.bilan || {}).filter(key => STRATEGY_META[key]);
+    const dispo = Object.keys(state.bilan || {}).filter(key => STRATEGY_META[key]);
+    const keys = [...SUIVIES_ORDRE.filter(k => dispo.includes(k)), ...dispo.filter(k => !SUIVIES_ORDRE.includes(k))];
     if (!keys.includes(state.strategy)) state.strategy = 'A';
     $('strategy-switch').innerHTML = keys.map(key => {
       const [tag, title, subtitle] = STRATEGY_META[key];
@@ -224,6 +230,23 @@
         <span>STRATÉGIE ${esc(tag)}</span><strong>${esc(title)}</strong><small>${esc(subtitle)}</small>
       </button>`;
     }).join('');
+  }
+
+  function renderProtocol() {
+    const p = state.bilan?.protocole, el = $('protocol');
+    if (!el) return;
+    if (!p || !p.apres_gel) { el.hidden = true; return; }
+    el.hidden = false;
+    const rows = SUIVIES_ORDRE.filter(k => p.apres_gel[k]).map(k => {
+      const g = p.apres_gel[k].global || {}, gain = number(g.gain_net), ev = number(g.ev_moyenne_pct);
+      return `<tr><th scope="row">${esc(NOMS_SUIVIES[k])}</th><td>${fmt(number(g.regles) || 0, 0)} / ${fmt(number(g.paris) || 0, 0)}</td>`
+        + `<td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td><td>${esc(pct(number(g.roi_pct)))}</td>`
+        + `<td>${ev === null ? '—' : esc(pct(ev)) + `<small> ${fmt(number(g.paris_avec_ev) || 0, 0)} PARIS</small>`}</td></tr>`;
+    }).join('');
+    el.innerHTML = `<div class="protocol-head"><span class="tiny-label">PROTOCOLE GELÉ · ${esc(String(p.version || '').toUpperCase())}</span>`
+      + `<strong>SEULS CES RÉSULTATS COMPTENT</strong><p>Règles fixées le ${esc(dateText(p.date_gel))}, avant de connaître leurs résultats. Jugées uniquement sur les ${fmt(number(p.boosts_apres_gel) || 0, 0)} boosts découverts depuis.</p></div>`
+      + `<div class="table-scroll"><table class="protocol-table"><thead><tr><th>STRATÉGIE SUIVIE</th><th>RÉGLÉS / PARIS</th><th>GAIN NET</th><th>ROI</th><th>VALEUR MOY. JOUÉE</th></tr></thead><tbody>${rows}</tbody></table></div>`
+      + `<p class="protocol-note">« Valeur moyenne jouée » : écart entre la cote prise et la cote juste Pinnacle / Betfair, avant le match. Lisible en quelques jours ; le ROI demande des centaines de paris. Les boutons ci-dessous montrent toutes les stratégies depuis le début (archives).</p>`;
   }
 
   function renderLab() {
@@ -334,7 +357,7 @@
       if (!boosts || typeof boosts !== 'object' || Array.isArray(boosts) || !bilan?.A?.global || !etat?.dernier_passage) throw new Error('Format des données inattendu');
       state.boosts = Object.values(boosts).filter(b => b && typeof b === 'object' && typeof b.id === 'string');
       state.bilan = bilan; state.etat = etat; state.brain = brain; state.ready = true;
-      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderLab(); renderSettlements(); renderBrain();
+      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderProtocol(); renderLab(); renderSettlements(); renderBrain();
     } catch (error) {
       if (!state.ready) {
         $('boost-list').innerHTML = '<div class="empty-state"><span class="empty-state-symbol">!</span><strong>REGISTRE INACCESSIBLE</strong><p>Les fichiers publics GitHub ne répondent pas. Aucun chiffre de remplacement n’est affiché.</p><button id="retry" type="button">RÉESSAYER ↗</button></div>';

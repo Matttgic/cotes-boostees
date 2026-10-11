@@ -47,9 +47,19 @@ def evaluer_boosts(base: dict[str, dict], maintenant: str, collecter_pinnacle=pi
     fourn = fournisseur()
     client = client_ia(fourn) if fourn else None
     for b in a_venir:
+        # boost encore non évaluable décomposé avec une ancienne consigne : une nouvelle décomposition
+        # (tiers-temps, score en sets…), une seule fois
+        if b.get("jambes") is not None and int(b.get("jambes_version", 1)) < jb.VERSION \
+                and (b.get("valeur_derniere") or {}).get("statut") in (None, "non_evaluable"):
+            b["jambes_ancienne"], b["jambes"], b["jambes_essais"] = b["jambes"], None, 0
+            b["jambes_version"] = jb.VERSION
+        if b.get("jambes") is None and b.get("jambes_ancienne") and \
+                (b.get("jambes_essais", 0) >= ESSAIS_DECOMPOSITION or client is None):
+            b["jambes"] = b["jambes_ancienne"]          # nouvelle décomposition impossible : on garde l'ancienne
         if b.get("jambes") is not None or b.get("jambes_essais", 0) >= ESSAIS_DECOMPOSITION or client is None:
             continue
         b["jambes_essais"] = int(b.get("jambes_essais", 0)) + 1
+        b["jambes_version"] = jb.VERSION
         try:
             jambes, modele = jb.decomposer(b, client, fourn)
         except Exception as e:
