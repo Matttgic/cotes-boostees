@@ -6,7 +6,7 @@
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T18:56:00+00:00",
+  "derniere_observation": "2026-10-11T19:36:01+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,13 +16,13 @@
    "combiné_lie": 14,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 6,
-   "ligne_absente": 10,
+   "ligne_absente": 11,
    "long_terme": 25,
    "marche_non_cote": 15,
-   "match_introuvable": 21,
+   "match_introuvable": 20,
    "sport_non_suivi": 4
   },
-  "observations_reglees": 64,
+  "observations_reglees": 69,
   "observes": 113,
   "paris_en_attente": 0,
   "paris_regles": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T18:56:00+00:00",
+ "derniere_observation": "2026-10-11T19:36:01+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -6718,6 +6718,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT1 None DOM) ; Betfair : match introuvable (Philadelphia Flyers - Carolina Hurricanes)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 9.4,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T19:36:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT1 None DOM) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None EXT)",
      "source": [],
      "version": "observation-v1.1"
     }
