@@ -6,7 +6,7 @@
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T16:56:01+00:00",
+  "derniere_observation": "2026-10-11T17:55:07+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,13 +16,13 @@
    "combiné_lie": 14,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 6,
-   "ligne_absente": 10,
+   "ligne_absente": 11,
    "long_terme": 25,
    "marche_non_cote": 14,
-   "match_introuvable": 21,
+   "match_introuvable": 20,
    "sport_non_suivi": 4
   },
-  "observations_reglees": 59,
+  "observations_reglees": 63,
   "observes": 112,
   "paris_en_attente": 0,
   "paris_regles": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T16:56:01+00:00",
+ "derniere_observation": "2026-10-11T17:55:07+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -5331,6 +5331,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T17:55:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716536781|2221031588",
@@ -6042,6 +6068,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T17:55:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716574450|2221135819",
@@ -6614,6 +6666,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT1 None DOM) ; Betfair : match introuvable (Philadelphia Flyers - Carolina Hurricanes)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 9.4,
+      "horizon_heures": 5.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T17:55:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT1 None DOM) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None EXT)",
      "source": [],
      "version": "observation-v1.1"
     }
