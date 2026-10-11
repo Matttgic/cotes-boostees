@@ -3,10 +3,10 @@
   "decisions_courantes": {
    "abstention": 69,
    "ecarter": 7,
-   "hors_perimetre": 24,
+   "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T09:16:10+00:00",
+  "derniere_observation": "2026-10-11T10:15:23+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -17,13 +17,13 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 6,
    "ligne_absente": 9,
-   "long_terme": 24,
+   "long_terme": 25,
    "marche_non_cote": 13,
    "match_introuvable": 17,
    "sport_non_suivi": 4
   },
   "observations_reglees": 53,
-  "observes": 100,
+  "observes": 101,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T09:16:10+00:00",
+ "derniere_observation": "2026-10-11T10:15:23+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -202,6 +202,43 @@
    "id": "unibet|193344613|720327399",
    "match": "Paris Trashtalk 26/27",
    "pari": "CLE Cavaliers - Les Cavaliers remportent la Division Centrale",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|193344653|720327540": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 22.4,
+      "horizon_heures": 222.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T10:15:23+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|193344653|720327540",
+   "match": "Paris Trashtalk 26/27",
+   "pari": "MIA Heat - Le Heat remporte la Division Sud-Est",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -714,6 +751,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-10T10:57:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 1.7,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 222.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T10:15:23+00:00",
      "mise_fictive": null,
      "motif_code": "long_terme",
      "raisons": [
@@ -5234,6 +5297,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-11T09:16:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.25,
+     "cote_juste": 2.531,
+     "decision": "ecarter",
+     "ev_pct": -11.1,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 7.1,
+      "horizon_heures": 0.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T10:15:23+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [

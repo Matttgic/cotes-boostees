@@ -1,18 +1,42 @@
 {
- "boosts_total": 121,
+ "boosts_total": 122,
  "cache_unibet": {
   "3381006": {
-   "age": 5,
+   "age": 0,
    "boosts": [
     {
      "bookmaker": "Unibet",
-     "cote_boostee": 2.0,
+     "cote_boostee": 3.0,
+     "cote_origine": 2.45,
+     "debut": "2026-10-20T17:00:00.000Z",
+     "disponible": true,
+     "hausse_pct": 22.4,
+     "id": "unibet|193344653|720327540",
+     "intitule_brut": "Boost MIA Heat - Le Heat remporte la Division Sud-Est (2,45 -> 3,00 / Mise max 25€)",
+     "ligue": "Cotes Boostées NBA",
+     "long_terme": true,
+     "match": "Paris Trashtalk 26/27",
+     "mise_max": 25.0,
+     "mise_max_supposee": false,
+     "pari": "MIA Heat - Le Heat remporte la Division Sud-Est",
+     "ref": {
+      "event_id": 3381006,
+      "market_id": 193344653,
+      "outcome_id": 720327540,
+      "periode": "Temps réglementaire"
+     },
+     "sport": "Basketball",
+     "type": "cote boostée"
+    },
+    {
+     "bookmaker": "Unibet",
+     "cote_boostee": 1.7,
      "cote_origine": null,
      "debut": "2026-10-20T17:00:00.000Z",
      "disponible": true,
      "hausse_pct": null,
      "id": "unibet|193345391|720330463",
-     "intitule_brut": "Boost TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes) (1,70 -> 2 / Mise max 25€)",
+     "intitule_brut": "TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes) (Mise max 25€)",
      "ligue": "Cotes Boostées NBA",
      "long_terme": true,
      "match": "Paris Trashtalk 26/27",
@@ -180,12 +204,12 @@
      "disponible": true,
      "hausse_pct": null,
      "id": "unibet|193345521|720330897",
-     "intitule_brut": "DAL Mavericks - Les Mavericks se qualifient pour le PlayIn",
+     "intitule_brut": "DAL Mavericks - Les Mavericks se qualifient pour le PlayIn (Mise max 25€)",
      "ligue": "Cotes Boostées NBA",
      "long_terme": true,
      "match": "Paris Trashtalk 26/27",
      "mise_max": 25.0,
-     "mise_max_supposee": true,
+     "mise_max_supposee": false,
      "pari": "DAL Mavericks - Les Mavericks se qualifient pour le PlayIn",
      "ref": {
       "event_id": 3381006,
@@ -509,39 +533,39 @@
      "type": "cote boostée"
     }
    ],
-   "count": 21
+   "count": 22
   }
  },
  "dernier_passage": {
   "bookmakers": {
    "unibet": {
     "boosts_en_ligne": 29,
-    "cotes_modifiees": 0,
+    "cotes_modifiees": 1,
     "nouveaux": 1
    },
    "winamax": {
     "boosts_en_ligne": 14,
-    "cotes_modifiees": 4,
-    "nouveaux": 1
+    "cotes_modifiees": 0,
+    "nouveaux": 0
    }
   },
   "cerveau": {
-   "boosts_observes": 100,
-   "decisions_enregistrees": 6,
-   "nouveaux_boosts": 2
+   "boosts_observes": 101,
+   "decisions_enregistrees": 3,
+   "nouveaux_boosts": 1
   },
-  "date": "2026-10-11T09:16:10+00:00",
+  "date": "2026-10-11T10:15:23+00:00",
   "evaluation": {
    "approx": 3,
-   "decomposes": 2,
+   "decomposes": 0,
    "echecs_decomposition": 0,
-   "evalues": 21,
+   "evalues": 20,
    "exactes": 2,
-   "non_evaluables": 16,
-   "requetes_pulsescore": 14
+   "non_evaluables": 15,
+   "requetes_pulsescore": 11
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 450121,
+  "octets_proxy": 641622,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
@@ -552,9 +576,51 @@
    "soumis": 0
   },
   "reglements_manuels": 0,
-  "requetes": 2
+  "requetes": 3
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 29,
+     "cotes_modifiees": 1,
+     "nouveaux": 1
+    },
+    "winamax": {
+     "boosts_en_ligne": 14,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 101,
+    "decisions_enregistrees": 3,
+    "nouveaux_boosts": 1
+   },
+   "date": "2026-10-11T10:15:23+00:00",
+   "evaluation": {
+    "approx": 3,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 20,
+    "exactes": 2,
+    "non_evaluables": 15,
+    "requetes_pulsescore": 11
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 641622,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 3
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -3656,5 +3722,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 33211515
+ "octets_proxy_total": 33853137
 }
