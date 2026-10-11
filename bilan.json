@@ -207,84 +207,88 @@
    },
    {
     "cumul": 128.0,
-    "debut": "2026-10-10T16:00+00:00"
+    "debut": "2026-10-10T15:15+00:00"
    },
    {
-    "cumul": 150.0,
+    "cumul": 108.0,
     "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 130.0,
-    "debut": "2026-10-10T16:30+00:00"
+    "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 110.0,
     "debut": "2026-10-10T16:30+00:00"
    },
    {
-    "cumul": 85.0,
-    "debut": "2026-10-10T16:30:00.000Z"
+    "cumul": 90.0,
+    "debut": "2026-10-10T16:30+00:00"
    },
    {
-    "cumul": 60.0,
+    "cumul": 65.0,
     "debut": "2026-10-10T16:30:00.000Z"
    },
    {
     "cumul": 40.0,
+    "debut": "2026-10-10T16:30:00.000Z"
+   },
+   {
+    "cumul": 20.0,
     "debut": "2026-10-10T18:00+00:00"
    },
    {
-    "cumul": 90.0,
+    "cumul": 70.0,
     "debut": "2026-10-10T18:30+00:00"
    },
    {
-    "cumul": 70.0,
+    "cumul": 50.0,
     "debut": "2026-10-10T18:45+00:00"
    },
    {
-    "cumul": 120.0,
+    "cumul": 100.0,
     "debut": "2026-10-10T18:45+00:00"
-   },
-   {
-    "cumul": 95.0,
-    "debut": "2026-10-10T18:45:00.000Z"
    },
    {
     "cumul": 75.0,
-    "debut": "2026-10-10T19:00+00:00"
+    "debut": "2026-10-10T18:45:00.000Z"
    },
    {
     "cumul": 55.0,
     "debut": "2026-10-10T19:00+00:00"
    },
    {
+    "cumul": 35.0,
+    "debut": "2026-10-10T19:00+00:00"
+   },
+   {
+    "cumul": 10.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
+    "cumul": -15.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
     "cumul": 30.0,
-    "debut": "2026-10-10T19:00:00.000Z"
-   },
-   {
-    "cumul": 5.0,
-    "debut": "2026-10-10T19:00:00.000Z"
-   },
-   {
-    "cumul": 50.0,
     "debut": "2026-10-10T19:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.22,
-   "en_attente": 34,
+   "en_attente": 33,
    "gagnes": 24,
-   "gain_net": 50.0,
-   "mise_totale": 1390.0,
+   "gain_net": 30.0,
+   "mise_totale": 1410.0,
    "paris": 101,
-   "perdus": 43,
-   "pire_baisse": -280.5,
+   "perdus": 44,
+   "pire_baisse": -300.5,
    "pire_serie_perdante": 6,
-   "regles": 67,
+   "regles": 68,
    "rembourses": 0,
-   "reussite_pct": 35.8,
-   "roi_pct": 3.6
+   "reussite_pct": 35.3,
+   "roi_pct": 2.1
   },
   "par_bookmaker": {
    "Unibet": {
@@ -302,16 +306,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.49,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 20,
-    "gain_net": 65.0,
-    "mise_totale": 1140.0,
+    "gain_net": 45.0,
+    "mise_totale": 1160.0,
     "paris": 66,
-    "perdus": 37,
-    "regles": 57,
+    "perdus": 38,
+    "regles": 58,
     "rembourses": 0,
-    "reussite_pct": 35.1,
-    "roi_pct": 5.7
+    "reussite_pct": 34.5,
+    "roi_pct": 3.9
    }
   },
   "par_horizon": {
@@ -330,31 +334,31 @@
    },
    "match": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 24,
-    "gain_net": 50.0,
-    "mise_totale": 1390.0,
+    "gain_net": 30.0,
+    "mise_totale": 1410.0,
     "paris": 76,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 3.6
+    "reussite_pct": 35.3,
+    "roi_pct": 2.1
    }
   },
   "par_mise": {
    "20 €": {
     "cote_moyenne": 3.49,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 20,
-    "gain_net": 65.0,
-    "mise_totale": 1140.0,
+    "gain_net": 45.0,
+    "mise_totale": 1160.0,
     "paris": 66,
-    "perdus": 37,
-    "regles": 57,
+    "perdus": 38,
+    "regles": 58,
     "rembourses": 0,
-    "reussite_pct": 35.1,
-    "roi_pct": 5.7
+    "reussite_pct": 34.5,
+    "roi_pct": 3.9
    },
    "25 €": {
     "cote_moyenne": 2.72,
@@ -373,16 +377,16 @@
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.22,
-    "en_attente": 34,
+    "en_attente": 33,
     "gagnes": 24,
-    "gain_net": 50.0,
-    "mise_totale": 1390.0,
+    "gain_net": 30.0,
+    "mise_totale": 1410.0,
     "paris": 101,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 3.6
+    "reussite_pct": 35.3,
+    "roi_pct": 2.1
    }
   },
   "par_sport": {
@@ -414,16 +418,16 @@
    },
    "Football": {
     "cote_moyenne": 3.26,
-    "en_attente": 7,
+    "en_attente": 6,
     "gagnes": 11,
-    "gain_net": -6.0,
-    "mise_totale": 710.0,
+    "gain_net": -26.0,
+    "mise_totale": 730.0,
     "paris": 41,
-    "perdus": 23,
-    "regles": 34,
+    "perdus": 24,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 32.4,
-    "roi_pct": -0.8
+    "reussite_pct": 31.4,
+    "roi_pct": -3.6
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -559,16 +563,16 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.45,
-    "en_attente": 11,
+    "en_attente": 10,
     "gagnes": 14,
-    "gain_net": 68.0,
-    "mise_totale": 665.0,
+    "gain_net": 48.0,
+    "mise_totale": 685.0,
     "paris": 42,
-    "perdus": 17,
-    "regles": 31,
+    "perdus": 18,
+    "regles": 32,
     "rembourses": 0,
-    "reussite_pct": 45.2,
-    "roi_pct": 10.2
+    "reussite_pct": 43.8,
+    "roi_pct": 7.0
    },
    "3 – 5": {
     "cote_moyenne": 3.63,
@@ -691,16 +695,16 @@
    },
    "non évaluable": {
     "cote_moyenne": 3.21,
-    "en_attente": 31,
+    "en_attente": 30,
     "gagnes": 17,
-    "gain_net": -54.0,
-    "mise_totale": 1070.0,
+    "gain_net": -74.0,
+    "mise_totale": 1090.0,
     "paris": 82,
-    "perdus": 34,
-    "regles": 51,
+    "perdus": 35,
+    "regles": 52,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -5.0
+    "reussite_pct": 32.7,
+    "roi_pct": -6.8
    }
   },
   "paris": [
@@ -1629,14 +1633,14 @@
     "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|715781910|2218573139",
     "match": "Ligue 1 McDonald's®",
     "mise": 20.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -2017,7 +2021,7 @@
     "bookmaker": "Winamax",
     "cote": 6.5,
     "cote_juste": null,
-    "cote_origine": 5.7,
+    "cote_origine": 5.9,
     "debut": "2026-10-11T04:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -2959,15 +2963,15 @@
    },
    {
     "cumul": 53.0,
-    "debut": "2026-10-10T16:00+00:00"
+    "debut": "2026-10-10T15:15+00:00"
    },
    {
-    "cumul": 64.0,
+    "cumul": 43.0,
     "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 54.0,
-    "debut": "2026-10-10T16:30+00:00"
+    "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 44.0,
@@ -2975,7 +2979,7 @@
    },
    {
     "cumul": 34.0,
-    "debut": "2026-10-10T16:30:00.000Z"
+    "debut": "2026-10-10T16:30+00:00"
    },
    {
     "cumul": 24.0,
@@ -2983,27 +2987,27 @@
    },
    {
     "cumul": 14.0,
+    "debut": "2026-10-10T16:30:00.000Z"
+   },
+   {
+    "cumul": 4.0,
     "debut": "2026-10-10T18:00+00:00"
    },
    {
-    "cumul": 39.0,
+    "cumul": 29.0,
     "debut": "2026-10-10T18:30+00:00"
    },
    {
-    "cumul": 29.0,
-    "debut": "2026-10-10T18:45+00:00"
-   },
-   {
-    "cumul": 54.0,
+    "cumul": 19.0,
     "debut": "2026-10-10T18:45+00:00"
    },
    {
     "cumul": 44.0,
-    "debut": "2026-10-10T18:45:00.000Z"
+    "debut": "2026-10-10T18:45+00:00"
    },
    {
     "cumul": 34.0,
-    "debut": "2026-10-10T19:00+00:00"
+    "debut": "2026-10-10T18:45:00.000Z"
    },
    {
     "cumul": 24.0,
@@ -3011,32 +3015,36 @@
    },
    {
     "cumul": 14.0,
-    "debut": "2026-10-10T19:00:00.000Z"
+    "debut": "2026-10-10T19:00+00:00"
    },
    {
     "cumul": 4.0,
     "debut": "2026-10-10T19:00:00.000Z"
    },
    {
-    "cumul": 26.5,
+    "cumul": -6.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
+    "cumul": 16.5,
     "debut": "2026-10-10T19:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.22,
-   "en_attente": 34,
+   "en_attente": 33,
    "gagnes": 24,
-   "gain_net": 26.5,
-   "mise_totale": 670.0,
+   "gain_net": 16.5,
+   "mise_totale": 680.0,
    "paris": 101,
-   "perdus": 43,
-   "pire_baisse": -129.0,
+   "perdus": 44,
+   "pire_baisse": -139.0,
    "pire_serie_perdante": 6,
-   "regles": 67,
+   "regles": 68,
    "rembourses": 0,
-   "reussite_pct": 35.8,
-   "roi_pct": 4.0
+   "reussite_pct": 35.3,
+   "roi_pct": 2.4
   },
   "par_bookmaker": {
    "Unibet": {
@@ -3054,16 +3062,16 @@
    },
    "Winamax": {
     "cote_moyenne": 3.49,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 20,
-    "gain_net": 32.5,
-    "mise_totale": 570.0,
+    "gain_net": 22.5,
+    "mise_totale": 580.0,
     "paris": 66,
-    "perdus": 37,
-    "regles": 57,
+    "perdus": 38,
+    "regles": 58,
     "rembourses": 0,
-    "reussite_pct": 35.1,
-    "roi_pct": 5.7
+    "reussite_pct": 34.5,
+    "roi_pct": 3.9
    }
   },
   "par_horizon": {
@@ -3082,46 +3090,46 @@
    },
    "match": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 76,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.22,
-    "en_attente": 34,
+    "en_attente": 33,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 101,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.22,
-    "en_attente": 34,
+    "en_attente": 33,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 101,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_sport": {
@@ -3153,16 +3161,16 @@
    },
    "Football": {
     "cote_moyenne": 3.26,
-    "en_attente": 7,
+    "en_attente": 6,
     "gagnes": 11,
-    "gain_net": 0.5,
-    "mise_totale": 340.0,
+    "gain_net": -9.5,
+    "mise_totale": 350.0,
     "paris": 41,
-    "perdus": 23,
-    "regles": 34,
+    "perdus": 24,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 32.4,
-    "roi_pct": 0.1
+    "reussite_pct": 31.4,
+    "roi_pct": -2.7
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -3298,16 +3306,16 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.45,
-    "en_attente": 11,
+    "en_attente": 10,
     "gagnes": 14,
-    "gain_net": 33.0,
-    "mise_totale": 310.0,
+    "gain_net": 23.0,
+    "mise_totale": 320.0,
     "paris": 42,
-    "perdus": 17,
-    "regles": 31,
+    "perdus": 18,
+    "regles": 32,
     "rembourses": 0,
-    "reussite_pct": 45.2,
-    "roi_pct": 10.6
+    "reussite_pct": 43.8,
+    "roi_pct": 7.2
    },
    "3 – 5": {
     "cote_moyenne": 3.63,
@@ -3430,16 +3438,16 @@
    },
    "non évaluable": {
     "cote_moyenne": 3.21,
-    "en_attente": 31,
+    "en_attente": 30,
     "gagnes": 17,
-    "gain_net": -25.5,
-    "mise_totale": 510.0,
+    "gain_net": -35.5,
+    "mise_totale": 520.0,
     "paris": 82,
-    "perdus": 34,
-    "regles": 51,
+    "perdus": 35,
+    "regles": 52,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -5.0
+    "reussite_pct": 32.7,
+    "roi_pct": -6.8
    }
   },
   "paris": [
@@ -4368,14 +4376,14 @@
     "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715781910|2218573139",
     "match": "Ligue 1 McDonald's®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -4756,7 +4764,7 @@
     "bookmaker": "Winamax",
     "cote": 6.5,
     "cote_juste": null,
-    "cote_origine": 5.7,
+    "cote_origine": 5.9,
     "debut": "2026-10-11T04:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -5303,15 +5311,15 @@
    },
    {
     "cumul": 62.0,
-    "debut": "2026-10-10T16:00+00:00"
+    "debut": "2026-10-10T15:15+00:00"
    },
    {
-    "cumul": 73.0,
+    "cumul": 52.0,
     "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 63.0,
-    "debut": "2026-10-10T16:30:00.000Z"
+    "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 53.0,
@@ -5319,52 +5327,56 @@
    },
    {
     "cumul": 43.0,
+    "debut": "2026-10-10T16:30:00.000Z"
+   },
+   {
+    "cumul": 33.0,
     "debut": "2026-10-10T18:00+00:00"
    },
    {
-    "cumul": 68.0,
+    "cumul": 58.0,
     "debut": "2026-10-10T18:30+00:00"
    },
    {
-    "cumul": 93.0,
+    "cumul": 83.0,
     "debut": "2026-10-10T18:45+00:00"
    },
    {
-    "cumul": 83.0,
+    "cumul": 73.0,
     "debut": "2026-10-10T18:45:00.000Z"
    },
    {
-    "cumul": 73.0,
-    "debut": "2026-10-10T19:00+00:00"
-   },
-   {
     "cumul": 63.0,
-    "debut": "2026-10-10T19:00:00.000Z"
+    "debut": "2026-10-10T19:00+00:00"
    },
    {
     "cumul": 53.0,
     "debut": "2026-10-10T19:00:00.000Z"
    },
    {
-    "cumul": 75.5,
+    "cumul": 43.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
+    "cumul": 65.5,
     "debut": "2026-10-10T19:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 2.63,
-   "en_attente": 21,
+   "en_attente": 20,
    "gagnes": 20,
-   "gain_net": 75.5,
-   "mise_totale": 460.0,
+   "gain_net": 65.5,
+   "mise_totale": 470.0,
    "paris": 67,
-   "perdus": 26,
-   "pire_baisse": -76.5,
-   "pire_serie_perdante": 5,
-   "regles": 46,
+   "perdus": 27,
+   "pire_baisse": -86.5,
+   "pire_serie_perdante": 6,
+   "regles": 47,
    "rembourses": 0,
-   "reussite_pct": 43.5,
-   "roi_pct": 16.4
+   "reussite_pct": 42.6,
+   "roi_pct": 13.9
   },
   "par_bookmaker": {
    "Unibet": {
@@ -5382,16 +5394,16 @@
    },
    "Winamax": {
     "cote_moyenne": 2.8,
-    "en_attente": 4,
+    "en_attente": 3,
     "gagnes": 16,
-    "gain_net": 81.5,
-    "mise_totale": 360.0,
+    "gain_net": 71.5,
+    "mise_totale": 370.0,
     "paris": 40,
-    "perdus": 20,
-    "regles": 36,
+    "perdus": 21,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 44.4,
-    "roi_pct": 22.6
+    "reussite_pct": 43.2,
+    "roi_pct": 19.3
    }
   },
   "par_horizon": {
@@ -5410,46 +5422,46 @@
    },
    "match": {
     "cote_moyenne": 2.73,
-    "en_attente": 5,
+    "en_attente": 4,
     "gagnes": 20,
-    "gain_net": 75.5,
-    "mise_totale": 460.0,
+    "gain_net": 65.5,
+    "mise_totale": 470.0,
     "paris": 51,
-    "perdus": 26,
-    "regles": 46,
+    "perdus": 27,
+    "regles": 47,
     "rembourses": 0,
-    "reussite_pct": 43.5,
-    "roi_pct": 16.4
+    "reussite_pct": 42.6,
+    "roi_pct": 13.9
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 2.63,
-    "en_attente": 21,
+    "en_attente": 20,
     "gagnes": 20,
-    "gain_net": 75.5,
-    "mise_totale": 460.0,
+    "gain_net": 65.5,
+    "mise_totale": 470.0,
     "paris": 67,
-    "perdus": 26,
-    "regles": 46,
+    "perdus": 27,
+    "regles": 47,
     "rembourses": 0,
-    "reussite_pct": 43.5,
-    "roi_pct": 16.4
+    "reussite_pct": 42.6,
+    "roi_pct": 13.9
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 2.63,
-    "en_attente": 21,
+    "en_attente": 20,
     "gagnes": 20,
-    "gain_net": 75.5,
-    "mise_totale": 460.0,
+    "gain_net": 65.5,
+    "mise_totale": 470.0,
     "paris": 67,
-    "perdus": 26,
-    "regles": 46,
+    "perdus": 27,
+    "regles": 47,
     "rembourses": 0,
-    "reussite_pct": 43.5,
-    "roi_pct": 16.4
+    "reussite_pct": 42.6,
+    "roi_pct": 13.9
    }
   },
   "par_sport": {
@@ -5481,16 +5493,16 @@
    },
    "Football": {
     "cote_moyenne": 2.82,
-    "en_attente": 6,
+    "en_attente": 5,
     "gagnes": 8,
-    "gain_net": 27.0,
-    "mise_totale": 200.0,
+    "gain_net": 17.0,
+    "mise_totale": 210.0,
     "paris": 26,
-    "perdus": 12,
-    "regles": 20,
+    "perdus": 13,
+    "regles": 21,
     "rembourses": 0,
-    "reussite_pct": 40.0,
-    "roi_pct": 13.5
+    "reussite_pct": 38.1,
+    "roi_pct": 8.1
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -5600,16 +5612,16 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.45,
-    "en_attente": 11,
+    "en_attente": 10,
     "gagnes": 14,
-    "gain_net": 33.0,
-    "mise_totale": 310.0,
+    "gain_net": 23.0,
+    "mise_totale": 320.0,
     "paris": 42,
-    "perdus": 17,
-    "regles": 31,
+    "perdus": 18,
+    "regles": 32,
     "rembourses": 0,
-    "reussite_pct": 45.2,
-    "roi_pct": 10.6
+    "reussite_pct": 43.8,
+    "roi_pct": 7.2
    },
    "3 – 5": {
     "cote_moyenne": 3.23,
@@ -5693,16 +5705,16 @@
    },
    "non évaluable": {
     "cote_moyenne": 2.55,
-    "en_attente": 20,
+    "en_attente": 19,
     "gagnes": 14,
-    "gain_net": 21.0,
-    "mise_totale": 340.0,
+    "gain_net": 11.0,
+    "mise_totale": 350.0,
     "paris": 54,
-    "perdus": 20,
-    "regles": 34,
+    "perdus": 21,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 41.2,
-    "roi_pct": 6.2
+    "reussite_pct": 40.0,
+    "roi_pct": 3.1
    }
   },
   "paris": [
@@ -6308,14 +6320,14 @@
     "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715781910|2218573139",
     "match": "Ligue 1 McDonald's®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -7056,15 +7068,15 @@
    },
    {
     "cumul": 53.0,
-    "debut": "2026-10-10T16:00+00:00"
+    "debut": "2026-10-10T15:15+00:00"
    },
    {
-    "cumul": 64.0,
+    "cumul": 43.0,
     "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 54.0,
-    "debut": "2026-10-10T16:30+00:00"
+    "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 44.0,
@@ -7072,7 +7084,7 @@
    },
    {
     "cumul": 34.0,
-    "debut": "2026-10-10T16:30:00.000Z"
+    "debut": "2026-10-10T16:30+00:00"
    },
    {
     "cumul": 24.0,
@@ -7080,27 +7092,27 @@
    },
    {
     "cumul": 14.0,
+    "debut": "2026-10-10T16:30:00.000Z"
+   },
+   {
+    "cumul": 4.0,
     "debut": "2026-10-10T18:00+00:00"
    },
    {
-    "cumul": 39.0,
+    "cumul": 29.0,
     "debut": "2026-10-10T18:30+00:00"
    },
    {
-    "cumul": 29.0,
-    "debut": "2026-10-10T18:45+00:00"
-   },
-   {
-    "cumul": 54.0,
+    "cumul": 19.0,
     "debut": "2026-10-10T18:45+00:00"
    },
    {
     "cumul": 44.0,
-    "debut": "2026-10-10T18:45:00.000Z"
+    "debut": "2026-10-10T18:45+00:00"
    },
    {
     "cumul": 34.0,
-    "debut": "2026-10-10T19:00+00:00"
+    "debut": "2026-10-10T18:45:00.000Z"
    },
    {
     "cumul": 24.0,
@@ -7108,32 +7120,36 @@
    },
    {
     "cumul": 14.0,
-    "debut": "2026-10-10T19:00:00.000Z"
+    "debut": "2026-10-10T19:00+00:00"
    },
    {
     "cumul": 4.0,
     "debut": "2026-10-10T19:00:00.000Z"
    },
    {
-    "cumul": 26.5,
+    "cumul": -6.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
+    "cumul": 16.5,
     "debut": "2026-10-10T19:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.24,
-   "en_attente": 9,
+   "en_attente": 8,
    "gagnes": 24,
-   "gain_net": 26.5,
-   "mise_totale": 670.0,
+   "gain_net": 16.5,
+   "mise_totale": 680.0,
    "paris": 76,
-   "perdus": 43,
-   "pire_baisse": -129.0,
+   "perdus": 44,
+   "pire_baisse": -139.0,
    "pire_serie_perdante": 6,
-   "regles": 67,
+   "regles": 68,
    "rembourses": 0,
-   "reussite_pct": 35.8,
-   "roi_pct": 4.0
+   "reussite_pct": 35.3,
+   "roi_pct": 2.4
   },
   "par_bookmaker": {
    "Unibet": {
@@ -7151,61 +7167,61 @@
    },
    "Winamax": {
     "cote_moyenne": 3.37,
-    "en_attente": 8,
+    "en_attente": 7,
     "gagnes": 20,
-    "gain_net": 32.5,
-    "mise_totale": 570.0,
+    "gain_net": 22.5,
+    "mise_totale": 580.0,
     "paris": 65,
-    "perdus": 37,
-    "regles": 57,
+    "perdus": 38,
+    "regles": 58,
     "rembourses": 0,
-    "reussite_pct": 35.1,
-    "roi_pct": 5.7
+    "reussite_pct": 34.5,
+    "roi_pct": 3.9
    }
   },
   "par_horizon": {
    "match": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 76,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 76,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 24,
-    "gain_net": 26.5,
-    "mise_totale": 670.0,
+    "gain_net": 16.5,
+    "mise_totale": 680.0,
     "paris": 76,
-    "perdus": 43,
-    "regles": 67,
+    "perdus": 44,
+    "regles": 68,
     "rembourses": 0,
-    "reussite_pct": 35.8,
-    "roi_pct": 4.0
+    "reussite_pct": 35.3,
+    "roi_pct": 2.4
    }
   },
   "par_sport": {
@@ -7237,16 +7253,16 @@
    },
    "Football": {
     "cote_moyenne": 3.29,
-    "en_attente": 4,
+    "en_attente": 3,
     "gagnes": 11,
-    "gain_net": 0.5,
-    "mise_totale": 340.0,
+    "gain_net": -9.5,
+    "mise_totale": 350.0,
     "paris": 38,
-    "perdus": 23,
-    "regles": 34,
+    "perdus": 24,
+    "regles": 35,
     "rembourses": 0,
-    "reussite_pct": 32.4,
-    "roi_pct": 0.1
+    "reussite_pct": 31.4,
+    "roi_pct": -2.7
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -7369,16 +7385,16 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.48,
-    "en_attente": 3,
+    "en_attente": 2,
     "gagnes": 14,
-    "gain_net": 33.0,
-    "mise_totale": 310.0,
+    "gain_net": 23.0,
+    "mise_totale": 320.0,
     "paris": 34,
-    "perdus": 17,
-    "regles": 31,
+    "perdus": 18,
+    "regles": 32,
     "rembourses": 0,
-    "reussite_pct": 45.2,
-    "roi_pct": 10.6
+    "reussite_pct": 43.8,
+    "roi_pct": 7.2
    },
    "3 – 5": {
     "cote_moyenne": 3.64,
@@ -7488,16 +7504,16 @@
    },
    "non évaluable": {
     "cote_moyenne": 3.23,
-    "en_attente": 6,
+    "en_attente": 5,
     "gagnes": 17,
-    "gain_net": -25.5,
-    "mise_totale": 510.0,
+    "gain_net": -35.5,
+    "mise_totale": 520.0,
     "paris": 57,
-    "perdus": 34,
-    "regles": 51,
+    "perdus": 35,
+    "regles": 52,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -5.0
+    "reussite_pct": 32.7,
+    "roi_pct": -6.8
    }
   },
   "paris": [
@@ -8375,14 +8391,14 @@
     "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715781910|2218573139",
     "match": "Ligue 1 McDonald's®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -8746,7 +8762,7 @@
     "bookmaker": "Winamax",
     "cote": 6.5,
     "cote_juste": null,
-    "cote_origine": 5.7,
+    "cote_origine": 5.9,
     "debut": "2026-10-11T04:00+00:00",
     "ev_pct": null,
     "gain": null,
@@ -9052,19 +9068,19 @@
    },
    {
     "cumul": 50.0,
-    "debut": "2026-10-10T16:00+00:00"
+    "debut": "2026-10-10T15:15+00:00"
    },
    {
-    "cumul": 61.0,
+    "cumul": 40.0,
     "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 51.0,
-    "debut": "2026-10-10T16:30+00:00"
+    "debut": "2026-10-10T16:00+00:00"
    },
    {
     "cumul": 41.0,
-    "debut": "2026-10-10T16:30:00.000Z"
+    "debut": "2026-10-10T16:30+00:00"
    },
    {
     "cumul": 31.0,
@@ -9072,52 +9088,56 @@
    },
    {
     "cumul": 21.0,
+    "debut": "2026-10-10T16:30:00.000Z"
+   },
+   {
+    "cumul": 11.0,
     "debut": "2026-10-10T18:00+00:00"
    },
    {
-    "cumul": 46.0,
+    "cumul": 36.0,
     "debut": "2026-10-10T18:30+00:00"
    },
    {
-    "cumul": 71.0,
+    "cumul": 61.0,
     "debut": "2026-10-10T18:45+00:00"
    },
    {
-    "cumul": 61.0,
+    "cumul": 51.0,
     "debut": "2026-10-10T18:45:00.000Z"
    },
    {
-    "cumul": 51.0,
-    "debut": "2026-10-10T19:00+00:00"
-   },
-   {
     "cumul": 41.0,
-    "debut": "2026-10-10T19:00:00.000Z"
+    "debut": "2026-10-10T19:00+00:00"
    },
    {
     "cumul": 31.0,
     "debut": "2026-10-10T19:00:00.000Z"
    },
    {
-    "cumul": 53.5,
+    "cumul": 21.0,
+    "debut": "2026-10-10T19:00:00.000Z"
+   },
+   {
+    "cumul": 43.5,
     "debut": "2026-10-10T19:30+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.24,
-   "en_attente": 9,
+   "en_attente": 8,
    "gagnes": 23,
-   "gain_net": 53.5,
-   "mise_totale": 620.0,
+   "gain_net": 43.5,
+   "mise_totale": 630.0,
    "paris": 71,
-   "perdus": 39,
-   "pire_baisse": -109.0,
+   "perdus": 40,
+   "pire_baisse": -119.0,
    "pire_serie_perdante": 6,
-   "regles": 62,
+   "regles": 63,
    "rembourses": 0,
-   "reussite_pct": 37.1,
-   "roi_pct": 8.6
+   "reussite_pct": 36.5,
+   "roi_pct": 6.9
   },
   "par_bookmaker": {
    "Unibet": {
@@ -9135,61 +9155,61 @@
    },
    "Winamax": {
     "cote_moyenne": 3.36,
-    "en_attente": 8,
+    "en_attente": 7,
     "gagnes": 20,
-    "gain_net": 72.5,
-    "mise_totale": 530.0,
+    "gain_net": 62.5,
+    "mise_totale": 540.0,
     "paris": 61,
-    "perdus": 33,
-    "regles": 53,
+    "perdus": 34,
+    "regles": 54,
     "rembourses": 0,
-    "reussite_pct": 37.7,
-    "roi_pct": 13.7
+    "reussite_pct": 37.0,
+    "roi_pct": 11.6
    }
   },
   "par_horizon": {
    "match": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 23,
-    "gain_net": 53.5,
-    "mise_totale": 620.0,
+    "gain_net": 43.5,
+    "mise_totale": 630.0,
     "paris": 71,
-    "perdus": 39,
-    "regles": 62,
+    "perdus": 40,
+    "regles": 63,
     "rembourses": 0,
-    "reussite_pct": 37.1,
-    "roi_pct": 8.6
+    "reussite_pct": 36.5,
+    "roi_pct": 6.9
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 23,
-    "gain_net": 53.5,
-    "mise_totale": 620.0,
+    "gain_net": 43.5,
+    "mise_totale": 630.0,
     "paris": 71,
-    "perdus": 39,
-    "regles": 62,
+    "perdus": 40,
+    "regles": 63,
     "rembourses": 0,
-    "reussite_pct": 37.1,
-    "roi_pct": 8.6
+    "reussite_pct": 36.5,
+    "roi_pct": 6.9
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.24,
-    "en_attente": 9,
+    "en_attente": 8,
     "gagnes": 23,
-    "gain_net": 53.5,
-    "mise_totale": 620.0,
+    "gain_net": 43.5,
+    "mise_totale": 630.0,
     "paris": 71,
-    "perdus": 39,
-    "regles": 62,
+    "perdus": 40,
+    "regles": 63,
     "rembourses": 0,
-    "reussite_pct": 37.1,
-    "roi_pct": 8.6
+    "reussite_pct": 36.5,
+    "roi_pct": 6.9
    }
   },
   "par_sport": {
@@ -9221,16 +9241,16 @@
    },
    "Football": {
     "cote_moyenne": 3.26,
-    "en_attente": 4,
+    "en_attente": 3,
     "gagnes": 10,
-    "gain_net": 17.5,
-    "mise_totale": 300.0,
+    "gain_net": 7.5,
+    "mise_totale": 310.0,
     "paris": 34,
-    "perdus": 20,
-    "regles": 30,
+    "perdus": 21,
+    "regles": 31,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": 5.8
+    "reussite_pct": 32.3,
+    "roi_pct": 2.4
    },
    "Football Américain": {
     "cote_moyenne": 2.4,
@@ -9353,16 +9373,16 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.49,
-    "en_attente": 3,
+    "en_attente": 2,
     "gagnes": 13,
-    "gain_net": 30.0,
-    "mise_totale": 290.0,
+    "gain_net": 20.0,
+    "mise_totale": 300.0,
     "paris": 32,
-    "perdus": 16,
-    "regles": 29,
+    "perdus": 17,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 44.8,
-    "roi_pct": 10.3
+    "reussite_pct": 43.3,
+    "roi_pct": 6.7
    },
    "3 – 5": {
     "cote_moyenne": 3.62,
@@ -9472,16 +9492,16 @@
    },
    "non évaluable": {
     "cote_moyenne": 3.23,
-    "en_attente": 6,
+    "en_attente": 5,
     "gagnes": 16,
-    "gain_net": 1.5,
-    "mise_totale": 460.0,
+    "gain_net": -8.5,
+    "mise_totale": 470.0,
     "paris": 52,
-    "perdus": 30,
-    "regles": 46,
+    "perdus": 31,
+    "regles": 47,
     "rembourses": 0,
-    "reussite_pct": 34.8,
-    "roi_pct": 0.3
+    "reussite_pct": 34.0,
+    "roi_pct": -1.8
    }
   },
   "paris": [
@@ -10325,14 +10345,14 @@
     "cote_origine": 1.912,
     "debut": "2026-10-10T15:15+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|715781910|2218573139",
     "match": "Ligue 1 McDonald's®",
     "mise": 10.0,
     "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
     "sport": "Football",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "non_evaluable"
    },
    {
@@ -10645,7 +10665,7 @@
     "bookmaker": "Winamax",
     "cote": 6.5,
     "cote_juste": null,
-    "cote_origine": 5.7,
+    "cote_origine": 5.9,
     "debut": "2026-10-11T04:00+00:00",
     "ev_pct": null,
     "gain": null,
