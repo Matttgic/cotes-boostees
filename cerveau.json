@@ -1,29 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 59,
-   "ecarter": 6,
+   "abstention": 67,
+   "ecarter": 7,
    "hors_perimetre": 24,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T07:17:52+00:00",
+  "derniere_observation": "2026-10-11T08:17:01+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 7,
+   "combiné_lie": 9,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 5,
-   "ligne_absente": 8,
+   "ev_insuffisante": 6,
+   "ligne_absente": 9,
    "long_terme": 24,
-   "marche_non_cote": 11,
-   "match_introuvable": 14,
-   "sport_non_suivi": 2
+   "marche_non_cote": 13,
+   "match_introuvable": 16,
+   "sport_non_suivi": 3
   },
-  "observations_reglees": 52,
-  "observes": 89,
+  "observations_reglees": 53,
+  "observes": 98,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T07:17:52+00:00",
+ "derniere_observation": "2026-10-11T08:17:01+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2092,6 +2092,43 @@
    "pari": "Q.Halys remporte au moins un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|194732014|726612005": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-11T12:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "sport_non_suivi",
+     "raisons": [
+      "Sport non suivi par les références"
+     ],
+     "reference_raison": "sport non suivi (Formule 1)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194732014|726612005",
+   "match": "GP Singapour 2026",
+   "pari": "L.Hamilton finira-t-il dans le top 2 ?",
+   "premiere_selection": null,
+   "sport": "Formule 1"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -5114,11 +5151,337 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.35,
+     "cote_juste": 2.562,
+     "decision": "ecarter",
+     "ev_pct": -8.3,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716542596|2221048998",
    "match": "Come - AS Rome",
    "pari": "Plus de 1,5 buts lors de la première mi-temps du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716544315|2221054389": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T16:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.15,
+      "hausse_pct": 11.1,
+      "horizon_heures": 7.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716544315|2221054389",
+   "match": "Sassuolo - Milan AC",
+   "pari": "Milan AC gagne sans encaisser de but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716547950|2221066805": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.35,
+     "cote_juste": 3.766,
+     "decision": "ecarter",
+     "ev_pct": -11.1,
+     "features": {
+      "cote_origine": 2.884,
+      "hausse_pct": 16.2,
+      "horizon_heures": 4.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716547950|2221066805",
+   "match": "Serie A",
+   "pari": "Chaque équipe marque lors des matchs suivants : Lazio Rome - Monza et Lecce - Bologne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716549579|2221070762": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 11.7,
+      "horizon_heures": 4.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716549579|2221070762",
+   "match": "Nice - Strasbourg",
+   "pari": "Strasbourg marque le 1er but et gagne le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716554504|2221084484": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.078,
+      "hausse_pct": 13.7,
+      "horizon_heures": 4.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716554504|2221084484",
+   "match": "Premier League",
+   "pari": "Everton et Crystal Palace marquent chacun le 1er but (respectivement contre Hull City et Nottingham Forest)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716564759|2221111124": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T17:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.014,
+      "hausse_pct": 36.5,
+      "horizon_heures": 8.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716564759|2221111124",
+   "match": "NFL",
+   "pari": "Plus de 2,5 touchdowns dans chacun des 8 matchs à 19h00",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|716568986|2221121857": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T16:30+00:00",
+   "historique": [
+    {
+     "cote": 3.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 13.2,
+      "horizon_heures": 8.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Betis Séville - Osasuna) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716568986|2221121857",
+   "match": "Betis Séville - Osasuna",
+   "pari": "Betis Séville gagne les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716574450|2221135819": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T18:45+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 10.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716574450|2221135819",
+   "match": "Cagliari - Juventus",
+   "pari": "Juventus gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|716575629|2221138559": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T15:15+00:00",
+   "historique": [
+    {
+     "cote": 3.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 11.7,
+      "horizon_heures": 7.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T08:17:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716575629|2221138559",
+   "match": "Rennes - Auxerre",
+   "pari": "Esteban Lepaul marque au moins un but en 1ère mi-temps",
    "premiere_selection": null,
    "sport": "Football"
   }
