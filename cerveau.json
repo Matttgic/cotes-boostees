@@ -1,29 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 74,
+   "abstention": 75,
    "ecarter": 7,
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-11T12:13:30+00:00",
+  "derniere_observation": "2026-10-11T13:12:44+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 11,
+   "combiné_lie": 9,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 6,
-   "ligne_absente": 9,
+   "ligne_absente": 8,
    "long_terme": 25,
    "marche_non_cote": 14,
-   "match_introuvable": 19,
+   "match_introuvable": 23,
    "sport_non_suivi": 4
   },
   "observations_reglees": 53,
-  "observes": 106,
+  "observes": 107,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-11T12:13:30+00:00",
+ "derniere_observation": "2026-10-11T13:12:44+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2020,6 +2020,32 @@
       "Marché ou ligne identique indisponible"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Rennes - Auxerre) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -5227,6 +5253,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 11.9,
+      "horizon_heures": 5.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Troyes - Marseille) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None EXT)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716536781|2221031588",
@@ -5422,6 +5474,32 @@
       "Conditions liées : probabilité seulement approximative"
      ],
      "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 9.4,
+      "horizon_heures": 2.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Sassuolo - Milan AC) ; Betfair : ligne absente (TOTAL_DOM MATCH 0.5 MOINS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -5693,6 +5771,32 @@
      "reference_raison": "Pinnacle : match introuvable (Betis Séville - Osasuna) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Betis Séville - Osasuna) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|716568986|2221121857",
@@ -5791,6 +5895,32 @@
       "Marché ou ligne identique indisponible"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 11.7,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Rennes - Auxerre) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -6048,6 +6178,43 @@
    "pari": "HC Dynamo Pardubice gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|716781634|2221717319": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-11T20:05+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.996,
+      "hausse_pct": 25.2,
+      "horizon_heures": 6.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-11T13:12:44+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 42.5 PLUS) ; Betfair : ligne absente (TOTAL MATCH 42.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|716781634|2221717319",
+   "match": "NFL",
+   "pari": "Plus de 42,5 points lors de chacun des matchs suivants : Los Angeles Chargers - Denver Broncos, Arizona Cardinals - Detroit Lions et Seattle Seahawks - San Francisco 49ers",
+   "premiere_selection": null,
+   "sport": "Football Américain"
   }
  },
  "modele": "observation-v1",
