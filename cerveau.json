@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 83,
-   "ecarter": 10,
+   "abstention": 85,
+   "ecarter": 11,
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-12T05:39:03+00:00",
+  "derniere_observation": "2026-10-12T06:09:01+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,15 +15,16 @@
    "ancien_format": 17,
    "combiné_lie": 16,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 9,
+   "ev_insuffisante": 10,
    "ligne_absente": 11,
    "long_terme": 25,
    "marche_non_cote": 15,
-   "match_introuvable": 20,
+   "match_introuvable": 21,
+   "reference_absente": 1,
    "sport_non_suivi": 4
   },
   "observations_reglees": 86,
-  "observes": 118,
+  "observes": 121,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-12T05:39:03+00:00",
+ "derniere_observation": "2026-10-12T06:09:01+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -7206,6 +7207,119 @@
    "pari": "Au moins un Tie-break lors du match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|717321904|2223407553": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T12:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.744,
+      "hausse_pct": 18.4,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T06:09:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717321904|2223407553",
+   "match": "LaLiga 2",
+   "pari": "Plus de 1,5 buts dans chacun des 4 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|717326129|2223419314": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T13:30+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": 4.384,
+     "decision": "ecarter",
+     "ev_pct": -3.1,
+     "features": {
+      "cote_origine": 3.75,
+      "hausse_pct": 13.3,
+      "horizon_heures": 7.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T06:09:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717326129|2223419314",
+   "match": "Alexandra Eala - Han Shi",
+   "pari": "Alexandra Eala gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|717329533|2223429342": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T16:00+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 16.7,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T06:09:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 166.5 PLUS) ; Betfair : match introuvable (Galatasaray - Bursaspor Durmazlar)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717329533|2223429342",
+   "match": "Galatasaray - Bursaspor Durmazlar",
+   "pari": "Galatasaray gagne et plus de 166,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
