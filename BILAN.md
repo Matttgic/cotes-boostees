@@ -6,7 +6,7 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 | Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |
 |---|---|---|---|---|---|
-| **A — témoin** | 4 / 17 | 85 € | **+80,00 €** | **+94,1 %** | -19,4 % (7 paris) |
+| **A — témoin** | 5 / 17 | 105 € | **+60,00 €** | **+57,1 %** | -19,4 % (7 paris) |
 | **B — valeur ≥ +5 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **B0 — valeur ≥ 0 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **D — hypothèse (cotes 1,60–3,50)** | 2 / 10 | 20 € | **+12,50 €** | **+62,5 %** | -31,7 % (4 paris) |
@@ -15,19 +15,19 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 12/10 18h41 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 12/10 19h40 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 111 / 151 | 2310 € | **-34,50 €** | **-1,5 %** | -471,00 € |
+| **A — tout miser** | 112 / 151 | 2330 € | **-54,50 €** | **-2,3 %** | -471,00 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 3 / 4 | 60 € | **+85,00 €** | **+141,7 %** | -20,00 € |
-| **C — 10 € maximum** | 111 / 151 | 1110 € | **-15,00 €** | **-1,4 %** | -226,00 € |
+| **C — 10 € maximum** | 112 / 151 | 1120 € | **-25,00 €** | **-2,2 %** | -226,00 € |
 | **D — cote 1,60–3,50** | 77 / 103 | 770 € | **+1,00 €** | **+0,1 %** | -131,00 € |
-| **E — dans les 48 h** | 111 / 122 | 1110 € | **-15,00 €** | **-1,4 %** | -226,00 € |
+| **E — dans les 48 h** | 112 / 122 | 1120 € | **-25,00 €** | **-2,2 %** | -226,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 103 / 114 | 1030 € | **+8,50 €** | **+0,8 %** | -199,50 € |
+| **H — un boost/match** | 104 / 114 | 1040 € | **-1,50 €** | **-0,1 %** | -199,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 
@@ -40,7 +40,7 @@ Mis à jour le 12/10 18h41 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyenne 3,26 · pire série perdante 9
+A en détail : 36 gagnés, 76 perdus, 0 remboursés, 39 en attente · cote moyenne 3,26 · pire série perdante 9
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -53,7 +53,7 @@ A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyen
 | EV 10 % et + (exacte) | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | EV 5 à 10 % (approx) | 1 / 2 | 20 € | +55,00 € | +275,0 % | 100 % |
 | EV < 0 (approx) | 15 / 19 | 300 € | -192,00 € | -64,0 % | 13 % |
-| EV < 0 (exacte) | 13 / 14 | 260 € | +149,00 € | +57,3 % | 46 % |
+| EV < 0 (exacte) | 14 / 14 | 280 € | +129,00 € | +46,1 % | 43 % |
 | non évaluable | 78 / 112 | 1650 € | -36,50 € | -2,2 % | 33 % |
 
 ### A par bookmaker
@@ -61,20 +61,20 @@ A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyen
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 18 / 46 | 450 € | -22,50 € | -5,0 % | 39 % |
-| Winamax | 93 / 105 | 1860 € | -12,00 € | -0,6 % | 31 % |
+| Winamax | 94 / 105 | 1880 € | -32,00 € | -1,7 % | 31 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 29 | 0 € | +0,00 € | – | – |
-| match | 111 / 122 | 2310 € | -34,50 € | -1,5 % | 32 % |
+| match | 112 / 122 | 2330 € | -54,50 € | -2,3 % | 32 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 93 / 105 | 1860 € | -12,00 € | -0,6 % | 31 % |
+| 20 € | 94 / 105 | 1880 € | -32,00 € | -1,7 % | 31 % |
 | 25 € | 18 / 46 | 450 € | -22,50 € | -5,0 % | 39 % |
 
 ### A par tranche de cote
@@ -83,7 +83,7 @@ A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyen
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2 – 3 | 44 / 57 | 955 € | +20,50 € | +2,1 % | 41 % |
-| 3 – 5 | 61 / 75 | 1235 € | -35,00 € | -2,8 % | 28 % |
+| 3 – 5 | 62 / 75 | 1255 € | -55,00 € | -4,4 % | 27 % |
 | 5 – 10 | 6 / 10 | 120 € | -20,00 € | -16,7 % | 17 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -101,14 +101,14 @@ A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyen
 | Judo | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Rugby | 3 / 3 | 75 € | -12,50 € | -16,7 % | 33 % |
 | Rugby à XV | 5 / 5 | 100 € | +47,00 € | +47,0 % | 60 % |
-| Tennis | 15 / 17 | 320 € | +245,00 € | +76,6 % | 60 % |
+| Tennis | 16 / 17 | 340 € | +225,00 € | +66,2 % | 56 % |
 | Tennis de table | 1 / 1 | 20 € | +75,00 € | +375,0 % | 100 % |
 
 ### A par mois
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 111 / 151 | 2310 € | -34,50 € | -1,5 % | 32 % |
+| 2026-10 | 112 / 151 | 2330 € | -54,50 € | -2,3 % | 32 % |
 
 ### Derniers paris
 
@@ -146,7 +146,7 @@ A en détail : 36 gagnés, 75 perdus, 0 remboursés, 40 en attente · cote moyen
 | 12/10 19h10 · Buffalo Sabres - Florida Panthers | Matthew Tkachuk + Tage Thompson marquent 2 buts ou plus (avec Garantie Golden Goal) | 4,0 | – | – | 20 € | ⏳ |
 | 12/10 18h30 · Atalanta - Venise | Atalanta gagne et les deux équipes marquent | 2,8 | – | – | 20 € | ⏳ |
 | 12/10 18h00 · Galatasaray - Bursaspor Durmazlar | Galatasaray gagne et plus de 166,5 points dans le match | 3,15 | – | – | 20 € | ⏳ |
-| 12/10 15h30 · Alexandra Eala - Han Shi | Alexandra Eala gagne 2-1 | 4,25 | 4,384 | -3,1 % | 20 € | ⏳ |
+| 12/10 15h30 · Alexandra Eala - Han Shi | Alexandra Eala gagne 2-1 | 4,25 | 4,384 | -3,1 % | 20 € | ❌ -20,00 € |
 | 12/10 14h00 · LaLiga 2 | Plus de 1,5 buts dans chacun des 4 matchs du jour | 3,25 | – | – | 20 € | ⏳ |
 | 12/10 13h00 · A.Fils - Van De Zandsch | A.Fils remporte le 1er set et moins de 9,5 jeux dans le set ? | 2,5 | – | – | 25 € | ❌ -25,00 € |
 | 12/10 12h00 · Zizou Bergs - Carlos Alcaraz | Au moins un Tie-break lors du match | 3,25 | – | – | 20 € | ✅ +45,00 € |
