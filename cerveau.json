@@ -6,7 +6,7 @@
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-12T03:40:53+00:00",
+  "derniere_observation": "2026-10-12T04:39:53+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -22,7 +22,7 @@
    "match_introuvable": 20,
    "sport_non_suivi": 4
   },
-  "observations_reglees": 83,
+  "observations_reglees": 85,
   "observes": 116,
   "paris_en_attente": 0,
   "paris_regles": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-12T03:40:53+00:00",
+ "derniere_observation": "2026-10-12T04:39:53+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -7050,6 +7050,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-12T03:40:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 5.0,
+     "cote_juste": 6.239,
+     "decision": "ecarter",
+     "ev_pct": -19.9,
+     "features": {
+      "cote_origine": 4.4,
+      "hausse_pct": 13.6,
+      "horizon_heures": 0.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T04:39:53+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
