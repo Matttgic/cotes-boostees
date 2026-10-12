@@ -2,11 +2,11 @@
 
 ## Protocole gelé (gel-1) — seuls ces résultats comptent
 
-Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées uniquement sur les boosts découverts après (12 pour l'instant).
+Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées uniquement sur les boosts découverts après (13 pour l'instant).
 
 | Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |
 |---|---|---|---|---|---|
-| **A — témoin** | 1 / 12 | 20 € | **-20,00 €** | **-100,0 %** | -20,4 % (4 paris) |
+| **A — témoin** | 1 / 13 | 20 € | **-20,00 €** | **-100,0 %** | -20,4 % (4 paris) |
 | **B — valeur ≥ +5 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **B0 — valeur ≥ 0 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **D — hypothèse (cotes 1,60–3,50)** | 0 / 8 | 0 € | **+0,00 €** | **–** | -32,0 % (2 paris) |
@@ -15,19 +15,19 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 12/10 10h07 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 12/10 11h06 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 108 / 146 | 2245 € | **-134,50 €** | **-6,0 %** | -471,00 € |
+| **A — tout miser** | 108 / 147 | 2245 € | **-134,50 €** | **-6,0 %** | -471,00 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 3 / 3 | 60 € | **+85,00 €** | **+141,7 %** | -20,00 € |
-| **C — 10 € maximum** | 108 / 146 | 1080 € | **-67,50 €** | **-6,2 %** | -226,00 € |
+| **C — 10 € maximum** | 108 / 147 | 1080 € | **-67,50 €** | **-6,2 %** | -226,00 € |
 | **D — cote 1,60–3,50** | 75 / 101 | 750 € | **-11,50 €** | **-1,5 %** | -131,00 € |
-| **E — dans les 48 h** | 108 / 118 | 1080 € | **-67,50 €** | **-6,2 %** | -226,00 € |
+| **E — dans les 48 h** | 108 / 119 | 1080 € | **-67,50 €** | **-6,2 %** | -226,00 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 100 / 110 | 1000 € | **-44,00 €** | **-4,4 %** | -199,50 € |
+| **H — un boost/match** | 100 / 111 | 1000 € | **-44,00 €** | **-4,4 %** | -199,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 
@@ -40,7 +40,7 @@ Mis à jour le 12/10 10h07 (heure de Paris). Argent fictif : A/B à la mise max 
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyenne 3,23 · pire série perdante 9
+A en détail : 34 gagnés, 74 perdus, 0 remboursés, 39 en attente · cote moyenne 3,24 · pire série perdante 9
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -54,27 +54,27 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 | EV 5 à 10 % (approx) | 1 / 1 | 20 € | +55,00 € | +275,0 % | 100 % |
 | EV < 0 (approx) | 15 / 17 | 300 € | -192,00 € | -64,0 % | 13 % |
 | EV < 0 (exacte) | 12 / 14 | 240 € | +69,00 € | +28,7 % | 42 % |
-| non évaluable | 76 / 110 | 1605 € | -56,50 € | -3,5 % | 33 % |
+| non évaluable | 76 / 111 | 1605 € | -56,50 € | -3,5 % | 33 % |
 
 ### A par bookmaker
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Unibet | 17 / 45 | 425 € | +2,50 € | +0,6 % | 41 % |
-| Winamax | 91 / 101 | 1820 € | -137,00 € | -7,5 % | 30 % |
+| Winamax | 91 / 102 | 1820 € | -137,00 € | -7,5 % | 30 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 28 | 0 € | +0,00 € | – | – |
-| match | 108 / 118 | 2245 € | -134,50 € | -6,0 % | 32 % |
+| match | 108 / 119 | 2245 € | -134,50 € | -6,0 % | 32 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 20 € | 91 / 101 | 1820 € | -137,00 € | -7,5 % | 30 % |
+| 20 € | 91 / 102 | 1820 € | -137,00 € | -7,5 % | 30 % |
 | 25 € | 17 / 45 | 425 € | +2,50 € | +0,6 % | 41 % |
 
 ### A par tranche de cote
@@ -83,7 +83,7 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 |---|---|---|---|---|---|
 | 10 et + | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2 – 3 | 43 / 55 | 930 € | +45,50 € | +4,9 % | 42 % |
-| 3 – 5 | 60 / 73 | 1215 € | -80,00 € | -6,6 % | 27 % |
+| 3 – 5 | 60 / 74 | 1215 € | -80,00 € | -6,6 % | 27 % |
 | 5 – 10 | 5 / 9 | 100 € | -100,00 € | -100,0 % | 0 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -97,7 +97,7 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 | Football Américain | 5 / 5 | 100 € | -100,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 3 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
-| Hockey sur glace | 11 / 11 | 220 € | -95,00 € | -43,2 % | 18 % |
+| Hockey sur glace | 11 / 12 | 220 € | -95,00 € | -43,2 % | 18 % |
 | Judo | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Rugby | 3 / 3 | 75 € | -12,50 € | -16,7 % | 33 % |
 | Rugby à XV | 5 / 5 | 100 € | +47,00 € | +47,0 % | 60 % |
@@ -108,7 +108,7 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 108 / 146 | 2245 € | -134,50 € | -6,0 % | 32 % |
+| 2026-10 | 108 / 147 | 2245 € | -134,50 € | -6,0 % | 32 % |
 
 ### Derniers paris
 
@@ -139,12 +139,13 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 | 12/10 21h00 · Levante - FC Séville | FC Séville gagne le match 1-0, 2-0 ou 3-0 | 4,75 | – | – | 20 € | ⏳ |
 | 12/10 21h00 · Coventry - Newcastle | Newcastle gagne à la mi-temps et à la fin du match | 3,5 | 6,682 | -47,6 % ≈ | 20 € | ⏳ |
 | 12/10 20h45 · Top Football Européen (12/10) | Au moins 2 joueurs marquent dans le Quatuor : Y.Wissa/G.Simeone/Pape Moussa Fall/R.Ure ? (Remboursé si non titulaire(s)) | 2,3 | – | – | 25 € | ⏳ |
+| 12/10 19h10 · Buffalo Sabres - Florida Panthers | Matthew Tkachuk + Tage Thompson marquent 2 buts ou plus (avec Garantie Golden Goal) | 4,0 | – | – | 20 € | ⏳ |
 | 12/10 18h30 · Atalanta - Venise | Atalanta gagne et les deux équipes marquent | 2,8 | – | – | 20 € | ⏳ |
 | 12/10 18h00 · Galatasaray - Bursaspor Durmazlar | Galatasaray gagne et plus de 166,5 points dans le match | 3,15 | – | – | 20 € | ⏳ |
 | 12/10 15h30 · Alexandra Eala - Han Shi | Alexandra Eala gagne 2-1 | 4,25 | 4,384 | -3,1 % | 20 € | ⏳ |
 | 12/10 14h00 · LaLiga 2 | Plus de 1,5 buts dans chacun des 4 matchs du jour | 3,25 | – | – | 20 € | ⏳ |
+| 12/10 12h30 · A.Fils - Van De Zandsch | A.Fils remporte le 1er set et moins de 9,5 jeux dans le set ? | 2,5 | – | – | 25 € | ⏳ |
 | 12/10 12h00 · Zizou Bergs - Carlos Alcaraz | Au moins un Tie-break lors du match | 3,25 | – | – | 20 € | ⏳ |
-| 12/10 11h00 · A.Fils - Van De Zandsch | A.Fils remporte le 1er set et moins de 9,5 jeux dans le set ? | 2,5 | – | – | 25 € | ⏳ |
 | 12/10 09h30 · Arthur Fils - Botic van de Zandschulp | Arthur Fils gagne et moins de 21,5 jeux dans le match | 2,25 | 2,695 | -16,5 % ≈ | 20 € | ⏳ |
 | 12/10 07h10 · Jiri Lehecka - Rafael Jodar | Rafael Jodar gagne 2-1 | 5,0 | 5,843 | -14,4 % | 20 € | ⏳ |
 | 12/10 06h00 · Pablo Carreno-Busta - Felix Auger-Aliassime | Felix Auger-Aliassime gagne 2-1 | 3,55 | 4,412 | -19,5 % | 20 € | ✅ +51,00 € |
@@ -153,6 +154,5 @@ A en détail : 34 gagnés, 74 perdus, 0 remboursés, 38 en attente · cote moyen
 | 12/10 02h00 · Milwaukee Brewers - Los Angeles Dodgers | Les deux équipes marquent chacune au moins 3 runs | 3,2 | 3,254 | -1,7 % ≈ | 20 € | ❌ -20,00 € |
 | 12/10 01h15 · Philadelphia Flyers - Carolina Hurricanes | Philadelphia Flyers remportent le premier tiers-temps. | 3,5 | 3,807 | -8,1 % | 20 € | ❌ -20,00 € |
 | 12/10 01h10 · Pachuca - Necaxa | Pachuca gagne sans concéder de but | 3,25 | 5,458 | -40,5 % ≈ | 20 € | ❌ -20,00 € |
-| 12/10 01h00 · St. Louis City - Los Angeles Galaxy | St. Louis City gagne les deux mi-temps | 3,55 | 3,044 | +16,6 % ≈ | 20 € | ❌ -20,00 € |
 
 ≈ : calcul approché (conditions liées sur un même match).

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 88,
+   "abstention": 89,
    "ecarter": 11,
    "hors_perimetre": 26,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-12T08:07:15+00:00",
+  "derniere_observation": "2026-10-12T09:06:35+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,14 +16,14 @@
    "combiné_lie": 17,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 10,
-   "ligne_absente": 12,
+   "ligne_absente": 13,
    "long_terme": 26,
    "marche_non_cote": 15,
    "match_introuvable": 23,
    "sport_non_suivi": 4
   },
   "observations_reglees": 87,
-  "observes": 125,
+  "observes": 126,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-12T08:07:15+00:00",
+ "derniere_observation": "2026-10-12T09:06:35+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -7338,6 +7338,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.25,
+     "cote_juste": 4.315,
+     "decision": "ecarter",
+     "ev_pct": -1.5,
+     "features": {
+      "cote_origine": 3.75,
+      "hausse_pct": 13.3,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T09:06:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|717326129|2223419314",
@@ -7419,6 +7447,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-12T08:07:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 166.5 PLUS) ; Betfair : match introuvable (Galatasaray - Bursaspor Durmazlar)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 17.6,
+      "horizon_heures": 6.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T09:06:35+00:00",
      "mise_fictive": null,
      "motif_code": "match_introuvable",
      "raisons": [
@@ -7538,6 +7592,32 @@
      "reference_raison": "Pinnacle : ligne absente (TOTAL_EXT MATCH 3.5 MOINS) ; Betfair : ligne absente (TOTAL_EXT MATCH 3.5 MOINS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 9.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T09:06:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL_EXT MATCH 3.5 MOINS) ; Betfair : ligne absente (TOTAL_EXT MATCH 3.5 MOINS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|717343538|2223467247",
@@ -7545,6 +7625,43 @@
    "pari": "FC Séville gagne le match 1-0, 2-0 ou 3-0",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|717415027|2223660080": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T17:10+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.55,
+      "hausse_pct": 12.7,
+      "horizon_heures": 8.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T09:06:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717415027|2223660080",
+   "match": "Buffalo Sabres - Florida Panthers",
+   "pari": "Matthew Tkachuk + Tage Thompson marquent 2 buts ou plus (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
