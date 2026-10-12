@@ -1,29 +1,29 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 81,
+   "abstention": 83,
    "ecarter": 10,
    "hors_perimetre": 25,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-12T04:39:53+00:00",
+  "derniere_observation": "2026-10-12T05:39:03+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 15,
+   "combiné_lie": 16,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 9,
    "ligne_absente": 11,
    "long_terme": 25,
-   "marche_non_cote": 14,
+   "marche_non_cote": 15,
    "match_introuvable": 20,
    "sport_non_suivi": 4
   },
-  "observations_reglees": 85,
-  "observes": 116,
+  "observations_reglees": 86,
+  "observes": 118,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +31,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-12T04:39:53+00:00",
+ "derniere_observation": "2026-10-12T05:39:03+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -7132,6 +7132,80 @@
    "pari": "Plus de 53,5 points lors du match",
    "premiere_selection": null,
    "sport": "Football Américain"
+  },
+  "winamax|717312650|2223381588": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T07:30+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 1.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T05:39:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717312650|2223381588",
+   "match": "Arthur Fils - Botic van de Zandschulp",
+   "pari": "Arthur Fils gagne et moins de 21,5 jeux dans le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|717314089|2223386352": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-12T10:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 18.2,
+      "horizon_heures": 4.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-12T05:39:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|717314089|2223386352",
+   "match": "Zizou Bergs - Carlos Alcaraz",
+   "pari": "Au moins un Tie-break lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
