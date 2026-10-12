@@ -1,33 +1,9 @@
 {
- "boosts_total": 148,
+ "boosts_total": 149,
  "cache_unibet": {
   "3381006": {
    "age": 0,
    "boosts": [
-    {
-     "bookmaker": "Unibet",
-     "cote_boostee": 2.45,
-     "cote_origine": null,
-     "debut": "2026-10-20T17:00:00.000Z",
-     "disponible": true,
-     "hausse_pct": null,
-     "id": "unibet|193344653|720327540",
-     "intitule_brut": "MIA Heat - Le Heat remporte la Division Sud-Est (Mise max 25€)",
-     "ligue": "Cotes Boostées NBA",
-     "long_terme": true,
-     "match": "Paris Trashtalk 26/27",
-     "mise_max": 25.0,
-     "mise_max_supposee": false,
-     "pari": "MIA Heat - Le Heat remporte la Division Sud-Est",
-     "ref": {
-      "event_id": 3381006,
-      "market_id": 193344653,
-      "outcome_id": 720327540,
-      "periode": "Temps réglementaire"
-     },
-     "sport": "Basketball",
-     "type": "cote boostée"
-    },
     {
      "bookmaker": "Unibet",
      "cote_boostee": 7.5,
@@ -533,57 +509,94 @@
      "type": "cote boostée"
     }
    ],
-   "count": 22
+   "count": 21
   }
  },
  "dernier_passage": {
   "bookmakers": {
    "unibet": {
-    "boosts_en_ligne": 24,
-    "cotes_modifiees": 1,
-    "nouveaux": 1
-   },
-   "winamax": {
-    "boosts_en_ligne": 7,
+    "boosts_en_ligne": 23,
     "cotes_modifiees": 0,
     "nouveaux": 0
+   },
+   "winamax": {
+    "boosts_en_ligne": 8,
+    "cotes_modifiees": 0,
+    "nouveaux": 1
    }
   },
   "cerveau": {
-   "boosts_observes": 127,
-   "decisions_enregistrees": 3,
+   "boosts_observes": 128,
+   "decisions_enregistrees": 2,
    "nouveaux_boosts": 1
   },
-  "date": "2026-10-12T10:05:44+00:00",
+  "date": "2026-10-12T11:04:52+00:00",
   "evaluation": {
-   "approx": 1,
-   "decomposes": 0,
+   "approx": 2,
+   "decomposes": 1,
    "echecs_decomposition": 0,
    "evalues": 8,
    "exactes": 1,
-   "non_evaluables": 6,
-   "requetes_pulsescore": 10
+   "non_evaluables": 5,
+   "requetes_pulsescore": 6
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 587739,
+  "octets_proxy": 592622,
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
    "inconnus": 0,
-   "jetons": {
-    "gpt-6-luna": {
-     "entree": 32055,
-     "sortie": 794
-    }
-   },
-   "recherches": 4,
-   "regles": 1,
-   "soumis": 1
+   "jetons": {},
+   "recherches": 0,
+   "regles": 0,
+   "soumis": 0
   },
   "reglements_manuels": 0,
   "requetes": 3
  },
  "journal": [
+  {
+   "bookmakers": {
+    "unibet": {
+     "boosts_en_ligne": 23,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 8,
+     "cotes_modifiees": 0,
+     "nouveaux": 1
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 128,
+    "decisions_enregistrees": 2,
+    "nouveaux_boosts": 1
+   },
+   "date": "2026-10-12T11:04:52+00:00",
+   "evaluation": {
+    "approx": 2,
+    "decomposes": 1,
+    "echecs_decomposition": 0,
+    "evalues": 8,
+    "exactes": 1,
+    "non_evaluables": 5,
+    "requetes_pulsescore": 6
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 592622,
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 3
+  },
   {
    "bookmakers": {
     "unibet": {
@@ -4911,5 +4924,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 44901463
+ "octets_proxy_total": 45494085
 }
