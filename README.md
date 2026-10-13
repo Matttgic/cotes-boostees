@@ -2,7 +2,7 @@
 
 **Webapp : https://cotes-boostees-five.vercel.app/** — interface de consultation, reliée à la branche `donnees`. Documentation : [`SITE.md`](SITE.md).
 
-Suivi des cotes boostées de **Winamax, Unibet et PMU** pour savoir si elles sont rentables.
+Suivi des cotes boostées de **Winamax, Unibet et OlyBet** (PMU inaccessible) pour savoir si elles sont rentables.
 
 Neuf variantes de simulation en parallèle, en argent fictif : trois originales A/B1/B2 et six challengers C–H.
 
@@ -93,6 +93,7 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 | Winamax | ✅ collecté (`boosts/winamax.py`) |
 | PMU | ⛔ boosts visibles seulement une fois connecté (offre Kambi « pmusportsfr » publique, mais sans boosts) |
 | Unibet | ✅ collecté (`boosts/unibet.py`) : page /cotes-boostees + page de chaque paquet de boosts, par la zone ISP (le Web Unlocker refuse les sites de jeux sans vérification d'identité ; l'offre Kambi « ub » est Unibet international, pas unibet.fr). Mise max lue dans l'intitulé (25 € par défaut). Paris de saison marqués « long terme » : pas de valeur Pinnacle, règlement à partir de 120 jours puis chaque semaine |
+| OlyBet | ✅ collecté depuis le 13/10/2026 (`boosts/olybet.py`) : API « swarm » de BetConstruct (WebSocket) avec l'identifiant du site **olybet.fr** (offre française uniquement), sans proxy. Cote d'origine non publiée. Gain net plafonné à 25 € → mise max = 25 / (cote − 1). **Hors protocole gelé** (bilan propre dans « par bookmaker ») |
 
 Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
 
@@ -100,7 +101,7 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 
 Pour ne pas « optimiser » sur le hasard des premiers résultats, quatre stratégies sont figées et jugées
 **uniquement sur les boosts découverts après le gel** (`boosts/simulation.py`, `DATE_GEL`) :
-A (témoin), B (valeur ≥ +5 %, exacte ou interpolée, mise max), B0 (valeur ≥ 0 %), D (hypothèse : cotes
+Population : Winamax et Unibet uniquement (`BOOKMAKERS_GEL`). A (témoin), B (valeur ≥ +5 %, exacte ou interpolée, mise max), B0 (valeur ≥ 0 %), D (hypothèse : cotes
 1,60–3,50, 10 € max, repérée en regardant les premiers résultats). Indicateur principal à court terme :
 la **valeur moyenne jouée** (cote prise face à la cote juste), bien moins bruitée que le ROI.
 Les autres stratégies restent calculées pour mémoire. Diagnostic des boosts non évaluables :

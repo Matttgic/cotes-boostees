@@ -50,6 +50,9 @@ REGLES_BOOKMAKER = {
         "Règles Unibet : sauf mention contraire, temps réglementaire (« Temps réglementaire » ou « 80 Mins » au "
         "rugby) ; un pari sur un joueur qui ne débute pas le match est remboursé ; pour les paris de saison "
         "(moyennes, meilleurs marqueurs…), le pari est perdu si le seuil de matchs joués indiqué n'est pas atteint."),
+    "OlyBet": (
+        "Règles OlyBet : la date entre parenthèses (JJ.MM.AAAA) dans l'intitulé est celle du match ; au football, "
+        "temps réglementaire (90 min + arrêts de jeu) sauf mention contraire."),
 }
 
 CONSIGNE = """Tu règles un pari sportif déjà joué. Cherche le résultat réel sur le web (sources fiables :

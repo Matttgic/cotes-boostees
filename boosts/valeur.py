@@ -27,7 +27,7 @@ from .correspondance import matchs_de, ressemblance
 # sport Winamax (catégorie des cotes boostées) → sport commun de pinnacle.py
 SPORTS = {"football": "football", "tennis": "tennis", "basketball": "basket", "basket": "basket",
           "hockey sur glace": "hockey", "football américain": "football_americain", "baseball": "baseball",
-          "handball": "handball", "volley-ball": "volley", "volley": "volley", "rugby à xv": "rugby",
+          "handball": "handball", "volley-ball": "volley", "volleyball": "volley", "volley": "volley", "rugby à xv": "rugby",
           "rugby": "rugby", "mma": "mma", "boxe": "boxe", "fléchettes": "flechettes", "esport": "esport",
           "cricket": "cricket", "tennis de table": "tennis_de_table", "snooker": "snooker"}
 UNITES = {"buts": "", "sets": "SETS_", "jeux": "JEUX_", "corners": "CORNERS_"}

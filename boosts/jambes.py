@@ -26,7 +26,7 @@ CONSIGNE = """Décompose ce pari sportif en conditions élémentaires (« jambes
 pour que le pari soit gagné.
 
 Sport : {sport}
-Titre Winamax : {match}
+Titre chez le bookmaker : {match}
 Pari : « {pari} »
 
 Réponds UNIQUEMENT par un objet JSON :
@@ -68,7 +68,8 @@ Règles de traduction :
 - « Les deux équipes marquent » au football → les_deux_marquent ; dans un autre sport (« chacune au moins
   3 runs ») → une jambe total_equipe par équipe.
 - Tout le reste (score exact, buteur à un moment précis, statistique impossible à exprimer ainsi…) → autre.
-- Noms d'équipes et de joueurs écrits comme dans le titre ou le pari, sans traduction."""
+- Noms d'équipes et de joueurs écrits comme dans le titre ou le pari, sans traduction.
+- L'intitulé peut être en anglais (« X to win and Y to score ») : même traduction."""
 
 
 def consigne(b: dict) -> str:

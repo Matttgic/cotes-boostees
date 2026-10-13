@@ -58,3 +58,11 @@ def test_valeur_moyenne_jouee():
     b = base(boost(1, vu=APRES, ev=8), boost(2, vu=APRES, ev=2), boost(3, vu=APRES))
     g = simulation.bilan(b)["global"]
     assert g["ev_moyenne_pct"] == 5.0 and g["paris_avec_ev"] == 2
+
+
+def test_olybet_hors_protocole_gele_mais_dans_les_strategies():
+    oly = {**boost(4, vu=APRES, issue="gagné"), "id": "olybet|4|4", "bookmaker": "OlyBet"}
+    b = base(boost(2, vu=APRES, issue="perdu"), oly)
+    p = simulation.protocole(b)
+    assert p["boosts_apres_gel"] == 1 and p["bookmakers"] == ["Winamax", "Unibet"]
+    assert "OlyBet" in simulation.strategies(b)["A"]["par_bookmaker"]

@@ -37,6 +37,9 @@ SUIVIES = {"A": "A — témoin : tous les boosts, mise max",
            "B0_valeur": "B0 — valeur ≥ 0 % (exacte ou interpolée), mise max",
            "D_moderee": "D — hypothèse : cotes 1,60 à 3,50, 10 € max"}
 STATUTS_FIABLES = ("exacte", "interpolee")
+# population du protocole gelé : les bookmakers suivis au moment du gel (OlyBet, ajouté le 13/10, a son
+# propre bilan dans les stratégies « pour mémoire » mais ne modifie pas l'échantillon gelé)
+BOOKMAKERS_GEL = ("Winamax", "Unibet")
 TRANCHES_VALEUR = [(-1e9, 0.0, "EV < 0"), (0.0, 5.0, "EV 0 à 5 %"), (5.0, 10.0, "EV 5 à 10 %"),
                    (10.0, 1e9, "EV 10 % et +")]
 TRANCHES = [(1.0, 2.0, "< 2"), (2.0, 3.0, "2 – 3"), (3.0, 5.0, "3 – 5"), (5.0, 10.0, "5 – 10"),
@@ -191,7 +194,8 @@ def _valeur(base: dict[str, dict], seuil: float, nom: str) -> dict:
 
 def apres_gel(base: dict[str, dict]) -> dict[str, dict]:
     gel = _instant(DATE_GEL)
-    return {k: b for k, b in base.items() if (vu := _instant(b.get("premiere_vue"))) is not None and vu >= gel}
+    return {k: b for k, b in base.items() if (vu := _instant(b.get("premiere_vue"))) is not None and vu >= gel
+            and b.get("bookmaker") in BOOKMAKERS_GEL}
 
 
 def protocole(base: dict[str, dict]) -> dict:
@@ -205,4 +209,5 @@ def protocole(base: dict[str, dict]) -> dict:
     leger = lambda x: {"strategie": x["strategie"], "global": x["global"], "courbe": x["courbe"],
                        "par_bookmaker": x["par_bookmaker"], "par_valeur": x["par_valeur"]}
     return {"version": VERSION_PROTOCOLE, "date_gel": DATE_GEL, "suivies": list(SUIVIES),
+            "bookmakers": list(BOOKMAKERS_GEL),
             "boosts_apres_gel": len(recents), "apres_gel": {k: leger(v) for k, v in apres.items()}}
