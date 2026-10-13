@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 118,
-   "ecarter": 13,
+   "abstention": 121,
+   "ecarter": 16,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T20:20:32+00:00",
+  "derniere_observation": "2026-10-13T21:19:42+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,16 +15,16 @@
    "ancien_format": 17,
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 12,
-   "ligne_absente": 19,
+   "ev_insuffisante": 15,
+   "ligne_absente": 20,
    "long_terme": 30,
-   "marche_non_cote": 20,
-   "match_introuvable": 33,
+   "marche_non_cote": 21,
+   "match_introuvable": 34,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
-  "observations_reglees": 105,
-  "observes": 161,
+  "observations_reglees": 108,
+  "observes": 167,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T20:20:32+00:00",
+ "derniere_observation": "2026-10-13T21:19:42+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -9778,6 +9778,234 @@
    "pari": "Au moins un but marqué en première mi-temps lors de chacun des 7 matchs à 21h00",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|718576113|2227365889": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T00:30+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 9.8,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718576113|2227365889",
+   "match": "Boca Juniors - Vasco da Gama",
+   "pari": "Boca Juniors gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718578522|2227371955": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT1 None DOM) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None DOM)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718578522|2227371955",
+   "match": "Bucaramanga - Aguilas Doradas",
+   "pari": "Bucaramanga gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718582727|2227382493": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T22:40+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 1.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Montreal Canadiens - Buffalo Sabres) ; Betfair : match introuvable (Montreal Canadiens - Buffalo Sabres)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718582727|2227382493",
+   "match": "Montreal Canadiens - Buffalo Sabres",
+   "pari": "Cole Caufield buteur et Montreal Canadiens gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718590426|2227402465": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T00:45+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": 2.776,
+     "decision": "ecarter",
+     "ev_pct": -9.9,
+     "features": {
+      "cote_origine": 2.233,
+      "hausse_pct": 12.0,
+      "horizon_heures": 3.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718590426|2227402465",
+   "match": "NHL",
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Nashville Predators - Vegas Golden Knights et Utah Mammoth - Toronto Maple Leafs",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|718591731|2227405844": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T00:00+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": 2.995,
+     "decision": "ecarter",
+     "ev_pct": -6.5,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 2.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718591731|2227405844",
+   "match": "Tampa Bay Rays - Cleveland Guardians",
+   "pari": "Tampa Bay Rays réalise au moins 5 runs",
+   "premiere_selection": null,
+   "sport": "Baseball"
+  },
+  "winamax|718603943|2227444154": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T03:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": 4.462,
+     "decision": "ecarter",
+     "ev_pct": -16.0,
+     "features": {
+      "cote_origine": 3.198,
+      "hausse_pct": 17.3,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 3,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T21:19:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718603943|2227444154",
+   "match": "WTA Wuhan",
+   "pari": "Iga Swiatek, Iva Jovic et Karolina Muchova gagnent chacun leur match 2-0 (respectivement contre Magdalena Frech, Dayana Yastremska et Caty McNally)",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
