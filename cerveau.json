@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 110,
+   "abstention": 111,
    "ecarter": 13,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T13:52:46+00:00",
+  "derniere_observation": "2026-10-13T14:51:56+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,15 +16,15 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 17,
+   "ligne_absente": 16,
    "long_terme": 30,
    "marche_non_cote": 18,
-   "match_introuvable": 29,
+   "match_introuvable": 31,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
-  "observations_reglees": 102,
-  "observes": 153,
+  "observations_reglees": 103,
+  "observes": 154,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T13:52:46+00:00",
+ "derniere_observation": "2026-10-13T14:51:56+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -9230,6 +9230,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 14.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 19.4,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T14:51:56+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : match introuvable (Partizan Belgrade - Panathinaikos)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718133685|2226060747",
@@ -9274,6 +9300,43 @@
    "pari": "Plus de 4,5 buts dans chacun des 3 matchs à 18h00",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|718326461|2226593763": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.912,
+      "hausse_pct": 20.2,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T14:51:56+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (équipe à domicile du match 1 (non précisée) - équipe à l'extérieur du match 1 (non précisée)) ; Betfair : match introuvable (équipe à domicile du match 1 (non précisée) - équipe à l'extérieu",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718326461|2226593763",
+   "match": "Ligue des Champions",
+   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 7 matchs à 21h00",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
