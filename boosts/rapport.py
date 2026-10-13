@@ -1,4 +1,4 @@
-"""BILAN.md : les stratégies A et B, lisibles dans l'appli GitHub (branche `donnees`)."""
+"""BILAN.md : bilans historiques et essais prospectifs de stratégies."""
 from __future__ import annotations
 
 from datetime import datetime
@@ -16,6 +16,7 @@ NOMS = {
     "F_ev8": "F — EV exacte ≥ 8 %",
     "G_kelly": "G — quart Kelly",
     "H_1_match": "H — un boost/match",
+    "I_moderee_unique": "I — cotes modérées, un boost/match",
     "B_valeur": "B — valeur ≥ +5 %",
     "B0_valeur": "B0 — valeur ≥ 0 %",
 }
@@ -63,10 +64,22 @@ def _protocole(proto: dict | None) -> list[str]:
         ev = "–" if x.get("ev_moyenne_pct") is None else f"{_pct(x['ev_moyenne_pct'])} ({x['paris_avec_ev']} paris)"
         l.append(f"| **{NOMS_SUIVIES.get(k, k)}** | {x['regles']} / {x['paris']} | {x['mise_totale']:.0f} € "
                  f"| **{_e(x['gain_net'])}** | **{_pct(x['roi_pct'])}** | {ev} |")
-    return l + ["", "« Valeur moyenne jouée » : écart moyen entre la cote prise et la cote juste (Pinnacle / Betfair), "
-                    "sur les paris dont la valeur était calculable avant le match. Indicateur peu bruité, lisible en "
-                    "quelques jours ; le ROI, lui, demande des centaines de paris.", "",
-                "## Toutes les stratégies depuis le début (archives, non jugées)", ""]
+    l += ["", "« Valeur moyenne jouée » : écart moyen entre la cote prise et la cote juste (Pinnacle / Betfair), "
+          "sur les paris dont la valeur était calculable avant le match. Indicateur peu bruité, lisible en "
+          "quelques jours ; le ROI, lui, demande des centaines de paris."]
+    test_i = proto.get("test_i") or {}
+    if test_i:
+        l += ["", "## Hypothèse I — essai prospectif", "",
+              f"Règle figée le {_heure(test_i['date_debut'])} ; comparaison A/I sur les boosts découverts "
+              f"depuis ({test_i['boosts_observes']} pour l'instant).", "",
+              "| Stratégie | Paris réglés | Misé | Gain net | ROI |",
+              "|---|---|---|---|---|"]
+        for k, b in test_i.get("comparaison", {}).items():
+            x = b["global"]
+            l.append(f"| **{NOMS.get(k, k)}** | {x['regles']} / {x['paris']} | {x['mise_totale']:.0f} € "
+                     f"| {_e(x['gain_net'])} | {_pct(x['roi_pct'])} |")
+        l.append("Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.")
+    return l + ["", "## Toutes les stratégies depuis le début (archives, non jugées)", ""]
 
 
 def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
@@ -74,7 +87,8 @@ def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
     g = a["global"]
     l = ["# Bilan des cotes boostées (stratégies et risques)", "", *_protocole(proto),
          f"Mis à jour le {_heure(maj)} (heure de Paris). Argent fictif : A/B à la mise max ; C-H "
-         "avec mises plafonnées et filtres prédéfinis. Les F/G utilisent la cote du premier calcul EV.", "",
+         "avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; "
+         "son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.", "",
          "| Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |", "|---|---|---|---|---|---|"]
     for k, b in bilans.items():
         x = b["global"]
@@ -84,9 +98,9 @@ def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
           "**Hypothèses exploratoires** : C plafonne chaque mise à 10 € ; D ajoute la zone de cotes 1,60–3,50 ; "
           "E sélectionne les matchs dans les 48 h de leur première observation ; F exige EV exacte ≥ 8 % "
           "et cote ≤ 4 ; G utilise un quart Kelly sur une banque fictive constante de 1 000 € avec "
-          "un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match. "
-          "Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI. "
-          "Ces seuils sont fixés à l'avance, pas calibrés sur les gagnants passés.",
+          "un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match ; I combine D et H. "
+          "I a été choisie après lecture des résultats historiques : son score passé est rétrospectif et ne valide "
+          "pas la règle. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI.",
           "",
           "**Validité** : seulement les paris réglés entrent dans les gains et le ROI. Les futurs, "
           "les marchés dépendants, les erreurs de règlement et les offres dont le prix a changé "
@@ -122,3 +136,4 @@ def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
                  f"| {ev} | {p['mise']:g} € | {res} |")
     l += ["", "≈ : calcul approché (conditions liées sur un même match)."]
     return "\n".join(l) + "\n"
+

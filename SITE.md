@@ -13,6 +13,8 @@ Chaque pari affiche le **logo du bookmaker** (icônes officielles récupérées 
 `assets/logos/` ; initiales à défaut). Le labo montre, pour la stratégie choisie, un **bilan par bookmaker
 puis par sport** (réglés / paris, gain net, ROI ; `par_bookmaker_sport` dans `bilan.json`). Le journal des paris réglés propose lui aussi des filtres par bookmaker et sport, et affiche le sport sur chaque ligne.
 
+La stratégie **I** combine les filtres D et H : premier boost vu par match, cote de 1,60 à 3,50, mise fictive plafonnée à 10 €. Son bilan historique est une exploration définie après lecture des résultats ; il n'est pas une validation. Un comparatif prospectif séparé entre I et le témoin A part des boosts observés à partir du 13 octobre 2026 à 20:20 UTC.
+
 ## Source de données
 
 Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :

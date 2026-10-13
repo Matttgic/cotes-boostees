@@ -26,7 +26,7 @@ def test_garde_les_trois_strategies_initiales_et_en_ajoute_six():
     bilans = simulation.strategies({b["id"]: b})
     assert list(bilans) == ["A", "B_exacte", "B_approx", "C_plafond",
                             "D_moderee", "E_48h", "F_ev8", "G_kelly", "H_1_match",
-                            "B_valeur", "B0_valeur"]
+                            "I_moderee_unique", "B_valeur", "B0_valeur"]
     assert bilans["A"]["global"]["gain_net"] == 75.0
     assert bilans["C_plafond"]["global"]["gain_net"] == 15.0
     assert bilans["C_plafond"]["global"]["mise_totale"] == 10
@@ -99,3 +99,4 @@ def test_ev_incomplete_reste_non_jouee():
     b["valeur_initiale"] = {"statut": "exacte", "ev_pct": 10, "cote_juste": 2}
     assert _valeur_initiale(b, 5, 4) is None
     assert construire({b["id"]: b})["F_ev8"]["global"]["regles"] == 0
+

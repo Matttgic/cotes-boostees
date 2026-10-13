@@ -30,6 +30,7 @@
     F_ev8: ['F', 'EV STRICTE', 'EXACTE ≥ 8 % · 10 € MAX'],
     G_kelly: ['G', 'QUART KELLY', 'EXACTE ≥ 5 % · RISQUE LIMITÉ'],
     H_1_match: ['H', 'UN PAR MATCH', '1ER BOOST VU · 10 € MAX'],
+    I_moderee_unique: ['I', 'MODÉRÉE + DIVERSIFIÉE', '1 PAR MATCH · 1,60–3,50 · 10 € MAX'],
     B_valeur: ['B', 'VALEUR ≥ +5 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
     B0_valeur: ['B0', 'VALEUR ≥ 0 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
   });
@@ -253,10 +254,23 @@
         + `<td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td><td>${esc(pct(number(g.roi_pct)))}</td>`
         + `<td>${ev === null ? '—' : esc(pct(ev)) + `<small> ${fmt(number(g.paris_avec_ev) || 0, 0)} PARIS</small>`}</td></tr>`;
     }).join('');
+    const essaiI = p.test_i;
+    const lignesEssaiI = essaiI?.comparaison ? [['A', 'A · TÉMOIN (MÊME PÉRIODE)'], ['I_moderee_unique', 'I · MODÉRÉE + DIVERSIFIÉE']]
+      .filter(([key]) => essaiI.comparaison[key])
+      .map(([key, nom]) => {
+        const g = essaiI.comparaison[key].global || {}, gain = number(g.gain_net);
+        return `<tr><th scope="row">${esc(nom)}</th><td>${fmt(number(g.regles) || 0, 0)} / ${fmt(number(g.paris) || 0, 0)}</td>`
+          + `<td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td><td>${esc(pct(number(g.roi_pct)))}</td></tr>`;
+      }).join('') : '';
+    const essaiIMarkup = essaiI ? `<div class="protocol-test-i"><div class="protocol-head"><span class="tiny-label">HYPOTHÈSE I · SUIVI PROSPECTIF</span>`
+      + `<strong>UN NOUVEAU TEST, À PART</strong><p>Depuis le ${esc(dateText(essaiI.date_debut))} (heure de Paris), comparaison sur les ${fmt(number(essaiI.boosts_observes) || 0, 0)} boosts découverts après la définition de I. La stratégie I combine un seul boost par match, une cote de 1,60 à 3,50 et une mise fictive plafonnée à 10 €.</p></div>`
+      + `<div class="table-scroll"><table class="protocol-table"><thead><tr><th>STRATÉGIE</th><th>RÉGLÉS / PARIS</th><th>GAIN NET</th><th>ROI</th></tr></thead><tbody>${lignesEssaiI || '<tr><td colspan="4">En attente des premières observations éligibles.</td></tr>'}</tbody></table></div>`
+      + `<p class="protocol-note">Le bouton I montre aussi l'exploration historique complète, choisie après lecture des résultats passés. Cette table séparée commence à la date ci-dessus et constitue le test à suivre ; aucun résultat actuel ne valide encore la stratégie.</p></div>` : '';
     el.innerHTML = `<div class="protocol-head"><span class="tiny-label">PROTOCOLE GELÉ · ${esc(String(p.version || '').toUpperCase())}</span>`
       + `<strong>SEULS CES RÉSULTATS COMPTENT</strong><p>Règles fixées le ${esc(dateText(p.date_gel))}, avant de connaître leurs résultats. Jugées uniquement sur les ${fmt(number(p.boosts_apres_gel) || 0, 0)} boosts découverts depuis.</p></div>`
       + `<div class="table-scroll"><table class="protocol-table"><thead><tr><th>STRATÉGIE SUIVIE</th><th>RÉGLÉS / PARIS</th><th>GAIN NET</th><th>ROI</th><th>VALEUR MOY. JOUÉE</th></tr></thead><tbody>${rows}</tbody></table></div>`
-      + `<p class="protocol-note">« Valeur moyenne jouée » : écart entre la cote prise et la cote juste Pinnacle / Betfair, avant le match. Lisible en quelques jours ; le ROI demande des centaines de paris. Les boutons ci-dessous montrent toutes les stratégies depuis le début (archives).</p>`;
+      + `<p class="protocol-note">« Valeur moyenne jouée » : écart entre la cote prise et la cote juste Pinnacle / Betfair, avant le match. Lisible en quelques jours ; le ROI demande des centaines de paris. Les boutons ci-dessous montrent toutes les stratégies depuis le début (archives).</p>`
+      + essaiIMarkup;
   }
 
   function renderLab() {

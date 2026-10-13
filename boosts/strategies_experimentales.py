@@ -1,9 +1,10 @@
-"""Stratégies expérimentales PRÉDÉFINIES : comparaison prospective, jamais optimisation sur gains passés.
+"""Stratégies simulées à partir des seules informations visibles avant le match.
 
-Les seules informations autorisées à la sélection sont celles observées avant le match.
-Pour les stratégies EV, la cote d'entrée est celle enregistrée lors du PREMIER calcul
-de valeur (et non la cote initiale, parfois antérieure au calcul).
-Les paris sont exclusivement fictifs ; aucun de ces filtres ne garantit un EV positif.
+Pour les stratégies EV, le prix joué reste celui du premier calcul fiable enregistré
+avant la rencontre, jamais une cote reconstruite après le résultat.
+La stratégie I combine deux filtres repérés dans l'historique. Son score historique est
+donc exploratoire et choisi après coup ; seule la cohorte datée dans DATE_DEBUT_I peut
+servir à son évaluation prospective. Tout reste en mises fictives, sans garantie d'EV.
 """
 from __future__ import annotations
 
@@ -13,6 +14,7 @@ from datetime import datetime, timezone
 from . import simulation
 
 BANQUE_DE_REFERENCE = 1000.0  # simulation théorique fixe, PAS un solde réel
+DATE_DEBUT_I = "2026-10-13T20:20:27+00:00"  # gel prospectif après le dernier bilan consulté
 
 
 def _nombre(v) -> float | None:
@@ -115,7 +117,7 @@ def _premiers_par_match(base: dict[str, dict]) -> set[str]:
 
 
 def construire(base: dict[str, dict]) -> dict[str, dict]:
-    """Six challengers ; seuils fixés dans le code avant comparaison, zéro tuning sur le P&L."""
+    """Construit les variantes archivées et la candidate I issue de l'analyse historique."""
     premiere_selection = _premiers_par_match(base)
     eligibles_8 = {k: _valeur_initiale(b, 8, 4) for k, b in base.items()}
     eligibles_5 = {k: _valeur_initiale(b, 5, 5) for k, b in base.items()}
@@ -145,4 +147,9 @@ def construire(base: dict[str, dict]) -> dict[str, dict]:
                            taille=kelly_quart, prix=lambda b: eligibles_5[b["id"]][0]),
         "H_1_match": _simuler(base, "H — premier boost par match, 10 € maximum",
                              lambda b: b["id"] in premiere_selection),
+        "I_moderee_unique": _simuler(
+            base, "I — premier boost par match, cote 1,60 à 3,50, 10 € maximum",
+            lambda b: b["id"] in premiere_selection
+            and (x := _cote(b)) is not None and 1.6 <= x <= 3.5),
     }
+

@@ -204,7 +204,7 @@ def apres_gel(base: dict[str, dict]) -> dict[str, dict]:
 
 
 def protocole(base: dict[str, dict]) -> dict:
-    from .strategies_experimentales import construire
+    from .strategies_experimentales import DATE_DEBUT_I, construire
     recents = apres_gel(base)
     d_recent = construire(recents)["D_moderee"]
     apres = {"A": bilan(recents, nom=SUIVIES["A"]),
@@ -213,6 +213,16 @@ def protocole(base: dict[str, dict]) -> dict:
              "D_moderee": {**d_recent, "strategie": SUIVIES["D_moderee"]}}
     leger = lambda x: {"strategie": x["strategie"], "global": x["global"], "courbe": x["courbe"],
                        "par_bookmaker": x["par_bookmaker"], "par_valeur": x["par_valeur"]}
+    debut_i = _instant(DATE_DEBUT_I)
+    cohorte_i = {k: b for k, b in base.items()
+                 if (vu := _instant(b.get("premiere_vue"))) is not None and debut_i is not None and vu >= debut_i}
+    comparaison_i = {
+        "A": bilan(cohorte_i, nom="A — témoin (même période que I)"),
+        "I_moderee_unique": construire(cohorte_i)["I_moderee_unique"],
+    }
     return {"version": VERSION_PROTOCOLE, "date_gel": DATE_GEL, "suivies": list(SUIVIES),
             "bookmakers": list(BOOKMAKERS_GEL),
-            "boosts_apres_gel": len(recents), "apres_gel": {k: leger(v) for k, v in apres.items()}}
+            "boosts_apres_gel": len(recents), "apres_gel": {k: leger(v) for k, v in apres.items()},
+            "test_i": {"date_debut": DATE_DEBUT_I, "boosts_observes": len(cohorte_i),
+                       "comparaison": {k: leger(v) for k, v in comparaison_i.items()}}}
+

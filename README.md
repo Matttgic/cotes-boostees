@@ -4,13 +4,13 @@
 
 Suivi des cotes boostées de **Winamax, Unibet, OlyBet, Genybet, NetBet et Betsson** (sites français ; PMU et bet365 non suivis) pour savoir si elles sont rentables.
 
-Neuf variantes de simulation en parallèle, en argent fictif : trois originales A/B1/B2 et six challengers C–H.
+Douze simulations en argent fictif : A, B1/B2, B/B0 et les challengers C–I.
 
 - **A « Tout miser »** : chaque boost publié, **toujours à la mise max** (10, 20 ou 50 €), à la cote
   boostée vue au premier passage. Bilan dans **`BILAN.md`** sur la branche `donnees` ;
 - **B « Filtrée »** : seulement les boosts à +5 % d'EV ou plus face à la cote juste Pinnacle (marge retirée).
 
-### Six nouvelles hypothèses (C à H)
+### Sept hypothèses (C à I)
 
 | Code | Règle prédéfinie | Limitation du risque |
 |---|---|---|
@@ -20,12 +20,14 @@ Neuf variantes de simulation en parallèle, en argent fictif : trois originales 
 | F | EV **exacte ≥ 8 %** et cote du premier calcul EV ≤ 4 | 10 € maximum |
 | G | EV **exacte ≥ 5 %**, prix du premier calcul, quart Kelly | Banque fictive fixe de 1 000 €, 1 % maximum/pari |
 | H | Un seul boost par événement, celui observé en premier | 10 € maximum |
+| I | Un seul boost par événement avec cote de 1,60 à 3,50 | 10 € maximum |
 
 L'EV minimale existante est **+5 % (pas +50 %)**. Une hausse du prix de la cote
 boostée (par rapport au prix d'origine) **n'est pas** une preuve d'EV positive.
-A/B restent inchangées comme étalons. Les autres hypothèses sont exploratoires :
-pas d'optimisation a posteriori des seuils avec 13 paris seulement réglés
-au 9 octobre 2026. Le ROI, le gain et la pire baisse doivent être comparés **sur les
+A/B restent inchangées comme étalons. I a été choisie après analyse des résultats
+historiques : son bilan passé est donc exploratoire et ne constitue pas une validation.
+Son test prospectif séparé, comparé au témoin A sur les mêmes boosts, commence le
+13 octobre 2026 à 20:20 UTC. Le ROI, le gain et la pire baisse doivent être comparés **sur les
 mêmes périodes** et avec assez de paris hors échantillon. Les mises plafonnées
 réduisent la perte maximale par pari mais n'améliorent pas mécaniquement le ROI.
 Les stratégies EV F/G refusent une évaluation tardive ou approximative et
@@ -83,8 +85,8 @@ variable `CHAINE` à `non`.
    Équivalences exactes quand le marché direct manque : « X gagne » ≡ handicap -0,5 sur la période ;
    tennis « X gagne 2-1 » ≡ P(X gagne) − P(X -1,5 set). Ligne absente d'un total ≥ 10 : interpolée entre
    deux lignes en ,5 à 3 unités au plus (statut « interpolee », compté à part) ;
-6. bilan : `bilan.json` et `BILAN.md` — A, B-exacte, B-approx et C à H (six nouvelles variantes).
-   A reste ventilée par valeur, mise max, cote, sport, mois. Les 9 simulations sont visibles dans le site.
+6. bilan : `bilan.json` et `BILAN.md` — A, B-exacte, B-approx et C à I (sept challengers).
+   A reste ventilée par valeur, mise max, cote, sport, mois. Les 12 simulations sont visibles dans le site.
 
 Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 
@@ -107,7 +109,10 @@ Pour ne pas « optimiser » sur le hasard des premiers résultats, quatre strat�
 Population : Winamax et Unibet uniquement (`BOOKMAKERS_GEL`). A (témoin), B (valeur ≥ +5 %, exacte ou interpolée, mise max), B0 (valeur ≥ 0 %), D (hypothèse : cotes
 1,60–3,50, 10 € max, repérée en regardant les premiers résultats). Indicateur principal à court terme :
 la **valeur moyenne jouée** (cote prise face à la cote juste), bien moins bruitée que le ROI.
-Les autres stratégies restent calculées pour mémoire. Diagnostic des boosts non évaluables :
+I combine D (zone de cote modérée et mise plafonnée) et H (un pari par match). Comme cette règle vient
+de la lecture des résultats passés, son archive ne prouve pas sa rentabilité ; son essai prospectif
+séparé, contre A, démarre le 13/10/2026 à 20:20 UTC. Les autres stratégies restent calculées pour mémoire.
+Diagnostic des boosts non évaluables :
 `scripts/diagnostic_valeur.py` (workflow « Sonde des sources »).
 
 ## Sondes
@@ -130,3 +135,4 @@ Winamax). Résultats sur la branche `sonde`.
 pip install -r requirements.txt -r requirements-dev.txt
 python -m pytest -q
 ```
+
