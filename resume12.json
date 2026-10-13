@@ -1,0 +1,545 @@
+{
+  "date_utc": "2026-10-13T19:07:07+00:00",
+  "pages": [
+    {
+      "url": "https://www.betsson.fr/",
+      "titre": "Betsson : Paris Sportifs En Ligne",
+      "texte_octets": 9622,
+      "lignes_boost": [
+        "Cotes Boostées",
+        "🐦‍🔥 Barcola Buteur (Max 20€) - Flash Boost",
+        "🗼 Le PSG gagne 1-0 (Max 20€) - Flash Boost",
+        "🦁 Pavel Sulc Décisif (Max 20€) - Flash Boost",
+        "🐘 Monaco gagne 3-0 (Max 20€) - Flash Boost"
+      ]
+    }
+  ],
+  "essais_ip": 2,
+  "websockets": [
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket",
+    "wss://betssonfr-74f1b-default-rtdb.europe-west1.firebasedatabase.app/.ws?v=5&p=1:519365540506:web:33423fda1156273bdefd23&ns=betssonfr-74f1b-default-rtdb"
+  ],
+  "routage_boost": [],
+  "api": [],
+  "trames": 73,
+  "trames_boost": [
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket <<< {\"version\":1,\"data\":[{\"contentId\":{\"type\":\"headline\",\"id\":\"1355/20/boostedOddCard\"},\"changeType\":\"refreshed\",\"change\":{\"headlineItems\":[{\"idfwheadline\":\"1227\",\"idfwmarketgroup\":\"91253.1\",\"idfomarket\":\"62702381.1\",\"name\":\"Boost arsenal HT/FT\",\"title\":\"BoostArsenal HT/FT\",\"bodytext\":\"62028299.1\",\"idfwheadlinetype\":\"MKPB\",\"headlinemediatype\":\"PLAINIMAGE\",\"categoryName\":\"boostedOddCard\",\"numofselections\":\"1\"},{\"idfwheadline\":\"1262\",\"idfwmarketgroup\":\"91154.1\",\"idfomarket\":\"62304105.1\",\"name\":\"Boosted Wahi Classico\",\"title\":\"Boost",
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket <<< {\"version\":1,\"data\":[{\"contentId\":{\"type\":\"market\",\"id\":\"93843193.1\"},\"changeType\":\"refreshed\",\"change\":{\"csvavailablebettypes\":\"S,C1\",\"pricetypes\":[{\"idfopricetypeclass\":\"FIXED ODDS\",\"value\":\"CP\",\"defaultOrder\":18}],\"idfoevent\":\"4285921.1\",\"eventname\":\"PFC CSKA Sofia vs AS Monaco\",\"idfosport\":\"FBLRAT8\",\"idfosporttype\":\"FBL\",\"sportname\":\"Football Rating 8\",\"idfoewoffertype\":\"NONE\",\"idfomarket\":\"93843193.1\",\"name\":\"🐘 Monaco gagne 3-0 (Max 20€) - Flash Boost\",\"idfomarkettype\":\"478990.1\",\"idfoselectionorder\":\"SETUP\",\"participant",
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket <<< {\"version\":1,\"data\":[{\"contentId\":{\"type\":\"market\",\"id\":\"93842888.1\"},\"changeType\":\"refreshed\",\"change\":{\"csvavailablebettypes\":\"S,C1\",\"pricetypes\":[{\"idfopricetypeclass\":\"FIXED ODDS\",\"value\":\"CP\",\"defaultOrder\":18}],\"idfoevent\":\"4293169.1\",\"eventname\":\"Olympique Lyon vs Crystal Palace\",\"idfosport\":\"FBLRAT10\",\"idfosporttype\":\"FBL\",\"sportname\":\"Football Rating 10\",\"idfoewoffertype\":\"NONE\",\"idfomarket\":\"93842888.1\",\"name\":\"🦁 Pavel Sulc Décisif (Max 20€) - Flash Boost\",\"idfomarkettype\":\"498515.1\",\"idfoselectionorder\":\"ODDS\",\"par",
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket <<< {\"version\":1,\"data\":[{\"contentId\":{\"type\":\"market\",\"id\":\"93668376.1\"},\"changeType\":\"refreshed\",\"change\":{\"csvavailablebettypes\":\"S,C1\",\"pricetypes\":[{\"idfopricetypeclass\":\"FIXED ODDS\",\"value\":\"CP\",\"defaultOrder\":18}],\"idfoevent\":\"4290239.1\",\"eventname\":\"Manchester City vs Paris Saint-Germain\",\"idfosport\":\"FBLRAT10\",\"idfosporttype\":\"FBL\",\"sportname\":\"Football Rating 10\",\"idfoewoffertype\":\"NONE\",\"idfomarket\":\"93668376.1\",\"name\":\"🗼 Le PSG gagne 1-0 (Max 20€) - Flash Boost\",\"idfomarkettype\":\"477002.1\",\"idfoselectionorder\":\"ODDS\",",
+    "wss://velnt-bson-ssb-pr.betsson.fr/notification/listen/websocket <<< {\"version\":1,\"data\":[{\"contentId\":{\"type\":\"market\",\"id\":\"93666744.1\"},\"changeType\":\"refreshed\",\"change\":{\"csvavailablebettypes\":\"S,C1\",\"pricetypes\":[{\"idfopricetypeclass\":\"FIXED ODDS\",\"value\":\"CP\",\"defaultOrder\":18}],\"idfoevent\":\"4290225.1\",\"eventname\":\"LASK Linz vs Liverpool FC\",\"idfosport\":\"FBLRAT10\",\"idfosporttype\":\"FBL\",\"sportname\":\"Football Rating 10\",\"idfoewoffertype\":\"NONE\",\"idfomarket\":\"93666744.1\",\"name\":\"🐦‍🔥 Barcola Buteur (Max 20€) - Flash Boost\",\"idfomarkettype\":\"477034.1\",\"idfoselectionorder\":\"ODDS\",\"participantn"
+  ],
+  "octets_recus": 14562614,
+  "direct": false,
+  "reponses": [
+    {
+      "url": "https://betsson.fr/assets/HighlightsList.052ee227.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 107206,
+      "boost": 245,
+      "debut": ".quickBetDialog{background-color:var(--backgroundSecondary);padding:8px}.quickBetDialog .quickBetDialogHeader{border-bottom:2px solid var(--separatorLine);padding:5px 0 8px}.quickBetDialog .quickBetDialogHeader>.eventTitle{font-size:15px;font-weight:700}.quickBetDialog .quickBetDialogHeader>.oddCard"
+    },
+    {
+      "url": "https://betsson.fr/assets/index.a77ffa3f.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 569961,
+      "boost": 94,
+      "debut": "@charset \"UTF-8\";@import\"https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap\";.smartbanner-show{margin-top:80px}.smartbanner-show .smartbanner{display:block}.smartbanner{position:absolute;left:0;top:0;display:none;width:100%;height:80px;line-height:80px;font-fami"
+    },
+    {
+      "url": "https://betsson.fr/assets/HighlightsList.91365937.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 39912,
+      "boost": 60,
+      "debut": "import{Z as De,x as E,f as P,h as k,a9 as Ge,a5 as F,A as Re,m as N,am as He,n as j,cJ as ze,p as V,bP as q,b0 as Ve,cK as je,bQ as $,ar as Me,cL as We,C as S,o as l,F as r,G as n,O as c,H as h,D as te,aA as Ke,aG as Qe,a2 as G,a3 as M,e as x,l as C,Y as R,ac as se,q as W,a4 as U,P as D,N as B,aF as"
+    },
+    {
+      "url": "https://betsson.fr/assets/HomeNew.4bad4fec.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 9617,
+      "boost": 5,
+      "debut": "import{m as B,Y as I,y as T,v as y,h as v,f as R,A as L,o as i,F as f,a2 as V,a3 as w,e as l,bJ as O,l as p,bD as S,cz as x,_ as o,p as b,q as G,af as k,a5 as q,a7 as g,aj as M,C as h,G as $,L as N,D as H,E as A,H as U,b$ as Y}from\"./index.52223004.js\";import{G as F}from\"./GameDetails.229fe8b6.js\";i"
+    },
+    {
+      "url": "https://betsson.fr/assets/useMetaTags.4dbdf070.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 5842,
+      "boost": 4,
+      "debut": "import{h as v,A as f,c4 as r,c5 as z,c6 as b,k as P,c7 as u}from\"./index.52223004.js\";function h(t){{const e={active:!0};if(typeof t==\"function\"){const o=v(t);e.val=o.value,f(o,a=>{e.val=a,e.active===!0&&r()})}else e.val=t;u.push(e),r(),z(()=>{e.active=!0,r()}),b(()=>{e.active=!1,r()}),P(()=>{u.spli"
+    },
+    {
+      "url": "https://betsson.fr/assets/UserAlertBox.63619b3d.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 8587,
+      "boost": 2,
+      "debut": "import{m as p,n as h,p as w,y as D,h as f,C as u,D as F,E as H,o as g,F as $,G as t,O as _,H as a,I as x,a1 as M,l as y,Y as O,bD as I,_ as N,aS as P,e as V,bE as q,ar as Y,a7 as S,bF as Q}from\"./index.52223004.js\";const U={name:\"VerifyEmailAlertBox\",components:{SbIcon:h},setup(){const{t:r}=w({useSc"
+    },
+    {
+      "url": "https://betsson.fr/assets/HighlightsBoostedCards.2472cf0e.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 571,
+      "boost": 2,
+      "debut": "import{m as o,Y as e,C as r,o as i,F as a,H as n}from\"./index.52223004.js\";import{H as c}from\"./HighlightsList.91365937.js\";import\"./SbSection.06dfdefc.js\";import\"./GameDetails.229fe8b6.js\";import\"./BetMarketOddCard.66032fd5.js\";import\"./useMetaTags.4dbdf070.js\";import\"./useSwiper.ca005a2d.js\";const"
+    },
+    {
+      "url": "https://betsson.fr/",
+      "statut": 200,
+      "type": "text/html",
+      "octets": 3342,
+      "boost": 0,
+      "debut": "<!DOCTYPE html><html lang=fr><head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})\n(window,'AW-11303728150','google_tags_first_party');</script><script async src=\"/x8dv/\"></script>\n\t\t\t<script>\n\t\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\t\tfunction gtag(){da"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap",
+      "statut": 200,
+      "type": "text/css; charset=utf-8",
+      "octets": 27830,
+      "boost": 0,
+      "debut": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 300;\n  font-stretch: 100%;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2) format('woff2');\n  unicode-range: U+0460-052F, U+1C80-1C8A,"
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
+      "statut": 200,
+      "type": "text/css; charset=utf-8",
+      "octets": 71750,
+      "boost": 0,
+      "debut": "@charset \"UTF-8\";/*!\n * animate.css - https://animate.style/\n * Version - 4.1.1\n * Licensed under the MIT license - http://opensource.org/licenses/MIT\n *\n * Copyright (c) 2020 Animate.css\n */:root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}.animate__animated{-webkit-animation-durati"
+    },
+    {
+      "url": "https://sdk.optimove.net/websdk/?tenant_id=1236&tenant_token=130dc4b056bc4a6d95b4ebc8734bebba",
+      "statut": 200,
+      "type": "text/javascript; charset=utf-8",
+      "octets": 400463,
+      "boost": 0,
+      "debut": "var optimoveTenantConfiguration = {\"version\":\"1.0.6\",\"realtimeMetaData\":{\"realtimeToken\":\"130dc4b056bc4a6d95b4ebc8734bebba\",\"realtimeGateway\":\"https://realtime-1236.optimove.net/\",\"options\":{\"showDimmer\":true,\"showWatermark\":false}},\"optitrackMetaData\":{\"sendUserAgentHeader\":true,\"useSessionStorage\""
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "statut": 200,
+      "type": "text/javascript;charset=UTF-8",
+      "octets": 31679,
+      "boost": 0,
+      "debut": "(()=>{\"use strict\";function t(){return\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof self?self:void 0}var e,n,i,o,r;function a(t,n,i,o=!1,r=null){let a=r||`/cdn-cgi/rum?${t}`,s=!0;if(navigator&&\"string\"==typeof navigator.userAgent)try{const t=navigator.userAgent.match(/Chrome\\/([0-9]+"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WKBN5N8J",
+      "statut": 200,
+      "type": "application/javascript; charset=UTF-8",
+      "octets": 497278,
+      "boost": 0,
+      "debut": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\n\"resource\": {\n  \"version\":\"31\",\n  \n  \"macros\":[{\"function\":\"__e\"},{\"function\":\"__v\",\"vtp_dataLayerVersion\":2,\"vtp_setDefaultValue\":false,\"vtp_name\":\"value\"},{\"function\":\"__v\",\"vtp_dataLayerVersion\":2,\"vtp_setDefaultVal"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500;600&display=swap",
+      "statut": 200,
+      "type": "text/css; charset=utf-8",
+      "octets": 4172,
+      "boost": 0,
+      "debut": "/* cyrillic-ext */\n@font-face {\n  font-family: 'Montserrat Alternates';\n  font-style: normal;\n  font-weight: 500;\n  font-display: swap;\n  src: url(https://fonts.gstatic.com/s/montserratalternates/v18/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xGITFCrxG6mA.woff2) format('woff2');\n  unicode-range: U+0460-052F"
+    },
+    {
+      "url": "https://stream-1236.optimove.net/",
+      "statut": 200,
+      "type": "application/json; charset=utf-8",
+      "octets": 50,
+      "boost": 0,
+      "debut": "{\"status\":\"success\",\"message\":\"22015819712297133\"}"
+    },
+    {
+      "url": "https://betsson.fr/x8dv/",
+      "statut": 200,
+      "type": "application/javascript; charset=UTF-8",
+      "octets": 519026,
+      "boost": 0,
+      "debut": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\n\"resource\": {\n  \"version\":\"2\",\n  \n  \"macros\":[{\"function\":\"__c\",\"vtp_value\":true},{\"function\":\"__e\"},{\"function\":\"__actids\"},{\"function\":\"__v\",\"vtp_name\":\"gtm.configContainerId\",\"vtp_dataLayerVersion\":1}],\n  \"tags\":[{\""
+    },
+    {
+      "url": "https://betsson.fr/assets/index.52223004.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 5089183,
+      "boost": 0,
+      "debut": "var smartAppBanner$1=\"\";const scriptRel=function(){const s=document.createElement(\"link\").relList;return s&&s.supports&&s.supports(\"modulepreload\")?\"modulepreload\":\"preload\"}(),seen={},base=\"/\",__vitePreload=function(s,i){return!i||i.length===0?s():Promise.all(i.map(o=>{if(o=`${base}${o}`,o in seen)"
+    },
+    {
+      "url": "https://static.ads-twitter.com/uwt.js",
+      "statut": 200,
+      "type": "application/javascript; charset=utf-8",
+      "octets": 62052,
+      "boost": 0,
+      "debut": "(()=>{var e={6173:function(e,t,n){var i;e.exports=(i=i||function(e,t){var i;if(\"undefined\"!=typeof window&&window.crypto&&(i=window.crypto),\"undefined\"!=typeof self&&self.crypto&&(i=self.crypto),\"undefined\"!=typeof globalThis&&globalThis.crypto&&(i=globalThis.crypto),!i&&\"undefined\"!=typeof window&&"
+    },
+    {
+      "url": "https://s2.adform.net/banners/scripts/st/trackpoint-async.js",
+      "statut": 200,
+      "type": "text/javascript",
+      "octets": 82727,
+      "boost": 0,
+      "debut": "(function(){var A=window.Adform=window.Adform||{};var aa=Object.prototype.toString,ca=Object.prototype.hasOwnProperty;function D(a,c){if(null!=a)if(a.forEach)a.forEach(c);else for(var b=0;b<a.length;b++)c(a[b],b,a)}function da(a,c,b){return b()?a+\"=\"+c:\"\"}function ea(a,c){null!=c&&\"\"!=c&&a.push(c)}f"
+    },
+    {
+      "url": "https://trck.spoteffects.net/analytics/spef.min.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 78398,
+      "boost": 0,
+      "debut": "\"object\"!=typeof JSON_PIWIK&&\"object\"==typeof window.JSON&&window.JSON.stringify&&window.JSON.parse?JSON_PIWIK=window.JSON:\"object\"==typeof JSON_PIWIK||function(){var e={};(function(){function t(e,n){function r(e){if(r[e]!==p)return r[e];var t;if(\"bug-string-char-index\"==e)t=!1;else if(\"json\"==e)t=r"
+    },
+    {
+      "url": "https://sc-static.net/scevent.min.js",
+      "statut": 200,
+      "type": "application/javascript;charset=utf-8",
+      "octets": 59319,
+      "boost": 0,
+      "debut": "/** Snapchat Pixel SDK */\n!function(){\"use strict\";var t=function(){return t=Object.assign||function(t){for(var n,r=1,e=arguments.length;r<e;r++)for(var i in n=arguments[r])Object.prototype.hasOwnProperty.call(n,i)&&(t[i]=n[i]);return t},t.apply(this,arguments)};function n(t,n,r,e){return new(r||(r="
+    },
+    {
+      "url": "https://cdn-eu.realytics.net/realytics-1.2.min.js",
+      "statut": 200,
+      "type": "application/x-javascript",
+      "octets": 1367,
+      "boost": 0,
+      "debut": "(function(R){if(R&&R._v)return;R._v=2.3;\nvar n=function(){},t=function(){return''},b=function(){return!1},cb=function(a){if(typeof a==='function')a(null)};\nvar T={init:n,start:n,stop:n,enable:n,disable:n,_disable:n,_enable:n,\ntrack:n,trackLink:n,trackForm:n,trackSync:n,\npage:n,identify:n,profile:n,t"
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "statut": 200,
+      "type": "application/x-javascript; charset=utf-8",
+      "octets": 433365,
+      "boost": 0,
+      "debut": "/**\n* Copyright (c) 2017-present, Facebook, Inc. All rights reserved.\n*\n* You are hereby granted a non-exclusive, worldwide, royalty-free license to use,\n* copy, modify, and distribute this software in source code or binary form for use\n* in connection with the web services and APIs provided by Face"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-ZM6VJHRCS5&cx=c&gtm=4e6ac0",
+      "statut": 200,
+      "type": "application/javascript; charset=UTF-8",
+      "octets": 606017,
+      "boost": 0,
+      "debut": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\n\"resource\": {\n  \"version\":\"1\",\n  \n  \"macros\":[{\"function\":\"__c\",\"vtp_value\":true},{\"function\":\"__e\"},{\"function\":\"__actids\"},{\"function\":\"__v\",\"vtp_name\":\"gtm.configContainerId\",\"vtp_dataLayerVersion\":1},{\"function\":\"_"
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-11303728150&cx=c&gtm=4e6ac0",
+      "statut": 200,
+      "type": "application/javascript; charset=UTF-8",
+      "octets": 488678,
+      "boost": 0,
+      "debut": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\n\"resource\": {\n  \"version\":\"2\",\n  \n  \"macros\":[{\"function\":\"__c\",\"vtp_value\":true},{\"function\":\"__e\"},{\"function\":\"__actids\"},{\"function\":\"__v\",\"vtp_name\":\"gtm.configContainerId\",\"vtp_dataLayerVersion\":1}],\n  \"tags\":[{\""
+    },
+    {
+      "url": "https://betsson.fr/assets/pinia.279819e8.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 95,
+      "boost": 0,
+      "debut": "import{b as o,s}from\"./index.52223004.js\";var t=o(({app:a})=>{a.use(s)});export{t as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/i18n.f96621a8.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 95,
+      "boost": 0,
+      "debut": "import{b as o,i}from\"./index.52223004.js\";var s=o(({app:a})=>{a.use(i)});export{s as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/updates.022bdfec.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 136,
+      "boost": 0,
+      "debut": "import{b as e,u as o}from\"./index.52223004.js\";var p=e(({app:a,router:s,store:t})=>{a.use(o,{router:s,store:t})});export{p as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/axios.93b140d4.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 208,
+      "boost": 0,
+      "debut": "import{b as i,c as a}from\"./index.52223004.js\";const s=a.create({baseURL:{}.GOMA_API});var r=i(({app:o})=>{o.config.globalProperties.$axios=a,o.config.globalProperties.$api=s});export{s as api,r as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/route.1225c58f.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 100,
+      "boost": 0,
+      "debut": "import{b as o,r as t}from\"./index.52223004.js\";var e=o(({app:r})=>{r.use(t)});export{e as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/actions.6f624d09.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 136,
+      "boost": 0,
+      "debut": "import{b as t,a as r}from\"./index.52223004.js\";var i=t(({app:a,router:o,store:s})=>{a.use(r,{router:o,store:s})});export{i as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/recaptcha.01eb0b28.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 198,
+      "boost": 0,
+      "debut": "import{b as o}from\"./index.52223004.js\";import{l as t}from\"./vue3-recaptcha-v2.421e9377.js\";var e=o(({app:r})=>{r.use(t,{siteKey:\"6LcirPEoAAAAAABuN5AOrtGpAsS1eishPapuxjwC\"})});export{e as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/registerSbSticky.2b779bdb.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 108,
+      "boost": 0,
+      "debut": "import{S as i}from\"./index.52223004.js\";var e=({app:t})=>{t.directive(\"sb-sticky\",i)};export{e as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/alert.9da9a5f5.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 100,
+      "boost": 0,
+      "debut": "import{b as o,M as r}from\"./index.52223004.js\";var e=o(({app:a})=>{a.use(r)});export{e as default};\n"
+    },
+    {
+      "url": "https://betsson.fr/assets/newrelic.3973cb00.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 74898,
+      "boost": 0,
+      "debut": "var Ir=Object.defineProperty;var Pr=(e,t,n)=>t in e?Ir(e,t,{enumerable:!0,configurable:!0,writable:!0,value:n}):e[t]=n;var H=(e,t,n)=>(Pr(e,typeof t!=\"symbol\"?t+\"\":t,n),n),je=(e,t,n)=>{if(!t.has(e))throw TypeError(\"Cannot \"+n)};var Ge=(e,t,n)=>(je(e,t,\"read from private field\"),n?n.call(e):t.get(e))"
+    },
+    {
+      "url": "https://betsson.fr/assets/vue3-recaptcha-v2.421e9377.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 1477,
+      "boost": 0,
+      "debut": "import{d as w,o as y,e as b,t as g,f as l,g as x,h as o,j as A,k}from\"./index.52223004.js\";const u=Symbol(\"recaptchaSiteKey\");function E(a,e){if(!e.siteKey)throw new Error(\"options must be included siteKey\");a.provide(u,e.siteKey),function(r){const n=r.alterDomain?\"www.recaptcha.net\":\"www.google.com"
+    },
+    {
+      "url": "https://betsson.fr/assets/countryFlag.9f046f6f.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 304409,
+      "boost": 0,
+      "debut": "import{o as a,e as r,l as i,w as s,b as Q}from\"./index.52223004.js\";function k(A,n){n===void 0&&(n={});var f=n.insertAt;if(!(!A||typeof document==\"undefined\")){var g=document.head||document.getElementsByTagName(\"head\")[0],o=document.createElement(\"style\");o.type=\"text/css\",f===\"top\"&&g.firstChild?g."
+    },
+    {
+      "url": "https://static.app.delivery/sdks/web/optimove-web-bundle.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 129288,
+      "boost": 0,
+      "debut": "!function(){var t={485:function(t){function e(){return new DOMException(\"The request is not allowed\",\"NotAllowedError\")}t.exports=async function(t){try{await async function(t){if(!navigator.clipboard)throw e();return navigator.clipboard.writeText(t)}(t)}catch(n){try{await async function(t){const n=d"
+    },
+    {
+      "url": "https://realtime-1236.optimove.net/reportEvent",
+      "statut": 200,
+      "type": "application/json",
+      "octets": 77,
+      "boost": 0,
+      "debut": "{\"IsSuccess\":true,\"Data\":false,\"Metadata\":{\"eventNotExistsInCampaigns\":true}}"
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/650978523891219?v=2.9.419&r=stable&domain=betsson.fr&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7",
+      "statut": 200,
+      "type": "application/x-javascript; charset=utf-8",
+      "octets": 379293,
+      "boost": 0,
+      "debut": "/**\n* Copyright (c) 2017-present, Facebook, Inc. All rights reserved.\n*\n* You are hereby granted a non-exclusive, worldwide, royalty-free license to use,\n* copy, modify, and distribute this software in source code or binary form for use\n* in connection with the web services and APIs provided by Face"
+    },
+    {
+      "url": "https://static.zdassets.com/ekr/snippet.js?key=e869de78-1960-4edb-8159-40e8de69713c",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 10363,
+      "boost": 0,
+      "debut": "(()=>{var e,t,r={367(e){function t(e){const t=document.createElement(\"a\");return t.href=e,t.search.split(\"?\")[1]||\"\"}e.exports={getQueryParamsString:t,parseUrlParams:function(e){const r=t(e);return\"\"===r?{}:r.split(\"&\").reduce(function(e,t){const r=t.split(\"=\");return e[r[0]]=decodeURIComponent(r[1]"
+    },
+    {
+      "url": "https://betsson.fr/assets/HomeNew.4dd9e668.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 16432,
+      "boost": 0,
+      "debut": ".body--dark[data-v-757d6e15]{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #f"
+    },
+    {
+      "url": "https://betsson.fr/assets/GameDetails.198fdd6c.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 125957,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/BetMarketOddCard.3d7ab3d8.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 10322,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbSection.51eb2182.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 9828,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/Maintenance.817b9058.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 9001,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/UserAlertBox.cf6a83ab.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 8481,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/AsideLeft.aadf9d94.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 9090,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbSideMenu.f4b14bee.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 18880,
+      "boost": 0,
+      "debut": ".body--dark[data-v-6a13e108]{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #f"
+    },
+    {
+      "url": "https://betsson.fr/assets/SplashScreen.c6689b51.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 8177,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbPageAside.0e989ef8.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 8822,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbSearchBar.06c41076.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 9290,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://betsson.fr/assets/AsideRight.7e0ae6c4.css",
+      "statut": 200,
+      "type": "text/css",
+      "octets": 8088,
+      "boost": 0,
+      "debut": ".body--dark{--backgroundPrimary: #03061b;--backgroundSecondary: #161732;--backgroundTertiary: #1f2147;--backgroundBorder: #2a2d60;--backgroundCards: #1f2147;--textPrimary: #ffffff;--textHeadlinePrimary: #ffffff;--textDisablePrimary: #434799;--textSecondary: #939dff;--iconPrimary: #ffffff;--iconSecon"
+    },
+    {
+      "url": "https://velsv-bson-ssb-pr.betsson.fr/services/content/get",
+      "statut": 200,
+      "type": "application/json;charset=UTF-8",
+      "octets": 40953,
+      "boost": 0,
+      "debut": "{\"data\":{\"idfwbonavigation\":\"top\",\"idfwbonavigationtypes\":[\"HOME\"],\"bonavigationnodes\":[{\"idfwbonavigation\":\"19870.1\",\"setnavigationcontextonclick\":\"0\",\"numfwmarketgroups\":\"0\",\"numbonavigationchildren\":\"9\",\"name\":\"Popular\",\"idfwbonavigationtypes\":[\"MAIN\",\"TABCONTAINER\",\"TOPBETS\"],\"bonavigationnodes\""
+    },
+    {
+      "url": "https://betsson.fr/assets/BetMarketOddCard.66032fd5.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 7397,
+      "boost": 0,
+      "debut": "import{a5 as k,y as U,h as S,f as w,J as z,m as H,n as K,p as q,ac as J,q as Z,Z as Q,x as W,a9 as X,A as Y,C as p,o as m,F as v,G as R,N as A,O as I,l as T,H as D,P as $,aF as ee,cn as M,co as te,a4 as ae}from\"./index.52223004.js\";const se={gameScore:null,matchScore:null,currentScore:null,previousS"
+    },
+    {
+      "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:519365540506:web:33423fda1156273bdefd23/webConfig",
+      "statut": 200,
+      "type": "application/json; charset=UTF-8",
+      "octets": 367,
+      "boost": 0,
+      "debut": "{\n  \"projectId\": \"betssonfr-74f1b\",\n  \"appId\": \"1:519365540506:web:33423fda1156273bdefd23\",\n  \"databaseURL\": \"https://betssonfr-74f1b-default-rtdb.europe-west1.firebasedatabase.app\",\n  \"storageBucket\": \"betssonfr-74f1b.firebasestorage.app\",\n  \"authDomain\": \"betssonfr-74f1b.firebaseapp.com\",\n  \"messa"
+    },
+    {
+      "url": "https://betsson.fr/assets/useBetSwipe.deec84a2.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 1748,
+      "boost": 0,
+      "debut": "import{y as v,x,Z as p,h as u,f,a9 as I,a7 as s,aa as a,ab as r,a5 as l,A as n}from\"./index.52223004.js\";const O=v(),B=x(),h=p(),d=u(()=>O.user.partyId||0),m=u(()=>h.betslip),i=f(!1),b=u(()=>B.oddsFormat),k=u(()=>{var e;const t=(e=m.value)==null?void 0:e.map(o=>o.value);return t!=null&&t.length?t==n"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbSideMenu.5611c042.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 7770,
+      "boost": 0,
+      "debut": "import{R,T as I,U as T,h,V as q,W as Q,X as N,m as k,n as p,p as B,Y as C,Z as M,j as O,C as z,o as r,e as d,I as _,F as f,N as m,l as g,L as W,G as v,P as x,O as S,$ as G,a0 as V,a1 as D,q as H,a2 as P,a3 as A,a4 as w}from\"./index.52223004.js\";import{i as j}from\"./useBetSwipe.deec84a2.js\";const E=["
+    },
+    {
+      "url": "https://betsson.fr/assets/AsideLeft.6c293b09.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 4171,
+      "boost": 0,
+      "debut": "import{m as R,S as M,p as P,q as I,Y as k,v as L,x as B,y as w,h as m,z as A,C as a,o as b,e as _,I as r,H as i,G as u,Q as H,l as F,D as N,E as T,J as U}from\"./index.52223004.js\";import{S as G}from\"./SbPageAside.ce454ac6.js\";import{S as z}from\"./SbSection.06dfdefc.js\";import{S as O}from\"./SbSideMen"
+    },
+    {
+      "url": "https://betsson.fr/assets/SbSearchBar.cb556284.js",
+      "statut": 200,
+      "type": "application/javascript",
+      "octets": 2191,
+      "boost": 0,
+      "debut": "import{m as x,n as y,p as C,Y as _,ac as B,q as z,f as i,j as b,C as k,o as d,F as f,H as l,aD as q,I as p,aE as w,aF as I,aG as F,l as P,N as R}from\"./index.52223004.js\";const V={name:\"SbSearchBar\",components:{SbIcon:y},props:{placeholder:{type:String,default:\"search_for_teams_or_competitions\"},ico"
+    }
+  ],
+  "hotes": [
+    "api-bson-ssb-pr.betsson.fr",
+    "api.vaix.ai",
+    "betsson.fr",
+    "cdn-eu.realytics.net",
+    "cdn1-bson-ssb-pr.betsson.fr",
+    "cdnjs.cloudflare.com",
+    "connect.facebook.net",
+    "ekr.zdassets.com",
+    "firebase.googleapis.com",
+    "firebaseinstallations.googleapis.com",
+    "fonts.googleapis.com",
+    "identitytoolkit.googleapis.com",
+    "push-eu-central-2.kumulos.com",
+    "realtime-1236.optimove.net",
+    "s2.adform.net",
+    "sc-static.net",
+    "sdk.optimove.net",
+    "static.ads-twitter.com",
+    "static.app.delivery",
+    "static.cloudflareinsights.com",
+    "static.zdassets.com",
+    "stats.g.doubleclick.net",
+    "stream-1236.optimove.net",
+    "track.adform.net",
+    "trck.spoteffects.net",
+    "velsv-bson-ssb-pr.betsson.fr",
+    "www.googletagmanager.com"
+  ]
+}

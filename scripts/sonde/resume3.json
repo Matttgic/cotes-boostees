@@ -1,0 +1,323 @@
+{
+  "date_utc": "2026-10-08T18:06:38+00:00",
+  "winamax": {
+    "statut": 200,
+    "octets": 291909,
+    "cles_etat": [
+      "achievements",
+      "betCategories",
+      "bets",
+      "browser",
+      "calendar",
+      "categories",
+      "cc",
+      "events",
+      "filters",
+      "liveMatchCount",
+      "mainMatchCount",
+      "matches",
+      "missions",
+      "notifications",
+      "odds",
+      "outcomes",
+      "raids",
+      "reallyLiveMatchCount",
+      "settings",
+      "sportIds",
+      "sports",
+      "teasers",
+      "terms",
+      "tournaments",
+      "tvMatchCount"
+    ],
+    "nb_matchs_boost": 11,
+    "exemples": [
+      {
+        "match": {
+          "matchId": 1000249361,
+          "available": true,
+          "status": "PREMATCH",
+          "mainBetId": 714229410,
+          "moreBets": 0,
+          "periodId": 0,
+          "period": "not_started",
+          "periodName": "",
+          "nbRounds": null,
+          "hlType": null,
+          "isOutright": true,
+          "title": "Cote Boostée : Melsungen - Nantes",
+          "roundName": null,
+          "tvChannels": null,
+          "sportId": 100000,
+          "categoryId": 800000412,
+          "tournamentId": 900002771,
+          "competitor1Id": null,
+          "competitor1Name": null,
+          "competitor1Flag": null,
+          "competitor2Id": null,
+          "competitor2Name": null,
+          "competitor2Flag": null,
+          "matchStart": 1791485100,
+          "isBooked": false,
+          "prematchDisplayOrder": 2045,
+          "liveDisplayOrder": null,
+          "filters": [],
+          "image": null,
+          "imageXl": null,
+          "streamHighlightsAvailable": false,
+          "highlights": [],
+          "mymatchAvailable": false,
+          "isHot": true
+        },
+        "paris": [
+          {
+            "pari": {
+              "betId": 714229410,
+              "matchId": 1000249361,
+              "marketId": 9038,
+              "outcomes": [
+                2213811052
+              ],
+              "available": true,
+              "template": "ListOdd",
+              "isAlternativeMainBet": false,
+              "betTypeIsLive": false,
+              "betTitle": "Cote boostée (mise max 20 €)",
+              "betTypeName": "Cote boostée (mise max 20 €)",
+              "betType": 5407,
+              "betTypeCategoryId": null,
+              "betCategories": [],
+              "betTypeCategory": null,
+              "betTypeHelp": "Pariez sur cette cote boostée. Pari non combinable. 20 € maximum.",
+              "previousOdd": 3.65,
+              "betGroup": 714229410
+            },
+            "issues": [
+              {
+                "issue": {
+                  "betId": 714229410,
+                  "label": "Nantes gagne et plus de 58,5 buts dans le match",
+                  "available": true,
+                  "code": "yes",
+                  "hotUsers": 52
+                },
+                "cote": 4.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "match": {
+          "matchId": 1000249362,
+          "available": true,
+          "status": "PREMATCH",
+          "mainBetId": 714232056,
+          "moreBets": 0,
+          "periodId": 0,
+          "period": "not_started",
+          "periodName": "",
+          "nbRounds": null,
+          "hlType": null,
+          "isOutright": true,
+          "title": "Cote Boostée : Skanderborg Håndbold - Montpellier",
+          "roundName": null,
+          "tvChannels": null,
+          "sportId": 100000,
+          "categoryId": 800000412,
+          "tournamentId": 900002771,
+          "competitor1Id": null,
+          "competitor1Name": null,
+          "competitor1Flag": null,
+          "competitor2Id": null,
+          "competitor2Name": null,
+          "competitor2Flag": null,
+          "matchStart": 1791485100,
+          "isBooked": false,
+          "prematchDisplayOrder": 2045,
+          "liveDisplayOrder": null,
+          "filters": [],
+          "image": null,
+          "imageXl": null,
+          "streamHighlightsAvailable": false,
+          "highlights": [],
+          "mymatchAvailable": false,
+          "isHot": true
+        },
+        "paris": [
+          {
+            "pari": {
+              "betId": 714232056,
+              "matchId": 1000249362,
+              "marketId": 9038,
+              "outcomes": [
+                2213818404
+              ],
+              "available": true,
+              "template": "ListOdd",
+              "isAlternativeMainBet": false,
+              "betTypeIsLive": false,
+              "betTitle": "Cote boostée (mise max 20 €)",
+              "betTypeName": "Cote boostée (mise max 20 €)",
+              "betType": 5407,
+              "betTypeCategoryId": null,
+              "betCategories": [],
+              "betTypeCategory": null,
+              "betTypeHelp": "Pariez sur cette cote boostée. Pari non combinable. 20 € maximum.",
+              "previousOdd": 2.25,
+              "betGroup": 714232056
+            },
+            "issues": [
+              {
+                "issue": {
+                  "betId": 714232056,
+                  "label": "Montpellier marque au moins 34 buts",
+                  "available": true,
+                  "code": "yes",
+                  "hotUsers": 31
+                },
+                "cote": 2.4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "match": {
+          "matchId": 1000249391,
+          "available": true,
+          "status": "PREMATCH",
+          "mainBetId": 714270492,
+          "moreBets": 0,
+          "periodId": 0,
+          "period": "not_started",
+          "periodName": "",
+          "nbRounds": null,
+          "hlType": null,
+          "isOutright": true,
+          "title": "Cote Boostée : Montauban - CA Brive",
+          "roundName": null,
+          "tvChannels": null,
+          "sportId": 100000,
+          "categoryId": 800000403,
+          "tournamentId": 900002485,
+          "competitor1Id": null,
+          "competitor1Name": null,
+          "competitor1Flag": null,
+          "competitor2Id": null,
+          "competitor2Name": null,
+          "competitor2Flag": null,
+          "matchStart": 1791486000,
+          "isBooked": false,
+          "prematchDisplayOrder": 2100,
+          "liveDisplayOrder": null,
+          "filters": [],
+          "image": null,
+          "imageXl": null,
+          "streamHighlightsAvailable": false,
+          "highlights": [],
+          "mymatchAvailable": false,
+          "isHot": true
+        },
+        "paris": [
+          {
+            "pari": {
+              "betId": 714270492,
+              "matchId": 1000249391,
+              "marketId": 9038,
+              "outcomes": [
+                2213919270
+              ],
+              "available": true,
+              "template": "ListOdd",
+              "isAlternativeMainBet": false,
+              "betTypeIsLive": false,
+              "betTitle": "Cote boostée (mise max 20 €)",
+              "betTypeName": "Cote boostée (mise max 20 €)",
+              "betType": 5407,
+              "betTypeCategoryId": null,
+              "betCategories": [],
+              "betTypeCategory": null,
+              "betTypeHelp": "Pariez sur cette cote boostée. Pari non combinable. 20 € maximum.",
+              "previousOdd": 2,
+              "betGroup": 714270492
+            },
+            "issues": [
+              {
+                "issue": {
+                  "betId": 714270492,
+                  "label": "Montauban gagne par au moins 6 points d'écart",
+                  "available": true,
+                  "code": "yes",
+                  "hotUsers": 20
+                },
+                "cote": 2.25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "champs_suspects": [
+      "714229410.previousOdd",
+      "714232056.previousOdd",
+      "714270492.previousOdd",
+      "714444471.previousOdd",
+      "714470234.previousOdd",
+      "714478796.previousOdd",
+      "714485925.previousOdd",
+      "714491579.previousOdd",
+      "714522679.previousOdd",
+      "714558428.previousOdd",
+      "714563026.previousOdd",
+      "800000001.boostedOddSportId",
+      "800000394.boostedOddSportId",
+      "800000402.boostedOddSportId",
+      "800000403.boostedOddSportId",
+      "800000406.boostedOddSportId",
+      "800000412.boostedOddSportId",
+      "800000468.boostedOddSportId",
+      "800000991.boostedOddSportId",
+      "boosters.BOOSTER_1",
+      "boosters.BOOSTER_2",
+      "boosters.BOOSTER_3",
+      "boosters.boosterId",
+      "cc.boosters",
+      "eligibility.hasBoostedOdds",
+      "rewardParams.thresholds",
+      "supercharged.boosters"
+    ]
+  },
+  "pmu": {
+    "wrapper_events": {
+      "statut": 404,
+      "type": "text/html; charset=utf-8",
+      "octets": 1643,
+      "url_finale": "https://www.pmu.fr/sporthome/wrapper/events/",
+      "occurrences_boost": 0,
+      "urls_internes": [
+        "/404"
+      ]
+    },
+    "wrapper_dashboard": {
+      "statut": 404,
+      "type": "text/html; charset=utf-8",
+      "octets": 1643,
+      "url_finale": "https://www.pmu.fr/sporthome/wrapper/dashboard/",
+      "occurrences_boost": 0,
+      "urls_internes": [
+        "/404"
+      ]
+    },
+    "promotions": {
+      "statut": 404,
+      "type": "text/html; charset=utf-8",
+      "octets": 1643,
+      "url_finale": "https://www.pmu.fr/sportpromotions/",
+      "occurrences_boost": 0,
+      "urls_internes": [
+        "/404"
+      ]
+    }
+  }
+}
