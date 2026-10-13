@@ -20,7 +20,7 @@ CANDIDATS = {
     "genybet": ["https://sport.genybet.fr/img/3_genybet/apple-touch-icon.png",
                 "https://sport.genybet.fr/img/3_genybet/favicon.ico"],
     "netbet": ["https://www.netbet.fr/img/3_netbet/apple-touch-icon.png", "https://www.netbet.fr/img/3_netbet/favicon.ico"],
-    "betsson": ["https://www.betsson.fr/icons/favicon-128x128.png", "https://www.betsson.fr/icons/favicon-96x96.png"],
+    "betsson": ["https://betsson.fr/icons/favicon-128x128.png", "https://betsson.fr/favicon.ico"],
 }
 EXT = {"image/png": "png", "image/x-icon": "ico", "image/vnd.microsoft.icon": "ico", "image/svg+xml": "svg",
        "image/jpeg": "jpg", "image/webp": "webp"}
