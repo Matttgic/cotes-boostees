@@ -134,3 +134,18 @@ def test_paris_long_terme_regles_tard_et_sans_limite():
         reglement.appliquer(b, {"statut": "inconnu", "score": "", "explication": "", "sources": []}, t2)
     assert not b["reglement"].get("a_la_main")                        # jamais abandonné
     assert simulation.pari(b)["horizon"] == "long terme (saison)"
+
+
+def test_bilan_par_bookmaker_et_par_sport():
+    def b(i, bk, sport, issue):
+        return {"id": f"x|{i}|{i}", "bookmaker": bk, "sport": sport, "match": "M", "pari": "p", "mise_max": 10,
+                "cote_boostee": 2.0, "cote_boostee_initiale": 2.0, "debut": "2026-10-20T18:00:00+00:00",
+                "reglement": {"statut": issue}}
+    base = {x["id"]: x for x in [b(1, "Betsson", "Football", "gagné"), b(2, "Betsson", "Football", "perdu"),
+                                  b(3, "Betsson", "Tennis", "gagné"), b(4, "Winamax", "Football", "perdu")]}
+    croise = simulation.bilan(base)["par_bookmaker_sport"]
+    assert list(croise) == ["Betsson", "Winamax"]
+    assert list(croise["Betsson"]) == ["Football", "Tennis"]               # sport le plus joué d'abord
+    assert croise["Betsson"]["Football"]["paris"] == 2 and croise["Betsson"]["Football"]["gain_net"] == 0.0
+    assert croise["Betsson"]["Tennis"]["gain_net"] == 10.0
+    assert croise["Winamax"]["Football"]["gain_net"] == -10.0

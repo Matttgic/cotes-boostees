@@ -130,6 +130,9 @@ def bilan(base: dict[str, dict], filtre=None, nom: str = "A — toutes les cotes
         groupes["par_mois"][_mois(p["debut"])].append(p)
         groupes["par_valeur"][_tranche_valeur(p)].append(p)
         groupes["par_horizon"][p["horizon"]].append(p)
+    croise: dict = defaultdict(lambda: defaultdict(list))      # bookmaker × sport (page Labo du site)
+    for p in paris:
+        croise[p["bookmaker"] or "?"][p["sport"] or "?"].append(p)
 
     # courbe des gains et pires moments, dans l'ordre des matchs
     cumul, sommet, pire_baisse, serie, pire_serie, courbe = 0.0, 0.0, 0.0, 0, 0, []
@@ -147,6 +150,8 @@ def bilan(base: dict[str, dict], filtre=None, nom: str = "A — toutes les cotes
             "global": {**_agreger(paris), "boosts_sans_mise_max": sans_mise,
                        "pire_baisse": round(pire_baisse, 2), "pire_serie_perdante": pire_serie},
             **{k: {g: _agreger(v) for g, v in sorted(d.items())} for k, d in groupes.items()},
+            "par_bookmaker_sport": {bk: {sp: _agreger(v) for sp, v in sorted(d.items(), key=lambda x: -len(x[1]))}
+                                    for bk, d in sorted(croise.items())},
             "courbe": courbe, "paris": paris}
 
 

@@ -3,6 +3,15 @@
   'use strict';
 
   const REPO_DATA = 'https://raw.githubusercontent.com/Matttgic/cotes-boostees/donnees/';
+  // icônes officielles des bookmakers (assets/logos, récupérées sur leurs sites .fr) ; sinon initiales
+  const LOGOS = { winamax: 'winamax', unibet: 'unibet', olybet: 'olybet', genybet: 'genybet', netbet: 'netbet', betsson: 'betsson' };
+  function bookLogo(name) {
+    const key = String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (LOGOS[key]) return `<img class="book-logo" src="assets/logos/${LOGOS[key]}.png" alt="" width="18" height="18" loading="lazy" decoding="async">`;
+    const initials = String(name || '?').replace(/[^A-Za-z0-9]/g, '').slice(0, 2).toUpperCase() || '?';
+    return `<span class="book-logo book-initials" aria-hidden="true">${initials.replace(/[<>&"]/g, '')}</span>`;
+  }
+  function bookName(name) { return `<span class="book-name">${bookLogo(name)}<span>${String(name || 'BOOK INCONNU').replace(/[<>&"]/g, c => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' })[c])}</span></span>`; }
   const PARIS = 'Europe/Paris';
   const REFRESH_MS = 5 * 60 * 1000;
   const RECENT_AT_SCAN_MS = 150 * 60 * 1000;
@@ -165,7 +174,7 @@
     </div>` : '';
     return `<article class="boost-card" data-id="${esc(b.id)}">
       <div class="card-index">${String(idx + 1).padStart(2, '0')}</div>
-      <div class="card-core"><div class="card-meta"><span class="bookmarker">${esc(plain(b.bookmaker) || 'BOOK INCONNU')}</span><span class="bullet">/</span><span>${esc(plain(b.sport) || 'SPORT INCONNU')}</span><span class="bullet">/</span><span>${esc(date)}</span></div>
+      <div class="card-core"><div class="card-meta"><span class="bookmarker has-logo">${bookName(plain(b.bookmaker))}</span><span class="bullet">/</span><span>${esc(plain(b.sport) || 'SPORT INCONNU')}</span><span class="bullet">/</span><span>${esc(date)}</span></div>
         <h3 class="card-match">${esc(plain(b.match) || 'RENCONTRE NON RENSEIGNÉE')}</h3><p class="card-bet">${esc(plain(b.pari) || 'Intitulé indisponible')}</p>
         <div class="card-foot">${evMarkup}${here ? '<span class="tiny-tag">VU AU DERNIER SCAN</span>' : resultMarkup(b) || '<span class="tiny-tag expired">ARCHIVE</span>'}</div>
       </div>
@@ -258,9 +267,35 @@
     $('lab-detail').textContent = `${fmt(number(g.paris) || 0, 0)} paris fictifs · ${fmt(number(g.en_attente) || 0, 0)} en attente · mises réglées ${fmt(number(g.mise_totale) || 0, 0)} € · pire baisse ${euros(number(g.pire_baisse))}`;
     $('chart-caption').textContent = `${settled} PARI${settled > 1 ? 'S' : ''} RÉGLÉ${settled > 1 ? 'S' : ''}`;
     drawChart(b.courbe);
+    renderBooks(b);
     document.querySelectorAll('[data-strategy]').forEach(btn => { const yes = btn.dataset.strategy === state.strategy; btn.classList.toggle('is-active', yes); btn.setAttribute('aria-pressed', String(yes)); });
   }
 
+
+  // bilan de la stratégie choisie, par bookmaker puis par sport (le plus joué d'abord)
+  function renderBooks(b) {
+    const el = $('lab-books');
+    if (!el) return;
+    const croise = b.par_bookmaker_sport || {}, totaux = b.par_bookmaker || {};
+    const books = Object.keys(croise).sort((x, y) => (number(totaux[y]?.paris) || 0) - (number(totaux[x]?.paris) || 0));
+    if (!books.length) { el.innerHTML = ''; el.hidden = true; return; }
+    el.hidden = false;
+    const cls = v => v > 0 ? 'money-positive' : v < 0 ? 'money-negative' : '';
+    const ligne = (label, g, total) => {
+      const gain = number(g.gain_net);
+      return `<tr class="${total ? 'books-total' : ''}"><th scope="row">${label}</th><td>${fmt(number(g.regles) || 0, 0)} / ${fmt(number(g.paris) || 0, 0)}</td>`
+        + `<td class="${cls(gain)}">${esc(euros(gain))}</td><td>${esc(pct(number(g.roi_pct)))}</td></tr>`;
+    };
+    el.innerHTML = `<div class="books-head"><span class="tiny-label">BILAN PAR BOOKMAKER ET PAR SPORT</span><strong>${esc(STRATEGY_META[state.strategy]?.[1] || state.strategy)}</strong></div>`
+      + `<div class="books-grid">${books.map(bk => {
+        const sports = Object.entries(croise[bk] || {});
+        return `<div class="books-card"><div class="books-card-head">${bookName(bk)}</div><div class="table-scroll"><table class="books-table">`
+          + `<thead><tr><th>SPORT</th><th>RÉGLÉS / PARIS</th><th>GAIN NET</th><th>ROI</th></tr></thead><tbody>`
+          + ligne('TOTAL', totaux[bk] || {}, true)
+          + sports.map(([sp, g]) => ligne(esc(plain(sp) === '?' ? 'Sport inconnu' : plain(sp)), g, false)).join('')
+          + `</tbody></table></div></div>`;
+      }).join('')}</div>`;
+  }
 
   function renderBrain() {
     const b = state.brain;
@@ -338,7 +373,7 @@
     const debutJournal = pageStart('journal', settled.length);
     $('settled-table').innerHTML = settled.slice(debutJournal, debutJournal + PAGE_SIZE).map(p => {
       const won = p.statut === 'gagné', lost = p.statut === 'perdu', gain = number(p.gain);
-      return `<tr><td>${esc(plain(p.match) || 'Rencontre inconnue')}<small>${esc(plain(p.pari))}</small></td><td>${esc(plain(p.bookmaker))}</td><td>${esc(fmt(number(p.cote),2))}</td><td><span class="result-chip ${won ? 'won' : lost ? 'lost' : ''}">${esc(plain(p.statut).toUpperCase())}</span></td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td></tr>`;
+      return `<tr><td>${esc(plain(p.match) || 'Rencontre inconnue')}<small>${esc(plain(p.pari))}</small></td><td>${bookName(plain(p.bookmaker))}</td><td>${esc(fmt(number(p.cote),2))}</td><td><span class="result-chip ${won ? 'won' : lost ? 'lost' : ''}">${esc(plain(p.statut).toUpperCase())}</span></td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td></tr>`;
     }).join('');
   }
 

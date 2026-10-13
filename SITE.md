@@ -9,6 +9,10 @@ Une section à la fois, au lieu d'une longue page : **Accueil**, **Le flux**, **
 barre d'onglets en bas de l'écran ; sur ordinateur, menu du haut. Les listes (offres, décisions du
 cerveau, journal des paris réglés) sont découpées en pages de 10 avec boutons « préc. / suiv. ».
 
+Chaque pari affiche le **logo du bookmaker** (icônes officielles récupérées sur les sites .fr, dans
+`assets/logos/` ; initiales à défaut). Le labo montre, pour la stratégie choisie, un **bilan par bookmaker
+puis par sport** (réglés / paris, gain net, ROI ; `par_bookmaker_sport` dans `bilan.json`).
+
 ## Source de données
 
 Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :
