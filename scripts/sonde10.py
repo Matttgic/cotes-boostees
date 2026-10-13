@@ -49,18 +49,13 @@ def lire(proxies=None, verif=True) -> dict:
         "where": {"competition": {"id": {"@in": ids}}}, "subscribe": False})
     # sélections boostées du partenaire (option « boostedOddsEnabled » du site)
     out["boosted_selections"] = echange(ws, "5", "get_boosted_selections", {})
-    try:
-        ids_ev = [int(i) for g in (out["boosted_selections"].get("details") or {}).values()
-                  for i in (g if isinstance(g, list) else [g])]
-    except Exception:  # noqa: BLE001
-        ids_ev = []
-    if not ids_ev:
-        ids_ev = [int(k) for k in json.dumps(out["boosted_selections"]).split('"') if k.isdigit()][:200]
-    if ids_ev:
+    details = ((out["boosted_selections"].get("data") or {}).get("details") or {})
+    ids_jeux = sorted({int(k) for k in details})
+    if ids_jeux:
         out["evenements_boostes"] = echange(ws, "6", "get", {
             "source": "betting",
             "what": {"sport": ["id", "name"], "competition": ["id", "name"], "game": [], "market": [], "event": []},
-            "where": {"event": {"id": {"@in": ids_ev}}}, "subscribe": False})
+            "where": {"game": {"id": {"@in": ids_jeux}}}, "subscribe": False})
     ws.close()
     return out
 
