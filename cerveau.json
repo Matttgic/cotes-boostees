@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 114,
+   "abstention": 118,
    "ecarter": 13,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T18:48:30+00:00",
+  "derniere_observation": "2026-10-13T19:15:19+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,15 +16,15 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 17,
+   "ligne_absente": 20,
    "long_terme": 30,
-   "marche_non_cote": 18,
-   "match_introuvable": 33,
+   "marche_non_cote": 20,
+   "match_introuvable": 32,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
   "observations_reglees": 104,
-  "observes": 157,
+  "observes": 161,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,8 +32,156 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T18:48:30+00:00",
+ "derniere_observation": "2026-10-13T19:15:19+00:00",
  "entrees": {
+  "betsson|93666744.1|393253164.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-14T16:45+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 17.8,
+      "horizon_heures": 21.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|93666744.1|393253164.1",
+   "match": "LASK Linz - Liverpool",
+   "pari": "Barcola Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|93668376.1|393257032.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-14T19:00+00:00",
+   "historique": [
+    {
+     "cote": 15.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 13.0,
+      "hausse_pct": 15.4,
+      "horizon_heures": 23.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|93668376.1|393257032.1",
+   "match": "Manchester City - Paris SG",
+   "pari": "Le PSG gagne 1-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|93842888.1|393934872.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-15T16:45+00:00",
+   "historique": [
+    {
+     "cote": 2.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.96,
+      "hausse_pct": 9.7,
+      "horizon_heures": 45.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|93842888.1|393934872.1",
+   "match": "Lyon - Crystal Palace",
+   "pari": "Pavel Sulc Décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|93843193.1|393935636.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-15T16:45+00:00",
+   "historique": [
+    {
+     "cote": 10.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 8.65,
+      "hausse_pct": 21.4,
+      "horizon_heures": 45.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|93843193.1|393935636.1",
+   "match": "CSKA Sofia - Monaco",
+   "pari": "Monaco gagne 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "olybet|31215805|7330210853": {
    "bookmaker": "OlyBet",
    "debut": "2026-10-14T05:15+00:00",
@@ -61,6 +209,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 20.5 PLUS) ; Betfair : match introuvable (C. Ruud - F. Auger-Aliassime)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.0,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 20.5 PLUS) ; Betfair : ligne absente (TOTAL MATCH 20.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
