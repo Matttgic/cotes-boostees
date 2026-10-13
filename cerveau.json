@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 109,
+   "abstention": 110,
    "ecarter": 13,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T11:31:10+00:00",
+  "derniere_observation": "2026-10-13T11:54:29+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,7 +16,7 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 16,
+   "ligne_absente": 17,
    "long_terme": 30,
    "marche_non_cote": 18,
    "match_introuvable": 29,
@@ -24,7 +24,7 @@
    "sport_non_suivi": 5
   },
   "observations_reglees": 102,
-  "observes": 152,
+  "observes": 153,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T11:31:10+00:00",
+ "derniere_observation": "2026-10-13T11:54:29+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -9022,6 +9022,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : match introuvable (Partizan Belgrade - Panathinaikos)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 17.6,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T11:54:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 14.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718133685|2226060747",
@@ -9029,6 +9055,43 @@
    "pari": "Sylvain Francisco et Mathias Lessort marquent au moins 15 points chacun",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|718202891|2226247033": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T16:00+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.952,
+      "hausse_pct": 17.8,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T11:54:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718202891|2226247033",
+   "match": "Ligue des Champions",
+   "pari": "Plus de 4,5 buts dans chacun des 3 matchs à 18h00",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
