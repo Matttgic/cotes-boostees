@@ -18,6 +18,7 @@ from datetime import datetime, timezone
 from sonde import BRUT, OUT, masquer
 
 URLS = (os.environ.get("SONDE_URL") or "https://www.bet365.fr/#/HO/").split()
+TOUT = os.environ.get("SONDE_FICHIER", "") == "tout"      # garder toutes les réponses JSON
 DIRECT = os.environ.get("SONDE_FICHIER", "") == "direct"      # champ « fichier » du workflow réutilisé
 Q = "lid=4&zid=0&cid=70&cgid=1&ctid=70"
 API = [f"/matchmarketscontentapi/betboost?{Q}&pd=%23AC%23B1%23C1%23D1002%23G98%23",
@@ -61,19 +62,28 @@ def main() -> None:
         texte = corps[:400000].decode("utf-8", "replace") if "image" not in (r.headers.get("content-type") or "") else ""
         reponses.append({"url": r.url[:300], "statut": r.status, "type": r.headers.get("content-type"),
                          "octets": len(corps), "boost": len(re.findall(r"boost", texte, re.I)), "debut": texte[:300]})
-        if texte and re.search(r"boost", texte, re.I) and len(reponses) < 400:
-            with gzip.open(BRUT / f"bet365_rep_{len(reponses)}.txt.gz", "wt", encoding="utf-8") as f:
+        if texte and (re.search(r"boost", texte, re.I) or (TOUT and "json" in (r.headers.get("content-type") or "")))\
+                and len(reponses) < 400:
+            with gzip.open(BRUT / f"web_rep_{len(reponses)}.txt.gz", "wt", encoding="utf-8") as f:
                 f.write(r.url + "\n\n" + texte)
 
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        ctx = nav.new_context(proxy=None if DIRECT else proxy_playwright(), ignore_https_errors=True, locale="fr-FR",
-                              timezone_id="Europe/Paris", viewport={"width": 1366, "height": 900},
-                              user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like "
-                                         "Gecko) Chrome/141.0.0.0 Safari/537.36")
-        ctx.route("**/*", lambda route: route.abort() if route.request.resource_type in ("image", "media", "font")
-                  else route.continue_())
-        page = ctx.new_page()
+        # certains sites (Betsson) refusent les IP du proxy que leur base situe hors de France :
+        # on change d'IP jusqu'à passer le filtre (6 essais)
+        for essai in range(6):
+            ctx = nav.new_context(proxy=None if DIRECT else proxy_playwright(), ignore_https_errors=True,
+                                  locale="fr-FR", timezone_id="Europe/Paris", viewport={"width": 1366, "height": 900},
+                                  user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, "
+                                             "like Gecko) Chrome/141.0.0.0 Safari/537.36")
+            ctx.route("**/*", lambda route: route.abort() if route.request.resource_type in ("image", "media", "font")
+                      else route.continue_())
+            page = ctx.new_page()
+            r0 = page.goto(URLS[0], wait_until="domcontentloaded", timeout=90000)
+            if r0 is not None and r0.status != 403 and "geoloc" not in page.title().lower():
+                break
+            ctx.close()
+        res["essais_ip"] = essai + 1
         page.on("response", noter)
         for i, url in enumerate(URLS):
             info = {"url": url}
@@ -83,21 +93,21 @@ def main() -> None:
                 texte = page.inner_text("body")
                 info.update({"titre": page.title(), "texte_octets": len(texte),
                              "lignes_boost": [l for l in texte.splitlines() if re.search(r"boost", l, re.I)][:40]})
-                with gzip.open(BRUT / f"bet365_page_{i}.txt.gz", "wt", encoding="utf-8") as f:
+                with gzip.open(BRUT / f"web_page_{i}.txt.gz", "wt", encoding="utf-8") as f:
                     f.write(texte)
-                with gzip.open(BRUT / f"bet365_page_{i}.html.gz", "wt", encoding="utf-8") as f:
+                with gzip.open(BRUT / f"web_page_{i}.html.gz", "wt", encoding="utf-8") as f:
                     f.write(page.content())
-                page.screenshot(path=str(BRUT / f"bet365_page_{i}.png"))
+                page.screenshot(path=str(BRUT / f"web_page_{i}.png"))
             except Exception as e:  # noqa: BLE001
                 info["erreur"] = f"{type(e).__name__} : {e}"[:400]
             res["pages"].append(info)
         res["routage_boost"] = [r for r in reponses if "routingdata" in r["url"]][:1]
         res["api"] = []
-        for chemin in API:
+        for chemin in ([] if "bet365" not in URLS[0] else API):
             try:
                 r = page.evaluate("""async (u) => { const r = await fetch(u, {credentials: 'include'});
                                      return {s: r.status, t: await r.text()}; }""", chemin)
-                with gzip.open(BRUT / f"bet365_api_{len(res['api'])}.txt.gz", "wt", encoding="utf-8") as f:
+                with gzip.open(BRUT / f"web_api_{len(res['api'])}.txt.gz", "wt", encoding="utf-8") as f:
                     f.write(chemin + "\n\n" + r["t"])
                 res["api"].append({"chemin": chemin, "statut": r["s"], "octets": len(r["t"]), "debut": r["t"][:500]})
             except Exception as e:  # noqa: BLE001
