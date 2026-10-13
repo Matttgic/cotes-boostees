@@ -75,6 +75,9 @@ jobs:
           # pas de déploiement Vercel à chaque passage (quota de 100 déploiements par jour)
           [ -f vercel.json ] || echo '{"git": {"deploymentEnabled": false}}' > vercel.json
           git add boosts.json etat.json bilan.json BILAN.md reglements_manuels.json cerveau.json vercel.json
+          for fichier in recherche_historique.json recherche.json RECHERCHE.md; do
+            if [ -f "$fichier" ]; then git add "$fichier"; fi
+          done
           git commit -q -m "Collecte $(date -u +%F_%H%M)" || { echo "Rien de nouveau"; exit 0; }
           git push -q "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:donnees
 
@@ -110,3 +113,4 @@ jobs:
             sleep $((essai * 20))
           done
           exit 1
+

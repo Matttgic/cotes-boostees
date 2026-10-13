@@ -31,6 +31,10 @@
     G_kelly: ['G', 'QUART KELLY', 'EXACTE ≥ 5 % · RISQUE LIMITÉ'],
     H_1_match: ['H', 'UN PAR MATCH', '1ER BOOST VU · 10 € MAX'],
     I_moderee_unique: ['I', 'MODÉRÉE + DIVERSIFIÉE', '1 PAR MATCH · 1,60–3,50 · 10 € MAX'],
+    J_adaptative: ['J', 'FILTRE ADAPTATIF', 'CHOIX QUOTIDIEN · 1 % DE BANQUE'],
+    K_modele: ['K', 'MODÈLE / 10 €', 'EV ESTIMÉE ≥ 5 % · APPRENTISSAGE PROGRESSIF'],
+    L_kelly_dynamique: ['L', 'KELLY DYNAMIQUE', 'MÊME MODÈLE · KELLY 1/8 AMORTI'],
+    M_modele_20: ['M', 'MODÈLE / 20 €', 'EV ESTIMÉE ≥ 5 % · EXPOSITION PLAFONNÉE'],
     B_valeur: ['B', 'VALEUR ≥ +5 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
     B0_valeur: ['B0', 'VALEUR ≥ 0 %', 'EXACTE OU INTERPOLÉE · MISE MAX'],
   });
@@ -283,7 +287,46 @@
     $('chart-caption').textContent = `${settled} PARI${settled > 1 ? 'S' : ''} RÉGLÉ${settled > 1 ? 'S' : ''}`;
     drawChart(b.courbe);
     renderBooks(b);
+    renderResearchDecisions(b);
     document.querySelectorAll('[data-strategy]').forEach(btn => { const yes = btn.dataset.strategy === state.strategy; btn.classList.toggle('is-active', yes); btn.setAttribute('aria-pressed', String(yes)); });
+  }
+
+  function renderResearchOverview() {
+    const el = $('research-protocol'), r = state.bilan?.recherche;
+    if (!el) return;
+    if (!r || !r.version) {
+      el.hidden = !r?.erreur;
+      el.innerHTML = r?.erreur ? `<p class="protocol-note">Recherche momentanément indisponible : ${esc(r.erreur)}</p>` : '';
+      return;
+    }
+    el.hidden = false;
+    const keys = ['J_adaptative', 'K_modele', 'L_kelly_dynamique', 'M_modele_20'];
+    const labels = {J_adaptative: 'J · FILTRE ADAPTATIF', K_modele: 'K · MODÈLE / 10 €', L_kelly_dynamique: 'L · KELLY AMORTI', M_modele_20: 'M · MODÈLE / 20 €', temoin_10: 'TÉMOIN / 10 €', temoin_20: 'TÉMOIN / 20 €'};
+    const row = (key, b) => {
+      const g = b.global || {}, gain = number(g.gain_net);
+      return `<tr><th scope="row">${esc(labels[key] || key)}</th><td>${fmt(number(g.regles) || 0, 0)} / ${fmt(number(g.paris) || 0, 0)}</td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td><td>${esc(pct(number(g.roi_pct)))}</td><td>${esc(euros(number(g.pire_baisse)))}</td></tr>`;
+    };
+    const table = rows => `<div class="table-scroll"><table class="protocol-table"><thead><tr><th>SIMULATION</th><th>RÉGLÉS / PARIS</th><th>GAIN NET</th><th>ROI</th><th>PIRE BAISSE</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    const oldRows = ['temoin_10', 'temoin_20'].filter(k => r.temoins?.[k]).map(k => row(k, r.temoins[k])).join('')
+      + keys.filter(k => state.bilan[k]).map(k => row(k, state.bilan[k])).join('');
+    const future = r.prospectif || {}, newRows = ['temoin_10', 'temoin_20'].filter(k => future.temoins?.[k]).map(k => row(k, future.temoins[k])).join('')
+      + keys.filter(k => future.strategies?.[k]).map(k => row(k, future.strategies[k])).join('');
+    const c = r.calibration || {};
+    el.innerHTML = `<div class="protocol-head"><span class="tiny-label">RECHERCHE CHRONOLOGIQUE · J / K / L / M</span><strong>APPRENDRE, PUIS MESURER</strong><p>Historique rejoué jusqu'au ${esc(dateText(r.derniere_observation))}. Les ${fmt(number(r.minimum_apprentissage) || 0, 0)} premiers règlements servent à l'apprentissage ; chaque choix suivant utilise uniquement les résultats déjà connus. Banque fictive de 1 000 €, mises ouvertes plafonnées à 10 %.</p></div>`
+      + table(oldRows)
+      + `<p class="protocol-note">Ces méthodes ont été définies après consultation de l'historique : le replay reste une exploration. Le modèle utilise des probabilités estimées et les verdicts automatiques du collecteur. À 20 €, l'exposition limite aussi le nombre de paris pris : les gains ne sont pas simplement doublés.</p>`
+      + (number(c.brier_modele) !== null ? `<p class="protocol-note">Calibration sur ${fmt(number(c.predictions_reglees), 0)} prévisions réglées : score du modèle ${fmt(number(c.brier_modele), 4)}, prix normal bookmaker ${fmt(number(c.brier_prior_bookmaker), 4)}. Plus bas est meilleur. Une simulation bénéficiaire ne suffit pas à prouver de meilleures probabilités.</p>` : '')
+      + `<div class="protocol-test-i"><div class="protocol-head"><span class="tiny-label">SUIVI PROSPECTIF · BANQUE REMISE À 1 000 €</span><strong>LES NOUVEAUX PARIS</strong><p>À partir du ${esc(dateText(future.date_debut))} (heure de Paris). Les anciens résultats peuvent servir à apprendre ; seuls les nouveaux choix entrent dans cette comparaison.</p></div>${table(newRows)}</div>`
+      + `<p class="protocol-note"><a href="./analyses/RECHERCHE.md" target="_blank" rel="noopener noreferrer">VOIR LA MÉTHODE ET LES 65 VARIANTES EXPLORÉES ↗</a></p>`;
+  }
+
+  function renderResearchDecisions(b) {
+    const el = $('lab-research');
+    if (!el) return;
+    if (!b.replay) { el.hidden = true; el.innerHTML = ''; return; }
+    el.hidden = false;
+    const rows = (b.paris || []).slice(-10).reverse().map(p => `<tr><td>${esc(plain(p.match))}<small>${esc(dateText(p.decision_date))}</small></td><td>${number(p.p_modele) === null ? '—' : fmt(number(p.p_modele) * 100, 1) + ' %'}</td><td>${fmt(number(p.cote), 2)}</td><td>${esc(fmt(number(p.mise), 2))} €</td><td>${esc(plain(p.statut))}</td></tr>`).join('');
+    el.innerHTML = `<div class="books-head"><span class="tiny-label">LES 10 DERNIERS PARIS DE LA SIMULATION</span><strong>${esc(STRATEGY_META[state.strategy]?.[1] || state.strategy)}</strong></div><p class="protocol-note">Probabilité estimée au moment du choix ; elle peut être mal calibrée. Le prix normal du bookmaker est un point de départ, avec sa marge. Chaque mise est immobilisée jusqu'au règlement observé.</p><div class="table-scroll"><table class="protocol-table"><thead><tr><th>RENCONTRE / DÉCISION</th><th>PROBA. ESTIMÉE</th><th>COTE PRISE</th><th>MISE FICTIVE</th><th>ISSUE</th></tr></thead><tbody>${rows || '<tr><td colspan="5">Aucun pari dans cette simulation.</td></tr>'}</tbody></table></div>`;
   }
 
 
@@ -445,9 +488,20 @@
       const key = Math.floor(Date.now() / 60000);
       const [boosts, bilan, etat, brain] = await Promise.all([...['boosts.json','bilan.json','etat.json'].map(file => getJSON(file, key)), getJSON('cerveau.json', key).catch(() => null)]);
       if (!boosts || typeof boosts !== 'object' || Array.isArray(boosts) || !bilan?.A?.global || !etat?.dernier_passage) throw new Error('Format des données inattendu');
+      if (!bilan.recherche?.version && !bilan.recherche?.erreur) {
+        try {
+          const res = await fetch('./analyses/recherche-initiale.json', {cache: 'no-store'});
+          if (res.ok) {
+            const snapshot = await res.json();
+            if (snapshot.recherche?.version && snapshot.strategies?.K_modele?.global) {
+              Object.assign(bilan, snapshot.strategies, {recherche: snapshot.recherche});
+            }
+          }
+        } catch (e) { console.warn('[Cote Boostée] Snapshot de recherche indisponible', e); }
+      }
       state.boosts = Object.values(boosts).filter(b => b && typeof b === 'object' && typeof b.id === 'string');
       state.bilan = bilan; state.etat = etat; state.brain = brain; state.ready = true;
-      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderProtocol(); renderLab(); renderSettlements(); renderBrain();
+      rebuildFilters(); refreshHeader(); refreshMetrics(); syncControls(); renderList(); renderStrategyChoices(); renderProtocol(); renderResearchOverview(); renderLab(); renderSettlements(); renderBrain();
     } catch (error) {
       if (!state.ready) {
         $('boost-list').innerHTML = '<div class="empty-state"><span class="empty-state-symbol">!</span><strong>REGISTRE INACCESSIBLE</strong><p>Les fichiers publics GitHub ne répondent pas. Aucun chiffre de remplacement n’est affiché.</p><button id="retry" type="button">RÉESSAYER ↗</button></div>';

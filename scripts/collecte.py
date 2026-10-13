@@ -26,7 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from boosts import (betsson, cerveau, evaluation, olybet, rapport, reglement, simulation, sportnco,  # noqa: E402
-                    stockage, unibet, winamax)
+                    stockage, unibet, winamax, recherche_strategies)
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
 COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter, "olybet": olybet.collecter,
@@ -71,6 +71,14 @@ def main() -> int:
         print("Évaluation : ERREUR", traceback.format_exc()[-1500:], file=sys.stderr)
     print("Évaluation :", passage["evaluation"])
 
+    historique_recherche = None
+    try:
+        historique_recherche = recherche_strategies.charger_historique(dossier / "recherche_historique.json")
+        recherche_strategies.observer(base, historique_recherche, maintenant,
+                                     datetime.now(timezone.utc).isoformat(timespec="seconds"))
+    except Exception as e:
+        passage["recherche"] = {"erreur": f"{type(e).__name__} : {e}"[:300]}
+
     # Photographier les décisions pendant que les événements sont encore à venir.
     registre_cerveau = stockage.charger(dossier / "cerveau.json") or {}
     try:
@@ -99,7 +107,25 @@ def main() -> int:
 
     bilans = simulation.strategies(base)
     proto = simulation.protocole(base)
-    stockage.ecrire(dossier / "bilan.json", {**bilans, "protocole": proto})
+    recherche_resume = {}
+    if historique_recherche is not None:
+        try:
+            recherche_strategies.observer(base, historique_recherche, maintenant,
+                                         datetime.now(timezone.utc).isoformat(timespec="seconds"))
+            recherche = recherche_strategies.analyser(historique_recherche)
+            recherche_strategies.verrouiller_decisions(historique_recherche, recherche)
+            stockage.ecrire(dossier / "recherche_historique.json", historique_recherche)
+            stockage.ecrire(dossier / "recherche.json", recherche)
+            (dossier / "RECHERCHE.md").write_text(recherche_strategies.markdown(recherche), encoding="utf-8")
+            bilans.update(recherche["strategies"])
+            recherche_resume = recherche_strategies.resume(recherche)
+            passage["recherche"] = {"version": recherche["version"], "reglements": recherche["reglements"]}
+        except Exception as e:
+            passage["recherche"] = {"erreur": f"{type(e).__name__} : {e}"[:300]}
+    if "erreur" in passage.get("recherche", {}):
+        recherche_resume = {"erreur": passage["recherche"]["erreur"]}
+        stockage.ecrire(dossier / "recherche.json", recherche_resume)
+    stockage.ecrire(dossier / "bilan.json", {**bilans, "protocole": proto, "recherche": recherche_resume})
     (dossier / "BILAN.md").write_text(rapport.markdown(bilans, maintenant, proto), encoding="utf-8")
     for k, b in bilans.items():
         g = b["global"]
