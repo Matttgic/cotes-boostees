@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 100,
+   "abstention": 106,
    "ecarter": 13,
-   "hors_perimetre": 27,
+   "hors_perimetre": 29,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T06:35:32+00:00",
+  "derniere_observation": "2026-10-13T07:34:40+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,14 +16,15 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 14,
-   "long_terme": 27,
-   "marche_non_cote": 16,
-   "match_introuvable": 26,
+   "ligne_absente": 16,
+   "long_terme": 29,
+   "marche_non_cote": 18,
+   "match_introuvable": 27,
+   "reference_absente": 1,
    "sport_non_suivi": 4
   },
   "observations_reglees": 101,
-  "observes": 140,
+  "observes": 148,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -31,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T06:35:32+00:00",
+ "derniere_observation": "2026-10-13T07:34:40+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2418,6 +2419,191 @@
    "pari": "A.Fils remporte le 1er set et moins de 9,5 jeux dans le set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|194856077|727202715": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-13T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "Pinnacle : équipe du pari introuvable dans le match ; Betfair : équipe du pari introuvable dans le match",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194856077|727202715",
+   "match": "Arsenal - Lille",
+   "pari": "Arsenal ou Lille gagne et les 2 équipes marquent ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194856406|727203874": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-13T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Atl. Madrid - Man. United) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194856406|727203874",
+   "match": "Atl. Madrid - Man. United",
+   "pari": "Le Duo J.Alvarez+B.Fernandes sera décisif au moins 2 fois en cumulé ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194856633|727204722": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-13T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194856633|727204722",
+   "match": "Lens - Sporting",
+   "pari": "F.Thauvin décisif et Lens gagne le match ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194857136|727206555": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-13T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 11.2,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194857136|727206555",
+   "match": "CB - ChampionsLeague (13/10)",
+   "pari": "Au moins 2 joueurs marquent dans le Trio M.Olise/M.Thuram/C.Nkunku ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194859669|727218720": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-13T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 11.2,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194859669|727218720",
+   "match": "CB - ChampionsLeague (13/10)",
+   "pari": "Au moins 5 équipes marquent chacune 3 buts ou plus lors des 7 matchs de 21h ?",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|194903684|727515288": {
    "bookmaker": "Unibet",
@@ -8388,6 +8574,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "winamax|718015495|2225763080": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 13.3,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT2 None EXT) ; Betfair : ligne absente (RESULTAT_1N2 MT2 None EXT)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718015495|2225763080",
+   "match": "Galatasaray - FC Barcelone",
+   "pari": "FC Barcelone gagne les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "winamax|718022080|2225778521": {
    "bookmaker": "Winamax",
    "debut": "2026-10-13T19:00+00:00",
@@ -8422,6 +8645,80 @@
    "id": "winamax|718022080|2225778521",
    "match": "Viking - Bayern Munich",
    "pari": "H. Kane buteur sur une passe décisive de M. Olise",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718033729|2225805681": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718033729|2225805681",
+   "match": "Villarreal - Naples",
+   "pari": "Villarreal ou Naples marque sur penalty",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718037316|2225813807": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.75,
+      "hausse_pct": 13.3,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T07:34:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718037316|2225813807",
+   "match": "Leipzig - PSV Eindhoven",
+   "pari": "Christopher Nkunku marque au moins un but en 1ère mi-temps",
    "premiere_selection": null,
    "sport": "Football"
   }
