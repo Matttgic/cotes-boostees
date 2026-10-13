@@ -6,7 +6,7 @@
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T23:17:59+00:00",
+  "derniere_observation": "2026-10-13T23:45:35+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T23:17:59+00:00",
+ "derniere_observation": "2026-10-13T23:45:35+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -9808,6 +9808,32 @@
      "reference_raison": "condition non cotée par les références",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T23:45:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718576113|2227365889",
@@ -10163,6 +10189,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.589,
+     "decision": "ecarter",
+     "ev_pct": -18.3,
+     "features": {
+      "cote_origine": 3.159,
+      "hausse_pct": 18.7,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 3,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T23:45:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718603943|2227444154",
@@ -10220,6 +10274,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T23:17:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 5.0,
+     "cote_juste": 6.546,
+     "decision": "ecarter",
+     "ev_pct": -23.6,
+     "features": {
+      "cote_origine": 4.2,
+      "hausse_pct": 19.0,
+      "horizon_heures": 4.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T23:45:35+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
