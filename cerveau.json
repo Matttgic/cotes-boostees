@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 111,
+   "abstention": 114,
    "ecarter": 13,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T17:49:18+00:00",
+  "derniere_observation": "2026-10-13T18:48:30+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,15 +16,15 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 16,
+   "ligne_absente": 17,
    "long_terme": 30,
    "marche_non_cote": 18,
-   "match_introuvable": 31,
+   "match_introuvable": 33,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
   "observations_reglees": 104,
-  "observes": 154,
+  "observes": 157,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,8 +32,119 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T17:49:18+00:00",
+ "derniere_observation": "2026-10-13T18:48:30+00:00",
  "entrees": {
+  "olybet|31215805|7330210853": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-14T05:15+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T18:48:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 20.5 PLUS) ; Betfair : match introuvable (C. Ruud - F. Auger-Aliassime)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31215805|7330210853",
+   "match": "C. Ruud - F. Auger-Aliassime",
+   "pari": "Auger-Aliassime gagne et plus de 20,5 aces dans le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31215827|7330380391": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-14T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 23.9,
+      "long_terme": false,
+      "mise_max": 8.33,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T18:48:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31215827|7330380391",
+   "match": "AS Rome - Real Madrid",
+   "pari": "Real Madrid to win and Vinicius to score",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31215828|7330382822": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-14T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 23.9,
+      "long_terme": false,
+      "mise_max": 7.14,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T18:48:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Manchester City - Paris SG) ; Betfair : match introuvable (Manchester City - Paris SG)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31215828|7330382822",
+   "match": "Manchester City - Paris SG",
+   "pari": "Paris SG gagne et les 2 équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
    "debut": "2026-10-20T17:00:00.000Z",
