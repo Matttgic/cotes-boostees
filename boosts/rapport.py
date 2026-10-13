@@ -17,6 +17,10 @@ NOMS = {
     "G_kelly": "G — quart Kelly",
     "H_1_match": "H — un boost/match",
     "I_moderee_unique": "I — cotes modérées, un boost/match",
+    "J_adaptative": "J — filtre quotidien choisi avec les résultats passés",
+    "K_modele": "K — modèle progressif, 10 € maximum",
+    "L_kelly_dynamique": "L — modèle et Kelly amorti sur bankroll",
+    "M_modele_20": "M — modèle progressif, 20 € maximum",
     "B_valeur": "B — valeur ≥ +5 %",
     "B0_valeur": "B0 — valeur ≥ 0 %",
 }
@@ -101,6 +105,10 @@ def markdown(bilans: dict, maj: str, proto: dict | None = None) -> str:
           "un plafond de 1 % par pari ; H retient uniquement le premier boost observé par match ; I combine D et H. "
           "I a été choisie après lecture des résultats historiques : son score passé est rétrospectif et ne valide "
           "pas la règle. Le changement de mise réduit l'exposition absolue, pas nécessairement le ROI.",
+          "J/K/L/M utilisent un replay chronologique après 30 règlements d'apprentissage, avec "
+          "une bankroll et des mises immobilisées. Leur période diffère de A–I. "
+          "Leur modèle utilise des probabilités estimées ; le rapport RECHERCHE.md présente les témoins comparables "
+          "et la recherche complète, y compris les variantes perdantes.",
           "",
           "**Validité** : seulement les paris réglés entrent dans les gains et le ROI. Les futurs, "
           "les marchés dépendants, les erreurs de règlement et les offres dont le prix a changé "

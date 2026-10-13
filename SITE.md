@@ -15,6 +15,12 @@ puis par sport** (réglés / paris, gain net, ROI ; `par_bookmaker_sport` dans `
 
 La stratégie **I** combine les filtres D et H : premier boost vu par match, cote de 1,60 à 3,50, mise fictive plafonnée à 10 €. Son bilan historique est une exploration définie après lecture des résultats ; il n'est pas une validation. Un comparatif prospectif séparé entre I et le témoin A part des boosts observés à partir du 13 octobre 2026 à 20:20 UTC.
 
+Les stratégies **J à M** ajoutent une recherche chronologique : filtre adaptatif quotidien, modèle de
+probabilité progressif à 10 € ou 20 € et Kelly amorti sur une bankroll réelle en simulation. Elles
+disposent de témoins comparables après 30 règlements d'apprentissage. Le Labo expose aussi les dix
+derniers choix, leurs probabilités estimées et leurs mises. Les résultats futurs sont suivis séparément
+à partir du 14 octobre 2026 à 00:00 UTC, avec une banque remise à 1 000 €.
+
 ## Source de données
 
 Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :
@@ -25,6 +31,9 @@ Le navigateur lit quatre fichiers **publics** issus de la branche `donnees` :
 - `cerveau.json` : signaux prospectifs, abstentions, historiques de décision pré-match et bilans fictifs. Le fichier est facultatif tant que la première collecte ne l'a pas créé.
 
 Les données proviennent de `https://raw.githubusercontent.com/Matttgic/cotes-boostees/donnees/`.
+La recherche est incluse dans `bilan.json` et détaillée dans `recherche.json`. En attendant sa première
+publication par la collecte, le site lit `analyses/recherche-initiale.json`, un snapshot daté et reproductible
+issu des mêmes données publiques. Ce snapshot rend les stratégies visibles dès le déploiement du code.
 Le chargement a lieu à l'ouverture, sur clic « Actualiser », et toutes les 5 minutes lorsque l'onglet est visible. La mise à jour dépend donc **aussi** de la cadence et du succès de la collecte GitHub Actions : ce n'est pas un flux de cotes en temps réel.
 
 « Repérés au dernier scan » correspond aux boosts marqués disponibles, dont le début est dans le futur et dont la dernière observation est proche de la collecte la plus récente (tolérance 2 h 30). En cas de collecte ancienne (> 3 h), le site affiche un avertissement. Les anciennes offres ne sont jamais inventées ni présentées comme actuelles.

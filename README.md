@@ -4,7 +4,7 @@
 
 Suivi des cotes boostées de **Winamax, Unibet, OlyBet, Genybet, NetBet et Betsson** (sites français ; PMU et bet365 non suivis) pour savoir si elles sont rentables.
 
-Douze simulations en argent fictif : A, B1/B2, B/B0 et les challengers C–I.
+Seize simulations en argent fictif : A, B1/B2, B/B0 et les challengers C–M.
 
 - **A « Tout miser »** : chaque boost publié, **toujours à la mise max** (10, 20 ou 50 €), à la cote
   boostée vue au premier passage. Bilan dans **`BILAN.md`** sur la branche `donnees` ;
@@ -33,6 +33,26 @@ réduisent la perte maximale par pari mais n'améliorent pas mécaniquement le R
 Les stratégies EV F/G refusent une évaluation tardive ou approximative et
 utilisent le prix noté au premier calcul (pas une ancienne cote possiblement disparue).
 Kelly n'est pas fiable sans calibration et diversification ; c'est un **test fictif**.
+
+### Recherche chronologique J à M
+
+J choisit quotidiennement un filtre parmi 56 avec les seuls anciens règlements. K estime une probabilité
+par un modèle logistique régularisé, recalibré progressivement sur les prix, le sport et le bookmaker,
+puis sélectionne une EV **estimée** ≥ 5 % et plafonne la mise à 10 €. L emploie la même estimation avec
+une gestion de bankroll Kelly 1/8 amortie. M plafonne la mise à 20 € avec le même modèle.
+
+Les observations initiales ont été reconstituées depuis **141 instantanés Git** ; les résultats ne sont
+utilisés qu'après leur publication. Les mises restent bloquées jusqu'au règlement. Ces quatre simulations
+commencent après 30 résultats d'apprentissage et se comparent aux témoins 10 €/20 € de la même période,
+pas directement au bilan complet de A. Les paris d'un même libellé de rencontre sont plafonnés à 2 %
+de la bankroll, et les mises ouvertes à 10 %. Les probabilités estimées sont distinctes des cotes justes
+Pinnacle/Betfair. Leurs scores sont exploratoires ; un suivi futur séparé repart à 1 000 € le 14/10 à 00:00 UTC.
+
+Le [rapport complet](analyses/RECHERCHE.md) conserve les 56 filtres, les 9 variantes de seuil/mise,
+les simulations perdantes, la calibration et la dispersion des résultats. Reproduction sans réseau :
+`python scripts/analyser_strategies.py --sortie analyses`. Le notebook est dans `analyses/strategies.ipynb`.
+Les nouvelles observations et le journal prospectif sont persistés dans `recherche_historique.json` sur
+la branche `donnees` ; `recherche.json` et `RECHERCHE.md` sont recalculés à chaque collecte.
 
 
 ## Cerveau — mode observation prospective (v0.1)
@@ -86,7 +106,7 @@ variable `CHAINE` à `non`.
    tennis « X gagne 2-1 » ≡ P(X gagne) − P(X -1,5 set). Ligne absente d'un total ≥ 10 : interpolée entre
    deux lignes en ,5 à 3 unités au plus (statut « interpolee », compté à part) ;
 6. bilan : `bilan.json` et `BILAN.md` — A, B-exacte, B-approx et C à I (sept challengers).
-   A reste ventilée par valeur, mise max, cote, sport, mois. Les 12 simulations sont visibles dans le site.
+   A reste ventilée par valeur, mise max, cote, sport, mois. Avec J–M, les 16 simulations sont visibles dans le site.
 
 Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 
