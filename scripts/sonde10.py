@@ -47,6 +47,20 @@ def lire(proxies=None, verif=True) -> dict:
         "source": "betting",
         "what": {"sport": ["id", "name"], "competition": ["id", "name"], "game": [], "market": [], "event": []},
         "where": {"competition": {"id": {"@in": ids}}}, "subscribe": False})
+    # sélections boostées du partenaire (option « boostedOddsEnabled » du site)
+    out["boosted_selections"] = echange(ws, "5", "get_boosted_selections", {})
+    try:
+        ids_ev = [int(i) for g in (out["boosted_selections"].get("details") or {}).values()
+                  for i in (g if isinstance(g, list) else [g])]
+    except Exception:  # noqa: BLE001
+        ids_ev = []
+    if not ids_ev:
+        ids_ev = [int(k) for k in json.dumps(out["boosted_selections"]).split('"') if k.isdigit()][:200]
+    if ids_ev:
+        out["evenements_boostes"] = echange(ws, "6", "get", {
+            "source": "betting",
+            "what": {"sport": ["id", "name"], "competition": ["id", "name"], "game": [], "market": [], "event": []},
+            "where": {"event": {"id": {"@in": ids_ev}}}, "subscribe": False})
     ws.close()
     return out
 
@@ -67,7 +81,9 @@ def main() -> None:
         res[mode] = {"session": (data["session"].get("code"), bool((data["session"].get("data") or {}).get("sid"))),
                      "octets_olyboosts": len(o), "jeux": o.count('"game"'),
                      "competitions_boost": [n for n in noms if n and "boost" in n.lower()][:60],
-                     "octets_boosts": len(json.dumps(data.get("boosts"), ensure_ascii=False))}
+                     "octets_boosts": len(json.dumps(data.get("boosts"), ensure_ascii=False)),
+                     "boosted_selections": json.dumps(data.get("boosted_selections"))[:600],
+                     "octets_evenements_boostes": len(json.dumps(data.get("evenements_boostes")))}
         break
     texte = masquer(json.dumps(res, ensure_ascii=False, indent=2))
     (OUT / "resume10.json").write_text(texte, encoding="utf-8")
