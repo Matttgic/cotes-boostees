@@ -100,3 +100,7 @@ def test_matchs_normaux_non_marqués_long_terme():
     ]:
         assert winamax.est_long_terme(titre, pari) is False
     assert winamax.est_long_terme("NBA 2026 - 2027", "Chicago Bulls champion de la conférence") is True
+
+
+def test_match_vide_ignore():
+    assert winamax.boosts({"matches": {"1": None}, "bets": {"2": None}}) == []

@@ -112,7 +112,8 @@ def boosts(e: dict) -> list[dict]:
     tournois = e.get("tournaments") or {}
     out = []
     for mid, m in matchs.items():
-        if str(m.get("sportId")) != str(SPORT_BOOSTS):
+        # entrée vidée (null) quand un boost disparaît : erreur « NoneType » constatée le 9 et le 13/10
+        if not isinstance(m, dict) or str(m.get("sportId")) != str(SPORT_BOOSTS):
             continue
         cat = categories.get(str(m.get("categoryId"))) or {}
         tournoi = tournois.get(str(m.get("tournamentId"))) or {}
