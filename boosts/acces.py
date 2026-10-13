@@ -64,3 +64,13 @@ class Navigateur:
                            timeout=timeout, headers={"Accept-Language": "fr-FR,fr;q=0.9"})
         self.octets += len(r.content)
         return r
+
+    def post(self, url: str, json=None, headers: dict | None = None, proxies: dict | None = None,
+             timeout: int = 40):
+        """POST JSON ; `proxies` permet une autre IP française que celle du passage (Betsson)."""
+        self.requetes += 1
+        r = self._creq.post(url, json=json, impersonate="chrome", proxies=proxies or self.proxies,
+                            verify=self.verif, timeout=timeout,
+                            headers={"Accept-Language": "fr-FR,fr;q=0.9", **(headers or {})})
+        self.octets += len(r.content)
+        return r

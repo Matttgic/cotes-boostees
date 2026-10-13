@@ -53,6 +53,14 @@ REGLES_BOOKMAKER = {
     "OlyBet": (
         "Règles OlyBet : la date entre parenthèses (JJ.MM.AAAA) dans l'intitulé est celle du match ; au football, "
         "temps réglementaire (90 min + arrêts de jeu) sauf mention contraire."),
+    "Genybet": (
+        "Règles Genybet (Super Cotes) : temps réglementaire ; pari remboursé si un ou plusieurs matchs sont annulés."),
+    "NetBet": (
+        "Règles NetBet (Super Cotes) : temps réglementaire sauf mention contraire ; pari remboursé si un ou plusieurs "
+        "matchs sont annulés."),
+    "Betsson": (
+        "Règles Betsson : au football, temps réglementaire (90 min + arrêts de jeu) sauf mention contraire ; un score "
+        "« X gagne 1-0 » est le score final exact ; « joueur décisif » = le joueur marque ou fait une passe décisive."),
 }
 
 CONSIGNE = """Tu règles un pari sportif déjà joué. Cherche le résultat réel sur le web (sources fiables :

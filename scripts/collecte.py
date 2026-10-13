@@ -25,11 +25,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from boosts import cerveau, evaluation, olybet, rapport, reglement, simulation, stockage, unibet, winamax  # noqa: E402
+from boosts import (betsson, cerveau, evaluation, olybet, rapport, reglement, simulation, sportnco,  # noqa: E402
+                    stockage, unibet, winamax)
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
-COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter, "olybet": olybet.collecter}
-AVEC_CACHE = {"unibet"}          # collecteurs qui gardent un cache entre deux passages (etat.json)
+COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter, "olybet": olybet.collecter,
+               "genybet": sportnco.collecter_genybet, "netbet": sportnco.collecter_netbet,
+               "betsson": betsson.collecter}
+AVEC_CACHE = {"unibet", "betsson"}          # collecteurs qui gardent un cache entre deux passages (etat.json)
 JOURNAL_MAX = 200
 
 

@@ -2,7 +2,7 @@
 
 **Webapp : https://cotes-boostees-five.vercel.app/** — interface de consultation, reliée à la branche `donnees`. Documentation : [`SITE.md`](SITE.md).
 
-Suivi des cotes boostées de **Winamax, Unibet et OlyBet** (PMU inaccessible) pour savoir si elles sont rentables.
+Suivi des cotes boostées de **Winamax, Unibet, OlyBet, Genybet, NetBet et Betsson** (sites français ; PMU et bet365 non suivis) pour savoir si elles sont rentables.
 
 Neuf variantes de simulation en parallèle, en argent fictif : trois originales A/B1/B2 et six challengers C–H.
 
@@ -94,6 +94,9 @@ Si aucun bookmaker n'est lisible, le workflow passe au rouge (e-mail de GitHub).
 | PMU | ⛔ boosts visibles seulement une fois connecté (offre Kambi « pmusportsfr » publique, mais sans boosts) |
 | Unibet | ✅ collecté (`boosts/unibet.py`) : page /cotes-boostees + page de chaque paquet de boosts, par la zone ISP (le Web Unlocker refuse les sites de jeux sans vérification d'identité ; l'offre Kambi « ub » est Unibet international, pas unibet.fr). Mise max lue dans l'intitulé (25 € par défaut). Paris de saison marqués « long terme » : pas de valeur Pinnacle, règlement à partir de 120 jours puis chaque semaine |
 | OlyBet | ✅ collecté depuis le 13/10/2026 (`boosts/olybet.py`) : API « swarm » de BetConstruct (WebSocket) avec l'identifiant du site **olybet.fr** (offre française uniquement), sans proxy. Cote d'origine non publiée. Gain net plafonné à 25 € → mise max = 25 / (cote − 1). **Hors protocole gelé** (bilan propre dans « par bookmaker ») |
+| Genybet, NetBet | ✅ collectés depuis le 13/10/2026 (`boosts/sportnco.py`) : plateforme Sportnco, page « Super Cotes » (/super-cotes) de **sport.genybet.fr** et **netbet.fr** par l'IP française ; état `window.__NUXT__` lu sans exécuter de JavaScript (`boosts/nuxt.py`). Mise max 10 € (constatée), cote d'origine non publiée. Hors protocole gelé |
+| Betsson | ✅ collecté depuis le 13/10/2026 (`boosts/betsson.py`) : API de contenu de **betsson.fr** (cartes « Cotes Boostées » / Flash Boost), cote d'origine lue dans le marché normal du même match, mise max dans l'intitulé (« Max 20€ »). Betsson refuse une partie des IP du proxy (géolocalisées hors de France par sa base) : changement d'IP automatique, session gagnante gardée. Hors protocole gelé |
+| bet365 | ⛔ non suivi : site lisible seulement dans un vrai navigateur (≈ 9 Mo par passage) et pas de cotes simples boostées sur la version française (seulement des combinés boostés) |
 
 Étapes suivantes : PMU ; correction des combinés liés grâce aux cotes simples Winamax (PulseScore) ; alerte Telegram des boosts à +5 % d'EV.
 
