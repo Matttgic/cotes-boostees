@@ -6,7 +6,7 @@
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T15:51:02+00:00",
+  "derniere_observation": "2026-10-13T16:50:15+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T15:51:02+00:00",
+ "derniere_observation": "2026-10-13T16:50:15+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -9326,6 +9326,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T15:51:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 14.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.95,
+      "hausse_pct": 13.9,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T16:50:15+00:00",
      "mise_fictive": null,
      "motif_code": "ligne_absente",
      "raisons": [
