@@ -62,8 +62,9 @@ def main() -> None:
         texte = corps[:400000].decode("utf-8", "replace") if "image" not in (r.headers.get("content-type") or "") else ""
         reponses.append({"url": r.url[:300], "statut": r.status, "type": r.headers.get("content-type"),
                          "octets": len(corps), "boost": len(re.findall(r"boost", texte, re.I)), "debut": texte[:300]})
-        if texte and (re.search(r"boost", texte, re.I) or (TOUT and "json" in (r.headers.get("content-type") or "")))\
-                and len(reponses) < 400:
+        if texte and (re.search(r"boost", texte, re.I) or (TOUT and ("json" in (r.headers.get("content-type") or "")
+                                                                         or "/services/" in r.url or "/api/" in r.url)))\
+                and len(reponses) < 1500:
             with gzip.open(BRUT / f"web_rep_{len(reponses)}.txt.gz", "wt", encoding="utf-8") as f:
                 f.write(r.url + "\n\n" + texte)
 
@@ -85,6 +86,23 @@ def main() -> None:
             ctx.close()
         res["essais_ip"] = essai + 1
         page.on("response", noter)
+        trames: list[str] = []
+        res["websockets"] = []
+
+        def ws_ouvert(ws):
+            res["websockets"].append(ws.url[:300])
+            ws.on("framereceived", lambda f: trames.append(ws.url[:120] + " <<< " + (f if isinstance(f, str) else
+                                                                                      f.decode("utf-8", "replace"))))
+            ws.on("framesent", lambda f: trames.append(ws.url[:120] + " >>> " + (f if isinstance(f, str) else
+                                                                                    f.decode("utf-8", "replace"))))
+        page.on("websocket", ws_ouvert)
+        # requêtes envoyées (méthode, corps) vers les API, pour pouvoir les rejouer
+        envoyees: list[dict] = []
+        page.on("request", lambda rq: envoyees.append({"url": rq.url[:400], "methode": rq.method,
+                                                         "corps": (rq.post_data or "")[:3000],
+                                                         "entetes": {k: v for k, v in rq.headers.items()
+                                                                     if k.lower() not in ("cookie", "authorization")}})
+                if "api" in rq.url or "services" in rq.url else None)
         for i, url in enumerate(URLS):
             info = {"url": url}
             try:
@@ -113,6 +131,12 @@ def main() -> None:
             except Exception as e:  # noqa: BLE001
                 res["api"].append({"chemin": chemin, "erreur": f"{type(e).__name__} : {e}"[:300]})
         nav.close()
+        with gzip.open(BRUT / "web_trames.txt.gz", "wt", encoding="utf-8") as f:
+            f.write("\n\n".join(trames))
+        with gzip.open(BRUT / "web_requetes.json.gz", "wt", encoding="utf-8") as f:
+            f.write(json.dumps(envoyees, ensure_ascii=False, indent=1))
+        res["trames"] = len(trames)
+        res["trames_boost"] = [t[:600] for t in trames if re.search(r"boost|max 20", t, re.I)][:10]
     res["octets_recus"] = octets
     res["direct"] = DIRECT
     res["reponses"] = sorted(reponses, key=lambda r: -r["boost"])[:60]
