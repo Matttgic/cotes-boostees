@@ -70,6 +70,7 @@ class FauxSwarm:
 
 
 def test_collecter_direct(monkeypatch):
+    monkeypatch.setattr(olybet.time, "time", lambda: 1791900000)       # 13/10, avant tous les matchs
     monkeypatch.setattr(olybet, "Swarm", FauxSwarm)
     assert len(olybet.collecter(None)) == 4
 
@@ -86,7 +87,15 @@ def test_collecter_secours_proxy(monkeypatch):
     class Nav:
         proxies, verif, octets, requetes = {"https": "p"}, "ca", 0, 0
 
+    monkeypatch.setattr(olybet.time, "time", lambda: 1791900000)
     monkeypatch.setattr(olybet, "Swarm", fabrique)
     nav = Nav()
     assert len(olybet.collecter(nav)) == 4
     assert appels == [None, {"https": "p"}] and nav.requetes == 1
+
+
+def test_matchs_commences_ignores():
+    choisis = olybet.selections(DONNEES["boosted_selections"])
+    # 13/10/2026 20 h 50 (Paris) : Arsenal - Lille (20 h 45) a commencé
+    ids = {b["id"] for b in olybet.boosts(DONNEES["jeux"], choisis, 1791917400)}
+    assert "olybet|31213207|7328896155" not in ids and len(ids) == 3

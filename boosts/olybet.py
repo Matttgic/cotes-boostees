@@ -22,6 +22,7 @@ import json
 import math
 import os
 import re
+import time
 
 from .unibet import RE_LONG_TERME
 from .winamax import PageInattendue, _cote, _iso, _texte
@@ -61,8 +62,10 @@ def selections(reponse: dict) -> dict[int, set[int]]:
     return out
 
 
-def boosts(reponse_jeux: dict, choisis: dict[int, set[int]]) -> list[dict]:
-    """Réponse du `get` sur les matchs boostés → boosts au format commun du projet."""
+def boosts(reponse_jeux: dict, choisis: dict[int, set[int]], maintenant: float | None = None) -> list[dict]:
+    """Réponse du `get` sur les matchs boostés → boosts au format commun du projet.
+    Les matchs commencés sont ignorés : OlyBet laisse parfois un boost en ligne après le coup d'envoi, et
+    le simuler serait parier en connaissant le début du match."""
     sports = (((reponse_jeux or {}).get("data") or {}).get("data") or {}).get("sport") or {}
     out = []
     for sp in sports.values():
@@ -71,6 +74,9 @@ def boosts(reponse_jeux: dict, choisis: dict[int, set[int]]) -> list[dict]:
             ligue = RE_SUFFIXE_LIGUE.sub("", _texte(comp.get("name")) or "") or None
             for g in (comp.get("game") or {}).values():
                 ids = choisis.get(int(g.get("id") or 0), set())
+                if maintenant is not None and (g.get("is_started") or g.get("is_live")
+                                               or int(g.get("start_ts") or 0) <= maintenant):
+                    continue
                 for m in (g.get("market") or {}).values():
                     for e in (m.get("event") or {}).values():
                         if int(e.get("id") or 0) not in ids:
@@ -147,7 +153,7 @@ def lire(client: Swarm) -> list[dict]:
         "source": "betting",
         "what": {"sport": ["id", "name"], "competition": ["id", "name"], "game": [], "market": [], "event": []},
         "where": {"game": {"id": {"@in": sorted(choisis)}}}, "subscribe": False})
-    return boosts(jeux, choisis)
+    return boosts(jeux, choisis, time.time())
 
 
 def collecter(nav=None) -> list[dict]:
