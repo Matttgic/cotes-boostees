@@ -18,6 +18,14 @@ from datetime import datetime, timezone
 from sonde import BRUT, OUT, masquer
 
 URLS = (os.environ.get("SONDE_URL") or "https://www.bet365.fr/#/HO/").split()
+DIRECT = os.environ.get("SONDE_FICHIER", "") == "direct"      # champ « fichier » du workflow réutilisé
+Q = "lid=4&zid=0&cid=70&cgid=1&ctid=70"
+API = [f"/matchmarketscontentapi/betboost?{Q}&pd=%23AC%23B1%23C1%23D1002%23G98%23",
+       f"/matchmarketscontentapi/betboost?{Q}&pd=%23AC%23B1%23D1002%23G98%23",
+       f"/matchmarketscontentapi/popularboostcompetitions?{Q}&pd=%23AC%23B1%23D1002%23K%5E5%23",
+       f"/othersportsmatchbettingcontentapi/betboost?{Q}&pd=%23AC%23B13%23D1002%23",
+       f"/splashcontentapi/betboostpoll?{Q}&pd=%23AS%23B1%23",
+       f"/splashcontentapi/betboostpoll?{Q}&pd=%23AS%23B13%23"]
 
 
 def proxy_playwright() -> dict | None:
@@ -59,10 +67,12 @@ def main() -> None:
 
     with sync_playwright() as p:
         nav = p.chromium.launch(headless=True, args=["--disable-blink-features=AutomationControlled"])
-        ctx = nav.new_context(proxy=proxy_playwright(), ignore_https_errors=True, locale="fr-FR",
+        ctx = nav.new_context(proxy=None if DIRECT else proxy_playwright(), ignore_https_errors=True, locale="fr-FR",
                               timezone_id="Europe/Paris", viewport={"width": 1366, "height": 900},
                               user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like "
                                          "Gecko) Chrome/141.0.0.0 Safari/537.36")
+        ctx.route("**/*", lambda route: route.abort() if route.request.resource_type in ("image", "media", "font")
+                  else route.continue_())
         page = ctx.new_page()
         page.on("response", noter)
         for i, url in enumerate(URLS):
@@ -81,8 +91,20 @@ def main() -> None:
             except Exception as e:  # noqa: BLE001
                 info["erreur"] = f"{type(e).__name__} : {e}"[:400]
             res["pages"].append(info)
+        res["routage_boost"] = [r for r in reponses if "routingdata" in r["url"]][:1]
+        res["api"] = []
+        for chemin in API:
+            try:
+                r = page.evaluate("""async (u) => { const r = await fetch(u, {credentials: 'include'});
+                                     return {s: r.status, t: await r.text()}; }""", chemin)
+                with gzip.open(BRUT / f"bet365_api_{len(res['api'])}.txt.gz", "wt", encoding="utf-8") as f:
+                    f.write(chemin + "\n\n" + r["t"])
+                res["api"].append({"chemin": chemin, "statut": r["s"], "octets": len(r["t"]), "debut": r["t"][:500]})
+            except Exception as e:  # noqa: BLE001
+                res["api"].append({"chemin": chemin, "erreur": f"{type(e).__name__} : {e}"[:300]})
         nav.close()
     res["octets_recus"] = octets
+    res["direct"] = DIRECT
     res["reponses"] = sorted(reponses, key=lambda r: -r["boost"])[:60]
     res["hotes"] = sorted({re.sub(r"^https?://([^/]+).*", r"\1", r["url"]) for r in reponses})
     texte = masquer(json.dumps(res, ensure_ascii=False, indent=2))
