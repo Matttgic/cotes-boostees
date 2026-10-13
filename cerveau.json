@@ -6,7 +6,7 @@
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T14:51:56+00:00",
+  "derniere_observation": "2026-10-13T15:51:02+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,14 +16,14 @@
    "combiné_lie": 23,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 12,
-   "ligne_absente": 16,
+   "ligne_absente": 17,
    "long_terme": 30,
    "marche_non_cote": 18,
-   "match_introuvable": 31,
+   "match_introuvable": 30,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
-  "observations_reglees": 103,
+  "observations_reglees": 104,
   "observes": 154,
   "paris_en_attente": 0,
   "paris_regles": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T14:51:56+00:00",
+ "derniere_observation": "2026-10-13T15:51:02+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -8526,6 +8526,32 @@
      "reference_raison": "Pinnacle : match introuvable (9 matchs du jour - Ligue des Champions) ; Betfair : match introuvable (9 matchs du jour - Ligue des Champions)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 11.4,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T15:51:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (9 matchs du jour - Ligue des Champions) ; Betfair : match introuvable (9 matchs du jour - Ligue des Champions)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|717988410|2225698416",
@@ -8870,6 +8896,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T11:31:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT2 None EXT) ; Betfair : ligne absente (RESULTAT_1N2 MT2 None EXT)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T15:51:02+00:00",
      "mise_fictive": null,
      "motif_code": "ligne_absente",
      "raisons": [
@@ -9254,6 +9306,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : match introuvable (Partizan Belgrade - Panathinaikos)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 19.4,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T15:51:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 14.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 14.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
