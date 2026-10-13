@@ -23,10 +23,16 @@ INDICES = ("betconstruct", "swarm", "altenar", "sportnco", "kambi", "sbtech", "o
 def main() -> None:
     OUT.mkdir(exist_ok=True)
     BRUT.mkdir(parents=True, exist_ok=True)
-    proxies, verif = proxy_francais()
-    urls = [u for u in re.split(r"[\s,]+", os.environ.get("SONDE_URL") or DEFAUT) if u]
+    # SONDE_FICHIER = « sessions=N » : refaire la liste avec N adresses IP différentes du proxy
+    n = int((os.environ.get("SONDE_FICHIER") or "").removeprefix("sessions=") or 1) \
+        if (os.environ.get("SONDE_FICHIER") or "").startswith("sessions=") else 1
+    urls = [u for u in re.split(r"[\s,]+", os.environ.get("SONDE_URL") or DEFAUT) if u] * n
+    sessions = [proxy_francais() for _ in range(n)]
+    proxies, verif = sessions[0]
     res = {"date_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "pages": []}
+    par_session = len(urls) // n
     for i, url in enumerate(urls):
+        proxies, verif = sessions[i // par_session]
         try:
             r = creq.get(url, impersonate="chrome", proxies=proxies, verify=verif, timeout=60,
                          headers={"Accept-Language": "fr-FR,fr;q=0.9"})
