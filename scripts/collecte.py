@@ -4,7 +4,7 @@ Fichiers (dossier $DONNEES, par défaut ./donnees, branche git `donnees`) :
 - boosts.json : tous les boosts jamais vus (voir boosts/stockage.py) ;
 - etat.json   : dernier passage, compteurs, consommation du proxy, 200 derniers passages ;
 - reglements_manuels.json : tes corrections à la main, prioritaires ({"id du boost": "gagné"}) ;
-- bilan.json + BILAN.md : stratégies A-H ;
+- bilan.json + BILAN.md : stratégies A-I ;
 - cerveau.json : décisions horodatées et bilans des choix fictifs avant match.
 
 Règlement par l'IA seulement si le secret OPENAI_API_KEY (ou ANTHROPIC_API_KEY) est présent.
@@ -120,3 +120,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+

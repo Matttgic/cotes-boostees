@@ -146,6 +146,8 @@ body[data-page-active]:not([data-page-active="accueil"]) main{padding-top:6px}
 .protocol-table thead th{font-size:10px;color:var(--mute);border-bottom:1px solid var(--ink)}
 .protocol-table tbody th{font-family:var(--body);font-weight:800;font-size:13px}
 .protocol-table small{color:var(--mute);font-size:10px}
+.protocol-test-i{border-top:1px solid var(--ink);margin-top:18px;padding-top:16px}
+.protocol-test-i .protocol-head strong{font-size:25px}
 @media(max-width:650px){.protocol{padding:16px 14px}.protocol-head strong{font-size:27px}.protocol-table th,.protocol-table td{padding:10px 6px;font-size:11px}}
 @media(max-width:650px){.protocol-table thead th,.protocol-table tbody th{white-space:normal}.protocol-table th,.protocol-table td{padding:9px 4px;font-size:10.5px}.protocol-table tbody th{font-size:11.5px;min-width:88px}.protocol-table td small{display:block}}
 .book-name{display:inline-flex;align-items:center;gap:6px;vertical-align:middle;min-width:0}.book-logo{width:18px;height:18px;flex:0 0 18px;border-radius:4px;background:#fff;object-fit:contain;box-shadow:0 0 0 1px var(--line)}.book-initials{display:inline-grid;place-items:center;font:600 8px var(--mono);color:var(--ink)}.bookmarker.has-logo:before{content:none}
