@@ -11,7 +11,7 @@ cerveau, journal des paris réglés) sont découpées en pages de 10 avec bouton
 
 Chaque pari affiche le **logo du bookmaker** (icônes officielles récupérées sur les sites .fr, dans
 `assets/logos/` ; initiales à défaut). Le labo montre, pour la stratégie choisie, un **bilan par bookmaker
-puis par sport** (réglés / paris, gain net, ROI ; `par_bookmaker_sport` dans `bilan.json`).
+puis par sport** (réglés / paris, gain net, ROI ; `par_bookmaker_sport` dans `bilan.json`). Le journal des paris réglés propose lui aussi des filtres par bookmaker et sport, et affiche le sport sur chaque ligne.
 
 ## Source de données
 

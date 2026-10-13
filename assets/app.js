@@ -39,6 +39,7 @@
   const state = {
     boosts: [], bilan: {}, etat: {}, brain: null, brainView: 'tous', view: 'actifs', strategy: 'A',
     search: '', sport: 'tous', bookmaker: 'tous', sort: 'recent',
+    journalSport: 'tous', journalBookmaker: 'tous',
     favoritesOnly: false, favorites: readFavorites(), expanded: new Set(),
     pages: { flux: 1, brain: 1, journal: 1 }, loading: false, ready: false,
   };
@@ -366,14 +367,54 @@
     }).join('');
   }
 
+  function rebuildJournalFilters(paris) {
+    const definitions = [
+      ['journal-bookmaker', 'journalBookmaker', 'bookmaker', 'TOUS LES BOOKS'],
+      ['journal-sport', 'journalSport', 'sport', 'TOUS LES SPORTS'],
+    ];
+    for (const [id, stateKey, field, fallback] of definitions) {
+      const select = $(id);
+      if (!select) continue;
+      const before = state[stateKey];
+      const values = [...new Set(paris.map(p => plain(p[field])).filter(Boolean))]
+        .sort((a, b) => a.localeCompare(b, 'fr'));
+      select.replaceChildren();
+      const all = document.createElement('option');
+      all.value = 'tous'; all.textContent = fallback; select.append(all);
+      for (const value of values) {
+        const option = document.createElement('option');
+        option.value = value; option.textContent = value.toUpperCase(); select.append(option);
+      }
+      state[stateKey] = values.includes(before) ? before : 'tous';
+      select.value = state[stateKey];
+    }
+  }
+
   function renderSettlements() {
-    const settled = (state.bilan?.A?.paris || []).filter(p => ['gagné','perdu','remboursé'].includes(p.statut)).sort((a,b) => (datetime(b.debut)?.getTime() || 0) - (datetime(a.debut)?.getTime() || 0));
+    const allSettled = (state.bilan?.A?.paris || [])
+      .filter(p => ['gagné','perdu','remboursé'].includes(p.statut))
+      .sort((a,b) => (datetime(b.debut)?.getTime() || 0) - (datetime(a.debut)?.getTime() || 0));
+    rebuildJournalFilters(allSettled);
+    const settled = allSettled.filter(p =>
+      (state.journalBookmaker === 'tous' || plain(p.bookmaker) === state.journalBookmaker)
+      && (state.journalSport === 'tous' || plain(p.sport) === state.journalSport)
+    );
+    $('journal-result-count').textContent = settled.length === allSettled.length
+      ? fmt(allSettled.length, 0) + ' PARIS RÉGLÉS'
+      : fmt(settled.length, 0) + ' / ' + fmt(allSettled.length, 0) + ' PARIS RÉGLÉS';
     renderPager('journal-pager', 'journal', settled.length);
-    if (!settled.length) { $('settled-table').innerHTML = '<tr><td colspan="5">Aucun résultat réglé disponible.</td></tr>'; return; }
+    if (!allSettled.length) {
+      $('settled-table').innerHTML = '<tr><td colspan="6">Aucun résultat réglé disponible.</td></tr>';
+      return;
+    }
+    if (!settled.length) {
+      $('settled-table').innerHTML = '<tr><td colspan="6">Aucun pari ne correspond à ces filtres.</td></tr>';
+      return;
+    }
     const debutJournal = pageStart('journal', settled.length);
     $('settled-table').innerHTML = settled.slice(debutJournal, debutJournal + PAGE_SIZE).map(p => {
       const won = p.statut === 'gagné', lost = p.statut === 'perdu', gain = number(p.gain);
-      return `<tr><td>${esc(plain(p.match) || 'Rencontre inconnue')}<small>${esc(plain(p.pari))}</small></td><td>${bookName(plain(p.bookmaker))}</td><td>${esc(fmt(number(p.cote),2))}</td><td><span class="result-chip ${won ? 'won' : lost ? 'lost' : ''}">${esc(plain(p.statut).toUpperCase())}</span></td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td></tr>`;
+      return `<tr><td>${esc(plain(p.match) || 'Rencontre inconnue')}<small>${esc(plain(p.pari))}</small></td><td>${bookName(plain(p.bookmaker))}</td><td>${esc(plain(p.sport) || '—')}</td><td>${esc(fmt(number(p.cote),2))}</td><td><span class="result-chip ${won ? 'won' : lost ? 'lost' : ''}">${esc(plain(p.statut).toUpperCase())}</span></td><td class="${gain > 0 ? 'money-positive' : gain < 0 ? 'money-negative' : ''}">${esc(euros(gain))}</td></tr>`;
     }).join('');
   }
 
@@ -452,6 +493,7 @@
     ['flux-pager', 'brain-pager', 'journal-pager'].forEach(id => $(id) && $(id).addEventListener('click', onPager));
     $('search').addEventListener('input', (e) => { state.search = e.target.value.trim(); state.pages.flux = 1; renderList(); });
     for (const id of ['sport','bookmaker','sort']) $(id).addEventListener('change', e => { state[id] = e.target.value; state.pages.flux = 1; renderList(); });
+    for (const [id, stateKey] of [['journal-bookmaker','journalBookmaker'],['journal-sport','journalSport']]) $(id).addEventListener('change', e => { state[stateKey] = e.target.value; state.pages.journal = 1; renderSettlements(); });
     document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => { state.view = button.dataset.view; state.pages.flux = 1; syncControls(); renderList(); }));
     $('strategy-switch').addEventListener('click', event => { const button = event.target.closest('button[data-strategy]'); if (button && STRATEGY_META[button.dataset.strategy]) { state.strategy = button.dataset.strategy; renderLab(); } });
     document.querySelector('.brain-filters').addEventListener('click', e => { const btn = e.target.closest('button[data-brain]'); if (btn && ['tous','selectionner','ecarter','abstention','hors_perimetre'].includes(btn.dataset.brain)) { state.brainView = btn.dataset.brain; state.pages.brain = 1; renderBrain(); } });
