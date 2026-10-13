@@ -41,6 +41,12 @@ def lire(proxies=None, verif=True) -> dict:
     out["competitions"] = echange(ws, "3", "get", {
         "source": "betting", "what": {"sport": ["id", "name"], "competition": ["id", "name"]},
         "where": {}, "subscribe": False})
+    ids = [c["id"] for sp in out["competitions"]["data"]["data"]["sport"].values()
+           for c in (sp.get("competition") or {}).values() if "boost" in (c.get("name") or "").lower()]
+    out["boosts"] = echange(ws, "4", "get", {
+        "source": "betting",
+        "what": {"sport": ["id", "name"], "competition": ["id", "name"], "game": [], "market": [], "event": []},
+        "where": {"competition": {"id": {"@in": ids}}}, "subscribe": False})
     ws.close()
     return out
 
@@ -60,7 +66,8 @@ def main() -> None:
                 .get("sport", {}).values() for c in (sp.get("competition") or {}).values()]
         res[mode] = {"session": (data["session"].get("code"), bool((data["session"].get("data") or {}).get("sid"))),
                      "octets_olyboosts": len(o), "jeux": o.count('"game"'),
-                     "competitions_boost": [n for n in noms if n and "boost" in n.lower()][:20]}
+                     "competitions_boost": [n for n in noms if n and "boost" in n.lower()][:60],
+                     "octets_boosts": len(json.dumps(data.get("boosts"), ensure_ascii=False))}
         break
     texte = masquer(json.dumps(res, ensure_ascii=False, indent=2))
     (OUT / "resume10.json").write_text(texte, encoding="utf-8")
