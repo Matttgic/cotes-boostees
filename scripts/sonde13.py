@@ -49,6 +49,7 @@ def main() -> None:
         (OUT / "resume13.json").write_text(texte, encoding="utf-8")
         print(texte)
         return
+    res["debut_reponse"] = r.text[:300]
     cartes = r.json()
     brut = {"cartes": cartes, "marches": {}}
     items = ((cartes.get("data") or {}).get("headlineItems")) or []
@@ -77,4 +78,10 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import traceback
+    try:
+        main()
+    except Exception:  # noqa: BLE001 - la trace va dans le résumé (journaux Actions illisibles d'ici)
+        OUT.mkdir(exist_ok=True)
+        (OUT / "resume13.json").write_text(masquer(json.dumps({"erreur": traceback.format_exc()[-3000:]},
+                                                              ensure_ascii=False, indent=2)), encoding="utf-8")
