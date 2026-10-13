@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 107,
+   "abstention": 108,
    "ecarter": 13,
    "hors_perimetre": 29,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-13T08:33:47+00:00",
+  "derniere_observation": "2026-10-13T09:32:52+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -19,12 +19,12 @@
    "ligne_absente": 16,
    "long_terme": 29,
    "marche_non_cote": 18,
-   "match_introuvable": 27,
+   "match_introuvable": 28,
    "reference_absente": 1,
    "sport_non_suivi": 5
   },
   "observations_reglees": 101,
-  "observes": 149,
+  "observes": 150,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-13T08:33:47+00:00",
+ "derniere_observation": "2026-10-13T09:32:52+00:00",
  "entrees": {
   "unibet|193343078|720321316": {
    "bookmaker": "Unibet",
@@ -2626,6 +2626,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T06:35:32+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": 2.75,
+     "decision": "ecarter",
+     "ev_pct": -9.1,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 0.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T09:32:52+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -8812,6 +8840,43 @@
    "pari": "C.Popov / T-J.Popov gagnent le match 2-0",
    "premiere_selection": null,
    "sport": "Badminton"
+  },
+  "winamax|718129225|2226049443": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-13T18:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 16.1,
+      "horizon_heures": 8.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-13T09:32:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (ASVEL - Etoile Rouge Belgrade) ; Betfair : match introuvable (ASVEL - Etoile Rouge Belgrade)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718129225|2226049443",
+   "match": "ASVEL - Etoile Rouge Belgrade",
+   "pari": "Patty Mills marque au moins 15 points et ASVEL gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
