@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T13:17:46+00:00",
+ "derniere_observation": "2026-10-14T14:16:55+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -187,6 +187,15 @@
      "date": "2026-10-14T13:17:33+00:00",
      "ev_modele_pct": null,
      "id": "winamax|718992276|2228544861",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719034922|2228668247": {
+     "date": "2026-10-14T14:16:34+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719034922|2228668247",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -382,6 +391,15 @@
      "mise": null,
      "p_modele": 0.347545,
      "regle": null
+    },
+    "winamax|719034922|2228668247": {
+     "date": "2026-10-14T14:16:34+00:00",
+     "ev_modele_pct": -10.348,
+     "id": "winamax|719034922|2228668247",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.389793,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -573,6 +591,15 @@
      "mise": null,
      "p_modele": 0.347545,
      "regle": null
+    },
+    "winamax|719034922|2228668247": {
+     "date": "2026-10-14T14:16:34+00:00",
+     "ev_modele_pct": -10.348,
+     "id": "winamax|719034922|2228668247",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.389793,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -763,6 +790,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.347545,
+     "regle": null
+    },
+    "winamax|719034922|2228668247": {
+     "date": "2026-10-14T14:16:34+00:00",
+     "ev_modele_pct": -10.348,
+     "id": "winamax|719034922|2228668247",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.389793,
      "regle": null
     }
    }
@@ -1994,6 +2030,22 @@
    "pari": "S.Tsitsipas remporte le 1er set ?",
    "premiere_vue": "2026-10-14T06:01:53+00:00",
    "sport": "Tennis"
+  },
+  "unibet|195045665|728357813": {
+   "available_at": "2026-10-14T14:16:34+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.4,
+   "cote_origine": null,
+   "debut": "2026-10-14T18:45:00.000Z",
+   "disponible": true,
+   "id": "unibet|195045665|728357813",
+   "long_terme": true,
+   "match": "Paris - Virtus Bologne",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Euroleague - Nadir Hifi finit meilleur marqueur du match",
+   "premiere_vue": "2026-10-14T14:15:36+00:00",
+   "sport": "Basketball"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -4401,6 +4453,22 @@
    "pari": "Plus de 4,5 buts lors de chacun des matchs suivants : Kalpa Kuopio - Porin Ässat, JYP Jyväskylä - Rauman Lukko et HIFK Helsinki - TPS Turku (prol. et TAB inclus)",
    "premiere_vue": "2026-10-14T13:16:31+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|719034922|2228668247": {
+   "available_at": "2026-10-14T14:16:34+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.3,
+   "cote_origine": 2.05,
+   "debut": "2026-10-14T16:45+00:00",
+   "disponible": true,
+   "id": "winamax|719034922|2228668247",
+   "long_terme": false,
+   "match": "RK Celje - Paris SG",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Paris SG marque au moins 39 buts",
+   "premiere_vue": "2026-10-14T14:15:36+00:00",
+   "sport": "Handball"
   }
  },
  "resultats": [
@@ -5609,6 +5677,22 @@
    "id": "winamax|718603943|2227444154",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-14T13:17:33+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T14:16:55+00:00",
+   "id": "unibet|194999933|728148234",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T14:16:34+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T14:16:55+00:00",
+   "id": "winamax|718745612|2227886408",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T14:16:34+00:00",
    "source": null,
    "statut": "perdu"
   }
