@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-14T01:44:50+00:00",
+ "derniere_observation": "2026-10-14T02:44:00+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1909,29 +1909,29 @@
   "mises_supposees": 2,
   "observations_apres_debut": 1,
   "producteurs_verdicts": {
-   "gpt-6-luna": 142
+   "gpt-6-luna": 143
   }
  },
- "reglements": 142,
+ "reglements": 143,
  "sensibilite_modele": [
   {
    "global": {
     "boosts_sans_mise_max": 0,
     "cote_moyenne": 3.22,
-    "en_attente": 8,
+    "en_attente": 7,
     "ev_moyenne_pct": null,
     "gagnes": 19,
-    "gain_net": -29.27,
-    "mise_totale": 316.32,
+    "gain_net": -34.27,
+    "mise_totale": 321.32,
     "paris": 72,
     "paris_avec_ev": 0,
-    "perdus": 45,
+    "perdus": 46,
     "pire_baisse": -54.52,
-    "pire_serie_perdante": 6,
-    "regles": 64,
+    "pire_serie_perdante": 7,
+    "regles": 65,
     "rembourses": 0,
-    "reussite_pct": 29.7,
-    "roi_pct": -9.3
+    "reussite_pct": 29.2,
+    "roi_pct": -10.7
    },
    "mise_max": 5,
    "seuil_ev": 0
@@ -6273,9 +6273,9 @@
     "banque_finale": 1031.73,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.1986,
-     "brier_prior_bookmaker": 0.2004,
-     "predictions_reglees": 104
+     "brier_modele": 0.1977,
+     "brier_prior_bookmaker": 0.1997,
+     "predictions_reglees": 105
     },
     "cash_final": 981.73,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -9843,9 +9843,9 @@
     "banque_finale": 1007.25,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.1986,
-     "brier_prior_bookmaker": 0.2004,
-     "predictions_reglees": 104
+     "brier_modele": 0.1977,
+     "brier_prior_bookmaker": 0.1997,
+     "predictions_reglees": 105
     },
     "cash_final": 981.23,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -12410,9 +12410,9 @@
     "banque_finale": 1197.52,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.1986,
-     "brier_prior_bookmaker": 0.2004,
-     "predictions_reglees": 104
+     "brier_modele": 0.1977,
+     "brier_prior_bookmaker": 0.1997,
+     "predictions_reglees": 105
     },
     "cash_final": 1107.52,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
