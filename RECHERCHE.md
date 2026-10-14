@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T15:52:43+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T16:52:27+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,7 +18,7 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 59 / 68 | 563.01 € | -65.94 € | -11.7 % | -108.50 € |
+| temoin_10 | 60 / 69 | 573.01 € | -75.94 € | -13.3 % | -108.50 € |
 | temoin_20 | 33 / 40 | 591.03 € | -27.42 € | -4.6 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 115 prévisions réglées : score de Brier du modèle 0.1994, prior bookmaker 0.2014 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 116 prévisions réglées : score de Brier du modèle 0.1993, prior bookmaker 0.2016 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -126,8 +126,8 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 
 | EV estimée minimale | Mise maximale | Réglés | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| 0 % | 5 € | 73 | -29.27 € | -8.1 % | -54.52 € |
-| 0 % | 10 € | 50 | -47.96 € | -10.0 % | -92.44 € |
+| 0 % | 5 € | 74 | -34.27 € | -9.4 % | -54.52 € |
+| 0 % | 10 € | 51 | -57.96 € | -11.9 % | -92.44 € |
 | 0 % | 20 € | 30 | +15.22 € | +2.8 % | -143.22 € |
 | 5 % | 5 € | 58 | +5.50 € | +1.9 % | -52.25 € |
 | 5 % | 10 € | 44 | +51.73 € | +12.2 % | -74.75 € |
@@ -155,15 +155,15 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:hockey sur glace:1.5-2.5 | 2 | +5.00 € | +25.0 % |
 | sport:rugby:1.5-3.5 | 5 | +0.00 € | +0.0 % |
 | sport:rugby:2-3.5 | 5 | +0.00 € | +0.0 % |
-| bookmaker:Winamax:1.5-2.5 | 12 | -1.50 € | -1.2 % |
 | sport:basketball:1.5-3.5 | 3 | -9.00 € | -30.0 % |
 | sport:basketball:2-3.5 | 3 | -9.00 € | -30.0 % |
 | sport:rugby:1.5-5 | 6 | -10.00 € | -16.7 % |
 | sport:rugby:1.5-8 | 6 | -10.00 € | -16.7 % |
 | sport:rugby:2-5 | 6 | -10.00 € | -16.7 % |
+| bookmaker:Winamax:1.5-2.5 | 13 | -11.50 € | -8.8 % |
 | bookmaker:Unibet:1.5-2.5 | 9 | -15.00 € | -16.7 % |
-| tous:tous:1.5-2.5 | 21 | -16.50 € | -7.9 % |
 | sport:rugby:3-5 | 2 | -20.00 € | -100.0 % |
+| tous:tous:1.5-2.5 | 22 | -26.50 € | -12.0 % |
 | sport:basketball:1.5-5 | 5 | -29.00 € | -58.0 % |
 | sport:basketball:1.5-8 | 5 | -29.00 € | -58.0 % |
 | sport:basketball:2-5 | 5 | -29.00 € | -58.0 % |
@@ -174,29 +174,29 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:basketball:3-5 | 4 | -40.00 € | -100.0 % |
 | sport:hockey sur glace:1.5-8 | 10 | -42.50 € | -42.5 % |
 | sport:football:1.5-2.5 | 7 | -45.00 € | -64.3 % |
-| tous:tous:1.5-5 | 60 | -49.23 € | -8.7 % |
-| tous:tous:2-5 | 60 | -49.23 € | -8.7 % |
+| tous:tous:1.5-5 | 61 | -59.23 € | -10.3 % |
+| tous:tous:2-5 | 61 | -59.23 € | -10.3 % |
 | bookmaker:Unibet:1.5-3.5 | 19 | -63.00 € | -33.2 % |
 | bookmaker:Unibet:1.5-5 | 19 | -63.00 € | -33.2 % |
 | bookmaker:Unibet:1.5-8 | 19 | -63.00 € | -33.2 % |
 | bookmaker:Unibet:2-3.5 | 19 | -63.00 € | -33.2 % |
 | bookmaker:Unibet:2-5 | 19 | -63.00 € | -33.2 % |
-| tous:tous:1.5-8 | 59 | -65.94 € | -11.7 % |
 | sport:football:3-5 | 38 | -69.32 € | -18.7 % |
+| tous:tous:1.5-8 | 60 | -75.94 € | -13.3 % |
 | bookmaker:Winamax:3-5 | 51 | -80.06 € | -16.2 % |
-| bookmaker:Winamax:1.5-5 | 59 | -106.15 € | -18.7 % |
-| bookmaker:Winamax:2-5 | 59 | -106.15 € | -18.7 % |
-| bookmaker:Winamax:1.5-8 | 60 | -107.25 € | -18.8 % |
 | tous:tous:3-5 | 50 | -109.83 € | -22.5 % |
-| tous:tous:1.5-3.5 | 50 | -120.03 € | -24.7 % |
-| tous:tous:2-3.5 | 50 | -120.03 € | -24.7 % |
+| bookmaker:Winamax:1.5-5 | 60 | -116.15 € | -20.1 % |
+| bookmaker:Winamax:2-5 | 60 | -116.15 € | -20.1 % |
+| bookmaker:Winamax:1.5-8 | 61 | -117.25 € | -20.2 % |
+| tous:tous:1.5-3.5 | 51 | -130.03 € | -26.2 % |
+| tous:tous:2-3.5 | 51 | -130.03 € | -26.2 % |
 | sport:football:1.5-3.5 | 36 | -142.74 € | -41.6 % |
 | sport:football:2-3.5 | 36 | -142.74 € | -41.6 % |
 | sport:football:1.5-5 | 41 | -146.93 € | -37.0 % |
 | sport:football:1.5-8 | 41 | -146.93 € | -37.0 % |
 | sport:football:2-5 | 41 | -146.93 € | -37.0 % |
-| bookmaker:Winamax:1.5-3.5 | 47 | -169.07 € | -36.5 % |
-| bookmaker:Winamax:2-3.5 | 47 | -169.07 € | -36.5 % |
+| bookmaker:Winamax:1.5-3.5 | 48 | -179.07 € | -37.9 % |
+| bookmaker:Winamax:2-3.5 | 48 | -179.07 € | -37.9 % |
 
 ## Suivi futur gelé
 
@@ -213,7 +213,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 154 événements de règlement : {'gpt-6-luna': 154}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 155 événements de règlement : {'gpt-6-luna': 155}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.

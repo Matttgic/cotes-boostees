@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T15:52:43+00:00",
+ "derniere_observation": "2026-10-14T16:52:27+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -214,6 +214,15 @@
      "date": "2026-10-14T14:16:34+00:00",
      "ev_modele_pct": null,
      "id": "winamax|719034922|2228668247",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719124802|2228938357": {
+     "date": "2026-10-14T16:51:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719124802|2228938357",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -436,6 +445,15 @@
      "mise": null,
      "p_modele": 0.389793,
      "regle": null
+    },
+    "winamax|719124802|2228938357": {
+     "date": "2026-10-14T16:51:42+00:00",
+     "ev_modele_pct": -14.605,
+     "id": "winamax|719124802|2228938357",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262754,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -654,6 +672,15 @@
      "mise": null,
      "p_modele": 0.389793,
      "regle": null
+    },
+    "winamax|719124802|2228938357": {
+     "date": "2026-10-14T16:51:42+00:00",
+     "ev_modele_pct": -14.605,
+     "id": "winamax|719124802|2228938357",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262754,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -871,6 +898,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.389793,
+     "regle": null
+    },
+    "winamax|719124802|2228938357": {
+     "date": "2026-10-14T16:51:42+00:00",
+     "ev_modele_pct": -14.605,
+     "id": "winamax|719124802|2228938357",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262754,
      "regle": null
     }
    }
@@ -4573,6 +4609,22 @@
    "pari": "Paris SG marque au moins 39 buts",
    "premiere_vue": "2026-10-14T14:15:36+00:00",
    "sport": "Handball"
+  },
+  "winamax|719124802|2228938357": {
+   "available_at": "2026-10-14T16:51:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-10-14T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|719124802|2228938357",
+   "long_terme": false,
+   "match": "Aston Villa - Fenerbahce",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Aston Villa gagne et les deux équipes marquent",
+   "premiere_vue": "2026-10-14T16:50:46+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
@@ -5807,6 +5859,14 @@
    "regle_le": "2026-10-14T15:52:21+00:00",
    "source": null,
    "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-14T16:52:27+00:00",
+   "id": "winamax|718750143|2227897738",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T16:51:42+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,
@@ -6295,6 +6355,14 @@
    "cote_juste": 2.695,
    "date": "2026-10-14T13:16:31+00:00",
    "ev_pct": -7.2,
+   "statut": "approx"
+  },
+  "winamax|719124802|2228938357": {
+   "available_at": "2026-10-14T16:51:42+00:00",
+   "cote_boostee": 3.25,
+   "cote_juste": 2.849,
+   "date": "2026-10-14T16:50:46+00:00",
+   "ev_pct": 14.1,
    "statut": "approx"
   }
  }
