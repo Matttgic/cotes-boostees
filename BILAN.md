@@ -6,7 +6,7 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 | Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |
 |---|---|---|---|---|---|
-| **A — témoin** | 54 / 86 | 1110 € | **-197,50 €** | **-17,8 %** | -13,9 % (27 paris) |
+| **A — témoin** | 55 / 86 | 1130 € | **-217,50 €** | **-19,2 %** | -13,9 % (27 paris) |
 | **B — valeur ≥ +5 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **B0 — valeur ≥ 0 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **D — hypothèse (cotes 1,60–3,50)** | 36 / 60 | 360 € | **-50,00 €** | **-13,9 %** | -15,6 % (19 paris) |
@@ -19,25 +19,25 @@ Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI |
 |---|---|---|---|---|
-| **A — tout miser** | 18 / 47 | 365 € | +29,00 € | +7,9 % |
+| **A — tout miser** | 19 / 47 | 385 € | +9,00 € | +2,3 % |
 | **I — cotes modérées, un boost/match** | 13 / 29 | 130 € | +17,00 € | +13,1 % |
 Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 14/10 23h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 15/10 00h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 162 / 229 | 3355 € | **-279,00 €** | **-8,3 %** | -706,50 € |
+| **A — tout miser** | 163 / 229 | 3375 € | **-299,00 €** | **-8,9 %** | -706,50 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 4 / 5 | 80 € | **+145,00 €** | **+181,2 %** | -20,00 € |
-| **C — 10 € maximum** | 162 / 229 | 1620 € | **-131,00 €** | **-8,1 %** | -337,50 € |
+| **C — 10 € maximum** | 163 / 229 | 1630 € | **-141,00 €** | **-8,7 %** | -337,50 € |
 | **D — cote 1,60–3,50** | 112 / 158 | 1120 € | **-45,00 €** | **-4,0 %** | -238,00 € |
-| **E — dans les 48 h** | 162 / 193 | 1620 € | **-131,00 €** | **-8,1 %** | -337,50 € |
+| **E — dans les 48 h** | 163 / 193 | 1630 € | **-141,00 €** | **-8,7 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 152 / 176 | 1520 € | **-114,00 €** | **-7,5 %** | -301,00 € |
+| **H — un boost/match** | 153 / 176 | 1530 € | **-124,00 €** | **-8,1 %** | -301,00 € |
 | **I — cotes modérées, un boost/match** | 104 / 120 | 1040 € | **-48,00 €** | **-4,6 %** | -221,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
@@ -56,7 +56,7 @@ J/K/L/M utilisent un replay chronologique après 30 règlements d'apprentissage,
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moyenne 3,36 · pire série perdante 22
+A en détail : 49 gagnés, 113 perdus, 1 remboursés, 66 en attente · cote moyenne 3,36 · pire série perdante 22
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -70,7 +70,7 @@ A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moye
 | EV 5 à 10 % (approx) | 2 / 2 | 40 € | +115,00 € | +287,5 % | 100 % |
 | EV < 0 (approx) | 23 / 25 | 460 € | -242,00 € | -52,6 % | 17 % |
 | EV < 0 (exacte) | 22 / 24 | 450 € | +216,50 € | +48,1 % | 46 % |
-| non évaluable | 109 / 170 | 2285 € | -378,50 € | -16,6 % | 29 % |
+| non évaluable | 110 / 170 | 2305 € | -398,50 € | -17,3 % | 28 % |
 
 ### A par bookmaker
 
@@ -80,21 +80,21 @@ A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moye
 | NetBet | 0 / 1 | 0 € | +0,00 € | – | – |
 | OlyBet | 0 / 4 | 0 € | +0,00 € | – | – |
 | Unibet | 23 / 65 | 575 € | -85,00 € | -14,8 % | 35 % |
-| Winamax | 138 / 155 | 2760 € | -227,00 € | -8,2 % | 29 % |
+| Winamax | 139 / 155 | 2780 € | -247,00 € | -8,9 % | 29 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 36 | 0 € | +0,00 € | – | – |
-| match | 162 / 193 | 3355 € | -279,00 € | -8,3 % | 30 % |
+| match | 163 / 193 | 3375 € | -299,00 € | -8,9 % | 30 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 € | 0 / 2 | 0 € | +0,00 € | – | – |
-| 20 € | 139 / 159 | 2780 € | -194,00 € | -7,0 % | 30 % |
+| 20 € | 140 / 159 | 2800 € | -214,00 € | -7,6 % | 30 % |
 | 20.83 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 25 € | 23 / 65 | 575 € | -85,00 € | -14,8 % | 35 % |
 | 6.25 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -106,7 +106,7 @@ A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moye
 |---|---|---|---|---|---|
 | 10 et + | 0 / 4 | 0 € | +0,00 € | – | – |
 | 2 – 3 | 64 / 91 | 1375 € | +36,00 € | +2,6 % | 41 % |
-| 3 – 5 | 89 / 112 | 1800 € | -335,00 € | -18,6 % | 24 % |
+| 3 – 5 | 90 / 112 | 1820 € | -355,00 € | -19,5 % | 23 % |
 | 5 – 10 | 9 / 14 | 180 € | +20,00 € | +11,1 % | 22 % |
 | < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
 
@@ -121,7 +121,7 @@ A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moye
 | Football Américain | 5 / 5 | 100 € | -100,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 3 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 3 / 3 | 60 € | -14,00 € | -23,3 % | 33 % |
-| Hockey sur glace | 15 / 19 | 300 € | -125,00 € | -41,7 % | 20 % |
+| Hockey sur glace | 16 / 19 | 320 € | -145,00 € | -45,3 % | 19 % |
 | Judo | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Rugby | 3 / 3 | 75 € | -12,50 € | -16,7 % | 33 % |
 | Rugby à XIII | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -133,7 +133,7 @@ A en détail : 49 gagnés, 112 perdus, 1 remboursés, 67 en attente · cote moye
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 162 / 229 | 3355 € | -279,00 € | -8,3 % | 30 % |
+| 2026-10 | 163 / 229 | 3375 € | -299,00 € | -8,9 % | 30 % |
 
 ### Derniers paris
 
