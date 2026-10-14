@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T17:51:07+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T18:49:57+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,8 +18,8 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 60 / 71 | 573.01 € | -75.94 € | -13.3 % | -108.50 € |
-| temoin_20 | 33 / 40 | 591.03 € | -27.42 € | -4.6 % | -161.00 € |
+| temoin_10 | 61 / 71 | 583.01 € | -85.94 € | -14.7 % | -108.50 € |
+| temoin_20 | 34 / 40 | 611.03 € | -47.42 € | -7.8 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 35 / 36 | 337.10 € | -40.17 € | -11.9 % | -122.83 € |
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 116 prévisions réglées : score de Brier du modèle 0.1993, prior bookmaker 0.2016 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 117 prévisions réglées : score de Brier du modèle 0.1979, prior bookmaker 0.2005 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -182,12 +182,12 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | bookmaker:Unibet:2-3.5 | 19 | -63.00 € | -33.2 % |
 | bookmaker:Unibet:2-5 | 19 | -63.00 € | -33.2 % |
 | sport:football:3-5 | 38 | -69.32 € | -18.7 % |
-| tous:tous:1.5-8 | 60 | -75.94 € | -13.3 % |
 | bookmaker:Winamax:3-5 | 51 | -80.06 € | -16.2 % |
+| tous:tous:1.5-8 | 61 | -85.94 € | -14.7 % |
 | tous:tous:3-5 | 50 | -109.83 € | -22.5 % |
 | bookmaker:Winamax:1.5-5 | 60 | -116.15 € | -20.1 % |
 | bookmaker:Winamax:2-5 | 60 | -116.15 € | -20.1 % |
-| bookmaker:Winamax:1.5-8 | 61 | -117.25 € | -20.2 % |
+| bookmaker:Winamax:1.5-8 | 62 | -127.25 € | -21.6 % |
 | tous:tous:1.5-3.5 | 51 | -130.03 € | -26.2 % |
 | tous:tous:2-3.5 | 51 | -130.03 € | -26.2 % |
 | sport:football:1.5-3.5 | 36 | -142.74 € | -41.6 % |
@@ -213,7 +213,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 155 événements de règlement : {'gpt-6-luna': 155}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 156 événements de règlement : {'gpt-6-luna': 156}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.

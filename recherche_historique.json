@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T17:51:07+00:00",
+ "derniere_observation": "2026-10-14T18:49:57+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -70,6 +70,15 @@
      "date": "2026-10-14T15:15:41+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195049566|728371487",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195082747|728456331": {
+     "date": "2026-10-14T18:49:40+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195082747|728456331",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -356,6 +365,15 @@
      "p_modele": 0.336303,
      "regle": null
     },
+    "unibet|195082747|728456331": {
+     "date": "2026-10-14T18:49:40+00:00",
+     "ev_modele_pct": -12.277,
+     "id": "unibet|195082747|728456331",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398742,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -637,6 +655,15 @@
      "p_modele": 0.336303,
      "regle": null
     },
+    "unibet|195082747|728456331": {
+     "date": "2026-10-14T18:49:40+00:00",
+     "ev_modele_pct": -12.277,
+     "id": "unibet|195082747|728456331",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398742,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -916,6 +943,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.336303,
+     "regle": null
+    },
+    "unibet|195082747|728456331": {
+     "date": "2026-10-14T18:49:40+00:00",
+     "ev_modele_pct": -12.277,
+     "id": "unibet|195082747|728456331",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398742,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -2418,6 +2454,22 @@
    "pari": "Le duo Jamayne Isaako/Tom Trbojevic marque 2 essais ou +",
    "premiere_vue": "2026-10-14T15:14:44+00:00",
    "sport": "Rugby à XIII"
+  },
+  "unibet|195082747|728456331": {
+   "available_at": "2026-10-14T18:49:40+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.2,
+   "cote_origine": 1.9,
+   "debut": "2026-10-14T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195082747|728456331",
+   "long_terme": false,
+   "match": "Man. City - Paris SG",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Le Trio E.Haaland+O.Dembele+D.Doué marque au moins 2 buts en cumulé ? (Remboursé si non titulaire(s))",
+   "premiere_vue": "2026-10-14T18:49:01+00:00",
+   "sport": "Football"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -6177,6 +6229,14 @@
    "id": "winamax|718750143|2227897738",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-14T16:51:42+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T18:49:57+00:00",
+   "id": "winamax|718720488|2227799757",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T18:49:40+00:00",
    "source": null,
    "statut": "perdu"
   }
