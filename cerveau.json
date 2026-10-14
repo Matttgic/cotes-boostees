@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 127,
+   "abstention": 129,
    "ecarter": 19,
    "hors_perimetre": 30,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-14T06:01:53+00:00",
+  "derniere_observation": "2026-10-14T07:01:03+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,7 +16,7 @@
    "combiné_lie": 26,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 18,
-   "ligne_absente": 20,
+   "ligne_absente": 22,
    "long_terme": 30,
    "marche_non_cote": 21,
    "match_introuvable": 36,
@@ -24,7 +24,7 @@
    "sport_non_suivi": 6
   },
   "observations_reglees": 127,
-  "observes": 176,
+  "observes": 178,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-14T06:01:53+00:00",
+ "derniere_observation": "2026-10-14T07:01:03+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3041,6 +3041,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-14T06:01:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": 2.683,
+     "decision": "ecarter",
+     "ev_pct": -5.0,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 13.3,
+      "horizon_heures": 3.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T07:01:03+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -10548,6 +10576,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.128,
+     "decision": "ecarter",
+     "ev_pct": -9.2,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 3.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T07:01:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718745612|2227886408",
@@ -10701,6 +10757,80 @@
    "id": "winamax|718755595|2227911190",
    "match": "Feyenoord - Come",
    "pari": "Come gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718761712|2227928022": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T16:45+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 12.8,
+      "horizon_heures": 9.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T07:01:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718761712|2227928022",
+   "match": "LASK Linz - Liverpool",
+   "pari": "B. Barcola buteur et Liverpool gagne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|718769227|2227946716": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T07:01:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|718769227|2227946716",
+   "match": "AS Rome - Real Madrid",
+   "pari": "K. Mbappe buteur et Real Madrid gagne",
    "premiere_selection": null,
    "sport": "Football"
   }

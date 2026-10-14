@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T06:03:00+00:00",
+ "derniere_observation": "2026-10-14T07:02:37+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -70,6 +70,24 @@
      "date": "2026-10-14T06:03:00+00:00",
      "ev_modele_pct": null,
      "id": "winamax|718755595|2227911190",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|718761712|2227928022": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|718761712|2227928022",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|718769227|2227946716": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|718769227|2227946716",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -148,6 +166,24 @@
      "mise": null,
      "p_modele": 0.338115,
      "regle": null
+    },
+    "winamax|718761712|2227928022": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -12.841,
+     "id": "winamax|718761712|2227928022",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.328903,
+     "regle": null
+    },
+    "winamax|718769227|2227946716": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -13.263,
+     "id": "winamax|718769227|2227946716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346948,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -222,6 +258,24 @@
      "mise": null,
      "p_modele": 0.338115,
      "regle": null
+    },
+    "winamax|718761712|2227928022": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -12.841,
+     "id": "winamax|718761712|2227928022",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.328903,
+     "regle": null
+    },
+    "winamax|718769227|2227946716": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -13.263,
+     "id": "winamax|718769227|2227946716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346948,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -295,6 +349,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.338115,
+     "regle": null
+    },
+    "winamax|718761712|2227928022": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -12.841,
+     "id": "winamax|718761712|2227928022",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.328903,
+     "regle": null
+    },
+    "winamax|718769227|2227946716": {
+     "date": "2026-10-14T07:02:18+00:00",
+     "ev_modele_pct": -13.263,
+     "id": "winamax|718769227|2227946716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346948,
      "regle": null
     }
    }
@@ -3676,6 +3748,38 @@
    "mise_max_supposee": null,
    "pari": "Come gagne et plus de 2,5 buts dans le match",
    "premiere_vue": "2026-10-14T06:01:53+00:00",
+   "sport": "Football"
+  },
+  "winamax|718761712|2227928022": {
+   "available_at": "2026-10-14T07:02:18+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.65,
+   "cote_origine": 2.35,
+   "debut": "2026-10-14T16:45+00:00",
+   "disponible": true,
+   "id": "winamax|718761712|2227928022",
+   "long_terme": false,
+   "match": "LASK Linz - Liverpool",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "B. Barcola buteur et Liverpool gagne",
+   "premiere_vue": "2026-10-14T07:01:03+00:00",
+   "sport": "Football"
+  },
+  "winamax|718769227|2227946716": {
+   "available_at": "2026-10-14T07:02:18+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.25,
+   "debut": "2026-10-14T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|718769227|2227946716",
+   "long_terme": false,
+   "match": "AS Rome - Real Madrid",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "K. Mbappe buteur et Real Madrid gagne",
+   "premiere_vue": "2026-10-14T07:01:03+00:00",
    "sport": "Football"
   }
  },
