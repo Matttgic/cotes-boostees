@@ -1,11 +1,87 @@
 {
- "derniere_observation": "2026-10-14T03:43:25+00:00",
+ "derniere_observation": "2026-10-14T04:42:49+00:00",
  "journal_recherche": {
   "replay-v1": {
-   "J_adaptative": {},
-   "K_modele": {},
-   "L_kelly_dynamique": {},
-   "M_modele_20": {}
+   "J_adaptative": {
+    "winamax|718720488|2227799757": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|718720488|2227799757",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|718723208|2227815431": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|718723208|2227815431",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    }
+   },
+   "K_modele": {
+    "winamax|718720488|2227799757": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": -3.029,
+     "id": "winamax|718720488|2227799757",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.184707,
+     "regle": null
+    },
+    "winamax|718723208|2227815431": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": 30.99,
+     "id": "winamax|718723208|2227815431",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.494303,
+     "regle": null
+    }
+   },
+   "L_kelly_dynamique": {
+    "winamax|718720488|2227799757": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": -3.029,
+     "id": "winamax|718720488|2227799757",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.184707,
+     "regle": null
+    },
+    "winamax|718723208|2227815431": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": 30.99,
+     "id": "winamax|718723208|2227815431",
+     "joue": true,
+     "mise": 11.73,
+     "p_modele": 0.494303,
+     "regle": null
+    }
+   },
+   "M_modele_20": {
+    "winamax|718720488|2227799757": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": -3.029,
+     "id": "winamax|718720488|2227799757",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.184707,
+     "regle": null
+    },
+    "winamax|718723208|2227815431": {
+     "date": "2026-10-14T04:42:26+00:00",
+     "ev_modele_pct": 30.99,
+     "id": "winamax|718723208|2227815431",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.494303,
+     "regle": null
+    }
+   }
   }
  },
  "observations": {
@@ -3257,6 +3333,38 @@
    "pari": "Plus de 2,5 sets dans chacun des matchs suivants : Botic van de Zandschulp - Rafael Jodar et Casper Ruud - Felix Auger-Aliassime",
    "premiere_vue": "2026-10-13T22:18:51+00:00",
    "sport": "Tennis"
+  },
+  "winamax|718720488|2227799757": {
+   "available_at": "2026-10-14T04:42:26+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.25,
+   "cote_origine": 3.915,
+   "debut": "2026-10-14T08:10+00:00",
+   "disponible": true,
+   "id": "winamax|718720488|2227799757",
+   "long_terme": false,
+   "match": "Badminton",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tomas Junior Popov et Christo Popov gagnent chacun leur match 2-0 (respectivement contre Yudai Okimoto et Hongyang Weng)",
+   "premiere_vue": "2026-10-14T04:41:15+00:00",
+   "sport": "Badminton"
+  },
+  "winamax|718723208|2227815431": {
+   "available_at": "2026-10-14T04:42:26+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.65,
+   "cote_origine": 2.25,
+   "debut": "2026-10-14T05:10+00:00",
+   "disponible": true,
+   "id": "winamax|718723208|2227815431",
+   "long_terme": false,
+   "match": "Casper Ruud - Felix Auger-Aliassime",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Casper Ruud gagne et plus de 19,5 jeux dans le match contre Felix Auger-Aliassime",
+   "premiere_vue": "2026-10-14T04:41:15+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
@@ -4417,6 +4525,22 @@
    "id": "winamax|718578522|2227371955",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-14T03:42:53+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T04:42:49+00:00",
+   "id": "winamax|718576113|2227365889",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T04:42:26+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T04:42:49+00:00",
+   "id": "winamax|718591731|2227405844",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T04:42:26+00:00",
    "source": null,
    "statut": "perdu"
   }
