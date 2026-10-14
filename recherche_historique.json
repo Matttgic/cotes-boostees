@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T19:49:11+00:00",
+ "derniere_observation": "2026-10-14T20:15:22+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -81,6 +81,15 @@
      "id": "unibet|195082747|728456331",
      "joue": false,
      "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195098852|728501293": {
+     "date": "2026-10-14T20:15:22+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195098852|728501293",
+     "joue": true,
+     "mise": 10.0,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     },
@@ -374,6 +383,15 @@
      "p_modele": 0.398742,
      "regle": null
     },
+    "unibet|195098852|728501293": {
+     "date": "2026-10-14T20:15:22+00:00",
+     "ev_modele_pct": 21.351,
+     "id": "unibet|195098852|728501293",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.433397,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -664,6 +682,15 @@
      "p_modele": 0.398742,
      "regle": null
     },
+    "unibet|195098852|728501293": {
+     "date": "2026-10-14T20:15:22+00:00",
+     "ev_modele_pct": 21.351,
+     "id": "unibet|195098852|728501293",
+     "joue": true,
+     "mise": 7.43,
+     "p_modele": 0.433397,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -952,6 +979,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.398742,
+     "regle": null
+    },
+    "unibet|195098852|728501293": {
+     "date": "2026-10-14T20:15:22+00:00",
+     "ev_modele_pct": 21.351,
+     "id": "unibet|195098852|728501293",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.433397,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -2470,6 +2506,22 @@
    "pari": "Le Trio E.Haaland+O.Dembele+D.Doué marque au moins 2 buts en cumulé ? (Remboursé si non titulaire(s))",
    "premiere_vue": "2026-10-14T18:49:01+00:00",
    "sport": "Football"
+  },
+  "unibet|195098852|728501293": {
+   "available_at": "2026-10-14T20:15:22+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.45,
+   "debut": "2026-10-15T10:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195098852|728501293",
+   "long_terme": false,
+   "match": "A.Zverev - A.De Minaur",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "A.Zverev remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_vue": "2026-10-14T20:14:42+00:00",
+   "sport": "Tennis"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
