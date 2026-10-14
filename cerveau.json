@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 144,
-   "ecarter": 19,
+   "abstention": 149,
+   "ecarter": 20,
    "hors_perimetre": 34,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-14T16:50:46+00:00",
+  "derniere_observation": "2026-10-14T17:49:58+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,16 +15,16 @@
    "ancien_format": 17,
    "combiné_lie": 29,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 18,
-   "ligne_absente": 22,
+   "ev_insuffisante": 19,
+   "ligne_absente": 24,
    "long_terme": 34,
-   "marche_non_cote": 23,
-   "match_introuvable": 45,
+   "marche_non_cote": 24,
+   "match_introuvable": 47,
    "reference_absente": 1,
    "sport_non_suivi": 7
   },
   "observations_reglees": 134,
-  "observes": 197,
+  "observes": 203,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-14T16:50:46+00:00",
+ "derniere_observation": "2026-10-14T17:49:58+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -92,6 +92,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T19:15:19+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 16.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 14.5,
+      "hausse_pct": 10.3,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
      "mise_fictive": null,
      "motif_code": "marche_non_cote",
      "raisons": [
@@ -3234,6 +3260,43 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|194942438|727895556": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-14T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.9,
+      "hausse_pct": 15.8,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194942438|727895556",
+   "match": "Man. City - Paris SG",
+   "pari": "Le Trio E.Haaland+O.Dembele+Kvaratskhelia marque au moins 2 buts en cumulé ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|194942539|727895862": {
    "bookmaker": "Unibet",
@@ -11297,6 +11360,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 19.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 12.2,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : match introuvable (Paris Basketball - Virtus Bologne)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|718754012|2227907272",
@@ -11954,6 +12043,193 @@
    "id": "winamax|719124802|2228938357",
    "match": "Aston Villa - Fenerbahce",
    "pari": "Aston Villa gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719134008|2228963857": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.15,
+      "hausse_pct": 11.1,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719134008|2228963857",
+   "match": "Inter Miami - New York City FC",
+   "pari": "Lionel Messi marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719136993|2228972872": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719136993|2228972872",
+   "match": "Toronto FC - Orlando City",
+   "pari": "Antoine Griezmann marque au moins un but ou fait au moins une passe décisive et Orlando City gagne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719140105|2228981777": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T00:30+00:00",
+   "historique": [
+    {
+     "cote": 3.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 14.7,
+      "horizon_heures": 6.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719140105|2228981777",
+   "match": "Chicago Fire - Philadelphia Union",
+   "pari": "Robert Lewandowski marque au moins un but en 1ère mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719144141|2228994353": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-14T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.584,
+      "hausse_pct": 25.8,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719144141|2228994353",
+   "match": "MLS",
+   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 6 matchs à 1h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719147986|2229005496": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T02:30+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": 2.499,
+     "decision": "ecarter",
+     "ev_pct": -4.0,
+     "features": {
+      "cote_origine": 2.122,
+      "hausse_pct": 13.1,
+      "horizon_heures": 8.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T17:49:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719147986|2229005496",
+   "match": "MLS",
+   "pari": "Los Angeles Galaxy et Los Angeles FC marquent chacun au moins 2 buts (respectivement contre Portland Timbers et Austin FC)",
    "premiere_selection": null,
    "sport": "Football"
   }
