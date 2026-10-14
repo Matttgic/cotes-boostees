@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T09:00:13+00:00",
+ "derniere_observation": "2026-10-14T10:00:03+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7,6 +7,15 @@
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": null,
      "id": "netbet|12231955|7443639753",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "olybet|31215821|7330371393": {
+     "date": "2026-10-14T09:59:15+00:00",
+     "ev_modele_pct": null,
+     "id": "olybet|31215821|7330371393",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -158,6 +167,15 @@
      "p_modele": 0.274853,
      "regle": null
     },
+    "olybet|31215821|7330371393": {
+     "date": "2026-10-14T09:59:15+00:00",
+     "ev_modele_pct": -21.398,
+     "id": "olybet|31215821|7330371393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357283,
+     "regle": null
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": -14.86,
@@ -304,6 +322,15 @@
      "p_modele": 0.274853,
      "regle": null
     },
+    "olybet|31215821|7330371393": {
+     "date": "2026-10-14T09:59:15+00:00",
+     "ev_modele_pct": -21.398,
+     "id": "olybet|31215821|7330371393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357283,
+     "regle": null
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": -14.86,
@@ -448,6 +475,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.274853,
+     "regle": null
+    },
+    "olybet|31215821|7330371393": {
+     "date": "2026-10-14T09:59:15+00:00",
+     "ev_modele_pct": -21.398,
+     "id": "olybet|31215821|7330371393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357283,
      "regle": null
     },
     "unibet|194942539|727895862": {
@@ -712,6 +748,22 @@
    "source_commit": "e0bffce65f23d51943bea924bb225e0d3deebe46",
    "sport": "Tennis",
    "type": "cote boostée"
+  },
+  "olybet|31215821|7330371393": {
+   "available_at": "2026-10-14T09:59:15+00:00",
+   "bookmaker": "OlyBet",
+   "cote_boostee_initiale": 2.2,
+   "cote_origine": null,
+   "debut": "2026-10-14T18:45+00:00",
+   "disponible": true,
+   "id": "olybet|31215821|7330371393",
+   "long_terme": false,
+   "match": "Manchester City - Paris SG",
+   "mise_max": 20.83,
+   "mise_max_supposee": false,
+   "pari": "O. Dembélé ou D. Doué buteur",
+   "premiere_vue": "2026-10-14T09:58:27+00:00",
+   "sport": "Football"
   },
   "olybet|31215827|7330380391": {
    "available_at": "2026-10-13T18:49:26Z",
@@ -5303,6 +5355,14 @@
    "regle_le": "2026-10-14T08:01:43+00:00",
    "source": null,
    "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-14T10:00:03+00:00",
+   "id": "winamax|718723208|2227815431",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T09:59:15+00:00",
+   "source": null,
+   "statut": "remboursé"
   }
  ],
  "schema": 1,

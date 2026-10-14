@@ -47,7 +47,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.65,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -101,7 +101,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 15.0,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -160,7 +160,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.05,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -214,7 +214,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 10.5,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -226,7 +226,7 @@
   "cote_boostee_initiale": 2.75,
   "cote_origine": null,
   "debut": "2026-10-14T19:00+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -268,7 +268,7 @@
   "match": "O.Dembélé décisif et le PSG - City",
   "mise_max": 10.0,
   "mise_max_supposee": false,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "O.Dembélé décisif et le PSG (vs City) ne perd pas ?",
   "premiere_vue": "2026-10-14T08:59:19+00:00",
   "ref": {
@@ -281,7 +281,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.75,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (PSG - City) ; Betfair : match introuvable (PSG - City)",
    "statut": "non_evaluable"
@@ -345,6 +345,17 @@
    "market_id": 2487888758
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-14T09:59:15+00:00",
+   "explication": "Auger-Aliassime n’a pas remporté le match, mais je n’ai pas trouvé de source fiable confirmant le total d’aces. Conformément à votre règle, le pari est donc indiqué comme inconnu.",
+   "modele": "gpt-6-luna",
+   "score": "Casper Ruud menait 5-2 dans le 1er set lorsque Félix Auger-Aliassime a abandonné après 35 minutes. Nombre total d’aces : non confirmé par une source fiable consultée.",
+   "sources": [
+    "https://elpais.com/deportes/tenis/2026-10-14/jodar-vence-a-van-de-zandschulp-y-alcanza-los-cuartos-del-masters-de-shanghai.html",
+    "https://as.com/tenis/masters_1000/jodar-escapa-de-la-pesadilla-de-la-armada-f202610-d/"
+   ],
+   "tentatives": 1
+  },
   "sport": "Tennis",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -369,13 +380,68 @@
    "statut": "non_evaluable"
   }
  },
+ "olybet|31215821|7330371393": {
+  "bookmaker": "OlyBet",
+  "cote_boostee": 2.2,
+  "cote_boostee_initiale": 2.2,
+  "cote_origine": null,
+  "debut": "2026-10-14T18:45+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
+  "disponible": true,
+  "hausse_pct": null,
+  "historique_cotes": [],
+  "id": "olybet|31215821|7330371393",
+  "intitule_brut": "Manchester City - Paris SG : O. Dembélé ou D. Doué buteur (14.10.2026)",
+  "jambes": [
+   {
+    "equipe": null,
+    "equipe_1": "Manchester City",
+    "equipe_2": "Paris SG",
+    "joueur": "O. Dembélé ou D. Doué",
+    "ligne": 0.5,
+    "periode": "match",
+    "score": null,
+    "sens": "plus",
+    "stat": "Goals",
+    "type": "joueur",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
+  "jambes_version": 2,
+  "ligue": "Ligue des Champions",
+  "long_terme": false,
+  "match": "Manchester City - Paris SG",
+  "mise_max": 20.83,
+  "mise_max_supposee": false,
+  "nb_vues": 1,
+  "pari": "O. Dembélé ou D. Doué buteur",
+  "premiere_vue": "2026-10-14T09:58:27+00:00",
+  "ref": {
+   "competition_id": 18505,
+   "event_id": 7330371393,
+   "game_id": 31215821,
+   "market_id": 2487949250
+  },
+  "regle_mise": "gain net max 25 €",
+  "sport": "Football",
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 2.2,
+   "date": "2026-10-14T09:58:27+00:00",
+   "detail": [],
+   "raison": "Pinnacle : match introuvable (Manchester City - Paris SG) ; Betfair : match introuvable (Manchester City - Paris SG)",
+   "statut": "non_evaluable"
+  }
+ },
  "olybet|31215827|7330380391": {
   "bookmaker": "OlyBet",
   "cote_boostee": 4.0,
   "cote_boostee_initiale": 4.0,
   "cote_origine": null,
   "debut": "2026-10-14T18:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -417,7 +483,7 @@
   "match": "AS Rome - Real Madrid",
   "mise_max": 8.33,
   "mise_max_supposee": false,
-  "nb_vues": 18,
+  "nb_vues": 19,
   "pari": "Real Madrid to win and Vinicius to score",
   "premiere_vue": "2026-10-13T18:48:30+00:00",
   "ref": {
@@ -431,11 +497,11 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 4.0,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 1.9882,
-     "cote_reference": 1.9434,
+     "cote_juste": 1.9884,
+     "cote_reference": 1.9524,
      "issue": "EXT",
      "joueur": null,
      "ligne": null,
@@ -457,7 +523,7 @@
   "cote_boostee_initiale": 4.5,
   "cote_origine": null,
   "debut": "2026-10-14T18:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [
@@ -504,7 +570,7 @@
   "match": "Manchester City - Paris SG",
   "mise_max": 6.25,
   "mise_max_supposee": false,
-  "nb_vues": 18,
+  "nb_vues": 19,
   "pari": "Paris SG gagne et les 2 équipes marquent",
   "premiere_vue": "2026-10-13T18:48:30+00:00",
   "ref": {
@@ -518,7 +584,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 5.0,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Manchester City - Paris SG) ; Betfair : match introuvable (Manchester City - Paris SG)",
    "statut": "non_evaluable"
@@ -530,7 +596,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -541,7 +607,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -631,7 +697,7 @@
   "cote_boostee_initiale": 5.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -642,7 +708,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "CHI Bulls - Caleb Wilson meilleur marqueur des Bulls (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -660,7 +726,7 @@
   "cote_boostee_initiale": 1.87,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -671,7 +737,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "LA Lakers - Luka Doncic meilleur marqueur NBA en saison régulière (moyenne points/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -689,7 +755,7 @@
   "cote_boostee_initiale": 1.35,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -700,7 +766,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "MIL Bucks - Tyler Herro meilleur marqueur des Bucks (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -718,7 +784,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -729,7 +795,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "NO Pelicans - Zion Williamson meilleur marqueur des Pelicans (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -747,7 +813,7 @@
   "cote_boostee_initiale": 1.6,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -758,7 +824,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "ORL Magic - Paolo Banchero meilleur marqueur du Magic (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -776,7 +842,7 @@
   "cote_boostee_initiale": 7.0,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -787,7 +853,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "UTA Jazz - Darryn Peterson meilleur marqueur du Jazz (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -805,7 +871,7 @@
   "cote_boostee_initiale": 1.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -816,7 +882,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "CHA Hornets - Moussa Diabate meilleur rebondeur des Hornets (total de rebonds)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -834,7 +900,7 @@
   "cote_boostee_initiale": 11.0,
   "cote_origine": 9.0,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 22.2,
   "historique_cotes": [],
@@ -845,7 +911,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 27,
+  "nb_vues": 28,
   "pari": "MIN TWolves - Rudy Gobert meilleur rebondeur NBA en saison régulière (moyenne rebonds/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-13T10:32:04+00:00",
   "ref": {
@@ -863,7 +929,7 @@
   "cote_boostee_initiale": 3.3,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -874,7 +940,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "BKN Nets - Mikel Brown Jr meilleur passeur des Nets (total de passes)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -892,7 +958,7 @@
   "cote_boostee_initiale": 2.0,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [
@@ -908,7 +974,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 106,
+  "nb_vues": 107,
   "pari": "TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes)",
   "premiere_vue": "2026-10-10T10:57:16+00:00",
   "ref": {
@@ -926,7 +992,7 @@
   "cote_boostee_initiale": 3.3,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -937,7 +1003,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "WAS Wizards - Trae Young meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -955,7 +1021,7 @@
   "cote_boostee_initiale": 6.4,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -966,7 +1032,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": true,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "ATL Hawks - Dyson Daniels meilleur intercepteur NBA en saison régulière (moyenne interceptions/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -984,7 +1050,7 @@
   "cote_boostee_initiale": 2.15,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -995,7 +1061,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "DAL Mavericks - Les Mavericks se qualifient pour le PlayIn",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1013,7 +1079,7 @@
   "cote_boostee_initiale": 1.58,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1024,7 +1090,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "GS Warriors - Les Warriors se qualifient pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1042,7 +1108,7 @@
   "cote_boostee_initiale": 1.66,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1053,7 +1119,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "PHX Suns - Les Suns se qualifient pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1071,7 +1137,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1082,7 +1148,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "POR TBlazers - Les Blazers ne se qualifient pas pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1129,7 +1195,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": 1.8,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 16.7,
   "historique_cotes": [
@@ -1145,7 +1211,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "HOU Rockets - Fred VanVleet fait 6 passes ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1163,7 +1229,7 @@
   "cote_boostee_initiale": 1.6,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1174,7 +1240,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "LA Clippers - Darius Garland fait 7 passes ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1192,7 +1258,7 @@
   "cote_boostee_initiale": 1.8,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1203,7 +1269,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "MEM Grizzlies - Cameron Boozer prend 8 rebonds ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1221,7 +1287,7 @@
   "cote_boostee_initiale": 4.25,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1232,7 +1298,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 149,
+  "nb_vues": 150,
   "pari": "IND Pacers - Les Pacers remportent la Division Centrale",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -3127,7 +3193,7 @@
   "cote_boostee_initiale": 2.7,
   "cote_origine": 2.35,
   "debut": "2026-10-14T19:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 14.9,
   "historique_cotes": [],
@@ -3169,7 +3235,7 @@
   "match": "Man. City - Paris SG",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Man. City ou Paris SG gagne et au moins 4 buts marqués dans le match ?",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -3182,7 +3248,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.7,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Man. City - Paris SG) ; Betfair : équipe du pari introuvable dans le match",
    "statut": "non_evaluable"
@@ -3194,7 +3260,7 @@
   "cote_boostee_initiale": 3.05,
   "cote_origine": 2.65,
   "debut": "2026-10-14T19:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 15.1,
   "historique_cotes": [],
@@ -3236,7 +3302,7 @@
   "match": "AS Rome - Real Madrid",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Real Madrid gagne le match et les deux équipes marquent ?",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -3249,12 +3315,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.05,
-   "cote_juste": 2.908,
-   "date": "2026-10-14T08:59:19+00:00",
+   "cote_juste": 2.911,
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 1.9882,
-     "cote_reference": 1.9434,
+     "cote_juste": 1.9884,
+     "cote_reference": 1.9524,
      "issue": "EXT",
      "joueur": null,
      "ligne": null,
@@ -3266,8 +3332,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.4624,
-     "cote_reference": 1.4292,
+     "cote_juste": 1.4639,
+     "cote_reference": 1.4348,
      "issue": "Yes",
      "joueur": null,
      "ligne": null,
@@ -3279,8 +3345,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -8.9,
-   "ev_pct": 4.9,
+   "ev_origine_pct": -9.0,
+   "ev_pct": 4.8,
    "sources": [
     "Pinnacle"
    ],
@@ -3332,7 +3398,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.0,
   "debut": "2026-10-14T16:45:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 15.0,
   "historique_cotes": [],
@@ -3343,7 +3409,7 @@
   "match": "CB - ChampionsLeague (14/10)",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Le trio K.Mbappe+B.Barcola+D.Doué décisif au moins 3 fois ? (Remboursé si non titulaire(s))",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -3361,7 +3427,7 @@
   "cote_boostee_initiale": 2.55,
   "cote_origine": 2.25,
   "debut": "2026-10-14T10:00:00.000Z",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 13.3,
   "historique_cotes": [],
@@ -3390,7 +3456,7 @@
   "match": "D.Medvedev - S.Tsitsipas",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "S.Tsitsipas remporte le 1er set ?",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -3403,12 +3469,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.55,
-   "cote_juste": 2.683,
-   "date": "2026-10-14T08:59:19+00:00",
+   "cote_juste": 2.638,
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 2.6835,
-     "cote_reference": 2.57,
+     "cote_juste": 2.6376,
+     "cote_reference": 2.53,
      "issue": "EXT",
      "joueur": null,
      "ligne": null,
@@ -3420,8 +3486,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -16.2,
-   "ev_pct": -5.0,
+   "ev_origine_pct": -14.7,
+   "ev_pct": -3.3,
    "sources": [
     "Pinnacle"
    ],
@@ -16942,6 +17008,19 @@
    "outcome_id": 2227815431,
    "tournoi_id": 900002470
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T09:59:15+00:00",
+   "explication": "Selon le règlement Winamax, les paris sur le vainqueur du match et sur le total de jeux sont annulés si le match s’arrête avant son terme et que le seuil n’a pas été dépassé. Les deux conditions de ce pari étant ainsi annulées, le pari est remboursé.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T09:59:15+00:00",
+   "score": "Casper Ruud menait 5-2 dans le 1er set lorsque Félix Auger-Aliassime a abandonné ; 7 jeux disputés, match non terminé.",
+   "sources": [
+    "https://operator-front-static-cdn.winamax.fr/img/content/poker/2024/20240628_cgu_paris_sportifs/Rglementdesparissportifs03_07_2024.pdf",
+    "https://www.universtennis.com/2026/10/14/masters-1000-shanghai-felix-auger-aliassime-abandonne-face-a-casper-ruud-touche-au-genou/"
+   ],
+   "statut": "remboursé",
+   "tentatives": 1
+  },
   "sport": "Tennis",
   "sport_id_winamax": 5,
   "type": "cote boostée",
@@ -16973,7 +17052,7 @@
   "cote_boostee_initiale": 3.75,
   "cote_origine": 3.25,
   "debut": "2026-10-14T10:00+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 15.4,
   "historique_cotes": [],
@@ -16999,7 +17078,7 @@
   "long_terme": false,
   "match": "Daniil Medvedev - Stefanos Tsitsipas",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "D. Medvedev gagne 2-1",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -17014,12 +17093,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.75,
-   "cote_juste": 4.128,
-   "date": "2026-10-14T08:59:19+00:00",
+   "cote_juste": 4.04,
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 4.1282,
-     "cote_reference": 4.1282,
+     "cote_juste": 4.0395,
+     "cote_reference": 4.0395,
      "issue": "DOM",
      "joueur": null,
      "ligne": "2-1",
@@ -17031,8 +17110,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -21.3,
-   "ev_pct": -9.2,
+   "ev_origine_pct": -19.5,
+   "ev_pct": -7.2,
    "sources": [
     "Pinnacle"
    ],
@@ -17071,7 +17150,7 @@
   "cote_boostee_initiale": 3.0,
   "cote_origine": 2.6,
   "debut": "2026-10-14T11:30+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 15.4,
   "historique_cotes": [],
@@ -17110,7 +17189,7 @@
   "long_terme": false,
   "match": "Tommy Paul - Zizou Bergs",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "T. Paul gagne et plus de 22,5 jeux dans le match",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -17125,12 +17204,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.0,
-   "cote_juste": 2.971,
-   "date": "2026-10-14T08:59:19+00:00",
+   "cote_juste": 2.94,
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 1.5031,
-     "cote_reference": 1.4808,
+     "cote_juste": 1.5083,
+     "cote_reference": 1.4854,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
@@ -17142,8 +17221,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.9765,
-     "cote_reference": 1.9174,
+     "cote_juste": 1.949,
+     "cote_reference": 1.8929,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 22.5,
@@ -17155,8 +17234,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -12.5,
-   "ev_pct": 1.0,
+   "ev_origine_pct": -11.6,
+   "ev_pct": 2.1,
    "sources": [
     "Pinnacle"
    ],
@@ -17208,7 +17287,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.1,
   "debut": "2026-10-14T12:15+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 14.3,
   "historique_cotes": [],
@@ -17234,7 +17313,7 @@
   "long_terme": false,
   "match": "Felix Lebrun - Maciej Kubik",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Moins de 16,5 points dans le 1er set",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -17249,7 +17328,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Felix Lebrun - Maciej Kubik) ; Betfair : match introuvable (Felix Lebrun - Maciej Kubik)",
    "statut": "non_evaluable"
@@ -17261,7 +17340,7 @@
   "cote_boostee_initiale": 2.75,
   "cote_origine": 2.4,
   "debut": "2026-10-14T18:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 14.6,
   "historique_cotes": [],
@@ -17300,7 +17379,7 @@
   "long_terme": false,
   "match": "Paris Basketball - Virtus Bologne",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "N. Hifi marque au moins 20 points et Paris Basketball gagne",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -17315,7 +17394,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.75,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 19.5 PLUS)",
    "statut": "non_evaluable"
@@ -17327,7 +17406,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": 2.5,
   "debut": "2026-10-14T16:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 10.0,
   "historique_cotes": [
@@ -17371,7 +17450,7 @@
   "long_terme": false,
   "match": "Feyenoord - Come",
   "mise_max": 20.0,
-  "nb_vues": 4,
+  "nb_vues": 5,
   "pari": "Come gagne et plus de 2,5 buts dans le match",
   "premiere_vue": "2026-10-14T06:01:53+00:00",
   "ref": {
@@ -17386,12 +17465,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.75,
-   "cote_juste": 3.449,
-   "date": "2026-10-14T08:59:19+00:00",
+   "cote_juste": 3.427,
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [
     {
-     "cote_juste": 2.2047,
-     "cote_reference": 2.15,
+     "cote_juste": 2.2042,
+     "cote_reference": 2.16,
      "issue": "EXT",
      "joueur": null,
      "ligne": null,
@@ -17403,8 +17482,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.5642,
-     "cote_reference": 1.5208,
+     "cote_juste": 1.5548,
+     "cote_reference": 1.5155,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
@@ -17416,8 +17495,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -27.5,
-   "ev_pct": -20.3,
+   "ev_origine_pct": -27.1,
+   "ev_pct": -19.8,
    "sources": [
     "Pinnacle"
    ],
@@ -17469,7 +17548,7 @@
   "cote_boostee_initiale": 2.65,
   "cote_origine": 2.35,
   "debut": "2026-10-14T16:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 12.8,
   "historique_cotes": [],
@@ -17508,7 +17587,7 @@
   "long_terme": false,
   "match": "LASK Linz - Liverpool",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "B. Barcola buteur et Liverpool gagne",
   "premiere_vue": "2026-10-14T07:01:03+00:00",
   "ref": {
@@ -17523,7 +17602,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.65,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -17535,7 +17614,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": 2.25,
   "debut": "2026-10-14T19:00+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 11.1,
   "historique_cotes": [],
@@ -17574,7 +17653,7 @@
   "long_terme": false,
   "match": "AS Rome - Real Madrid",
   "mise_max": 20.0,
-  "nb_vues": 3,
+  "nb_vues": 4,
   "pari": "K. Mbappe buteur et Real Madrid gagne",
   "premiere_vue": "2026-10-14T07:01:03+00:00",
   "ref": {
@@ -17589,7 +17668,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.5,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -17601,7 +17680,7 @@
   "cote_boostee_initiale": 3.25,
   "cote_origine": 3.0,
   "debut": "2026-10-14T19:00+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 8.3,
   "historique_cotes": [],
@@ -17627,7 +17706,7 @@
   "long_terme": false,
   "match": "Manchester City - Paris SG",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "K. Kvaratskhelia + D. Doué + O. Dembélé marquent 2 buts ou plus",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -17642,7 +17721,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.25,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -17654,7 +17733,7 @@
   "cote_boostee_initiale": 6.5,
   "cote_origine": 6.0,
   "debut": "2026-10-14T19:00+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
   "hausse_pct": 8.3,
   "historique_cotes": [],
@@ -17680,7 +17759,7 @@
   "long_terme": false,
   "match": "Manchester City - Paris SG",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "E. Haaland buteur sur une passe de R. Cherki",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -17695,7 +17774,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 6.5,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -17705,11 +17784,11 @@
   "bookmaker": "Winamax",
   "cote_boostee": 3.25,
   "cote_boostee_initiale": 3.25,
-  "cote_origine": 2.85,
+  "cote_origine": 2.8,
   "debut": "2026-10-14T16:45+00:00",
-  "derniere_vue": "2026-10-14T08:59:19+00:00",
+  "derniere_vue": "2026-10-14T09:58:27+00:00",
   "disponible": true,
-  "hausse_pct": 14.0,
+  "hausse_pct": 16.1,
   "historique_cotes": [],
   "id": "winamax|718805500|2228046850",
   "jambes": [
@@ -17733,7 +17812,7 @@
   "long_terme": false,
   "match": "Ligue des Champions",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Plus de 32,5 buts sur les 9 matchs à partir de 18h45",
   "premiere_vue": "2026-10-14T08:00:10+00:00",
   "ref": {
@@ -17748,7 +17827,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.25,
-   "date": "2026-10-14T08:59:19+00:00",
+   "date": "2026-10-14T09:58:27+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
    "statut": "non_evaluable"

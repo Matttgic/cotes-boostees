@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 135,
+   "abstention": 136,
    "ecarter": 19,
    "hors_perimetre": 31,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-14T08:59:19+00:00",
+  "derniere_observation": "2026-10-14T09:58:27+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -19,12 +19,12 @@
    "ligne_absente": 22,
    "long_terme": 31,
    "marche_non_cote": 23,
-   "match_introuvable": 39,
+   "match_introuvable": 40,
    "reference_absente": 1,
    "sport_non_suivi": 6
   },
-  "observations_reglees": 128,
-  "observes": 185,
+  "observations_reglees": 129,
+  "observes": 186,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-14T08:59:19+00:00",
+ "derniere_observation": "2026-10-14T09:58:27+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -333,6 +333,43 @@
    "pari": "Auger-Aliassime gagne et plus de 20,5 aces dans le match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "olybet|31215821|7330371393": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-14T18:45+00:00",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 8.8,
+      "long_terme": false,
+      "mise_max": 20.83,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T09:58:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Manchester City - Paris SG) ; Betfair : match introuvable (Manchester City - Paris SG)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31215821|7330371393",
+   "match": "Manchester City - Paris SG",
+   "pari": "O. Dembélé ou D. Doué buteur",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "olybet|31215827|7330380391": {
    "bookmaker": "OlyBet",
@@ -3269,6 +3306,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-14T07:01:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": 2.638,
+     "decision": "ecarter",
+     "ev_pct": -3.3,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 13.3,
+      "horizon_heures": 0.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T09:58:27+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -10794,6 +10859,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-14T07:01:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.04,
+     "decision": "ecarter",
+     "ev_pct": -7.2,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 0.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T09:58:27+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
