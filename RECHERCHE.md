@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T14:16:55+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T15:15:41+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,8 +18,8 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 58 / 66 | 553.01 € | -85.94 € | -15.5 % | -108.50 € |
-| temoin_20 | 33 / 39 | 591.03 € | -27.42 € | -4.6 % | -161.00 € |
+| temoin_10 | 58 / 68 | 553.01 € | -85.94 € | -15.5 % | -108.50 € |
+| temoin_20 | 33 / 40 | 591.03 € | -27.42 € | -4.6 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 34 / 36 | 327.79 € | -58.79 € | -17.9 % | -122.83 € |

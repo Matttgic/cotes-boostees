@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T14:16:55+00:00",
+ "derniere_observation": "2026-10-14T15:15:41+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -45,6 +45,24 @@
      "id": "unibet|194999933|728148234",
      "joue": true,
      "mise": 10.0,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195048663|728368765": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195048663|728368765",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195049566|728371487": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195049566|728371487",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     },
@@ -248,6 +266,24 @@
      "p_modele": 0.480744,
      "regle": null
     },
+    "unibet|195048663|728368765": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -15.243,
+     "id": "unibet|195048663|728368765",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353155,
+     "regle": null
+    },
+    "unibet|195049566|728371487": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -5.835,
+     "id": "unibet|195049566|728371487",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.336303,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -448,6 +484,24 @@
      "p_modele": 0.480744,
      "regle": null
     },
+    "unibet|195048663|728368765": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -15.243,
+     "id": "unibet|195048663|728368765",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353155,
+     "regle": null
+    },
+    "unibet|195049566|728371487": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -5.835,
+     "id": "unibet|195049566|728371487",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.336303,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -646,6 +700,24 @@
      "joue": true,
      "mise": 20.0,
      "p_modele": 0.480744,
+     "regle": null
+    },
+    "unibet|195048663|728368765": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -15.243,
+     "id": "unibet|195048663|728368765",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353155,
+     "regle": null
+    },
+    "unibet|195049566|728371487": {
+     "date": "2026-10-14T15:15:41+00:00",
+     "ev_modele_pct": -5.835,
+     "id": "unibet|195049566|728371487",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.336303,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -2046,6 +2118,38 @@
    "pari": "Euroleague - Nadir Hifi finit meilleur marqueur du match",
    "premiere_vue": "2026-10-14T14:15:36+00:00",
    "sport": "Basketball"
+  },
+  "unibet|195048663|728368765": {
+   "available_at": "2026-10-14T15:15:41+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.4,
+   "cote_origine": 2.1,
+   "debut": "2026-10-14T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195048663|728368765",
+   "long_terme": false,
+   "match": "Man. City - Paris SG",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "R.Cherki décisif et les deux équipes marquent (remboursé si non titulaire)",
+   "premiere_vue": "2026-10-14T15:14:44+00:00",
+   "sport": "Football"
+  },
+  "unibet|195049566|728371487": {
+   "available_at": "2026-10-14T15:15:41+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.5,
+   "debut": "2026-10-15T09:05:00.000Z",
+   "disponible": true,
+   "id": "unibet|195049566|728371487",
+   "long_terme": false,
+   "match": "Australie - NlleZélande",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Le duo Jamayne Isaako/Tom Trbojevic marque 2 essais ou +",
+   "premiere_vue": "2026-10-14T15:14:44+00:00",
+   "sport": "Rugby à XIII"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
