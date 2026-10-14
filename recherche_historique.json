@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-14T20:15:22+00:00",
+ "derniere_observation": "2026-10-14T21:17:57+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -297,6 +297,33 @@
      "id": "winamax|719147986|2229005496",
      "joue": false,
      "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719282847|2229414505": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719282847|2229414505",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719287451|2229426305": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719287451|2229426305",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719296847|2229451839": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719296847|2229451839",
+     "joue": true,
+     "mise": 10.0,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     }
@@ -598,6 +625,33 @@
      "mise": null,
      "p_modele": 0.370044,
      "regle": null
+    },
+    "winamax|719282847|2229414505": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -13.771,
+     "id": "winamax|719282847|2229414505",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239524,
+     "regle": null
+    },
+    "winamax|719287451|2229426305": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -15.297,
+     "id": "winamax|719287451|2229426305",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.249127,
+     "regle": null
+    },
+    "winamax|719296847|2229451839": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": 32.691,
+     "id": "winamax|719296847|2229451839",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.27935,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -897,6 +951,33 @@
      "mise": null,
      "p_modele": 0.370044,
      "regle": null
+    },
+    "winamax|719282847|2229414505": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -13.771,
+     "id": "winamax|719282847|2229414505",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239524,
+     "regle": null
+    },
+    "winamax|719287451|2229426305": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -15.297,
+     "id": "winamax|719287451|2229426305",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.249127,
+     "regle": null
+    },
+    "winamax|719296847|2229451839": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": 32.691,
+     "id": "winamax|719296847|2229451839",
+     "joue": true,
+     "mise": 5.46,
+     "p_modele": 0.27935,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -1195,6 +1276,33 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.370044,
+     "regle": null
+    },
+    "winamax|719282847|2229414505": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -13.771,
+     "id": "winamax|719282847|2229414505",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239524,
+     "regle": null
+    },
+    "winamax|719287451|2229426305": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": -15.297,
+     "id": "winamax|719287451|2229426305",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.249127,
+     "regle": null
+    },
+    "winamax|719296847|2229451839": {
+     "date": "2026-10-14T21:14:41+00:00",
+     "ev_modele_pct": 32.691,
+     "id": "winamax|719296847|2229451839",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.27935,
      "regle": null
     }
    }
@@ -5041,6 +5149,54 @@
    "pari": "Los Angeles Galaxy et Los Angeles FC marquent chacun au moins 2 buts (respectivement contre Portland Timbers et Austin FC)",
    "premiere_vue": "2026-10-14T17:49:58+00:00",
    "sport": "Football"
+  },
+  "winamax|719282847|2229414505": {
+   "available_at": "2026-10-14T21:14:41+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.6,
+   "cote_origine": 3.05,
+   "debut": "2026-10-14T23:45+00:00",
+   "disponible": true,
+   "id": "winamax|719282847|2229414505",
+   "long_terme": false,
+   "match": "Washington Capitals - Montreal Canadiens",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Washington Capitals gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
+   "premiere_vue": "2026-10-14T21:13:50+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|719287451|2229426305": {
+   "available_at": "2026-10-14T21:14:41+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.4,
+   "cote_origine": 2.95,
+   "debut": "2026-10-15T00:45+00:00",
+   "disponible": true,
+   "id": "winamax|719287451|2229426305",
+   "long_terme": false,
+   "match": "Colorado Avalanche - Dallas Stars",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Nathan MacKinnon buteur et Colorado Avalanche gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-14T21:13:50+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|719296847|2229451839": {
+   "available_at": "2026-10-14T21:14:41+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.75,
+   "cote_origine": 4.1,
+   "debut": "2026-10-15T06:30+00:00",
+   "disponible": true,
+   "id": "winamax|719296847|2229451839",
+   "long_terme": false,
+   "match": "Arthur Gea - Alejandro Davidovich Fokina",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Arthur Gea gagne 2-1",
+   "premiere_vue": "2026-10-14T21:13:50+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
@@ -6291,6 +6447,54 @@
    "regle_le": "2026-10-14T18:49:40+00:00",
    "source": null,
    "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "betsson|93666744.1|393253164.1",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "winamax|718755595|2227911190",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "winamax|718761712|2227928022",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "winamax|718805500|2228046850",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "winamax|718964080|2228464001",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-14T21:17:57+00:00",
+   "id": "winamax|719034922|2228668247",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T21:14:41+00:00",
+   "source": null,
+   "statut": "gagné"
   }
  ],
  "schema": 1,
@@ -6795,6 +6999,22 @@
    "cote_juste": 2.499,
    "date": "2026-10-14T17:49:58+00:00",
    "ev_pct": -4.0,
+   "statut": "exacte"
+  },
+  "winamax|719287451|2229426305": {
+   "available_at": "2026-10-14T21:14:41+00:00",
+   "cote_boostee": 3.4,
+   "cote_juste": 5.167,
+   "date": "2026-10-14T21:13:50+00:00",
+   "ev_pct": -34.2,
+   "statut": "approx"
+  },
+  "winamax|719296847|2229451839": {
+   "available_at": "2026-10-14T21:14:41+00:00",
+   "cote_boostee": 4.75,
+   "cote_juste": 4.85,
+   "date": "2026-10-14T21:13:50+00:00",
+   "ev_pct": -2.1,
    "statut": "exacte"
   }
  }
