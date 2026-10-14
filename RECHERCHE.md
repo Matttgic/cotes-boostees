@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T12:18:30+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-14T13:17:46+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,28 +18,28 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 56 / 65 | 533.01 € | -65.94 € | -12.4 % | -107.52 € |
-| temoin_20 | 32 / 38 | 574.83 € | -11.22 € | -2.0 % | -161.00 € |
+| temoin_10 | 56 / 66 | 533.01 € | -65.94 € | -12.4 % | -107.52 € |
+| temoin_20 | 32 / 39 | 574.83 € | -11.22 € | -2.0 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
-| J_adaptative | 31 / 36 | 299.86 € | -30.86 € | -10.3 % | -122.83 € |
-| K_modele | 40 / 46 | 384.90 € | +61.73 € | +16.0 % | -74.75 € |
-| L_kelly_dynamique | 43 / 49 | 255.24 € | +32.03 € | +12.5 % | -59.37 € |
-| M_modele_20 | 26 / 31 | 496.95 € | +257.52 € | +51.8 % | -85.88 € |
+| J_adaptative | 32 / 36 | 309.17 € | -40.17 € | -13.0 % | -122.83 € |
+| K_modele | 41 / 46 | 394.90 € | +51.73 € | +13.1 % | -74.75 € |
+| L_kelly_dynamique | 44 / 49 | 264.08 € | +23.19 € | +8.8 % | -59.37 € |
+| M_modele_20 | 27 / 31 | 516.95 € | +237.52 € | +45.9 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.
 
 ## Stabilité et calibration
 
-Sur 111 prévisions réglées : score de Brier du modèle 0.1993, prior bookmaker 0.2018 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 112 prévisions réglées : score de Brier du modèle 0.1987, prior bookmaker 0.2008 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
-| J_adaptative | [-49.8, 33.9] |
-| K_modele | [-26.4, 61.8] |
-| L_kelly_dynamique | [-28.1, 57.0] |
-| M_modele_20 | [-6.5, 110.4] |
+| J_adaptative | [-53.5, 27.8] |
+| K_modele | [-28.2, 53.6] |
+| L_kelly_dynamique | [-33.1, 50.9] |
+| M_modele_20 | [-10.7, 100.9] |
 Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils ne corrigent pas la sélection a posteriori des méthodes et ne simulent pas un nouvel apprentissage complet.
 
 ### J_adaptative par jour de décision
@@ -48,7 +48,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 |---|---|---|
 | 2026-10-10 | 14 | -28.27 € |
 | 2026-10-11 | 12 | -82.06 € |
-| 2026-10-13 | 4 | +79.47 € |
+| 2026-10-13 | 5 | +70.16 € |
 | 2026-10-14 | 1 | +0.00 € |
 
 | Sport | Réglés | Gain net |
@@ -58,7 +58,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | Formule 1 | 1 | -10.00 € |
 | Hockey sur glace | 1 | -9.52 € |
 | Rugby | 2 | +5.00 € |
-| Tennis | 7 | +112.15 € |
+| Tennis | 8 | +102.84 € |
 
 ### K_modele par jour de décision
 
@@ -67,7 +67,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-10 | 16 | -32.25 € |
 | 2026-10-11 | 14 | +23.98 € |
 | 2026-10-12 | 3 | +2.50 € |
-| 2026-10-13 | 6 | +67.50 € |
+| 2026-10-13 | 7 | +57.50 € |
 | 2026-10-14 | 1 | +0.00 € |
 
 | Sport | Réglés | Gain net |
@@ -80,7 +80,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | Hockey sur glace | 1 | -9.00 € |
 | Rugby | 3 | -5.00 € |
 | Rugby à XV | 1 | +8.48 € |
-| Tennis | 14 | +151.75 € |
+| Tennis | 15 | +141.75 € |
 
 ### L_kelly_dynamique par jour de décision
 
@@ -89,7 +89,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-10 | 16 | -20.08 € |
 | 2026-10-11 | 17 | -7.25 € |
 | 2026-10-12 | 3 | +2.09 € |
-| 2026-10-13 | 6 | +57.27 € |
+| 2026-10-13 | 7 | +48.43 € |
 | 2026-10-14 | 1 | +0.00 € |
 
 | Sport | Réglés | Gain net |
@@ -102,7 +102,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | Hockey sur glace | 3 | -5.08 € |
 | Rugby | 2 | +11.14 € |
 | Rugby à XV | 1 | +8.14 € |
-| Tennis | 15 | +112.72 € |
+| Tennis | 16 | +103.88 € |
 
 ### M_modele_20 par jour de décision
 
@@ -111,7 +111,7 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-10 | 8 | -11.60 € |
 | 2026-10-11 | 9 | +110.97 € |
 | 2026-10-12 | 2 | +23.15 € |
-| 2026-10-13 | 6 | +135.00 € |
+| 2026-10-13 | 7 | +115.00 € |
 | 2026-10-14 | 1 | +0.00 € |
 
 | Sport | Réglés | Gain net |
@@ -120,31 +120,31 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | Football | 12 | -29.05 € |
 | Formule 1 | 1 | -19.76 € |
 | Hockey sur glace | 1 | -17.82 € |
-| Tennis | 11 | +344.15 € |
+| Tennis | 12 | +324.15 € |
 
 ## Sensibilité du modèle : les 9 variantes explorées
 
 | EV estimée minimale | Mise maximale | Réglés | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| 0 % | 5 € | 69 | -24.27 € | -7.1 % | -54.52 € |
+| 0 % | 5 € | 70 | -29.27 € | -8.5 % | -54.52 € |
 | 0 % | 10 € | 47 | -47.96 € | -10.7 % | -88.52 € |
 | 0 % | 20 € | 28 | +50.79 € | +10.0 % | -143.22 € |
-| 5 % | 5 € | 54 | +10.50 € | +3.9 % | -52.25 € |
-| 5 % | 10 € | 40 | +61.73 € | +16.0 % | -74.75 € |
-| 5 % | 20 € | 26 | +257.52 € | +51.8 % | -85.88 € |
-| 10 % | 5 € | 44 | +31.00 € | +14.1 % | -46.75 € |
-| 10 % | 10 € | 33 | +78.25 € | +24.4 % | -79.75 € |
-| 10 % | 20 € | 21 | +182.92 € | +46.2 % | -76.00 € |
+| 5 % | 5 € | 55 | +5.50 € | +2.0 % | -52.25 € |
+| 5 % | 10 € | 41 | +51.73 € | +13.1 % | -74.75 € |
+| 5 % | 20 € | 27 | +237.52 € | +45.9 % | -85.88 € |
+| 10 % | 5 € | 45 | +26.00 € | +11.6 % | -46.75 € |
+| 10 % | 10 € | 34 | +68.25 € | +20.7 % | -79.75 € |
+| 10 % | 20 € | 22 | +162.92 € | +39.2 % | -76.00 € |
 
 ## Classement exploratoire des 56 filtres
 
 Ce classement a été trié après lecture de tous les résultats. Il sert à proposer des hypothèses, pas à valider une stratégie. Le meilleur filtre tennis repose sur très peu de paris.
 | Filtre | Réglés | Gain net | ROI |
 |---|---|---|---|
-| sport:tennis:1.5-5 | 14 | +168.00 € | +120.0 % |
-| sport:tennis:2-5 | 14 | +168.00 € | +120.0 % |
-| sport:tennis:1.5-8 | 15 | +158.00 € | +105.3 % |
-| sport:tennis:3-5 | 7 | +128.00 € | +182.9 % |
+| sport:tennis:1.5-5 | 15 | +158.00 € | +105.3 % |
+| sport:tennis:2-5 | 15 | +158.00 € | +105.3 % |
+| sport:tennis:1.5-8 | 16 | +148.00 € | +92.5 % |
+| sport:tennis:3-5 | 8 | +118.00 € | +147.5 % |
 | sport:tennis:1.5-3.5 | 9 | +82.50 € | +91.7 % |
 | sport:tennis:2-3.5 | 9 | +82.50 € | +91.7 % |
 | sport:tennis:1.5-2.5 | 5 | +22.50 € | +45.0 % |
@@ -213,7 +213,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 150 événements de règlement : {'gpt-6-luna': 150}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 151 événements de règlement : {'gpt-6-luna': 151}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
