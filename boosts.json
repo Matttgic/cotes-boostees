@@ -115,6 +115,19 @@
    "market_id": "93668376.1",
    "selection_id": "393257032.1"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le PSG a gagné, mais le score final n’est pas 1-0 : le pari sur le score exact est donc perdu.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris SG (temps réglementaire). Buteurs du PSG : Doué (13e), Dembélé (15e), Vitinha (32e), Akliouche (62e) ; Haaland a marqué deux fois pour City.",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+    "https://www.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -129,11 +142,11 @@
   "bookmaker": "Betsson",
   "cote_boostee": 2.05,
   "cote_boostee_initiale": 2.15,
-  "cote_origine": 1.98,
+  "cote_origine": 1.99,
   "debut": "2026-10-15T16:45+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
-  "hausse_pct": 3.5,
+  "hausse_pct": 3.0,
   "historique_cotes": [
    {
     "cote_boostee": 2.15,
@@ -165,7 +178,7 @@
   "match": "Lyon - Crystal Palace",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 31,
+  "nb_vues": 32,
   "pari": "Pavel Sulc Décisif",
   "premiere_vue": "2026-10-13T19:15:19+00:00",
   "ref": {
@@ -178,9 +191,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.05,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
-   "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+   "raison": "Pinnacle : match introuvable (Lyon - Crystal Palace) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
   }
  },
@@ -190,7 +203,7 @@
   "cote_boostee_initiale": 10.5,
   "cote_origine": 8.95,
   "debut": "2026-10-15T16:45+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 17.3,
   "historique_cotes": [],
@@ -219,7 +232,7 @@
   "match": "CSKA Sofia - Monaco",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 31,
+  "nb_vues": 32,
   "pari": "Monaco gagne 3-0",
   "premiere_vue": "2026-10-13T19:15:19+00:00",
   "ref": {
@@ -232,7 +245,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 10.5,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -294,6 +307,19 @@
    "competition_id": 38280,
    "event_id": 12231955,
    "url": ""
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Ousmane Dembélé a été décisif en inscrivant un but et le PSG a remporté le match, donc il n’a pas perdu.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 PSG (temps réglementaire) ; Ousmane Dembélé a marqué à la 15e minute.",
+   "sources": [
+    "https://fr.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.uefa.com/uefachampionsleague/news/02aa-21d3f8c574f1-e140f41454d4-1000--champions-league-round-up-real-madrid-and-paris-headline-r/"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
   },
   "sport": "Football",
   "type": "cote boostée",
@@ -364,15 +390,15 @@
   },
   "regle_mise": "gain net max 25 €",
   "reglement": {
-   "derniere_tentative": "2026-10-14T16:51:42+00:00",
-   "explication": "Le match s’est terminé sur abandon, et je n’ai pas trouvé de source fiable confirmant le total d’aces nécessaire pour évaluer la seconde condition du pari. Conformément à la règle donnée, le résultat est donc inconnu.",
-   "modele": "gpt-6-luna",
-   "score": "Casper Ruud menait 5-2 dans le premier set lorsque Félix Auger-Aliassime a abandonné ; total d’aces non vérifié.",
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Auger-Aliassime a abandonné et le total constaté est inférieur à 20,5 aces. Toutefois, les règles OlyBet applicables à ce pari combiné en cas d’abandon ne sont pas confirmées : impossible de trancher avec certitude entre perte et remboursement.",
+   "modele": "gpt-6.1-sol",
+   "score": "Ruud mène 5-2 dans le premier set lorsque Auger-Aliassime abandonne. Aces selon Tennis.com : Ruud 0, Auger-Aliassime 2, soit 2 au total.",
    "sources": [
-    "https://www.tntsports.co.uk/tennis/atp-shanghai/2026/casper-ruud-felix-auger-aliassime_mtc22031325/live-stats.shtml",
-    "https://www.universtennis.com/2026/10/14/masters-1000-shanghai-felix-auger-aliassime-abandonne-face-a-casper-ruud-touche-au-genou/"
+    "https://www.tennis.com/tournaments/rolex-shanghai-masters/matches/c-ruud-vs-f-auger-aliassime-2026-10-14",
+    "https://offer.olybet.eu/sport/tennis-season/"
    ],
-   "tentatives": 2
+   "tentatives": 3
   },
   "sport": "Tennis",
   "type": "cote boostée",
@@ -443,6 +469,19 @@
    "market_id": 2487949250
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le match est terminé et les deux joueurs cités dans le pari ont marqué pendant le temps réglementaire : le pari est donc gagné.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris SG ; Désiré Doué a marqué à la 13e minute et Ousmane Dembélé à la 15e.",
+   "sources": [
+    "https://fr.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -511,6 +550,19 @@
    "market_id": 2487952864
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le Real Madrid a gagné, mais la condition « Vinícius marque » n’a pas été remplie. Le pari combiné est donc perdu.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "AS Roma 3-4 Real Madrid (temps réglementaire). Vinícius n’a pas marqué ; les buteurs du Real étaient Mbappé, Espí, Endrick et Rüdiger.",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02aa-21d3f8c574f1-e140f41454d4-1000--champions-league-round-up-real-madrid-and-paris-headline-r/",
+    "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/article/cronica-roma-real-madrid-14-10-2026"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -598,6 +650,19 @@
    "market_id": 2487953843
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le Paris SG a gagné le match et Manchester City a également marqué : les deux conditions du pari sont réunies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris SG (temps réglementaire)",
+   "sources": [
+    "https://www.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -614,7 +679,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -625,7 +690,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "SAC Kings - Maxime Raynaud meilleur rebondeur des Kings (total de rebonds)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -715,7 +780,7 @@
   "cote_boostee_initiale": 4.2,
   "cote_origine": 3.5,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 20.0,
   "historique_cotes": [],
@@ -726,7 +791,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 14,
+  "nb_vues": 15,
   "pari": "SA Spurs - Les Spurs finissent champions NBA",
   "premiere_vue": "2026-10-14T10:19:00+00:00",
   "ref": {
@@ -744,7 +809,7 @@
   "cote_boostee_initiale": 5.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -755,7 +820,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "CHI Bulls - Caleb Wilson meilleur marqueur des Bulls (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -773,7 +838,7 @@
   "cote_boostee_initiale": 1.87,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -784,7 +849,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "LA Lakers - Luka Doncic meilleur marqueur NBA en saison régulière (moyenne points/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -802,7 +867,7 @@
   "cote_boostee_initiale": 1.35,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -813,7 +878,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "MIL Bucks - Tyler Herro meilleur marqueur des Bucks (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -831,7 +896,7 @@
   "cote_boostee_initiale": 2.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -842,7 +907,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "NO Pelicans - Zion Williamson meilleur marqueur des Pelicans (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -860,7 +925,7 @@
   "cote_boostee_initiale": 1.6,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -871,7 +936,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "ORL Magic - Paolo Banchero meilleur marqueur du Magic (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -889,7 +954,7 @@
   "cote_boostee_initiale": 7.0,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -900,7 +965,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "UTA Jazz - Darryn Peterson meilleur marqueur du Jazz (total de points)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -918,7 +983,7 @@
   "cote_boostee_initiale": 1.5,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -929,7 +994,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "CHA Hornets - Moussa Diabate meilleur rebondeur des Hornets (total de rebonds)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -947,7 +1012,7 @@
   "cote_boostee_initiale": 11.0,
   "cote_origine": 9.0,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 22.2,
   "historique_cotes": [
@@ -963,7 +1028,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 42,
+  "nb_vues": 43,
   "pari": "MIN TWolves - Rudy Gobert meilleur rebondeur NBA en saison régulière (moyenne rebonds/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-13T10:32:04+00:00",
   "ref": {
@@ -981,7 +1046,7 @@
   "cote_boostee_initiale": 3.3,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -992,7 +1057,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "BKN Nets - Mikel Brown Jr meilleur passeur des Nets (total de passes)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1010,7 +1075,7 @@
   "cote_boostee_initiale": 2.0,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [
@@ -1026,7 +1091,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 121,
+  "nb_vues": 122,
   "pari": "TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes)",
   "premiere_vue": "2026-10-10T10:57:16+00:00",
   "ref": {
@@ -1044,7 +1109,7 @@
   "cote_boostee_initiale": 3.3,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1055,7 +1120,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "WAS Wizards - Trae Young meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1073,7 +1138,7 @@
   "cote_boostee_initiale": 6.4,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1084,7 +1149,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": true,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "ATL Hawks - Dyson Daniels meilleur intercepteur NBA en saison régulière (moyenne interceptions/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1102,7 +1167,7 @@
   "cote_boostee_initiale": 2.15,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1113,7 +1178,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "DAL Mavericks - Les Mavericks se qualifient pour le PlayIn",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1131,7 +1196,7 @@
   "cote_boostee_initiale": 1.58,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1142,7 +1207,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "GS Warriors - Les Warriors se qualifient pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1160,7 +1225,7 @@
   "cote_boostee_initiale": 1.66,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1171,7 +1236,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "PHX Suns - Les Suns se qualifient pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1189,7 +1254,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1200,7 +1265,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "POR TBlazers - Les Blazers ne se qualifient pas pour les Playoffs",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1247,7 +1312,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": 1.8,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 16.7,
   "historique_cotes": [
@@ -1263,7 +1328,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "HOU Rockets - Fred VanVleet fait 6 passes ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1281,7 +1346,7 @@
   "cote_boostee_initiale": 1.6,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [
@@ -1297,7 +1362,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "LA Clippers - Darius Garland fait 7 passes ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1315,7 +1380,7 @@
   "cote_boostee_initiale": 1.8,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1326,7 +1391,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "MEM Grizzlies - Cameron Boozer prend 8 rebonds ou + (moyenne)",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -1344,7 +1409,7 @@
   "cote_boostee_initiale": 4.25,
   "cote_origine": null,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1355,7 +1420,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 164,
+  "nb_vues": 165,
   "pari": "IND Pacers - Les Pacers remportent la Division Centrale",
   "premiere_vue": "2026-10-08T19:43:11+00:00",
   "ref": {
@@ -3288,6 +3353,20 @@
    "outcome_id": 727895556,
    "periode": "90 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le pari est remboursé selon la règle Unibet, car Kvaratskhelia n’était pas titulaire. Le score cumulé des trois joueurs ne change pas l’application de cette condition.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris SG ; Haaland a inscrit 2 buts et Dembélé 1. Kvaratskhelia était remplaçant et est entré à la 66e minute.",
+   "sources": [
+    "https://www.psg.fr/en/content/line-up-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
+    "https://fr.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.psg.fr/en/content/breathless-match-report-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027"
+   ],
+   "statut": "remboursé",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -3355,6 +3434,20 @@
    "outcome_id": 727895862,
    "periode": "90 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le Paris SG a gagné et les deux équipes ont marqué 6 buts au total, soit au moins 4 : les deux conditions du pari sont remplies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Man. City 2–4 Paris SG — 6 buts au total, victoire du Paris SG.",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+    "https://fr.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.psg.fr/en/content/breathless-match-report-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -3421,6 +3514,19 @@
    "market_id": 194942570,
    "outcome_id": 727895987,
    "periode": "90 Mins"
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le Real Madrid a gagné le match et les deux équipes ont marqué. Les deux conditions du pari sont donc remplies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "AS Rome 3-4 Real Madrid (score final)",
+   "sources": [
+    "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/article/cronica-roma-real-madrid-14-10-2026",
+    "https://www.asroma.com/en/news/76071/roma-v-real-madrid-the-gallery"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
   },
   "sport": "Football",
   "type": "cote boostée",
@@ -3759,6 +3865,20 @@
    "outcome_id": 728368765,
    "periode": "90 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Cherki étant titulaire, la clause de remboursement ne s’applique pas. Malgré les buts des deux équipes, il n’a pas été décisif : le pari est perdu.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris Saint-Germain (temps réglementaire). Les deux équipes ont marqué ; Cherki était titulaire, puis remplacé à la pause, mais n’a marqué ni délivré de passe décisive.",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/",
+    "https://www.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.psg.fr/en/content/line-up-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -3775,7 +3895,7 @@
   "cote_boostee_initiale": 2.8,
   "cote_origine": 2.5,
   "debut": "2026-10-15T09:05:00.000Z",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 12.0,
   "historique_cotes": [],
@@ -3804,7 +3924,7 @@
   "match": "Australie - NlleZélande",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 9,
+  "nb_vues": 10,
   "pari": "Le duo Jamayne Isaako/Tom Trbojevic marque 2 essais ou +",
   "premiere_vue": "2026-10-14T15:14:44+00:00",
   "ref": {
@@ -3817,7 +3937,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.8,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "raison": "sport non suivi (Rugby à XIII)",
    "statut": "non_evaluable"
   }
@@ -3924,7 +4044,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.8,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -17852,6 +17972,19 @@
    "outcome_id": 2227907272,
    "tournoi_id": 900002486
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Winamax rembourse un pari sur un joueur qui ne participe pas au match. Hifi était absent ; Paris a perdu 94–96.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Paris Basketball 94–96 Virtus Bologne ; Nadir Hifi n’a pas participé au match.",
+   "sources": [
+    "https://www.virtus.it/primo-piano/euroleague-round-5-paris-basketball-vs-virtus-bologna-94-96/",
+    "https://www.bebasket.fr/paris-fait-un-copier-coller-de-la-defaite-contre-l-asvel-et-perd-encore-sur-le-fil-contre-bologne"
+   ],
+   "statut": "remboursé",
+   "tentatives": 1
+  },
   "sport": "Basketball",
   "sport_id_winamax": 2,
   "type": "cote boostée",
@@ -18164,6 +18297,19 @@
    "outcome_id": 2227946716,
    "tournoi_id": 900002471
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Le Real Madrid a gagné le match et Mbappé a marqué pendant le temps réglementaire : les deux conditions du pari sont remplies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "AS Roma 3-4 Real Madrid ; Kylian Mbappé buteur à la 25e minute",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02aa-21d3f8c574f1-e140f41454d4-1000--champions-league-round-up-real-madrid-and-paris-headline-r/",
+    "https://www.realmadrid.com/fr-FR/actualites/football/equipe-premiere/article/cronica-roma-real-madrid-14-10-2026"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "sport_id_winamax": 1,
   "type": "cote boostée",
@@ -18216,6 +18362,19 @@
    "match_id": 1000258616,
    "outcome_id": 2228018772,
    "tournoi_id": 900002471
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Doué et Dembélé ont marqué chacun une fois, soit 2 buts au total pour les joueurs cités. Kvaratskhelia est entré en jeu à la 66e minute ; le seuil des 2 buts est atteint.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris Saint-Germain ; Désiré Doué 1 but, Ousmane Dembélé 1 but, Khvicha Kvaratskhelia 0 but",
+   "sources": [
+    "https://www.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.psg.fr/en/content/breathless-match-report-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
   },
   "sport": "Football",
   "sport_id_winamax": 1,
@@ -18274,6 +18433,20 @@
    "match_id": 1000258625,
    "outcome_id": 2228035648,
    "tournoi_id": 900002471
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Haaland a bien marqué, mais aucun de ses buts ne vient d’une passe de R. Cherki. Cherki a été remplacé à la mi-temps ; le premier but de Haaland suit un centre de Ndiaye et le second une passe de Bouaddi.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Manchester City 2-4 Paris SG ; Haaland a marqué deux fois (53e, 75e), servi respectivement par Iliman Ndiaye et Ayyoub Bouaddi.",
+   "sources": [
+    "https://fr.mancity.com/news/mens/city-sincline-contre-le-psg-lors-dun-match-tres-intense-63927608",
+    "https://www.psg.fr/content/a-couper-le-souffle-compte-rendu-manchester-city-paris-saint-germain-uefa-champions-league-2026-2027",
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-by-team/"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Football",
   "sport_id_winamax": 1,
@@ -18509,13 +18682,13 @@
  },
  "winamax|718988555|2228533564": {
   "bookmaker": "Winamax",
-  "cote_boostee": 2.5,
+  "cote_boostee": 2.45,
   "cote_boostee_initiale": 2.5,
   "cote_origine": 2.1,
   "debut": "2026-10-15T00:00+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
-  "hausse_pct": 19.0,
+  "hausse_pct": 16.7,
   "historique_cotes": [
    {
     "cote_boostee": 2.5,
@@ -18524,6 +18697,10 @@
    {
     "cote_boostee": 2.6,
     "jusqu_a": "2026-10-14T18:49:01+00:00"
+   },
+   {
+    "cote_boostee": 2.5,
+    "jusqu_a": "2026-10-14T23:12:06+00:00"
    }
   ],
   "id": "winamax|718988555|2228533564",
@@ -18561,7 +18738,7 @@
   "long_terme": false,
   "match": "Los Angeles Dodgers - Milwaukee Brewers",
   "mise_max": 20.0,
-  "nb_vues": 11,
+  "nb_vues": 12,
   "pari": "Los Angeles Dodgers gagne et moins de 8,5 runs dans le match",
   "premiere_vue": "2026-10-14T13:16:31+00:00",
   "ref": {
@@ -18575,9 +18752,9 @@
   "sport_id_winamax": 3,
   "type": "cote boostée",
   "valeur_derniere": {
-   "cote_boostee": 2.5,
-   "cote_juste": 2.649,
-   "date": "2026-10-14T22:13:07+00:00",
+   "cote_boostee": 2.45,
+   "cote_juste": 2.629,
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [
     {
      "cote_juste": 1.6189,
@@ -18593,8 +18770,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.6361,
-     "cote_reference": 1.5952,
+     "cote_juste": 1.6238,
+     "cote_reference": 1.578,
      "issue": "MOINS",
      "joueur": null,
      "ligne": 8.5,
@@ -18606,8 +18783,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -20.7,
-   "ev_pct": -5.6,
+   "ev_origine_pct": -20.1,
+   "ev_pct": -6.8,
    "sources": [
     "Pinnacle"
    ],
@@ -18875,6 +19052,20 @@
    "outcome_id": 2228938357,
    "tournoi_id": 900002471
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-14T23:13:03+00:00",
+   "explication": "Aston Villa a gagné, mais Fenerbahçe n’a pas marqué. La condition « les deux équipes marquent » n’est donc pas remplie.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-14T23:13:03+00:00",
+   "score": "Aston Villa 6–0 Fenerbahçe (temps réglementaire)",
+   "sources": [
+    "https://www.uefa.com/uefachampionsleague/news/02a8-2176fa83582b-d99f0b27f405-1000--champions-league-league-phase-fixtures-and-results-by-team/",
+    "https://www.uefa.com/uefachampionsleague/news/02aa-21d3f8c574f1-e140f41454d4-1000--champions-league-round-up-real-madrid-and-paris-headline-r/",
+    "https://www.skysports.com/football/aston-villa-vs-fenerbahce/report/577624"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "sport_id_winamax": 1,
   "type": "cote boostée",
@@ -18963,7 +19154,7 @@
   "cote_boostee_initiale": 3.5,
   "cote_origine": 3.15,
   "debut": "2026-10-14T23:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 11.1,
   "historique_cotes": [],
@@ -18989,7 +19180,7 @@
   "long_terme": false,
   "match": "Inter Miami - New York City FC",
   "mise_max": 20.0,
-  "nb_vues": 6,
+  "nb_vues": 7,
   "pari": "Lionel Messi marque 2 buts ou plus",
   "premiere_vue": "2026-10-14T17:49:58+00:00",
   "ref": {
@@ -19004,9 +19195,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.5,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
-   "raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
+   "raison": "Pinnacle : match introuvable (Inter Miami - New York City FC) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
    "statut": "non_evaluable"
   }
  },
@@ -19014,11 +19205,11 @@
   "bookmaker": "Winamax",
   "cote_boostee": 3.0,
   "cote_boostee_initiale": 3.0,
-  "cote_origine": 2.65,
+  "cote_origine": 2.7,
   "debut": "2026-10-14T23:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
-  "hausse_pct": 13.2,
+  "hausse_pct": 11.1,
   "historique_cotes": [],
   "id": "winamax|719136993|2228972872",
   "jambes": [
@@ -19055,7 +19246,7 @@
   "long_terme": false,
   "match": "Toronto FC - Orlando City",
   "mise_max": 20.0,
-  "nb_vues": 6,
+  "nb_vues": 7,
   "pari": "Antoine Griezmann marque au moins un but ou fait au moins une passe décisive et Orlando City gagne",
   "premiere_vue": "2026-10-14T17:49:58+00:00",
   "ref": {
@@ -19070,9 +19261,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.0,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
-   "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+   "raison": "Pinnacle : match introuvable (Toronto FC - Orlando City) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
   }
  },
@@ -19082,7 +19273,7 @@
   "cote_boostee_initiale": 3.9,
   "cote_origine": 3.4,
   "debut": "2026-10-15T00:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 14.7,
   "historique_cotes": [],
@@ -19108,7 +19299,7 @@
   "long_terme": false,
   "match": "Chicago Fire - Philadelphia Union",
   "mise_max": 20.0,
-  "nb_vues": 6,
+  "nb_vues": 7,
   "pari": "Robert Lewandowski marque au moins un but en 1ère mi-temps",
   "premiere_vue": "2026-10-14T17:49:58+00:00",
   "ref": {
@@ -19123,9 +19314,9 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.9,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
-   "raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+   "raison": "Pinnacle : match introuvable (Chicago Fire - Philadelphia Union) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
    "statut": "non_evaluable"
   }
  },
@@ -19133,9 +19324,9 @@
   "bookmaker": "Winamax",
   "cote_boostee": 3.25,
   "cote_boostee_initiale": 3.25,
-  "cote_origine": 2.54,
+  "cote_origine": 2.539,
   "debut": "2026-10-14T23:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 28.0,
   "historique_cotes": [],
@@ -19226,7 +19417,7 @@
   "long_terme": false,
   "match": "MLS",
   "mise_max": 20.0,
-  "nb_vues": 6,
+  "nb_vues": 7,
   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 6 matchs à 1h30",
   "premiere_vue": "2026-10-14T17:49:58+00:00",
   "ref": {
@@ -19241,7 +19432,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.25,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
    "statut": "non_evaluable"
@@ -19253,7 +19444,7 @@
   "cote_boostee_initiale": 2.4,
   "cote_origine": 2.064,
   "debut": "2026-10-15T02:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 16.3,
   "historique_cotes": [],
@@ -19292,7 +19483,7 @@
   "long_terme": false,
   "match": "MLS",
   "mise_max": 20.0,
-  "nb_vues": 6,
+  "nb_vues": 7,
   "pari": "Los Angeles Galaxy et Los Angeles FC marquent chacun au moins 2 buts (respectivement contre Portland Timbers et Austin FC)",
   "premiere_vue": "2026-10-14T17:49:58+00:00",
   "ref": {
@@ -19307,42 +19498,10 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "cote_juste": 2.463,
-   "date": "2026-10-14T22:13:07+00:00",
-   "detail": [
-    {
-     "cote_juste": 1.7047,
-     "cote_reference": 1.6536,
-     "issue": "PLUS",
-     "joueur": null,
-     "ligne": 1.5,
-     "marche": "TOTAL_DOM",
-     "match": "Los Angeles Galaxy - Portland Timbers",
-     "methode": null,
-     "periode": "MATCH",
-     "ressemblance": 1.0,
-     "source": "Pinnacle"
-    },
-    {
-     "cote_juste": 1.4445,
-     "cote_reference": 1.4016,
-     "issue": "PLUS",
-     "joueur": null,
-     "ligne": 1.5,
-     "marche": "TOTAL_DOM",
-     "match": "Los Angeles FC - Austin FC",
-     "methode": null,
-     "periode": "MATCH",
-     "ressemblance": 1.0,
-     "source": "Pinnacle"
-    }
-   ],
-   "ev_origine_pct": -16.2,
-   "ev_pct": -2.5,
-   "sources": [
-    "Pinnacle"
-   ],
-   "statut": "exacte"
+   "date": "2026-10-14T23:12:06+00:00",
+   "detail": [],
+   "raison": "Pinnacle : match introuvable (Los Angeles Galaxy - Portland Timbers) ; Betfair : ligne absente (TOTAL_DOM MATCH 1.5 PLUS)",
+   "statut": "non_evaluable"
   },
   "valeur_initiale": {
    "cote_boostee": 2.4,
@@ -19390,7 +19549,7 @@
   "cote_boostee_initiale": 3.6,
   "cote_origine": 3.1,
   "debut": "2026-10-14T23:45+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 16.1,
   "historique_cotes": [],
@@ -19429,7 +19588,7 @@
   "long_terme": false,
   "match": "Washington Capitals - Montreal Canadiens",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Washington Capitals gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
   "premiere_vue": "2026-10-14T21:13:50+00:00",
   "ref": {
@@ -19444,11 +19603,11 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.6,
-   "date": "2026-10-14T22:13:07+00:00",
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [
     {
-     "cote_juste": 2.4271,
-     "cote_reference": 2.33,
+     "cote_juste": 2.3966,
+     "cote_reference": 2.3,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
@@ -19466,14 +19625,19 @@
  },
  "winamax|719287451|2229426305": {
   "bookmaker": "Winamax",
-  "cote_boostee": 3.4,
+  "cote_boostee": 3.25,
   "cote_boostee_initiale": 3.4,
   "cote_origine": 2.8,
   "debut": "2026-10-15T00:45+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
-  "hausse_pct": 21.4,
-  "historique_cotes": [],
+  "hausse_pct": 16.1,
+  "historique_cotes": [
+   {
+    "cote_boostee": 3.4,
+    "jusqu_a": "2026-10-14T23:12:06+00:00"
+   }
+  ],
   "id": "winamax|719287451|2229426305",
   "jambes": [
    {
@@ -19509,7 +19673,7 @@
   "long_terme": false,
   "match": "Colorado Avalanche - Dallas Stars",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Nathan MacKinnon buteur et Colorado Avalanche gagne (hors prol. et TAB)",
   "premiere_vue": "2026-10-14T21:13:50+00:00",
   "ref": {
@@ -19523,13 +19687,13 @@
   "sport_id_winamax": 4,
   "type": "cote boostée",
   "valeur_derniere": {
-   "cote_boostee": 3.4,
-   "cote_juste": 4.829,
-   "date": "2026-10-14T22:13:07+00:00",
+   "cote_boostee": 3.25,
+   "cote_juste": 4.748,
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [
     {
-     "cote_juste": 2.2604,
-     "cote_reference": 2.08,
+     "cote_juste": 2.2349,
+     "cote_reference": 2.06,
      "issue": "PLUS",
      "joueur": "Nathan MacKinnon",
      "ligne": 0.5,
@@ -19541,8 +19705,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 2.1364,
-     "cote_reference": 2.06,
+     "cote_juste": 2.1243,
+     "cote_reference": 2.05,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
@@ -19554,8 +19718,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -42.0,
-   "ev_pct": -29.6,
+   "ev_origine_pct": -41.0,
+   "ev_pct": -31.5,
    "sources": [
     "Pinnacle"
    ],
@@ -19607,7 +19771,7 @@
   "cote_boostee_initiale": 4.75,
   "cote_origine": 4.0,
   "debut": "2026-10-15T06:30+00:00",
-  "derniere_vue": "2026-10-14T22:13:07+00:00",
+  "derniere_vue": "2026-10-14T23:12:06+00:00",
   "disponible": true,
   "hausse_pct": 18.8,
   "historique_cotes": [],
@@ -19633,7 +19797,7 @@
   "long_terme": false,
   "match": "Arthur Gea - Alejandro Davidovich Fokina",
   "mise_max": 20.0,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Arthur Gea gagne 2-1",
   "premiere_vue": "2026-10-14T21:13:50+00:00",
   "ref": {
@@ -19648,12 +19812,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 4.75,
-   "cote_juste": 4.711,
-   "date": "2026-10-14T22:13:07+00:00",
+   "cote_juste": 4.749,
+   "date": "2026-10-14T23:12:06+00:00",
    "detail": [
     {
-     "cote_juste": 4.7113,
-     "cote_reference": 4.7113,
+     "cote_juste": 4.7491,
+     "cote_reference": 4.7491,
      "issue": "DOM",
      "joueur": null,
      "ligne": "2-1",
@@ -19665,8 +19829,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -15.1,
-   "ev_pct": 0.8,
+   "ev_origine_pct": -15.8,
+   "ev_pct": 0.0,
    "sources": [
     "Pinnacle"
    ],
