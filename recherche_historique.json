@@ -1,8 +1,17 @@
 {
- "derniere_observation": "2026-10-14T08:02:31+00:00",
+ "derniere_observation": "2026-10-14T09:00:13+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
+    "netbet|12231955|7443639753": {
+     "date": "2026-10-14T09:00:13+00:00",
+     "ev_modele_pct": null,
+     "id": "netbet|12231955|7443639753",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": null,
@@ -140,6 +149,15 @@
     }
    },
    "K_modele": {
+    "netbet|12231955|7443639753": {
+     "date": "2026-10-14T09:00:13+00:00",
+     "ev_modele_pct": -24.415,
+     "id": "netbet|12231955|7443639753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274853,
+     "regle": null
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": -14.86,
@@ -277,6 +295,15 @@
     }
    },
    "L_kelly_dynamique": {
+    "netbet|12231955|7443639753": {
+     "date": "2026-10-14T09:00:13+00:00",
+     "ev_modele_pct": -24.415,
+     "id": "netbet|12231955|7443639753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274853,
+     "regle": null
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": -14.86,
@@ -414,6 +441,15 @@
     }
    },
    "M_modele_20": {
+    "netbet|12231955|7443639753": {
+     "date": "2026-10-14T09:00:13+00:00",
+     "ev_modele_pct": -24.415,
+     "id": "netbet|12231955|7443639753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274853,
+     "regle": null
+    },
     "unibet|194942539|727895862": {
      "date": "2026-10-14T08:01:43+00:00",
      "ev_modele_pct": -14.86,
@@ -624,6 +660,22 @@
    "source_commit": "141569caf04d453381b5182739232575b64d55f7",
    "sport": "Football",
    "type": "cote boostée"
+  },
+  "netbet|12231955|7443639753": {
+   "available_at": "2026-10-14T09:00:13+00:00",
+   "bookmaker": "NetBet",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": null,
+   "debut": "2026-10-14T19:00+00:00",
+   "disponible": true,
+   "id": "netbet|12231955|7443639753",
+   "long_terme": false,
+   "match": "O.Dembélé décisif et le PSG - City",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "O.Dembélé décisif et le PSG (vs City) ne perd pas ?",
+   "premiere_vue": "2026-10-14T08:59:19+00:00",
+   "sport": "Football"
   },
   "olybet|31213207|7328896155": {
    "available_at": "2026-10-13T18:49:26Z",
