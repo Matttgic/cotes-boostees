@@ -1,21 +1,46 @@
 {
- "boosts_total": 207,
+ "boosts_total": 209,
  "cache_betsson": {
-  "essais": 5
+  "essais": 1,
+  "session": "433fa05b"
  },
  "cache_unibet": {
   "3381006": {
-   "age": 6,
+   "age": 0,
    "boosts": [
     {
      "bookmaker": "Unibet",
-     "cote_boostee": 11.0,
-     "cote_origine": 9.0,
+     "cote_boostee": 4.2,
+     "cote_origine": 3.5,
      "debut": "2026-10-20T17:00:00.000Z",
      "disponible": true,
-     "hausse_pct": 22.2,
+     "hausse_pct": 20.0,
+     "id": "unibet|193344678|720327718",
+     "intitule_brut": "Boost SA Spurs - Les Spurs finissent champions NBA (3,50 -> 4,20 / Mise max 25€)",
+     "ligue": "Cotes Boostées NBA",
+     "long_terme": true,
+     "match": "Paris Trashtalk 26/27",
+     "mise_max": 25.0,
+     "mise_max_supposee": false,
+     "pari": "SA Spurs - Les Spurs finissent champions NBA",
+     "ref": {
+      "event_id": 3381006,
+      "market_id": 193344678,
+      "outcome_id": 720327718,
+      "periode": "Temps réglementaire"
+     },
+     "sport": "Basketball",
+     "type": "cote boostée"
+    },
+    {
+     "bookmaker": "Unibet",
+     "cote_boostee": 9.0,
+     "cote_origine": null,
+     "debut": "2026-10-20T17:00:00.000Z",
+     "disponible": true,
+     "hausse_pct": null,
      "id": "unibet|193344902|720328558",
-     "intitule_brut": "Boost MIN TWolves - Rudy Gobert meilleur rebondeur NBA en saison régulière (moyenne rebonds/match, perdant si moins de 58 matchs joués) (9,00 -> 11,00 / Mise max 25€)",
+     "intitule_brut": "MIN TWolves - Rudy Gobert meilleur rebondeur NBA en saison régulière (moyenne rebonds/match, perdant si moins de 58 matchs joués) (Mise max 25€)",
      "ligue": "Cotes Boostées NBA",
      "long_terme": true,
      "match": "Paris Trashtalk 26/27",
@@ -512,13 +537,15 @@
      "type": "cote boostée"
     }
    ],
-   "count": 21
+   "count": 22
   }
  },
  "dernier_passage": {
   "bookmakers": {
    "betsson": {
-    "erreur": "PageInattendue : aucune IP acceptée par Betsson ([403, 403, 403, 403, 403, 403, 403, 403, 403])"
+    "boosts_en_ligne": 4,
+    "cotes_modifiees": 0,
+    "nouveaux": 0
    },
    "genybet": {
     "boosts_en_ligne": 0,
@@ -533,36 +560,36 @@
    "olybet": {
     "boosts_en_ligne": 3,
     "cotes_modifiees": 0,
-    "nouveaux": 1
-   },
-   "unibet": {
-    "boosts_en_ligne": 25,
-    "cotes_modifiees": 0,
     "nouveaux": 0
    },
+   "unibet": {
+    "boosts_en_ligne": 26,
+    "cotes_modifiees": 1,
+    "nouveaux": 2
+   },
    "winamax": {
-    "boosts_en_ligne": 10,
+    "boosts_en_ligne": 9,
     "cotes_modifiees": 0,
     "nouveaux": 0
    }
   },
   "cerveau": {
-   "boosts_observes": 186,
+   "boosts_observes": 188,
    "decisions_enregistrees": 3,
-   "nouveaux_boosts": 1
+   "nouveaux_boosts": 2
   },
-  "date": "2026-10-14T09:58:27+00:00",
+  "date": "2026-10-14T10:19:00+00:00",
   "evaluation": {
    "approx": 3,
-   "decomposes": 1,
+   "decomposes": 0,
    "echecs_decomposition": 0,
-   "evalues": 21,
-   "exactes": 2,
+   "evalues": 19,
+   "exactes": 0,
    "non_evaluables": 16,
-   "requetes_pulsescore": 12
+   "requetes_pulsescore": 13
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 744717,
+  "octets_proxy": 1020325,
   "recherche": {
    "reglements": 150,
    "version": "replay-v1"
@@ -570,21 +597,82 @@
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
-   "inconnus": 1,
-   "jetons": {
-    "gpt-6-luna": {
-     "entree": 68793,
-     "sortie": 2878
-    }
-   },
-   "recherches": 8,
-   "regles": 1,
-   "soumis": 2
+   "inconnus": 0,
+   "jetons": {},
+   "recherches": 0,
+   "regles": 0,
+   "soumis": 0
   },
   "reglements_manuels": 0,
-  "requetes": 13
+  "requetes": 19
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 4,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 1,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 3,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 26,
+     "cotes_modifiees": 1,
+     "nouveaux": 2
+    },
+    "winamax": {
+     "boosts_en_ligne": 9,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 188,
+    "decisions_enregistrees": 3,
+    "nouveaux_boosts": 2
+   },
+   "date": "2026-10-14T10:19:00+00:00",
+   "evaluation": {
+    "approx": 3,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 19,
+    "exactes": 0,
+    "non_evaluables": 16,
+    "requetes_pulsescore": 13
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 1020325,
+   "recherche": {
+    "reglements": 150,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 19
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -7669,5 +7757,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 75003488
+ "octets_proxy_total": 76023813
 }

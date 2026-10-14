@@ -3,10 +3,10 @@
   "decisions_courantes": {
    "abstention": 136,
    "ecarter": 19,
-   "hors_perimetre": 31,
+   "hors_perimetre": 33,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-14T09:58:27+00:00",
+  "derniere_observation": "2026-10-14T10:19:00+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -17,14 +17,14 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 18,
    "ligne_absente": 22,
-   "long_terme": 31,
+   "long_terme": 33,
    "marche_non_cote": 23,
    "match_introuvable": 40,
    "reference_absente": 1,
    "sport_non_suivi": 6
   },
   "observations_reglees": 129,
-  "observes": 186,
+  "observes": 188,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-14T09:58:27+00:00",
+ "derniere_observation": "2026-10-14T10:19:00+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -706,6 +706,43 @@
    "premiere_selection": null,
    "sport": "Basketball"
   },
+  "unibet|193344678|720327718": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 4.2,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 20.0,
+      "horizon_heures": 150.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T10:19:00+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|193344678|720327718",
+   "match": "Paris Trashtalk 26/27",
+   "pari": "SA Spurs - Les Spurs finissent champions NBA",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
   "unibet|193344687|720327760": {
    "bookmaker": "Unibet",
    "debut": "2026-10-20T17:00:00.000Z",
@@ -1154,6 +1191,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-13T10:32:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 9.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 9.0,
+      "hausse_pct": 22.2,
+      "horizon_heures": 150.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T10:19:00+00:00",
      "mise_fictive": null,
      "motif_code": "long_terme",
      "raisons": [
@@ -3254,6 +3317,43 @@
    "id": "unibet|194942611|727896113",
    "match": "CB - ChampionsLeague (14/10)",
    "pari": "Le trio K.Mbappe+B.Barcola+D.Doué décisif au moins 3 fois ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|194942777|727897021": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-14T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 8.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-14T10:19:00+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|194942777|727897021",
+   "match": "CB - ChampionsLeague (14/10)",
+   "pari": "Man.City ou Paris SG ou Real Madrid ou Dortmund marque le but le plus rapide du Multiplex de 21h (7 matchs) ?",
    "premiere_selection": null,
    "sport": "Football"
   },
