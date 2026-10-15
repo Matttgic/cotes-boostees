@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 170,
+   "abstention": 171,
    "ecarter": 23,
-   "hors_perimetre": 35,
+   "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-15T11:01:41+00:00",
+  "derniere_observation": "2026-10-15T12:00:52+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -17,14 +17,14 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 22,
    "ligne_absente": 28,
-   "long_terme": 35,
+   "long_terme": 36,
    "marche_non_cote": 29,
-   "match_introuvable": 52,
+   "match_introuvable": 53,
    "reference_absente": 1,
    "sport_non_suivi": 8
   },
   "observations_reglees": 167,
-  "observes": 228,
+  "observes": 230,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-15T11:01:41+00:00",
+ "derniere_observation": "2026-10-15T12:00:52+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -844,6 +844,43 @@
    "id": "unibet|193344653|720327540",
    "match": "Paris Trashtalk 26/27",
    "pari": "MIA Heat - Le Heat remporte la Division Sud-Est",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|193344674|720327653": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 9.5,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 8.0,
+      "hausse_pct": 18.8,
+      "horizon_heures": 125.0,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T12:00:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|193344674|720327653",
+   "match": "Paris Trashtalk 26/27",
+   "pari": "PHI 76ers - Les 76ers finissent champions NBA",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -13707,6 +13744,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": 3.517,
+     "decision": "ecarter",
+     "ev_pct": -11.8,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 8.8,
+      "horizon_heures": 7.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T12:00:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|719520586|2230207167",
@@ -13999,6 +14064,43 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Saipa - Hämeenlinna et Vaasan Sport - Kookoo",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|719655432|2230563266": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T16:25+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T12:00:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Vladislav Ursu - Alexis Lebrun) ; Betfair : match introuvable (Vladislav Ursu - Alexis Lebrun)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719655432|2230563266",
+   "match": "Vladislav Ursu - Alexis Lebrun",
+   "pari": "Alexis Lebrun gagne le match 4-1",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
   }
  },
  "modele": "observation-v1",

@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T11:02:51+00:00",
+ "derniere_observation": "2026-10-15T12:01:38+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -493,6 +493,15 @@
      "date": "2026-10-15T09:47:59+00:00",
      "ev_modele_pct": null,
      "id": "winamax|719580038|2230359687",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719655432|2230563266": {
+     "date": "2026-10-15T12:01:38+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719655432|2230563266",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -994,6 +1003,15 @@
      "mise": null,
      "p_modele": 0.187322,
      "regle": null
+    },
+    "winamax|719655432|2230563266": {
+     "date": "2026-10-15T12:01:38+00:00",
+     "ev_modele_pct": -5.393,
+     "id": "winamax|719655432|2230563266",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.344026,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -1490,6 +1508,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.187322,
+     "regle": null
+    },
+    "winamax|719655432|2230563266": {
+     "date": "2026-10-15T12:01:38+00:00",
+     "ev_modele_pct": -5.393,
+     "id": "winamax|719655432|2230563266",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.344026,
      "regle": null
     }
    },
@@ -1988,6 +2015,15 @@
      "mise": null,
      "p_modele": 0.187322,
      "regle": null
+    },
+    "winamax|719655432|2230563266": {
+     "date": "2026-10-15T12:01:38+00:00",
+     "ev_modele_pct": -5.393,
+     "id": "winamax|719655432|2230563266",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.344026,
+     "regle": null
     }
    }
   }
@@ -2238,6 +2274,22 @@
    "source_commit": "bf4bae253ff3f555f630eec8d8f83e72be913b80",
    "sport": "Basketball",
    "type": "cote boostée"
+  },
+  "unibet|193344674|720327653": {
+   "available_at": "2026-10-15T12:01:38+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 9.5,
+   "cote_origine": 8.0,
+   "debut": "2026-10-20T17:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|193344674|720327653",
+   "long_terme": true,
+   "match": "Paris Trashtalk 26/27",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "PHI 76ers - Les 76ers finissent champions NBA",
+   "premiere_vue": "2026-10-15T12:00:52+00:00",
+   "sport": "Basketball"
   },
   "unibet|193344678|720327718": {
    "available_at": "2026-10-14T10:20:24+00:00",
@@ -6201,6 +6253,22 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Saipa - Hämeenlinna et Vaasan Sport - Kookoo",
    "premiere_vue": "2026-10-15T09:46:57+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|719655432|2230563266": {
+   "available_at": "2026-10-15T12:01:38+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.5,
+   "debut": "2026-10-15T16:25+00:00",
+   "disponible": true,
+   "id": "winamax|719655432|2230563266",
+   "long_terme": false,
+   "match": "Vladislav Ursu - Alexis Lebrun",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Alexis Lebrun gagne le match 4-1",
+   "premiere_vue": "2026-10-15T12:00:52+00:00",
+   "sport": "Tennis de table"
   }
  },
  "resultats": [

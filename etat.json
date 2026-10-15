@@ -1,32 +1,32 @@
 {
- "boosts_total": 249,
+ "boosts_total": 251,
  "cache_betsson": {
-  "essais": 4,
+  "essais": 1,
   "session": "dd7ec2f0"
  },
  "cache_unibet": {
   "3381006": {
-   "age": 6,
+   "age": 0,
    "boosts": [
     {
      "bookmaker": "Unibet",
-     "cote_boostee": 4.2,
-     "cote_origine": 3.5,
+     "cote_boostee": 9.5,
+     "cote_origine": 8.0,
      "debut": "2026-10-20T17:00:00.000Z",
      "disponible": true,
-     "hausse_pct": 20.0,
-     "id": "unibet|193344678|720327718",
-     "intitule_brut": "Boost SA Spurs - Les Spurs finissent champions NBA (3,50 -> 4,20 / Mise max 25€)",
+     "hausse_pct": 18.8,
+     "id": "unibet|193344674|720327653",
+     "intitule_brut": "Boost PHI 76ers - Les 76ers finissent champions NBA (8,00 -> 9,50 / Mise max 25€)",
      "ligue": "Cotes Boostées NBA",
      "long_terme": true,
      "match": "Paris Trashtalk 26/27",
      "mise_max": 25.0,
      "mise_max_supposee": false,
-     "pari": "SA Spurs - Les Spurs finissent champions NBA",
+     "pari": "PHI 76ers - Les 76ers finissent champions NBA",
      "ref": {
       "event_id": 3381006,
-      "market_id": 193344678,
-      "outcome_id": 720327718,
+      "market_id": 193344674,
+      "outcome_id": 720327653,
       "periode": "Temps réglementaire"
      },
      "sport": "Basketball",
@@ -544,7 +544,7 @@
   "bookmakers": {
    "betsson": {
     "boosts_en_ligne": 2,
-    "cotes_modifiees": 1,
+    "cotes_modifiees": 0,
     "nouveaux": 0
    },
    "genybet": {
@@ -565,31 +565,31 @@
    "unibet": {
     "boosts_en_ligne": 27,
     "cotes_modifiees": 0,
-    "nouveaux": 0
+    "nouveaux": 1
    },
    "winamax": {
-    "boosts_en_ligne": 10,
+    "boosts_en_ligne": 11,
     "cotes_modifiees": 1,
-    "nouveaux": 0
+    "nouveaux": 1
    }
   },
   "cerveau": {
-   "boosts_observes": 228,
+   "boosts_observes": 230,
    "decisions_enregistrees": 3,
-   "nouveaux_boosts": 0
+   "nouveaux_boosts": 2
   },
-  "date": "2026-10-15T11:01:41+00:00",
+  "date": "2026-10-15T12:00:52+00:00",
   "evaluation": {
    "approx": 4,
-   "decomposes": 0,
+   "decomposes": 1,
    "echecs_decomposition": 0,
-   "evalues": 17,
+   "evalues": 18,
    "exactes": 1,
-   "non_evaluables": 12,
+   "non_evaluables": 13,
    "requetes_pulsescore": 6
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 790376,
+  "octets_proxy": 990376,
   "recherche": {
    "reglements": 188,
    "version": "replay-v1"
@@ -598,20 +598,81 @@
    "erreurs": 0,
    "fournisseur": "openai",
    "inconnus": 0,
-   "jetons": {
-    "gpt-6-luna": {
-     "entree": 34495,
-     "sortie": 1276
-    }
-   },
-   "recherches": 4,
-   "regles": 1,
-   "soumis": 1
+   "jetons": {},
+   "recherches": 0,
+   "regles": 0,
+   "soumis": 0
   },
   "reglements_manuels": 0,
-  "requetes": 19
+  "requetes": 17
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 2,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 1,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 27,
+     "cotes_modifiees": 0,
+     "nouveaux": 1
+    },
+    "winamax": {
+     "boosts_en_ligne": 11,
+     "cotes_modifiees": 1,
+     "nouveaux": 1
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 230,
+    "decisions_enregistrees": 3,
+    "nouveaux_boosts": 2
+   },
+   "date": "2026-10-15T12:00:52+00:00",
+   "evaluation": {
+    "approx": 4,
+    "decomposes": 1,
+    "echecs_decomposition": 0,
+    "evalues": 18,
+    "exactes": 1,
+    "non_evaluables": 13,
+    "requetes_pulsescore": 6
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 990376,
+   "recherche": {
+    "reglements": 188,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 0
+   },
+   "reglements_manuels": 0,
+   "requetes": 17
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -9691,5 +9752,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 97714823
+ "octets_proxy_total": 98705199
 }
