@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T21:17:38+00:00",
+ "derniere_observation": "2026-10-15T22:13:00+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -205,6 +205,15 @@
      "date": "2026-10-15T13:01:05+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195133571|728742068",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195135753|728759268": {
+     "date": "2026-10-15T22:12:28+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195135753|728759268",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -887,6 +896,15 @@
      "p_modele": 0.281456,
      "regle": null
     },
+    "unibet|195135753|728759268": {
+     "date": "2026-10-15T22:12:28+00:00",
+     "ev_modele_pct": 4.346,
+     "id": "unibet|195135753|728759268",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.366126,
+     "regle": null
+    },
     "unibet|195136830|728765362": {
      "date": "2026-10-15T14:59:48+00:00",
      "ev_modele_pct": -5.935,
@@ -1564,6 +1582,15 @@
      "p_modele": 0.281456,
      "regle": null
     },
+    "unibet|195135753|728759268": {
+     "date": "2026-10-15T22:12:28+00:00",
+     "ev_modele_pct": 4.346,
+     "id": "unibet|195135753|728759268",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.366126,
+     "regle": null
+    },
     "unibet|195136830|728765362": {
      "date": "2026-10-15T14:59:48+00:00",
      "ev_modele_pct": -5.935,
@@ -2239,6 +2266,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.281456,
+     "regle": null
+    },
+    "unibet|195135753|728759268": {
+     "date": "2026-10-15T22:12:28+00:00",
+     "ev_modele_pct": 4.346,
+     "id": "unibet|195135753|728759268",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.366126,
      "regle": null
     },
     "unibet|195136830|728765362": {
@@ -4274,6 +4310,22 @@
    "pari": "I.Paixao décisif et son équipe gagne (remboursé si non titulaire)",
    "premiere_vue": "2026-10-15T13:00:01+00:00",
    "sport": "Football"
+  },
+  "unibet|195135753|728759268": {
+   "available_at": "2026-10-15T22:12:28+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.5,
+   "debut": "2026-10-16T06:45:00.000Z",
+   "disponible": true,
+   "id": "unibet|195135753|728759268",
+   "long_terme": false,
+   "match": "Samoa - France",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Le duo Léo Darrelatour/Benjamin Laguerre marque au moins 1 essai",
+   "premiere_vue": "2026-10-15T22:11:21+00:00",
+   "sport": "Rugby à XIII"
   },
   "unibet|195136830|728765362": {
    "available_at": "2026-10-15T14:59:48+00:00",
@@ -8897,6 +8949,14 @@
    "id": "winamax|719757065|2230867068",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-15T21:13:14+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-15T22:13:00+00:00",
+   "id": "winamax|719742012|2230818177",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-15T22:12:28+00:00",
    "source": null,
    "statut": "perdu"
   }

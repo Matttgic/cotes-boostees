@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T21:17:38+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T22:13:00+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,8 +18,8 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 78 / 86 | 723.77 € | -83.38 € | -11.5 % | -143.88 € |
-| temoin_20 | 45 / 51 | 775.62 € | -22.52 € | -2.9 % | -161.00 € |
+| temoin_10 | 78 / 87 | 723.77 € | -83.38 € | -11.5 % | -143.88 € |
+| temoin_20 | 45 / 52 | 775.62 € | -22.52 € | -2.9 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 38 / 41 | 365.87 € | -32.50 € | -8.9 % | -122.83 € |
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 163 prévisions réglées : score de Brier du modèle 0.2159, prior bookmaker 0.2119 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 164 prévisions réglées : score de Brier du modèle 0.2149, prior bookmaker 0.2111 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -166,7 +166,6 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:rugby:1.5-5 | 8 | -2.50 € | -3.1 % |
 | sport:rugby:1.5-8 | 8 | -2.50 € | -3.1 % |
 | sport:rugby:2-5 | 8 | -2.50 € | -3.1 % |
-| sport:football:3-5 | 49 | -2.88 € | -0.6 % |
 | sport:football:1.5-5 | 53 | -5.23 € | -1.0 % |
 | sport:football:1.5-8 | 53 | -5.23 € | -1.0 % |
 | sport:football:2-5 | 53 | -5.23 € | -1.0 % |
@@ -175,6 +174,7 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | bookmaker:Unibet:1.5-2.5 | 11 | -12.50 € | -11.4 % |
 | sport:hockey sur glace:1.5-3.5 | 7 | -12.50 € | -17.9 % |
 | sport:hockey sur glace:2-3.5 | 7 | -12.50 € | -17.9 % |
+| sport:football:3-5 | 50 | -12.88 € | -2.7 % |
 | sport:basketball:1.5-3.5 | 5 | -19.00 € | -38.0 % |
 | sport:basketball:2-3.5 | 5 | -19.00 € | -38.0 % |
 | sport:rugby:3-5 | 2 | -20.00 € | -100.0 % |
@@ -188,14 +188,14 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:hockey sur glace:3-5 | 11 | -41.50 € | -37.7 % |
 | sport:hockey sur glace:1.5-5 | 14 | -46.50 € | -33.2 % |
 | sport:hockey sur glace:2-5 | 14 | -46.50 € | -33.2 % |
-| bookmaker:Winamax:3-5 | 64 | -49.15 € | -8.1 % |
 | sport:hockey sur glace:1.5-8 | 15 | -56.50 € | -37.7 % |
+| bookmaker:Winamax:3-5 | 65 | -59.15 € | -9.5 % |
 | tous:tous:1.5-5 | 77 | -81.26 € | -11.4 % |
 | tous:tous:2-5 | 77 | -81.26 € | -11.4 % |
-| bookmaker:Winamax:1.5-5 | 75 | -82.79 € | -11.4 % |
-| bookmaker:Winamax:2-5 | 75 | -82.79 € | -11.4 % |
 | tous:tous:3-5 | 62 | -88.84 € | -14.7 % |
-| bookmaker:Winamax:1.5-8 | 77 | -91.95 € | -12.5 % |
+| bookmaker:Winamax:1.5-5 | 76 | -91.79 € | -12.5 % |
+| bookmaker:Winamax:2-5 | 76 | -91.79 € | -12.5 % |
+| bookmaker:Winamax:1.5-8 | 78 | -100.95 € | -13.5 % |
 | tous:tous:1.5-8 | 75 | -102.25 € | -14.5 % |
 | tous:tous:1.5-3.5 | 65 | -118.01 € | -19.2 % |
 | tous:tous:2-3.5 | 65 | -118.01 € | -19.2 % |
@@ -217,7 +217,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 205 événements de règlement : {'gpt-6-luna': 205}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 206 événements de règlement : {'gpt-6-luna': 206}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
