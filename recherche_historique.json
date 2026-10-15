@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T04:18:00+00:00",
+ "derniere_observation": "2026-10-15T04:52:55+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -324,6 +324,15 @@
      "id": "winamax|719296847|2229451839",
      "joue": true,
      "mise": 10.0,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719485825|2230114131": {
+     "date": "2026-10-15T04:51:54+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719485825|2230114131",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     }
@@ -652,6 +661,15 @@
      "mise": 10.0,
      "p_modele": 0.27935,
      "regle": null
+    },
+    "winamax|719485825|2230114131": {
+     "date": "2026-10-15T04:51:54+00:00",
+     "ev_modele_pct": -12.406,
+     "id": "winamax|719485825|2230114131",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357526,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -978,6 +996,15 @@
      "mise": 5.46,
      "p_modele": 0.27935,
      "regle": null
+    },
+    "winamax|719485825|2230114131": {
+     "date": "2026-10-15T04:51:54+00:00",
+     "ev_modele_pct": -12.406,
+     "id": "winamax|719485825|2230114131",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357526,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -1303,6 +1330,15 @@
      "joue": true,
      "mise": 20.0,
      "p_modele": 0.27935,
+     "regle": null
+    },
+    "winamax|719485825|2230114131": {
+     "date": "2026-10-15T04:51:54+00:00",
+     "ev_modele_pct": -12.406,
+     "id": "winamax|719485825|2230114131",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.357526,
      "regle": null
     }
    }
@@ -5197,6 +5233,22 @@
    "pari": "Arthur Gea gagne 2-1",
    "premiere_vue": "2026-10-14T21:13:50+00:00",
    "sport": "Tennis"
+  },
+  "winamax|719485825|2230114131": {
+   "available_at": "2026-10-15T04:51:54+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.45,
+   "cote_origine": 2.1,
+   "debut": "2026-10-15T08:30+00:00",
+   "disponible": true,
+   "id": "winamax|719485825|2230114131",
+   "long_terme": false,
+   "match": "Brisbane Bullets - SE Melbourne Phoenix",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "SE Melbourne Phoenix gagne et plus de 192,5 points dans le match",
+   "premiere_vue": "2026-10-15T04:51:25+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
@@ -6671,6 +6723,22 @@
    "regle_le": "2026-10-15T04:15:21+00:00",
    "source": null,
    "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-15T04:52:55+00:00",
+   "id": "winamax|719140105|2228981777",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-15T04:51:54+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-15T04:52:55+00:00",
+   "id": "winamax|719287451|2229426305",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-15T04:51:54+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,
@@ -7192,6 +7260,14 @@
    "date": "2026-10-14T21:13:50+00:00",
    "ev_pct": -2.1,
    "statut": "exacte"
+  },
+  "winamax|719485825|2230114131": {
+   "available_at": "2026-10-15T04:51:54+00:00",
+   "cote_boostee": 2.45,
+   "cote_juste": 2.548,
+   "date": "2026-10-15T04:51:25+00:00",
+   "ev_pct": -3.9,
+   "statut": "approx"
   }
  }
 }
