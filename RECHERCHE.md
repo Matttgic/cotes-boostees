@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T19:04:33+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T19:15:02+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,14 +18,14 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 75 / 82 | 703.18 € | -92.24 € | -13.1 % | -143.88 € |
-| temoin_20 | 44 / 49 | 755.68 € | -2.58 € | -0.3 % | -161.00 € |
+| temoin_10 | 75 / 83 | 703.18 € | -92.24 € | -13.1 % | -143.88 € |
+| temoin_20 | 44 / 50 | 755.68 € | -2.58 € | -0.3 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
-| J_adaptative | 38 / 40 | 365.87 € | -32.50 € | -8.9 % | -122.83 € |
-| K_modele | 48 / 51 | 464.90 € | +76.23 € | +16.4 % | -74.75 € |
-| L_kelly_dynamique | 51 / 54 | 313.16 € | +37.56 € | +12.0 % | -59.37 € |
-| M_modele_20 | 33 / 36 | 624.70 € | +258.77 € | +41.4 % | -85.88 € |
+| J_adaptative | 38 / 41 | 365.87 € | -32.50 € | -8.9 % | -122.83 € |
+| K_modele | 48 / 52 | 464.90 € | +76.23 € | +16.4 % | -74.75 € |
+| L_kelly_dynamique | 51 / 55 | 313.16 € | +37.56 € | +12.0 % | -59.37 € |
+| M_modele_20 | 33 / 37 | 624.70 € | +258.77 € | +41.4 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.

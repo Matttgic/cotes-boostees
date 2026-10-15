@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T19:04:33+00:00",
+ "derniere_observation": "2026-10-15T19:15:02+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -612,6 +612,15 @@
      "id": "winamax|719757065|2230867068",
      "joue": false,
      "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719986408|2231591708": {
+     "date": "2026-10-15T19:15:02+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719986408|2231591708",
+     "joue": true,
+     "mise": 10.08,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     }
@@ -1228,6 +1237,15 @@
      "mise": null,
      "p_modele": 0.271471,
      "regle": null
+    },
+    "winamax|719986408|2231591708": {
+     "date": "2026-10-15T19:15:02+00:00",
+     "ev_modele_pct": 29.542,
+     "id": "winamax|719986408|2231591708",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.454533,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -1842,6 +1860,15 @@
      "mise": null,
      "p_modele": 0.271471,
      "regle": null
+    },
+    "winamax|719986408|2231591708": {
+     "date": "2026-10-15T19:15:02+00:00",
+     "ev_modele_pct": 29.542,
+     "id": "winamax|719986408|2231591708",
+     "joue": true,
+     "mise": 10.06,
+     "p_modele": 0.454533,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -2455,6 +2482,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.271471,
+     "regle": null
+    },
+    "winamax|719986408|2231591708": {
+     "date": "2026-10-15T19:15:02+00:00",
+     "ev_modele_pct": 29.542,
+     "id": "winamax|719986408|2231591708",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.454533,
      "regle": null
     }
    }
@@ -6893,6 +6929,22 @@
    "pari": "Jo Adell, Chase DeLauter ou Junior Caminero marque un Home Run",
    "premiere_vue": "2026-10-15T13:59:13+00:00",
    "sport": "Baseball"
+  },
+  "winamax|719986408|2231591708": {
+   "available_at": "2026-10-15T19:15:02+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.5,
+   "debut": "2026-10-16T06:30+00:00",
+   "disponible": true,
+   "id": "winamax|719986408|2231591708",
+   "long_terme": false,
+   "match": "Rafael Jodar - Casper Ruud",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Rafael Jodar gagne 2-0",
+   "premiere_vue": "2026-10-15T19:13:54+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
@@ -9071,6 +9123,14 @@
    "cote_juste": 9.528,
    "date": "2026-10-15T13:59:13+00:00",
    "ev_pct": -68.5,
+   "statut": "exacte"
+  },
+  "winamax|719986408|2231591708": {
+   "available_at": "2026-10-15T19:15:02+00:00",
+   "cote_boostee": 2.85,
+   "cote_juste": 3.036,
+   "date": "2026-10-15T19:13:54+00:00",
+   "ev_pct": -6.1,
    "statut": "exacte"
   }
  }
