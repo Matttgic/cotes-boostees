@@ -1,8 +1,8 @@
 {
  "boosts_total": 229,
  "cache_betsson": {
-  "essais": 3,
-  "session": "767273b2"
+  "essais": 2,
+  "session": "3f0422c7"
  },
  "cache_unibet": {
   "3381006": {
@@ -563,22 +563,18 @@
     "nouveaux": 0
    },
    "unibet": {
-    "boosts_en_ligne": 23,
-    "cotes_modifiees": 0,
-    "nouveaux": 0
+    "erreur": "ConnectionError : Failed to perform, curl: (7) CONNECT tunnel failed, response 502. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
    },
    "winamax": {
-    "boosts_en_ligne": 2,
-    "cotes_modifiees": 0,
-    "nouveaux": 0
+    "erreur": "ConnectionError : Failed to perform, curl: (7) CONNECT tunnel failed, response 502. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
    }
   },
   "cerveau": {
    "boosts_observes": 208,
-   "decisions_enregistrees": 1,
+   "decisions_enregistrees": 0,
    "nouveaux_boosts": 0
   },
-  "date": "2026-10-15T01:17:21+00:00",
+  "date": "2026-10-15T02:16:28+00:00",
   "evaluation": {
    "approx": 0,
    "decomposes": 0,
@@ -589,24 +585,96 @@
    "requetes_pulsescore": 3
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 752822,
+  "octets_proxy": 333419,
   "recherche": {
-   "reglements": 178,
+   "reglements": 179,
    "version": "replay-v1"
   },
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
    "inconnus": 0,
-   "jetons": {},
-   "recherches": 0,
-   "regles": 0,
-   "soumis": 0
+   "jetons": {
+    "gpt-6-luna": {
+     "entree": 26273,
+     "sortie": 852
+    }
+   },
+   "recherches": 4,
+   "regles": 1,
+   "soumis": 1
   },
   "reglements_manuels": 0,
-  "requetes": 18
+  "requetes": 17
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 2,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "erreur": "ConnectionError : Failed to perform, curl: (7) CONNECT tunnel failed, response 502. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    },
+    "winamax": {
+     "erreur": "ConnectionError : Failed to perform, curl: (7) CONNECT tunnel failed, response 502. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 208,
+    "decisions_enregistrees": 0,
+    "nouveaux_boosts": 0
+   },
+   "date": "2026-10-15T02:16:28+00:00",
+   "evaluation": {
+    "approx": 0,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 6,
+    "exactes": 2,
+    "non_evaluables": 4,
+    "requetes_pulsescore": 3
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 333419,
+   "recherche": {
+    "reglements": 179,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {
+     "gpt-6-luna": {
+      "entree": 26273,
+      "sortie": 852
+     }
+    },
+    "recherches": 4,
+    "regles": 1,
+    "soumis": 1
+   },
+   "reglements_manuels": 0,
+   "requetes": 17
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -8936,5 +9004,5 @@
    "requetes": 1
   }
  ],
- "octets_proxy_total": 89696374
+ "octets_proxy_total": 90029793
 }

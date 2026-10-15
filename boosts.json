@@ -142,11 +142,11 @@
   "bookmaker": "Betsson",
   "cote_boostee": 2.05,
   "cote_boostee_initiale": 2.15,
-  "cote_origine": 2.01,
+  "cote_origine": 2.02,
   "debut": "2026-10-15T16:45+00:00",
-  "derniere_vue": "2026-10-15T01:17:21+00:00",
+  "derniere_vue": "2026-10-15T02:16:28+00:00",
   "disponible": true,
-  "hausse_pct": 2.0,
+  "hausse_pct": 1.5,
   "historique_cotes": [
    {
     "cote_boostee": 2.15,
@@ -178,7 +178,7 @@
   "match": "Lyon - Crystal Palace",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 35,
+  "nb_vues": 36,
   "pari": "Pavel Sulc Décisif",
   "premiere_vue": "2026-10-13T19:15:19+00:00",
   "ref": {
@@ -191,7 +191,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.05,
-   "date": "2026-10-15T01:17:21+00:00",
+   "date": "2026-10-15T02:16:28+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -203,7 +203,7 @@
   "cote_boostee_initiale": 10.5,
   "cote_origine": 8.95,
   "debut": "2026-10-15T16:45+00:00",
-  "derniere_vue": "2026-10-15T01:17:21+00:00",
+  "derniere_vue": "2026-10-15T02:16:28+00:00",
   "disponible": true,
   "hausse_pct": 17.3,
   "historique_cotes": [],
@@ -232,7 +232,7 @@
   "match": "CSKA Sofia - Monaco",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 35,
+  "nb_vues": 36,
   "pari": "Monaco gagne 3-0",
   "premiere_vue": "2026-10-13T19:15:19+00:00",
   "ref": {
@@ -245,7 +245,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 10.5,
-   "date": "2026-10-15T01:17:21+00:00",
+   "date": "2026-10-15T02:16:28+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -3937,7 +3937,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.8,
-   "date": "2026-10-15T01:17:21+00:00",
+   "date": "2026-10-15T02:16:28+00:00",
    "raison": "sport non suivi (Rugby à XIII)",
    "statut": "non_evaluable"
   }
@@ -4058,7 +4058,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.8,
-   "date": "2026-10-15T01:17:21+00:00",
+   "date": "2026-10-15T02:16:28+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -18918,16 +18918,18 @@
    "tournoi_id": 900002489
   },
   "reglement": {
-   "derniere_tentative": "2026-10-14T19:48:47+00:00",
-   "explication": "Le match HIFK–TPS n’est pas terminé, donc le pari ne peut pas encore être réglé. Les scores finaux des trois rencontres ne sont pas tous confirmés.",
+   "derniere_tentative": "2026-10-15T02:17:15+00:00",
+   "explication": "Le pari exigeait plus de 4,5 buts dans chacun des trois matchs. KalPa–Ässät s’est terminé sur un score de 0–1 : cette condition n’est pas remplie, donc le pari est perdu.",
    "modele": "gpt-6-luna",
-   "score": "HIFK–TPS : 3–3, prolongation en cours (61:19 selon le suivi Liiga). Aucun score final vérifié pour KalPa–Ässät ni JYP–Lukko.",
+   "regle_le": "2026-10-15T02:17:15+00:00",
+   "score": "KalPa–Ässät 0–1 (1 but) ; JYP–Lukko 3–2 après TAB (5 au score final) ; HIFK–TPS 3–4 après TAB (7 au score final).",
    "sources": [
-    "https://liiga.fi/fi/peli/2027/2701360/seuranta",
-    "https://liiga.fi/fi/peli/2027/2701378/seuranta",
-    "https://liiga.fi/fi/peli/2027/2701380/seuranta"
+    "https://liiga.fi/en/game/2027/2701378/events?koti=kalpa&paiva=14102026&vieras=assat",
+    "https://liiga.fi/en/game/2027/2701380/stats?koti=jyp&paiva=14102026&vieras=lukko",
+    "https://www.liiga.fi/fi/peli/2027/2701360/tilastot?koti=hifk&paiva=14102026&vieras=tps"
    ],
-   "tentatives": 1
+   "statut": "perdu",
+   "tentatives": 2
   },
   "sport": "Hockey sur glace",
   "sport_id_winamax": 4,
@@ -19512,12 +19514,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.4,
-   "cote_juste": 2.411,
-   "date": "2026-10-15T01:17:21+00:00",
+   "cote_juste": 2.294,
+   "date": "2026-10-15T02:16:28+00:00",
    "detail": [
     {
-     "cote_juste": 1.685,
-     "cote_reference": 1.6369,
+     "cote_juste": 1.6596,
+     "cote_reference": 1.6135,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 1.5,
@@ -19529,8 +19531,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.4306,
-     "cote_reference": 1.3891,
+     "cote_juste": 1.3824,
+     "cote_reference": 1.3448,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 1.5,
@@ -19542,8 +19544,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -14.4,
-   "ev_pct": -0.4,
+   "ev_origine_pct": -10.0,
+   "ev_pct": 4.6,
    "sources": [
     "Pinnacle"
    ],
@@ -19859,7 +19861,7 @@
   "valeur_derniere": {
    "cote_boostee": 4.75,
    "cote_juste": 4.711,
-   "date": "2026-10-15T01:17:21+00:00",
+   "date": "2026-10-15T02:16:28+00:00",
    "detail": [
     {
      "cote_juste": 4.7106,
