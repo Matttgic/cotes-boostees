@@ -6,10 +6,10 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 | Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |
 |---|---|---|---|---|---|
-| **A — témoin** | 82 / 113 | 1710 € | **-43,75 €** | **-2,6 %** | -17,1 % (35 paris) |
+| **A — témoin** | 82 / 113 | 1710 € | **-43,75 €** | **-2,6 %** | -17,4 % (36 paris) |
 | **B — valeur ≥ +5 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
 | **B0 — valeur ≥ 0 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | – |
-| **D — hypothèse (cotes 1,60–3,50)** | 58 / 80 | 580 € | **+25,00 €** | **+4,3 %** | -18,6 % (25 paris) |
+| **D — hypothèse (cotes 1,60–3,50)** | 58 / 80 | 580 € | **+25,00 €** | **+4,3 %** | -18,9 % (26 paris) |
 
 « Valeur moyenne jouée » : écart moyen entre la cote prise et la cote juste (Pinnacle / Betfair), sur les paris dont la valeur était calculable avant le match. Indicateur peu bruité, lisible en quelques jours ; le ROI, lui, demande des centaines de paris.
 
@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 15/10 20h04 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 15/10 21h03 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -68,9 +68,9 @@ A en détail : 63 gagnés, 128 perdus, 4 remboursés, 68 en attente · cote moye
 | EV 10 % et + (approx) | 3 / 3 | 60 € | +10,00 € | +16,7 % | 33 % |
 | EV 10 % et + (exacte) | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | EV 5 à 10 % (approx) | 2 / 2 | 40 € | +115,00 € | +287,5 % | 100 % |
-| EV < 0 (approx) | 26 / 31 | 520 € | -302,00 € | -58,1 % | 15 % |
+| EV < 0 (approx) | 26 / 32 | 520 € | -302,00 € | -58,1 % | 15 % |
 | EV < 0 (exacte) | 25 / 29 | 510 € | +224,50 € | +44,0 % | 46 % |
-| non évaluable | 134 / 193 | 2785 € | -167,95 € | -6,0 % | 33 % |
+| non évaluable | 134 / 192 | 2785 € | -167,95 € | -6,0 % | 33 % |
 
 ### A par bookmaker
 
@@ -170,8 +170,8 @@ A en détail : 63 gagnés, 128 perdus, 4 remboursés, 68 en attente · cote moye
 | 18/10 15h00 · Angers - Marseille | Amine Gouiri Buteur! | 2,55 | – | – | 20 € | ⏳ |
 | 17/10 18h30 · Bayern Munich - Leipzig | Le Bayern gagne 3-0 | 12,5 | – | – | 20 € | ⏳ |
 | 17/10 17h15 · Strasbourg - Paris SG | Kvara Buteur! | 2,3 | – | – | 20 € | ⏳ |
-| 17/10 02h15 · Denver Broncos - Seattle Seahawks | Jaxon Smith-Njigba marque au moins un touchdown et Seattle Seahawks gagne | 2,8 | – | – | 20 € | ⏳ |
 | 16/10 12h00 · Medvedev, Daniil - Paul, Tommy | Daniil Medvedev gagne 2-1 | 3,5 | 3,736 | -6,3 % | 20 € | ⏳ |
+| 16/10 02h15 · Denver Broncos - Seattle Seahawks | Jaxon Smith-Njigba marque au moins un touchdown et Seattle Seahawks gagne | 2,8 | 3,835 | -27,0 % ≈ | 20 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | I.Paixao décisif et son équipe gagne (remboursé si non titulaire) | 3,4 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Rennes - OFI Crète | Rennes gagne sur le score exact de 1:0, 2:0 ou 3:0 | 3,0 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | Marseille gagne et plus 1,5 Buts | 2,6 | 3,158 | -17,7 % ≈ | 25 € | ⏳ |

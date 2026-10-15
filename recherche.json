@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-15T18:06:10+00:00",
+ "derniere_observation": "2026-10-15T19:04:33+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -10806,7 +10806,7 @@
  },
  "qualite": {
   "methodes_value": {
-   "approx": 40,
+   "approx": 41,
    "exacte": 30
   },
   "mises_supposees": 2,
@@ -37254,6 +37254,18 @@
       "p_prior": 0.555556,
       "regle": null,
       "regles_entrainement": 190
+     },
+     {
+      "date": "2026-10-15T19:04:32+00:00",
+      "dernier_resultat_utilise": "2026-10-15T18:06:10+00:00",
+      "ev_modele_pct": -26.988,
+      "id": "winamax|719753879|2230857258",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.260756,
+      "p_prior": 0.392157,
+      "regle": null,
+      "regles_entrainement": 191
      }
     ],
     "dispersion_roi_90_pct": [
@@ -38214,6 +38226,18 @@
       "p_prior": 0.555556,
       "regle": null,
       "regles_entrainement": 190
+     },
+     {
+      "date": "2026-10-15T19:04:32+00:00",
+      "dernier_resultat_utilise": "2026-10-15T18:06:10+00:00",
+      "ev_modele_pct": -26.988,
+      "id": "winamax|719753879|2230857258",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.260756,
+      "p_prior": 0.392157,
+      "regle": null,
+      "regles_entrainement": 191
      }
     ],
     "dispersion_roi_90_pct": [
@@ -38238,6 +38262,6 @@
    "strategie": "valeur"
   }
  },
- "valeurs": 70,
+ "valeurs": 71,
  "version": "replay-v1"
 }
