@@ -15,30 +15,30 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Hypothèse I — essai prospectif
 
-Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (80 pour l'instant).
+Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (81 pour l'instant).
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI |
 |---|---|---|---|---|
-| **A — tout miser** | 47 / 80 | 976 € | +245,25 € | +25,1 % |
-| **I — cotes modérées, un boost/match** | 31 / 45 | 310 € | +93,00 € | +30,0 % |
+| **A — tout miser** | 47 / 81 | 976 € | +245,25 € | +25,1 % |
+| **I — cotes modérées, un boost/match** | 31 / 46 | 310 € | +93,00 € | +30,0 % |
 Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 15/10 17h07 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 15/10 18h06 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 194 / 262 | 4000 € | **-69,20 €** | **-1,7 %** | -706,50 € |
+| **A — tout miser** | 194 / 263 | 4000 € | **-69,20 €** | **-1,7 %** | -706,50 € |
 | **B-exacte (EV ≥ 5 %)** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B-approx (EV ≥ 5 %)** | 5 / 5 | 100 € | **+125,00 €** | **+125,0 %** | -20,00 € |
-| **C — 10 € maximum** | 194 / 262 | 1935 € | **-26,95 €** | **-1,4 %** | -337,50 € |
-| **D — cote 1,60–3,50** | 135 / 182 | 1350 € | **+69,50 €** | **+5,1 %** | -238,00 € |
-| **E — dans les 48 h** | 194 / 220 | 1935 € | **-26,95 €** | **-1,4 %** | -337,50 € |
+| **C — 10 € maximum** | 194 / 263 | 1935 € | **-26,95 €** | **-1,4 %** | -337,50 € |
+| **D — cote 1,60–3,50** | 135 / 183 | 1350 € | **+69,50 €** | **+5,1 %** | -238,00 € |
+| **E — dans les 48 h** | 194 / 221 | 1935 € | **-26,95 €** | **-1,4 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
-| **H — un boost/match** | 176 / 197 | 1755 € | **-72,95 €** | **-4,2 %** | -301,00 € |
-| **I — cotes modérées, un boost/match** | 120 / 135 | 1200 € | **-6,50 €** | **-0,5 %** | -221,50 € |
+| **H — un boost/match** | 176 / 198 | 1755 € | **-72,95 €** | **-4,2 %** | -301,00 € |
+| **I — cotes modérées, un boost/match** | 120 / 136 | 1200 € | **-6,50 €** | **-0,5 %** | -221,50 € |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | -20,00 € |
 | **J — filtre quotidien choisi avec les résultats passés** | 38 / 40 | 366 € | **-32,50 €** | **-8,9 %** | -122,83 € |
@@ -56,7 +56,7 @@ J/K/L/M utilisent un replay chronologique après 30 règlements d'apprentissage,
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moyenne 3,38 · pire série perdante 22
+A en détail : 63 gagnés, 127 perdus, 4 remboursés, 69 en attente · cote moyenne 3,37 · pire série perdante 22
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -69,7 +69,7 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | EV 10 % et + (exacte) | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | EV 5 à 10 % (approx) | 2 / 2 | 40 € | +115,00 € | +287,5 % | 100 % |
 | EV < 0 (approx) | 26 / 31 | 520 € | -302,00 € | -58,1 % | 15 % |
-| EV < 0 (exacte) | 25 / 28 | 510 € | +224,50 € | +44,0 % | 46 % |
+| EV < 0 (exacte) | 25 / 29 | 510 € | +224,50 € | +44,0 % | 46 % |
 | non évaluable | 133 / 193 | 2765 € | -147,95 € | -5,4 % | 33 % |
 
 ### A par bookmaker
@@ -77,6 +77,7 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | Betsson | 2 / 9 | 40 € | +13,00 € | +32,5 % | 50 % |
+| Genybet | 0 / 1 | 0 € | +0,00 € | – | – |
 | NetBet | 1 / 2 | 10 € | +17,50 € | +175,0 % | 100 % |
 | OlyBet | 3 / 4 | 35 € | +38,55 € | +108,9 % | 67 % |
 | Unibet | 31 / 74 | 775 € | +73,75 € | +9,5 % | 43 % |
@@ -87,13 +88,13 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 38 | 0 € | +0,00 € | – | – |
-| match | 194 / 224 | 4000 € | -69,20 € | -1,7 % | 33 % |
+| match | 194 / 225 | 4000 € | -69,20 € | -1,7 % | 33 % |
 
 ### A par mise max
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 10 € | 1 / 3 | 10 € | +17,50 € | +175,0 % | 100 % |
+| 10 € | 1 / 4 | 10 € | +17,50 € | +175,0 % | 100 % |
 | 20 € | 159 / 182 | 3180 € | -199,00 € | -6,3 % | 30 % |
 | 20.83 € | 1 / 1 | 21 € | +25,00 € | +120,0 % | 100 % |
 | 25 € | 31 / 74 | 775 € | +73,75 € | +9,5 % | 43 % |
@@ -108,7 +109,7 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | 2 – 3 | 80 / 107 | 1721 € | +219,00 € | +12,7 % | 46 % |
 | 3 – 5 | 103 / 127 | 2060 € | -268,20 € | -13,0 % | 26 % |
 | 5 – 10 | 10 / 15 | 200 € | +0,00 € | +0,0 % | 20 % |
-| < 2 | 0 / 8 | 0 € | +0,00 € | – | – |
+| < 2 | 0 / 9 | 0 € | +0,00 € | – | – |
 
 ### A par sport
 
@@ -117,7 +118,7 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | Badminton | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Baseball | 5 / 6 | 100 € | -52,00 € | -52,0 % | 20 % |
 | Basketball | 10 / 38 | 200 € | -138,00 € | -69,0 % | 11 % |
-| Football | 103 / 136 | 2115 € | -14,20 € | -0,7 % | 33 % |
+| Football | 103 / 137 | 2115 € | -14,20 € | -0,7 % | 33 % |
 | Football Américain | 5 / 6 | 100 € | -100,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 3 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 3 / 3 | 60 € | -14,00 € | -23,3 % | 33 % |
@@ -133,7 +134,7 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 194 / 262 | 4000 € | -69,20 € | -1,7 % | 33 % |
+| 2026-10 | 194 / 263 | 4000 € | -69,20 € | -1,7 % | 33 % |
 
 ### Derniers paris
 
@@ -174,10 +175,10 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 68 en attente · cote moye
 | 15/10 21h00 · Marseille - Olympiakos | I.Paixao décisif et son équipe gagne (remboursé si non titulaire) | 3,4 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Rennes - OFI Crète | Rennes gagne sur le score exact de 1:0, 2:0 ou 3:0 | 3,0 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | Marseille gagne et plus 1,5 Buts | 2,6 | 3,158 | -17,7 % ≈ | 25 € | ⏳ |
+| 15/10 21h00 · Marseille / Olympiakos : Plus de 2,5 buts | Marseille / Olympiakos : Plus de 2,5 buts | 1,8 | 1,886 | -4,6 % | 10 € | ⏳ |
 | 15/10 21h00 · Rennes - OFI Crète | Esteban Lepaul marque au moins un but en 1ère mi-temps | 3,0 | – | – | 20 € | ⏳ |
 | 15/10 21h00 · Celta Vigo - Juventus | Juventus gagne par exactement 1 but d'écart | 4,0 | – | – | 20 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | Marseille gagne à la mi-temps et à la fin du match | 4,0 | 7,642 | -47,7 % ≈ | 20 € | ⏳ |
 | 15/10 21h00 · Atalanta - Pafos FC | Atalanta gagne par au moins 3 buts d'écart | 3,35 | 3,652 | -8,3 % | 20 € | ⏳ |
-| 15/10 20h00 · Rouen - Marseille | Rouen gagne par au moins 3 buts d'écart | 3,1 | – | – | 20 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).

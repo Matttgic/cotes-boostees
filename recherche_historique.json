@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T15:08:18+00:00",
+ "derniere_observation": "2026-10-15T16:08:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -43,6 +43,15 @@
      "date": "2026-10-15T14:01:03+00:00",
      "ev_modele_pct": null,
      "id": "betsson|93956048.1|394277250.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "genybet|12255022|4841413055": {
+     "date": "2026-10-15T16:08:04+00:00",
+     "ev_modele_pct": null,
+     "id": "genybet|12255022|4841413055",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -653,6 +662,15 @@
      "p_modele": 0.48083,
      "regle": null
     },
+    "genybet|12255022|4841413055": {
+     "date": "2026-10-15T16:08:04+00:00",
+     "ev_modele_pct": -5.626,
+     "id": "genybet|12255022|4841413055",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524301,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -1258,6 +1276,15 @@
      "p_modele": 0.48083,
      "regle": null
     },
+    "genybet|12255022|4841413055": {
+     "date": "2026-10-15T16:08:04+00:00",
+     "ev_modele_pct": -5.626,
+     "id": "genybet|12255022|4841413055",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524301,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -1861,6 +1888,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.48083,
+     "regle": null
+    },
+    "genybet|12255022|4841413055": {
+     "date": "2026-10-15T16:08:04+00:00",
+     "ev_modele_pct": -5.626,
+     "id": "genybet|12255022|4841413055",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524301,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -2575,6 +2611,22 @@
    "mise_max_supposee": false,
    "pari": "Arsenal mène à la mi-temps et gagne le match",
    "premiere_vue": "2026-10-15T13:59:13+00:00",
+   "sport": "Football"
+  },
+  "genybet|12255022|4841413055": {
+   "available_at": "2026-10-15T16:08:04+00:00",
+   "bookmaker": "Genybet",
+   "cote_boostee_initiale": 1.8,
+   "cote_origine": null,
+   "debut": "2026-10-15T19:00+00:00",
+   "disponible": true,
+   "id": "genybet|12255022|4841413055",
+   "long_terme": false,
+   "match": "Marseille / Olympiakos : Plus de 2,5 buts",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "Marseille / Olympiakos : Plus de 2,5 buts",
+   "premiere_vue": "2026-10-15T16:06:14+00:00",
    "sport": "Football"
   },
   "netbet|12231955|7443639753": {
@@ -8416,6 +8468,14 @@
    "date": "2026-10-15T13:59:13+00:00",
    "ev_pct": -45.5,
    "statut": "approx"
+  },
+  "genybet|12255022|4841413055": {
+   "available_at": "2026-10-15T16:08:04+00:00",
+   "cote_boostee": 1.8,
+   "cote_juste": 1.886,
+   "date": "2026-10-15T16:06:14+00:00",
+   "ev_pct": -4.6,
+   "statut": "exacte"
   },
   "unibet|194903684|727515288": {
    "available_at": "2026-10-13T06:36:45Z",

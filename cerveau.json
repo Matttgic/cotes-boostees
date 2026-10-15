@@ -1,22 +1,21 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 179,
-   "ecarter": 25,
-   "hors_perimetre": 37,
+   "abstention": 180,
+   "ecarter": 26,
+   "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-15T15:07:05+00:00",
+  "derniere_observation": "2026-10-15T16:06:14+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 35,
+   "combiné_lie": 36,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 24,
-   "hors_fenetre": 1,
+   "ev_insuffisante": 25,
    "ligne_absente": 29,
    "long_terme": 36,
    "marche_non_cote": 31,
@@ -25,7 +24,7 @@
    "sport_non_suivi": 8
   },
   "observations_reglees": 173,
-  "observes": 241,
+  "observes": 242,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -33,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-15T15:07:05+00:00",
+ "derniere_observation": "2026-10-15T16:06:14+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -492,11 +491,76 @@
      "reference_raison": null,
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.96,
+      "hausse_pct": 7.1,
+      "horizon_heures": 71.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "betsson|93956048.1|394277250.1",
    "match": "Nottingham Forest - Arsenal",
    "pari": "Arsenal mène à la mi-temps et gagne le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12255022|4841413055": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-15T19:00+00:00",
+   "historique": [
+    {
+     "cote": 1.8,
+     "cote_juste": 1.886,
+     "decision": "ecarter",
+     "ev_pct": -4.6,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12255022|4841413055",
+   "match": "Marseille / Olympiakos : Plus de 2,5 buts",
+   "pari": "Marseille / Olympiakos : Plus de 2,5 buts",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -964,6 +1028,32 @@
      "reference_raison": null,
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 16.7,
+      "horizon_heures": 120.9,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "unibet|193344613|720327399",
@@ -1093,6 +1183,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-14T10:19:00+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.55,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 20.0,
+      "horizon_heures": 120.9,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
      "mise_fictive": null,
      "motif_code": "long_terme",
      "raisons": [
@@ -14224,6 +14340,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": 3.252,
+     "decision": "ecarter",
+     "ev_pct": -7.8,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|719520586|2230207167",
@@ -14794,6 +14938,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-15T15:07:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": 8.05,
+     "decision": "ecarter",
+     "ev_pct": -62.7,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T16:06:14+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
