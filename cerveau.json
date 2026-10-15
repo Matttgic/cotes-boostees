@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 166,
+   "abstention": 169,
    "ecarter": 23,
    "hors_perimetre": 35,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-15T07:48:45+00:00",
+  "derniere_observation": "2026-10-15T08:47:51+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,15 +16,15 @@
    "combiné_lie": 35,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 22,
-   "ligne_absente": 26,
+   "ligne_absente": 28,
    "long_terme": 35,
    "marche_non_cote": 29,
-   "match_introuvable": 50,
+   "match_introuvable": 51,
    "reference_absente": 1,
    "sport_non_suivi": 8
   },
   "observations_reglees": 166,
-  "observes": 224,
+  "observes": 227,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-15T07:48:45+00:00",
+ "derniere_observation": "2026-10-15T08:47:51+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -13569,6 +13569,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": 3.511,
+     "decision": "ecarter",
+     "ev_pct": -7.4,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T08:47:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|719520586|2230207167",
@@ -13685,6 +13713,117 @@
    "id": "winamax|719531808|2230237454",
    "match": "Marseille - Olympiakos",
    "pari": "Marseille gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719533259|2230241177": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 11.1,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T08:47:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (HANDICAP MATCH 1.5 DOM) ; Betfair : ligne absente (HANDICAP MATCH 1.5 DOM)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719533259|2230241177",
+   "match": "Celta Vigo - Juventus",
+   "pari": "Juventus gagne par exactement 1 but d'écart",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719535826|2230247621": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T08:47:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719535826|2230247621",
+   "match": "Rennes - OFI Crète",
+   "pari": "Esteban Lepaul marque au moins un but en 1ère mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|719539715|2230257006": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T13:40+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.129,
+      "hausse_pct": 17.4,
+      "horizon_heures": 4.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T08:47:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719539715|2230257006",
+   "match": "Saudi Pro League",
+   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 3 matchs du jour",
    "premiere_selection": null,
    "sport": "Football"
   }
