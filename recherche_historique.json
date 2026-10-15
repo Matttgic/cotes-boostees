@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T12:01:38+00:00",
+ "derniere_observation": "2026-10-15T13:01:18+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -142,6 +142,15 @@
      "date": "2026-10-15T06:50:24+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195119693|728679082",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195133571|728742068": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195133571|728742068",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -506,6 +515,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719727265|2230768469": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719727265|2230768469",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
     }
    },
    "K_modele": {
@@ -651,6 +669,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.493371,
+     "regle": null
+    },
+    "unibet|195133571|728742068": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -4.305,
+     "id": "unibet|195133571|728742068",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.281456,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -1012,6 +1039,15 @@
      "mise": null,
      "p_modele": 0.344026,
      "regle": null
+    },
+    "winamax|719727265|2230768469": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -14.098,
+     "id": "winamax|719727265|2230768469",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.277103,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -1157,6 +1193,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.493371,
+     "regle": null
+    },
+    "unibet|195133571|728742068": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -4.305,
+     "id": "unibet|195133571|728742068",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.281456,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -1518,6 +1563,15 @@
      "mise": null,
      "p_modele": 0.344026,
      "regle": null
+    },
+    "winamax|719727265|2230768469": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -14.098,
+     "id": "winamax|719727265|2230768469",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.277103,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -1663,6 +1717,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.493371,
+     "regle": null
+    },
+    "unibet|195133571|728742068": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -4.305,
+     "id": "unibet|195133571|728742068",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.281456,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -2023,6 +2086,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.344026,
+     "regle": null
+    },
+    "winamax|719727265|2230768469": {
+     "date": "2026-10-15T13:01:05+00:00",
+     "ev_modele_pct": -14.098,
+     "id": "winamax|719727265|2230768469",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.277103,
      "regle": null
     }
    }
@@ -3478,6 +3550,22 @@
    "pari": "A.Zverev remporte le 1er set 6-4 ou 7-5 ou 7-6 ?",
    "premiere_vue": "2026-10-15T06:49:35+00:00",
    "sport": "Tennis"
+  },
+  "unibet|195133571|728742068": {
+   "available_at": "2026-10-15T13:01:05+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 3.4,
+   "cote_origine": 2.9,
+   "debut": "2026-10-15T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195133571|728742068",
+   "long_terme": false,
+   "match": "Marseille - Olympiakos",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "I.Paixao décisif et son équipe gagne (remboursé si non titulaire)",
+   "premiere_vue": "2026-10-15T13:00:01+00:00",
+   "sport": "Football"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -6269,6 +6357,22 @@
    "pari": "Alexis Lebrun gagne le match 4-1",
    "premiere_vue": "2026-10-15T12:00:52+00:00",
    "sport": "Tennis de table"
+  },
+  "winamax|719727265|2230768469": {
+   "available_at": "2026-10-15T13:01:05+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.1,
+   "cote_origine": 2.7,
+   "debut": "2026-10-15T18:00+00:00",
+   "disponible": true,
+   "id": "winamax|719727265|2230768469",
+   "long_terme": false,
+   "match": "Rouen - Marseille",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Rouen gagne par au moins 3 buts d'écart",
+   "premiere_vue": "2026-10-15T13:00:01+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
@@ -7775,6 +7879,14 @@
    "regle_le": "2026-10-15T11:02:22+00:00",
    "source": null,
    "statut": "remboursé"
+  },
+  {
+   "available_at": "2026-10-15T13:01:18+00:00",
+   "id": "winamax|719485825|2230114131",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-15T13:01:05+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,
