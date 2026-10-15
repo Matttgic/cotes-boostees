@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T14:02:37+00:00",
+ "derniere_observation": "2026-10-15T14:59:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -196,6 +196,15 @@
      "date": "2026-10-15T13:01:05+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195133571|728742068",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195136830|728765362": {
+     "date": "2026-10-15T14:59:48+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195136830|728765362",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -797,6 +806,15 @@
      "p_modele": 0.281456,
      "regle": null
     },
+    "unibet|195136830|728765362": {
+     "date": "2026-10-15T14:59:48+00:00",
+     "ev_modele_pct": -5.935,
+     "id": "unibet|195136830|728765362",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289432,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -1393,6 +1411,15 @@
      "p_modele": 0.281456,
      "regle": null
     },
+    "unibet|195136830|728765362": {
+     "date": "2026-10-15T14:59:48+00:00",
+     "ev_modele_pct": -5.935,
+     "id": "unibet|195136830|728765362",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289432,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -1987,6 +2014,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.281456,
+     "regle": null
+    },
+    "unibet|195136830|728765362": {
+     "date": "2026-10-15T14:59:48+00:00",
+     "ev_modele_pct": -5.935,
+     "id": "unibet|195136830|728765362",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289432,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -3933,6 +3969,22 @@
    "mise_max_supposee": false,
    "pari": "I.Paixao décisif et son équipe gagne (remboursé si non titulaire)",
    "premiere_vue": "2026-10-15T13:00:01+00:00",
+   "sport": "Football"
+  },
+  "unibet|195136830|728765362": {
+   "available_at": "2026-10-15T14:59:48+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-10-15T16:45:00.000Z",
+   "disponible": true,
+   "id": "unibet|195136830|728765362",
+   "long_terme": false,
+   "match": "CSKA Sofia - Monaco",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Paris Brunner buteur et son équipe marque dans les deux mi-temps (remboursé si non titulaire)",
+   "premiere_vue": "2026-10-15T14:58:24+00:00",
    "sport": "Football"
   },
   "winamax|714229410|2213811052": {
