@@ -6,7 +6,7 @@
    "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-15T16:06:14+00:00",
+  "derniere_observation": "2026-10-15T17:05:23+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-15T16:06:14+00:00",
+ "derniere_observation": "2026-10-15T17:05:23+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -14358,6 +14358,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-15T16:06:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": 3.268,
+     "decision": "ecarter",
+     "ev_pct": -8.2,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 1.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T17:05:23+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [

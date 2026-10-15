@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 15/10 18h06 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 15/10 19h05 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -175,10 +175,10 @@ A en détail : 63 gagnés, 127 perdus, 4 remboursés, 69 en attente · cote moye
 | 15/10 21h00 · Marseille - Olympiakos | I.Paixao décisif et son équipe gagne (remboursé si non titulaire) | 3,4 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Rennes - OFI Crète | Rennes gagne sur le score exact de 1:0, 2:0 ou 3:0 | 3,0 | – | – | 25 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | Marseille gagne et plus 1,5 Buts | 2,6 | 3,158 | -17,7 % ≈ | 25 € | ⏳ |
-| 15/10 21h00 · Marseille / Olympiakos : Plus de 2,5 buts | Marseille / Olympiakos : Plus de 2,5 buts | 1,8 | 1,886 | -4,6 % | 10 € | ⏳ |
 | 15/10 21h00 · Rennes - OFI Crète | Esteban Lepaul marque au moins un but en 1ère mi-temps | 3,0 | – | – | 20 € | ⏳ |
 | 15/10 21h00 · Celta Vigo - Juventus | Juventus gagne par exactement 1 but d'écart | 4,0 | – | – | 20 € | ⏳ |
 | 15/10 21h00 · Marseille - Olympiakos | Marseille gagne à la mi-temps et à la fin du match | 4,0 | 7,642 | -47,7 % ≈ | 20 € | ⏳ |
 | 15/10 21h00 · Atalanta - Pafos FC | Atalanta gagne par au moins 3 buts d'écart | 3,35 | 3,652 | -8,3 % | 20 € | ⏳ |
+| 15/10 21h00 · Marseille / Olympiakos : Plus de 2,5 buts | Marseille / Olympiakos : Plus de 2,5 buts | 1,8 | 1,886 | -4,6 % | 10 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).
