@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 154,
-   "ecarter": 21,
+   "abstention": 156,
+   "ecarter": 22,
    "hors_perimetre": 34,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-15T05:50:30+00:00",
+  "derniere_observation": "2026-10-15T06:49:35+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,16 +15,16 @@
    "ancien_format": 17,
    "combiné_lie": 31,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 20,
+   "ev_insuffisante": 21,
    "ligne_absente": 24,
    "long_terme": 34,
-   "marche_non_cote": 26,
+   "marche_non_cote": 27,
    "match_introuvable": 48,
    "reference_absente": 1,
-   "sport_non_suivi": 7
+   "sport_non_suivi": 8
   },
-  "observations_reglees": 165,
-  "observes": 209,
+  "observations_reglees": 166,
+  "observes": 212,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-15T05:50:30+00:00",
+ "derniere_observation": "2026-10-15T06:49:35+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3775,6 +3775,43 @@
    "id": "unibet|195098852|728501293",
    "match": "A.Zverev - A.De Minaur",
    "pari": "A.Zverev remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|195119693|728679082": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-15T10:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T06:49:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195119693|728679082",
+   "match": "A.Zverev - A.De Minaur",
+   "pari": "A.Zverev remporte le 1er set 6-4 ou 7-5 ou 7-6 ?",
    "premiere_selection": null,
    "sport": "Tennis"
   },
@@ -13100,6 +13137,82 @@
    "pari": "SE Melbourne Phoenix gagne et plus de 192,5 points dans le match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|719500378|2230153507": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T10:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": 4.066,
+     "decision": "ecarter",
+     "ev_pct": -7.8,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T06:49:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719500378|2230153507",
+   "match": "Alexander Zverev - Alex de Minaur",
+   "pari": "Alexander Zverev gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|719501044|2230155124": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-15T09:05+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 12.2,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-15T06:49:35+00:00",
+     "mise_fictive": null,
+     "motif_code": "sport_non_suivi",
+     "raisons": [
+      "Sport non suivi par les références"
+     ],
+     "reference_raison": "sport non suivi (Rugby à XIII)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|719501044|2230155124",
+   "match": "Australie - Nouvelle Zélande",
+   "pari": "J. Bostock + T. Trbojevic marquent 2 essais ou plus",
+   "premiere_selection": null,
+   "sport": "Rugby à XIII"
   }
  },
  "modele": "observation-v1",
