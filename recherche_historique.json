@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-15T08:48:38+00:00",
+ "derniere_observation": "2026-10-15T09:47:59+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -484,6 +484,15 @@
      "date": "2026-10-15T08:48:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|719539715|2230257006",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|719580038|2230359687": {
+     "date": "2026-10-15T09:47:59+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|719580038|2230359687",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -976,6 +985,15 @@
      "mise": null,
      "p_modele": 0.411108,
      "regle": null
+    },
+    "winamax|719580038|2230359687": {
+     "date": "2026-10-15T09:47:59+00:00",
+     "ev_modele_pct": -15.705,
+     "id": "winamax|719580038|2230359687",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187322,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -1464,6 +1482,15 @@
      "mise": null,
      "p_modele": 0.411108,
      "regle": null
+    },
+    "winamax|719580038|2230359687": {
+     "date": "2026-10-15T09:47:59+00:00",
+     "ev_modele_pct": -15.705,
+     "id": "winamax|719580038|2230359687",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187322,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -1951,6 +1978,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.411108,
+     "regle": null
+    },
+    "winamax|719580038|2230359687": {
+     "date": "2026-10-15T09:47:59+00:00",
+     "ev_modele_pct": -15.705,
+     "id": "winamax|719580038|2230359687",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187322,
      "regle": null
     }
    }
@@ -6149,6 +6185,22 @@
    "pari": "Au moins un but marqué en première mi-temps lors de chacun des 3 matchs du jour",
    "premiere_vue": "2026-10-15T08:47:51+00:00",
    "sport": "Football"
+  },
+  "winamax|719580038|2230359687": {
+   "available_at": "2026-10-15T09:47:59+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.731,
+   "debut": "2026-10-15T15:30+00:00",
+   "disponible": true,
+   "id": "winamax|719580038|2230359687",
+   "long_terme": false,
+   "match": "Liiga",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Saipa - Hämeenlinna et Vaasan Sport - Kookoo",
+   "premiere_vue": "2026-10-15T09:46:57+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
