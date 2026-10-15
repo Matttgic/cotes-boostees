@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T06:50:35+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-15T07:50:01+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,14 +18,14 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 69 / 76 | 646.76 € | -111.32 € | -17.2 % | -133.88 € |
-| temoin_20 | 39 / 45 | 678.28 € | -32.30 € | -4.8 % | -161.00 € |
+| temoin_10 | 69 / 79 | 646.76 € | -111.32 € | -17.2 % | -133.88 € |
+| temoin_20 | 39 / 46 | 678.28 € | -32.30 € | -4.8 % | -161.00 € |
 | value_0 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 35 / 39 | 337.10 € | -40.17 € | -11.9 % | -122.83 € |
-| K_modele | 45 / 49 | 434.90 € | +68.23 € | +15.7 % | -74.75 € |
-| L_kelly_dynamique | 48 / 52 | 292.76 € | +31.10 € | +10.6 % | -59.37 € |
-| M_modele_20 | 30 / 34 | 564.70 € | +242.77 € | +43.0 % | -85.88 € |
+| K_modele | 45 / 50 | 434.90 € | +68.23 € | +15.7 % | -74.75 € |
+| L_kelly_dynamique | 48 / 53 | 292.76 € | +31.10 € | +10.6 % | -59.37 € |
+| M_modele_20 | 30 / 35 | 564.70 € | +242.77 € | +43.0 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.
