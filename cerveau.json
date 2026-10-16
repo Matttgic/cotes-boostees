@@ -1,30 +1,30 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 186,
+   "abstention": 187,
    "ecarter": 30,
    "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T05:25:02+00:00",
+  "derniere_observation": "2026-10-16T06:24:10+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 40,
+   "combiné_lie": 39,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 29,
    "ligne_absente": 29,
    "long_terme": 36,
-   "marche_non_cote": 32,
-   "match_introuvable": 58,
+   "marche_non_cote": 33,
+   "match_introuvable": 59,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
-  "observations_reglees": 203,
-  "observes": 252,
+  "observations_reglees": 204,
+  "observes": 253,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T05:25:02+00:00",
+ "derniere_observation": "2026-10-16T06:24:10+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -445,6 +445,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T04:25:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.783,
+     "decision": "ecarter",
+     "ev_pct": -7.5,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T06:24:10+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -4654,6 +4682,43 @@
    "pari": "Paris Brunner buteur et son équipe marque dans les deux mi-temps (remboursé si non titulaire)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|195173518|728945481": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-16T10:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.95,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 15.7,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T06:24:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195173518|728945481",
+   "match": "D.Medvedev - T.Paul",
+   "pari": "D.Medvedev remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -15466,6 +15531,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.85,
+     "cote_juste": 2.969,
+     "decision": "ecarter",
+     "ev_pct": -4.0,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 0.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T06:24:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|719986408|2231591708",
@@ -15952,6 +16045,32 @@
       "Conditions liées : probabilité seulement approximative"
      ],
      "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 2.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T06:24:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 185.5 PLUS) ; Betfair : match introuvable (Tasmania Jackjumpers - Adelaide 36ers)",
      "source": [],
      "version": "observation-v1.1"
     }
