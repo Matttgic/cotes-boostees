@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 196,
-   "ecarter": 30,
+   "abstention": 197,
+   "ecarter": 32,
    "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T08:18:09+00:00",
+  "derniere_observation": "2026-10-16T09:17:12+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -15,16 +15,16 @@
    "ancien_format": 17,
    "combiné_lie": 42,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 29,
+   "ev_insuffisante": 31,
    "ligne_absente": 31,
    "long_terme": 36,
    "marche_non_cote": 34,
-   "match_introuvable": 62,
+   "match_introuvable": 63,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
   "observations_reglees": 204,
-  "observes": 262,
+  "observes": 265,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T08:18:09+00:00",
+ "derniere_observation": "2026-10-16T09:17:12+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -511,6 +511,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.818,
+     "decision": "ecarter",
+     "ev_pct": -8.3,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T09:17:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "betsson|93954589.1|394273126.1",
@@ -577,6 +605,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-15T13:59:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Strasbourg - Paris SG) ; Betfair : match introuvable (Strasbourg - Paris SG)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.06,
+      "hausse_pct": 9.2,
+      "horizon_heures": 30.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T09:17:12+00:00",
      "mise_fictive": null,
      "motif_code": "match_introuvable",
      "raisons": [
@@ -16495,6 +16549,122 @@
    "pari": "Béziers, Dax et Nevers gagnent chacun leur match (respectivement contre Aurillac, Montauban et Agen)",
    "premiere_selection": null,
    "sport": "Rugby à XV"
+  },
+  "winamax|720251764|2232393178": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T16:30+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": 4.007,
+     "decision": "ecarter",
+     "ev_pct": -12.7,
+     "features": {
+      "cote_origine": 3.058,
+      "hausse_pct": 14.5,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T09:17:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Betfair",
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720251764|2232393178",
+   "match": "2. Bundesliga",
+   "pari": "Plus de 3,5 buts lors de chacun des matchs suivants : Holstein Kiel - Hertha Berlin et Energie Cottbus - Nuremberg",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|720322841|2232584824": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T15:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.404,
+      "hausse_pct": 24.8,
+      "horizon_heures": 6.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T09:17:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (TOTAL MATCH 4.5 PLUS) ; Betfair : match introuvable (TPS Turku - Kiekko-Espoo)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720322841|2232584824",
+   "match": "Liiga",
+   "pari": "Plus de 4,5 buts lors de chacun des matchs suivants : TPS Turku - Kiekko-Espoo, Tappara Tampere - Rauman Lukko et Pelicans - Vaasan Sport",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|720327080|2232596663": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T18:15+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": 3.399,
+     "decision": "ecarter",
+     "ev_pct": -11.7,
+     "features": {
+      "cote_origine": 2.417,
+      "hausse_pct": 24.1,
+      "horizon_heures": 9.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 3,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T09:17:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720327080|2232596663",
+   "match": "Synerglace Ligue Magnus",
+   "pari": "Bordeaux, Angers et Grenoble gagnent chacun leur match (respectivement contre Gap, Chamonix et Nice) (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
