@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-16T14:21:14+00:00",
+ "derniere_observation": "2026-10-16T15:19:41+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -898,6 +898,15 @@
      "date": "2026-10-16T13:15:05+00:00",
      "ev_modele_pct": null,
      "id": "winamax|720444607|2232922866",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|720528880|2233160978": {
+     "date": "2026-10-16T15:19:41+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|720528880|2233160978",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1804,6 +1813,15 @@
      "mise": null,
      "p_modele": 0.220213,
      "regle": null
+    },
+    "winamax|720528880|2233160978": {
+     "date": "2026-10-16T15:19:41+00:00",
+     "ev_modele_pct": -20.772,
+     "id": "winamax|720528880|2233160978",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.288103,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -2706,6 +2724,15 @@
      "mise": null,
      "p_modele": 0.220213,
      "regle": null
+    },
+    "winamax|720528880|2233160978": {
+     "date": "2026-10-16T15:19:41+00:00",
+     "ev_modele_pct": -20.772,
+     "id": "winamax|720528880|2233160978",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.288103,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -3607,6 +3634,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.220213,
+     "regle": null
+    },
+    "winamax|720528880|2233160978": {
+     "date": "2026-10-16T15:19:41+00:00",
+     "ev_modele_pct": -20.772,
+     "id": "winamax|720528880|2233160978",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.288103,
      "regle": null
     }
    }
@@ -8573,6 +8609,22 @@
    "pari": "Felix Lebrun gagne le match 4-1",
    "premiere_vue": "2026-10-16T13:13:49+00:00",
    "sport": "Tennis de table"
+  },
+  "winamax|720528880|2233160978": {
+   "available_at": "2026-10-16T15:19:41+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.45,
+   "debut": "2026-10-17T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|720528880|2233160978",
+   "long_terme": false,
+   "match": "Cleveland Guardians - Tampa Bay Rays",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Les deux équipes marquent chacune au moins 3 runs",
+   "premiere_vue": "2026-10-16T15:18:23+00:00",
+   "sport": "Baseball"
   }
  },
  "resultats": [
@@ -11152,6 +11204,14 @@
    "date": "2026-10-16T09:17:12+00:00",
    "ev_pct": -11.7,
    "statut": "exacte"
+  },
+  "winamax|720528880|2233160978": {
+   "available_at": "2026-10-16T15:19:41+00:00",
+   "cote_boostee": 2.75,
+   "cote_juste": 2.821,
+   "date": "2026-10-16T15:18:23+00:00",
+   "ev_pct": -2.5,
+   "statut": "approx"
   }
  }
 }
