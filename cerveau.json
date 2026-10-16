@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 206,
+   "abstention": 207,
    "ecarter": 33,
    "hors_perimetre": 37,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T15:18:23+00:00",
+  "derniere_observation": "2026-10-16T16:17:26+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -19,12 +19,12 @@
    "ligne_absente": 32,
    "long_terme": 37,
    "marche_non_cote": 34,
-   "match_introuvable": 69,
+   "match_introuvable": 70,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
   "observations_reglees": 211,
-  "observes": 276,
+  "observes": 277,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T15:18:23+00:00",
+ "derniere_observation": "2026-10-16T16:17:26+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -814,6 +814,45 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "genybet|12261184|4847650909": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-16T19:00+00:00",
+   "historique": [
+    {
+     "cote": 1.6,
+     "cote_juste": 1.55,
+     "decision": "ecarter",
+     "ev_pct": 3.2,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.7,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T16:17:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12261184|4847650909",
+   "match": "Le Mans / Toulouse : Les 2 équipes marquent",
+   "pari": "Le Mans / Toulouse : Les 2 équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "netbet|12231955|7443639753": {
    "bookmaker": "NetBet",
    "debut": "2026-10-14T19:00+00:00",
@@ -1393,6 +1432,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T15:18:23+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.972,
+     "decision": "ecarter",
+     "ev_pct": -11.9,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 24.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T16:17:26+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -17212,6 +17279,32 @@
       "Betfair",
       "Pinnacle"
      ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.008,
+      "hausse_pct": 16.4,
+      "horizon_heures": 0.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T16:17:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Holstein Kiel - Hertha Berlin) ; Betfair : ligne absente (TOTAL MATCH 3.5 PLUS)",
+     "source": [],
      "version": "observation-v1.1"
     }
    ],
