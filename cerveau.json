@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 204,
+   "abstention": 205,
    "ecarter": 33,
    "hors_perimetre": 37,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T13:20:02+00:00",
+  "derniere_observation": "2026-10-16T14:19:17+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -16,15 +16,15 @@
    "combiné_lie": 43,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 32,
-   "ligne_absente": 31,
+   "ligne_absente": 32,
    "long_terme": 37,
    "marche_non_cote": 34,
    "match_introuvable": 69,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
-  "observations_reglees": 208,
-  "observes": 274,
+  "observations_reglees": 211,
+  "observes": 275,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T13:20:02+00:00",
+ "derniere_observation": "2026-10-16T14:19:17+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1143,6 +1143,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 11.62,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T14:19:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "olybet|31250288|7346722843",
@@ -1311,6 +1337,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.935,
+     "decision": "ecarter",
+     "ev_pct": -11.1,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 26.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T14:19:17+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -5164,6 +5218,43 @@
    "pari": "Bordeaux gagne et Tom Willis marque au moins 1 essai ?",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|195207715|729164021": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-16T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.95,
+      "hausse_pct": 15.4,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T14:19:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195207715|729164021",
+   "match": "Le Mans - Toulouse",
+   "pari": "L.Mafouta ou C.Tengstedt buteur et les deux équipes marquent (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -16999,6 +17090,35 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Betfair",
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.86,
+     "decision": "ecarter",
+     "ev_pct": -9.3,
+     "features": {
+      "cote_origine": 2.886,
+      "hausse_pct": 21.3,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T14:19:17+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [

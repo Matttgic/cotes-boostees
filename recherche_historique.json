@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-16T13:21:12+00:00",
+ "derniere_observation": "2026-10-16T14:21:14+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -304,6 +304,15 @@
      "date": "2026-10-16T10:17:31+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195196341|729097953",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195207715|729164021": {
+     "date": "2026-10-16T14:20:43+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195207715|729164021",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1202,6 +1211,15 @@
      "p_modele": 0.33925,
      "regle": null
     },
+    "unibet|195207715|729164021": {
+     "date": "2026-10-16T14:20:43+00:00",
+     "ev_modele_pct": -2.714,
+     "id": "unibet|195207715|729164021",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432383,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2095,6 +2113,15 @@
      "p_modele": 0.33925,
      "regle": null
     },
+    "unibet|195207715|729164021": {
+     "date": "2026-10-16T14:20:43+00:00",
+     "ev_modele_pct": -2.714,
+     "id": "unibet|195207715|729164021",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432383,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2986,6 +3013,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.33925,
+     "regle": null
+    },
+    "unibet|195207715|729164021": {
+     "date": "2026-10-16T14:20:43+00:00",
+     "ev_modele_pct": -2.714,
+     "id": "unibet|195207715|729164021",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432383,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -5330,6 +5366,22 @@
    "pari": "Bordeaux gagne et Tom Willis marque au moins 1 essai ?",
    "premiere_vue": "2026-10-16T10:16:20+00:00",
    "sport": "Rugby"
+  },
+  "unibet|195207715|729164021": {
+   "available_at": "2026-10-16T14:20:43+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 1.95,
+   "debut": "2026-10-16T18:45:00.000Z",
+   "disponible": true,
+   "id": "unibet|195207715|729164021",
+   "long_terme": false,
+   "match": "Le Mans - Toulouse",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "L.Mafouta ou C.Tengstedt buteur et les deux équipes marquent (remboursé si non titulaires)",
+   "premiere_vue": "2026-10-16T14:19:17+00:00",
+   "sport": "Football"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -10353,6 +10405,30 @@
    "id": "winamax|720199368|2232250908",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-16T13:15:05+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-16T14:21:14+00:00",
+   "id": "betsson|93954589.1|394273126.1",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T14:20:43+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-16T14:21:14+00:00",
+   "id": "unibet|195173518|728945481",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T14:20:43+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-16T14:21:14+00:00",
+   "id": "winamax|720232157|2232338905",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T14:20:43+00:00",
    "source": null,
    "statut": "perdu"
   }
