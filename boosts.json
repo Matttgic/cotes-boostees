@@ -396,11 +396,11 @@
   "bookmaker": "Betsson",
   "cote_boostee": 2.55,
   "cote_boostee_initiale": 2.55,
-  "cote_origine": 2.3,
+  "cote_origine": 2.38,
   "debut": "2026-10-18T13:00+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
-  "hausse_pct": 10.9,
+  "hausse_pct": 7.1,
   "historique_cotes": [],
   "id": "betsson|93954754.1|394273526.1",
   "intitule_brut": "🎯 Amine Gouiri Buteur! (Max 20€) - Flash Boost [Gouiri, Amine]",
@@ -427,7 +427,7 @@
   "match": "Angers - Marseille",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 39,
+  "nb_vues": 40,
   "pari": "Amine Gouiri Buteur!",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -440,7 +440,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.55,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (Angers - Marseille)",
    "statut": "non_evaluable"
@@ -450,11 +450,11 @@
   "bookmaker": "Betsson",
   "cote_boostee": 2.25,
   "cote_boostee_initiale": 2.3,
-  "cote_origine": 2.05,
+  "cote_origine": 2.03,
   "debut": "2026-10-17T15:15+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
-  "hausse_pct": 9.8,
+  "hausse_pct": 10.8,
   "historique_cotes": [
    {
     "cote_boostee": 2.3,
@@ -486,7 +486,7 @@
   "match": "Strasbourg - Paris SG",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 39,
+  "nb_vues": 40,
   "pari": "Kvara Buteur!",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -499,7 +499,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.25,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Strasbourg - Paris SG) ; Betfair : match introuvable (Strasbourg - Paris SG)",
    "statut": "non_evaluable"
@@ -511,7 +511,7 @@
   "cote_boostee_initiale": 12.5,
   "cote_origine": 10.5,
   "debut": "2026-10-17T16:30+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 19.0,
   "historique_cotes": [],
@@ -540,7 +540,7 @@
   "match": "Bayern Munich - Leipzig",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 39,
+  "nb_vues": 40,
   "pari": "Le Bayern gagne 3-0",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -553,7 +553,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 12.5,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -565,7 +565,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": 1.9,
   "debut": "2026-10-18T15:30+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 10.5,
   "historique_cotes": [],
@@ -607,7 +607,7 @@
   "match": "Nottingham Forest - Arsenal",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 39,
+  "nb_vues": 40,
   "pari": "Arsenal mène à la mi-temps et gagne le match",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -621,7 +621,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.1,
    "cote_juste": 3.935,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [
     {
      "cote_juste": 2.3134,
@@ -852,6 +852,19 @@
    "competition_id": 38280,
    "event_id": 12261184,
    "url": ""
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Le pari « les 2 équipes marquent » est perdu : Toulouse a marqué, mais Le Mans n’a pas marqué pendant le temps réglementaire.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Le Mans 0-3 Toulouse (fin du match) ; buts : J. Russell-Rowe (45′), A. Dønnum (58′), C. Tengstedt (86′). Le Mans n’a pas marqué.",
+   "sources": [
+    "https://www.toulousefc.com/match-center/equipe-professionnelle-20262027-9tnkmwtrqc12i4hglhe4cdedw?tab=compositions",
+    "https://www.football.fr/direct-foot/337758/338124/le-mans-toulouse.shtml"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Football",
   "type": "cote boostée",
@@ -1487,6 +1500,19 @@
    "market_id": 2494400967
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Toulouse a gagné et le match a compté plus de 2,5 buts : les deux conditions du pari sont remplies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Le Mans 0-3 Toulouse (temps réglementaire ; 3 buts au total)",
+   "sources": [
+    "https://www.toulousefc.com/match-center/equipe-professionnelle-20262027-9tnkmwtrqc12i4hglhe4cdedw",
+    "https://sports.orange.fr/football/ligue-1/match/le-mans-toulouse-apres-match-SPEF011pRI1pXC.html"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -1574,7 +1600,7 @@
   "cote_boostee_initiale": 3.25,
   "cote_origine": null,
   "debut": "2026-10-17T15:15+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1603,7 +1629,7 @@
   "match": "Strasbourg - Paris SG",
   "mise_max": 11.11,
   "mise_max_supposee": false,
-  "nb_vues": 13,
+  "nb_vues": 14,
   "pari": "Paris SG gagne par au moins 3 buts",
   "premiere_vue": "2026-10-16T12:14:39+00:00",
   "ref": {
@@ -1617,7 +1643,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.25,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Strasbourg - Paris SG) ; Betfair : match introuvable (Strasbourg - Paris SG)",
    "statut": "non_evaluable"
@@ -1749,7 +1775,7 @@
   "cote_boostee_initiale": 3.5,
   "cote_origine": null,
   "debut": "2026-10-17T11:22+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1791,7 +1817,7 @@
   "match": "Manchester City - Ipswitch",
   "mise_max": 10.0,
   "mise_max_supposee": false,
-  "nb_vues": 13,
+  "nb_vues": 14,
   "pari": "Manchester City gagne et E. Haaland marque 2 buts ou plus",
   "premiere_vue": "2026-10-16T12:14:39+00:00",
   "ref": {
@@ -1805,7 +1831,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.5,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Manchester City - Ipswitch) ; Betfair : match introuvable (Manchester City - Ipswitch)",
    "statut": "non_evaluable"
@@ -1817,7 +1843,7 @@
   "cote_boostee_initiale": 3.5,
   "cote_origine": null,
   "debut": "2026-10-17T16:30+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": null,
   "historique_cotes": [],
@@ -1846,7 +1872,7 @@
   "match": "Nottingham Forest - Arsenal",
   "mise_max": 10.0,
   "mise_max_supposee": false,
-  "nb_vues": 13,
+  "nb_vues": 14,
   "pari": "Arsenal marque au moins 3 buts",
   "premiere_vue": "2026-10-16T12:14:39+00:00",
   "ref": {
@@ -1861,7 +1887,7 @@
   "valeur_derniere": {
    "cote_boostee": 3.5,
    "cote_juste": 4.014,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [
     {
      "cote_juste": 4.0139,
@@ -2588,7 +2614,7 @@
   "cote_boostee_initiale": 5.0,
   "cote_origine": 4.2,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 19.0,
   "historique_cotes": [],
@@ -2599,7 +2625,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 15,
+  "nb_vues": 16,
   "pari": "DEN Nuggets - Les Nuggets se qualifient pour les Finales de Conférence",
   "premiere_vue": "2026-10-16T10:16:20+00:00",
   "ref": {
@@ -6130,6 +6156,19 @@
    "outcome_id": 728689895,
    "periode": "90 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Tengstedt a marqué et les deux joueurs étaient titulaires, mais Le Mans n’a pas marqué : la condition « les deux équipes marquent » n’est donc pas remplie. Le pari est perdu, pas remboursé.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Le Mans 0-3 Toulouse (temps réglementaire) ; buts : Russell-Rowe 46', Dønnum 59', Tengstedt 87'. Mafouta et Tengstedt étaient titulaires.",
+   "sources": [
+    "https://www.skysports.com/football/le-mans-vs-toulouse/teams/557053",
+    "https://www.footmercato.net/live/901440663920220886-le-mans-vs-toulouse"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -6503,6 +6542,19 @@
    "outcome_id": 729097953,
    "periode": "80 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Le pari est perdu : Bordeaux n’a pas gagné, le match s’étant terminé sur un nul. Tom Willis n’a pas marqué d’essai.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Gloucester 36-36 Bordeaux ; Tom Willis n’a pas marqué d’essai (Sipili Falatea a conclu l’action bordelaise à la 19e).",
+   "sources": [
+    "https://www.epcrugby.com/champions-cup/matches/293317/news",
+    "https://www.ubbrugby.com/actualites/10553-match-nul-face-a-gloucester.html"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Rugby",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -6569,6 +6621,19 @@
    "market_id": 195207715,
    "outcome_id": 729164021,
    "periode": "90 Mins"
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Tengstedt a bien marqué et les deux joueurs étaient titulaires, donc la condition de remboursement ne s’applique pas. Le Mans n’ayant inscrit aucun but, la condition « les deux équipes marquent » n’est pas remplie : pari perdu.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Le Mans 0-3 Toulouse ; buts de Russell-Rowe (46e), Dønnum (59e) et Tengstedt (87e). Mafouta et Tengstedt étaient titulaires ; Le Mans n’a pas marqué.",
+   "sources": [
+    "https://www.eurosport.fr/football/ligue-1/2026-2027/live-le-mans-fc-toulouse-fc_mtc21875802/live-commentary.shtml",
+    "https://www.skysports.com/football/le-mans-vs-toulouse/teams/557053"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Football",
   "type": "cote boostée",
@@ -25668,6 +25733,19 @@
    "outcome_id": 2232343694,
    "tournoi_id": 900002471
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Francfort a gagné, mais le match n’a compté qu’un but, soit moins de 3,5 : la condition sur le total de buts n’est pas remplie.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Eintracht Francfort 1–0 Cologne (0–0 à la mi-temps) ; 1 but au total, Ebnoutalib 77e.",
+   "sources": [
+    "https://www.bundesliga.com/en/bundesliga/news/eintracht-frankfurt-cologne-match-report-highlights-matchday-6-el-mala-moore-39591",
+    "https://en.eintracht.de/news/ebnoutalibs-treffer-macht-den-unterschied-179828/"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "sport_id_winamax": 1,
   "type": "cote boostée",
@@ -25792,6 +25870,20 @@
    "outcome_id": 2232346204,
    "tournoi_id": 900002471
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Mafouta et Tengstedt ont participé au match, mais la première période s’est terminée sans but. Tengstedt a marqué en seconde période ; aucun des deux joueurs n’a marqué avant la pause.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Le Mans 0-3 Toulouse (mi-temps : 0-0 ; buts à la 46e, 59e et 87e).",
+   "sources": [
+    "https://www.skysports.com/football/le-mans-vs-toulouse/teams/557053",
+    "https://www.football.fr/direct-foot/337758/338124/le-mans-toulouse.shtml",
+    "https://www.eurosport.fr/football/ligue-1/2026-2027/live-le-mans-fc-toulouse-fc_mtc21875802/live-commentary.shtml"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "sport_id_winamax": 1,
   "type": "cote boostée",
@@ -25862,6 +25954,19 @@
    "match_id": 1000261697,
    "outcome_id": 2232351225,
    "tournoi_id": 900002471
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Sassuolo ne menait pas à la mi-temps et a perdu le match : les deux conditions du pari ne sont donc pas remplies.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Mi-temps : Frosinone 3-2 Sassuolo ; score final : Frosinone 4-2 Sassuolo.",
+   "sources": [
+    "https://www.legaseriea.it/serie-a/news/frosinone-sassuolo-2026-2027-4-2-cronaca-risultato-gol",
+    "https://www.frosinonecalcio.com/frosinone-sassuolo-4-2/"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Football",
   "sport_id_winamax": 1,
@@ -25991,6 +26096,19 @@
    "match_id": 1000261702,
    "outcome_id": 2232355764,
    "tournoi_id": 900002471
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Le pari exige une victoire du Deportivo sur l’un des scores 1-0, 2-0 ou 3-0. Le match s’est terminé sur un nul 1-1.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Deportivo La Coruña 1-1 Levante (terminé ; buts de Bil Nsongo à 63′ et Dani Requena à 82′)",
+   "sources": [
+    "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-rc-deportivo-levante-ud-9",
+    "https://www.levanteud.com/partidos/temporada-2026-2027-laliga-ea-sports-9-rc-deportivo-vs-levante-ud-3002"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Football",
   "sport_id_winamax": 1,
@@ -26676,6 +26794,20 @@
    "outcome_id": 2232914998,
    "tournoi_id": 900005780
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-16T23:20:35+00:00",
+   "explication": "Le match est terminé et les deux joueurs ont chacun marqué au moins un essai : le pari est gagné.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T23:20:35+00:00",
+   "score": "Gloucester 36–36 Bordeaux-Bègles. Pablo Uberti a marqué un essai (47e) et Louis Bielle-Biarrey en a marqué deux (50e, 69e).",
+   "sources": [
+    "https://www.ubbrugby.com/actualites/10553-match-nul-face-a-gloucester.html",
+    "https://epcrugby.com/champions-cup/matches/293317/news",
+    "https://www.gloucesterrugby.co.uk/"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Rugby à XV",
   "sport_id_winamax": 12,
   "type": "cote boostée",
@@ -26759,7 +26891,7 @@
   "cote_boostee_initiale": 2.75,
   "cote_origine": 2.55,
   "debut": "2026-10-17T00:00+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 7.8,
   "historique_cotes": [],
@@ -26798,7 +26930,7 @@
   "long_terme": false,
   "match": "Cleveland Guardians - Tampa Bay Rays",
   "mise_max": 20.0,
-  "nb_vues": 9,
+  "nb_vues": 10,
   "pari": "Les deux équipes marquent chacune au moins 3 runs",
   "premiere_vue": "2026-10-16T15:18:23+00:00",
   "ref": {
@@ -26813,12 +26945,12 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.75,
-   "cote_juste": 3.004,
-   "date": "2026-10-16T22:20:05+00:00",
+   "cote_juste": 2.992,
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [
     {
-     "cote_juste": 1.7593,
-     "cote_reference": 1.7042,
+     "cote_juste": 1.7652,
+     "cote_reference": 1.7092,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
@@ -26830,8 +26962,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.7075,
-     "cote_reference": 1.6452,
+     "cote_juste": 1.6949,
+     "cote_reference": 1.6329,
      "issue": "PLUS",
      "joueur": null,
      "ligne": 2.5,
@@ -26843,8 +26975,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -15.1,
-   "ev_pct": -8.5,
+   "ev_origine_pct": -14.8,
+   "ev_pct": -8.1,
    "sources": [
     "Pinnacle"
    ],
@@ -26896,7 +27028,7 @@
   "cote_boostee_initiale": 2.6,
   "cote_origine": 2.25,
   "debut": "2026-10-17T05:00+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 8.9,
   "historique_cotes": [
@@ -26940,7 +27072,7 @@
   "long_terme": false,
   "match": "Australie - Nouvelle Zélande",
   "mise_max": 20.0,
-  "nb_vues": 7,
+  "nb_vues": 8,
   "pari": "Nouvelle Zélande gagne et plus de 59,5 points dans le match",
   "premiere_vue": "2026-10-16T17:16:39+00:00",
   "ref": {
@@ -26955,7 +27087,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.45,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (Australie - Nouvelle Zélande) ; Betfair : match introuvable (Australie - Nouvelle Zélande)",
    "statut": "non_evaluable"
@@ -26963,13 +27095,13 @@
  },
  "winamax|720614120|2233403586": {
   "bookmaker": "Winamax",
-  "cote_boostee": 2.5,
+  "cote_boostee": 2.4,
   "cote_boostee_initiale": 2.7,
-  "cote_origine": 2.15,
+  "cote_origine": 2.1,
   "debut": "2026-10-17T00:30+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
-  "hausse_pct": 16.3,
+  "hausse_pct": 14.3,
   "historique_cotes": [
    {
     "cote_boostee": 2.7,
@@ -26978,6 +27110,10 @@
    {
     "cote_boostee": 2.6,
     "jusqu_a": "2026-10-16T21:20:50+00:00"
+   },
+   {
+    "cote_boostee": 2.5,
+    "jusqu_a": "2026-10-16T23:19:09+00:00"
    }
   ],
   "id": "winamax|720614120|2233403586",
@@ -27002,7 +27138,7 @@
   "long_terme": false,
   "match": "Boca Juniors - Talleres",
   "mise_max": 20.0,
-  "nb_vues": 7,
+  "nb_vues": 8,
   "pari": "Boca Juniors gagne le match 1-0, 2-0 ou 3-0",
   "premiere_vue": "2026-10-16T17:16:39+00:00",
   "ref": {
@@ -27016,8 +27152,8 @@
   "sport_id_winamax": 1,
   "type": "cote boostée",
   "valeur_derniere": {
-   "cote_boostee": 2.5,
-   "date": "2026-10-16T22:20:05+00:00",
+   "cote_boostee": 2.4,
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -27029,7 +27165,7 @@
   "cote_boostee_initiale": 2.6,
   "cote_origine": 2.3,
   "debut": "2026-10-17T01:00+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 13.0,
   "historique_cotes": [],
@@ -27068,7 +27204,7 @@
   "long_terme": false,
   "match": "Colorado Avalanche - Pittsburgh Penguins",
   "mise_max": 20.0,
-  "nb_vues": 7,
+  "nb_vues": 8,
   "pari": "Nathan MacKinnon buteur et Colorado Avalanche gagne (hors prol. et TAB)",
   "premiere_vue": "2026-10-16T17:16:39+00:00",
   "ref": {
@@ -27083,8 +27219,8 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.6,
-   "cote_juste": 3.665,
-   "date": "2026-10-16T22:20:05+00:00",
+   "cote_juste": 3.681,
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [
     {
      "cote_juste": 1.9692,
@@ -27100,8 +27236,8 @@
      "source": "Pinnacle"
     },
     {
-     "cote_juste": 1.8612,
-     "cote_reference": 1.8065,
+     "cote_juste": 1.8693,
+     "cote_reference": 1.813,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
@@ -27113,8 +27249,8 @@
      "source": "Pinnacle"
     }
    ],
-   "ev_origine_pct": -37.2,
-   "ev_pct": -29.1,
+   "ev_origine_pct": -37.5,
+   "ev_pct": -29.4,
    "sources": [
     "Pinnacle"
    ],
@@ -27166,7 +27302,7 @@
   "cote_boostee_initiale": 4.0,
   "cote_origine": 3.35,
   "debut": "2026-10-17T02:00+00:00",
-  "derniere_vue": "2026-10-16T22:20:05+00:00",
+  "derniere_vue": "2026-10-16T23:19:09+00:00",
   "disponible": true,
   "hausse_pct": 13.4,
   "historique_cotes": [
@@ -27210,7 +27346,7 @@
   "long_terme": false,
   "match": "Anaheim Ducks - Boston Bruins",
   "mise_max": 20.0,
-  "nb_vues": 7,
+  "nb_vues": 8,
   "pari": "Anaheim Ducks gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
   "premiere_vue": "2026-10-16T17:16:39+00:00",
   "ref": {
@@ -27225,11 +27361,11 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.8,
-   "date": "2026-10-16T22:20:05+00:00",
+   "date": "2026-10-16T23:19:09+00:00",
    "detail": [
     {
-     "cote_juste": 2.6221,
-     "cote_reference": 2.51,
+     "cote_juste": 2.5888,
+     "cote_reference": 2.48,
      "issue": "DOM",
      "joueur": null,
      "ligne": null,
