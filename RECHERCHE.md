@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-16T21:21:49+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-16T22:24:01+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,28 +18,28 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 90 / 100 | 827.95 € | -76.56 € | -9.2 % | -167.12 € |
-| temoin_20 | 54 / 62 | 899.38 € | +9.15 € | +1.0 % | -162.12 € |
+| temoin_10 | 91 / 100 | 837.95 € | -86.56 € | -10.3 % | -167.12 € |
+| temoin_20 | 55 / 62 | 912.36 € | +32.51 € | +3.6 % | -162.12 € |
 | value_0 | 1 / 2 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 43 / 44 | 414.14 € | +29.68 € | +7.2 % | -122.83 € |
-| K_modele | 54 / 57 | 524.90 € | +130.73 € | +24.9 % | -74.75 € |
-| L_kelly_dynamique | 57 / 60 | 364.02 € | +75.53 € | +20.7 % | -59.37 € |
-| M_modele_20 | 39 / 41 | 744.70 € | +367.77 € | +49.4 % | -85.88 € |
+| K_modele | 56 / 57 | 544.90 € | +150.73 € | +27.7 % | -74.75 € |
+| L_kelly_dynamique | 59 / 60 | 369.17 € | +76.74 € | +20.8 % | -59.37 € |
+| M_modele_20 | 40 / 41 | 758.57 € | +409.38 € | +54.0 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.
 
 ## Stabilité et calibration
 
-Sur 193 prévisions réglées : score de Brier du modèle 0.2091, prior bookmaker 0.2099 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 197 prévisions réglées : score de Brier du modèle 0.2109, prior bookmaker 0.2112 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
 | J_adaptative | [-31.4, 47.2] |
-| K_modele | [-10.6, 61.9] |
-| L_kelly_dynamique | [-16.4, 57.3] |
-| M_modele_20 | [3.1, 94.2] |
+| K_modele | [-8.3, 66.1] |
+| L_kelly_dynamique | [-14.0, 58.3] |
+| M_modele_20 | [9.4, 101.1] |
 Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils ne corrigent pas la sélection a posteriori des méthodes et ne simulent pas un nouvel apprentissage complet.
 
 ### J_adaptative par jour de décision
@@ -72,18 +72,18 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-13 | 8 | +74.00 € |
 | 2026-10-14 | 6 | +18.00 € |
 | 2026-10-15 | 4 | -5.00 € |
-| 2026-10-16 | 3 | +49.50 € |
+| 2026-10-16 | 5 | +69.50 € |
 
 | Sport | Réglés | Gain net |
 |---|---|---|
 | Baseball | 1 | -10.00 € |
 | Basketball | 1 | -10.00 € |
-| Football | 17 | -18.00 € |
+| Football | 18 | +12.00 € |
 | Football Américain | 1 | -10.00 € |
 | Formule 1 | 3 | -30.00 € |
 | Hockey sur glace | 1 | -9.00 € |
 | Rugby | 3 | -5.00 € |
-| Rugby à XV | 1 | +8.48 € |
+| Rugby à XV | 2 | -1.52 € |
 | Tennis | 26 | +214.25 € |
 
 ### L_kelly_dynamique par jour de décision
@@ -96,18 +96,18 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-13 | 8 | +53.84 € |
 | 2026-10-14 | 6 | +16.18 € |
 | 2026-10-15 | 4 | +5.56 € |
-| 2026-10-16 | 3 | +25.19 € |
+| 2026-10-16 | 5 | +26.40 € |
 
 | Sport | Réglés | Gain net |
 |---|---|---|
 | Baseball | 1 | -3.94 € |
 | Basketball | 1 | -3.65 € |
-| Football | 17 | -61.76 € |
+| Football | 18 | -56.99 € |
 | Football Américain | 2 | -11.83 € |
 | Formule 1 | 3 | -11.09 € |
 | Hockey sur glace | 3 | -5.08 € |
 | Rugby | 2 | +11.14 € |
-| Rugby à XV | 1 | +8.14 € |
+| Rugby à XV | 2 | +4.58 € |
 | Tennis | 27 | +153.60 € |
 
 ### M_modele_20 par jour de décision
@@ -120,12 +120,12 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 | 2026-10-13 | 8 | +148.00 € |
 | 2026-10-14 | 5 | +8.25 € |
 | 2026-10-15 | 4 | -10.00 € |
-| 2026-10-16 | 3 | +99.00 € |
+| 2026-10-16 | 4 | +140.61 € |
 
 | Sport | Réglés | Gain net |
 |---|---|---|
 | Basketball | 1 | -20.00 € |
-| Football | 14 | -16.05 € |
+| Football | 15 | +25.56 € |
 | Formule 1 | 1 | -19.76 € |
 | Hockey sur glace | 1 | -17.82 € |
 | Tennis | 22 | +441.40 € |
@@ -134,15 +134,15 @@ Ces intervalles décrivent la dispersion des paris déjà sélectionnés ; ils n
 
 | EV estimée minimale | Mise maximale | Réglés | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| 0 % | 5 € | 89 | +15.98 € | +3.6 % | -54.52 € |
-| 0 % | 10 € | 66 | +42.54 € | +6.7 % | -92.44 € |
+| 0 % | 5 € | 91 | +25.98 € | +5.8 % | -54.52 € |
+| 0 % | 10 € | 68 | +62.54 € | +9.5 % | -92.44 € |
 | 0 % | 20 € | 42 | +241.11 € | +31.8 % | -143.22 € |
-| 5 % | 5 € | 68 | +45.00 € | +13.3 % | -52.25 € |
-| 5 % | 10 € | 54 | +130.73 € | +24.9 % | -74.75 € |
-| 5 % | 20 € | 39 | +367.77 € | +49.4 % | -85.88 € |
-| 10 % | 5 € | 56 | +62.25 € | +22.3 % | -46.75 € |
-| 10 % | 10 € | 45 | +140.75 € | +32.0 % | -79.75 € |
-| 10 % | 20 € | 32 | +267.92 € | +43.5 % | -76.00 € |
+| 5 % | 5 € | 70 | +55.00 € | +15.7 % | -52.25 € |
+| 5 % | 10 € | 56 | +150.73 € | +27.7 % | -74.75 € |
+| 5 % | 20 € | 40 | +409.38 € | +54.0 % | -85.88 € |
+| 10 % | 5 € | 57 | +57.25 € | +20.1 % | -46.75 € |
+| 10 % | 10 € | 46 | +130.75 € | +29.0 % | -79.75 € |
+| 10 % | 20 € | 33 | +264.03 € | +42.6 % | -76.00 € |
 
 ## Classement exploratoire des 56 filtres
 
@@ -159,52 +159,52 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:rugby:1.5-2.5 | 4 | +10.00 € | +25.0 % |
 | sport:hockey sur glace:1.5-2.5 | 2 | +5.00 € | +25.0 % |
 | bookmaker:Unibet:1.5-3.5 | 29 | +3.00 € | +1.0 % |
-| bookmaker:Unibet:1.5-5 | 29 | +3.00 € | +1.0 % |
-| bookmaker:Unibet:1.5-8 | 29 | +3.00 € | +1.0 % |
 | bookmaker:Unibet:2-3.5 | 29 | +3.00 € | +1.0 % |
-| bookmaker:Unibet:2-5 | 29 | +3.00 € | +1.0 % |
 | sport:basketball:1.5-2.5 | 2 | +1.00 € | +5.0 % |
 | bookmaker:Winamax:1.5-2.5 | 24 | -1.50 € | -0.6 % |
-| sport:rugby:1.5-3.5 | 8 | -2.50 € | -3.1 % |
-| sport:rugby:2-3.5 | 8 | -2.50 € | -3.1 % |
 | tous:tous:1.5-2.5 | 36 | -4.50 € | -1.2 % |
+| sport:football:1.5-5 | 64 | -6.23 € | -1.0 % |
+| sport:football:1.5-8 | 64 | -6.23 € | -1.0 % |
+| sport:football:2-5 | 64 | -6.23 € | -1.0 % |
+| bookmaker:Unibet:1.5-5 | 30 | -7.00 € | -2.3 % |
+| bookmaker:Unibet:1.5-8 | 30 | -7.00 € | -2.3 % |
+| bookmaker:Unibet:2-5 | 30 | -7.00 € | -2.3 % |
 | sport:hockey sur glace:1.5-3.5 | 10 | -11.50 € | -11.5 % |
 | sport:hockey sur glace:2-3.5 | 10 | -11.50 € | -11.5 % |
 | bookmaker:Unibet:1.5-2.5 | 11 | -12.50 € | -11.4 % |
-| sport:rugby:1.5-5 | 9 | -12.50 € | -13.9 % |
-| sport:rugby:1.5-8 | 9 | -12.50 € | -13.9 % |
-| sport:rugby:2-5 | 9 | -12.50 € | -13.9 % |
+| sport:rugby:1.5-3.5 | 9 | -12.50 € | -13.9 % |
+| sport:rugby:2-3.5 | 9 | -12.50 € | -13.9 % |
 | sport:football:1.5-2.5 | 18 | -16.00 € | -8.9 % |
-| sport:rugby:3-5 | 2 | -20.00 € | -100.0 % |
+| sport:rugby:1.5-5 | 10 | -22.50 € | -22.5 % |
+| sport:rugby:1.5-8 | 10 | -22.50 € | -22.5 % |
+| sport:rugby:2-5 | 10 | -22.50 € | -22.5 % |
+| sport:football:3-5 | 59 | -22.88 € | -4.0 % |
 | sport:basketball:1.5-3.5 | 6 | -29.00 € | -48.3 % |
 | sport:basketball:2-3.5 | 6 | -29.00 € | -48.3 % |
-| sport:football:3-5 | 57 | -42.88 € | -7.7 % |
-| sport:football:1.5-5 | 61 | -44.23 € | -7.5 % |
-| sport:football:1.5-8 | 61 | -44.23 € | -7.5 % |
-| sport:football:2-5 | 61 | -44.23 € | -7.5 % |
+| sport:rugby:3-5 | 3 | -30.00 € | -100.0 % |
+| bookmaker:Winamax:3-5 | 79 | -31.15 € | -4.1 % |
 | sport:basketball:1.5-5 | 8 | -49.00 € | -61.3 % |
 | sport:basketball:1.5-8 | 8 | -49.00 € | -61.3 % |
 | sport:basketball:2-5 | 8 | -49.00 € | -61.3 % |
-| bookmaker:Unibet:3-5 | 8 | -49.50 € | -61.9 % |
 | sport:basketball:3-5 | 5 | -50.00 € | -100.0 % |
-| bookmaker:Winamax:3-5 | 77 | -51.15 € | -7.0 % |
+| bookmaker:Unibet:3-5 | 9 | -59.50 € | -66.1 % |
+| sport:football:1.5-3.5 | 54 | -61.88 € | -11.9 % |
+| sport:football:2-3.5 | 54 | -61.88 € | -11.9 % |
+| tous:tous:3-5 | 76 | -65.09 € | -8.8 % |
 | sport:hockey sur glace:3-5 | 17 | -70.50 € | -41.5 % |
-| tous:tous:3-5 | 73 | -75.09 € | -10.6 % |
 | sport:hockey sur glace:1.5-5 | 20 | -75.50 € | -37.8 % |
 | sport:hockey sur glace:2-5 | 20 | -75.50 € | -37.8 % |
-| sport:football:1.5-3.5 | 53 | -79.88 € | -15.7 % |
-| sport:football:2-3.5 | 53 | -79.88 € | -15.7 % |
-| tous:tous:1.5-5 | 90 | -84.88 € | -10.3 % |
-| tous:tous:2-5 | 90 | -84.88 € | -10.3 % |
+| tous:tous:1.5-5 | 92 | -80.48 € | -9.5 % |
+| tous:tous:2-5 | 92 | -80.48 € | -9.5 % |
 | sport:hockey sur glace:1.5-8 | 21 | -85.50 € | -40.7 % |
-| tous:tous:1.5-8 | 87 | -102.48 € | -12.5 % |
-| bookmaker:Winamax:1.5-5 | 85 | -130.21 € | -15.8 % |
-| bookmaker:Winamax:2-5 | 85 | -130.21 € | -15.8 % |
-| bookmaker:Winamax:1.5-8 | 87 | -138.45 € | -16.6 % |
-| tous:tous:1.5-3.5 | 77 | -160.89 € | -22.4 % |
-| tous:tous:2-3.5 | 77 | -160.89 € | -22.4 % |
-| bookmaker:Winamax:1.5-3.5 | 72 | -245.75 € | -35.7 % |
-| bookmaker:Winamax:2-3.5 | 72 | -245.75 € | -35.7 % |
+| tous:tous:1.5-8 | 89 | -98.08 € | -11.7 % |
+| bookmaker:Winamax:1.5-5 | 86 | -109.30 € | -13.1 % |
+| bookmaker:Winamax:2-5 | 86 | -109.30 € | -13.1 % |
+| bookmaker:Winamax:1.5-8 | 88 | -120.00 € | -14.3 % |
+| tous:tous:1.5-3.5 | 78 | -146.49 € | -20.2 % |
+| tous:tous:2-3.5 | 78 | -146.49 € | -20.2 % |
+| bookmaker:Winamax:1.5-3.5 | 73 | -255.75 € | -36.6 % |
+| bookmaker:Winamax:2-3.5 | 73 | -255.75 € | -36.6 % |
 
 ## Suivi futur gelé
 
@@ -221,7 +221,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 235 événements de règlement : {'gpt-6-luna': 235}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 239 événements de règlement : {'gpt-6-luna': 239}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
