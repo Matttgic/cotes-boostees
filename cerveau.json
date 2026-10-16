@@ -1,21 +1,21 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 185,
-   "ecarter": 29,
+   "abstention": 186,
+   "ecarter": 30,
    "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T04:25:58+00:00",
+  "derniere_observation": "2026-10-16T05:25:02+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 39,
+   "combiné_lie": 40,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 28,
+   "ev_insuffisante": 29,
    "ligne_absente": 29,
    "long_terme": 36,
    "marche_non_cote": 32,
@@ -23,8 +23,8 @@
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
-  "observations_reglees": 201,
-  "observes": 250,
+  "observations_reglees": 203,
+  "observes": 252,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T04:25:58+00:00",
+ "derniere_observation": "2026-10-16T05:25:02+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -15885,6 +15885,82 @@
    "pari": "Vegas Golden Knights gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|720197315|2232245095": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T07:26+00:00",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": 5.242,
+     "decision": "ecarter",
+     "ev_pct": -4.6,
+     "features": {
+      "cote_origine": 4.4,
+      "hausse_pct": 13.6,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T05:25:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720197315|2232245095",
+   "match": "Maja Chwalinska - Maria Sakkari",
+   "pari": "Maja Chwalinska gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|720199368|2232250908": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T08:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T05:25:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720199368|2232250908",
+   "match": "Tasmania Jackjumpers - Adelaide 36ers",
+   "pari": "Tasmania Jackjumpers gagne et plus de 185,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",

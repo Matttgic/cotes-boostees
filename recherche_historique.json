@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-16T04:28:25+00:00",
+ "derniere_observation": "2026-10-16T05:26:08+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -682,6 +682,24 @@
      "date": "2026-10-15T21:13:14+00:00",
      "ev_modele_pct": null,
      "id": "winamax|720028469|2231712565",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|720197315|2232245095": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|720197315|2232245095",
+     "joue": true,
+     "mise": 10.08,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|720199368|2232250908": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|720199368|2232250908",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1372,6 +1390,24 @@
      "mise": null,
      "p_modele": 0.402332,
      "regle": null
+    },
+    "winamax|720197315|2232245095": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": 30.464,
+     "id": "winamax|720197315|2232245095",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.260929,
+     "regle": null
+    },
+    "winamax|720199368|2232250908": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": -27.626,
+     "id": "winamax|720199368|2232250908",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.241247,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -2058,6 +2094,24 @@
      "mise": null,
      "p_modele": 0.402332,
      "regle": null
+    },
+    "winamax|720197315|2232245095": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": 30.464,
+     "id": "winamax|720197315|2232245095",
+     "joue": true,
+     "mise": 4.78,
+     "p_modele": 0.260929,
+     "regle": null
+    },
+    "winamax|720199368|2232250908": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": -27.626,
+     "id": "winamax|720199368|2232250908",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.241247,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -2743,6 +2797,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.402332,
+     "regle": null
+    },
+    "winamax|720197315|2232245095": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": 30.464,
+     "id": "winamax|720197315|2232245095",
+     "joue": true,
+     "mise": 19.92,
+     "p_modele": 0.260929,
+     "regle": null
+    },
+    "winamax|720199368|2232250908": {
+     "date": "2026-10-16T05:25:51+00:00",
+     "ev_modele_pct": -27.626,
+     "id": "winamax|720199368|2232250908",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.241247,
      "regle": null
     }
    }
@@ -7309,6 +7381,38 @@
    "pari": "Vegas Golden Knights gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
    "premiere_vue": "2026-10-15T21:12:09+00:00",
    "sport": "Football"
+  },
+  "winamax|720197315|2232245095": {
+   "available_at": "2026-10-16T05:25:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.0,
+   "cote_origine": 4.4,
+   "debut": "2026-10-16T07:26+00:00",
+   "disponible": true,
+   "id": "winamax|720197315|2232245095",
+   "long_terme": false,
+   "match": "Maja Chwalinska - Maria Sakkari",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Maja Chwalinska gagne 2-1",
+   "premiere_vue": "2026-10-16T05:25:02+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|720199368|2232250908": {
+   "available_at": "2026-10-16T05:25:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.75,
+   "debut": "2026-10-16T08:30+00:00",
+   "disponible": true,
+   "id": "winamax|720199368|2232250908",
+   "long_terme": false,
+   "match": "Tasmania Jackjumpers - Adelaide 36ers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tasmania Jackjumpers gagne et plus de 185,5 points dans le match",
+   "premiere_vue": "2026-10-16T05:25:02+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
@@ -9087,6 +9191,22 @@
    "regle_le": "2026-10-16T04:27:14+00:00",
    "source": null,
    "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-16T05:26:08+00:00",
+   "id": "winamax|720024899|2231703204",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T05:25:51+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-16T05:26:08+00:00",
+   "id": "winamax|720026393|2231707003",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T05:25:51+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,
@@ -9743,6 +9863,22 @@
    "cote_juste": 5.859,
    "date": "2026-10-15T21:12:09+00:00",
    "ev_pct": -31.7,
+   "statut": "approx"
+  },
+  "winamax|720197315|2232245095": {
+   "available_at": "2026-10-16T05:25:51+00:00",
+   "cote_boostee": 5.0,
+   "cote_juste": 5.242,
+   "date": "2026-10-16T05:25:02+00:00",
+   "ev_pct": -4.6,
+   "statut": "exacte"
+  },
+  "winamax|720199368|2232250908": {
+   "available_at": "2026-10-16T05:25:51+00:00",
+   "cote_boostee": 3.0,
+   "cote_juste": 3.313,
+   "date": "2026-10-16T05:25:02+00:00",
+   "ev_pct": -9.4,
    "statut": "approx"
   }
  }
