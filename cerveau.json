@@ -6,7 +6,7 @@
    "hors_perimetre": 36,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T00:26:04+00:00",
+  "derniere_observation": "2026-10-16T01:25:13+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T00:26:04+00:00",
+ "derniere_observation": "2026-10-16T01:25:13+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -389,6 +389,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T00:26:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.807,
+     "decision": "ecarter",
+     "ev_pct": -8.1,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T01:25:13+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -15732,6 +15760,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-15T22:11:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Vegas Golden Knights - Calgary Flames) ; Betfair : match introuvable (Vegas Golden Knights - Calgary Flames)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 13.3,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T01:25:13+00:00",
      "mise_fictive": null,
      "motif_code": "match_introuvable",
      "raisons": [
