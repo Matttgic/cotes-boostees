@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 202,
+   "abstention": 204,
    "ecarter": 33,
    "hors_perimetre": 37,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T12:14:39+00:00",
+  "derniere_observation": "2026-10-16T13:13:49+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -19,12 +19,12 @@
    "ligne_absente": 31,
    "long_terme": 37,
    "marche_non_cote": 34,
-   "match_introuvable": 67,
+   "match_introuvable": 69,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
-  "observations_reglees": 207,
-  "observes": 272,
+  "observations_reglees": 208,
+  "observes": 274,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T12:14:39+00:00",
+ "derniere_observation": "2026-10-16T13:13:49+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1283,6 +1283,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-16T12:14:39+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.845,
+     "decision": "ecarter",
+     "ev_pct": -9.0,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 27.3,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -16729,6 +16757,32 @@
      "reference_raison": "condition non cotée par les références",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.75,
+      "hausse_pct": 13.3,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|720237882|2232355764",
@@ -16801,6 +16855,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : match introuvable (Béziers - Aurillac) ; Betfair : match introuvable (Béziers - Aurillac)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.712,
+      "hausse_pct": 19.8,
+      "horizon_heures": 4.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MATCH None DOM) ; Betfair : match introuvable (Béziers - Aurillac)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -16901,6 +16981,35 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.922,
+     "decision": "ecarter",
+     "ev_pct": -10.8,
+     "features": {
+      "cote_origine": 2.886,
+      "hausse_pct": 21.3,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Betfair",
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|720251764|2232393178",
@@ -16984,6 +17093,80 @@
    "pari": "Bordeaux, Angers et Grenoble gagnent chacun leur match (respectivement contre Gap, Chamonix et Nice) (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|720441483|2232914998": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Gloucester - Bordeaux-Bègles) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720441483|2232914998",
+   "match": "Gloucester - Bordeaux-Bègles",
+   "pari": "L. Bielle-Biarrey et P. Uberti marquent chacun au moins un essai",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|720444607|2232922866": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-16T14:10+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 14.3,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T13:13:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Felix Lebrun - Elias Ranefur) ; Betfair : match introuvable (Felix Lebrun - Elias Ranefur)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720444607|2232922866",
+   "match": "Felix Lebrun - Elias Ranefur",
+   "pari": "Felix Lebrun gagne le match 4-1",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
   }
  },
  "modele": "observation-v1",

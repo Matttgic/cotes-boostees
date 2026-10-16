@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-16T12:16:22+00:00",
+ "derniere_observation": "2026-10-16T13:15:14+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -871,6 +871,24 @@
      "date": "2026-10-16T09:18:18+00:00",
      "ev_modele_pct": null,
      "id": "winamax|720327080|2232596663",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|720441483|2232914998": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|720441483|2232914998",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "winamax|720444607|2232922866": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|720444607|2232922866",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1750,6 +1768,24 @@
      "mise": null,
      "p_modele": 0.305913,
      "regle": null
+    },
+    "winamax|720441483|2232914998": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -0.861,
+     "id": "winamax|720441483|2232914998",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305042,
+     "regle": null
+    },
+    "winamax|720444607|2232922866": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -11.915,
+     "id": "winamax|720444607|2232922866",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.220213,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -2625,6 +2661,24 @@
      "mise": null,
      "p_modele": 0.305913,
      "regle": null
+    },
+    "winamax|720441483|2232914998": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -0.861,
+     "id": "winamax|720441483|2232914998",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305042,
+     "regle": null
+    },
+    "winamax|720444607|2232922866": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -11.915,
+     "id": "winamax|720444607|2232922866",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.220213,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -3499,6 +3553,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.305913,
+     "regle": null
+    },
+    "winamax|720441483|2232914998": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -0.861,
+     "id": "winamax|720441483|2232914998",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305042,
+     "regle": null
+    },
+    "winamax|720444607|2232922866": {
+     "date": "2026-10-16T13:15:05+00:00",
+     "ev_modele_pct": -11.915,
+     "id": "winamax|720444607|2232922866",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.220213,
      "regle": null
     }
    }
@@ -8417,6 +8489,38 @@
    "pari": "Bordeaux, Angers et Grenoble gagnent chacun leur match (respectivement contre Gap, Chamonix et Nice) (hors prol. et TAB)",
    "premiere_vue": "2026-10-16T09:17:12+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|720441483|2232914998": {
+   "available_at": "2026-10-16T13:15:05+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-10-16T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|720441483|2232914998",
+   "long_terme": false,
+   "match": "Gloucester - Bordeaux-Bègles",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "L. Bielle-Biarrey et P. Uberti marquent chacun au moins un essai",
+   "premiere_vue": "2026-10-16T13:13:49+00:00",
+   "sport": "Rugby à XV"
+  },
+  "winamax|720444607|2232922866": {
+   "available_at": "2026-10-16T13:15:05+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.5,
+   "debut": "2026-10-16T14:10+00:00",
+   "disponible": true,
+   "id": "winamax|720444607|2232922866",
+   "long_terme": false,
+   "match": "Felix Lebrun - Elias Ranefur",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Felix Lebrun gagne le match 4-1",
+   "premiere_vue": "2026-10-16T13:13:49+00:00",
+   "sport": "Tennis de table"
   }
  },
  "resultats": [
@@ -10243,6 +10347,14 @@
    "regle_le": "2026-10-16T12:16:06+00:00",
    "source": null,
    "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-16T13:15:14+00:00",
+   "id": "winamax|720199368|2232250908",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-16T13:15:05+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,
