@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 197,
+   "abstention": 198,
    "ecarter": 32,
-   "hors_perimetre": 36,
+   "hors_perimetre": 37,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-16T09:17:12+00:00",
+  "derniere_observation": "2026-10-16T10:16:20+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -17,14 +17,14 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 31,
    "ligne_absente": 31,
-   "long_terme": 36,
+   "long_terme": 37,
    "marche_non_cote": 34,
-   "match_introuvable": 63,
+   "match_introuvable": 64,
    "reference_absente": 1,
    "sport_non_suivi": 9
   },
   "observations_reglees": 204,
-  "observes": 265,
+  "observes": 267,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-16T09:17:12+00:00",
+ "derniere_observation": "2026-10-16T10:16:20+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2492,6 +2492,43 @@
    "premiere_selection": null,
    "sport": "Basketball"
   },
+  "unibet|193345576|720331105": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.2,
+      "hausse_pct": 19.0,
+      "horizon_heures": 102.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T10:16:20+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|193345576|720331105",
+   "match": "Paris Trashtalk 26/27",
+   "pari": "DEN Nuggets - Les Nuggets se qualifient pour les Finales de Conférence",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
   "unibet|193345639|720331286": {
    "bookmaker": "Unibet",
    "debut": "2026-10-20T17:00:00.000Z",
@@ -4875,6 +4912,43 @@
    "pari": "D.Medvedev remporte le 1er set 6-3 ou 6-4 ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195196341|729097953": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-16T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 8.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-16T10:16:20+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Gloucester - Bordeaux) ; Betfair : match introuvable (Gloucester - Bordeaux)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195196341|729097953",
+   "match": "Gloucester - Bordeaux",
+   "pari": "Bordeaux gagne et Tom Willis marque au moins 1 essai ?",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",

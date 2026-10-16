@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-16T09:18:18+00:00",
+ "derniere_observation": "2026-10-16T10:17:31+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -252,6 +252,15 @@
      "id": "unibet|195173518|728945481",
      "joue": true,
      "mise": 10.08,
+     "p_modele": null,
+     "regle": "sport:tennis:1.5-5"
+    },
+    "unibet|195196341|729097953": {
+     "date": "2026-10-16T10:17:31+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195196341|729097953",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
     },
@@ -1076,6 +1085,15 @@
      "p_modele": 0.435833,
      "regle": null
     },
+    "unibet|195196341|729097953": {
+     "date": "2026-10-16T10:17:31+00:00",
+     "ev_modele_pct": 1.775,
+     "id": "unibet|195196341|729097953",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33925,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -1897,6 +1915,15 @@
      "p_modele": 0.435833,
      "regle": null
     },
+    "unibet|195196341|729097953": {
+     "date": "2026-10-16T10:17:31+00:00",
+     "ev_modele_pct": 1.775,
+     "id": "unibet|195196341|729097953",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33925,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2716,6 +2743,15 @@
      "joue": true,
      "mise": 19.92,
      "p_modele": 0.435833,
+     "regle": null
+    },
+    "unibet|195196341|729097953": {
+     "date": "2026-10-16T10:17:31+00:00",
+     "ev_modele_pct": 1.775,
+     "id": "unibet|195196341|729097953",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33925,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -3969,6 +4005,22 @@
    "sport": "Basketball",
    "type": "cote boostée"
   },
+  "unibet|193345576|720331105": {
+   "available_at": "2026-10-16T10:17:31+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 5.0,
+   "cote_origine": 4.2,
+   "debut": "2026-10-20T17:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|193345576|720331105",
+   "long_terme": true,
+   "match": "Paris Trashtalk 26/27",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "DEN Nuggets - Les Nuggets se qualifient pour les Finales de Conférence",
+   "premiere_vue": "2026-10-16T10:16:20+00:00",
+   "sport": "Basketball"
+  },
   "unibet|193345639|720331286": {
    "available_at": "2026-10-08T19:43:26Z",
    "bookmaker": "Unibet",
@@ -4930,6 +4982,22 @@
    "pari": "D.Medvedev remporte le 1er set 6-3 ou 6-4 ?",
    "premiere_vue": "2026-10-16T06:24:10+00:00",
    "sport": "Tennis"
+  },
+  "unibet|195196341|729097953": {
+   "available_at": "2026-10-16T10:17:31+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-10-16T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195196341|729097953",
+   "long_terme": false,
+   "match": "Gloucester - Bordeaux",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Bordeaux gagne et Tom Willis marque au moins 1 essai ?",
+   "premiere_vue": "2026-10-16T10:16:20+00:00",
+   "sport": "Rugby"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
