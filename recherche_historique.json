@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-17T20:19:17+00:00",
+ "derniere_observation": "2026-10-17T20:46:15+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1240,6 +1240,15 @@
      "date": "2026-10-17T20:19:17+00:00",
      "ev_modele_pct": null,
      "id": "winamax|721592404|2236401529",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|721593802|2236405183": {
+     "date": "2026-10-17T20:44:44+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|721593802|2236405183",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -2516,6 +2525,15 @@
      "p_modele": 0.369918,
      "regle": null
     },
+    "winamax|721593802|2236405183": {
+     "date": "2026-10-17T20:44:44+00:00",
+     "ev_modele_pct": -4.628,
+     "id": "winamax|721593802|2236405183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.254324,
+     "regle": null
+    },
     "winamax|721596203|2236412650": {
      "date": "2026-10-17T20:19:17+00:00",
      "ev_modele_pct": -17.591,
@@ -3787,6 +3805,15 @@
      "p_modele": 0.369918,
      "regle": null
     },
+    "winamax|721593802|2236405183": {
+     "date": "2026-10-17T20:44:44+00:00",
+     "ev_modele_pct": -4.628,
+     "id": "winamax|721593802|2236405183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.254324,
+     "regle": null
+    },
     "winamax|721596203|2236412650": {
      "date": "2026-10-17T20:19:17+00:00",
      "ev_modele_pct": -17.591,
@@ -5056,6 +5083,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.369918,
+     "regle": null
+    },
+    "winamax|721593802|2236405183": {
+     "date": "2026-10-17T20:44:44+00:00",
+     "ev_modele_pct": -4.628,
+     "id": "winamax|721593802|2236405183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.254324,
      "regle": null
     },
     "winamax|721596203|2236412650": {
@@ -10706,6 +10742,22 @@
    "premiere_vue": "2026-10-17T20:18:02+00:00",
    "sport": "Football"
   },
+  "winamax|721593802|2236405183": {
+   "available_at": "2026-10-17T20:44:44+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.75,
+   "cote_origine": 3.188,
+   "debut": "2026-10-18T00:30+00:00",
+   "disponible": true,
+   "id": "winamax|721593802|2236405183",
+   "long_terme": false,
+   "match": "MLS",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Les 2 équipes marquent dans chacun des 3 matchs à 2h30",
+   "premiere_vue": "2026-10-17T20:43:31+00:00",
+   "sport": "Football"
+  },
   "winamax|721596203|2236412650": {
    "available_at": "2026-10-17T20:19:17+00:00",
    "bookmaker": "Winamax",
@@ -12891,6 +12943,46 @@
    "regle_le": "2026-10-17T19:19:40+00:00",
    "source": null,
    "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-17T20:46:15+00:00",
+   "id": "betsson|93955210.1|394275397.1",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T20:46:15+00:00",
+   "id": "unibet|195195220|729089786",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-17T20:46:15+00:00",
+   "id": "unibet|195195617|729093789",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-17T20:46:15+00:00",
+   "id": "winamax|721104896|2234922327",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T20:46:15+00:00",
+   "id": "winamax|721388654|2235784457",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "source": null,
+   "statut": "perdu"
   }
  ],
  "schema": 1,

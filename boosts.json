@@ -396,11 +396,11 @@
   "bookmaker": "Betsson",
   "cote_boostee": 2.5,
   "cote_boostee_initiale": 2.55,
-  "cote_origine": 2.29,
+  "cote_origine": 2.25,
   "debut": "2026-10-18T13:00+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
-  "hausse_pct": 9.2,
+  "hausse_pct": 11.1,
   "historique_cotes": [
    {
     "cote_boostee": 2.55,
@@ -432,7 +432,7 @@
   "match": "Angers - Marseille",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 65,
+  "nb_vues": 66,
   "pari": "Amine Gouiri Buteur!",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -445,7 +445,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.5,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -571,6 +571,19 @@
    "market_id": "93955210.1",
    "selection_id": "394275397.1"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "Le Bayern a gagné, mais le score final exact était 6-1 et non 3-0. Le but encaissé dans le temps additionnel compte selon les règles indiquées.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "score": "Bayern Munich 6-1 Leipzig (3-0 à la mi-temps ; but de Leipzig à 90+1').",
+   "sources": [
+    "https://www.bundesliga.com/fr/bundesliga/journee/2026-2027/6/fc-bayern-muenchen-vs-rb-leipzig/liveticker",
+    "https://fcbayern.com/en/news/matchreports/2026/10/match-report-bundesliga-fc-bayern-v-rb-leipzig-171026"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -587,7 +600,7 @@
   "cote_boostee_initiale": 2.1,
   "cote_origine": 1.92,
   "debut": "2026-10-18T15:30+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 9.4,
   "historique_cotes": [],
@@ -629,7 +642,7 @@
   "match": "Nottingham Forest - Arsenal",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 65,
+  "nb_vues": 66,
   "pari": "Arsenal mène à la mi-temps et gagne le match",
   "premiere_vue": "2026-10-15T13:59:13+00:00",
   "ref": {
@@ -643,7 +656,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.1,
    "cote_juste": 3.855,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 2.2919,
@@ -725,7 +738,7 @@
   "cote_boostee_initiale": 4.05,
   "cote_origine": 3.5,
   "debut": "2026-10-19T15:20+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 15.7,
   "historique_cotes": [],
@@ -754,7 +767,7 @@
   "match": "Abha Club - Al-Kholood",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 8,
+  "nb_vues": 9,
   "pari": "Nabil Fekir Buteur",
   "premiere_vue": "2026-10-17T14:16:09+00:00",
   "ref": {
@@ -767,7 +780,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 4.05,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (Abha Club - Al-Kholood)",
    "statut": "non_evaluable"
@@ -779,7 +792,7 @@
   "cote_boostee_initiale": 8.0,
   "cote_origine": 6.6,
   "debut": "2026-10-19T16:30+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 21.2,
   "historique_cotes": [],
@@ -808,7 +821,7 @@
   "match": "Monza - Cagliari",
   "mise_max": 20.0,
   "mise_max_supposee": false,
-  "nb_vues": 8,
+  "nb_vues": 9,
   "pari": "Monza gagne 1-0",
   "premiere_vue": "2026-10-17T14:16:09+00:00",
   "ref": {
@@ -821,7 +834,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 8.0,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -2216,6 +2229,17 @@
    "market_id": 2494430150
   },
   "regle_mise": "gain net max 25 €",
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "Le match n’a pas encore eu lieu : la Premier League et Nottingham Forest indiquent qu’il se jouera le dimanche 18 octobre, et non le 17 octobre à 18 h 30. Le pari ne peut donc pas encore être réglé.",
+   "modele": "gpt-6-luna",
+   "score": "Match non joué : reprogrammé au 18/10/2026 à 17 h 30, heure de Paris.",
+   "sources": [
+    "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+    "https://www.nottinghamforest.co.uk/news/2026/october/14/how-to-follow---forest-v-arsenal/"
+   ],
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -2711,7 +2735,7 @@
   "cote_boostee_initiale": 4.7,
   "cote_origine": 3.9,
   "debut": "2026-10-20T17:00:00.000Z",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 20.5,
   "historique_cotes": [],
@@ -2722,7 +2746,7 @@
   "match": "Paris Trashtalk 26/27",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 13,
+  "nb_vues": 14,
   "pari": "DET Pistons - Cade Cunningham meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués)",
   "premiere_vue": "2026-10-17T10:36:12+00:00",
   "ref": {
@@ -6921,6 +6945,19 @@
    "outcome_id": 729089786,
    "periode": "90 Mins"
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "Le pari est gagné : Olise a débuté le match et a été directement impliqué dans deux buts (un but et une passe décisive).",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "score": "Bayern Munich 6–1 RB Leipzig. Michael Olise a été titulaire, a marqué à la 34e minute et délivré une passe décisive à la 69e : 2 actions décisives.",
+   "sources": [
+    "https://www.bundesliga.com/en/bundesliga/news/bayern-munich-6-1-leipzig-diaz-hat-trick-match-report-highlights-matchday-6-39614",
+    "https://fcbayern.com/en/news/matchreports/2026/10/match-report-bundesliga-fc-bayern-v-rb-leipzig-171026"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
+  },
   "sport": "Football",
   "type": "cote boostée",
   "valeur_derniere": {
@@ -7000,6 +7037,20 @@
    "market_id": 195195617,
    "outcome_id": 729093789,
    "periode": "90 Mins"
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "Le Barça a remporté les deux mi-temps et Lamine Yamal a été décisif en marquant puis en offrant une passe décisive. Il était titulaire : le pari est donc gagné.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "score": "Real Betis 2-5 FC Barcelone (mi-temps : 1-2 ; seconde période : 1-3). Lamine Yamal, titulaire, a marqué à la 10e minute et délivré une passe décisive à la 51e.",
+   "sources": [
+    "https://www.laliga.com/en-NL/match/temporada-2026-2027-laliga-ea-sports-real-betis-fc-barcelona-9",
+    "https://www.fcbarcelona.com/en/matches/138367/betis-fc-barcelona-la-liga-2026-2027",
+    "https://sport.sky.it/calcio/liga/partite/2026/giornata-9/real-betis-barcellona/formazioni"
+   ],
+   "statut": "gagné",
+   "tentatives": 1
   },
   "sport": "Football",
   "type": "cote boostée",
@@ -7621,7 +7672,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.0,
   "debut": "2026-10-18T08:40:00.000Z",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 15.0,
   "historique_cotes": [],
@@ -7650,7 +7701,7 @@
   "match": "R.Jodar - A.Davidovich",
   "mise_max": 25.0,
   "mise_max_supposee": false,
-  "nb_vues": 2,
+  "nb_vues": 3,
   "pari": "Les 2 joueurs gagnent un set ?",
   "premiere_vue": "2026-10-17T19:18:52+00:00",
   "ref": {
@@ -7664,7 +7715,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.3,
    "cote_juste": 2.501,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 2.5005,
@@ -29108,6 +29159,19 @@
    "outcome_id": 2234922327,
    "tournoi_id": 900002471
   },
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "Lamine Yamal a marqué en première mi-temps, mais Harry Kane n’a marqué qu’en seconde période. La condition exigeant que chacun marque en première mi-temps n’est donc pas remplie.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "score": "Real Betis 2-5 FC Barcelone (mi-temps 1-2 ; Lamine Yamal buteur à la 10e) ; Bayern Munich 6-1 RB Leipzig (mi-temps 3-0 ; Harry Kane buteur à la 53e).",
+   "sources": [
+    "https://www.fcbarcelona.com/en/matches/138367/betis-fc-barcelona-la-liga-2026-2027",
+    "https://fcbayern.com/en/news/matchreports/2026/10/match-report-bundesliga-fc-bayern-v-rb-leipzig-171026"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
+  },
   "sport": "Football",
   "sport_id_winamax": 1,
   "type": "cote boostée",
@@ -29602,7 +29666,7 @@
   "cote_boostee_initiale": 3.0,
   "cote_origine": 2.6,
   "debut": "2026-10-18T01:45+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 15.4,
   "historique_cotes": [],
@@ -29628,7 +29692,7 @@
   "long_terme": false,
   "match": "Joaquin Buckley - Mike Malott",
   "mise_max": 20.0,
-  "nb_vues": 7,
+  "nb_vues": 8,
   "pari": "J. Buckley gagne par KO, KO technique ou disqualification",
   "premiere_vue": "2026-10-17T15:15:17+00:00",
   "ref": {
@@ -29643,7 +29707,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.0,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "condition non cotée par les références",
    "statut": "non_evaluable"
@@ -29703,6 +29767,19 @@
    "match_id": 1000263692,
    "outcome_id": 2235784457,
    "tournoi_id": 900002485
+  },
+  "reglement": {
+   "derniere_tentative": "2026-10-17T20:44:44+00:00",
+   "explication": "La Rochelle a gagné, mais les deux équipes ont inscrit 45 points au total, soit moins que le seuil de 55,5 : la condition « plus de 55,5 points » n’est pas remplie.",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T20:44:44+00:00",
+   "score": "La Rochelle 31–14 Lions ; total : 45 points",
+   "sources": [
+    "https://www.sports.fr/direct-foot/370821/370809/stade-rochelais-lions-urc.html",
+    "https://www.rugbyrama.fr/2026/10/17/investec-champions-cup-poussive-la-rochelle-se-bonifie-finalement-en-fin-de-match-contre-les-lions-courageux-dans-un-contexte-tres-complique-13607517.php"
+   ],
+   "statut": "perdu",
+   "tentatives": 1
   },
   "sport": "Rugby à XV",
   "sport_id_winamax": 12,
@@ -29872,7 +29949,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.05,
   "debut": "2026-10-18T08:00+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 12.2,
   "historique_cotes": [],
@@ -29898,7 +29975,7 @@
   "long_terme": false,
   "match": "Alejandro Davidovich Fokina - Rafael Jodar",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Exactement 3 sets lors du match",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -29914,7 +29991,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.3,
    "cote_juste": 2.501,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 2.5005,
@@ -29970,7 +30047,7 @@
   "cote_boostee_initiale": 3.75,
   "cote_origine": 3.25,
   "debut": "2026-10-17T23:15+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 15.4,
   "historique_cotes": [],
@@ -30009,7 +30086,7 @@
   "long_terme": false,
   "match": "Toronto Maple Leafs - New York Islanders",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Auston Matthews buteur et Toronto Maple Leafs gagne (hors prol. et TAB)",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30025,7 +30102,7 @@
   "valeur_derniere": {
    "cote_boostee": 3.75,
    "cote_juste": 5.833,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 2.5639,
@@ -30107,7 +30184,7 @@
   "cote_boostee_initiale": 3.0,
   "cote_origine": 2.65,
   "debut": "2026-10-17T23:30+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 13.2,
   "historique_cotes": [],
@@ -30133,7 +30210,7 @@
   "long_terme": false,
   "match": "Atlanta United - Inter Miami",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Lionel Messi marque au moins un but en 1ère mi-temps",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30148,7 +30225,7 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 3.0,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "Pinnacle : ligne absente (JOUEUR MT1 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MT1 0.5 PLUS)",
    "statut": "non_evaluable"
@@ -30158,11 +30235,11 @@
   "bookmaker": "Winamax",
   "cote_boostee": 2.75,
   "cote_boostee_initiale": 2.75,
-  "cote_origine": 2.239,
+  "cote_origine": 2.219,
   "debut": "2026-10-17T23:30+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
-  "hausse_pct": 22.8,
+  "hausse_pct": 23.9,
   "historique_cotes": [],
   "id": "winamax|721592404|2236401529",
   "jambes": [
@@ -30238,7 +30315,7 @@
   "long_terme": false,
   "match": "MLS",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 5 matchs à 1h30",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30253,9 +30330,88 @@
   "type": "cote boostée",
   "valeur_derniere": {
    "cote_boostee": 2.75,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [],
    "raison": "Pinnacle : match introuvable (équipe à domicile non précisée (match 1) - équipe à l'extérieur non précisée (match 1)) ; Betfair : match introuvable (équipe à domicile non précisée (match 1) - équipe à l'extérieur non précisée (match 1))",
+   "statut": "non_evaluable"
+  }
+ },
+ "winamax|721593802|2236405183": {
+  "bookmaker": "Winamax",
+  "cote_boostee": 3.75,
+  "cote_boostee_initiale": 3.75,
+  "cote_origine": 3.188,
+  "debut": "2026-10-18T00:30+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
+  "disponible": true,
+  "hausse_pct": 17.6,
+  "historique_cotes": [],
+  "id": "winamax|721593802|2236405183",
+  "jambes": [
+   {
+    "equipe": null,
+    "equipe_1": null,
+    "equipe_2": null,
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "score": null,
+    "sens": null,
+    "stat": null,
+    "type": "les_deux_marquent",
+    "unite": "buts"
+   },
+   {
+    "equipe": null,
+    "equipe_1": null,
+    "equipe_2": null,
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "score": null,
+    "sens": null,
+    "stat": null,
+    "type": "les_deux_marquent",
+    "unite": "buts"
+   },
+   {
+    "equipe": null,
+    "equipe_1": null,
+    "equipe_2": null,
+    "joueur": null,
+    "ligne": null,
+    "periode": "match",
+    "score": null,
+    "sens": null,
+    "stat": null,
+    "type": "les_deux_marquent",
+    "unite": "buts"
+   }
+  ],
+  "jambes_essais": 1,
+  "jambes_modele": "gpt-6-luna",
+  "jambes_version": 2,
+  "long_terme": false,
+  "match": "MLS",
+  "mise_max": 20.0,
+  "nb_vues": 1,
+  "pari": "Les 2 équipes marquent dans chacun des 3 matchs à 2h30",
+  "premiere_vue": "2026-10-17T20:43:31+00:00",
+  "ref": {
+   "bet_id": 721593802,
+   "categorie_id": 800000394,
+   "match_id": 1000264081,
+   "outcome_id": 2236405183,
+   "tournoi_id": 900002471
+  },
+  "sport": "Football",
+  "sport_id_winamax": 1,
+  "type": "cote boostée",
+  "valeur_derniere": {
+   "cote_boostee": 3.75,
+   "date": "2026-10-17T20:43:31+00:00",
+   "detail": [],
+   "raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
    "statut": "non_evaluable"
   }
  },
@@ -30265,7 +30421,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.045,
   "debut": "2026-10-18T02:15+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 12.5,
   "historique_cotes": [],
@@ -30304,7 +30460,7 @@
   "long_terme": false,
   "match": "NHL",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Utah Mammoth - Edmonton Oilers et Vegas Golden Knights - Pittsburgh Penguins",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30320,7 +30476,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.3,
    "cote_juste": 2.509,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 1.6103,
@@ -30402,7 +30558,7 @@
   "cote_boostee_initiale": 2.3,
   "cote_origine": 2.054,
   "debut": "2026-10-18T02:30+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 12.0,
   "historique_cotes": [],
@@ -30441,7 +30597,7 @@
   "long_terme": false,
   "match": "MLS",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Nashville SC et Seattle Sounders marquent chacun au moins 2 buts (respectivement contre San Jose Earthquakes et Montreal)",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30457,7 +30613,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.3,
    "cote_juste": 2.384,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 1.7338,
@@ -30539,7 +30695,7 @@
   "cote_boostee_initiale": 2.9,
   "cote_origine": 2.54,
   "debut": "2026-10-18T05:00+00:00",
-  "derniere_vue": "2026-10-17T20:18:02+00:00",
+  "derniere_vue": "2026-10-17T20:43:31+00:00",
   "disponible": true,
   "hausse_pct": 14.2,
   "historique_cotes": [],
@@ -30578,7 +30734,7 @@
   "long_terme": false,
   "match": "K-League 1",
   "mise_max": 20.0,
-  "nb_vues": 1,
+  "nb_vues": 2,
   "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Daejon Citizen - Gwangju FC et Jeonbuk Motors - Jeju United",
   "premiere_vue": "2026-10-17T20:18:02+00:00",
   "ref": {
@@ -30594,7 +30750,7 @@
   "valeur_derniere": {
    "cote_boostee": 2.9,
    "cote_juste": 3.283,
-   "date": "2026-10-17T20:18:02+00:00",
+   "date": "2026-10-17T20:43:31+00:00",
    "detail": [
     {
      "cote_juste": 1.626,

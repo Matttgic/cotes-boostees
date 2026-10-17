@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 235,
+   "abstention": 236,
    "ecarter": 43,
    "hors_perimetre": 40,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T20:18:02+00:00",
+  "derniere_observation": "2026-10-17T20:43:31+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -36,12 +36,12 @@
    "ligne_absente": 35,
    "long_terme": 40,
    "marche_non_cote": 40,
-   "match_introuvable": 85,
+   "match_introuvable": 86,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
-  "observations_reglees": 246,
-  "observes": 319,
+  "observations_reglees": 251,
+  "observes": 320,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-17T20:18:02+00:00",
+ "derniere_observation": "2026-10-17T20:43:31+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -20085,6 +20085,43 @@
    "id": "winamax|721592404|2236401529",
    "match": "MLS",
    "pari": "Au moins un but marqué en première mi-temps lors de chacun des 5 matchs à 1h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721593802|2236405183": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T00:30+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.188,
+      "hausse_pct": 17.6,
+      "horizon_heures": 3.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T20:43:31+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721593802|2236405183",
+   "match": "MLS",
+   "pari": "Les 2 équipes marquent dans chacun des 3 matchs à 2h30",
    "premiere_selection": null,
    "sport": "Football"
   },
