@@ -6,7 +6,7 @@
    "hors_perimetre": 40,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T10:36:12+00:00",
+  "derniere_observation": "2026-10-17T10:55:18+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [
@@ -33,10 +33,10 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 34,
    "ev_positive": 1,
-   "ligne_absente": 34,
+   "ligne_absente": 33,
    "long_terme": 40,
    "marche_non_cote": 38,
-   "match_introuvable": 81,
+   "match_introuvable": 82,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
@@ -49,7 +49,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-17T10:36:12+00:00",
+ "derniere_observation": "2026-10-17T10:55:18+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -18609,6 +18609,32 @@
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 19.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T10:55:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : match introuvable (Golden State Valkyries - Atlanta Dream)",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|721079656|2234852680",
@@ -18770,6 +18796,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Chelsea - None) ; Betfair : match introuvable (Chelsea - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.002,
+      "hausse_pct": 16.6,
+      "horizon_heures": 0.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T10:55:18+00:00",
      "mise_fictive": null,
      "motif_code": "match_introuvable",
      "raisons": [

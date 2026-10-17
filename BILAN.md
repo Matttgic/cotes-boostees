@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 17/10 12h36 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 17/10 12h55 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -145,7 +145,6 @@ A en détail : 80 gagnés, 170 perdus, 4 remboursés, 69 en attente · cote moye
 
 | Match | Pari | Cote | Juste | EV | Mise | Résultat |
 |---|---|---|---|---|---|---|
-| 20/10 19h00 · Paris Trashtalk 26/27 | DET Pistons - Cade Cunningham meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués) | 4,7 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | IND Pacers - Les Pacers remportent la Division Centrale | 4,25 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | MEM Grizzlies - Cameron Boozer prend 8 rebonds ou + (moyenne) | 1,8 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | LA Clippers - Darius Garland fait 7 passes ou + (moyenne) | 1,6 | – | – | 25 € | ⏳ |
@@ -159,6 +158,7 @@ A en détail : 80 gagnés, 170 perdus, 4 remboursés, 69 en attente · cote moye
 | 20/10 19h00 · Paris Trashtalk 26/27 | ATL Hawks - Dyson Daniels meilleur intercepteur NBA en saison régulière (moyenne interceptions/match, perdant si moins de 58 matchs joués) | 6,4 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | WAS Wizards - Trae Young meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués) | 3,3 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | TOR Raptors - Scottie Barnes meilleur passeur des Raptors (total de passes) | 2,0 | – | – | 25 € | ⏳ |
+| 20/10 19h00 · Paris Trashtalk 26/27 | DET Pistons - Cade Cunningham meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués) | 4,7 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | BKN Nets - Mikel Brown Jr meilleur passeur des Nets (total de passes) | 3,3 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | MIN TWolves - Rudy Gobert meilleur rebondeur NBA en saison régulière (moyenne rebonds/match, perdant si moins de 58 matchs joués) | 11,0 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | CHA Hornets - Moussa Diabate meilleur rebondeur des Hornets (total de rebonds) | 1,5 | – | – | 25 € | ⏳ |
