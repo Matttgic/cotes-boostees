@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T04:32:50+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T05:31:22+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 209 prévisions réglées : score de Brier du modèle 0.21, prior bookmaker 0.2122 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 210 prévisions réglées : score de Brier du modèle 0.2112, prior bookmaker 0.2127 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -162,14 +162,14 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:rugby:1.5-3.5 | 11 | +0.00 € | +0.0 % |
 | sport:rugby:2-3.5 | 11 | +0.00 € | +0.0 % |
 | bookmaker:Winamax:1.5-2.5 | 24 | -1.50 € | -0.6 % |
+| sport:hockey sur glace:1.5-3.5 | 12 | -5.50 € | -4.6 % |
+| sport:hockey sur glace:2-3.5 | 12 | -5.50 € | -4.6 % |
 | sport:rugby:1.5-5 | 12 | -10.00 € | -8.3 % |
 | sport:rugby:1.5-8 | 12 | -10.00 € | -8.3 % |
 | sport:rugby:2-5 | 12 | -10.00 € | -8.3 % |
 | bookmaker:Unibet:1.5-3.5 | 31 | -17.00 € | -5.5 % |
 | bookmaker:Unibet:2-3.5 | 31 | -17.00 € | -5.5 % |
 | sport:rugby:3-5 | 5 | -17.50 € | -35.0 % |
-| sport:hockey sur glace:1.5-3.5 | 11 | -21.50 € | -19.5 % |
-| sport:hockey sur glace:2-3.5 | 11 | -21.50 € | -19.5 % |
 | bookmaker:Unibet:1.5-2.5 | 12 | -22.50 € | -18.8 % |
 | tous:tous:1.5-2.5 | 38 | -24.50 € | -6.4 % |
 | bookmaker:Unibet:1.5-5 | 32 | -27.00 € | -8.4 % |
@@ -188,21 +188,21 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:basketball:2-5 | 8 | -49.00 € | -61.3 % |
 | sport:basketball:3-5 | 5 | -50.00 € | -100.0 % |
 | bookmaker:Unibet:3-5 | 10 | -69.50 € | -69.5 % |
+| sport:hockey sur glace:1.5-5 | 22 | -69.50 € | -31.6 % |
+| sport:hockey sur glace:2-5 | 22 | -69.50 € | -31.6 % |
+| tous:tous:2-5 | 96 | -72.17 € | -8.3 % |
 | tous:tous:3-5 | 80 | -72.59 € | -9.4 % |
-| tous:tous:2-5 | 95 | -75.69 € | -8.7 % |
 | tous:tous:1.5-5 | 96 | -77.89 € | -8.9 % |
+| sport:hockey sur glace:1.5-8 | 23 | -79.50 € | -34.6 % |
 | sport:hockey sur glace:3-5 | 18 | -80.50 € | -44.7 % |
-| sport:hockey sur glace:1.5-5 | 21 | -85.50 € | -40.7 % |
-| sport:hockey sur glace:2-5 | 21 | -85.50 € | -40.7 % |
 | sport:football:1.5-3.5 | 57 | -88.38 € | -16.2 % |
 | sport:football:2-3.5 | 57 | -88.38 € | -16.2 % |
 | tous:tous:1.5-8 | 93 | -93.73 € | -10.9 % |
-| sport:hockey sur glace:1.5-8 | 22 | -95.50 € | -43.4 % |
 | bookmaker:Winamax:1.5-5 | 92 | -127.80 € | -14.5 % |
 | bookmaker:Winamax:2-5 | 92 | -127.80 € | -14.5 % |
 | bookmaker:Winamax:1.5-8 | 94 | -138.50 € | -15.5 % |
-| tous:tous:2-3.5 | 81 | -171.20 € | -22.8 % |
-| tous:tous:1.5-3.5 | 82 | -181.20 € | -23.8 % |
+| tous:tous:2-3.5 | 82 | -155.20 € | -20.4 % |
+| tous:tous:1.5-3.5 | 83 | -179.28 € | -23.5 % |
 | bookmaker:Winamax:1.5-3.5 | 76 | -254.55 € | -35.0 % |
 | bookmaker:Winamax:2-3.5 | 76 | -254.55 € | -35.0 % |
 
@@ -221,7 +221,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 251 événements de règlement : {'gpt-6-luna': 251}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 252 événements de règlement : {'gpt-6-luna': 252}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
