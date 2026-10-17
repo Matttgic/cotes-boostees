@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 211,
+   "abstention": 216,
    "ecarter": 33,
-   "hors_perimetre": 37,
+   "hors_perimetre": 39,
    "selectionner": 0
   },
-  "derniere_observation": "2026-10-17T05:40:29+00:00",
+  "derniere_observation": "2026-10-17T06:39:38+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [],
@@ -17,14 +17,14 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 32,
    "ligne_absente": 32,
-   "long_terme": 37,
-   "marche_non_cote": 35,
-   "match_introuvable": 72,
+   "long_terme": 39,
+   "marche_non_cote": 36,
+   "match_introuvable": 75,
    "reference_absente": 1,
-   "sport_non_suivi": 9
+   "sport_non_suivi": 10
   },
-  "observations_reglees": 231,
-  "observes": 281,
+  "observations_reglees": 232,
+  "observes": 288,
   "paris_en_attente": 0,
   "paris_regles": 0,
   "paris_selectionnes": 0,
@@ -32,7 +32,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-17T05:40:29+00:00",
+ "derniere_observation": "2026-10-17T06:39:38+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -5389,6 +5389,154 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|195194678|729085021": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 4.2,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 16.7,
+      "horizon_heures": 12.1,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195194678|729085021",
+   "match": "Ligue 1 (17/10)",
+   "pari": "Lille et Lens marquent chacun le 1er but et gagnent leur match respectif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195195220|729089786": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (Bayern Munich - RB Leipzig)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195195220|729089786",
+   "match": "Bayern Munich - RB Leipzig",
+   "pari": "M.Olise décisif 2 fois ou plus (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195195617|729093789": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.05,
+      "hausse_pct": 14.8,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195195617|729093789",
+   "match": "Betis Séville - FC Barcelone",
+   "pari": "Lamine Yamal décisif et son équipe gagne les 2 mi-temps (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195196274|729097782": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T15:15:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Strasbourg - Paris SG) ; Betfair : ligne absente (RESULTAT_1N2 MT1 None EXT)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195196274|729097782",
+   "match": "Strasbourg - Paris SG",
+   "pari": "Paris SG mène à la mi-temps et gagne de 2 buts ou +",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|195196341|729097953": {
    "bookmaker": "Unibet",
    "debut": "2026-10-16T19:00:00.000Z",
@@ -5426,6 +5574,43 @@
    "premiere_selection": null,
    "sport": "Rugby"
   },
+  "unibet|195196498|729098334": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T13:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 6.8,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195196498|729098334",
+   "match": "Bundesliga (17/10)",
+   "pari": "Plus de 0,5 buts à la mi-temps dans chacun des 5 matchs de 15:30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|195207715|729164021": {
    "bookmaker": "Unibet",
    "debut": "2026-10-16T18:45:00.000Z",
@@ -5462,6 +5647,80 @@
    "pari": "L.Mafouta ou C.Tengstedt buteur et les deux équipes marquent (remboursé si non titulaires)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|195236522|729274245": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T09:05:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 2.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "sport_non_suivi",
+     "raisons": [
+      "Sport non suivi par les références"
+     ],
+     "reference_raison": "sport non suivi (Rugby à XIII)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195236522|729274245",
+   "match": "Angleterre - Tonga",
+   "pari": "Le trio D.Young/H.Farnworth/Z.Eckersley marque au moins 2 essais",
+   "premiere_selection": null,
+   "sport": "Rugby à XIII"
+  },
+  "unibet|195260431|729346092": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T11:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 4.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T06:39:38+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JEUX_TOTAL SET1 9.5 PLUS) ; Betfair : match introuvable (R.Jodar - D.Medvedev)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195260431|729346092",
+   "match": "R.Jodar - D.Medvedev",
+   "pari": "D.Medvedev gagne le 1er set et plus de 9,5 jeux dans le set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",

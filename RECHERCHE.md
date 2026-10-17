@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T05:41:27+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T06:40:56+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,21 +18,21 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 96 / 100 | 877.25 € | -63.40 € | -7.2 % | -167.12 € |
-| temoin_20 | 59 / 62 | 953.05 € | +90.68 € | +9.5 % | -162.12 € |
+| temoin_10 | 96 / 105 | 877.25 € | -63.40 € | -7.2 % | -167.12 € |
+| temoin_20 | 59 / 66 | 953.05 € | +90.68 € | +9.5 % | -162.12 € |
 | value_0 | 2 / 2 | 20.00 € | -20.00 € | -100.0 % | -20.00 € |
 | value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
 | J_adaptative | 43 / 44 | 414.14 € | +29.68 € | +7.2 % | -122.83 € |
-| K_modele | 56 / 57 | 544.90 € | +150.73 € | +27.7 % | -74.75 € |
-| L_kelly_dynamique | 59 / 60 | 369.17 € | +76.74 € | +20.8 % | -59.37 € |
-| M_modele_20 | 40 / 41 | 758.57 € | +409.38 € | +54.0 % | -85.88 € |
+| K_modele | 56 / 58 | 544.90 € | +150.73 € | +27.7 % | -74.75 € |
+| L_kelly_dynamique | 59 / 61 | 369.17 € | +76.74 € | +20.8 % | -59.37 € |
+| M_modele_20 | 40 / 42 | 758.57 € | +409.38 € | +54.0 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.
 
 ## Stabilité et calibration
 
-Sur 210 prévisions réglées : score de Brier du modèle 0.2112, prior bookmaker 0.2127 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 211 prévisions réglées : score de Brier du modèle 0.2103, prior bookmaker 0.2121 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -179,7 +179,6 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:basketball:1.5-3.5 | 6 | -29.00 € | -48.3 % |
 | sport:basketball:2-3.5 | 6 | -29.00 € | -48.3 % |
 | sport:football:1.5-2.5 | 20 | -36.00 € | -18.0 % |
-| bookmaker:Winamax:3-5 | 84 | -42.93 € | -5.4 % |
 | sport:football:1.5-5 | 68 | -46.23 € | -7.0 % |
 | sport:football:1.5-8 | 68 | -46.23 € | -7.0 % |
 | sport:football:2-5 | 68 | -46.23 € | -7.0 % |
@@ -187,16 +186,17 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:basketball:1.5-8 | 8 | -49.00 € | -61.3 % |
 | sport:basketball:2-5 | 8 | -49.00 € | -61.3 % |
 | sport:basketball:3-5 | 5 | -50.00 € | -100.0 % |
+| bookmaker:Winamax:3-5 | 85 | -51.93 € | -6.4 % |
 | bookmaker:Unibet:3-5 | 10 | -69.50 € | -69.5 % |
-| sport:hockey sur glace:1.5-5 | 22 | -69.50 € | -31.6 % |
-| sport:hockey sur glace:2-5 | 22 | -69.50 € | -31.6 % |
 | tous:tous:2-5 | 96 | -72.17 € | -8.3 % |
-| tous:tous:3-5 | 80 | -72.59 € | -9.4 % |
 | tous:tous:1.5-5 | 96 | -77.89 € | -8.9 % |
-| sport:hockey sur glace:1.5-8 | 23 | -79.50 € | -34.6 % |
-| sport:hockey sur glace:3-5 | 18 | -80.50 € | -44.7 % |
+| sport:hockey sur glace:1.5-5 | 23 | -79.50 € | -34.6 % |
+| sport:hockey sur glace:2-5 | 23 | -79.50 € | -34.6 % |
+| tous:tous:3-5 | 81 | -81.59 € | -10.4 % |
 | sport:football:1.5-3.5 | 57 | -88.38 € | -16.2 % |
 | sport:football:2-3.5 | 57 | -88.38 € | -16.2 % |
+| sport:hockey sur glace:1.5-8 | 24 | -89.50 € | -37.3 % |
+| sport:hockey sur glace:3-5 | 19 | -90.50 € | -47.6 % |
 | tous:tous:1.5-8 | 93 | -93.73 € | -10.9 % |
 | bookmaker:Winamax:1.5-5 | 92 | -127.80 € | -14.5 % |
 | bookmaker:Winamax:2-5 | 92 | -127.80 € | -14.5 % |
@@ -221,7 +221,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 252 événements de règlement : {'gpt-6-luna': 252}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 253 événements de règlement : {'gpt-6-luna': 253}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
