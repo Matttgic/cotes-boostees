@@ -592,34 +592,6 @@
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
    "global": {
     "boosts_sans_mise_max": 0,
-    "cote_moyenne": 2.36,
-    "en_attente": 4,
-    "ev_moyenne_pct": null,
-    "gagnes": 10,
-    "gain_net": -21.5,
-    "mise_totale": 260.0,
-    "paris": 30,
-    "paris_avec_ev": 0,
-    "perdus": 16,
-    "pire_baisse": -39.0,
-    "pire_serie_perdante": 4,
-    "regles": 26,
-    "rembourses": 0,
-    "reussite_pct": 38.5,
-    "roi_pct": -8.3
-   },
-   "regle": {
-    "id": "bookmaker:Winamax:1.5-2.5",
-    "max": 2.5,
-    "min": 1.5,
-    "scope": "bookmaker",
-    "value": "Winamax"
-   }
-  },
-  {
-   "debut_evaluation": "2026-10-10T06:00:45+00:00",
-   "global": {
-    "boosts_sans_mise_max": 0,
     "cote_moyenne": 2.78,
     "en_attente": 1,
     "ev_moyenne_pct": null,
@@ -838,6 +810,34 @@
     "min": 2,
     "scope": "sport",
     "value": "basketball"
+   }
+  },
+  {
+   "debut_evaluation": "2026-10-10T06:00:45+00:00",
+   "global": {
+    "boosts_sans_mise_max": 0,
+    "cote_moyenne": 2.36,
+    "en_attente": 3,
+    "ev_moyenne_pct": null,
+    "gagnes": 10,
+    "gain_net": -31.5,
+    "mise_totale": 270.0,
+    "paris": 30,
+    "paris_avec_ev": 0,
+    "perdus": 17,
+    "pire_baisse": -42.0,
+    "pire_serie_perdante": 4,
+    "regles": 27,
+    "rembourses": 0,
+    "reussite_pct": 37.0,
+    "roi_pct": -11.7
+   },
+   "regle": {
+    "id": "bookmaker:Winamax:1.5-2.5",
+    "max": 2.5,
+    "min": 1.5,
+    "scope": "bookmaker",
+    "value": "Winamax"
    }
   },
   {
@@ -1292,62 +1292,6 @@
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
    "global": {
     "boosts_sans_mise_max": 0,
-    "cote_moyenne": 2.33,
-    "en_attente": 8,
-    "ev_moyenne_pct": null,
-    "gagnes": 15,
-    "gain_net": -84.5,
-    "mise_totale": 440.0,
-    "paris": 52,
-    "paris_avec_ev": 0,
-    "perdus": 29,
-    "pire_baisse": -99.5,
-    "pire_serie_perdante": 8,
-    "regles": 44,
-    "rembourses": 0,
-    "reussite_pct": 34.1,
-    "roi_pct": -19.2
-   },
-   "regle": {
-    "id": "tous:tous:1.5-2.5",
-    "max": 2.5,
-    "min": 1.5,
-    "scope": "tous",
-    "value": null
-   }
-  },
-  {
-   "debut_evaluation": "2026-10-10T06:00:45+00:00",
-   "global": {
-    "boosts_sans_mise_max": 0,
-    "cote_moyenne": 3.6,
-    "en_attente": 4,
-    "ev_moyenne_pct": null,
-    "gagnes": 5,
-    "gain_net": -89.5,
-    "mise_totale": 240.0,
-    "paris": 28,
-    "paris_avec_ev": 0,
-    "perdus": 19,
-    "pire_baisse": -118.0,
-    "pire_serie_perdante": 8,
-    "regles": 24,
-    "rembourses": 0,
-    "reussite_pct": 20.8,
-    "roi_pct": -37.3
-   },
-   "regle": {
-    "id": "sport:hockey sur glace:1.5-8",
-    "max": 8,
-    "min": 1.5,
-    "scope": "sport",
-    "value": "hockey sur glace"
-   }
-  },
-  {
-   "debut_evaluation": "2026-10-10T06:00:45+00:00",
-   "global": {
-    "boosts_sans_mise_max": 0,
     "cote_moyenne": 3.75,
     "en_attente": 1,
     "ev_moyenne_pct": null,
@@ -1368,6 +1312,62 @@
     "id": "sport:hockey sur glace:3-5",
     "max": 5,
     "min": 3,
+    "scope": "sport",
+    "value": "hockey sur glace"
+   }
+  },
+  {
+   "debut_evaluation": "2026-10-10T06:00:45+00:00",
+   "global": {
+    "boosts_sans_mise_max": 0,
+    "cote_moyenne": 2.33,
+    "en_attente": 7,
+    "ev_moyenne_pct": null,
+    "gagnes": 15,
+    "gain_net": -94.5,
+    "mise_totale": 450.0,
+    "paris": 52,
+    "paris_avec_ev": 0,
+    "perdus": 30,
+    "pire_baisse": -109.5,
+    "pire_serie_perdante": 9,
+    "regles": 45,
+    "rembourses": 0,
+    "reussite_pct": 33.3,
+    "roi_pct": -21.0
+   },
+   "regle": {
+    "id": "tous:tous:1.5-2.5",
+    "max": 2.5,
+    "min": 1.5,
+    "scope": "tous",
+    "value": null
+   }
+  },
+  {
+   "debut_evaluation": "2026-10-10T06:00:45+00:00",
+   "global": {
+    "boosts_sans_mise_max": 0,
+    "cote_moyenne": 3.6,
+    "en_attente": 3,
+    "ev_moyenne_pct": null,
+    "gagnes": 5,
+    "gain_net": -99.5,
+    "mise_totale": 250.0,
+    "paris": 28,
+    "paris_avec_ev": 0,
+    "perdus": 20,
+    "pire_baisse": -122.0,
+    "pire_serie_perdante": 8,
+    "regles": 25,
+    "rembourses": 0,
+    "reussite_pct": 20.0,
+    "roi_pct": -39.8
+   },
+   "regle": {
+    "id": "sport:hockey sur glace:1.5-8",
+    "max": 8,
+    "min": 1.5,
     "scope": "sport",
     "value": "hockey sur glace"
    }
@@ -1461,20 +1461,20 @@
    "global": {
     "boosts_sans_mise_max": 0,
     "cote_moyenne": 3.39,
-    "en_attente": 8,
+    "en_attente": 7,
     "ev_moyenne_pct": null,
     "gagnes": 25,
-    "gain_net": -143.25,
-    "mise_totale": 966.62,
+    "gain_net": -153.25,
+    "mise_totale": 976.62,
     "paris": 110,
     "paris_avec_ev": 0,
-    "perdus": 75,
+    "perdus": 76,
     "pire_baisse": -167.5,
     "pire_serie_perdante": 14,
-    "regles": 102,
+    "regles": 103,
     "rembourses": 2,
-    "reussite_pct": 25.0,
-    "roi_pct": -14.8
+    "reussite_pct": 24.8,
+    "roi_pct": -15.7
    },
    "regle": {
     "id": "bookmaker:Winamax:1.5-8",
@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-17T20:46:15+00:00",
+ "derniere_observation": "2026-10-17T21:43:40+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -4766,9 +4766,9 @@
      "banque_finale": 1052.5,
      "banque_initiale": 1000.0,
      "calibration": {
-      "brier_modele": 0.2267,
-      "brier_prior_bookmaker": 0.2276,
-      "predictions_reglees": 112
+      "brier_modele": 0.2244,
+      "brier_prior_bookmaker": 0.2264,
+      "predictions_reglees": 114
      },
      "cash_final": 1002.5,
      "debut_evaluation": "2026-10-14T04:42:26+00:00",
@@ -7633,9 +7633,9 @@
      "banque_finale": 1010.26,
      "banque_initiale": 1000.0,
      "calibration": {
-      "brier_modele": 0.2267,
-      "brier_prior_bookmaker": 0.2276,
-      "predictions_reglees": 112
+      "brier_modele": 0.2244,
+      "brier_prior_bookmaker": 0.2264,
+      "predictions_reglees": 114
      },
      "cash_final": 986.42,
      "debut_evaluation": "2026-10-14T04:42:26+00:00",
@@ -10162,9 +10162,9 @@
      "banque_finale": 1064.76,
      "banque_initiale": 1000.0,
      "calibration": {
-      "brier_modele": 0.2267,
-      "brier_prior_bookmaker": 0.2276,
-      "predictions_reglees": 112
+      "brier_modele": 0.2244,
+      "brier_prior_bookmaker": 0.2264,
+      "predictions_reglees": 114
      },
      "cash_final": 964.76,
      "debut_evaluation": "2026-10-14T04:42:26+00:00",
@@ -19433,10 +19433,10 @@
   "mises_supposees": 2,
   "observations_apres_debut": 1,
   "producteurs_verdicts": {
-   "gpt-6-luna": 272
+   "gpt-6-luna": 274
   }
  },
- "reglements": 272,
+ "reglements": 274,
  "sensibilite_modele": [
   {
    "global": {
@@ -26422,9 +26422,9 @@
     "banque_finale": 1120.73,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.2129,
-     "brier_prior_bookmaker": 0.214,
-     "predictions_reglees": 230
+     "brier_modele": 0.2119,
+     "brier_prior_bookmaker": 0.2135,
+     "predictions_reglees": 232
     },
     "cash_final": 1060.73,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -32521,9 +32521,9 @@
     "banque_finale": 1039.06,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.2129,
-     "brier_prior_bookmaker": 0.214,
-     "predictions_reglees": 230
+     "brier_modele": 0.2119,
+     "brier_prior_bookmaker": 0.2135,
+     "predictions_reglees": 232
     },
     "cash_final": 1009.55,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -37324,9 +37324,9 @@
     "banque_finale": 1349.38,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.2129,
-     "brier_prior_bookmaker": 0.214,
-     "predictions_reglees": 230
+     "brier_modele": 0.2119,
+     "brier_prior_bookmaker": 0.2135,
+     "predictions_reglees": 232
     },
     "cash_final": 1239.38,
     "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -53349,9 +53349,9 @@
     "banque_finale": 970.0,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.2103,
-     "brier_prior_bookmaker": 0.2158,
-     "predictions_reglees": 77
+     "brier_modele": 0.2078,
+     "brier_prior_bookmaker": 0.2137,
+     "predictions_reglees": 78
     },
     "cash_final": 970.0,
     "debut_evaluation": "2026-10-10T07:01:48+00:00",
@@ -54746,9 +54746,9 @@
     "banque_finale": 980.0,
     "banque_initiale": 1000.0,
     "calibration": {
-     "brier_modele": 0.2103,
-     "brier_prior_bookmaker": 0.2158,
-     "predictions_reglees": 77
+     "brier_modele": 0.2078,
+     "brier_prior_bookmaker": 0.2137,
+     "predictions_reglees": 78
     },
     "cash_final": 980.0,
     "debut_evaluation": "2026-10-10T07:01:48+00:00",
