@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-17T14:17:56+00:00",
+ "derniere_observation": "2026-10-17T15:17:20+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1150,6 +1150,15 @@
      "date": "2026-10-17T14:17:56+00:00",
      "ev_modele_pct": null,
      "id": "winamax|721319045|2235572403",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|721342929|2235652343": {
+     "date": "2026-10-17T15:16:53+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|721342929|2235652343",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -2308,6 +2317,15 @@
      "mise": null,
      "p_modele": 0.316561,
      "regle": null
+    },
+    "winamax|721342929|2235652343": {
+     "date": "2026-10-17T15:16:53+00:00",
+     "ev_modele_pct": -10.172,
+     "id": "winamax|721342929|2235652343",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.299426,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -3462,6 +3480,15 @@
      "mise": null,
      "p_modele": 0.316561,
      "regle": null
+    },
+    "winamax|721342929|2235652343": {
+     "date": "2026-10-17T15:16:53+00:00",
+     "ev_modele_pct": -10.172,
+     "id": "winamax|721342929|2235652343",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.299426,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -4615,6 +4642,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.316561,
+     "regle": null
+    },
+    "winamax|721342929|2235652343": {
+     "date": "2026-10-17T15:16:53+00:00",
+     "ev_modele_pct": -10.172,
+     "id": "winamax|721342929|2235652343",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.299426,
      "regle": null
     }
    }
@@ -10077,6 +10113,22 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
    "premiere_vue": "2026-10-17T14:16:09+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|721342929|2235652343": {
+   "available_at": "2026-10-17T15:16:53+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-10-18T01:45+00:00",
+   "disponible": true,
+   "id": "winamax|721342929|2235652343",
+   "long_terme": false,
+   "match": "Joaquin Buckley - Mike Malott",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "J. Buckley gagne par KO, KO technique ou disqualification",
+   "premiere_vue": "2026-10-17T15:15:17+00:00",
+   "sport": "MMA"
   }
  },
  "resultats": [
@@ -12125,6 +12177,22 @@
    "id": "unibet|195236522|729274245",
    "modele": "gpt-6-luna",
    "regle_le": "2026-10-17T13:53:48+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T15:17:20+00:00",
+   "id": "unibet|195260431|729346092",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T15:16:53+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T15:17:20+00:00",
+   "id": "winamax|721082545|2234860275",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T15:16:53+00:00",
    "source": null,
    "statut": "perdu"
   }

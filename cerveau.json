@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 229,
+   "abstention": 230,
    "ecarter": 36,
    "hors_perimetre": 40,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T14:16:09+00:00",
+  "derniere_observation": "2026-10-17T15:15:17+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,15 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 35,
    "ev_positive": 1,
-   "ligne_absente": 33,
+   "ligne_absente": 34,
    "long_terme": 40,
-   "marche_non_cote": 39,
-   "match_introuvable": 83,
+   "marche_non_cote": 40,
+   "match_introuvable": 82,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
-  "observations_reglees": 235,
-  "observes": 306,
+  "observations_reglees": 237,
+  "observes": 307,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-17T14:16:09+00:00",
+ "derniere_observation": "2026-10-17T15:15:17+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -617,6 +617,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : match introuvable (Angers - Marseille)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 21.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T15:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -19352,6 +19378,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.401,
+     "decision": "ecarter",
+     "ev_pct": -14.8,
+     "features": {
+      "cote_origine": 3.268,
+      "hausse_pct": 14.7,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T15:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|721110174|2234937459",
@@ -19428,6 +19482,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": 2.751,
+     "decision": "ecarter",
+     "ev_pct": -5.5,
+     "features": {
+      "cote_origine": 2.246,
+      "hausse_pct": 15.8,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T15:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|721319045|2235572403",
@@ -19435,6 +19517,43 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|721342929|2235652343": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T01:45+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 10.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T15:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721342929|2235652343",
+   "match": "Joaquin Buckley - Mike Malott",
+   "pari": "J. Buckley gagne par KO, KO technique ou disqualification",
+   "premiere_selection": null,
+   "sport": "MMA"
   }
  },
  "modele": "observation-v1",
