@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-17T08:39:45+00:00",
+ "derniere_observation": "2026-10-17T09:38:39+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -385,6 +385,15 @@
      "date": "2026-10-17T07:40:43+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195278213|729438853",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|195284134|729461155": {
+     "date": "2026-10-17T09:38:27+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195284134|729461155",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1490,6 +1499,15 @@
      "p_modele": 0.413337,
      "regle": null
     },
+    "unibet|195284134|729461155": {
+     "date": "2026-10-17T09:38:27+00:00",
+     "ev_modele_pct": -22.788,
+     "id": "unibet|195284134|729461155",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.275759,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2590,6 +2608,15 @@
      "p_modele": 0.413337,
      "regle": null
     },
+    "unibet|195284134|729461155": {
+     "date": "2026-10-17T09:38:27+00:00",
+     "ev_modele_pct": -22.788,
+     "id": "unibet|195284134|729461155",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.275759,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -3688,6 +3715,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.413337,
+     "regle": null
+    },
+    "unibet|195284134|729461155": {
+     "date": "2026-10-17T09:38:27+00:00",
+     "ev_modele_pct": -22.788,
+     "id": "unibet|195284134|729461155",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.275759,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -6334,6 +6370,22 @@
    "pari": "Clermont marque au moins 4 essais",
    "premiere_vue": "2026-10-17T07:38:49+00:00",
    "sport": "Rugby"
+  },
+  "unibet|195284134|729461155": {
+   "available_at": "2026-10-17T09:38:27+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.35,
+   "debut": "2026-10-17T19:30:00.000Z",
+   "disponible": true,
+   "id": "unibet|195284134|729461155",
+   "long_terme": false,
+   "match": "GS Valkyries - ATL Dream",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
+   "premiere_vue": "2026-10-17T09:37:02+00:00",
+   "sport": "Basketball"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -11775,6 +11827,14 @@
    "regle_le": "2026-10-17T06:40:47+00:00",
    "source": null,
    "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T09:38:39+00:00",
+   "id": "winamax|720612438|2233399136",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T09:38:27+00:00",
+   "source": null,
+   "statut": "gagné"
   }
  ],
  "schema": 1,

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 224,
+   "abstention": 225,
    "ecarter": 35,
    "hors_perimetre": 39,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T08:37:58+00:00",
+  "derniere_observation": "2026-10-17T09:37:02+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [
@@ -35,13 +35,13 @@
    "ev_positive": 1,
    "ligne_absente": 34,
    "long_terme": 39,
-   "marche_non_cote": 37,
+   "marche_non_cote": 38,
    "match_introuvable": 80,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
-  "observations_reglees": 232,
-  "observes": 299,
+  "observations_reglees": 233,
+  "observes": 300,
   "paris_en_attente": 1,
   "paris_regles": 0,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-17T08:37:58+00:00",
+ "derniere_observation": "2026-10-17T09:37:02+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -5866,6 +5866,43 @@
    "pari": "Clermont marque au moins 4 essais",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|195284134|729461155": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T19:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 19.1,
+      "horizon_heures": 9.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T09:37:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195284134|729461155",
+   "match": "GS Valkyries - ATL Dream",
+   "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -18537,6 +18574,34 @@
       "Pinnacle"
      ],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.35,
+     "cote_juste": 2.546,
+     "decision": "ecarter",
+     "ev_pct": -7.7,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 17.5,
+      "horizon_heures": 1.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T09:37:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|721082545|2234860275",
@@ -18751,6 +18816,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": 4.389,
+     "decision": "ecarter",
+     "ev_pct": -14.6,
+     "features": {
+      "cote_origine": 3.264,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T09:37:02+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
