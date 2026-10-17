@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T06:40:56+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T07:40:43+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -18,14 +18,14 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 
 | Simulation | Réglés / paris | Mises réglées | Gain net | ROI | Baisse maximale |
 |---|---|---|---|---|---|
-| temoin_10 | 96 / 105 | 877.25 € | -63.40 € | -7.2 % | -167.12 € |
+| temoin_10 | 96 / 106 | 877.25 € | -63.40 € | -7.2 % | -167.12 € |
 | temoin_20 | 59 / 66 | 953.05 € | +90.68 € | +9.5 % | -162.12 € |
-| value_0 | 2 / 2 | 20.00 € | -20.00 € | -100.0 % | -20.00 € |
-| value_5 | 1 / 1 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
-| J_adaptative | 43 / 44 | 414.14 € | +29.68 € | +7.2 % | -122.83 € |
-| K_modele | 56 / 58 | 544.90 € | +150.73 € | +27.7 % | -74.75 € |
-| L_kelly_dynamique | 59 / 61 | 369.17 € | +76.74 € | +20.8 % | -59.37 € |
-| M_modele_20 | 40 / 42 | 758.57 € | +409.38 € | +54.0 % | -85.88 € |
+| value_0 | 2 / 3 | 20.00 € | -20.00 € | -100.0 % | -20.00 € |
+| value_5 | 1 / 2 | 10.00 € | -10.00 € | -100.0 % | -10.00 € |
+| J_adaptative | 43 / 45 | 414.14 € | +29.68 € | +7.2 % | -122.83 € |
+| K_modele | 56 / 59 | 544.90 € | +150.73 € | +27.7 % | -74.75 € |
+| L_kelly_dynamique | 59 / 62 | 369.17 € | +76.74 € | +20.8 % | -59.37 € |
+| M_modele_20 | 40 / 43 | 758.57 € | +409.38 € | +54.0 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
 M n'est pas un simple doublement de K : l'exposition limite le nombre de paris simultanés et change donc aussi les paris effectivement pris.

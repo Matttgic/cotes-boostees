@@ -1,38 +1,55 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 216,
+   "abstention": 218,
    "ecarter": 33,
    "hors_perimetre": 39,
-   "selectionner": 0
+   "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T06:39:38+00:00",
+  "derniere_observation": "2026-10-17T07:38:49+00:00",
   "gagnes": 0,
   "gain_net": 0,
-  "historique_paris": [],
+  "historique_paris": [
+   {
+    "bookmaker": "Winamax",
+    "cote": 3.75,
+    "debut": "2026-10-17T08:30+00:00",
+    "decision_date": "2026-10-17T07:38:49+00:00",
+    "ev_pct": 5.5,
+    "gain": null,
+    "id": "winamax|720931044|2234335836",
+    "match": "Alexander Zverev - Alejandro Davidovich Fokina",
+    "mise": 10.0,
+    "pari": "Alexander Zverev gagne 2-1",
+    "resultat_source": null,
+    "sport": "Tennis",
+    "statut": "en attente"
+   }
+  ],
   "mises_reglees": 0,
   "motifs_courants": {
    "ancien_format": 17,
    "combiné_lie": 45,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 32,
+   "ev_positive": 1,
    "ligne_absente": 32,
    "long_terme": 39,
    "marche_non_cote": 36,
-   "match_introuvable": 75,
+   "match_introuvable": 77,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
   "observations_reglees": 232,
-  "observes": 288,
-  "paris_en_attente": 0,
+  "observes": 291,
+  "paris_en_attente": 1,
   "paris_regles": 0,
-  "paris_selectionnes": 0,
+  "paris_selectionnes": 1,
   "perdus": 0,
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-17T06:39:38+00:00",
+ "derniere_observation": "2026-10-17T07:38:49+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -927,6 +944,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "netbet|12242662|7462263967": {
+   "bookmaker": "NetBet",
+   "debut": "2026-10-17T15:15+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.6,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T07:38:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Strasbourg - PSG) ; Betfair : match introuvable (Strasbourg - PSG)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12242662|7462263967",
+   "match": "Strasbourg/PSG - F.Torres buteur et PSG gagne",
+   "pari": "Strasbourg/PSG - F.Torres buteur et PSG gagne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "olybet|31215805|7330210853": {
    "bookmaker": "OlyBet",
    "debut": "2026-10-14T05:15+00:00",
@@ -1572,6 +1626,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-17T05:30:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.914,
+     "decision": "ecarter",
+     "ev_pct": -10.6,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T07:38:49+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -5721,6 +5803,43 @@
    "pari": "D.Medvedev gagne le 1er set et plus de 9,5 jeux dans le set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195278213|729438853": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-17T14:15:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 19.0,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T07:38:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Clermont - Leinster) ; Betfair : match introuvable (Clermont - Leinster)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195278213|729438853",
+   "match": "Clermont - Leinster",
+   "pari": "Clermont marque au moins 4 essais",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -18255,6 +18374,74 @@
    "pari": "Anaheim Ducks gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|720931044|2234335836": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T08:30+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": 3.556,
+     "decision": "selectionner",
+     "ev_pct": 5.5,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T07:38:49+00:00",
+     "mise_fictive": 10.0,
+     "motif_code": "ev_positive",
+     "raisons": [
+      "EV exacte ≥ +5 % et référence actualisée",
+      "Mise fictive plafonnée à 10 €"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|720931044|2234335836",
+   "match": "Alexander Zverev - Alejandro Davidovich Fokina",
+   "pari": "Alexander Zverev gagne 2-1",
+   "premiere_selection": {
+    "cote": 3.75,
+    "cote_juste": 3.556,
+    "decision": "selectionner",
+    "ev_pct": 5.5,
+    "features": {
+     "cote_origine": 3.25,
+     "hausse_pct": 15.4,
+     "horizon_heures": 0.9,
+     "long_terme": false,
+     "mise_max": 20.0,
+     "mise_max_supposee": false,
+     "nb_conditions": 1,
+     "qualite_reference": "exacte",
+     "type_boost": "cote boostée"
+    },
+    "horodatage": "2026-10-17T07:38:49+00:00",
+    "mise_fictive": 10.0,
+    "motif_code": "ev_positive",
+    "raisons": [
+     "EV exacte ≥ +5 % et référence actualisée",
+     "Mise fictive plafonnée à 10 €"
+    ],
+    "reference_raison": null,
+    "source": [
+     "Pinnacle"
+    ],
+    "version": "observation-v1.1"
+   },
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
