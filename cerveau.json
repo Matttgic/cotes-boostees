@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 218,
-   "ecarter": 33,
+   "abstention": 224,
+   "ecarter": 35,
    "hors_perimetre": 39,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T07:38:49+00:00",
+  "derniere_observation": "2026-10-17T08:37:58+00:00",
   "gagnes": 0,
   "gain_net": 0,
   "historique_paris": [
@@ -31,17 +31,17 @@
    "ancien_format": 17,
    "combiné_lie": 45,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 32,
+   "ev_insuffisante": 34,
    "ev_positive": 1,
-   "ligne_absente": 32,
+   "ligne_absente": 34,
    "long_terme": 39,
-   "marche_non_cote": 36,
-   "match_introuvable": 77,
+   "marche_non_cote": 37,
+   "match_introuvable": 80,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
   "observations_reglees": 232,
-  "observes": 291,
+  "observes": 299,
   "paris_en_attente": 1,
   "paris_regles": 0,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": 0.0,
   "roi_pct": null
  },
- "derniere_observation": "2026-10-17T07:38:49+00:00",
+ "derniere_observation": "2026-10-17T08:37:58+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -5535,6 +5535,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : match introuvable (Bayern Munich - RB Leipzig)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 7.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 1.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 1.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -18442,6 +18468,306 @@
     "version": "observation-v1.1"
    },
    "sport": "Tennis"
+  },
+  "winamax|721079656|2234852680": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T19:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 19.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 19.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721079656|2234852680",
+   "match": "Golden State Valkyries - Atlanta Dream",
+   "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|721082545|2234860275": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T11:00+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": 2.541,
+     "decision": "ecarter",
+     "ev_pct": -7.5,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 17.5,
+      "horizon_heures": 2.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721082545|2234860275",
+   "match": "Rafael Jodar - Daniil Medvedev",
+   "pari": "Exactement 3 sets lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|721084856|2234866085": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T14:00+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.294,
+      "hausse_pct": 13.3,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "marche_non_cote",
+     "raisons": [
+      "Type de pari non coté par les références"
+     ],
+     "reference_raison": "condition non cotée par les références",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721084856|2234866085",
+   "match": "Premier League",
+   "pari": "Liverpool et Manchester City marquent chacun le 1er but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721089465|2234878530": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T11:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.675,
+      "hausse_pct": 21.5,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Chelsea - None) ; Betfair : match introuvable (Chelsea - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721089465|2234878530",
+   "match": "Football",
+   "pari": "Chelsea et Atletico Madrid marquent chacun au moins 2 buts",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721095498|2234895417": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T15:15+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.96,
+      "hausse_pct": 13.6,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Paris SG - None) ; Betfair : match introuvable (Paris SG - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721095498|2234895417",
+   "match": "Football",
+   "pari": "Le Paris SG et Inter Milan gagnent chacun par au moins 2 buts d'écart",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721104896|2234922327": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T16:30+00:00",
+   "historique": [
+    {
+     "cote": 6.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 5.6,
+      "hausse_pct": 16.1,
+      "horizon_heures": 7.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (None - None) ; Betfair : match introuvable (None - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721104896|2234922327",
+   "match": "Football",
+   "pari": "H. Kane et L. Yamal marquent chacun au moins un but en 1ère mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721107701|2234930345": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.652,
+      "hausse_pct": 13.1,
+      "horizon_heures": 10.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Lille - Lens) ; Betfair : match introuvable (Lille - Lens)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721107701|2234930345",
+   "match": "Ligue 1 McDonald's®",
+   "pari": "Lille et Lens marquent chacun au moins 2 buts",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721110174|2234937459": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": 4.378,
+     "decision": "ecarter",
+     "ev_pct": -14.3,
+     "features": {
+      "cote_origine": 3.264,
+      "hausse_pct": 14.9,
+      "horizon_heures": 10.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T08:37:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721110174|2234937459",
+   "match": "Football",
+   "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : AS Rome - Genoa et Valence - Athletic Bilbao",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
