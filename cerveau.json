@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 230,
-   "ecarter": 36,
+   "abstention": 232,
+   "ecarter": 38,
    "hors_perimetre": 40,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-17T15:15:17+00:00",
+  "derniere_observation": "2026-10-17T16:14:27+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -31,17 +31,17 @@
    "ancien_format": 17,
    "combiné_lie": 46,
    "cote_hors_bornes": 1,
-   "ev_insuffisante": 35,
+   "ev_insuffisante": 37,
    "ev_positive": 1,
    "ligne_absente": 34,
    "long_terme": 40,
    "marche_non_cote": 40,
-   "match_introuvable": 82,
+   "match_introuvable": 84,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
-  "observations_reglees": 237,
-  "observes": 307,
+  "observations_reglees": 239,
+  "observes": 311,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-17T15:15:17+00:00",
+ "derniere_observation": "2026-10-17T16:14:27+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1022,6 +1022,45 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "genybet|12261188|4854631951": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-17T18:45+00:00",
+   "historique": [
+    {
+     "cote": 2.0,
+     "cote_juste": 3.798,
+     "decision": "ecarter",
+     "ev_pct": -47.3,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T16:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12261188|4854631951",
+   "match": "Brest - Lille",
+   "pari": "Brest (vs Lille) gagne ou match nul",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "netbet|12231955|7443639753": {
    "bookmaker": "NetBet",
    "debut": "2026-10-14T19:00+00:00",
@@ -1834,6 +1873,34 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-17T13:52:39+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": 3.888,
+     "decision": "ecarter",
+     "ev_pct": -10.0,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T16:14:27+00:00",
      "mise_fictive": null,
      "motif_code": "ev_insuffisante",
      "raisons": [
@@ -19554,6 +19621,119 @@
    "pari": "J. Buckley gagne par KO, KO technique ou disqualification",
    "premiere_selection": null,
    "sport": "MMA"
+  },
+  "winamax|721388654|2235784457": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T16:30+00:00",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.96,
+      "hausse_pct": 12.2,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T16:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MATCH None DOM) ; Betfair : match introuvable (La Rochelle - Lions)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721388654|2235784457",
+   "match": "La Rochelle - Lions",
+   "pari": "La Rochelle gagne et plus de 55,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|721395733|2235804951": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T17:30+00:00",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.94,
+      "hausse_pct": 13.4,
+      "horizon_heures": 1.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T16:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (A.Lebrun / F.Lebrun - A.Kallberg / K.Karlsson) ; Betfair : match introuvable (A.Lebrun / F.Lebrun - A.Kallberg / K.Karlsson)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721395733|2235804951",
+   "match": "A.Lebrun / F.Lebrun - A.Kallberg / K.Karlsson",
+   "pari": "A.Lebrun / F.Lebrun remportent le 1er set par au moins 3 points d'écart",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
+  },
+  "winamax|721402689|2235825766": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-17T18:00+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": 4.921,
+     "decision": "ecarter",
+     "ev_pct": -13.6,
+     "features": {
+      "cote_origine": 3.65,
+      "hausse_pct": 16.4,
+      "horizon_heures": 1.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "exacte",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-17T16:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "ev_insuffisante",
+     "raisons": [
+      "EV exacte sous le seuil de +5 %"
+     ],
+     "reference_raison": null,
+     "source": [
+      "Pinnacle"
+     ],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721402689|2235825766",
+   "match": "Red Star - Saint-Etienne",
+   "pari": "Les deux équipes marquent en première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
