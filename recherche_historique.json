@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-17T09:38:39+00:00",
+ "derniere_observation": "2026-10-17T10:37:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -394,6 +394,15 @@
      "date": "2026-10-17T09:38:27+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195284134|729461155",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|195284805|729463505": {
+     "date": "2026-10-17T10:37:29+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195284805|729463505",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1508,6 +1517,15 @@
      "p_modele": 0.275759,
      "regle": null
     },
+    "unibet|195284805|729463505": {
+     "date": "2026-10-17T10:37:29+00:00",
+     "ev_modele_pct": 7.19,
+     "id": "unibet|195284805|729463505",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.466044,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2617,6 +2635,15 @@
      "p_modele": 0.275759,
      "regle": null
     },
+    "unibet|195284805|729463505": {
+     "date": "2026-10-17T10:37:29+00:00",
+     "ev_modele_pct": 7.19,
+     "id": "unibet|195284805|729463505",
+     "joue": true,
+     "mise": 3.61,
+     "p_modele": 0.466044,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -3724,6 +3751,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.275759,
+     "regle": null
+    },
+    "unibet|195284805|729463505": {
+     "date": "2026-10-17T10:37:29+00:00",
+     "ev_modele_pct": 7.19,
+     "id": "unibet|195284805|729463505",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.466044,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -5089,6 +5125,22 @@
    "sport": "Basketball",
    "type": "cote boostée"
   },
+  "unibet|193345386|720330439": {
+   "available_at": "2026-10-17T10:37:29+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 4.7,
+   "cote_origine": 3.9,
+   "debut": "2026-10-20T17:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|193345386|720330439",
+   "long_terme": true,
+   "match": "Paris Trashtalk 26/27",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "DET Pistons - Cade Cunningham meilleur passeur NBA en saison régulière (moyenne passes/match, perdant si moins de 58 matchs joués)",
+   "premiere_vue": "2026-10-17T10:36:12+00:00",
+   "sport": "Basketball"
+  },
   "unibet|193345391|720330463": {
    "available_at": "2026-10-10T10:58:41Z",
    "bookmaker": "Unibet",
@@ -6386,6 +6438,22 @@
    "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
    "premiere_vue": "2026-10-17T09:37:02+00:00",
    "sport": "Basketball"
+  },
+  "unibet|195284805|729463505": {
+   "available_at": "2026-10-17T10:37:29+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.3,
+   "cote_origine": 1.95,
+   "debut": "2026-10-17T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195284805|729463505",
+   "long_terme": false,
+   "match": "Bath - Montpellier",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Lenni Nouchi ou Justo Piccardo marque au moins 1 essai",
+   "premiere_vue": "2026-10-17T10:36:12+00:00",
+   "sport": "Rugby"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
