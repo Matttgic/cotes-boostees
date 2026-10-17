@@ -2,7 +2,7 @@
  "boosts_total": 332,
  "cache_betsson": {
   "essais": 2,
-  "session": "d6cb53fa"
+  "session": "c83766d4"
  },
  "cache_unibet": {
   "3381006": {
@@ -615,14 +615,14 @@
  "dernier_passage": {
   "bookmakers": {
    "betsson": {
-    "boosts_en_ligne": 5,
+    "boosts_en_ligne": 4,
     "cotes_modifiees": 0,
     "nouveaux": 0
    },
    "genybet": {
-    "boosts_en_ligne": 1,
+    "boosts_en_ligne": 0,
     "cotes_modifiees": 0,
-    "nouveaux": 1
+    "nouveaux": 0
    },
    "netbet": {
     "boosts_en_ligne": 0,
@@ -630,38 +630,38 @@
     "nouveaux": 0
    },
    "olybet": {
-    "boosts_en_ligne": 1,
+    "boosts_en_ligne": 0,
     "cotes_modifiees": 0,
     "nouveaux": 0
    },
    "unibet": {
-    "boosts_en_ligne": 6,
+    "boosts_en_ligne": 4,
     "cotes_modifiees": 0,
     "nouveaux": 0
    },
    "winamax": {
-    "boosts_en_ligne": 10,
+    "boosts_en_ligne": 7,
     "cotes_modifiees": 0,
-    "nouveaux": 3
+    "nouveaux": 0
    }
   },
   "cerveau": {
    "boosts_observes": 311,
-   "decisions_enregistrees": 5,
-   "nouveaux_boosts": 4
+   "decisions_enregistrees": 3,
+   "nouveaux_boosts": 0
   },
-  "date": "2026-10-17T16:14:27+00:00",
+  "date": "2026-10-17T17:13:36+00:00",
   "evaluation": {
-   "approx": 2,
-   "decomposes": 4,
+   "approx": 1,
+   "decomposes": 0,
    "echecs_decomposition": 0,
-   "evalues": 21,
-   "exactes": 5,
-   "non_evaluables": 14,
+   "evalues": 14,
+   "exactes": 4,
+   "non_evaluables": 9,
    "requetes_pulsescore": 15
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 865515,
+  "octets_proxy": 830255,
   "recherche": {
    "reglements": 260,
    "version": "replay-v1"
@@ -669,21 +669,92 @@
   "reglement": {
    "erreurs": 0,
    "fournisseur": "openai",
-   "inconnus": 0,
+   "inconnus": 1,
    "jetons": {
-    "gpt-6-luna": {
-     "entree": 71958,
-     "sortie": 2517
+    "gpt-6.1-sol": {
+     "entree": 22269,
+     "sortie": 417
     }
    },
-   "recherches": 9,
-   "regles": 2,
-   "soumis": 2
+   "recherches": 3,
+   "regles": 0,
+   "soumis": 1
   },
   "reglements_manuels": 0,
-  "requetes": 22
+  "requetes": 21
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 4,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 4,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 7,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 311,
+    "decisions_enregistrees": 3,
+    "nouveaux_boosts": 0
+   },
+   "date": "2026-10-17T17:13:36+00:00",
+   "evaluation": {
+    "approx": 1,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 14,
+    "exactes": 4,
+    "non_evaluables": 9,
+    "requetes_pulsescore": 15
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 830255,
+   "recherche": {
+    "reglements": 260,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "erreurs": 0,
+    "fournisseur": "openai",
+    "inconnus": 1,
+    "jetons": {
+     "gpt-6.1-sol": {
+      "entree": 22269,
+      "sortie": 417
+     }
+    },
+    "recherches": 3,
+    "regles": 0,
+    "soumis": 1
+   },
+   "reglements_manuels": 0,
+   "requetes": 21
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -12178,49 +12249,7 @@
    },
    "reglements_manuels": 0,
    "requetes": 2
-  },
-  {
-   "bookmakers": {
-    "unibet": {
-     "boosts_en_ligne": 28,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "winamax": {
-     "boosts_en_ligne": 9,
-     "cotes_modifiees": 0,
-     "nouveaux": 3
-    }
-   },
-   "cerveau": {
-    "boosts_observes": 58,
-    "decisions_enregistrees": 5,
-    "nouveaux_boosts": 3
-   },
-   "date": "2026-10-10T08:59:01+00:00",
-   "evaluation": {
-    "approx": 3,
-    "decomposes": 3,
-    "echecs_decomposition": 0,
-    "evalues": 16,
-    "exactes": 1,
-    "non_evaluables": 12,
-    "requetes_pulsescore": 13
-   },
-   "long_terme_winamax_corriges": 0,
-   "octets_proxy": 448805,
-   "reglement": {
-    "erreurs": 0,
-    "fournisseur": "openai",
-    "inconnus": 0,
-    "jetons": {},
-    "recherches": 0,
-    "regles": 0,
-    "soumis": 0
-   },
-   "reglements_manuels": 0,
-   "requetes": 2
   }
  ],
- "octets_proxy_total": 149810417
+ "octets_proxy_total": 150640672
 }

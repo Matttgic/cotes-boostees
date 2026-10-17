@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 17/10 18h14 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 17/10 19h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -184,7 +184,7 @@ A en détail : 81 gagnés, 175 perdus, 4 remboursés, 72 en attente · cote moye
 | 17/10 21h30 · Golden State Valkyries - Atlanta Dream | Gabby Williams marque au moins 20 points et Golden State Valkyries gagne | 3,25 | – | – | 20 € | ⏳ |
 | 17/10 21h00 · Bath - Montpellier | Lenni Nouchi ou Justo Piccardo marque au moins 1 essai | 2,3 | – | – | 25 € | ⏳ |
 | 17/10 20h45 · Ligue 1 (17/10) | Lille et Lens marquent chacun le 1er but et gagnent leur match respectif | 4,2 | – | – | 25 € | ⏳ |
-| 17/10 20h45 · Brest - Lille | Brest (vs Lille) gagne ou match nul | 2,0 | 3,798 | -47,3 % | 10 € | ⏳ |
 | 17/10 20h45 · Football | Plus de 2,5 buts lors de chacun des matchs suivants : AS Rome - Genoa et Valence - Athletic Bilbao | 3,75 | 4,378 | -14,3 % | 20 € | ⏳ |
+| 17/10 20h45 · Ligue 1 McDonald's® | Lille et Lens marquent chacun au moins 2 buts | 3,0 | – | – | 20 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).
