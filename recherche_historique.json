@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-17T18:21:08+00:00",
+ "derniere_observation": "2026-10-17T19:20:43+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -430,6 +430,15 @@
      "date": "2026-10-17T10:37:29+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195284805|729463505",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|195359355|729752689": {
+     "date": "2026-10-17T19:19:40+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195359355|729752689",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1634,6 +1643,15 @@
      "p_modele": 0.466044,
      "regle": null
     },
+    "unibet|195359355|729752689": {
+     "date": "2026-10-17T19:19:40+00:00",
+     "ev_modele_pct": 18.954,
+     "id": "unibet|195359355|729752689",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.517191,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -2833,6 +2851,15 @@
      "p_modele": 0.466044,
      "regle": null
     },
+    "unibet|195359355|729752689": {
+     "date": "2026-10-17T19:19:40+00:00",
+     "ev_modele_pct": 18.954,
+     "id": "unibet|195359355|729752689",
+     "joue": true,
+     "mise": 9.2,
+     "p_modele": 0.517191,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -4030,6 +4057,15 @@
      "joue": true,
      "mise": 20.0,
      "p_modele": 0.466044,
+     "regle": null
+    },
+    "unibet|195359355|729752689": {
+     "date": "2026-10-17T19:19:40+00:00",
+     "ev_modele_pct": 18.954,
+     "id": "unibet|195359355|729752689",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.517191,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -6826,6 +6862,22 @@
    "pari": "Lenni Nouchi ou Justo Piccardo marque au moins 1 essai",
    "premiere_vue": "2026-10-17T10:36:12+00:00",
    "sport": "Rugby"
+  },
+  "unibet|195359355|729752689": {
+   "available_at": "2026-10-17T19:19:40+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.3,
+   "cote_origine": 2.0,
+   "debut": "2026-10-18T08:40:00.000Z",
+   "disponible": true,
+   "id": "unibet|195359355|729752689",
+   "long_terme": false,
+   "match": "R.Jodar - A.Davidovich",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Les 2 joueurs gagnent un set ?",
+   "premiere_vue": "2026-10-17T19:18:52+00:00",
+   "sport": "Tennis"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -12435,6 +12487,46 @@
    "regle_le": "2026-10-17T18:20:40+00:00",
    "source": null,
    "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T19:20:43+00:00",
+   "id": "betsson|93955018.1|394274706.1",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T19:19:40+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T19:20:43+00:00",
+   "id": "netbet|12242662|7462263967",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T19:19:40+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T19:20:43+00:00",
+   "id": "olybet|31250307|7346738918",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T19:19:40+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T19:20:43+00:00",
+   "id": "unibet|195196274|729097782",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T19:19:40+00:00",
+   "source": null,
+   "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-17T19:20:43+00:00",
+   "id": "winamax|721095498|2234895417",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-17T19:19:40+00:00",
+   "source": null,
+   "statut": "gagné"
   }
  ],
  "schema": 1,
@@ -12537,6 +12629,14 @@
    "date": "2026-10-15T07:48:45+00:00",
    "ev_pct": -17.7,
    "statut": "approx"
+  },
+  "unibet|195359355|729752689": {
+   "available_at": "2026-10-17T19:19:40+00:00",
+   "cote_boostee": 2.3,
+   "cote_juste": 2.501,
+   "date": "2026-10-17T19:18:52+00:00",
+   "ev_pct": -8.0,
+   "statut": "exacte"
   },
   "winamax|714444471|2214440249": {
    "available_at": "2026-10-08T18:36:27Z",
