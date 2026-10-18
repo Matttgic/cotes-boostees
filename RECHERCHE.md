@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-18T14:19:21+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-18T15:18:52+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 249 prévisions réglées : score de Brier du modèle 0.2144, prior bookmaker 0.2148 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 250 prévisions réglées : score de Brier du modèle 0.2154, prior bookmaker 0.2154 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -163,6 +163,9 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:tennis:1.5-2.5 | 8 | +38.50 € | +48.1 % |
 | sport:football:3-5 | 73 | +24.62 € | +3.4 % |
 | sport:hockey sur glace:1.5-2.5 | 3 | +18.00 € | +60.0 % |
+| sport:football:1.5-5 | 82 | +13.59 € | +1.7 % |
+| sport:football:1.5-8 | 82 | +13.59 € | +1.7 % |
+| sport:football:2-5 | 82 | +13.59 € | +1.7 % |
 | sport:basketball:1.5-3.5 | 8 | +11.50 € | +14.4 % |
 | sport:basketball:2-3.5 | 8 | +11.50 € | +14.4 % |
 | bookmaker:Unibet:1.5-3.5 | 40 | +5.50 € | +1.4 % |
@@ -173,9 +176,6 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | bookmaker:Unibet:1.5-5 | 41 | -4.50 € | -1.1 % |
 | bookmaker:Unibet:1.5-8 | 41 | -4.50 € | -1.1 % |
 | bookmaker:Unibet:2-5 | 41 | -4.50 € | -1.1 % |
-| sport:football:1.5-5 | 81 | -5.41 € | -0.7 % |
-| sport:football:1.5-8 | 81 | -5.41 € | -0.7 % |
-| sport:football:2-5 | 81 | -5.41 € | -0.7 % |
 | sport:basketball:1.5-5 | 10 | -8.50 € | -8.5 % |
 | sport:basketball:1.5-8 | 10 | -8.50 € | -8.5 % |
 | sport:basketball:2-5 | 10 | -8.50 € | -8.5 % |
@@ -189,13 +189,13 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:rugby:1.5-8 | 17 | -34.00 € | -20.0 % |
 | sport:rugby:2-5 | 17 | -34.00 € | -20.0 % |
 | bookmaker:Unibet:1.5-2.5 | 16 | -39.50 € | -24.7 % |
+| sport:football:1.5-3.5 | 68 | -40.03 € | -6.2 % |
+| sport:football:2-3.5 | 68 | -40.03 € | -6.2 % |
 | bookmaker:Unibet:3-5 | 11 | -44.50 € | -40.5 % |
 | bookmaker:Winamax:3-5 | 96 | -46.93 € | -5.1 % |
 | tous:tous:2-5 | 109 | -49.60 € | -5.0 % |
 | tous:tous:1.5-5 | 109 | -55.41 € | -5.6 % |
 | sport:football:1.5-2.5 | 24 | -56.00 € | -23.3 % |
-| sport:football:1.5-3.5 | 67 | -59.03 € | -9.2 % |
-| sport:football:2-3.5 | 67 | -59.03 € | -9.2 % |
 | tous:tous:1.5-2.5 | 51 | -65.50 € | -12.8 % |
 | tous:tous:3-5 | 93 | -71.05 € | -7.9 % |
 | tous:tous:1.5-8 | 104 | -72.23 € | -7.4 % |
@@ -226,7 +226,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 291 événements de règlement : {'gpt-6-luna': 291}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 292 événements de règlement : {'gpt-6-luna': 292}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
