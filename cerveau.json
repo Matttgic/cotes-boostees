@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 246,
+   "abstention": 255,
    "ecarter": 43,
    "hors_perimetre": 42,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-18T08:00:08+00:00",
+  "derniere_observation": "2026-10-18T08:59:07+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -29,19 +29,19 @@
   "mises_reglees": 10.0,
   "motifs_courants": {
    "ancien_format": 17,
-   "combiné_lie": 50,
+   "combiné_lie": 52,
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
-   "ligne_absente": 39,
+   "ligne_absente": 43,
    "long_terme": 42,
    "marche_non_cote": 40,
-   "match_introuvable": 89,
+   "match_introuvable": 92,
    "reference_absente": 1,
    "sport_non_suivi": 10
   },
   "observations_reglees": 268,
-  "observes": 332,
+  "observes": 341,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-18T08:00:08+00:00",
+ "derniere_observation": "2026-10-18T08:59:07+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1132,6 +1132,43 @@
    "id": "netbet|12235128|7448255634",
    "match": "Lyon - Crystal Palace",
    "pari": "Lyon (vs Crystal Palace), Marseille (vs Olympiakos) et Rennes (vs OFI Crete) marquent tous le premier but de leur match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12242643|7466852604": {
+   "bookmaker": "NetBet",
+   "debut": "2026-10-18T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12242643|7466852604",
+   "match": "Lyon/Nice - Lyon gagne et les deux équipes marquent",
+   "pari": "Lyon/Nice - Lyon gagne et les deux équipes marquent",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -6532,6 +6569,80 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195401001|729932219": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-18T12:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 20.0,
+      "horizon_heures": 3.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MATCH None DOM) ; Betfair : match introuvable (Pau - Leicester)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195401001|729932219",
+   "match": "Pau - Leicester",
+   "pari": "Pau gagne et Aaron Grandidier marque au moins 1 essai",
+   "premiere_selection": null,
+   "sport": "Rugby"
+  },
+  "unibet|195401184|729932763": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-18T14:15:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 5.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Toulouse - Exeter) ; Betfair : match introuvable (Toulouse - Exeter)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195401184|729932763",
+   "match": "Toulouse - Exeter",
+   "pari": "Teddy Thomas et Ange Capuozzo marquent au moins 1 essai chacun",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -21243,6 +21354,228 @@
    "pari": "G. Ramos marque au moins un but en 1ère mi-temps",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|721925625|2237415051": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T18:45+00:00",
+   "historique": [
+    {
+     "cote": 2.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.82,
+      "hausse_pct": 9.9,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721925625|2237415051",
+   "match": "Lyon - Nice",
+   "pari": "P. Sulc marque au moins un but ou fait au moins une passe décisive",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721929623|2237427511": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T18:45+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 2,
+      "qualite_reference": "approx",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "combiné_lie",
+     "raisons": [
+      "Conditions liées : probabilité seulement approximative"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721929623|2237427511",
+   "match": "Juventus - Lazio Rome",
+   "pari": "Juventus gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721931427|2237432846": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.2,
+      "hausse_pct": 13.1,
+      "horizon_heures": 10.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721931427|2237432846",
+   "match": "Real Madrid - FC Séville",
+   "pari": "K. Mbappé buteur sur une passe de A. Guler",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721932775|2237436428": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 10.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 1,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (RESULTAT_1N2 MT2 None DOM) ; Betfair : ligne absente (RESULTAT_1N2 MT2 None DOM)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721932775|2237436428",
+   "match": "Real Madrid - FC Séville",
+   "pari": "Real Madrid gagne les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|721934588|2237441880": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T17:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.452,
+      "hausse_pct": 12.2,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "match_introuvable",
+     "raisons": [
+      "Rencontre introuvable dans les références"
+     ],
+     "reference_raison": "Pinnacle : match introuvable (Indianapolis Colts - None) ; Betfair : match introuvable (Indianapolis Colts - None)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721934588|2237441880",
+   "match": "NFL",
+   "pari": "Indianapolis Colts, Baltimore Ravens et New England Patriots gagnent chacun leur match",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|721934854|2237442982": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T13:30+00:00",
+   "historique": [
+    {
+     "cote": 7.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 6.0,
+      "hausse_pct": 16.7,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T08:59:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS) ; Betfair : ligne absente (JOUEUR MATCH 0.5 PLUS)",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|721934854|2237442982",
+   "match": "Jacksonville Jaguars - Houston Texans",
+   "pari": "Marvin Harrison Jr. marque au moins un touchdown",
+   "premiere_selection": null,
+   "sport": "Football Américain"
   }
  },
  "modele": "observation-v1",
