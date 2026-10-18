@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-18T16:58:03+00:00",
+ "derniere_observation": "2026-10-18T17:57:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1510,6 +1510,15 @@
      "date": "2026-10-18T16:57:57+00:00",
      "ev_modele_pct": null,
      "id": "winamax|722277464|2238470447",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|722289470|2238503546": {
+     "date": "2026-10-18T17:57:24+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|722289470|2238503546",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3028,6 +3037,15 @@
      "mise": null,
      "p_modele": 0.340746,
      "regle": null
+    },
+    "winamax|722289470|2238503546": {
+     "date": "2026-10-18T17:57:24+00:00",
+     "ev_modele_pct": -22.531,
+     "id": "winamax|722289470|2238503546",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297957,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -4542,6 +4560,15 @@
      "mise": null,
      "p_modele": 0.340746,
      "regle": null
+    },
+    "winamax|722289470|2238503546": {
+     "date": "2026-10-18T17:57:24+00:00",
+     "ev_modele_pct": -22.531,
+     "id": "winamax|722289470|2238503546",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297957,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -6055,6 +6082,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.340746,
+     "regle": null
+    },
+    "winamax|722289470|2238503546": {
+     "date": "2026-10-18T17:57:24+00:00",
+     "ev_modele_pct": -22.531,
+     "id": "winamax|722289470|2238503546",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297957,
      "regle": null
     }
    }
@@ -12204,6 +12240,22 @@
    "mise_max_supposee": null,
    "pari": "Los Angeles Rams et Kansas City Chiefs gagnent chacun par au moins 7 points d'écart (respectivement contre Arizona Cardinals et Los Angeles Chargers)",
    "premiere_vue": "2026-10-18T16:57:06+00:00",
+   "sport": "Football Américain"
+  },
+  "winamax|722289470|2238503546": {
+   "available_at": "2026-10-18T17:57:24+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.6,
+   "cote_origine": 2.3,
+   "debut": "2026-10-19T00:20+00:00",
+   "disponible": true,
+   "id": "winamax|722289470|2238503546",
+   "long_terme": false,
+   "match": "Green Bay Packers - Dallas Cowboys",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "MarShawn Lloyd et Javonte Williams marquent chacun au moins un touchdown",
+   "premiere_vue": "2026-10-18T17:56:14+00:00",
    "sport": "Football Américain"
   }
  },
