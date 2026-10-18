@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 256,
+   "abstention": 262,
    "ecarter": 43,
    "hors_perimetre": 43,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-18T15:58:00+00:00",
+  "derniere_observation": "2026-10-18T16:57:06+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 43,
    "marche_non_cote": 41,
    "match_introuvable": 92,
-   "reference_absente": 1,
+   "reference_absente": 7,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 343,
+  "observes": 349,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-18T15:58:00+00:00",
+ "derniere_observation": "2026-10-18T16:57:06+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1058,6 +1058,43 @@
    "id": "genybet|12261188|4854631951",
    "match": "Brest - Lille",
    "pari": "Brest (vs Lille) gagne ou match nul",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12261210|4858224994": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-18T19:00+00:00",
+   "historique": [
+    {
+     "cote": 1.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12261210|4858224994",
+   "match": "Kylian Mbappé - Séville",
+   "pari": "Kylian Mbappé (vs Séville) buteur",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -21832,6 +21869,191 @@
    "pari": "Flamengo et Bragantino SP marquent chacun le 1er but (respectivement contre Bahia et Remo)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|722253874|2238402926": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T21:00+00:00",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 11.5,
+      "horizon_heures": 4.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722253874|2238402926",
+   "match": "Cincinnati FC - Columbus Crew",
+   "pari": "Les deux équipes marquent en première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|722255096|2238406249": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T00:10+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.15,
+      "hausse_pct": 19.0,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722255096|2238406249",
+   "match": "Calgary Flames - Carolina Hurricanes",
+   "pari": "Andrei Svechnikov buteur et Carolina Hurricanes gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|722256517|2238410367": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T01:00+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 11.6,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722256517|2238410367",
+   "match": "Monterrey - Pachuca",
+   "pari": "Monterrey marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|722260883|2238423341": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T02:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.835,
+      "hausse_pct": 14.6,
+      "horizon_heures": 9.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722260883|2238423341",
+   "match": "WTA Osaka",
+   "pari": "V. Golubic et K. Quevedo gagnent chacune le premier set (respectivement contre M. Hontama et L. Taraudee)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|722277464|2238470447": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-18T20:05+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.064,
+      "hausse_pct": 16.3,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T16:57:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722277464|2238470447",
+   "match": "NFL",
+   "pari": "Los Angeles Rams et Kansas City Chiefs gagnent chacun par au moins 7 points d'écart (respectivement contre Arizona Cardinals et Los Angeles Chargers)",
+   "premiere_selection": null,
+   "sport": "Football Américain"
   }
  },
  "modele": "observation-v1",
