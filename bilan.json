@@ -1112,25 +1112,37 @@
    {
     "cumul": -398.28,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -353.28,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -308.28,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -328.28,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.35,
-   "en_attente": 63,
+   "en_attente": 60,
    "ev_moyenne_pct": -16.2,
-   "gagnes": 85,
-   "gain_net": -398.28,
-   "mise_totale": 5692.02,
+   "gagnes": 87,
+   "gain_net": -328.28,
+   "mise_totale": 5757.02,
    "paris": 341,
    "paris_avec_ev": 100,
-   "perdus": 189,
+   "perdus": 190,
    "pire_baisse": -706.5,
    "pire_serie_perdante": 22,
-   "regles": 278,
+   "regles": 281,
    "rembourses": 4,
-   "reussite_pct": 31.0,
-   "roi_pct": -7.0
+   "reussite_pct": 31.4,
+   "roi_pct": -5.7
   },
   "par_bookmaker": {
    "Betsson": {
@@ -1195,33 +1207,33 @@
    },
    "Unibet": {
     "cote_moyenne": 3.0,
-    "en_attente": 43,
+    "en_attente": 42,
     "ev_moyenne_pct": -10.3,
-    "gagnes": 18,
-    "gain_net": -46.25,
-    "mise_totale": 1250.0,
+    "gagnes": 19,
+    "gain_net": -1.25,
+    "mise_totale": 1275.0,
     "paris": 93,
     "paris_avec_ev": 6,
     "perdus": 31,
-    "regles": 50,
+    "regles": 51,
     "rembourses": 1,
-    "reussite_pct": 36.7,
-    "roi_pct": -3.7
+    "reussite_pct": 38.0,
+    "roi_pct": -0.1
    },
    "Winamax": {
     "cote_moyenne": 3.39,
-    "en_attente": 14,
+    "en_attente": 12,
     "ev_moyenne_pct": -16.5,
-    "gagnes": 57,
-    "gain_net": -472.0,
-    "mise_totale": 4160.0,
+    "gagnes": 58,
+    "gain_net": -447.0,
+    "mise_totale": 4200.0,
     "paris": 222,
     "paris_avec_ev": 87,
-    "perdus": 148,
-    "regles": 208,
+    "perdus": 149,
+    "regles": 210,
     "rembourses": 3,
-    "reussite_pct": 27.8,
-    "roi_pct": -11.3
+    "reussite_pct": 28.0,
+    "roi_pct": -10.6
    }
   },
   "par_bookmaker_sport": {
@@ -1326,18 +1338,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 3.64,
-     "en_attente": 30,
+     "en_attente": 29,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 45.0,
+     "mise_totale": 25.0,
      "paris": 30,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.76,
@@ -1448,18 +1460,18 @@
     },
     "Basketball": {
      "cote_moyenne": 3.7,
-     "en_attente": 2,
+     "en_attente": 1,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -158.0,
-     "mise_totale": 220.0,
+     "gagnes": 2,
+     "gain_net": -113.0,
+     "mise_totale": 240.0,
      "paris": 13,
      "paris_avec_ev": 3,
      "perdus": 9,
-     "regles": 11,
+     "regles": 12,
      "rembourses": 1,
-     "reussite_pct": 10.0,
-     "roi_pct": -71.8
+     "reussite_pct": 18.2,
+     "roi_pct": -47.1
     },
     "Football": {
      "cote_moyenne": 3.41,
@@ -1523,18 +1535,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 3.57,
-     "en_attente": 3,
+     "en_attente": 2,
      "ev_moyenne_pct": -17.4,
      "gagnes": 6,
-     "gain_net": -219.0,
-     "mise_totale": 580.0,
+     "gain_net": -239.0,
+     "mise_totale": 600.0,
      "paris": 32,
      "paris_avec_ev": 20,
-     "perdus": 23,
-     "regles": 29,
+     "perdus": 24,
+     "regles": 30,
      "rembourses": 0,
-     "reussite_pct": 20.7,
-     "roi_pct": -37.8
+     "reussite_pct": 20.0,
+     "roi_pct": -39.8
     },
     "Judo": {
      "cote_moyenne": 3.88,
@@ -1646,18 +1658,18 @@
    },
    "match": {
     "cote_moyenne": 3.31,
-    "en_attente": 21,
+    "en_attente": 18,
     "ev_moyenne_pct": -16.2,
-    "gagnes": 85,
-    "gain_net": -398.28,
-    "mise_totale": 5692.02,
+    "gagnes": 87,
+    "gain_net": -328.28,
+    "mise_totale": 5757.02,
     "paris": 299,
     "paris_avec_ev": 100,
-    "perdus": 189,
-    "regles": 278,
+    "perdus": 190,
+    "regles": 281,
     "rembourses": 4,
-    "reussite_pct": 31.0,
-    "roi_pct": -7.0
+    "reussite_pct": 31.4,
+    "roi_pct": -5.7
    }
   },
   "par_mise": {
@@ -1723,18 +1735,18 @@
    },
    "20 €": {
     "cote_moyenne": 3.51,
-    "en_attente": 18,
+    "en_attente": 16,
     "ev_moyenne_pct": -16.7,
-    "gagnes": 60,
-    "gain_net": -446.0,
-    "mise_totale": 4300.0,
+    "gagnes": 61,
+    "gain_net": -421.0,
+    "mise_totale": 4340.0,
     "paris": 233,
     "paris_avec_ev": 89,
-    "perdus": 152,
-    "regles": 215,
+    "perdus": 153,
+    "regles": 217,
     "rembourses": 3,
-    "reussite_pct": 28.3,
-    "roi_pct": -10.4
+    "reussite_pct": 28.5,
+    "roi_pct": -9.7
    },
    "20.83 €": {
     "cote_moyenne": 2.2,
@@ -1753,18 +1765,18 @@
    },
    "25 €": {
     "cote_moyenne": 3.0,
-    "en_attente": 43,
+    "en_attente": 42,
     "ev_moyenne_pct": -10.3,
-    "gagnes": 18,
-    "gain_net": -46.25,
-    "mise_totale": 1250.0,
+    "gagnes": 19,
+    "gain_net": -1.25,
+    "mise_totale": 1275.0,
     "paris": 93,
     "paris_avec_ev": 6,
     "perdus": 31,
-    "regles": 50,
+    "regles": 51,
     "rembourses": 1,
-    "reussite_pct": 36.7,
-    "roi_pct": -3.7
+    "reussite_pct": 38.0,
+    "roi_pct": -0.1
    },
    "6.25 €": {
     "cote_moyenne": 4.5,
@@ -1800,18 +1812,18 @@
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.35,
-    "en_attente": 63,
+    "en_attente": 60,
     "ev_moyenne_pct": -16.2,
-    "gagnes": 85,
-    "gain_net": -398.28,
-    "mise_totale": 5692.02,
+    "gagnes": 87,
+    "gain_net": -328.28,
+    "mise_totale": 5757.02,
     "paris": 341,
     "paris_avec_ev": 100,
-    "perdus": 189,
-    "regles": 278,
+    "perdus": 190,
+    "regles": 281,
     "rembourses": 4,
-    "reussite_pct": 31.0,
-    "roi_pct": -7.0
+    "reussite_pct": 31.4,
+    "roi_pct": -5.7
    }
   },
   "par_sport": {
@@ -1847,18 +1859,18 @@
    },
    "Basketball": {
     "cote_moyenne": 3.66,
-    "en_attente": 32,
+    "en_attente": 30,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -158.0,
-    "mise_totale": 220.0,
+    "gagnes": 3,
+    "gain_net": -68.0,
+    "mise_totale": 265.0,
     "paris": 43,
     "paris_avec_ev": 3,
     "perdus": 9,
-    "regles": 11,
+    "regles": 13,
     "rembourses": 1,
-    "reussite_pct": 10.0,
-    "roi_pct": -71.8
+    "reussite_pct": 25.0,
+    "roi_pct": -25.7
    },
    "Football": {
     "cote_moyenne": 3.38,
@@ -1922,18 +1934,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.57,
-    "en_attente": 3,
+    "en_attente": 2,
     "ev_moyenne_pct": -17.4,
     "gagnes": 6,
-    "gain_net": -219.0,
-    "mise_totale": 580.0,
+    "gain_net": -239.0,
+    "mise_totale": 600.0,
     "paris": 32,
     "paris_avec_ev": 20,
-    "perdus": 23,
-    "regles": 29,
+    "perdus": 24,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 20.7,
-    "roi_pct": -37.8
+    "reussite_pct": 20.0,
+    "roi_pct": -39.8
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -2059,33 +2071,33 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.5,
-    "en_attente": 25,
+    "en_attente": 23,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 46,
-    "gain_net": 29.48,
-    "mise_totale": 2479.71,
+    "gagnes": 47,
+    "gain_net": 54.48,
+    "mise_totale": 2524.71,
     "paris": 141,
     "paris_avec_ev": 36,
-    "perdus": 67,
-    "regles": 116,
+    "perdus": 68,
+    "regles": 118,
     "rembourses": 3,
-    "reussite_pct": 40.7,
-    "roi_pct": 1.2
+    "reussite_pct": 40.9,
+    "roi_pct": 2.2
    },
    "3 – 5": {
     "cote_moyenne": 3.59,
-    "en_attente": 21,
+    "en_attente": 20,
     "ev_moyenne_pct": -17.2,
-    "gagnes": 36,
-    "gain_net": -387.76,
-    "mise_totale": 2872.31,
+    "gagnes": 37,
+    "gain_net": -342.76,
+    "mise_totale": 2892.31,
     "paris": 165,
     "paris_avec_ev": 57,
     "perdus": 107,
-    "regles": 144,
+    "regles": 145,
     "rembourses": 1,
-    "reussite_pct": 25.2,
-    "roi_pct": -13.5
+    "reussite_pct": 25.7,
+    "roi_pct": -11.9
    },
    "5 – 10": {
     "cote_moyenne": 6.01,
@@ -2226,33 +2238,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 3.18,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.4,
     "gagnes": 14,
-    "gain_net": 154.5,
-    "mise_totale": 770.0,
+    "gain_net": 134.5,
+    "mise_totale": 790.0,
     "paris": 46,
     "paris_avec_ev": 46,
-    "perdus": 24,
-    "regles": 39,
+    "perdus": 25,
+    "regles": 40,
     "rembourses": 1,
-    "reussite_pct": 36.8,
-    "roi_pct": 20.1
+    "reussite_pct": 35.9,
+    "roi_pct": 17.0
    },
    "non évaluable": {
     "cote_moyenne": 3.41,
-    "en_attente": 53,
+    "en_attente": 51,
     "ev_moyenne_pct": null,
-    "gagnes": 58,
-    "gain_net": -312.33,
-    "mise_totale": 3905.4,
+    "gagnes": 60,
+    "gain_net": -222.33,
+    "mise_totale": 3950.4,
     "paris": 241,
     "paris_avec_ev": 0,
     "perdus": 127,
-    "regles": 188,
+    "regles": 190,
     "rembourses": 3,
-    "reussite_pct": 31.4,
-    "roi_pct": -8.0
+    "reussite_pct": 32.1,
+    "roi_pct": -5.6
    }
   },
   "paris": [
@@ -7295,14 +7307,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 45.0,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 20.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -7312,14 +7324,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 45.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 25.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -7329,14 +7341,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -20.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 20.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -7394,7 +7406,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.188,
+    "cote_origine": 3.208,
     "debut": "2026-10-18T00:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -10360,25 +10372,37 @@
    {
     "cumul": -170.45,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -147.95,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -129.95,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -139.95,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.35,
-   "en_attente": 63,
+   "en_attente": 60,
    "ev_moyenne_pct": -16.2,
-   "gagnes": 85,
-   "gain_net": -170.45,
-   "mise_totale": 2774.58,
+   "gagnes": 87,
+   "gain_net": -139.95,
+   "mise_totale": 2804.58,
    "paris": 341,
    "paris_avec_ev": 100,
-   "perdus": 189,
+   "perdus": 190,
    "pire_baisse": -337.5,
    "pire_serie_perdante": 22,
-   "regles": 278,
+   "regles": 281,
    "rembourses": 4,
-   "reussite_pct": 31.0,
-   "roi_pct": -6.1
+   "reussite_pct": 31.4,
+   "roi_pct": -5.0
   },
   "par_bookmaker": {
    "Betsson": {
@@ -10443,33 +10467,33 @@
    },
    "Unibet": {
     "cote_moyenne": 3.0,
-    "en_attente": 43,
+    "en_attente": 42,
     "ev_moyenne_pct": -10.3,
-    "gagnes": 18,
-    "gain_net": -18.5,
-    "mise_totale": 500.0,
+    "gagnes": 19,
+    "gain_net": -0.5,
+    "mise_totale": 510.0,
     "paris": 93,
     "paris_avec_ev": 6,
     "perdus": 31,
-    "regles": 50,
+    "regles": 51,
     "rembourses": 1,
-    "reussite_pct": 36.7,
-    "roi_pct": -3.7
+    "reussite_pct": 38.0,
+    "roi_pct": -0.1
    },
    "Winamax": {
     "cote_moyenne": 3.39,
-    "en_attente": 14,
+    "en_attente": 12,
     "ev_moyenne_pct": -16.5,
-    "gagnes": 57,
-    "gain_net": -236.0,
-    "mise_totale": 2080.0,
+    "gagnes": 58,
+    "gain_net": -223.5,
+    "mise_totale": 2100.0,
     "paris": 222,
     "paris_avec_ev": 87,
-    "perdus": 148,
-    "regles": 208,
+    "perdus": 149,
+    "regles": 210,
     "rembourses": 3,
-    "reussite_pct": 27.8,
-    "roi_pct": -11.3
+    "reussite_pct": 28.0,
+    "roi_pct": -10.6
    }
   },
   "par_bookmaker_sport": {
@@ -10574,18 +10598,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 3.64,
-     "en_attente": 30,
+     "en_attente": 29,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 18.0,
+     "mise_totale": 10.0,
      "paris": 30,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.76,
@@ -10696,18 +10720,18 @@
     },
     "Basketball": {
      "cote_moyenne": 3.7,
-     "en_attente": 2,
+     "en_attente": 1,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -79.0,
-     "mise_totale": 110.0,
+     "gagnes": 2,
+     "gain_net": -56.5,
+     "mise_totale": 120.0,
      "paris": 13,
      "paris_avec_ev": 3,
      "perdus": 9,
-     "regles": 11,
+     "regles": 12,
      "rembourses": 1,
-     "reussite_pct": 10.0,
-     "roi_pct": -71.8
+     "reussite_pct": 18.2,
+     "roi_pct": -47.1
     },
     "Football": {
      "cote_moyenne": 3.41,
@@ -10771,18 +10795,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 3.57,
-     "en_attente": 3,
+     "en_attente": 2,
      "ev_moyenne_pct": -17.4,
      "gagnes": 6,
-     "gain_net": -109.5,
-     "mise_totale": 290.0,
+     "gain_net": -119.5,
+     "mise_totale": 300.0,
      "paris": 32,
      "paris_avec_ev": 20,
-     "perdus": 23,
-     "regles": 29,
+     "perdus": 24,
+     "regles": 30,
      "rembourses": 0,
-     "reussite_pct": 20.7,
-     "roi_pct": -37.8
+     "reussite_pct": 20.0,
+     "roi_pct": -39.8
     },
     "Judo": {
      "cote_moyenne": 3.88,
@@ -10894,35 +10918,35 @@
    },
    "match": {
     "cote_moyenne": 3.31,
-    "en_attente": 21,
+    "en_attente": 18,
     "ev_moyenne_pct": -16.2,
-    "gagnes": 85,
-    "gain_net": -170.45,
-    "mise_totale": 2774.58,
+    "gagnes": 87,
+    "gain_net": -139.95,
+    "mise_totale": 2804.58,
     "paris": 299,
     "paris_avec_ev": 100,
-    "perdus": 189,
-    "regles": 278,
+    "perdus": 190,
+    "regles": 281,
     "rembourses": 4,
-    "reussite_pct": 31.0,
-    "roi_pct": -6.1
+    "reussite_pct": 31.4,
+    "roi_pct": -5.0
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.34,
-    "en_attente": 63,
+    "en_attente": 60,
     "ev_moyenne_pct": -16.2,
-    "gagnes": 84,
-    "gain_net": -184.0,
-    "mise_totale": 2760.0,
+    "gagnes": 86,
+    "gain_net": -153.5,
+    "mise_totale": 2790.0,
     "paris": 339,
     "paris_avec_ev": 100,
-    "perdus": 188,
-    "regles": 276,
+    "perdus": 189,
+    "regles": 279,
     "rembourses": 4,
-    "reussite_pct": 30.9,
-    "roi_pct": -6.7
+    "reussite_pct": 31.3,
+    "roi_pct": -5.5
    },
    "6.25 €": {
     "cote_moyenne": 4.5,
@@ -10958,18 +10982,18 @@
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.35,
-    "en_attente": 63,
+    "en_attente": 60,
     "ev_moyenne_pct": -16.2,
-    "gagnes": 85,
-    "gain_net": -170.45,
-    "mise_totale": 2774.58,
+    "gagnes": 87,
+    "gain_net": -139.95,
+    "mise_totale": 2804.58,
     "paris": 341,
     "paris_avec_ev": 100,
-    "perdus": 189,
-    "regles": 278,
+    "perdus": 190,
+    "regles": 281,
     "rembourses": 4,
-    "reussite_pct": 31.0,
-    "roi_pct": -6.1
+    "reussite_pct": 31.4,
+    "roi_pct": -5.0
    }
   },
   "par_sport": {
@@ -11005,18 +11029,18 @@
    },
    "Basketball": {
     "cote_moyenne": 3.66,
-    "en_attente": 32,
+    "en_attente": 30,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -79.0,
-    "mise_totale": 110.0,
+    "gagnes": 3,
+    "gain_net": -38.5,
+    "mise_totale": 130.0,
     "paris": 43,
     "paris_avec_ev": 3,
     "perdus": 9,
-    "regles": 11,
+    "regles": 13,
     "rembourses": 1,
-    "reussite_pct": 10.0,
-    "roi_pct": -71.8
+    "reussite_pct": 25.0,
+    "roi_pct": -29.6
    },
    "Football": {
     "cote_moyenne": 3.38,
@@ -11080,18 +11104,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.57,
-    "en_attente": 3,
+    "en_attente": 2,
     "ev_moyenne_pct": -17.4,
     "gagnes": 6,
-    "gain_net": -109.5,
-    "mise_totale": 290.0,
+    "gain_net": -119.5,
+    "mise_totale": 300.0,
     "paris": 32,
     "paris_avec_ev": 20,
-    "perdus": 23,
-    "regles": 29,
+    "perdus": 24,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 20.7,
-    "roi_pct": -37.8
+    "reussite_pct": 20.0,
+    "roi_pct": -39.8
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -11217,33 +11241,33 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.5,
-    "en_attente": 25,
+    "en_attente": 23,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 46,
-    "gain_net": 22.0,
-    "mise_totale": 1160.0,
+    "gagnes": 47,
+    "gain_net": 30.0,
+    "mise_totale": 1180.0,
     "paris": 141,
     "paris_avec_ev": 36,
-    "perdus": 67,
-    "regles": 116,
+    "perdus": 68,
+    "regles": 118,
     "rembourses": 3,
-    "reussite_pct": 40.7,
-    "roi_pct": 1.9
+    "reussite_pct": 40.9,
+    "roi_pct": 2.5
    },
    "3 – 5": {
     "cote_moyenne": 3.59,
-    "en_attente": 21,
+    "en_attente": 20,
     "ev_moyenne_pct": -17.2,
-    "gagnes": 36,
-    "gain_net": -162.45,
-    "mise_totale": 1434.58,
+    "gagnes": 37,
+    "gain_net": -139.95,
+    "mise_totale": 1444.58,
     "paris": 165,
     "paris_avec_ev": 57,
     "perdus": 107,
-    "regles": 144,
+    "regles": 145,
     "rembourses": 1,
-    "reussite_pct": 25.2,
-    "roi_pct": -11.3
+    "reussite_pct": 25.7,
+    "roi_pct": -9.7
    },
    "5 – 10": {
     "cote_moyenne": 6.01,
@@ -11384,33 +11408,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 3.18,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.4,
     "gagnes": 14,
-    "gain_net": 76.0,
-    "mise_totale": 390.0,
+    "gain_net": 66.0,
+    "mise_totale": 400.0,
     "paris": 46,
     "paris_avec_ev": 46,
-    "perdus": 24,
-    "regles": 39,
+    "perdus": 25,
+    "regles": 40,
     "rembourses": 1,
-    "reussite_pct": 36.8,
-    "roi_pct": 19.5
+    "reussite_pct": 35.9,
+    "roi_pct": 16.5
    },
    "non évaluable": {
     "cote_moyenne": 3.41,
-    "en_attente": 53,
+    "en_attente": 51,
     "ev_moyenne_pct": null,
-    "gagnes": 58,
-    "gain_net": -125.95,
-    "mise_totale": 1874.58,
+    "gagnes": 60,
+    "gain_net": -85.45,
+    "mise_totale": 1894.58,
     "paris": 241,
     "paris_avec_ev": 0,
     "perdus": 127,
-    "regles": 188,
+    "regles": 190,
     "rembourses": 3,
-    "reussite_pct": 31.4,
-    "roi_pct": -6.7
+    "reussite_pct": 32.1,
+    "roi_pct": -4.5
    }
   },
   "paris": [
@@ -16453,14 +16477,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 22.5,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 10.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -16470,14 +16494,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 18.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 10.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -16487,14 +16511,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 10.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -16552,7 +16576,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.188,
+    "cote_origine": 3.208,
     "debut": "2026-10-18T00:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -17999,25 +18023,37 @@
    {
     "cumul": -60.5,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -38.0,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -20.0,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -30.0,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 2.75,
-   "en_attente": 43,
+   "en_attente": 40,
    "ev_moyenne_pct": -15.9,
-   "gagnes": 68,
-   "gain_net": -60.5,
-   "mise_totale": 1960.0,
+   "gagnes": 70,
+   "gain_net": -30.0,
+   "mise_totale": 1990.0,
    "paris": 239,
    "paris_avec_ev": 72,
-   "perdus": 125,
+   "perdus": 126,
    "pire_baisse": -238.0,
    "pire_serie_perdante": 15,
-   "regles": 196,
+   "regles": 199,
    "rembourses": 3,
-   "reussite_pct": 35.2,
-   "roi_pct": -3.1
+   "reussite_pct": 35.7,
+   "roi_pct": -1.5
   },
   "par_bookmaker": {
    "Betsson": {
@@ -18082,33 +18118,33 @@
    },
    "Unibet": {
     "cote_moyenne": 2.57,
-    "en_attente": 28,
+    "en_attente": 27,
     "ev_moyenne_pct": -10.3,
-    "gagnes": 18,
-    "gain_net": -8.5,
-    "mise_totale": 490.0,
+    "gagnes": 19,
+    "gain_net": 9.5,
+    "mise_totale": 500.0,
     "paris": 77,
     "paris_avec_ev": 6,
     "perdus": 30,
-    "regles": 49,
+    "regles": 50,
     "rembourses": 1,
-    "reussite_pct": 37.5,
-    "roi_pct": -1.7
+    "reussite_pct": 38.8,
+    "roi_pct": 1.9
    },
    "Winamax": {
     "cote_moyenne": 2.86,
-    "en_attente": 11,
+    "en_attente": 9,
     "ev_moyenne_pct": -16.3,
-    "gagnes": 41,
-    "gain_net": -162.5,
-    "mise_totale": 1330.0,
+    "gagnes": 42,
+    "gain_net": -150.0,
+    "mise_totale": 1350.0,
     "paris": 144,
     "paris_avec_ev": 59,
-    "perdus": 90,
-    "regles": 133,
+    "perdus": 91,
+    "regles": 135,
     "rembourses": 2,
-    "reussite_pct": 31.3,
-    "roi_pct": -12.2
+    "reussite_pct": 31.6,
+    "roi_pct": -11.1
    }
   },
   "par_bookmaker_sport": {
@@ -18213,18 +18249,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 2.34,
-     "en_attente": 17,
+     "en_attente": 16,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 18.0,
+     "mise_totale": 10.0,
      "paris": 17,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.66,
@@ -18335,18 +18371,18 @@
     },
     "Basketball": {
      "cote_moyenne": 2.83,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -49.0,
-     "mise_totale": 80.0,
+     "gagnes": 2,
+     "gain_net": -26.5,
+     "mise_totale": 90.0,
      "paris": 9,
      "paris_avec_ev": 3,
      "perdus": 6,
-     "regles": 8,
+     "regles": 9,
      "rembourses": 1,
-     "reussite_pct": 14.3,
-     "roi_pct": -61.3
+     "reussite_pct": 25.0,
+     "roi_pct": -29.4
     },
     "Football": {
      "cote_moyenne": 2.97,
@@ -18410,18 +18446,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 2.97,
-     "en_attente": 2,
+     "en_attente": 1,
      "ev_moyenne_pct": -13.2,
      "gagnes": 5,
-     "gain_net": -5.5,
-     "mise_totale": 150.0,
+     "gain_net": -15.5,
+     "mise_totale": 160.0,
      "paris": 17,
      "paris_avec_ev": 13,
-     "perdus": 10,
-     "regles": 15,
+     "perdus": 11,
+     "regles": 16,
      "rembourses": 0,
-     "reussite_pct": 33.3,
-     "roi_pct": -3.7
+     "reussite_pct": 31.2,
+     "roi_pct": -9.7
     },
     "Judo": {
      "cote_moyenne": 2.75,
@@ -18533,52 +18569,52 @@
    },
    "match": {
     "cote_moyenne": 2.79,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 68,
-    "gain_net": -60.5,
-    "mise_totale": 1960.0,
+    "gagnes": 70,
+    "gain_net": -30.0,
+    "mise_totale": 1990.0,
     "paris": 213,
     "paris_avec_ev": 72,
-    "perdus": 125,
-    "regles": 196,
+    "perdus": 126,
+    "regles": 199,
     "rembourses": 3,
-    "reussite_pct": 35.2,
-    "roi_pct": -3.1
+    "reussite_pct": 35.7,
+    "roi_pct": -1.5
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 2.75,
-    "en_attente": 43,
+    "en_attente": 40,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 68,
-    "gain_net": -60.5,
-    "mise_totale": 1960.0,
+    "gagnes": 70,
+    "gain_net": -30.0,
+    "mise_totale": 1990.0,
     "paris": 239,
     "paris_avec_ev": 72,
-    "perdus": 125,
-    "regles": 196,
+    "perdus": 126,
+    "regles": 199,
     "rembourses": 3,
-    "reussite_pct": 35.2,
-    "roi_pct": -3.1
+    "reussite_pct": 35.7,
+    "roi_pct": -1.5
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 2.75,
-    "en_attente": 43,
+    "en_attente": 40,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 68,
-    "gain_net": -60.5,
-    "mise_totale": 1960.0,
+    "gagnes": 70,
+    "gain_net": -30.0,
+    "mise_totale": 1990.0,
     "paris": 239,
     "paris_avec_ev": 72,
-    "perdus": 125,
-    "regles": 196,
+    "perdus": 126,
+    "regles": 199,
     "rembourses": 3,
-    "reussite_pct": 35.2,
-    "roi_pct": -3.1
+    "reussite_pct": 35.7,
+    "roi_pct": -1.5
    }
   },
   "par_sport": {
@@ -18614,18 +18650,18 @@
    },
    "Basketball": {
     "cote_moyenne": 2.51,
-    "en_attente": 18,
+    "en_attente": 16,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -49.0,
-    "mise_totale": 80.0,
+    "gagnes": 3,
+    "gain_net": -8.5,
+    "mise_totale": 100.0,
     "paris": 26,
     "paris_avec_ev": 3,
     "perdus": 6,
-    "regles": 8,
+    "regles": 10,
     "rembourses": 1,
-    "reussite_pct": 14.3,
-    "roi_pct": -61.3
+    "reussite_pct": 33.3,
+    "roi_pct": -8.5
    },
    "Football": {
     "cote_moyenne": 2.82,
@@ -18689,18 +18725,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 2.97,
-    "en_attente": 2,
+    "en_attente": 1,
     "ev_moyenne_pct": -13.2,
     "gagnes": 5,
-    "gain_net": -5.5,
-    "mise_totale": 150.0,
+    "gain_net": -15.5,
+    "mise_totale": 160.0,
     "paris": 17,
     "paris_avec_ev": 13,
-    "perdus": 10,
-    "regles": 15,
+    "perdus": 11,
+    "regles": 16,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -3.7
+    "reussite_pct": 31.2,
+    "roi_pct": -9.7
    },
    "Judo": {
     "cote_moyenne": 2.75,
@@ -18811,33 +18847,33 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.5,
-    "en_attente": 25,
+    "en_attente": 23,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 46,
-    "gain_net": 22.0,
-    "mise_totale": 1160.0,
+    "gagnes": 47,
+    "gain_net": 30.0,
+    "mise_totale": 1180.0,
     "paris": 141,
     "paris_avec_ev": 36,
-    "perdus": 67,
-    "regles": 116,
+    "perdus": 68,
+    "regles": 118,
     "rembourses": 3,
-    "reussite_pct": 40.7,
-    "roi_pct": 1.9
+    "reussite_pct": 40.9,
+    "roi_pct": 2.5
    },
    "3 – 5": {
     "cote_moyenne": 3.22,
-    "en_attente": 13,
+    "en_attente": 12,
     "ev_moyenne_pct": -16.9,
-    "gagnes": 22,
-    "gain_net": -62.5,
-    "mise_totale": 780.0,
+    "gagnes": 23,
+    "gain_net": -40.0,
+    "mise_totale": 790.0,
     "paris": 91,
     "paris_avec_ev": 34,
     "perdus": 56,
-    "regles": 78,
+    "regles": 79,
     "rembourses": 0,
-    "reussite_pct": 28.2,
-    "roi_pct": -8.0
+    "reussite_pct": 29.1,
+    "roi_pct": -5.1
    },
    "< 2": {
     "cote_moyenne": 1.7,
@@ -18918,33 +18954,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 2.81,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.2,
     "gagnes": 10,
-    "gain_net": 0.5,
-    "mise_totale": 270.0,
+    "gain_net": -9.5,
+    "mise_totale": 280.0,
     "paris": 34,
     "paris_avec_ev": 34,
-    "perdus": 17,
-    "regles": 27,
+    "perdus": 18,
+    "regles": 28,
     "rembourses": 0,
-    "reussite_pct": 37.0,
-    "roi_pct": 0.2
+    "reussite_pct": 35.7,
+    "roi_pct": -3.4
    },
    "non évaluable": {
     "cote_moyenne": 2.72,
-    "en_attente": 34,
+    "en_attente": 32,
     "ev_moyenne_pct": null,
-    "gagnes": 47,
-    "gain_net": -13.0,
-    "mise_totale": 1330.0,
+    "gagnes": 49,
+    "gain_net": 27.5,
+    "mise_totale": 1350.0,
     "paris": 167,
     "paris_avec_ev": 0,
     "perdus": 83,
-    "regles": 133,
+    "regles": 135,
     "rembourses": 3,
-    "reussite_pct": 36.2,
-    "roi_pct": -1.0
+    "reussite_pct": 37.1,
+    "roi_pct": 2.0
    }
   },
   "paris": [
@@ -22542,14 +22578,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 22.5,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 10.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -22559,14 +22595,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 18.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 10.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -22576,14 +22612,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 10.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -24119,25 +24155,37 @@
    {
     "cumul": -150.45,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -127.95,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -109.95,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -119.95,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.27,
-   "en_attente": 17,
+   "en_attente": 14,
    "ev_moyenne_pct": -15.9,
-   "gagnes": 85,
-   "gain_net": -150.45,
-   "mise_totale": 2754.58,
+   "gagnes": 87,
+   "gain_net": -119.95,
+   "mise_totale": 2784.58,
    "paris": 293,
    "paris_avec_ev": 99,
-   "perdus": 187,
+   "perdus": 188,
    "pire_baisse": -337.5,
    "pire_serie_perdante": 22,
-   "regles": 276,
+   "regles": 279,
    "rembourses": 4,
-   "reussite_pct": 31.2,
-   "roi_pct": -5.5
+   "reussite_pct": 31.6,
+   "roi_pct": -4.3
   },
   "par_bookmaker": {
    "Betsson": {
@@ -24202,33 +24250,33 @@
    },
    "Unibet": {
     "cote_moyenne": 2.67,
-    "en_attente": 2,
+    "en_attente": 1,
     "ev_moyenne_pct": -10.3,
-    "gagnes": 18,
-    "gain_net": -18.5,
-    "mise_totale": 500.0,
+    "gagnes": 19,
+    "gain_net": -0.5,
+    "mise_totale": 510.0,
     "paris": 52,
     "paris_avec_ev": 6,
     "perdus": 31,
-    "regles": 50,
+    "regles": 51,
     "rembourses": 1,
-    "reussite_pct": 36.7,
-    "roi_pct": -3.7
+    "reussite_pct": 38.0,
+    "roi_pct": -0.1
    },
    "Winamax": {
     "cote_moyenne": 3.35,
-    "en_attente": 13,
+    "en_attente": 11,
     "ev_moyenne_pct": -16.5,
-    "gagnes": 57,
-    "gain_net": -236.0,
-    "mise_totale": 2080.0,
+    "gagnes": 58,
+    "gain_net": -223.5,
+    "mise_totale": 2100.0,
     "paris": 221,
     "paris_avec_ev": 87,
-    "perdus": 148,
-    "regles": 208,
+    "perdus": 149,
+    "regles": 210,
     "rembourses": 3,
-    "reussite_pct": 27.8,
-    "roi_pct": -11.3
+    "reussite_pct": 28.0,
+    "roi_pct": -10.6
    }
   },
   "par_bookmaker_sport": {
@@ -24333,18 +24381,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 2.8,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 18.0,
+     "mise_totale": 10.0,
      "paris": 1,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.73,
@@ -24455,18 +24503,18 @@
     },
     "Basketball": {
      "cote_moyenne": 3.09,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -79.0,
-     "mise_totale": 110.0,
+     "gagnes": 2,
+     "gain_net": -56.5,
+     "mise_totale": 120.0,
      "paris": 12,
      "paris_avec_ev": 3,
      "perdus": 9,
-     "regles": 11,
+     "regles": 12,
      "rembourses": 1,
-     "reussite_pct": 10.0,
-     "roi_pct": -71.8
+     "reussite_pct": 18.2,
+     "roi_pct": -47.1
     },
     "Football": {
      "cote_moyenne": 3.41,
@@ -24530,18 +24578,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 3.57,
-     "en_attente": 3,
+     "en_attente": 2,
      "ev_moyenne_pct": -17.4,
      "gagnes": 6,
-     "gain_net": -109.5,
-     "mise_totale": 290.0,
+     "gain_net": -119.5,
+     "mise_totale": 300.0,
      "paris": 32,
      "paris_avec_ev": 20,
-     "perdus": 23,
-     "regles": 29,
+     "perdus": 24,
+     "regles": 30,
      "rembourses": 0,
-     "reussite_pct": 20.7,
-     "roi_pct": -37.8
+     "reussite_pct": 20.0,
+     "roi_pct": -39.8
     },
     "Judo": {
      "cote_moyenne": 3.88,
@@ -24638,35 +24686,35 @@
   "par_horizon": {
    "match": {
     "cote_moyenne": 3.27,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 85,
-    "gain_net": -150.45,
-    "mise_totale": 2754.58,
+    "gagnes": 87,
+    "gain_net": -119.95,
+    "mise_totale": 2784.58,
     "paris": 293,
     "paris_avec_ev": 99,
-    "perdus": 187,
-    "regles": 276,
+    "perdus": 188,
+    "regles": 279,
     "rembourses": 4,
-    "reussite_pct": 31.2,
-    "roi_pct": -5.5
+    "reussite_pct": 31.6,
+    "roi_pct": -4.3
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.27,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 84,
-    "gain_net": -164.0,
-    "mise_totale": 2740.0,
+    "gagnes": 86,
+    "gain_net": -133.5,
+    "mise_totale": 2770.0,
     "paris": 291,
     "paris_avec_ev": 99,
-    "perdus": 186,
-    "regles": 274,
+    "perdus": 187,
+    "regles": 277,
     "rembourses": 4,
-    "reussite_pct": 31.1,
-    "roi_pct": -6.0
+    "reussite_pct": 31.5,
+    "roi_pct": -4.8
    },
    "6.25 €": {
     "cote_moyenne": 4.5,
@@ -24702,18 +24750,18 @@
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.27,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 85,
-    "gain_net": -150.45,
-    "mise_totale": 2754.58,
+    "gagnes": 87,
+    "gain_net": -119.95,
+    "mise_totale": 2784.58,
     "paris": 293,
     "paris_avec_ev": 99,
-    "perdus": 187,
-    "regles": 276,
+    "perdus": 188,
+    "regles": 279,
     "rembourses": 4,
-    "reussite_pct": 31.2,
-    "roi_pct": -5.5
+    "reussite_pct": 31.6,
+    "roi_pct": -4.3
    }
   },
   "par_sport": {
@@ -24749,18 +24797,18 @@
    },
    "Basketball": {
     "cote_moyenne": 3.07,
-    "en_attente": 2,
+    "en_attente": 0,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -79.0,
-    "mise_totale": 110.0,
+    "gagnes": 3,
+    "gain_net": -38.5,
+    "mise_totale": 130.0,
     "paris": 13,
     "paris_avec_ev": 3,
     "perdus": 9,
-    "regles": 11,
+    "regles": 13,
     "rembourses": 1,
-    "reussite_pct": 10.0,
-    "roi_pct": -71.8
+    "reussite_pct": 25.0,
+    "roi_pct": -29.6
    },
    "Football": {
     "cote_moyenne": 3.35,
@@ -24824,18 +24872,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.57,
-    "en_attente": 3,
+    "en_attente": 2,
     "ev_moyenne_pct": -17.4,
     "gagnes": 6,
-    "gain_net": -109.5,
-    "mise_totale": 290.0,
+    "gain_net": -119.5,
+    "mise_totale": 300.0,
     "paris": 32,
     "paris_avec_ev": 20,
-    "perdus": 23,
-    "regles": 29,
+    "perdus": 24,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 20.7,
-    "roi_pct": -37.8
+    "reussite_pct": 20.0,
+    "roi_pct": -39.8
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -24961,33 +25009,33 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.53,
-    "en_attente": 9,
+    "en_attente": 7,
     "ev_moyenne_pct": -15.0,
-    "gagnes": 46,
-    "gain_net": 32.0,
-    "mise_totale": 1150.0,
+    "gagnes": 47,
+    "gain_net": 40.0,
+    "mise_totale": 1170.0,
     "paris": 124,
     "paris_avec_ev": 35,
-    "perdus": 66,
-    "regles": 115,
+    "perdus": 67,
+    "regles": 117,
     "rembourses": 3,
-    "reussite_pct": 41.1,
-    "roi_pct": 2.8
+    "reussite_pct": 41.2,
+    "roi_pct": 3.4
    },
    "3 – 5": {
     "cote_moyenne": 3.59,
-    "en_attente": 8,
+    "en_attente": 7,
     "ev_moyenne_pct": -17.2,
-    "gagnes": 36,
-    "gain_net": -162.45,
-    "mise_totale": 1434.58,
+    "gagnes": 37,
+    "gain_net": -139.95,
+    "mise_totale": 1444.58,
     "paris": 152,
     "paris_avec_ev": 57,
     "perdus": 107,
-    "regles": 144,
+    "regles": 145,
     "rembourses": 1,
-    "reussite_pct": 25.2,
-    "roi_pct": -11.3
+    "reussite_pct": 25.7,
+    "roi_pct": -9.7
    },
    "5 – 10": {
     "cote_moyenne": 5.48,
@@ -25128,33 +25176,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 3.18,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.4,
     "gagnes": 14,
-    "gain_net": 76.0,
-    "mise_totale": 390.0,
+    "gain_net": 66.0,
+    "mise_totale": 400.0,
     "paris": 46,
     "paris_avec_ev": 46,
-    "perdus": 24,
-    "regles": 39,
+    "perdus": 25,
+    "regles": 40,
     "rembourses": 1,
-    "reussite_pct": 36.8,
-    "roi_pct": 19.5
+    "reussite_pct": 35.9,
+    "roi_pct": 16.5
    },
    "non évaluable": {
     "cote_moyenne": 3.31,
-    "en_attente": 8,
+    "en_attente": 6,
     "ev_moyenne_pct": null,
-    "gagnes": 58,
-    "gain_net": -105.95,
-    "mise_totale": 1854.58,
+    "gagnes": 60,
+    "gain_net": -65.45,
+    "mise_totale": 1874.58,
     "paris": 194,
     "paris_avec_ev": 0,
     "perdus": 125,
-    "regles": 186,
+    "regles": 188,
     "rembourses": 3,
-    "reussite_pct": 31.7,
-    "roi_pct": -5.7
+    "reussite_pct": 32.4,
+    "roi_pct": -3.5
    }
   },
   "paris": [
@@ -29925,14 +29973,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 22.5,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 10.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -29942,14 +29990,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 18.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 10.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -29959,14 +30007,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 10.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -30024,7 +30072,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.188,
+    "cote_origine": 3.208,
     "debut": "2026-10-18T00:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -31342,25 +31390,37 @@
    {
     "cumul": -186.45,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -163.95,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -145.95,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -155.95,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 3.34,
-   "en_attente": 21,
+   "en_attente": 18,
    "ev_moyenne_pct": -15.8,
-   "gagnes": 73,
-   "gain_net": -186.45,
-   "mise_totale": 2454.58,
+   "gagnes": 75,
+   "gain_net": -155.95,
+   "mise_totale": 2484.58,
    "paris": 267,
    "paris_avec_ev": 95,
-   "perdus": 170,
+   "perdus": 171,
    "pire_baisse": -322.95,
    "pire_serie_perdante": 21,
-   "regles": 246,
+   "regles": 249,
    "rembourses": 3,
-   "reussite_pct": 30.0,
-   "roi_pct": -7.6
+   "reussite_pct": 30.5,
+   "roi_pct": -6.3
   },
   "par_bookmaker": {
    "Betsson": {
@@ -31425,33 +31485,33 @@
    },
    "Unibet": {
     "cote_moyenne": 2.69,
-    "en_attente": 2,
+    "en_attente": 1,
     "ev_moyenne_pct": -9.4,
-    "gagnes": 12,
-    "gain_net": -41.0,
-    "mise_totale": 360.0,
+    "gagnes": 13,
+    "gain_net": -23.0,
+    "mise_totale": 370.0,
     "paris": 38,
     "paris_avec_ev": 4,
     "perdus": 24,
-    "regles": 36,
+    "regles": 37,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -11.4
+    "reussite_pct": 35.1,
+    "roi_pct": -6.2
    },
    "Winamax": {
     "cote_moyenne": 3.35,
-    "en_attente": 13,
+    "en_attente": 11,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 53,
-    "gain_net": -212.5,
-    "mise_totale": 1940.0,
+    "gagnes": 54,
+    "gain_net": -200.0,
+    "mise_totale": 1960.0,
     "paris": 207,
     "paris_avec_ev": 85,
-    "perdus": 138,
-    "regles": 194,
+    "perdus": 139,
+    "regles": 196,
     "rembourses": 3,
-    "reussite_pct": 27.7,
-    "roi_pct": -11.0
+    "reussite_pct": 28.0,
+    "roi_pct": -10.2
    }
   },
   "par_bookmaker_sport": {
@@ -31556,18 +31616,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 2.8,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 18.0,
+     "mise_totale": 10.0,
      "paris": 1,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.8,
@@ -31678,18 +31738,18 @@
     },
     "Basketball": {
      "cote_moyenne": 3.09,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -79.0,
-     "mise_totale": 110.0,
+     "gagnes": 2,
+     "gain_net": -56.5,
+     "mise_totale": 120.0,
      "paris": 12,
      "paris_avec_ev": 3,
      "perdus": 9,
-     "regles": 11,
+     "regles": 12,
      "rembourses": 1,
-     "reussite_pct": 10.0,
-     "roi_pct": -71.8
+     "reussite_pct": 18.2,
+     "roi_pct": -47.1
     },
     "Football": {
      "cote_moyenne": 3.4,
@@ -31753,18 +31813,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 3.57,
-     "en_attente": 3,
+     "en_attente": 2,
      "ev_moyenne_pct": -17.4,
      "gagnes": 6,
-     "gain_net": -109.5,
-     "mise_totale": 290.0,
+     "gain_net": -119.5,
+     "mise_totale": 300.0,
      "paris": 32,
      "paris_avec_ev": 20,
-     "perdus": 23,
-     "regles": 29,
+     "perdus": 24,
+     "regles": 30,
      "rembourses": 0,
-     "reussite_pct": 20.7,
-     "roi_pct": -37.8
+     "reussite_pct": 20.0,
+     "roi_pct": -39.8
     },
     "Judo": {
      "cote_moyenne": 3.88,
@@ -31861,35 +31921,35 @@
   "par_horizon": {
    "match": {
     "cote_moyenne": 3.34,
-    "en_attente": 21,
+    "en_attente": 18,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 73,
-    "gain_net": -186.45,
-    "mise_totale": 2454.58,
+    "gagnes": 75,
+    "gain_net": -155.95,
+    "mise_totale": 2484.58,
     "paris": 267,
     "paris_avec_ev": 95,
-    "perdus": 170,
-    "regles": 246,
+    "perdus": 171,
+    "regles": 249,
     "rembourses": 3,
-    "reussite_pct": 30.0,
-    "roi_pct": -7.6
+    "reussite_pct": 30.5,
+    "roi_pct": -6.3
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 3.34,
-    "en_attente": 21,
+    "en_attente": 18,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 72,
-    "gain_net": -200.0,
-    "mise_totale": 2440.0,
+    "gagnes": 74,
+    "gain_net": -169.5,
+    "mise_totale": 2470.0,
     "paris": 265,
     "paris_avec_ev": 95,
-    "perdus": 169,
-    "regles": 244,
+    "perdus": 170,
+    "regles": 247,
     "rembourses": 3,
-    "reussite_pct": 29.9,
-    "roi_pct": -8.2
+    "reussite_pct": 30.3,
+    "roi_pct": -6.9
    },
    "6.25 €": {
     "cote_moyenne": 4.5,
@@ -31925,18 +31985,18 @@
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 3.34,
-    "en_attente": 21,
+    "en_attente": 18,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 73,
-    "gain_net": -186.45,
-    "mise_totale": 2454.58,
+    "gagnes": 75,
+    "gain_net": -155.95,
+    "mise_totale": 2484.58,
     "paris": 267,
     "paris_avec_ev": 95,
-    "perdus": 170,
-    "regles": 246,
+    "perdus": 171,
+    "regles": 249,
     "rembourses": 3,
-    "reussite_pct": 30.0,
-    "roi_pct": -7.6
+    "reussite_pct": 30.5,
+    "roi_pct": -6.3
    }
   },
   "par_sport": {
@@ -31972,18 +32032,18 @@
    },
    "Basketball": {
     "cote_moyenne": 3.07,
-    "en_attente": 2,
+    "en_attente": 0,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -79.0,
-    "mise_totale": 110.0,
+    "gagnes": 3,
+    "gain_net": -38.5,
+    "mise_totale": 130.0,
     "paris": 13,
     "paris_avec_ev": 3,
     "perdus": 9,
-    "regles": 11,
+    "regles": 13,
     "rembourses": 1,
-    "reussite_pct": 10.0,
-    "roi_pct": -71.8
+    "reussite_pct": 25.0,
+    "roi_pct": -29.6
    },
    "Football": {
     "cote_moyenne": 3.5,
@@ -32047,18 +32107,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 3.57,
-    "en_attente": 3,
+    "en_attente": 2,
     "ev_moyenne_pct": -17.4,
     "gagnes": 6,
-    "gain_net": -109.5,
-    "mise_totale": 290.0,
+    "gain_net": -119.5,
+    "mise_totale": 300.0,
     "paris": 32,
     "paris_avec_ev": 20,
-    "perdus": 23,
-    "regles": 29,
+    "perdus": 24,
+    "regles": 30,
     "rembourses": 0,
-    "reussite_pct": 20.7,
-    "roi_pct": -37.8
+    "reussite_pct": 20.0,
+    "roi_pct": -39.8
    },
    "Judo": {
     "cote_moyenne": 3.88,
@@ -32184,33 +32244,33 @@
    },
    "2 – 3": {
     "cote_moyenne": 2.53,
-    "en_attente": 11,
+    "en_attente": 9,
     "ev_moyenne_pct": -14.8,
-    "gagnes": 38,
-    "gain_net": -12.5,
-    "mise_totale": 990.0,
+    "gagnes": 39,
+    "gain_net": -4.5,
+    "mise_totale": 1010.0,
     "paris": 110,
     "paris_avec_ev": 34,
-    "perdus": 59,
-    "regles": 99,
+    "perdus": 60,
+    "regles": 101,
     "rembourses": 2,
-    "reussite_pct": 39.2,
-    "roi_pct": -1.3
+    "reussite_pct": 39.4,
+    "roi_pct": -0.4
    },
    "3 – 5": {
     "cote_moyenne": 3.6,
-    "en_attente": 9,
+    "en_attente": 8,
     "ev_moyenne_pct": -17.1,
-    "gagnes": 32,
-    "gain_net": -153.95,
-    "mise_totale": 1294.58,
+    "gagnes": 33,
+    "gain_net": -131.45,
+    "mise_totale": 1304.58,
     "paris": 139,
     "paris_avec_ev": 54,
     "perdus": 97,
-    "regles": 130,
+    "regles": 131,
     "rembourses": 1,
-    "reussite_pct": 24.8,
-    "roi_pct": -11.9
+    "reussite_pct": 25.4,
+    "roi_pct": -10.1
    },
    "5 – 10": {
     "cote_moyenne": 5.6,
@@ -32351,33 +32411,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 3.18,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.4,
     "gagnes": 14,
-    "gain_net": 76.0,
-    "mise_totale": 390.0,
+    "gain_net": 66.0,
+    "mise_totale": 400.0,
     "paris": 46,
     "paris_avec_ev": 46,
-    "perdus": 24,
-    "regles": 39,
+    "perdus": 25,
+    "regles": 40,
     "rembourses": 1,
-    "reussite_pct": 36.8,
-    "roi_pct": 19.5
+    "reussite_pct": 35.9,
+    "roi_pct": 16.5
    },
    "non évaluable": {
     "cote_moyenne": 3.42,
-    "en_attente": 11,
+    "en_attente": 9,
     "ev_moyenne_pct": null,
-    "gagnes": 50,
-    "gain_net": -79.95,
-    "mise_totale": 1604.58,
+    "gagnes": 52,
+    "gain_net": -39.45,
+    "mise_totale": 1624.58,
     "paris": 172,
     "paris_avec_ev": 0,
     "perdus": 109,
-    "regles": 161,
+    "regles": 163,
     "rembourses": 2,
-    "reussite_pct": 31.4,
-    "roi_pct": -5.0
+    "reussite_pct": 32.3,
+    "roi_pct": -2.4
    }
   },
   "paris": [
@@ -36638,14 +36698,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 22.5,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 10.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -36655,14 +36715,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 18.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 10.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -36672,14 +36732,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 10.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -36737,7 +36797,7 @@
     "bookmaker": "Winamax",
     "cote": 3.75,
     "cote_juste": null,
-    "cote_origine": 3.188,
+    "cote_origine": 3.208,
     "debut": "2026-10-18T00:30+00:00",
     "ev_pct": null,
     "gain": null,
@@ -37600,25 +37660,37 @@
    {
     "cumul": -126.5,
     "debut": "2026-10-17T19:00:00.000Z"
+   },
+   {
+    "cumul": -104.0,
+    "debut": "2026-10-17T19:30+00:00"
+   },
+   {
+    "cumul": -86.0,
+    "debut": "2026-10-17T19:30:00.000Z"
+   },
+   {
+    "cumul": -96.0,
+    "debut": "2026-10-17T19:45+00:00"
    }
   ],
   "global": {
    "boosts_sans_mise_max": 0,
    "cote_moyenne": 2.8,
-   "en_attente": 17,
+   "en_attente": 14,
    "ev_moyenne_pct": -15.8,
-   "gagnes": 56,
-   "gain_net": -126.5,
-   "mise_totale": 1690.0,
+   "gagnes": 58,
+   "gain_net": -96.0,
+   "mise_totale": 1720.0,
    "paris": 186,
    "paris_avec_ev": 68,
-   "perdus": 111,
+   "perdus": 112,
    "pire_baisse": -274.5,
    "pire_serie_perdante": 14,
-   "regles": 169,
+   "regles": 172,
    "rembourses": 2,
-   "reussite_pct": 33.5,
-   "roi_pct": -7.5
+   "reussite_pct": 34.1,
+   "roi_pct": -5.6
   },
   "par_bookmaker": {
    "Betsson": {
@@ -37683,33 +37755,33 @@
    },
    "Unibet": {
     "cote_moyenne": 2.64,
-    "en_attente": 2,
+    "en_attente": 1,
     "ev_moyenne_pct": -9.4,
-    "gagnes": 12,
-    "gain_net": -31.0,
-    "mise_totale": 350.0,
+    "gagnes": 13,
+    "gain_net": -13.0,
+    "mise_totale": 360.0,
     "paris": 37,
     "paris_avec_ev": 4,
     "perdus": 23,
-    "regles": 35,
+    "regles": 36,
     "rembourses": 0,
-    "reussite_pct": 34.3,
-    "roi_pct": -8.9
+    "reussite_pct": 36.1,
+    "roi_pct": -3.6
    },
    "Winamax": {
     "cote_moyenne": 2.86,
-    "en_attente": 11,
+    "en_attente": 9,
     "ev_moyenne_pct": -15.9,
-    "gagnes": 37,
-    "gain_net": -179.0,
-    "mise_totale": 1230.0,
+    "gagnes": 38,
+    "gain_net": -166.5,
+    "mise_totale": 1250.0,
     "paris": 134,
     "paris_avec_ev": 58,
-    "perdus": 84,
-    "regles": 123,
+    "perdus": 85,
+    "regles": 125,
     "rembourses": 2,
-    "reussite_pct": 30.6,
-    "roi_pct": -14.6
+    "reussite_pct": 30.9,
+    "roi_pct": -13.3
    }
   },
   "par_bookmaker_sport": {
@@ -37814,18 +37886,18 @@
    "Unibet": {
     "Basketball": {
      "cote_moyenne": 2.8,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": null,
-     "gagnes": 0,
-     "gain_net": 0,
-     "mise_totale": 0,
+     "gagnes": 1,
+     "gain_net": 18.0,
+     "mise_totale": 10.0,
      "paris": 1,
      "paris_avec_ev": 0,
      "perdus": 0,
-     "regles": 0,
+     "regles": 1,
      "rembourses": 0,
-     "reussite_pct": null,
-     "roi_pct": null
+     "reussite_pct": 100.0,
+     "roi_pct": 180.0
     },
     "Football": {
      "cote_moyenne": 2.7,
@@ -37936,18 +38008,18 @@
     },
     "Basketball": {
      "cote_moyenne": 2.83,
-     "en_attente": 1,
+     "en_attente": 0,
      "ev_moyenne_pct": -15.3,
-     "gagnes": 1,
-     "gain_net": -49.0,
-     "mise_totale": 80.0,
+     "gagnes": 2,
+     "gain_net": -26.5,
+     "mise_totale": 90.0,
      "paris": 9,
      "paris_avec_ev": 3,
      "perdus": 6,
-     "regles": 8,
+     "regles": 9,
      "rembourses": 1,
-     "reussite_pct": 14.3,
-     "roi_pct": -61.3
+     "reussite_pct": 25.0,
+     "roi_pct": -29.4
     },
     "Football": {
      "cote_moyenne": 2.98,
@@ -38011,18 +38083,18 @@
     },
     "Hockey sur glace": {
      "cote_moyenne": 2.97,
-     "en_attente": 2,
+     "en_attente": 1,
      "ev_moyenne_pct": -13.2,
      "gagnes": 5,
-     "gain_net": -5.5,
-     "mise_totale": 150.0,
+     "gain_net": -15.5,
+     "mise_totale": 160.0,
      "paris": 17,
      "paris_avec_ev": 13,
-     "perdus": 10,
-     "regles": 15,
+     "perdus": 11,
+     "regles": 16,
      "rembourses": 0,
-     "reussite_pct": 33.3,
-     "roi_pct": -3.7
+     "reussite_pct": 31.2,
+     "roi_pct": -9.7
     },
     "Judo": {
      "cote_moyenne": 2.75,
@@ -38119,52 +38191,52 @@
   "par_horizon": {
    "match": {
     "cote_moyenne": 2.8,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 56,
-    "gain_net": -126.5,
-    "mise_totale": 1690.0,
+    "gagnes": 58,
+    "gain_net": -96.0,
+    "mise_totale": 1720.0,
     "paris": 186,
     "paris_avec_ev": 68,
-    "perdus": 111,
-    "regles": 169,
+    "perdus": 112,
+    "regles": 172,
     "rembourses": 2,
-    "reussite_pct": 33.5,
-    "roi_pct": -7.5
+    "reussite_pct": 34.1,
+    "roi_pct": -5.6
    }
   },
   "par_mise": {
    "10 €": {
     "cote_moyenne": 2.8,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 56,
-    "gain_net": -126.5,
-    "mise_totale": 1690.0,
+    "gagnes": 58,
+    "gain_net": -96.0,
+    "mise_totale": 1720.0,
     "paris": 186,
     "paris_avec_ev": 68,
-    "perdus": 111,
-    "regles": 169,
+    "perdus": 112,
+    "regles": 172,
     "rembourses": 2,
-    "reussite_pct": 33.5,
-    "roi_pct": -7.5
+    "reussite_pct": 34.1,
+    "roi_pct": -5.6
    }
   },
   "par_mois": {
    "2026-10": {
     "cote_moyenne": 2.8,
-    "en_attente": 17,
+    "en_attente": 14,
     "ev_moyenne_pct": -15.8,
-    "gagnes": 56,
-    "gain_net": -126.5,
-    "mise_totale": 1690.0,
+    "gagnes": 58,
+    "gain_net": -96.0,
+    "mise_totale": 1720.0,
     "paris": 186,
     "paris_avec_ev": 68,
-    "perdus": 111,
-    "regles": 169,
+    "perdus": 112,
+    "regles": 172,
     "rembourses": 2,
-    "reussite_pct": 33.5,
-    "roi_pct": -7.5
+    "reussite_pct": 34.1,
+    "roi_pct": -5.6
    }
   },
   "par_sport": {
@@ -38200,18 +38272,18 @@
    },
    "Basketball": {
     "cote_moyenne": 2.83,
-    "en_attente": 2,
+    "en_attente": 0,
     "ev_moyenne_pct": -15.3,
-    "gagnes": 1,
-    "gain_net": -49.0,
-    "mise_totale": 80.0,
+    "gagnes": 3,
+    "gain_net": -8.5,
+    "mise_totale": 100.0,
     "paris": 10,
     "paris_avec_ev": 3,
     "perdus": 6,
-    "regles": 8,
+    "regles": 10,
     "rembourses": 1,
-    "reussite_pct": 14.3,
-    "roi_pct": -61.3
+    "reussite_pct": 33.3,
+    "roi_pct": -8.5
    },
    "Football": {
     "cote_moyenne": 2.86,
@@ -38275,18 +38347,18 @@
    },
    "Hockey sur glace": {
     "cote_moyenne": 2.97,
-    "en_attente": 2,
+    "en_attente": 1,
     "ev_moyenne_pct": -13.2,
     "gagnes": 5,
-    "gain_net": -5.5,
-    "mise_totale": 150.0,
+    "gain_net": -15.5,
+    "mise_totale": 160.0,
     "paris": 17,
     "paris_avec_ev": 13,
-    "perdus": 10,
-    "regles": 15,
+    "perdus": 11,
+    "regles": 16,
     "rembourses": 0,
-    "reussite_pct": 33.3,
-    "roi_pct": -3.7
+    "reussite_pct": 31.2,
+    "roi_pct": -9.7
    },
    "Judo": {
     "cote_moyenne": 2.75,
@@ -38397,33 +38469,33 @@
   "par_tranche_de_cote": {
    "2 – 3": {
     "cote_moyenne": 2.53,
-    "en_attente": 11,
+    "en_attente": 9,
     "ev_moyenne_pct": -14.8,
-    "gagnes": 38,
-    "gain_net": -12.5,
-    "mise_totale": 990.0,
+    "gagnes": 39,
+    "gain_net": -4.5,
+    "mise_totale": 1010.0,
     "paris": 110,
     "paris_avec_ev": 34,
-    "perdus": 59,
-    "regles": 99,
+    "perdus": 60,
+    "regles": 101,
     "rembourses": 2,
-    "reussite_pct": 39.2,
-    "roi_pct": -1.3
+    "reussite_pct": 39.4,
+    "roi_pct": -0.4
    },
    "3 – 5": {
     "cote_moyenne": 3.22,
-    "en_attente": 6,
+    "en_attente": 5,
     "ev_moyenne_pct": -17.7,
-    "gagnes": 18,
-    "gain_net": -94.0,
-    "mise_totale": 680.0,
+    "gagnes": 19,
+    "gain_net": -71.5,
+    "mise_totale": 690.0,
     "paris": 74,
     "paris_avec_ev": 32,
     "perdus": 50,
-    "regles": 68,
+    "regles": 69,
     "rembourses": 0,
-    "reussite_pct": 26.5,
-    "roi_pct": -13.8
+    "reussite_pct": 27.5,
+    "roi_pct": -10.4
    },
    "< 2": {
     "cote_moyenne": 1.7,
@@ -38504,33 +38576,33 @@
    },
    "EV < 0 (exacte)": {
     "cote_moyenne": 2.81,
-    "en_attente": 7,
+    "en_attente": 6,
     "ev_moyenne_pct": -11.2,
     "gagnes": 10,
-    "gain_net": 0.5,
-    "mise_totale": 270.0,
+    "gain_net": -9.5,
+    "mise_totale": 280.0,
     "paris": 34,
     "paris_avec_ev": 34,
-    "perdus": 17,
-    "regles": 27,
+    "perdus": 18,
+    "regles": 28,
     "rembourses": 0,
-    "reussite_pct": 37.0,
-    "roi_pct": 0.2
+    "reussite_pct": 35.7,
+    "roi_pct": -3.4
    },
    "non évaluable": {
     "cote_moyenne": 2.78,
-    "en_attente": 8,
+    "en_attente": 6,
     "ev_moyenne_pct": null,
-    "gagnes": 39,
-    "gain_net": -7.0,
-    "mise_totale": 1100.0,
+    "gagnes": 41,
+    "gain_net": 33.5,
+    "mise_totale": 1120.0,
     "paris": 118,
     "paris_avec_ev": 0,
     "perdus": 69,
-    "regles": 110,
+    "regles": 112,
     "rembourses": 2,
-    "reussite_pct": 36.1,
-    "roi_pct": -0.6
+    "reussite_pct": 37.3,
+    "roi_pct": 3.0
    }
   },
   "paris": [
@@ -41482,14 +41554,14 @@
     "cote_origine": 2.95,
     "debut": "2026-10-17T19:30+00:00",
     "ev_pct": null,
-    "gain": null,
+    "gain": 22.5,
     "horizon": "match",
     "id": "winamax|721079656|2234852680",
     "match": "Golden State Valkyries - Atlanta Dream",
     "mise": 10.0,
     "pari": "Gabby Williams marque au moins 20 points et Golden State Valkyries gagne",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -41499,14 +41571,14 @@
     "cote_origine": 2.35,
     "debut": "2026-10-17T19:30:00.000Z",
     "ev_pct": null,
-    "gain": null,
+    "gain": 18.0,
     "horizon": "match",
     "id": "unibet|195284134|729461155",
     "match": "GS Valkyries - ATL Dream",
     "mise": 10.0,
     "pari": "WNBA FINALS - Gabby Williams et Allisha Gray marquent 40pts ou + en cumulé",
     "sport": "Basketball",
-    "statut": "en attente",
+    "statut": "gagné",
     "valeur": "non_evaluable"
    },
    {
@@ -41516,14 +41588,14 @@
     "cote_origine": 2.218,
     "debut": "2026-10-17T19:45+00:00",
     "ev_pct": -7.8,
-    "gain": null,
+    "gain": -10.0,
     "horizon": "match",
     "id": "winamax|721319045|2235572403",
     "match": "NHL",
     "mise": 10.0,
     "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Winnipeg Jets - Carolina Hurricanes et Tampa Bay Lightning - Vancouver Canucks (prol. et TAB inclus)",
     "sport": "Hockey sur glace",
-    "statut": "en attente",
+    "statut": "perdu",
     "valeur": "exacte"
    },
    {
@@ -48487,9 +48559,9 @@
    "banque_finale": 1110.73,
    "banque_initiale": 1000.0,
    "calibration": {
-    "brier_modele": 0.2111,
-    "brier_prior_bookmaker": 0.2128,
-    "predictions_reglees": 236
+    "brier_modele": 0.2137,
+    "brier_prior_bookmaker": 0.2141,
+    "predictions_reglees": 239
    },
    "cash_final": 1060.73,
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -54591,9 +54663,9 @@
    "banque_finale": 1035.34,
    "banque_initiale": 1000.0,
    "calibration": {
-    "brier_modele": 0.2111,
-    "brier_prior_bookmaker": 0.2128,
-    "predictions_reglees": 236
+    "brier_modele": 0.2137,
+    "brier_prior_bookmaker": 0.2141,
+    "predictions_reglees": 239
    },
    "cash_final": 1009.55,
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -59399,9 +59471,9 @@
    "banque_finale": 1329.38,
    "banque_initiale": 1000.0,
    "calibration": {
-    "brier_modele": 0.2111,
-    "brier_prior_bookmaker": 0.2128,
-    "predictions_reglees": 236
+    "brier_modele": 0.2137,
+    "brier_prior_bookmaker": 0.2141,
+    "predictions_reglees": 239
    },
    "cash_final": 1239.38,
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
@@ -63202,56 +63274,68 @@
      {
       "cumul": -403.75,
       "debut": "2026-10-17T19:00:00.000Z"
+     },
+     {
+      "cumul": -358.75,
+      "debut": "2026-10-17T19:30+00:00"
+     },
+     {
+      "cumul": -313.75,
+      "debut": "2026-10-17T19:30:00.000Z"
+     },
+     {
+      "cumul": -333.75,
+      "debut": "2026-10-17T19:45+00:00"
      }
     ],
     "global": {
      "boosts_sans_mise_max": 0,
      "cote_moyenne": 3.32,
-     "en_attente": 30,
+     "en_attente": 27,
      "ev_moyenne_pct": -16.5,
-     "gagnes": 41,
-     "gain_net": -403.75,
-     "mise_totale": 3185.0,
+     "gagnes": 43,
+     "gain_net": -333.75,
+     "mise_totale": 3250.0,
      "paris": 181,
      "paris_avec_ev": 61,
-     "perdus": 106,
+     "perdus": 107,
      "pire_baisse": -556.0,
      "pire_serie_perdante": 22,
-     "regles": 151,
+     "regles": 154,
      "rembourses": 4,
-     "reussite_pct": 27.9,
-     "roi_pct": -12.7
+     "reussite_pct": 28.7,
+     "roi_pct": -10.3
     },
     "par_bookmaker": {
      "Unibet": {
       "cote_moyenne": 3.23,
-      "en_attente": 17,
+      "en_attente": 16,
       "ev_moyenne_pct": -10.3,
-      "gagnes": 11,
-      "gain_net": -48.75,
-      "mise_totale": 825.0,
+      "gagnes": 12,
+      "gain_net": -3.75,
+      "mise_totale": 850.0,
       "paris": 50,
       "paris_avec_ev": 6,
       "perdus": 21,
-      "regles": 33,
+      "regles": 34,
       "rembourses": 1,
-      "reussite_pct": 34.4,
-      "roi_pct": -5.9
+      "reussite_pct": 36.4,
+      "roi_pct": -0.4
      },
      "Winamax": {
       "cote_moyenne": 3.35,
-      "en_attente": 13,
+      "en_attente": 11,
       "ev_moyenne_pct": -17.2,
-      "gagnes": 30,
-      "gain_net": -355.0,
-      "mise_totale": 2360.0,
+      "gagnes": 31,
+      "gain_net": -330.0,
+      "mise_totale": 2400.0,
       "paris": 131,
       "paris_avec_ev": 55,
-      "perdus": 85,
-      "regles": 118,
+      "perdus": 86,
+      "regles": 120,
       "rembourses": 3,
-      "reussite_pct": 26.1,
-      "roi_pct": -15.0
+      "reussite_pct": 26.5,
+      "roi_pct": -13.8
      }
     },
     "par_valeur": {
@@ -63332,33 +63416,33 @@
      },
      "EV < 0 (exacte)": {
       "cote_moyenne": 3.24,
-      "en_attente": 6,
+      "en_attente": 5,
       "ev_moyenne_pct": -10.9,
       "gagnes": 7,
-      "gain_net": 35.5,
-      "mise_totale": 490.0,
+      "gain_net": 15.5,
+      "mise_totale": 510.0,
       "paris": 30,
       "paris_avec_ev": 30,
-      "perdus": 16,
-      "regles": 24,
+      "perdus": 17,
+      "regles": 25,
       "rembourses": 1,
-      "reussite_pct": 30.4,
-      "roi_pct": 7.2
+      "reussite_pct": 29.2,
+      "roi_pct": 3.0
      },
      "non évaluable": {
       "cote_moyenne": 3.36,
-      "en_attente": 22,
+      "en_attente": 20,
       "ev_moyenne_pct": null,
-      "gagnes": 26,
-      "gain_net": -326.75,
-      "mise_totale": 2100.0,
+      "gagnes": 28,
+      "gain_net": -236.75,
+      "mise_totale": 2145.0,
       "paris": 120,
       "paris_avec_ev": 0,
       "perdus": 69,
-      "regles": 98,
+      "regles": 100,
       "rembourses": 3,
-      "reussite_pct": 27.4,
-      "roi_pct": -15.6
+      "reussite_pct": 28.9,
+      "roi_pct": -11.0
      }
     },
     "strategie": "A — témoin : tous les boosts, mise max"
@@ -63914,56 +63998,68 @@
      {
       "cumul": -159.5,
       "debut": "2026-10-17T19:00:00.000Z"
+     },
+     {
+      "cumul": -137.0,
+      "debut": "2026-10-17T19:30+00:00"
+     },
+     {
+      "cumul": -119.0,
+      "debut": "2026-10-17T19:30:00.000Z"
+     },
+     {
+      "cumul": -129.0,
+      "debut": "2026-10-17T19:45+00:00"
      }
     ],
     "global": {
      "boosts_sans_mise_max": 0,
      "cote_moyenne": 2.78,
-     "en_attente": 21,
+     "en_attente": 18,
      "ev_moyenne_pct": -15.6,
-     "gagnes": 32,
-     "gain_net": -159.5,
-     "mise_totale": 1070.0,
+     "gagnes": 34,
+     "gain_net": -129.0,
+     "mise_totale": 1100.0,
      "paris": 128,
      "paris_avec_ev": 42,
-     "perdus": 72,
+     "perdus": 73,
      "pire_baisse": -224.0,
      "pire_serie_perdante": 15,
-     "regles": 107,
+     "regles": 110,
      "rembourses": 3,
-     "reussite_pct": 30.8,
-     "roi_pct": -14.9
+     "reussite_pct": 31.8,
+     "roi_pct": -11.7
     },
     "par_bookmaker": {
      "Unibet": {
       "cote_moyenne": 2.65,
-      "en_attente": 10,
+      "en_attente": 9,
       "ev_moyenne_pct": -10.3,
-      "gagnes": 11,
-      "gain_net": -9.5,
-      "mise_totale": 320.0,
+      "gagnes": 12,
+      "gain_net": 8.5,
+      "mise_totale": 330.0,
       "paris": 42,
       "paris_avec_ev": 6,
       "perdus": 20,
-      "regles": 32,
+      "regles": 33,
       "rembourses": 1,
-      "reussite_pct": 35.5,
-      "roi_pct": -3.0
+      "reussite_pct": 37.5,
+      "roi_pct": 2.6
      },
      "Winamax": {
       "cote_moyenne": 2.84,
-      "en_attente": 11,
+      "en_attente": 9,
       "ev_moyenne_pct": -16.5,
-      "gagnes": 21,
-      "gain_net": -150.0,
-      "mise_totale": 750.0,
+      "gagnes": 22,
+      "gain_net": -137.5,
+      "mise_totale": 770.0,
       "paris": 86,
       "paris_avec_ev": 36,
-      "perdus": 52,
-      "regles": 75,
+      "perdus": 53,
+      "regles": 77,
       "rembourses": 2,
-      "reussite_pct": 28.8,
-      "roi_pct": -20.0
+      "reussite_pct": 29.3,
+      "roi_pct": -17.9
      }
     },
     "par_valeur": {
@@ -64014,33 +64110,33 @@
      },
      "EV < 0 (exacte)": {
       "cote_moyenne": 2.69,
-      "en_attente": 6,
+      "en_attente": 5,
       "ev_moyenne_pct": -11.0,
       "gagnes": 4,
-      "gain_net": -43.5,
-      "mise_totale": 140.0,
+      "gain_net": -53.5,
+      "mise_totale": 150.0,
       "paris": 20,
       "paris_avec_ev": 20,
-      "perdus": 10,
-      "regles": 14,
+      "perdus": 11,
+      "regles": 15,
       "rembourses": 0,
-      "reussite_pct": 28.6,
-      "roi_pct": -31.1
+      "reussite_pct": 26.7,
+      "roi_pct": -35.7
      },
      "non évaluable": {
       "cote_moyenne": 2.78,
-      "en_attente": 14,
+      "en_attente": 12,
       "ev_moyenne_pct": null,
-      "gagnes": 21,
-      "gain_net": -94.0,
-      "mise_totale": 720.0,
+      "gagnes": 23,
+      "gain_net": -53.5,
+      "mise_totale": 740.0,
       "paris": 86,
       "paris_avec_ev": 0,
       "perdus": 48,
-      "regles": 72,
+      "regles": 74,
       "rembourses": 3,
-      "reussite_pct": 30.4,
-      "roi_pct": -13.1
+      "reussite_pct": 32.4,
+      "roi_pct": -7.2
      }
     },
     "strategie": "D — hypothèse : cotes 1,60 à 3,50, 10 € max"
@@ -64578,25 +64674,37 @@
       {
        "cumul": -86.83,
        "debut": "2026-10-17T19:00:00.000Z"
+      },
+      {
+       "cumul": -41.83,
+       "debut": "2026-10-17T19:30+00:00"
+      },
+      {
+       "cumul": 3.17,
+       "debut": "2026-10-17T19:30:00.000Z"
+      },
+      {
+       "cumul": -16.83,
+       "debut": "2026-10-17T19:45+00:00"
       }
      ],
      "global": {
       "boosts_sans_mise_max": 0,
       "cote_moyenne": 3.28,
-      "en_attente": 30,
+      "en_attente": 27,
       "ev_moyenne_pct": -16.3,
-      "gagnes": 40,
-      "gain_net": -86.83,
-      "mise_totale": 2627.44,
+      "gagnes": 42,
+      "gain_net": -16.83,
+      "mise_totale": 2692.44,
       "paris": 159,
       "paris_avec_ev": 56,
-      "perdus": 85,
+      "perdus": 86,
       "pire_baisse": -399.33,
       "pire_serie_perdante": 10,
-      "regles": 129,
+      "regles": 132,
       "rembourses": 4,
-      "reussite_pct": 32.0,
-      "roi_pct": -3.3
+      "reussite_pct": 32.8,
+      "roi_pct": -0.6
      },
      "par_bookmaker": {
       "Betsson": {
@@ -64661,33 +64769,33 @@
       },
       "Unibet": {
        "cote_moyenne": 3.07,
-       "en_attente": 12,
+       "en_attente": 11,
        "ev_moyenne_pct": -10.8,
-       "gagnes": 10,
-       "gain_net": 13.75,
-       "mise_totale": 700.0,
+       "gagnes": 11,
+       "gain_net": 58.75,
+       "mise_totale": 725.0,
        "paris": 40,
        "paris_avec_ev": 5,
        "perdus": 17,
-       "regles": 28,
+       "regles": 29,
        "rembourses": 1,
-       "reussite_pct": 37.0,
-       "roi_pct": 2.0
+       "reussite_pct": 39.3,
+       "roi_pct": 8.1
       },
       "Winamax": {
        "cote_moyenne": 3.3,
-       "en_attente": 13,
+       "en_attente": 11,
        "ev_moyenne_pct": -16.8,
-       "gagnes": 23,
-       "gain_net": -191.0,
-       "mise_totale": 1740.0,
+       "gagnes": 24,
+       "gain_net": -166.0,
+       "mise_totale": 1780.0,
        "paris": 100,
        "paris_avec_ev": 44,
-       "perdus": 61,
-       "regles": 87,
+       "perdus": 62,
+       "regles": 89,
        "rembourses": 3,
-       "reussite_pct": 27.4,
-       "roi_pct": -11.0
+       "reussite_pct": 27.9,
+       "roi_pct": -9.3
       }
      },
      "par_valeur": {
@@ -64768,33 +64876,33 @@
       },
       "EV < 0 (exacte)": {
        "cote_moyenne": 3.13,
-       "en_attente": 7,
+       "en_attente": 6,
        "ev_moyenne_pct": -12.2,
        "gagnes": 6,
-       "gain_net": -37.0,
-       "mise_totale": 445.0,
+       "gain_net": -57.0,
+       "mise_totale": 465.0,
        "paris": 30,
        "paris_avec_ev": 30,
-       "perdus": 16,
-       "regles": 23,
+       "perdus": 17,
+       "regles": 24,
        "rembourses": 1,
-       "reussite_pct": 27.3,
-       "roi_pct": -8.3
+       "reussite_pct": 26.1,
+       "roi_pct": -12.3
       },
       "non évaluable": {
        "cote_moyenne": 3.36,
-       "en_attente": 20,
+       "en_attente": 18,
        "ev_moyenne_pct": null,
-       "gagnes": 28,
-       "gain_net": 73.62,
-       "mise_totale": 1725.82,
+       "gagnes": 30,
+       "gain_net": 163.62,
+       "mise_totale": 1770.82,
        "paris": 103,
        "paris_avec_ev": 0,
        "perdus": 52,
-       "regles": 83,
+       "regles": 85,
        "rembourses": 3,
-       "reussite_pct": 35.0,
-       "roi_pct": 4.3
+       "reussite_pct": 36.6,
+       "roi_pct": 9.2
       }
      },
      "strategie": "A — témoin (même période que I)"
@@ -65120,25 +65228,37 @@
       {
        "cumul": -26.0,
        "debut": "2026-10-17T19:00:00.000Z"
+      },
+      {
+       "cumul": -3.5,
+       "debut": "2026-10-17T19:30+00:00"
+      },
+      {
+       "cumul": 14.5,
+       "debut": "2026-10-17T19:30:00.000Z"
+      },
+      {
+       "cumul": 4.5,
+       "debut": "2026-10-17T19:45+00:00"
       }
      ],
      "global": {
       "boosts_sans_mise_max": 0,
       "cote_moyenne": 2.76,
-      "en_attente": 16,
+      "en_attente": 13,
       "ev_moyenne_pct": -14.2,
-      "gagnes": 27,
-      "gain_net": -26.0,
-      "mise_totale": 800.0,
+      "gagnes": 29,
+      "gain_net": 4.5,
+      "mise_totale": 830.0,
       "paris": 96,
       "paris_avec_ev": 38,
-      "perdus": 51,
+      "perdus": 52,
       "pire_baisse": -150.5,
       "pire_serie_perdante": 8,
-      "regles": 80,
+      "regles": 83,
       "rembourses": 2,
-      "reussite_pct": 34.6,
-      "roi_pct": -3.2
+      "reussite_pct": 35.8,
+      "roi_pct": 0.5
      },
      "par_bookmaker": {
       "Betsson": {
@@ -65203,33 +65323,33 @@
       },
       "Unibet": {
        "cote_moyenne": 2.68,
-       "en_attente": 2,
+       "en_attente": 1,
        "ev_moyenne_pct": -14.8,
-       "gagnes": 6,
-       "gain_net": -1.5,
-       "mise_totale": 170.0,
+       "gagnes": 7,
+       "gain_net": 16.5,
+       "mise_totale": 180.0,
        "paris": 19,
        "paris_avec_ev": 4,
        "perdus": 11,
-       "regles": 17,
+       "regles": 18,
        "rembourses": 0,
-       "reussite_pct": 35.3,
-       "roi_pct": -0.9
+       "reussite_pct": 38.9,
+       "roi_pct": 9.2
       },
       "Winamax": {
        "cote_moyenne": 2.83,
-       "en_attente": 11,
+       "en_attente": 9,
        "ev_moyenne_pct": -13.2,
-       "gagnes": 15,
-       "gain_net": -92.0,
-       "mise_totale": 530.0,
+       "gagnes": 16,
+       "gain_net": -79.5,
+       "mise_totale": 550.0,
        "paris": 64,
        "paris_avec_ev": 28,
-       "perdus": 36,
-       "regles": 53,
+       "perdus": 37,
+       "regles": 55,
        "rembourses": 2,
-       "reussite_pct": 29.4,
-       "roi_pct": -17.4
+       "reussite_pct": 30.2,
+       "roi_pct": -14.5
       }
      },
      "par_valeur": {
@@ -65295,33 +65415,33 @@
       },
       "EV < 0 (exacte)": {
        "cote_moyenne": 2.72,
-       "en_attente": 7,
+       "en_attente": 6,
        "ev_moyenne_pct": -12.5,
        "gagnes": 4,
-       "gain_net": -46.0,
-       "mise_totale": 150.0,
+       "gain_net": -56.0,
+       "mise_totale": 160.0,
        "paris": 22,
        "paris_avec_ev": 22,
-       "perdus": 11,
-       "regles": 15,
+       "perdus": 12,
+       "regles": 16,
        "rembourses": 0,
-       "reussite_pct": 26.7,
-       "roi_pct": -30.7
+       "reussite_pct": 25.0,
+       "roi_pct": -35.0
       },
       "non évaluable": {
        "cote_moyenne": 2.79,
-       "en_attente": 7,
+       "en_attente": 5,
        "ev_moyenne_pct": null,
-       "gagnes": 20,
-       "gain_net": 81.5,
-       "mise_totale": 510.0,
+       "gagnes": 22,
+       "gain_net": 122.0,
+       "mise_totale": 530.0,
        "paris": 58,
        "paris_avec_ev": 0,
        "perdus": 29,
-       "regles": 51,
+       "regles": 53,
        "rembourses": 2,
-       "reussite_pct": 40.8,
-       "roi_pct": 16.0
+       "reussite_pct": 43.1,
+       "roi_pct": 23.0
       }
      },
      "strategie": "I — premier boost par match, cote 1,60 à 3,50, 10 € maximum"
@@ -65333,11 +65453,11 @@
  },
  "recherche": {
   "calibration": {
-   "brier_modele": 0.2111,
-   "brier_prior_bookmaker": 0.2128,
-   "predictions_reglees": 236
+   "brier_modele": 0.2137,
+   "brier_prior_bookmaker": 0.2141,
+   "predictions_reglees": 239
   },
-  "derniere_observation": "2026-10-17T23:13:40+00:00",
+  "derniere_observation": "2026-10-18T00:13:19+00:00",
   "minimum_apprentissage": 30,
   "prospectif": {
    "date_debut": "2026-10-14T00:00:00+00:00",
@@ -65508,7 +65628,7 @@
     }
    }
   },
-  "reglements": 278,
+  "reglements": 281,
   "source_sha": "fb09dbd70b7d302838c1a107cc47e77db2a3bcdb",
   "temoins": {
    "temoin_10": {

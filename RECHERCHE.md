@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-17T23:13:40+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-18T00:13:19+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -32,7 +32,7 @@ M n'est pas un simple doublement de K : l'exposition limite le nombre de paris s
 
 ## Stabilité et calibration
 
-Sur 236 prévisions réglées : score de Brier du modèle 0.2111, prior bookmaker 0.2128 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
+Sur 239 prévisions réglées : score de Brier du modèle 0.2137, prior bookmaker 0.2141 (plus bas est meilleur). Un gain positif sur les paris sélectionnés ne suffit pas à prouver une meilleure calibration générale.
 
 | Simulation | Dispersion ROI à 90 % par bootstrap de rencontres |
 |---|---|
@@ -162,54 +162,54 @@ Ce classement a été trié après lecture de tous les résultats. Il sert à pr
 | sport:tennis:2-3.5 | 18 | +115.00 € | +63.9 % |
 | sport:football:3-5 | 70 | +17.12 € | +2.5 % |
 | sport:tennis:1.5-2.5 | 6 | +12.50 € | +20.8 % |
+| sport:basketball:1.5-3.5 | 8 | +11.50 € | +14.4 % |
+| sport:basketball:2-3.5 | 8 | +11.50 € | +14.4 % |
 | sport:hockey sur glace:1.5-2.5 | 2 | +5.00 € | +25.0 % |
 | sport:basketball:1.5-2.5 | 2 | +1.00 € | +5.0 % |
-| sport:hockey sur glace:1.5-3.5 | 12 | -5.50 € | -4.6 % |
-| sport:hockey sur glace:2-3.5 | 12 | -5.50 € | -4.6 % |
+| bookmaker:Unibet:1.5-3.5 | 39 | -7.50 € | -1.9 % |
+| bookmaker:Unibet:2-3.5 | 39 | -7.50 € | -1.9 % |
+| sport:basketball:1.5-5 | 10 | -8.50 € | -8.5 % |
+| sport:basketball:1.5-8 | 10 | -8.50 € | -8.5 % |
+| sport:basketball:2-5 | 10 | -8.50 € | -8.5 % |
+| sport:hockey sur glace:1.5-3.5 | 13 | -15.50 € | -11.9 % |
+| sport:hockey sur glace:2-3.5 | 13 | -15.50 € | -11.9 % |
+| bookmaker:Unibet:1.5-5 | 40 | -17.50 € | -4.4 % |
+| bookmaker:Unibet:1.5-8 | 40 | -17.50 € | -4.4 % |
+| bookmaker:Unibet:2-5 | 40 | -17.50 € | -4.4 % |
 | sport:rugby:3-5 | 5 | -17.50 € | -35.0 % |
 | sport:football:1.5-5 | 76 | -19.03 € | -2.6 % |
 | sport:football:2-5 | 76 | -19.03 € | -2.6 % |
 | sport:football:1.5-8 | 76 | -19.73 € | -2.7 % |
 | sport:rugby:1.5-3.5 | 16 | -24.00 € | -15.0 % |
 | sport:rugby:2-3.5 | 16 | -24.00 € | -15.0 % |
-| bookmaker:Unibet:1.5-3.5 | 38 | -25.50 € | -6.7 % |
-| bookmaker:Unibet:2-3.5 | 38 | -25.50 € | -6.7 % |
-| sport:basketball:1.5-3.5 | 6 | -29.00 € | -48.3 % |
-| sport:basketball:2-3.5 | 6 | -29.00 € | -48.3 % |
+| sport:basketball:3-5 | 6 | -27.50 € | -45.8 % |
 | sport:rugby:1.5-2.5 | 8 | -30.00 € | -37.5 % |
 | bookmaker:Winamax:1.5-2.5 | 27 | -31.50 € | -11.7 % |
 | sport:rugby:1.5-5 | 17 | -34.00 € | -20.0 % |
 | sport:rugby:1.5-8 | 17 | -34.00 € | -20.0 % |
 | sport:rugby:2-5 | 17 | -34.00 € | -20.0 % |
-| bookmaker:Unibet:1.5-5 | 39 | -35.50 € | -9.1 % |
-| bookmaker:Unibet:1.5-8 | 39 | -35.50 € | -9.1 % |
-| bookmaker:Unibet:2-5 | 39 | -35.50 € | -9.1 % |
+| bookmaker:Winamax:3-5 | 91 | -34.43 € | -4.0 % |
+| tous:tous:3-5 | 88 | -37.93 € | -4.4 % |
 | bookmaker:Unibet:3-5 | 11 | -44.50 € | -40.5 % |
 | sport:football:1.5-2.5 | 23 | -46.00 € | -20.0 % |
-| sport:basketball:1.5-5 | 8 | -49.00 € | -61.3 % |
-| sport:basketball:1.5-8 | 8 | -49.00 € | -61.3 % |
-| sport:basketball:2-5 | 8 | -49.00 € | -61.3 % |
-| sport:basketball:3-5 | 5 | -50.00 € | -100.0 % |
 | bookmaker:Unibet:1.5-2.5 | 15 | -52.50 € | -35.0 % |
 | sport:football:1.5-3.5 | 64 | -56.53 € | -9.3 % |
 | sport:football:2-3.5 | 64 | -56.53 € | -9.3 % |
-| bookmaker:Winamax:3-5 | 90 | -56.93 € | -6.7 % |
 | tous:tous:2-5 | 106 | -57.85 € | -6.0 % |
-| tous:tous:3-5 | 87 | -60.43 € | -7.2 % |
 | tous:tous:1.5-5 | 106 | -63.00 € | -6.5 % |
 | tous:tous:1.5-8 | 102 | -77.23 € | -8.1 % |
-| sport:hockey sur glace:1.5-5 | 23 | -79.50 € | -34.6 % |
-| sport:hockey sur glace:2-5 | 23 | -79.50 € | -34.6 % |
+| sport:hockey sur glace:1.5-5 | 24 | -89.50 € | -37.3 % |
+| sport:hockey sur glace:2-5 | 24 | -89.50 € | -37.3 % |
 | sport:hockey sur glace:3-5 | 19 | -90.50 € | -47.6 % |
 | tous:tous:1.5-2.5 | 47 | -94.50 € | -20.1 % |
-| sport:hockey sur glace:1.5-8 | 25 | -99.50 € | -39.8 % |
-| bookmaker:Winamax:1.5-5 | 99 | -126.40 € | -13.3 % |
-| bookmaker:Winamax:2-5 | 99 | -126.40 € | -13.3 % |
-| tous:tous:2-3.5 | 91 | -132.58 € | -15.7 % |
-| bookmaker:Winamax:1.5-8 | 103 | -153.25 € | -15.7 % |
-| tous:tous:1.5-3.5 | 92 | -154.25 € | -18.3 % |
-| bookmaker:Winamax:1.5-3.5 | 81 | -280.75 € | -36.2 % |
-| bookmaker:Winamax:2-3.5 | 81 | -280.75 € | -36.2 % |
+| sport:hockey sur glace:1.5-8 | 26 | -109.50 € | -42.1 % |
+| bookmaker:Winamax:1.5-5 | 101 | -113.90 € | -11.7 % |
+| bookmaker:Winamax:2-5 | 101 | -113.90 € | -11.7 % |
+| bookmaker:Winamax:1.5-8 | 105 | -140.75 € | -14.1 % |
+| tous:tous:2-3.5 | 92 | -142.58 € | -16.7 % |
+| tous:tous:1.5-3.5 | 93 | -164.25 € | -19.3 % |
+| bookmaker:Winamax:1.5-3.5 | 83 | -267.53 € | -33.7 % |
+| bookmaker:Winamax:2-3.5 | 83 | -267.53 € | -33.7 % |
 
 ## Suivi futur gelé
 
@@ -226,7 +226,7 @@ Les décisions, probabilités et mises sont conservées dans un journal par vers
 - Bankroll 1 000 €, exposition ouverte ≤ 10 %, par libellé de rencontre ≤ 2 %.
 - Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés.
 
-Producteurs des 278 événements de règlement : {'gpt-6-luna': 278}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
+Producteurs des 281 événements de règlement : {'gpt-6-luna': 281}. Ils ne sont pas audités ici contre des résultats officiels. Toute performance est conditionnelle à leur exactitude.
 La même petite période a déjà été examinée pour définir ces méthodes. Le replay respecte la disponibilité des informations, mais n'est pas un échantillon indépendant de la conception du protocole.
 
 Reproduction : `python scripts/analyser_strategies.py --sortie analyses`. Les tests de temporalité sont dans `tests/test_recherche_strategies.py`.
