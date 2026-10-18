@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-18T12:21:13+00:00",
+ "derniere_observation": "2026-10-18T13:20:58+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1447,6 +1447,15 @@
      "date": "2026-10-18T09:00:43+00:00",
      "ev_modele_pct": null,
      "id": "winamax|721934854|2237442982",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|722112701|2237968430": {
+     "date": "2026-10-18T13:20:17+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|722112701|2237968430",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -2902,6 +2911,15 @@
      "mise": null,
      "p_modele": 0.104261,
      "regle": null
+    },
+    "winamax|722112701|2237968430": {
+     "date": "2026-10-18T13:20:17+00:00",
+     "ev_modele_pct": -0.739,
+     "id": "winamax|722112701|2237968430",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.30542,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -4353,6 +4371,15 @@
      "mise": null,
      "p_modele": 0.104261,
      "regle": null
+    },
+    "winamax|722112701|2237968430": {
+     "date": "2026-10-18T13:20:17+00:00",
+     "ev_modele_pct": -0.739,
+     "id": "winamax|722112701|2237968430",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.30542,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -5803,6 +5830,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.104261,
+     "regle": null
+    },
+    "winamax|722112701|2237968430": {
+     "date": "2026-10-18T13:20:17+00:00",
+     "ev_modele_pct": -0.739,
+     "id": "winamax|722112701|2237968430",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.30542,
      "regle": null
     }
    }
@@ -11841,6 +11877,22 @@
    "pari": "Marvin Harrison Jr. marque au moins un touchdown",
    "premiere_vue": "2026-10-18T08:59:07+00:00",
    "sport": "Football Américain"
+  },
+  "winamax|722112701|2237968430": {
+   "available_at": "2026-10-18T13:20:17+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.722,
+   "debut": "2026-10-18T21:30+00:00",
+   "disponible": true,
+   "id": "winamax|722112701|2237968430",
+   "long_terme": false,
+   "match": "Serie A - Brésil",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Flamengo et Bragantino SP marquent chacun le 1er but (respectivement contre Bahia et Remo)",
+   "premiere_vue": "2026-10-18T13:19:24+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
@@ -14155,6 +14207,22 @@
    "regle_le": "2026-10-18T07:01:39+00:00",
    "source": null,
    "statut": "perdu"
+  },
+  {
+   "available_at": "2026-10-18T13:20:58+00:00",
+   "id": "unibet|195359355|729752689",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-18T13:20:17+00:00",
+   "source": null,
+   "statut": "gagné"
+  },
+  {
+   "available_at": "2026-10-18T13:20:58+00:00",
+   "id": "winamax|721582685|2236374138",
+   "modele": "gpt-6-luna",
+   "regle_le": "2026-10-18T13:20:17+00:00",
+   "source": null,
+   "statut": "gagné"
   }
  ],
  "schema": 1,
