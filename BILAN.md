@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 18/10 10h59 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 18/10 11h58 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -180,9 +180,9 @@ A en détail : 90 gagnés, 195 perdus, 4 remboursés, 73 en attente · cote moye
 | 18/10 21h00 · Real Madrid - FC Séville | Real Madrid gagne les deux mi-temps | 2,5 | – | – | 20 € | ⏳ |
 | 18/10 21h00 · Real Madrid - FC Séville | K. Mbappé buteur sur une passe de A. Guler | 4,75 | – | – | 20 € | ⏳ |
 | 18/10 20h45 · Lyon - Nice | Lyon gagne et les deux équipes marquent | 3,7 | 3,344 | +10,6 % ≈ | 25 € | ⏳ |
-| 18/10 20h45 · Lyon/Nice - Lyon gagne et les deux équipes marquent | Lyon/Nice - Lyon gagne et les deux équipes marquent | 3,7 | 3,285 | +12,6 % ≈ | 10 € | ⏳ |
 | 18/10 20h45 · Juventus - Lazio Rome | Juventus gagne et plus de 2,5 buts dans le match | 2,5 | 3,265 | -23,4 % ≈ | 20 € | ⏳ |
 | 18/10 20h45 · Lyon - Nice | P. Sulc marque au moins un but ou fait au moins une passe décisive | 2,0 | – | – | 20 € | ⏳ |
+| 18/10 20h45 · Lyon/Nice - Lyon gagne et les deux équipes marquent | Lyon/Nice - Lyon gagne et les deux équipes marquent | 3,7 | 3,285 | +12,6 % ≈ | 10 € | ⏳ |
 | 18/10 19h00 · NFL | Indianapolis Colts, Baltimore Ravens et New England Patriots gagnent chacun leur match | 2,75 | – | – | 20 € | ⏳ |
 | 18/10 18h00 · Milan AC - Atalanta | G. Ramos marque au moins un but en 1ère mi-temps | 4,5 | – | – | 20 € | ⏳ |
 | 18/10 17h30 · Nottingham Forest - Arsenal | Arsenal gagne sans encaisser de but | 2,5 | 3,67 | -31,9 % ≈ | 20 € | ⏳ |
