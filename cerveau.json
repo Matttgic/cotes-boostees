@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 263,
+   "abstention": 265,
    "ecarter": 43,
-   "hors_perimetre": 43,
+   "hors_perimetre": 44,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-18T19:40:52+00:00",
+  "derniere_observation": "2026-10-18T20:39:57+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,16 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
+   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 43,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 8,
+   "reference_absente": 10,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 350,
+  "observes": 353,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-18T19:40:52+00:00",
+ "derniere_observation": "2026-10-18T20:39:57+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -939,6 +940,117 @@
    "id": "betsson|94075122.1|394703696.1",
    "match": "Monza - Cagliari",
    "pari": "Monza gagne 1-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94201636.1|395199956.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-20T16:45+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.18,
+      "hausse_pct": 7.8,
+      "horizon_heures": 44.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T20:39:57+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94201636.1|395199956.1",
+   "match": "Fenerbahçe Istanbul - Slavia Prague",
+   "pari": "Mason Greenwood Buteur!",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94202192.1|395202729.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-21T16:45+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 7.5,
+      "horizon_heures": 68.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T20:39:57+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94202192.1|395202729.1",
+   "match": "Lille - Galatasaray",
+   "pari": "Rafael Leao Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94202363.1|395203163.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-22T16:45+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.31,
+      "hausse_pct": 8.2,
+      "horizon_heures": 92.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-18T20:39:57+00:00",
+     "mise_fictive": null,
+     "motif_code": "hors_fenetre",
+     "raisons": [
+      "Événement hors fenêtre d'évaluation de 72 heures"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94202363.1|395203163.1",
+   "match": "SK Sturm Graz - Marseille",
+   "pari": "Amine Gouiri Buteur",
    "premiere_selection": null,
    "sport": "Football"
   },
