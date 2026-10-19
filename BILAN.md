@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 19/10 19h34 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 19/10 20h33 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -149,8 +149,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 106 en attente · cote moy
 | 22/10 18h45 · SK Sturm Graz - Marseille | Amine Gouiri Buteur | 2,5 | – | – | 20 € | ⏳ |
 | 21/10 18h45 · Côme - Manchester United | Nico Paz Buteur | 3,2 | – | – | 20 € | ⏳ |
 | 21/10 18h45 · Lille - Galatasaray | Rafael Leao Buteur | 3,6 | – | – | 20 € | ⏳ |
-| 20/10 21h00 · Paris SG - FC Barcelone | Le PSG mène à la mi-temps et gagne le match | 3,35 | – | – | 20 € | ⏳ |
 | 20/10 21h00 · Cote Boostée Wiloo : CB Wiloo Paris SG - FC Barcelone | D. Doué marque au moins un but ou fait au moins une passe décisive | 2,0 | – | – | 20 € | ⏳ |
+| 20/10 21h00 · Paris SG - FC Barcelone | Le PSG mène à la mi-temps et gagne le match | 3,35 | – | – | 20 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | IND Pacers - Les Pacers remportent la Division Centrale | 4,25 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | MEM Grizzlies - Cameron Boozer prend 8 rebonds ou + (moyenne) | 1,8 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | LA Clippers - Darius Garland fait 7 passes ou + (moyenne) | 1,6 | – | – | 25 € | ⏳ |
