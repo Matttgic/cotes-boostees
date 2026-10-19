@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-19T10:55:25+00:00",
+ "derniere_observation": "2026-10-19T11:55:21+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1645,6 +1645,15 @@
      "date": "2026-10-19T08:54:14+00:00",
      "ev_modele_pct": null,
      "id": "winamax|722674717|2239721922",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|722753147|2239928058": {
+     "date": "2026-10-19T11:54:36+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|722753147|2239928058",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3298,6 +3307,15 @@
      "mise": null,
      "p_modele": 0.305704,
      "regle": null
+    },
+    "winamax|722753147|2239928058": {
+     "date": "2026-10-19T11:54:36+00:00",
+     "ev_modele_pct": -7.2,
+     "id": "winamax|722753147|2239928058",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331429,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -4947,6 +4965,15 @@
      "mise": null,
      "p_modele": 0.305704,
      "regle": null
+    },
+    "winamax|722753147|2239928058": {
+     "date": "2026-10-19T11:54:36+00:00",
+     "ev_modele_pct": -7.2,
+     "id": "winamax|722753147|2239928058",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331429,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -6595,6 +6622,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.305704,
+     "regle": null
+    },
+    "winamax|722753147|2239928058": {
+     "date": "2026-10-19T11:54:36+00:00",
+     "ev_modele_pct": -7.2,
+     "id": "winamax|722753147|2239928058",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331429,
      "regle": null
     }
    }
@@ -13000,6 +13036,22 @@
    "mise_max_supposee": null,
    "pari": "Tottenham gagne et les deux équipes marquent",
    "premiere_vue": "2026-10-19T08:52:55+00:00",
+   "sport": "Football"
+  },
+  "winamax|722753147|2239928058": {
+   "available_at": "2026-10-19T11:54:36+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.55,
+   "debut": "2026-10-19T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|722753147|2239928058",
+   "long_terme": false,
+   "match": "Trabzonspor - Besiktas",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Mo Salah buteur et les deux équipes marquent",
+   "premiere_vue": "2026-10-19T11:53:00+00:00",
    "sport": "Football"
   }
  },
