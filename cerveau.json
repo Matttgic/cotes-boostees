@@ -6,7 +6,7 @@
    "hors_perimetre": 44,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-19T04:55:16+00:00",
+  "derniere_observation": "2026-10-19T05:54:21+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,10 +34,10 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "hors_fenetre": 1,
-   "ligne_absente": 43,
+   "ligne_absente": 44,
    "long_terme": 43,
    "marche_non_cote": 41,
-   "match_introuvable": 92,
+   "match_introuvable": 91,
    "reference_absente": 11,
    "sport_non_suivi": 10
   },
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-19T04:55:16+00:00",
+ "derniere_observation": "2026-10-19T05:54:21+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -922,6 +922,32 @@
       "Rencontre introuvable dans les références"
      ],
      "reference_raison": "Pinnacle : match introuvable (Abha Club - Al-Kholood)",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.05,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 15.7,
+      "horizon_heures": 9.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "non_evaluable",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T05:54:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "ligne_absente",
+     "raisons": [
+      "Marché ou ligne identique indisponible"
+     ],
+     "reference_raison": "Pinnacle : ligne absente (JOUEUR MATCH 0.5 PLUS)",
      "source": [],
      "version": "observation-v1.1"
     }
@@ -22355,6 +22381,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-19T03:12:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 8.9,
+      "horizon_heures": 1.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T05:54:21+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
