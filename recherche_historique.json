@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-19T11:55:21+00:00",
+ "derniere_observation": "2026-10-19T12:54:17+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -218,6 +218,24 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:1.5-5"
+    },
+    "olybet|31280576|7362676297": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": null,
+     "id": "olybet|31280576|7362676297",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "olybet|31280628|7362702521": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": null,
+     "id": "olybet|31280628|7362702521",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     },
     "unibet|194942438|727895556": {
      "date": "2026-10-14T17:51:07+00:00",
@@ -1875,6 +1893,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.248611,
+     "regle": null
+    },
+    "olybet|31280576|7362676297": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 3.062,
+     "id": "olybet|31280576|7362676297",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.294464,
+     "regle": null
+    },
+    "olybet|31280628|7362702521": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31280628|7362702521",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
      "regle": null
     },
     "unibet|194942438|727895556": {
@@ -3535,6 +3571,24 @@
      "p_modele": 0.248611,
      "regle": null
     },
+    "olybet|31280576|7362676297": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 3.062,
+     "id": "olybet|31280576|7362676297",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.294464,
+     "regle": null
+    },
+    "olybet|31280628|7362702521": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31280628|7362702521",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
+     "regle": null
+    },
     "unibet|194942438|727895556": {
      "date": "2026-10-14T17:51:07+00:00",
      "ev_modele_pct": -12.277,
@@ -5191,6 +5245,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.248611,
+     "regle": null
+    },
+    "olybet|31280576|7362676297": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 3.062,
+     "id": "olybet|31280576|7362676297",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.294464,
+     "regle": null
+    },
+    "olybet|31280628|7362702521": {
+     "date": "2026-10-19T12:53:29+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31280628|7362702521",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
      "regle": null
     },
     "unibet|194942438|727895556": {
@@ -7163,6 +7235,38 @@
    "mise_max_supposee": false,
    "pari": "Arsenal marque au moins 3 buts",
    "premiere_vue": "2026-10-16T12:14:39+00:00",
+   "sport": "Football"
+  },
+  "olybet|31280576|7362676297": {
+   "available_at": "2026-10-19T12:53:29+00:00",
+   "bookmaker": "OlyBet",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": null,
+   "debut": "2026-10-19T19:00+00:00",
+   "disponible": true,
+   "id": "olybet|31280576|7362676297",
+   "long_terme": false,
+   "match": "Tottenham - Conventry",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "Tottenham gagne et plus de 3.5 buts",
+   "premiere_vue": "2026-10-19T12:52:12+00:00",
+   "sport": "Football"
+  },
+  "olybet|31280628|7362702521": {
+   "available_at": "2026-10-19T12:53:29+00:00",
+   "bookmaker": "OlyBet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": null,
+   "debut": "2026-10-19T18:45+00:00",
+   "disponible": true,
+   "id": "olybet|31280628|7362702521",
+   "long_terme": false,
+   "match": "Rodez - Montpellier",
+   "mise_max": 13.88,
+   "mise_max_supposee": false,
+   "pari": "Both teams to score & over 3.5 goals",
+   "premiere_vue": "2026-10-19T12:52:12+00:00",
    "sport": "Football"
   },
   "unibet|193080176|719100363": {

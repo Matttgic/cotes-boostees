@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-19T11:55:21+00:00",
+ "derniere_observation": "2026-10-19T12:54:17+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 388,
+ "observations": 390,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -4388,6 +4388,30 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.392157,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.285714,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.357143,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -7636,6 +7660,30 @@
        "motif": "filtre",
        "p_modele": 0.331429,
        "p_prior": 0.392157,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.062,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.294464,
+       "p_prior": 0.285714,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 2.158,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.364849,
+       "p_prior": 0.357143,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -11165,6 +11213,30 @@
        "p_prior": 0.392157,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.062,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.294464,
+       "p_prior": 0.285714,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 2.158,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.364849,
+       "p_prior": 0.357143,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -14290,6 +14362,30 @@
        "motif": "filtre",
        "p_modele": 0.331429,
        "p_prior": 0.392157,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.062,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.294464,
+       "p_prior": 0.285714,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 2.158,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.364849,
+       "p_prior": 0.357143,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -18925,6 +19021,30 @@
        "p_prior": 0.392157,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.285714,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.357143,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -23149,6 +23269,30 @@
        "p_prior": 0.392157,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280576|7362676297",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.285714,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T12:53:29+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "olybet|31280628|7362702521",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.357143,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -23206,12 +23350,12 @@
    "global": {
     "boosts_sans_mise_max": 0,
     "cote_moyenne": 3.14,
-    "en_attente": 14,
+    "en_attente": 16,
     "ev_moyenne_pct": null,
     "gagnes": 33,
     "gain_net": 2.73,
     "mise_totale": 511.32,
-    "paris": 117,
+    "paris": 119,
     "paris_avec_ev": 0,
     "perdus": 68,
     "pire_baisse": -54.52,
@@ -28603,6 +28747,30 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.392157,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.285714,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.357143,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -34484,6 +34652,30 @@
       "motif": "filtre",
       "p_modele": 0.331429,
       "p_prior": 0.392157,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.062,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.294464,
+      "p_prior": 0.285714,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 2.158,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.364849,
+      "p_prior": 0.357143,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -41245,6 +41437,30 @@
       "p_prior": 0.392157,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.062,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.294464,
+      "p_prior": 0.285714,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 2.158,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.364849,
+      "p_prior": 0.357143,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -46661,6 +46877,30 @@
       "motif": "filtre",
       "p_modele": 0.331429,
       "p_prior": 0.392157,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.062,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.294464,
+      "p_prior": 0.285714,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 2.158,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.364849,
+      "p_prior": 0.357143,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -53968,6 +54208,30 @@
       "p_prior": 0.392157,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.285714,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.357143,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -60458,6 +60722,30 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.392157,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280576|7362676297",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.285714,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T12:53:29+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "olybet|31280628|7362702521",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.357143,
       "regle": null,
       "regles_entrainement": 288
      }
