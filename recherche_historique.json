@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-19T16:50:20+00:00",
+ "derniere_observation": "2026-10-19T17:35:24+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -88,6 +88,24 @@
      "date": "2026-10-18T20:40:54+00:00",
      "ev_modele_pct": null,
      "id": "betsson|94202363.1|395203163.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|94234104.1|395330109.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|94234104.1|395330109.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|94234882.1|395334090.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|94234882.1|395334090.1",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -1841,6 +1859,24 @@
      "p_modele": 0.41706,
      "regle": null
     },
+    "betsson|94234104.1|395330109.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 14.356,
+     "id": "betsson|94234104.1|395330109.1",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.341361,
+     "regle": null
+    },
+    "betsson|94234882.1|395334090.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 4.582,
+     "id": "betsson|94234882.1|395334090.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.326818,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -3589,6 +3625,24 @@
      "p_modele": 0.41706,
      "regle": null
     },
+    "betsson|94234104.1|395330109.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 14.356,
+     "id": "betsson|94234104.1|395330109.1",
+     "joue": true,
+     "mise": 3.93,
+     "p_modele": 0.341361,
+     "regle": null
+    },
+    "betsson|94234882.1|395334090.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 4.582,
+     "id": "betsson|94234882.1|395334090.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.326818,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -5335,6 +5389,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.41706,
+     "regle": null
+    },
+    "betsson|94234104.1|395330109.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 14.356,
+     "id": "betsson|94234104.1|395330109.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.341361,
+     "regle": null
+    },
+    "betsson|94234882.1|395334090.1": {
+     "date": "2026-10-19T17:34:38+00:00",
+     "ev_modele_pct": 4.582,
+     "id": "betsson|94234882.1|395334090.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.326818,
      "regle": null
     },
     "genybet|12255022|4841413055": {
@@ -7227,6 +7299,38 @@
    "mise_max_supposee": false,
    "pari": "Amine Gouiri Buteur",
    "premiere_vue": "2026-10-18T20:39:57+00:00",
+   "sport": "Football"
+  },
+  "betsson|94234104.1|395330109.1": {
+   "available_at": "2026-10-19T17:34:38+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 3.35,
+   "cote_origine": 2.83,
+   "debut": "2026-10-20T19:00+00:00",
+   "disponible": true,
+   "id": "betsson|94234104.1|395330109.1",
+   "long_terme": false,
+   "match": "Paris SG - FC Barcelone",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Le PSG mène à la mi-temps et gagne le match",
+   "premiere_vue": "2026-10-19T17:34:11+00:00",
+   "sport": "Football"
+  },
+  "betsson|94234882.1|395334090.1": {
+   "available_at": "2026-10-19T17:34:38+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 3.2,
+   "cote_origine": 2.95,
+   "debut": "2026-10-21T16:45+00:00",
+   "disponible": true,
+   "id": "betsson|94234882.1|395334090.1",
+   "long_terme": false,
+   "match": "Côme - Manchester United",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Nico Paz Buteur",
+   "premiere_vue": "2026-10-19T17:34:11+00:00",
    "sport": "Football"
   },
   "genybet|12255022|4841413055": {
