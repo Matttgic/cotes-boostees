@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-19T07:56:03+00:00",
+ "derniere_observation": "2026-10-19T08:54:56+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1636,6 +1636,15 @@
      "date": "2026-10-19T07:55:18+00:00",
      "ev_modele_pct": null,
      "id": "winamax|722673522|2239718425",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|722674717|2239721922": {
+     "date": "2026-10-19T08:54:14+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|722674717|2239721922",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3280,6 +3289,15 @@
      "mise": null,
      "p_modele": 0.486498,
      "regle": null
+    },
+    "winamax|722674717|2239721922": {
+     "date": "2026-10-19T08:54:14+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|722674717|2239721922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -4920,6 +4938,15 @@
      "mise": null,
      "p_modele": 0.486498,
      "regle": null
+    },
+    "winamax|722674717|2239721922": {
+     "date": "2026-10-19T08:54:14+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|722674717|2239721922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -6559,6 +6586,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.486498,
+     "regle": null
+    },
+    "winamax|722674717|2239721922": {
+     "date": "2026-10-19T08:54:14+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|722674717|2239721922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
      "regle": null
     }
    }
@@ -12932,6 +12968,22 @@
    "mise_max_supposee": null,
    "pari": "Torino gagne ou fait match nul et plus de 1,5 buts dans le match",
    "premiere_vue": "2026-10-19T07:53:46+00:00",
+   "sport": "Football"
+  },
+  "winamax|722674717|2239721922": {
+   "available_at": "2026-10-19T08:54:14+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.75,
+   "debut": "2026-10-19T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|722674717|2239721922",
+   "long_terme": false,
+   "match": "Tottenham - Coventry",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tottenham gagne et les deux équipes marquent",
+   "premiere_vue": "2026-10-19T08:52:55+00:00",
    "sport": "Football"
   }
  },
