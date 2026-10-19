@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-19T02:14:47+00:00",
+ "derniere_observation": "2026-10-19T03:14:19+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1546,6 +1546,15 @@
      "date": "2026-10-18T17:57:24+00:00",
      "ev_modele_pct": null,
      "id": "winamax|722289470|2238503546",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|722575223|2239428304": {
+     "date": "2026-10-19T03:13:33+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|722575223|2239428304",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3100,6 +3109,15 @@
      "mise": null,
      "p_modele": 0.297957,
      "regle": null
+    },
+    "winamax|722575223|2239428304": {
+     "date": "2026-10-19T03:13:33+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|722575223|2239428304",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.492793,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -4650,6 +4668,15 @@
      "mise": null,
      "p_modele": 0.297957,
      "regle": null
+    },
+    "winamax|722575223|2239428304": {
+     "date": "2026-10-19T03:13:33+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|722575223|2239428304",
+     "joue": true,
+     "mise": 11.33,
+     "p_modele": 0.492793,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -6199,6 +6226,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.297957,
+     "regle": null
+    },
+    "winamax|722575223|2239428304": {
+     "date": "2026-10-19T03:13:33+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|722575223|2239428304",
+     "joue": true,
+     "mise": 20.0,
+     "p_modele": 0.492793,
      "regle": null
     }
    }
@@ -12413,6 +12449,22 @@
    "pari": "MarShawn Lloyd et Javonte Williams marquent chacun au moins un touchdown",
    "premiere_vue": "2026-10-18T17:56:14+00:00",
    "sport": "Football Américain"
+  },
+  "winamax|722575223|2239428304": {
+   "available_at": "2026-10-19T03:13:33+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.6,
+   "cote_origine": 2.25,
+   "debut": "2026-10-19T07:40+00:00",
+   "disponible": true,
+   "id": "winamax|722575223|2239428304",
+   "long_terme": false,
+   "match": "Adrian Mannarino - Aleksandar Vukic",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Adrian Mannarino gagne 2-0",
+   "premiere_vue": "2026-10-19T03:12:25+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
