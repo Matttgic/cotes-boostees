@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 282,
+   "abstention": 286,
    "ecarter": 43,
    "hors_perimetre": 45,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-19T13:51:20+00:00",
+  "derniere_observation": "2026-10-19T14:50:31+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 44,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 27,
+   "reference_absente": 31,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 371,
+  "observes": 375,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-19T13:51:20+00:00",
+ "derniere_observation": "2026-10-19T14:50:31+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -23129,6 +23129,154 @@
    "pari": "Gabby WIlliams marque au moins 20 points et Golden State Valkyries gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|722867368|2240255194": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T00:15+00:00",
+   "historique": [
+    {
+     "cote": 3.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 9.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T14:50:31+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722867368|2240255194",
+   "match": "San Francisco 49ers - Washington Commanders",
+   "pari": "San Francisco 49ers gagne par au moins 20 points d'écart",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|722869601|2240261923": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T00:05+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.45,
+      "hausse_pct": 15.9,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T14:50:31+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722869601|2240261923",
+   "match": "Tampa Bay Rays - Cleveland Guardians",
+   "pari": "Tampa Bay Rays gagne et plus de 7,5 runs dans le match",
+   "premiere_selection": null,
+   "sport": "Baseball"
+  },
+  "winamax|722870991|2240265562": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T23:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.165,
+      "hausse_pct": 26.4,
+      "horizon_heures": 8.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T14:50:31+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722870991|2240265562",
+   "match": "NHL",
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : New York Rangers - Anaheim Ducks, Philadelphia Flyers - Colorado Avalanche et Toronto Maple Leafs - San Jose Sharks",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|722874163|2240275240": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T05:00+00:00",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.313,
+      "hausse_pct": 16.7,
+      "horizon_heures": 14.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T14:50:31+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722874163|2240275240",
+   "match": "WTA Ningbo",
+   "pari": "S. Bejlek, D. Shnaider et J. Paolini gagnent chacune le premier set (respectivement contre A. Parks, Y. Putintseva et A. Kalinina)",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
