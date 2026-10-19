@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 266,
+   "abstention": 270,
    "ecarter": 43,
    "hors_perimetre": 44,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-19T05:54:21+00:00",
+  "derniere_observation": "2026-10-19T06:53:34+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 43,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 11,
+   "reference_absente": 15,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 354,
+  "observes": 358,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-19T05:54:21+00:00",
+ "derniere_observation": "2026-10-19T06:53:34+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -22415,6 +22415,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T06:53:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|722575223|2239428304",
@@ -22422,6 +22448,154 @@
    "pari": "Adrian Mannarino gagne 2-0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|722635940|2239620237": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T14:00+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T06:53:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722635940|2239620237",
+   "match": "Matteo Arnaldi - Lorenzo Musetti",
+   "pari": "Lorenzo Musetti gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|722642833|2239638283": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T15:05+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 8.7,
+      "horizon_heures": 8.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T06:53:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722642833|2239638283",
+   "match": "Al Feiha - Al Ahli",
+   "pari": "I. Toney marque au moins un but en 1ère mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|722643883|2239641084": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T16:00+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T06:53:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722643883|2239641084",
+   "match": "Lorenzo Sonego - Moïse Kouamé",
+   "pari": "M. Kouamé gagne le premier set",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|722645283|2239644569": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-19T16:30+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T06:53:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|722645283|2239644569",
+   "match": "Monza - Cagliari",
+   "pari": "Cagliari gagne ou fait match nul et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
