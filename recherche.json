@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-19T15:51:23+00:00",
+ "derniere_observation": "2026-10-19T16:50:20+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 397,
+ "observations": 398,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -4496,6 +4496,18 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.432339,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.555556,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -7869,6 +7881,18 @@
        "motif": "selection",
        "p_modele": 0.480893,
        "p_prior": 0.432339,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -8.087,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.51063,
+       "p_prior": 0.555556,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -11538,6 +11562,18 @@
        "p_prior": 0.432339,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -8.087,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.51063,
+       "p_prior": 0.555556,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -14771,6 +14807,18 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": 0.480893,
        "p_prior": 0.432339,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -8.087,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.51063,
+       "p_prior": 0.555556,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -19514,6 +19562,18 @@
        "p_prior": 0.432339,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.555556,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -23844,6 +23904,18 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": null,
        "p_prior": 0.432339,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-19T16:49:33+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "genybet|12277552|4860540861",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.555556,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -29408,6 +29480,18 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.432339,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.555556,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -35414,6 +35498,18 @@
       "motif": "selection",
       "p_modele": 0.480893,
       "p_prior": 0.432339,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -8.087,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.51063,
+      "p_prior": 0.555556,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -42315,6 +42411,18 @@
       "p_prior": 0.432339,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -8.087,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.51063,
+      "p_prior": 0.555556,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -47839,6 +47947,18 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": 0.480893,
       "p_prior": 0.432339,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -8.087,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.51063,
+      "p_prior": 0.555556,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -55254,6 +55374,18 @@
       "p_prior": 0.432339,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.555556,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -61852,6 +61984,18 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.432339,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-19T16:49:33+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "genybet|12277552|4860540861",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.555556,
       "regle": null,
       "regles_entrainement": 288
      }

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 286,
+   "abstention": 288,
    "ecarter": 43,
-   "hors_perimetre": 45,
+   "hors_perimetre": 44,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-19T15:49:44+00:00",
+  "derniere_observation": "2026-10-19T16:48:53+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,16 +33,15 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
-   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 44,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 31,
+   "reference_absente": 33,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 375,
+  "observes": 376,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-19T15:49:44+00:00",
+ "derniere_observation": "2026-10-19T16:48:53+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1150,6 +1149,32 @@
      "reference_raison": null,
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.39,
+      "hausse_pct": 4.6,
+      "horizon_heures": 71.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T16:48:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "betsson|94202363.1|395203163.1",
@@ -1337,6 +1362,43 @@
    "id": "genybet|12261210|4858224994",
    "match": "Kylian Mbappé - Séville",
    "pari": "Kylian Mbappé (vs Séville) buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12277552|4860540861": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-19T19:00+00:00",
+   "historique": [
+    {
+     "cote": 1.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-19T16:48:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12277552|4860540861",
+   "match": "Tottenham / Coventry City : Les 2 équipes marquent",
+   "pari": "Tottenham / Coventry City : Les 2 équipes marquent",
    "premiere_selection": null,
    "sport": "Football"
   },
