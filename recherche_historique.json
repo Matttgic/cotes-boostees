@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-20T03:54:00+00:00",
+ "derniere_observation": "2026-10-20T04:53:28+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1762,6 +1762,24 @@
      "date": "2026-10-19T14:52:02+00:00",
      "ev_modele_pct": null,
      "id": "winamax|722874163|2240275240",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723245089|2241745070": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723245089|2241745070",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723247542|2241812010": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723247542|2241812010",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3532,6 +3550,24 @@
      "mise": 10.0,
      "p_modele": 0.480893,
      "regle": null
+    },
+    "winamax|723245089|2241745070": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|723245089|2241745070",
+     "joue": true,
+     "mise": 10.0,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|723247542|2241812010": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|723247542|2241812010",
+     "joue": true,
+     "mise": 6.85,
+     "p_modele": 0.492394,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -5298,6 +5334,24 @@
      "mise": 11.31,
      "p_modele": 0.480893,
      "regle": null
+    },
+    "winamax|723245089|2241745070": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|723245089|2241745070",
+     "joue": true,
+     "mise": 11.02,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|723247542|2241812010": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|723247542|2241812010",
+     "joue": true,
+     "mise": 9.92,
+     "p_modele": 0.492394,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -7063,6 +7117,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.480893,
+     "regle": null
+    },
+    "winamax|723245089|2241745070": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|723245089|2241745070",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|723247542|2241812010": {
+     "date": "2026-10-20T04:52:40+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|723247542|2241812010",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492394,
      "regle": null
     }
    }
@@ -13676,6 +13748,38 @@
    "mise_max_supposee": null,
    "pari": "S. Bejlek, D. Shnaider et J. Paolini gagnent chacune le premier set (respectivement contre A. Parks, Y. Putintseva et A. Kalinina)",
    "premiere_vue": "2026-10-19T14:50:31+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|723245089|2241745070": {
+   "available_at": "2026-10-20T04:52:40+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.2,
+   "debut": "2026-10-20T07:40+00:00",
+   "disponible": true,
+   "id": "winamax|723245089|2241745070",
+   "long_terme": false,
+   "match": "Stefanos Tsitsipas - Aleksandar Kovacevic",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Stefanos Tsitsipas gagne et plus de 22,5 jeux dans le match",
+   "premiere_vue": "2026-10-20T04:52:05+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|723247542|2241812010": {
+   "available_at": "2026-10-20T04:52:40+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.25,
+   "debut": "2026-10-20T12:00+00:00",
+   "disponible": true,
+   "id": "winamax|723247542|2241812010",
+   "long_terme": false,
+   "match": "Ugo Humbert - Corentin Moutet",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 2,5 sets lors du match",
+   "premiere_vue": "2026-10-20T04:52:05+00:00",
    "sport": "Tennis"
   }
  },
