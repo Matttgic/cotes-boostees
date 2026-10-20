@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 20/10 10h42 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 20/10 11h41 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -153,7 +153,6 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 124 en attente · cote moy
 | 20/10 21h00 · Paris SG - FC Barcelone | Paris SG gagne et les deux équipes marquent | 2,95 | – | – | 25 € | ⏳ |
 | 20/10 21h00 · Liverpool - Villarreal | Le duo A.Isak / B.Barcola marque plus de 1,5 buts (remboursé si non titulaire) | 3,0 | – | – | 25 € | ⏳ |
 | 20/10 21h00 · Ligue des Champions - 20/10 | Le trio R.Cherki / D.Malen / S.Aghehowa marque plus de 2,5 buts (Remboursé si non titulaires) | 2,65 | – | – | 25 € | ⏳ |
-| 20/10 21h00 · O.Dembélé ou D.Doué buteur et le PSG - Barcelone | O.Dembélé ou D.Doué buteur et le PSG (vs Barcelone) ne perd pas ? | 2,1 | – | – | 10 € | ⏳ |
 | 20/10 21h00 · Naples - Bodø/Glimt | Naples gagne à la mi-temps et à la fin du match | 2,65 | – | – | 20 € | ⏳ |
 | 20/10 21h00 · Stuttgart - Atletico Madrid | Atletico Madrid marque dans les deux mi-temps | 2,5 | – | – | 20 € | ⏳ |
 | 20/10 21h00 · AS Rome - Slovan Bratislava | Donyell Malen marque au moins un but en 1ère mi-temps | 2,2 | – | – | 20 € | ⏳ |
@@ -161,6 +160,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 124 en attente · cote moy
 | 20/10 21h00 · Manchester City - AEK Athènes | Manchester City gagne et plus de 4,5 buts dans le match | 2,65 | – | – | 20 € | ⏳ |
 | 20/10 21h00 · Paris SG - FC Barcelone | Paris SG gagne et les deux équipes marquent | 3,1 | – | – | 20 € | ⏳ |
 | 20/10 21h00 · Cote Boostée Wiloo : CB Wiloo Paris SG - FC Barcelone | D. Doué marque au moins un but ou fait au moins une passe décisive | 2,0 | – | – | 20 € | ⏳ |
+| 20/10 21h00 · O.Dembélé ou D.Doué buteur et le PSG - Barcelone | O.Dembélé ou D.Doué buteur et le PSG (vs Barcelone) ne perd pas ? | 2,1 | – | – | 10 € | ⏳ |
 | 20/10 21h00 · Paris SG - FC Barcelone | Le PSG mène à la mi-temps et gagne le match | 3,35 | – | – | 20 € | ⏳ |
 | 20/10 19h00 · M.Berrettini - K.Jacquet | K.Jacquet remporte le 1er set et le match ? | 2,7 | – | – | 25 € | ⏳ |
 | 20/10 19h00 · Paris Trashtalk 26/27 | IND Pacers - Les Pacers remportent la Division Centrale | 4,25 | – | – | 25 € | ⏳ |
