@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 318,
+   "abstention": 322,
    "ecarter": 43,
-   "hors_perimetre": 47,
+   "hors_perimetre": 48,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-20T16:38:07+00:00",
+  "derniere_observation": "2026-10-20T17:37:21+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,16 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
+   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 47,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 63,
+   "reference_absente": 67,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 409,
+  "observes": 414,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-20T16:38:07+00:00",
+ "derniere_observation": "2026-10-20T17:37:21+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1332,6 +1333,43 @@
    "id": "betsson|94234882.1|395334090.1",
    "match": "Côme - Manchester United",
    "pari": "Nico Paz Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94285671.1|395510595.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-24T16:30+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.28,
+      "hausse_pct": 14.0,
+      "horizon_heures": 94.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "hors_fenetre",
+     "raisons": [
+      "Événement hors fenêtre d'évaluation de 72 heures"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94285671.1|395510595.1",
+   "match": "Chelsea - Tottenham",
+   "pari": "Cold Palmer Buteur!",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -7837,6 +7875,43 @@
    "id": "unibet|195527087|730637045",
    "match": "Paris SG - FC Barcelone",
    "pari": "Paris SG gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195527094|730637115": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 1.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195527094|730637115",
+   "match": "Paris SG - FC Barcelone",
+   "pari": "Au moins 2 des 3 joueurs marquent : O.Dembele / L.Yamal / D.Doué (remboursé si non titulaires)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -24265,6 +24340,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 1.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|723252434|2241839645",
@@ -24966,6 +25067,80 @@
    "premiere_selection": null,
    "sport": "Hockey sur glace"
   },
+  "winamax|723600933|2242800370": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T00:07+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 6.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723600933|2242800370",
+   "match": "Guadalajara - Necaxa",
+   "pari": "Guadalajara gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|723607775|2242823060": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T02:30+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.75,
+      "hausse_pct": 13.3,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723607775|2242823060",
+   "match": "Lanlana Tararudee - Ashlyn Krueger",
+   "pari": "Ashlyn Krueger gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
   "winamax|723654765|2242963460": {
    "bookmaker": "Winamax",
    "debut": "2026-10-21T01:45+00:00",
@@ -25000,6 +25175,43 @@
    "id": "winamax|723654765|2242963460",
    "match": "San Antonio Spurs - Oklahoma City Thunder",
    "pari": "Victor Wembanyama marque au moins 30 points et San Antonio Spurs gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|723691939|2243093217": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T23:15+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 5.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T17:37:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723691939|2243093217",
+   "match": "New York Knicks - Philadelphia 76ers",
+   "pari": "Philadelphia 76ers gagne et plus de 225,5 points dans le match",
    "premiere_selection": null,
    "sport": "Basketball"
   }
