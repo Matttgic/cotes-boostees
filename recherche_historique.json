@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-20T07:45:13+00:00",
+ "derniere_observation": "2026-10-20T08:43:56+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -187,6 +187,15 @@
      "date": "2026-10-17T07:40:43+00:00",
      "ev_modele_pct": null,
      "id": "netbet|12242662|7462263967",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "netbet|12276091|7472548578": {
+     "date": "2026-10-20T08:43:08+00:00",
+     "ev_modele_pct": null,
+     "id": "netbet|12276091|7472548578",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -2093,6 +2102,15 @@
      "p_modele": 0.360009,
      "regle": null
     },
+    "netbet|12276091|7472548578": {
+     "date": "2026-10-20T08:43:08+00:00",
+     "ev_modele_pct": -5.743,
+     "id": "netbet|12276091|7472548578",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.448845,
+     "regle": null
+    },
     "olybet|31215821|7330371393": {
      "date": "2026-10-14T09:59:15+00:00",
      "ev_modele_pct": -21.398,
@@ -3994,6 +4012,15 @@
      "p_modele": 0.360009,
      "regle": null
     },
+    "netbet|12276091|7472548578": {
+     "date": "2026-10-20T08:43:08+00:00",
+     "ev_modele_pct": -5.743,
+     "id": "netbet|12276091|7472548578",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.448845,
+     "regle": null
+    },
     "olybet|31215821|7330371393": {
      "date": "2026-10-14T09:59:15+00:00",
      "ev_modele_pct": -21.398,
@@ -5893,6 +5920,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.360009,
+     "regle": null
+    },
+    "netbet|12276091|7472548578": {
+     "date": "2026-10-20T08:43:08+00:00",
+     "ev_modele_pct": -5.743,
+     "id": "netbet|12276091|7472548578",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.448845,
      "regle": null
     },
     "olybet|31215821|7330371393": {
@@ -8015,6 +8051,22 @@
    "mise_max_supposee": false,
    "pari": "Strasbourg/PSG - F.Torres buteur et PSG gagne",
    "premiere_vue": "2026-10-17T07:38:49+00:00",
+   "sport": "Football"
+  },
+  "netbet|12276091|7472548578": {
+   "available_at": "2026-10-20T08:43:08+00:00",
+   "bookmaker": "NetBet",
+   "cote_boostee_initiale": 2.1,
+   "cote_origine": null,
+   "debut": "2026-10-20T19:00+00:00",
+   "disponible": true,
+   "id": "netbet|12276091|7472548578",
+   "long_terme": false,
+   "match": "O.Dembélé ou D.Doué buteur et le PSG - Barcelone",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "O.Dembélé ou D.Doué buteur et le PSG (vs Barcelone) ne perd pas ?",
+   "premiere_vue": "2026-10-20T08:42:22+00:00",
    "sport": "Football"
   },
   "olybet|31213207|7328896155": {
