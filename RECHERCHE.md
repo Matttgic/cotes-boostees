@@ -1,6 +1,6 @@
 # Recherche de stratégies — replay chronologique
 
-Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-20T04:53:28+00:00.
+Source initiale : branche donnees, commit `fb09dbd70b7d302838c1a107cc47e77db2a3bcdb` ; dernière observation du 2026-10-20T05:52:40+00:00.
 Les observations initiales, premières valeurs et heures de publication des règlements proviennent de 141 instantanés Git.
 Une offre retirée du fichier courant reste dans l'historique, sans être transformée en perte.
 
@@ -22,9 +22,9 @@ Le prix normal contient la marge du bookmaker : ce prior et l'EV du modèle ne s
 | temoin_20 | 65 / 73 | 1051.74 € | +160.14 € | +15.2 % | -162.12 € |
 | value_0 | 3 / 3 | 30.00 € | -30.00 € | -100.0 % | -30.00 € |
 | value_5 | 2 / 2 | 20.00 € | -20.00 € | -100.0 % | -20.00 € |
-| J_adaptative | 44 / 46 | 424.43 € | +19.39 € | +4.6 % | -122.83 € |
+| J_adaptative | 44 / 47 | 424.43 € | +19.39 € | +4.6 % | -122.83 € |
 | K_modele | 62 / 74 | 604.90 € | +136.73 € | +22.6 % | -74.75 € |
-| L_kelly_dynamique | 65 / 76 | 430.17 € | +60.82 € | +14.1 % | -59.37 € |
+| L_kelly_dynamique | 65 / 77 | 430.17 € | +60.82 € | +14.1 % | -59.37 € |
 | M_modele_20 | 46 / 54 | 878.57 € | +381.38 € | +43.4 % | -85.88 € |
 
 Les témoins à 10 € et 20 € ont la même bankroll, la même période et les mêmes plafonds d'exposition. Leur population diffère des anciennes stratégies A–I qui couvrent tout l'historique.
