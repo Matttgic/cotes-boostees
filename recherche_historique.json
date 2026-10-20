@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-20T10:41:48+00:00",
+ "derniere_observation": "2026-10-20T11:41:16+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1906,6 +1906,15 @@
      "date": "2026-10-20T06:51:24+00:00",
      "ev_modele_pct": null,
      "id": "winamax|723285728|2241930035",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723438015|2242345308": {
+     "date": "2026-10-20T11:40:29+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723438015|2242345308",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3820,6 +3829,15 @@
      "mise": null,
      "p_modele": 0.353844,
      "regle": null
+    },
+    "winamax|723438015|2242345308": {
+     "date": "2026-10-20T11:40:29+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|723438015|2242345308",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -5730,6 +5748,15 @@
      "mise": null,
      "p_modele": 0.353844,
      "regle": null
+    },
+    "winamax|723438015|2242345308": {
+     "date": "2026-10-20T11:40:29+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|723438015|2242345308",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -7639,6 +7666,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.353844,
+     "regle": null
+    },
+    "winamax|723438015|2242345308": {
+     "date": "2026-10-20T11:40:29+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|723438015|2242345308",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
      "regle": null
     }
    }
@@ -14541,6 +14577,22 @@
    "pari": "Naples gagne à la mi-temps et à la fin du match",
    "premiere_vue": "2026-10-20T06:50:18+00:00",
    "sport": "Football"
+  },
+  "winamax|723438015|2242345308": {
+   "available_at": "2026-10-20T11:40:29+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.35,
+   "debut": "2026-10-20T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|723438015|2242345308",
+   "long_terme": false,
+   "match": "Detroit Pistons - Boston Celtics",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Jayson Tatum marque au moins 25 points et Boston Celtics gagne",
+   "premiere_vue": "2026-10-20T11:39:54+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
