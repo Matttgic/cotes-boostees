@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 298,
+   "abstention": 302,
    "ecarter": 43,
    "hors_perimetre": 44,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-20T05:51:16+00:00",
+  "derniere_observation": "2026-10-20T06:50:18+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 44,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 43,
+   "reference_absente": 47,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 386,
+  "observes": 390,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-20T05:51:16+00:00",
+ "derniere_observation": "2026-10-20T06:50:18+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -7315,6 +7315,43 @@
    "id": "unibet|195522968|730613005",
    "match": "L.Sonego - M.Kouame",
    "pari": "Score après 6 jeux de service ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|195606832|731217994": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-20T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195606832|731217994",
+   "match": "M.Berrettini - K.Jacquet",
+   "pari": "K.Jacquet remporte le 1er set et le match ?",
    "premiere_selection": null,
    "sport": "Tennis"
   },
@@ -23495,6 +23532,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 9.1,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|723245089|2241745070",
@@ -23643,6 +23706,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 10.2,
+      "horizon_heures": 9.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|723255818|2241850976",
@@ -23672,6 +23761,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-20T05:51:16+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -23759,6 +23874,117 @@
    "id": "winamax|723263041|2241868757",
    "match": "Liverpool - Villarreal",
    "pari": "Liverpool gagne les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|723267840|2241881311": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.98,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723267840|2241881311",
+   "match": "AS Rome - Slovan Bratislava",
+   "pari": "Donyell Malen marque au moins un but en 1ère mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|723269564|2241886065": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 12.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723269564|2241886065",
+   "match": "Stuttgart - Atletico Madrid",
+   "pari": "Atletico Madrid marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|723285728|2241930035": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-20T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 10.4,
+      "horizon_heures": 12.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-20T06:50:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723285728|2241930035",
+   "match": "Naples - Bodø/Glimt",
+   "pari": "Naples gagne à la mi-temps et à la fin du match",
    "premiere_selection": null,
    "sport": "Football"
   }
