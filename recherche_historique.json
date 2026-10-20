@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-20T20:31:43+00:00",
+ "derniere_observation": "2026-10-20T21:30:49+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2068,6 +2068,15 @@
      "date": "2026-10-20T18:33:12+00:00",
      "ev_modele_pct": null,
      "id": "winamax|723703255|2243129116",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723817118|2243529136": {
+     "date": "2026-10-20T21:29:58+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723817118|2243529136",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4144,6 +4153,15 @@
      "mise": null,
      "p_modele": 0.282944,
      "regle": null
+    },
+    "winamax|723817118|2243529136": {
+     "date": "2026-10-20T21:29:58+00:00",
+     "ev_modele_pct": -20.285,
+     "id": "winamax|723817118|2243529136",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289873,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6216,6 +6234,15 @@
      "mise": null,
      "p_modele": 0.282944,
      "regle": null
+    },
+    "winamax|723817118|2243529136": {
+     "date": "2026-10-20T21:29:58+00:00",
+     "ev_modele_pct": -20.285,
+     "id": "winamax|723817118|2243529136",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289873,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8287,6 +8314,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.282944,
+     "regle": null
+    },
+    "winamax|723817118|2243529136": {
+     "date": "2026-10-20T21:29:58+00:00",
+     "ev_modele_pct": -20.285,
+     "id": "winamax|723817118|2243529136",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289873,
      "regle": null
     }
    }
@@ -15492,6 +15528,22 @@
    "mise_max_supposee": null,
    "pari": "Cole Caufield buteur et Montreal Canadiens gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-20T18:32:14+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|723817118|2243529136": {
+   "available_at": "2026-10-20T21:29:58+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.45,
+   "debut": "2026-10-21T02:45+00:00",
+   "disponible": true,
+   "id": "winamax|723817118|2243529136",
+   "long_terme": false,
+   "match": "Vegas Golden Knights - Tampa Bay Lightning",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Mark Stone marque au moins un point et Vegas Golden Knights gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-20T21:29:34+00:00",
    "sport": "Hockey sur glace"
   }
  },
