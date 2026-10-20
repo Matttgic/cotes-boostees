@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-20T17:39:07+00:00",
+ "derniere_observation": "2026-10-20T18:33:59+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2059,6 +2059,15 @@
      "date": "2026-10-20T17:38:21+00:00",
      "ev_modele_pct": null,
      "id": "winamax|723691939|2243093217",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723703255|2243129116": {
+     "date": "2026-10-20T18:33:12+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723703255|2243129116",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4126,6 +4135,15 @@
      "mise": null,
      "p_modele": 0.229028,
      "regle": null
+    },
+    "winamax|723703255|2243129116": {
+     "date": "2026-10-20T18:33:12+00:00",
+     "ev_modele_pct": -22.19,
+     "id": "winamax|723703255|2243129116",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.282944,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6189,6 +6207,15 @@
      "mise": null,
      "p_modele": 0.229028,
      "regle": null
+    },
+    "winamax|723703255|2243129116": {
+     "date": "2026-10-20T18:33:12+00:00",
+     "ev_modele_pct": -22.19,
+     "id": "winamax|723703255|2243129116",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.282944,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8251,6 +8278,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.229028,
+     "regle": null
+    },
+    "winamax|723703255|2243129116": {
+     "date": "2026-10-20T18:33:12+00:00",
+     "ev_modele_pct": -22.19,
+     "id": "winamax|723703255|2243129116",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.282944,
      "regle": null
     }
    }
@@ -15441,6 +15477,22 @@
    "pari": "Philadelphia 76ers gagne et plus de 225,5 points dans le match",
    "premiere_vue": "2026-10-20T17:37:21+00:00",
    "sport": "Basketball"
+  },
+  "winamax|723703255|2243129116": {
+   "available_at": "2026-10-20T18:33:12+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.5,
+   "debut": "2026-10-20T23:10+00:00",
+   "disponible": true,
+   "id": "winamax|723703255|2243129116",
+   "long_terme": false,
+   "match": "Montreal Canadiens - San Jose Sharks",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Cole Caufield buteur et Montreal Canadiens gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-20T18:32:14+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
