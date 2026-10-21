@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T12:44:51+00:00",
+ "derniere_observation": "2026-10-21T13:44:05+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2203,6 +2203,15 @@
      "date": "2026-10-21T07:36:53+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724072345|2244285114",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724076418|2244295037": {
+     "date": "2026-10-21T13:43:11+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724076418|2244295037",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4496,6 +4505,15 @@
      "p_modele": 0.192182,
      "regle": null
     },
+    "winamax|724076418|2244295037": {
+     "date": "2026-10-21T13:43:11+00:00",
+     "ev_modele_pct": -5.497,
+     "id": "winamax|724076418|2244295037",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331589,
+     "regle": null
+    },
     "winamax|724083238|2244311871": {
      "date": "2026-10-21T08:48:10+00:00",
      "ev_modele_pct": -6.514,
@@ -6784,6 +6802,15 @@
      "p_modele": 0.192182,
      "regle": null
     },
+    "winamax|724076418|2244295037": {
+     "date": "2026-10-21T13:43:11+00:00",
+     "ev_modele_pct": -5.497,
+     "id": "winamax|724076418|2244295037",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331589,
+     "regle": null
+    },
     "winamax|724083238|2244311871": {
      "date": "2026-10-21T08:48:10+00:00",
      "ev_modele_pct": -6.514,
@@ -9070,6 +9097,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.192182,
+     "regle": null
+    },
+    "winamax|724076418|2244295037": {
+     "date": "2026-10-21T13:43:11+00:00",
+     "ev_modele_pct": -5.497,
+     "id": "winamax|724076418|2244295037",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.331589,
      "regle": null
     },
     "winamax|724083238|2244311871": {
@@ -16628,6 +16664,22 @@
    "mise_max_supposee": null,
    "pari": "H. Kane premier buteur du match",
    "premiere_vue": "2026-10-21T07:36:07+00:00",
+   "sport": "Football"
+  },
+  "winamax|724076418|2244295037": {
+   "available_at": "2026-10-21T13:43:11+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.55,
+   "debut": "2026-10-21T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|724076418|2244295037",
+   "long_terme": false,
+   "match": "Inter Milan - Shakhtar Donetsk",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Inter Milan marque au moins 4 buts",
+   "premiere_vue": "2026-10-21T13:42:39+00:00",
    "sport": "Football"
   },
   "winamax|724083238|2244311871": {
