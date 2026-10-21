@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T11:46:13+00:00",
+ "derniere_observation": "2026-10-21T12:44:51+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2266,6 +2266,24 @@
      "date": "2026-10-21T11:45:28+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724200957|2244625704",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724287172|2244860225": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724287172|2244860225",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724293402|2244879016": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724293402|2244879016",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4540,6 +4558,24 @@
      "mise": null,
      "p_modele": 0.272832,
      "regle": null
+    },
+    "winamax|724287172|2244860225": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|724287172|2244860225",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
+    },
+    "winamax|724293402|2244879016": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -16.78,
+     "id": "winamax|724293402|2244879016",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291999,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6810,6 +6846,24 @@
      "mise": null,
      "p_modele": 0.272832,
      "regle": null
+    },
+    "winamax|724287172|2244860225": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|724287172|2244860225",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
+    },
+    "winamax|724293402|2244879016": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -16.78,
+     "id": "winamax|724293402|2244879016",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291999,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9079,6 +9133,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.272832,
+     "regle": null
+    },
+    "winamax|724287172|2244860225": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|724287172|2244860225",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
+    },
+    "winamax|724293402|2244879016": {
+     "date": "2026-10-21T12:44:06+00:00",
+     "ev_modele_pct": -16.78,
+     "id": "winamax|724293402|2244879016",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291999,
      "regle": null
     }
    }
@@ -16668,6 +16740,38 @@
    "mise_max_supposee": null,
    "pari": "T. Haliburton marque au moins 20 points et Indiana Pacers gagne",
    "premiere_vue": "2026-10-21T11:44:30+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|724287172|2244860225": {
+   "available_at": "2026-10-21T12:44:06+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.0,
+   "debut": "2026-10-21T23:40+00:00",
+   "disponible": true,
+   "id": "winamax|724287172|2244860225",
+   "long_terme": false,
+   "match": "Buffalo Sabres - Philadelphia Flyers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tage Thompson buteur et Buffalo Sabres gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-21T12:43:34+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|724293402|2244879016": {
+   "available_at": "2026-10-21T12:44:06+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.5,
+   "debut": "2026-10-22T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|724293402|2244879016",
+   "long_terme": false,
+   "match": "Atlanta Dream - Golden State Valkyries",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Gabby Williams + Angel Reese marquent 40 points ou plus",
+   "premiere_vue": "2026-10-21T12:43:34+00:00",
    "sport": "Basketball"
   }
  },
