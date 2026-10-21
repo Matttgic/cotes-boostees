@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T13:57:10+00:00",
+ "derniere_observation": "2026-10-21T14:56:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2293,6 +2293,24 @@
      "date": "2026-10-21T12:44:06+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724293402|2244879016",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724331702|2244991157": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724331702|2244991157",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724350635|2245061102": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724350635|2245061102",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4594,6 +4612,24 @@
      "mise": null,
      "p_modele": 0.291999,
      "regle": null
+    },
+    "winamax|724331702|2244991157": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -14.745,
+     "id": "winamax|724331702|2244991157",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262323,
+     "regle": null
+    },
+    "winamax|724350635|2245061102": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -10.297,
+     "id": "winamax|724350635|2245061102",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.256293,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6891,6 +6927,24 @@
      "mise": null,
      "p_modele": 0.291999,
      "regle": null
+    },
+    "winamax|724331702|2244991157": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -14.745,
+     "id": "winamax|724331702|2244991157",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262323,
+     "regle": null
+    },
+    "winamax|724350635|2245061102": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -10.297,
+     "id": "winamax|724350635|2245061102",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.256293,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9187,6 +9241,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.291999,
+     "regle": null
+    },
+    "winamax|724331702|2244991157": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -14.745,
+     "id": "winamax|724331702|2244991157",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.262323,
+     "regle": null
+    },
+    "winamax|724350635|2245061102": {
+     "date": "2026-10-21T14:55:14+00:00",
+     "ev_modele_pct": -10.297,
+     "id": "winamax|724350635|2245061102",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.256293,
      "regle": null
     }
    }
@@ -16825,6 +16897,38 @@
    "pari": "Gabby Williams + Angel Reese marquent 40 points ou plus",
    "premiere_vue": "2026-10-21T12:43:34+00:00",
    "sport": "Basketball"
+  },
+  "winamax|724331702|2244991157": {
+   "available_at": "2026-10-21T14:55:14+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.749,
+   "debut": "2026-10-22T02:00+00:00",
+   "disponible": true,
+   "id": "winamax|724331702|2244991157",
+   "long_terme": false,
+   "match": "NBA",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 231,5 points lors de chacun des matchs suivants : Los Angeles Lakers - Golden State Warriors et Portland Trail Blazers - Phoenix Suns",
+   "premiere_vue": "2026-10-21T14:54:42+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|724350635|2245061102": {
+   "available_at": "2026-10-21T14:55:14+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.25,
+   "debut": "2026-10-21T23:00+00:00",
+   "disponible": true,
+   "id": "winamax|724350635|2245061102",
+   "long_terme": false,
+   "match": "Cincinnati FC - DC United",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Evander marque au moins un but en 1ère mi-temps",
+   "premiere_vue": "2026-10-21T14:54:42+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
