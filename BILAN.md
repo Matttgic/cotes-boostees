@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 21/10 09h36 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 21/10 09h47 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -152,10 +152,10 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 158 en attente · cote moy
 |---|---|---|---|---|---|---|
 | 24/10 18h30 · Chelsea - Tottenham | Cold Palmer Buteur! | 2,6 | – | – | 20 € | ⏳ |
 | 22/10 18h45 · SK Sturm Graz - Marseille | Amine Gouiri Buteur | 2,5 | – | – | 20 € | ⏳ |
-| 21/10 21h00 · Bayern Munich - Arsenal | Le trio H.Kane / K.Havertz / L.Diaz marque plus de 1,5 buts (remboursé si non titulaires) | 2,4 | – | – | 25 € | ⏳ |
+| 21/10 21h00 · Ligue des Champions - 21/10 | Le trio L.Suarez / M.Thuram / N.Jackson marque plus de 2,5 buts (Remboursé si non titulaire(s)) | 2,25 | – | – | 25 € | ⏳ |
 | 21/10 21h00 · Real Madrid - RB Leipzig | Kylian Mbappé buteur et son équipe gagne de 3 buts ou plus (remboursé si non titulaire) | 2,6 | – | – | 25 € | ⏳ |
 | 21/10 21h00 · Club Bruges - Lens | F.Thauvin décisif et son équipe ne perd pas (remboursé si non titulaire) | 2,85 | – | – | 25 € | ⏳ |
-| 21/10 21h00 · Ligue des Champions - 21/10 | Le trio L.Suarez / M.Thuram / N.Jackson marque plus de 2,5 buts (Remboursé si non titulaire(s)) | 2,25 | – | – | 25 € | ⏳ |
+| 21/10 21h00 · Bayern Munich - Arsenal | Le trio H.Kane / K.Havertz / L.Diaz marque plus de 1,5 buts (remboursé si non titulaires) | 2,4 | – | – | 25 € | ⏳ |
 | 21/10 21h00 · Bayern Munich - Arsenal | H. Kane premier buteur du match | 4,75 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Club Bruges - Lens | Lens marque dans les deux mi-temps | 3,25 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Real Madrid - Leipzig | Kylian Mbappé marque 2 buts ou plus | 2,5 | – | – | 20 € | ⏳ |
