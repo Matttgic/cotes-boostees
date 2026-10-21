@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 21/10 18h53 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 21/10 19h52 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -171,7 +171,6 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 182 en attente · cote moy
 | 21/10 21h00 · Real Madrid - RB Leipzig | Kylian Mbappé buteur et son équipe gagne de 3 buts ou plus (remboursé si non titulaire) | 2,6 | – | – | 25 € | ⏳ |
 | 21/10 21h00 · Club Bruges - Lens | F.Thauvin décisif et son équipe ne perd pas (remboursé si non titulaire) | 2,85 | – | – | 25 € | ⏳ |
 | 21/10 21h00 · Bayern Munich - Arsenal | Le trio H.Kane / K.Havertz / L.Diaz marque plus de 1,5 buts (remboursé si non titulaires) | 2,4 | – | – | 25 € | ⏳ |
-| 21/10 21h00 · Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €) | Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €) | 1,6 | – | – | 10 € | ⏳ |
 | 21/10 21h00 · Betis Séville - Feyenoord | Betis Séville gagne le match 1-0, 2-0 ou 3-0 | 4,75 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Ligue des Champions | Chaque équipe marque lors des matchs suivants : Sporting Portugal - LASK Linz et Aston Villa - Viking | 3,3 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Inter Milan - Shakhtar Donetsk | Inter Milan marque au moins 4 buts | 2,85 | – | – | 20 € | ⏳ |
@@ -179,6 +178,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 182 en attente · cote moy
 | 21/10 21h00 · Club Bruges - Lens | Lens marque dans les deux mi-temps | 3,25 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Real Madrid - Leipzig | Kylian Mbappé marque 2 buts ou plus | 2,5 | – | – | 20 € | ⏳ |
 | 21/10 21h00 · Lens marque dans les 2 mi-temps ? - Bruges | Lens marque dans les 2 mi-temps ? (vs Bruges) | 3,0 | – | – | 10 € | ⏳ |
+| 21/10 21h00 · Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €) | Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €) | 1,6 | – | – | 10 € | ⏳ |
 | 21/10 19h00 · M.Kouame - L.Musetti | Les 2 joueurs gagnent un set ? | 2,7 | – | – | 25 € | ⏳ |
 | 21/10 19h00 · Moïse Kouame - Lorenzo Musetti | Moïse Kouamé gagne le premier set et le match | 4,75 | – | – | 20 € | ⏳ |
 | 21/10 18h45 · Lille - Galatasaray | Le trio V.Osimhen / O.Giroud / H.Haraldsson marque plus de 1,5 buts (remboursé si non titulaires) | 2,5 | – | – | 25 € | ⏳ |
