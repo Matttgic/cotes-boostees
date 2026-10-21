@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 354,
+   "abstention": 360,
    "ecarter": 43,
-   "hors_perimetre": 51,
+   "hors_perimetre": 50,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T15:53:57+00:00",
+  "derniere_observation": "2026-10-21T16:53:01+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,16 +33,15 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
-   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 50,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 99,
+   "reference_absente": 105,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 449,
+  "observes": 454,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T15:53:57+00:00",
+ "derniere_observation": "2026-10-21T16:53:01+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1365,6 +1364,32 @@
      "reference_raison": null,
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.37,
+      "hausse_pct": 9.7,
+      "horizon_heures": 71.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "betsson|94285671.1|395510595.1",
@@ -1626,6 +1651,43 @@
    "id": "genybet|12283299|4863624586",
    "match": "Ousmane Dembélé - FC Barcelone",
    "pari": "Ousmane Dembélé (vs FC Barcelone) buteur ou passeur décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12288265|4867470902": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 1.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.1,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12288265|4867470902",
+   "match": "Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €)",
+   "pari": "Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -26333,6 +26395,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.434,
+      "hausse_pct": 8.9,
+      "horizon_heures": 2.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724083238|2244311871",
@@ -26362,6 +26450,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 5.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.5,
+      "hausse_pct": 16.7,
+      "horizon_heures": 2.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -26777,6 +26891,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 5.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.622,
+      "hausse_pct": 13.6,
+      "horizon_heures": 10.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724385110|2245162305",
@@ -26821,6 +26961,154 @@
    "pari": "Brady Tkachuk buteur et Florida Panthers gagne (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|724416928|2245255123": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T23:45+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 10.7,
+      "horizon_heures": 6.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724416928|2245255123",
+   "match": "Buffalo Sabres - Philadelphia Flyers",
+   "pari": "Tage Thompson marque au moins 2 points (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|724424631|2245279354": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T02:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724424631|2245279354",
+   "match": "Los Angeles Clippers - Sacramento Kings",
+   "pari": "Darius Garland et Rui Hachimura marquent au moins 20 points chacun",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|724428071|2245289826": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T02:30+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724428071|2245289826",
+   "match": "Ann Li - Zeynep Sonmez",
+   "pari": "Zeynep Sonmez gagne le premier set",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|724433616|2245306097": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T02:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 17.0,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T16:53:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724433616|2245306097",
+   "match": "Los Angeles Lakers - Golden State Warriors",
+   "pari": "Luka Doncic et Stephen Curry marquent chacun au moins 4 paniers à 3 points",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
