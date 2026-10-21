@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 326,
+   "abstention": 327,
    "ecarter": 43,
    "hors_perimetre": 48,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T04:38:43+00:00",
+  "derniere_observation": "2026-10-21T05:37:52+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 47,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 71,
+   "reference_absente": 72,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 418,
+  "observes": 419,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T04:38:43+00:00",
+ "derniere_observation": "2026-10-21T05:37:52+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -25418,6 +25418,43 @@
    "pari": "Mark Stone marque au moins un point et Vegas Golden Knights gagne (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|723965835|2243992431": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T10:00+00:00",
+   "historique": [
+    {
+     "cote": 5.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.585,
+      "hausse_pct": 20.0,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T05:37:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723965835|2243992431",
+   "match": "J.League",
+   "pari": "Chaque équipe marque lors des matchs suivants : Yokohama Marinos - Tokyo Verdy, Urawa Reds - JEF United Chiba et Kawasaki Frontale - Vissel Kobe",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|723971496|2244008393": {
    "bookmaker": "Winamax",
