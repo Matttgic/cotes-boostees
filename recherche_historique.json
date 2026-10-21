@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T10:46:58+00:00",
+ "derniere_observation": "2026-10-21T11:46:13+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2257,6 +2257,15 @@
      "date": "2026-10-21T10:46:13+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724184591|2244580825",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724200957|2244625704": {
+     "date": "2026-10-21T11:45:28+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724200957|2244625704",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4522,6 +4531,15 @@
      "mise": null,
      "p_modele": 0.27898,
      "regle": null
+    },
+    "winamax|724200957|2244625704": {
+     "date": "2026-10-21T11:45:28+00:00",
+     "ev_modele_pct": -20.879,
+     "id": "winamax|724200957|2244625704",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272832,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6783,6 +6801,15 @@
      "mise": null,
      "p_modele": 0.27898,
      "regle": null
+    },
+    "winamax|724200957|2244625704": {
+     "date": "2026-10-21T11:45:28+00:00",
+     "ev_modele_pct": -20.879,
+     "id": "winamax|724200957|2244625704",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272832,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9043,6 +9070,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.27898,
+     "regle": null
+    },
+    "winamax|724200957|2244625704": {
+     "date": "2026-10-21T11:45:28+00:00",
+     "ev_modele_pct": -20.879,
+     "id": "winamax|724200957|2244625704",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272832,
      "regle": null
     }
    }
@@ -16616,6 +16652,22 @@
    "mise_max_supposee": null,
    "pari": "A. Edwards + G. Antetokounmpo marquent 65 points ou plus",
    "premiere_vue": "2026-10-21T10:45:19+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|724200957|2244625704": {
+   "available_at": "2026-10-21T11:45:28+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.9,
+   "cote_origine": 2.65,
+   "debut": "2026-10-22T00:10+00:00",
+   "disponible": true,
+   "id": "winamax|724200957|2244625704",
+   "long_terme": false,
+   "match": "New Orleans Pelicans - Indiana Pacers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "T. Haliburton marque au moins 20 points et Indiana Pacers gagne",
+   "premiere_vue": "2026-10-21T11:44:30+00:00",
    "sport": "Basketball"
   }
  },

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 344,
+   "abstention": 345,
    "ecarter": 43,
    "hors_perimetre": 50,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T10:45:19+00:00",
+  "derniere_observation": "2026-10-21T11:44:30+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 49,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 89,
+   "reference_absente": 90,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 438,
+  "observes": 439,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T10:45:19+00:00",
+ "derniere_observation": "2026-10-21T11:44:30+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -26066,6 +26066,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.784,
+      "hausse_pct": 11.4,
+      "horizon_heures": 7.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T11:44:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724083238|2244311871",
@@ -26256,6 +26282,43 @@
    "id": "winamax|724184591|2244580825",
    "match": "Miami Heat - Minnesota Timberwolves",
    "pari": "A. Edwards + G. Antetokounmpo marquent 65 points ou plus",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|724200957|2244625704": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 9.4,
+      "horizon_heures": 12.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T11:44:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724200957|2244625704",
+   "match": "New Orleans Pelicans - Indiana Pacers",
+   "pari": "T. Haliburton marque au moins 20 points et Indiana Pacers gagne",
    "premiere_selection": null,
    "sport": "Basketball"
   }
