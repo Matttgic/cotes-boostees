@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T09:48:35+00:00",
+ "derniere_observation": "2026-10-21T10:46:58+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2248,6 +2248,15 @@
      "date": "2026-10-21T09:47:51+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724146712|2244474142",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724184591|2244580825": {
+     "date": "2026-10-21T10:46:13+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724184591|2244580825",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4504,6 +4513,15 @@
      "mise": null,
      "p_modele": 0.200462,
      "regle": null
+    },
+    "winamax|724184591|2244580825": {
+     "date": "2026-10-21T10:46:13+00:00",
+     "ev_modele_pct": -19.096,
+     "id": "winamax|724184591|2244580825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.27898,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6756,6 +6774,15 @@
      "mise": null,
      "p_modele": 0.200462,
      "regle": null
+    },
+    "winamax|724184591|2244580825": {
+     "date": "2026-10-21T10:46:13+00:00",
+     "ev_modele_pct": -19.096,
+     "id": "winamax|724184591|2244580825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.27898,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9007,6 +9034,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.200462,
+     "regle": null
+    },
+    "winamax|724184591|2244580825": {
+     "date": "2026-10-21T10:46:13+00:00",
+     "ev_modele_pct": -19.096,
+     "id": "winamax|724184591|2244580825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.27898,
      "regle": null
     }
    }
@@ -16565,6 +16601,22 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Tappara Tampere - Porin Ässät et Kiekko-Espoo - Kookoo",
    "premiere_vue": "2026-10-21T09:46:13+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|724184591|2244580825": {
+   "available_at": "2026-10-21T10:46:13+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.9,
+   "cote_origine": 2.6,
+   "debut": "2026-10-21T23:40+00:00",
+   "disponible": true,
+   "id": "winamax|724184591|2244580825",
+   "long_terme": false,
+   "match": "Miami Heat - Minnesota Timberwolves",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "A. Edwards + G. Antetokounmpo marquent 65 points ou plus",
+   "premiere_vue": "2026-10-21T10:45:19+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
