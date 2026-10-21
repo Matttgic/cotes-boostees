@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T08:48:54+00:00",
+ "derniere_observation": "2026-10-21T09:48:35+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2232,6 +2232,24 @@
      "id": "winamax|724109786|2244380861",
      "joue": true,
      "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724136599|2244448007": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724136599|2244448007",
+     "joue": true,
+     "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724146712|2244474142": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724146712|2244474142",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
     }
@@ -4468,6 +4486,24 @@
      "mise": null,
      "p_modele": 0.293224,
      "regle": null
+    },
+    "winamax|724136599|2244448007": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|724136599|2244448007",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|724146712|2244474142": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": -19.815,
+     "id": "winamax|724146712|2244474142",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.200462,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6702,6 +6738,24 @@
      "mise": null,
      "p_modele": 0.293224,
      "regle": null
+    },
+    "winamax|724136599|2244448007": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|724136599|2244448007",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|724146712|2244474142": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": -19.815,
+     "id": "winamax|724146712|2244474142",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.200462,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8935,6 +8989,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.293224,
+     "regle": null
+    },
+    "winamax|724136599|2244448007": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|724136599|2244448007",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|724146712|2244474142": {
+     "date": "2026-10-21T09:47:51+00:00",
+     "ev_modele_pct": -19.815,
+     "id": "winamax|724146712|2244474142",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.200462,
      "regle": null
     }
    }
@@ -16461,6 +16533,38 @@
    "pari": "Moïse Kouamé gagne le premier set et le match",
    "premiere_vue": "2026-10-21T08:47:05+00:00",
    "sport": "Tennis"
+  },
+  "winamax|724136599|2244448007": {
+   "available_at": "2026-10-21T09:47:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.75,
+   "debut": "2026-10-21T12:10+00:00",
+   "disponible": true,
+   "id": "winamax|724136599|2244448007",
+   "long_terme": false,
+   "match": "Ekaterina Alexandrova - Marta Kostyuk",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Marta Kostyuk gagne et plus de 21,5 jeux dans le match",
+   "premiere_vue": "2026-10-21T09:46:13+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|724146712|2244474142": {
+   "available_at": "2026-10-21T09:47:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.397,
+   "debut": "2026-10-21T15:30+00:00",
+   "disponible": true,
+   "id": "winamax|724146712|2244474142",
+   "long_terme": false,
+   "match": "Liiga",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Tappara Tampere - Porin Ässät et Kiekko-Espoo - Kookoo",
+   "premiere_vue": "2026-10-21T09:46:13+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
