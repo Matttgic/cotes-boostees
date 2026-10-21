@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 336,
+   "abstention": 341,
    "ecarter": 43,
    "hors_perimetre": 50,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T07:47:51+00:00",
+  "derniere_observation": "2026-10-21T08:47:05+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 49,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 81,
+   "reference_absente": 86,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 430,
+  "observes": 435,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T07:47:51+00:00",
+ "derniere_observation": "2026-10-21T08:47:05+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1848,6 +1848,43 @@
    "id": "netbet|12276091|7473710378",
    "match": "O.Dembélé ou D.Doué buteur et le PSG - Barcelone",
    "pari": "O.Dembélé ou D.Doué buteur et le PSG (vs Barcelone) ne perd pas ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12282492|7475955318": {
+   "bookmaker": "NetBet",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12282492|7475955318",
+   "match": "Lens marque dans les 2 mi-temps ? - Bruges",
+   "pari": "Lens marque dans les 2 mi-temps ? (vs Bruges)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -8284,6 +8321,43 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195708204|731653365": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195708204|731653365",
+   "match": "Lille - Galatasaray",
+   "pari": "Le trio V.Osimhen / O.Giroud / H.Haraldsson marque plus de 1,5 buts (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -25936,6 +26010,117 @@
    "pari": "H. Kane premier buteur du match",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|724083238|2244311871": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.957,
+      "hausse_pct": 11.6,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724083238|2244311871",
+   "match": "Ligue des Champions",
+   "pari": "Chaque équipe marque lors des matchs suivants : Sporting Portugal - LASK Linz et Aston Villa - Viking",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724090045|2244327976": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.3,
+      "hausse_pct": 10.5,
+      "horizon_heures": 10.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724090045|2244327976",
+   "match": "Betis Séville - Feyenoord",
+   "pari": "Betis Séville gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724109786|2244380861": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T17:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.0,
+      "hausse_pct": 18.8,
+      "horizon_heures": 8.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T08:47:05+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724109786|2244380861",
+   "match": "Moïse Kouame - Lorenzo Musetti",
+   "pari": "Moïse Kouamé gagne le premier set et le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
