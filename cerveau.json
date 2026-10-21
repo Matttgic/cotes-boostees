@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 328,
+   "abstention": 336,
    "ecarter": 43,
-   "hors_perimetre": 48,
+   "hors_perimetre": 50,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T06:36:59+00:00",
+  "derniere_observation": "2026-10-21T07:36:07+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -35,14 +35,14 @@
    "ev_positive": 1,
    "hors_fenetre": 1,
    "ligne_absente": 44,
-   "long_terme": 47,
+   "long_terme": 49,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 73,
+   "reference_absente": 81,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 420,
+  "observes": 430,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T06:36:59+00:00",
+ "derniere_observation": "2026-10-21T07:36:07+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -7989,6 +7989,154 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|195623721|731287477": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195623721|731287477",
+   "match": "Bayern Munich - Arsenal",
+   "pari": "Le trio H.Kane / K.Havertz / L.Diaz marque plus de 1,5 buts (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195624621|731292752": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195624621|731292752",
+   "match": "Club Bruges - Lens",
+   "pari": "F.Thauvin décisif et son équipe ne perd pas (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195625961|731299230": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195625961|731299230",
+   "match": "Real Madrid - RB Leipzig",
+   "pari": "Kylian Mbappé buteur et son équipe gagne de 3 buts ou plus (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195626793|731303036": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195626793|731303036",
+   "match": "Lille - Galatasaray",
+   "pari": "Lille gagne et plus de 1,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|195627139|731304773": {
    "bookmaker": "Unibet",
    "debut": "2026-10-20T19:00:00.000Z",
@@ -8025,6 +8173,117 @@
    "pari": "NBA - Jayson Tatum marque 30pts ou +",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|195628960|731314188": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.95,
+      "hausse_pct": 15.4,
+      "horizon_heures": 11.4,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195628960|731314188",
+   "match": "Ligue des Champions - 21/10",
+   "pari": "Le trio L.Suarez / M.Thuram / N.Jackson marque plus de 2,5 buts (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195629914|731317594": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 16.3,
+      "horizon_heures": 9.1,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195629914|731317594",
+   "match": "Ligue des Champions - 21/10",
+   "pari": "Plus de 1,5 buts dans chacun des 9 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195699942|731620038": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-21T17:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195699942|731620038",
+   "match": "M.Kouame - L.Musetti",
+   "pari": "Les 2 joueurs gagnent un set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -25564,6 +25823,117 @@
    "id": "winamax|724040631|2244199189",
    "match": "Come - Manchester United",
    "pari": "Manchester United gagne la première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724055331|2244232829": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724055331|2244232829",
+   "match": "Real Madrid - Leipzig",
+   "pari": "Kylian Mbappé marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724058082|2244239481": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724058082|2244239481",
+   "match": "Club Bruges - Lens",
+   "pari": "Lens marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724072345|2244285114": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.3,
+      "hausse_pct": 10.5,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T07:36:07+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724072345|2244285114",
+   "match": "Bayern Munich - Arsenal",
+   "pari": "H. Kane premier buteur du match",
    "premiere_selection": null,
    "sport": "Football"
   }
