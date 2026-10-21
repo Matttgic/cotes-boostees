@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T02:41:40+00:00",
+ "derniere_observation": "2026-10-21T03:40:43+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2079,6 +2079,15 @@
      "id": "winamax|723817118|2243529136",
      "joue": false,
      "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723971496|2244008393": {
+     "date": "2026-10-21T03:40:00+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723971496|2244008393",
+     "joue": true,
+     "mise": 10.62,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
     }
@@ -4162,6 +4171,15 @@
      "mise": null,
      "p_modele": 0.289873,
      "regle": null
+    },
+    "winamax|723971496|2244008393": {
+     "date": "2026-10-21T03:40:00+00:00",
+     "ev_modele_pct": 29.882,
+     "id": "winamax|723971496|2244008393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43294,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6243,6 +6261,15 @@
      "mise": null,
      "p_modele": 0.289873,
      "regle": null
+    },
+    "winamax|723971496|2244008393": {
+     "date": "2026-10-21T03:40:00+00:00",
+     "ev_modele_pct": 29.882,
+     "id": "winamax|723971496|2244008393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43294,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8323,6 +8350,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.289873,
+     "regle": null
+    },
+    "winamax|723971496|2244008393": {
+     "date": "2026-10-21T03:40:00+00:00",
+     "ev_modele_pct": 29.882,
+     "id": "winamax|723971496|2244008393",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43294,
      "regle": null
     }
    }
@@ -15545,6 +15581,22 @@
    "pari": "Mark Stone marque au moins un point et Vegas Golden Knights gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-20T21:29:34+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|723971496|2244008393": {
+   "available_at": "2026-10-21T03:40:00+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-10-21T08:50+00:00",
+   "disponible": true,
+   "id": "winamax|723971496|2244008393",
+   "long_terme": false,
+   "match": "Adrian Mannarino - Andrey Rublev",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Adrian Mannarino gagne le premier set",
+   "premiere_vue": "2026-10-21T03:39:38+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
