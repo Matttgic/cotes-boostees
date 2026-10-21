@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 325,
+   "abstention": 326,
    "ecarter": 43,
    "hors_perimetre": 48,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-21T03:39:38+00:00",
+  "derniere_observation": "2026-10-21T04:38:43+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 47,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 70,
+   "reference_absente": 71,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 417,
+  "observes": 418,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-21T03:39:38+00:00",
+ "derniere_observation": "2026-10-21T04:38:43+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -25455,6 +25455,43 @@
    "pari": "Adrian Mannarino gagne le premier set",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|723977095|2244022954": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-21T16:45+00:00",
+   "historique": [
+    {
+     "cote": 5.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.8,
+      "hausse_pct": 14.6,
+      "horizon_heures": 12.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-21T04:38:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|723977095|2244022954",
+   "match": "Lille - Galatasaray",
+   "pari": "Lille gagne le match 2-1, 3,-1 ou 4-1",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",

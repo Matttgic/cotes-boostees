@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-21T03:40:43+00:00",
+ "derniere_observation": "2026-10-21T04:40:09+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2088,6 +2088,15 @@
      "id": "winamax|723971496|2244008393",
      "joue": true,
      "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|723977095|2244022954": {
+     "date": "2026-10-21T04:39:24+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|723977095|2244022954",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
     }
@@ -4180,6 +4189,15 @@
      "mise": null,
      "p_modele": 0.43294,
      "regle": null
+    },
+    "winamax|723977095|2244022954": {
+     "date": "2026-10-21T04:39:24+00:00",
+     "ev_modele_pct": -5.36,
+     "id": "winamax|723977095|2244022954",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.172073,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6270,6 +6288,15 @@
      "mise": null,
      "p_modele": 0.43294,
      "regle": null
+    },
+    "winamax|723977095|2244022954": {
+     "date": "2026-10-21T04:39:24+00:00",
+     "ev_modele_pct": -5.36,
+     "id": "winamax|723977095|2244022954",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.172073,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8359,6 +8386,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.43294,
+     "regle": null
+    },
+    "winamax|723977095|2244022954": {
+     "date": "2026-10-21T04:39:24+00:00",
+     "ev_modele_pct": -5.36,
+     "id": "winamax|723977095|2244022954",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.172073,
      "regle": null
     }
    }
@@ -15597,6 +15633,22 @@
    "pari": "Adrian Mannarino gagne le premier set",
    "premiere_vue": "2026-10-21T03:39:38+00:00",
    "sport": "Tennis"
+  },
+  "winamax|723977095|2244022954": {
+   "available_at": "2026-10-21T04:39:24+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.5,
+   "cote_origine": 4.8,
+   "debut": "2026-10-21T16:45+00:00",
+   "disponible": true,
+   "id": "winamax|723977095|2244022954",
+   "long_terme": false,
+   "match": "Lille - Galatasaray",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Lille gagne le match 2-1, 3,-1 ou 4-1",
+   "premiere_vue": "2026-10-21T04:38:43+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
