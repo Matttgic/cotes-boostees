@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 371,
+   "abstention": 381,
    "ecarter": 43,
-   "hors_perimetre": 50,
+   "hors_perimetre": 51,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-22T06:32:21+00:00",
+  "derniere_observation": "2026-10-22T07:31:30+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 50,
+   "long_terme": 51,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 116,
+   "reference_absente": 126,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 465,
+  "observes": 476,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-22T06:32:21+00:00",
+ "derniere_observation": "2026-10-22T07:31:30+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1947,6 +1947,43 @@
    "id": "netbet|12282492|7475955318",
    "match": "Lens marque dans les 2 mi-temps ? - Bruges",
    "pari": "Lens marque dans les 2 mi-temps ? (vs Bruges)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12282502|7480726128": {
+   "bookmaker": "NetBet",
+   "debut": "2026-10-22T16:45+00:00",
+   "historique": [
+    {
+     "cote": 3.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12282502|7480726128",
+   "match": "Rennes - Juventus",
+   "pari": "Rennes (vs Juventus) et Marseille (vs Sturm Graz) ne perdent pas ?",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -8421,6 +8458,191 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "unibet|195722448|731731644": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 9.2,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195722448|731731644",
+   "match": "CB - Combi EL /ECL (22/10)",
+   "pari": "Marseille, Lyon, Rennes et Monaco marquent chacun au moins un but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195722726|731732785": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 14.3,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195722726|731732785",
+   "match": "Juventus Turin - Rennes",
+   "pari": "R. Kolo Muani décisif et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195722788|731732961": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195722788|731732961",
+   "match": "Sturm Graz - Marseille",
+   "pari": "Marseille marque dans les 2 Mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195722822|731733062": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.05,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 15.1,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195722822|731733062",
+   "match": "Hoffenheim - Lyon",
+   "pari": "R.Himbert décisif et son équipe ne perd pas",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195723090|731733975": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 16.7,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195723090|731733975",
+   "match": "Fribourg - Monaco",
+   "pari": "Monaco gagne et plus 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|195728528|731754887": {
    "bookmaker": "Unibet",
    "debut": "2026-10-21T23:30:00.000Z",
@@ -8494,6 +8716,43 @@
    "pari": "NBA - Luka Doncic et Stephen Curry marquent 25pts ou + chacun",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|195822079|732197242": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T18:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 14.6,
+      "horizon_heures": 10.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195822079|732197242",
+   "match": "K.Jacquet - B.Nakashima",
+   "pari": "B.Nakashima gagne et plus de 22,5 jeux dans le match ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -27618,6 +27877,154 @@
    "id": "winamax|724843978|2246578355",
    "match": "Bournemouth - Milan AC",
    "pari": "Bournemouth ou Milan AC gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724844879|2246580885": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T14:00+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 6.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724844879|2246580885",
+   "match": "C.Popov / T-J.Popov - L-R.Carnando / D.Marthin",
+   "pari": "Christo Popov / Tomas Junior Popov gagnent le premier set",
+   "premiere_selection": null,
+   "sport": "Badminton"
+  },
+  "winamax|724853227|2246602980": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 10.8,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724853227|2246602980",
+   "match": "Hoffenheim - Lyon",
+   "pari": "Lyon marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724863369|2246628828": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 9.1,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724863369|2246628828",
+   "match": "Besiktas - Crystal Palace",
+   "pari": "Crystal Palace gagne ou fait match nul et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|724875221|2246663937": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.65,
+      "hausse_pct": 9.6,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T07:31:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|724875221|2246663937",
+   "match": "Monaco - Fribourg",
+   "pari": "Monaco gagne par au moins 2 buts d'écart",
    "premiere_selection": null,
    "sport": "Football"
   }
