@@ -1,5 +1,5 @@
 {
- "boosts_total": 508,
+ "boosts_total": 511,
  "cache_betsson": {
   "essais": 1,
   "session": "cba75b3e"
@@ -8,9 +8,9 @@
  "dernier_passage": {
   "bookmakers": {
    "betsson": {
-    "boosts_en_ligne": 2,
+    "boosts_en_ligne": 5,
     "cotes_modifiees": 0,
-    "nouveaux": 0
+    "nouveaux": 3
    },
    "genybet": {
     "boosts_en_ligne": 0,
@@ -33,28 +33,28 @@
     "nouveaux": 0
    },
    "winamax": {
-    "boosts_en_ligne": 13,
-    "cotes_modifiees": 0,
-    "nouveaux": 1
+    "boosts_en_ligne": 11,
+    "cotes_modifiees": 1,
+    "nouveaux": 0
    }
   },
   "cerveau": {
-   "boosts_observes": 487,
-   "decisions_enregistrees": 1,
-   "nouveaux_boosts": 1
+   "boosts_observes": 490,
+   "decisions_enregistrees": 4,
+   "nouveaux_boosts": 3
   },
-  "date": "2026-10-22T13:54:01+00:00",
+  "date": "2026-10-22T14:53:08+00:00",
   "evaluation": {
    "approx": 0,
    "decomposes": 0,
    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-   "echecs_decomposition": 7,
+   "echecs_decomposition": 8,
    "evalues": 0,
    "exactes": 0,
    "non_evaluables": 0
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 845816,
+  "octets_proxy": 869799,
   "recherche": {
    "reglements": 293,
    "version": "replay-v1"
@@ -70,9 +70,76 @@
    "soumis": 15
   },
   "reglements_manuels": 0,
-  "requetes": 18
+  "requetes": 21
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 5,
+     "cotes_modifiees": 0,
+     "nouveaux": 3
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 1,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 8,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 11,
+     "cotes_modifiees": 1,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 490,
+    "decisions_enregistrees": 4,
+    "nouveaux_boosts": 3
+   },
+   "date": "2026-10-22T14:53:08+00:00",
+   "evaluation": {
+    "approx": 0,
+    "decomposes": 0,
+    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+    "echecs_decomposition": 8,
+    "evalues": 0,
+    "exactes": 0,
+    "non_evaluables": 0
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 869799,
+   "recherche": {
+    "reglements": 293,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+    "erreurs": 15,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 15
+   },
+   "reglements_manuels": 0,
+   "requetes": 21
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -13549,78 +13616,7 @@
    },
    "reglements_manuels": 0,
    "requetes": 16
-  },
-  {
-   "bookmakers": {
-    "betsson": {
-     "boosts_en_ligne": 2,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "genybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "netbet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "olybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "unibet": {
-     "boosts_en_ligne": 24,
-     "cotes_modifiees": 0,
-     "nouveaux": 1
-    },
-    "winamax": {
-     "boosts_en_ligne": 3,
-     "cotes_modifiees": 0,
-     "nouveaux": 2
-    }
-   },
-   "cerveau": {
-    "boosts_observes": 212,
-    "decisions_enregistrees": 3,
-    "nouveaux_boosts": 3
-   },
-   "date": "2026-10-15T06:49:35+00:00",
-   "evaluation": {
-    "approx": 1,
-    "decomposes": 3,
-    "echecs_decomposition": 0,
-    "evalues": 8,
-    "exactes": 1,
-    "non_evaluables": 6,
-    "requetes_pulsescore": 3
-   },
-   "long_terme_winamax_corriges": 0,
-   "octets_proxy": 765316,
-   "recherche": {
-    "reglements": 187,
-    "version": "replay-v1"
-   },
-   "reglement": {
-    "erreurs": 0,
-    "fournisseur": "openai",
-    "inconnus": 0,
-    "jetons": {
-     "gpt-6-luna": {
-      "entree": 18892,
-      "sortie": 422
-     }
-    },
-    "recherches": 2,
-    "regles": 1,
-    "soumis": 1
-   },
-   "reglements_manuels": 0,
-   "requetes": 16
   }
  ],
- "octets_proxy_total": 256497928
+ "octets_proxy_total": 257367727
 }

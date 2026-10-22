@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 391,
+   "abstention": 393,
    "ecarter": 43,
-   "hors_perimetre": 52,
+   "hors_perimetre": 53,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-22T13:54:01+00:00",
+  "derniere_observation": "2026-10-22T14:53:08+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,16 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
+   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 52,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 136,
+   "reference_absente": 138,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 487,
+  "observes": 490,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-22T13:54:01+00:00",
+ "derniere_observation": "2026-10-22T14:53:08+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1335,6 +1336,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "betsson|94284545.1|395507396.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-25T14:00+00:00",
+   "historique": [
+    {
+     "cote": 10.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 8.6,
+      "hausse_pct": 16.3,
+      "horizon_heures": 71.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T14:53:08+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94284545.1|395507396.1",
+   "match": "Monaco - Lille",
+   "pari": "Monaco gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "betsson|94285671.1|395510595.1": {
    "bookmaker": "Betsson",
    "debut": "2026-10-24T16:30+00:00",
@@ -1395,6 +1433,80 @@
    "id": "betsson|94285671.1|395510595.1",
    "match": "Chelsea - Tottenham",
    "pari": "Cold Palmer Buteur!",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94405723.1|395864839.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-23T08:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.42,
+      "hausse_pct": 13.6,
+      "horizon_heures": 17.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T14:53:08+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94405723.1|395864839.1",
+   "match": "Jovic, Iva - Shnaider, Diana",
+   "pari": "Iva Jovic gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "betsson|94406247.1|395866764.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-25T16:15+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 73.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T14:53:08+00:00",
+     "mise_fictive": null,
+     "motif_code": "hors_fenetre",
+     "raisons": [
+      "Événement hors fenêtre d'évaluation de 72 heures"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94406247.1|395866764.1",
+   "match": "Marseille - Le Havre",
+   "pari": "Amine Harit PASSEUR DECISIF",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -28609,6 +28721,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 15.5,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T14:53:08+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
