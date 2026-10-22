@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 384,
+   "abstention": 386,
    "ecarter": 43,
    "hors_perimetre": 51,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-22T11:39:57+00:00",
+  "derniere_observation": "2026-10-22T12:39:01+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 51,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 129,
+   "reference_absente": 131,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 479,
+  "observes": 481,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-22T11:39:57+00:00",
+ "derniere_observation": "2026-10-22T12:39:01+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -8753,6 +8753,43 @@
    "pari": "B.Nakashima gagne et plus de 22,5 jeux dans le match ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195833145|732266304": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 16.4,
+      "horizon_heures": 6.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T12:39:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195833145|732266304",
+   "match": "Montauban - Oyonnax",
+   "pari": "Montauban gagne et Johnny Matthews marque un essai ou +",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -27802,6 +27839,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 10.2,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T12:39:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724828396|2246535328",
@@ -27994,6 +28057,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-22T11:39:57+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 7.7,
+      "horizon_heures": 6.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T12:39:01+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -28346,6 +28435,43 @@
    "pari": "A.J Brown marque au moins un touchdown et New England Patriots gagne",
    "premiere_selection": null,
    "sport": "Football Américain"
+  },
+  "winamax|725036671|2247097528": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T18:10+00:00",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 15.3,
+      "horizon_heures": 5.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T12:39:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725036671|2247097528",
+   "match": "Kyrian Jacquet - Brandon Nakashima",
+   "pari": "Kyrian Jacquet gagne le premier set et le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",

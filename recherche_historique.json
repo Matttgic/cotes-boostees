@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T11:41:20+00:00",
+ "derniere_observation": "2026-10-22T12:40:19+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -871,6 +871,15 @@
      "date": "2026-10-22T07:32:31+00:00",
      "ev_modele_pct": null,
      "id": "unibet|195822079|732197242",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|195833145|732266304": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|195833145|732266304",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -2612,6 +2621,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|725036671|2247097528": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725036671|2247097528",
+     "joue": true,
+     "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -3486,6 +3504,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|195833145|732266304": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": -5.995,
+     "id": "unibet|195833145|732266304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.293764,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -5224,6 +5251,15 @@
      "mise": null,
      "p_modele": 0.186451,
      "regle": null
+    },
+    "winamax|725036671|2247097528": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": 31.366,
+     "id": "winamax|725036671|2247097528",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.386369,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6098,6 +6134,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|195833145|732266304": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": -5.995,
+     "id": "unibet|195833145|732266304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.293764,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -7836,6 +7881,15 @@
      "mise": null,
      "p_modele": 0.186451,
      "regle": null
+    },
+    "winamax|725036671|2247097528": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": 31.366,
+     "id": "winamax|725036671|2247097528",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.386369,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -8710,6 +8764,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|195833145|732266304": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": -5.995,
+     "id": "unibet|195833145|732266304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.293764,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -10447,6 +10510,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.186451,
+     "regle": null
+    },
+    "winamax|725036671|2247097528": {
+     "date": "2026-10-22T12:39:32+00:00",
+     "ev_modele_pct": 31.366,
+     "id": "winamax|725036671|2247097528",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.386369,
      "regle": null
     }
    }
@@ -13422,6 +13494,22 @@
    "pari": "B.Nakashima gagne et plus de 22,5 jeux dans le match ?",
    "premiere_vue": "2026-10-22T07:31:30+00:00",
    "sport": "Tennis"
+  },
+  "unibet|195833145|732266304": {
+   "available_at": "2026-10-22T12:39:32+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 3.2,
+   "cote_origine": 2.75,
+   "debut": "2026-10-22T19:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|195833145|732266304",
+   "long_terme": false,
+   "match": "Montauban - Oyonnax",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Montauban gagne et Johnny Matthews marque un essai ou +",
+   "premiere_vue": "2026-10-22T12:39:01+00:00",
+   "sport": "Rugby"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -18677,6 +18765,22 @@
    "pari": "A.J Brown marque au moins un touchdown et New England Patriots gagne",
    "premiere_vue": "2026-10-22T11:39:57+00:00",
    "sport": "Football Américain"
+  },
+  "winamax|725036671|2247097528": {
+   "available_at": "2026-10-22T12:39:32+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.4,
+   "cote_origine": 2.95,
+   "debut": "2026-10-22T18:10+00:00",
+   "disponible": true,
+   "id": "winamax|725036671|2247097528",
+   "long_terme": false,
+   "match": "Kyrian Jacquet - Brandon Nakashima",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Kyrian Jacquet gagne le premier set et le match",
+   "premiere_vue": "2026-10-22T12:39:01+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
