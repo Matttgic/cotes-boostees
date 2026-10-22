@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T02:37:05+00:00",
+ "derniere_observation": "2026-10-22T03:36:11+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2392,6 +2392,33 @@
      "date": "2026-10-21T16:53:56+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724433616|2245306097",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724704473|2246169165": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724704473|2246169165",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724773053|2246381760": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724773053|2246381760",
+     "joue": true,
+     "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724781125|2246402598": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724781125|2246402598",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4792,6 +4819,33 @@
      "mise": null,
      "p_modele": 0.313934,
      "regle": null
+    },
+    "winamax|724704473|2246169165": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -14.889,
+     "id": "winamax|724704473|2246169165",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298635,
+     "regle": null
+    },
+    "winamax|724773053|2246381760": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": 27.466,
+     "id": "winamax|724773053|2246381760",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398331,
+     "regle": null
+    },
+    "winamax|724781125|2246402598": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -18.282,
+     "id": "winamax|724781125|2246402598",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29185,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -7188,6 +7242,33 @@
      "mise": null,
      "p_modele": 0.313934,
      "regle": null
+    },
+    "winamax|724704473|2246169165": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -14.889,
+     "id": "winamax|724704473|2246169165",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298635,
+     "regle": null
+    },
+    "winamax|724773053|2246381760": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": 27.466,
+     "id": "winamax|724773053|2246381760",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398331,
+     "regle": null
+    },
+    "winamax|724781125|2246402598": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -18.282,
+     "id": "winamax|724781125|2246402598",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29185,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9583,6 +9664,33 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.313934,
+     "regle": null
+    },
+    "winamax|724704473|2246169165": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -14.889,
+     "id": "winamax|724704473|2246169165",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298635,
+     "regle": null
+    },
+    "winamax|724773053|2246381760": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": 27.466,
+     "id": "winamax|724773053|2246381760",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398331,
+     "regle": null
+    },
+    "winamax|724781125|2246402598": {
+     "date": "2026-10-22T03:35:27+00:00",
+     "ev_modele_pct": -18.282,
+     "id": "winamax|724781125|2246402598",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29185,
      "regle": null
     }
    }
@@ -17412,6 +17520,54 @@
    "mise_max_supposee": null,
    "pari": "Luka Doncic et Stephen Curry marquent chacun au moins 4 paniers à 3 points",
    "premiere_vue": "2026-10-21T16:53:01+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|724704473|2246169165": {
+   "available_at": "2026-10-22T03:35:27+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.444,
+   "debut": "2026-10-22T10:30+00:00",
+   "disponible": true,
+   "id": "winamax|724704473|2246169165",
+   "long_terme": false,
+   "match": "Open de France",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tomas Junior Popov et Christo Popov gagnent chacun leur match 2-0 (respectivement contre Jia Heng Jason Teh et Rasmus Gemke)",
+   "premiere_vue": "2026-10-22T03:35:03+00:00",
+   "sport": "Badminton"
+  },
+  "winamax|724773053|2246381760": {
+   "available_at": "2026-10-22T03:35:27+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.2,
+   "cote_origine": 2.85,
+   "debut": "2026-10-22T06:30+00:00",
+   "disponible": true,
+   "id": "winamax|724773053|2246381760",
+   "long_terme": false,
+   "match": "Terence Atmane - Mattia Bellucci",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Terence Atmane gagne 2-0",
+   "premiere_vue": "2026-10-22T03:35:03+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|724781125|2246402598": {
+   "available_at": "2026-10-22T03:35:27+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.5,
+   "debut": "2026-10-22T08:30+00:00",
+   "disponible": true,
+   "id": "winamax|724781125|2246402598",
+   "long_terme": false,
+   "match": "Illawarra Hawks - Sydney Kings",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sydney Kings gagne par au moins 15 points d'écart",
+   "premiere_vue": "2026-10-22T03:35:03+00:00",
    "sport": "Basketball"
   }
  },
