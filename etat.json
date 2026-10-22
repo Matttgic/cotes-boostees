@@ -1,7 +1,7 @@
 {
  "boosts_total": 480,
  "cache_betsson": {
-  "essais": 3,
+  "essais": 1,
   "session": "fd5c490f"
  },
  "cache_unibet": {},
@@ -34,16 +34,16 @@
    },
    "winamax": {
     "boosts_en_ligne": 5,
-    "cotes_modifiees": 1,
-    "nouveaux": 2
+    "cotes_modifiees": 0,
+    "nouveaux": 0
    }
   },
   "cerveau": {
    "boosts_observes": 459,
-   "decisions_enregistrees": 3,
-   "nouveaux_boosts": 2
+   "decisions_enregistrees": 0,
+   "nouveaux_boosts": 0
   },
-  "date": "2026-10-22T04:34:10+00:00",
+  "date": "2026-10-22T05:33:18+00:00",
   "evaluation": {
    "approx": 0,
    "decomposes": 0,
@@ -54,7 +54,7 @@
    "non_evaluables": 0
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 779455,
+  "octets_proxy": 778124,
   "recherche": {
    "reglements": 293,
    "version": "replay-v1"
@@ -70,9 +70,76 @@
    "soumis": 15
   },
   "reglements_manuels": 0,
-  "requetes": 20
+  "requetes": 18
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 2,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 5,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 459,
+    "decisions_enregistrees": 0,
+    "nouveaux_boosts": 0
+   },
+   "date": "2026-10-22T05:33:18+00:00",
+   "evaluation": {
+    "approx": 0,
+    "decomposes": 0,
+    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+    "echecs_decomposition": 5,
+    "evalues": 0,
+    "exactes": 0,
+    "non_evaluables": 0
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 778124,
+   "recherche": {
+    "reglements": 293,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+    "erreurs": 15,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 15
+   },
+   "reglements_manuels": 0,
+   "requetes": 18
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -13576,78 +13643,7 @@
    },
    "reglements_manuels": 0,
    "requetes": 17
-  },
-  {
-   "bookmakers": {
-    "betsson": {
-     "boosts_en_ligne": 2,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "genybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "netbet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "olybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "unibet": {
-     "boosts_en_ligne": 23,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "winamax": {
-     "boosts_en_ligne": 9,
-     "cotes_modifiees": 0,
-     "nouveaux": 3
-    }
-   },
-   "cerveau": {
-    "boosts_observes": 208,
-    "decisions_enregistrees": 4,
-    "nouveaux_boosts": 3
-   },
-   "date": "2026-10-14T21:13:50+00:00",
-   "evaluation": {
-    "approx": 2,
-    "decomposes": 3,
-    "echecs_decomposition": 0,
-    "evalues": 13,
-    "exactes": 2,
-    "non_evaluables": 9,
-    "requetes_pulsescore": 5
-   },
-   "long_terme_winamax_corriges": 0,
-   "octets_proxy": 752438,
-   "recherche": {
-    "reglements": 162,
-    "version": "replay-v1"
-   },
-   "reglement": {
-    "erreurs": 0,
-    "fournisseur": "openai",
-    "inconnus": 0,
-    "jetons": {
-     "gpt-6-luna": {
-      "entree": 267730,
-      "sortie": 8190
-     }
-    },
-    "recherches": 32,
-    "regles": 6,
-    "soumis": 6
-   },
-   "reglements_manuels": 0,
-   "requetes": 18
   }
  ],
- "octets_proxy_total": 247415605
+ "octets_proxy_total": 248193729
 }
