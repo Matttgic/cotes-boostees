@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T03:36:11+00:00",
+ "derniere_observation": "2026-10-22T04:35:21+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2421,6 +2421,24 @@
      "id": "winamax|724781125|2246402598",
      "joue": false,
      "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724788951|2246423066": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724788951|2246423066",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|724790493|2246426991": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|724790493|2246426991",
+     "joue": true,
+     "mise": 10.62,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
     }
@@ -4846,6 +4864,24 @@
      "mise": null,
      "p_modele": 0.29185,
      "regle": null
+    },
+    "winamax|724788951|2246423066": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 38.134,
+     "id": "winamax|724788951|2246423066",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263112,
+     "regle": null
+    },
+    "winamax|724790493|2246426991": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 31.626,
+     "id": "winamax|724790493|2246426991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329065,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -7269,6 +7305,24 @@
      "mise": null,
      "p_modele": 0.29185,
      "regle": null
+    },
+    "winamax|724788951|2246423066": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 38.134,
+     "id": "winamax|724788951|2246423066",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263112,
+     "regle": null
+    },
+    "winamax|724790493|2246426991": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 31.626,
+     "id": "winamax|724790493|2246426991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329065,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9691,6 +9745,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.29185,
+     "regle": null
+    },
+    "winamax|724788951|2246423066": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 38.134,
+     "id": "winamax|724788951|2246423066",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263112,
+     "regle": null
+    },
+    "winamax|724790493|2246426991": {
+     "date": "2026-10-22T04:34:38+00:00",
+     "ev_modele_pct": 31.626,
+     "id": "winamax|724790493|2246426991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329065,
      "regle": null
     }
    }
@@ -17569,6 +17641,38 @@
    "pari": "Sydney Kings gagne par au moins 15 points d'écart",
    "premiere_vue": "2026-10-22T03:35:03+00:00",
    "sport": "Basketball"
+  },
+  "winamax|724788951|2246423066": {
+   "available_at": "2026-10-22T04:34:38+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.25,
+   "cote_origine": 4.5,
+   "debut": "2026-10-22T09:00+00:00",
+   "disponible": true,
+   "id": "winamax|724788951|2246423066",
+   "long_terme": false,
+   "match": "Alexandra Eala - Diana Shnaider",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Alexandra Eala gagne 2-1",
+   "premiere_vue": "2026-10-22T04:34:10+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|724790493|2246426991": {
+   "available_at": "2026-10-22T04:34:38+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.52,
+   "debut": "2026-10-22T12:00+00:00",
+   "disponible": true,
+   "id": "winamax|724790493|2246426991",
+   "long_terme": false,
+   "match": "ATP Lyon",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Au moins un Tie-break dans chacun des matchs suivants : Valentin Vacherot - Luca Van Assche et Pierre-Hugues Herbert - Taylor Fritz",
+   "premiere_vue": "2026-10-22T04:34:10+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
