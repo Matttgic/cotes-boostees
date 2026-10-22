@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T10:42:07+00:00",
+ "derniere_observation": "2026-10-22T11:41:20+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2590,6 +2590,24 @@
      "date": "2026-10-22T08:43:52+00:00",
      "ev_modele_pct": null,
      "id": "winamax|724882963|2246683901",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725008365|2247020085": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725008365|2247020085",
+     "joue": true,
+     "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725027714|2247073396": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725027714|2247073396",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -5188,6 +5206,24 @@
      "mise": null,
      "p_modele": 0.252656,
      "regle": null
+    },
+    "winamax|725008365|2247020085": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": 27.286,
+     "id": "winamax|725008365|2247020085",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353572,
+     "regle": null
+    },
+    "winamax|725027714|2247073396": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": -25.42,
+     "id": "winamax|725027714|2247073396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186451,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -7782,6 +7818,24 @@
      "mise": null,
      "p_modele": 0.252656,
      "regle": null
+    },
+    "winamax|725008365|2247020085": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": 27.286,
+     "id": "winamax|725008365|2247020085",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353572,
+     "regle": null
+    },
+    "winamax|725027714|2247073396": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": -25.42,
+     "id": "winamax|725027714|2247073396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186451,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -10375,6 +10429,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.252656,
+     "regle": null
+    },
+    "winamax|725008365|2247020085": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": 27.286,
+     "id": "winamax|725008365|2247020085",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.353572,
+     "regle": null
+    },
+    "winamax|725027714|2247073396": {
+     "date": "2026-10-22T11:40:34+00:00",
+     "ev_modele_pct": -25.42,
+     "id": "winamax|725027714|2247073396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186451,
      "regle": null
     }
    }
@@ -18573,6 +18645,38 @@
    "pari": "Plus de 4,5 buts lors du match",
    "premiere_vue": "2026-10-22T08:42:38+00:00",
    "sport": "Football"
+  },
+  "winamax|725008365|2247020085": {
+   "available_at": "2026-10-22T11:40:34+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.6,
+   "cote_origine": 3.25,
+   "debut": "2026-10-22T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|725008365|2247020085",
+   "long_terme": false,
+   "match": "Flavio Cobolli - Stan Wawrinka",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Flavio Cobolli gagne 2-1",
+   "premiere_vue": "2026-10-22T11:39:57+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|725027714|2247073396": {
+   "available_at": "2026-10-22T11:40:34+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.45,
+   "debut": "2026-10-23T00:15+00:00",
+   "disponible": true,
+   "id": "winamax|725027714|2247073396",
+   "long_terme": false,
+   "match": "Chicago Bears - New England Patriots",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "A.J Brown marque au moins un touchdown et New England Patriots gagne",
+   "premiere_vue": "2026-10-22T11:39:57+00:00",
+   "sport": "Football Américain"
   }
  },
  "resultats": [
