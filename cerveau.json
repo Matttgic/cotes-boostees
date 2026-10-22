@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 386,
+   "abstention": 390,
    "ecarter": 43,
-   "hors_perimetre": 51,
+   "hors_perimetre": 52,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-22T12:39:01+00:00",
+  "derniere_observation": "2026-10-22T13:38:13+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 51,
+   "long_terme": 52,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 131,
+   "reference_absente": 135,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 481,
+  "observes": 486,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-22T12:39:01+00:00",
+ "derniere_observation": "2026-10-22T13:38:13+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -8790,6 +8790,191 @@
    "pari": "Montauban gagne et Johnny Matthews marque un essai ou +",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|195836887|732282413": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-23T01:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 11.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195836887|732282413",
+   "match": "OKC Thunder - DEN Nuggets",
+   "pari": "NBA - Shai Gilgeous-Alexander et Jamal Murray marquent 25pts ou+ chacun",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|195837225|732284261": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195837225|732284261",
+   "match": "Sturm Graz - Marseille",
+   "pari": "A.Gouiri décisif et son équipe gagne (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195837391|732285043": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.14,
+      "hausse_pct": 16.8,
+      "horizon_heures": 3.1,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195837391|732285043",
+   "match": "CB - Combi EL /ECL (22/10)",
+   "pari": "Marseille, Lyon, Rennes et Monaco marquent chacun au moins un but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195837484|732285494": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.95,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 20.4,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195837484|732285494",
+   "match": "Hoffenheim - Lyon",
+   "pari": "R.Himbert décisif et son équipe ne perd pas",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195837611|732285984": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-22T16:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 16.0,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195837611|732285984",
+   "match": "Juventus Turin - Rennes",
+   "pari": "R. Kolo Muani décisif et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -27776,6 +27961,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 9.4,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724826681|2246531218",
@@ -27857,6 +28068,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-22T12:39:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -28354,6 +28591,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 9.7,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|724882963|2246683901",
@@ -28457,6 +28720,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-22T12:39:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T13:38:13+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
