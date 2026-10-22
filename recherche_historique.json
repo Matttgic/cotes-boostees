@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T14:54:31+00:00",
+ "derniere_observation": "2026-10-22T15:53:49+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2698,6 +2698,15 @@
      "date": "2026-10-22T13:54:39+00:00",
      "ev_modele_pct": null,
      "id": "winamax|725117951|2247351149",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725180874|2247548245": {
+     "date": "2026-10-22T15:53:01+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725180874|2247548245",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -5404,6 +5413,15 @@
      "mise": null,
      "p_modele": 0.181676,
      "regle": null
+    },
+    "winamax|725180874|2247548245": {
+     "date": "2026-10-22T15:53:01+00:00",
+     "ev_modele_pct": -24.494,
+     "id": "winamax|725180874|2247548245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251687,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -8106,6 +8124,15 @@
      "mise": null,
      "p_modele": 0.181676,
      "regle": null
+    },
+    "winamax|725180874|2247548245": {
+     "date": "2026-10-22T15:53:01+00:00",
+     "ev_modele_pct": -24.494,
+     "id": "winamax|725180874|2247548245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251687,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -10807,6 +10834,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.181676,
+     "regle": null
+    },
+    "winamax|725180874|2247548245": {
+     "date": "2026-10-22T15:53:01+00:00",
+     "ev_modele_pct": -24.494,
+     "id": "winamax|725180874|2247548245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251687,
      "regle": null
     }
    }
@@ -19213,6 +19249,22 @@
    "pari": "SKA St-Pétersbourg et Dinamo Minsk gagnent chacun par au moins 2 buts d'écart (respectivement contre Novosibirsk et Sochi)",
    "premiere_vue": "2026-10-22T13:54:01+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|725180874|2247548245": {
+   "available_at": "2026-10-22T15:53:01+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.65,
+   "debut": "2026-10-23T00:15+00:00",
+   "disponible": true,
+   "id": "winamax|725180874|2247548245",
+   "long_terme": false,
+   "match": "Chicago Bears - New England Patriots",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Drake Maye réalise au moins 289 yards à la passe",
+   "premiere_vue": "2026-10-22T15:52:18+00:00",
+   "sport": "Football Américain"
   }
  },
  "resultats": [
