@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-22T13:39:41+00:00",
+ "derniere_observation": "2026-10-22T13:55:23+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2664,6 +2664,15 @@
      "id": "winamax|725036671|2247097528",
      "joue": true,
      "mise": 10.62,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725117951|2247351149": {
+     "date": "2026-10-22T13:54:39+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725117951|2247351149",
+     "joue": false,
+     "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
     }
@@ -5332,6 +5341,15 @@
      "mise": null,
      "p_modele": 0.386369,
      "regle": null
+    },
+    "winamax|725117951|2247351149": {
+     "date": "2026-10-22T13:54:39+00:00",
+     "ev_modele_pct": -18.246,
+     "id": "winamax|725117951|2247351149",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.181676,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -7998,6 +8016,15 @@
      "mise": null,
      "p_modele": 0.386369,
      "regle": null
+    },
+    "winamax|725117951|2247351149": {
+     "date": "2026-10-22T13:54:39+00:00",
+     "ev_modele_pct": -18.246,
+     "id": "winamax|725117951|2247351149",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.181676,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -10663,6 +10690,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.386369,
+     "regle": null
+    },
+    "winamax|725117951|2247351149": {
+     "date": "2026-10-22T13:54:39+00:00",
+     "ev_modele_pct": -18.246,
+     "id": "winamax|725117951|2247351149",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.181676,
      "regle": null
     }
    }
@@ -19005,6 +19041,22 @@
    "pari": "Kyrian Jacquet gagne le premier set et le match",
    "premiere_vue": "2026-10-22T12:39:01+00:00",
    "sport": "Tennis"
+  },
+  "winamax|725117951|2247351149": {
+   "available_at": "2026-10-22T13:54:39+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.72,
+   "debut": "2026-10-22T16:30+00:00",
+   "disponible": true,
+   "id": "winamax|725117951|2247351149",
+   "long_terme": false,
+   "match": "KHL",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "SKA St-Pétersbourg et Dinamo Minsk gagnent chacun par au moins 2 buts d'écart (respectivement contre Novosibirsk et Sochi)",
+   "premiere_vue": "2026-10-22T13:54:01+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
