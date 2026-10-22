@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 395,
+   "abstention": 400,
    "ecarter": 43,
    "hors_perimetre": 52,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-22T18:37:43+00:00",
+  "derniere_observation": "2026-10-22T19:36:53+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 52,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 140,
+   "reference_absente": 145,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 491,
+  "observes": 496,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-22T18:37:43+00:00",
+ "derniere_observation": "2026-10-22T19:36:53+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -29258,6 +29258,191 @@
    "pari": "Drake Maye réalise au moins 289 yards à la passe",
    "premiere_selection": null,
    "sport": "Football Américain"
+  },
+  "winamax|725333911|2248029894": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T23:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.3,
+      "hausse_pct": 13.6,
+      "horizon_heures": 3.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T19:36:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725333911|2248029894",
+   "match": "Philadelphia 76ers - Cleveland Cavaliers",
+   "pari": "Tyrese Maxey et Donovan Mitchell marquent au moins 25 points chacun",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725338411|2248043396": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T01:35+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 6.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T19:36:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725338411|2248043396",
+   "match": "Oklahoma City Thunder - Denver Nuggets",
+   "pari": "Oklahoma City Thunder gagne et plus de 236,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725341788|2248053547": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-22T23:10+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T19:36:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725341788|2248053547",
+   "match": "Pittsburgh Penguins - Florida Panthers",
+   "pari": "S. Crosby, M. Tkachuk et B. Tkachuk marquent chacun au moins 1 point (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|725344283|2248060703": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T00:10+00:00",
+   "historique": [
+    {
+     "cote": 3.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 17.7,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T19:36:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725344283|2248060703",
+   "match": "Dallas Stars - Winnipeg Jets",
+   "pari": "M. Rantanen buteur et Dallas Stars gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|725346368|2248066573": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T02:10+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.146,
+      "hausse_pct": 11.8,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-22T19:36:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725346368|2248066573",
+   "match": "NHL",
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Seattle Kraken - Utah Mammoth et Vancouver Canucks - Detroit Red Wings (prol. et TAB inclus)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
