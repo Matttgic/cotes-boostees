@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 22/10 09h31 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 22/10 09h43 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -158,12 +158,12 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 204 en attente · cote moy
 | 22/10 21h00 · Hoffenheim - Lyon | Lyon marque dans les deux mi-temps | 3,6 | – | – | 20 € | ⏳ |
 | 22/10 21h00 · Bournemouth - Milan AC | Bournemouth ou Milan AC gagne et plus de 3,5 buts dans le match | 3,5 | – | – | 20 € | ⏳ |
 | 22/10 20h00 · K.Jacquet - B.Nakashima | B.Nakashima gagne et plus de 22,5 jeux dans le match ? | 2,75 | – | – | 25 € | ⏳ |
-| 22/10 18h45 · Juventus Turin - Rennes | R. Kolo Muani décisif et les deux équipes marquent | 3,2 | – | – | 25 € | ⏳ |
 | 22/10 18h45 · Sturm Graz - Marseille | Marseille marque dans les 2 Mi-temps | 2,7 | – | – | 25 € | ⏳ |
+| 22/10 18h45 · Juventus Turin - Rennes | R. Kolo Muani décisif et les deux équipes marquent | 3,2 | – | – | 25 € | ⏳ |
 | 22/10 18h45 · CB - Combi EL /ECL (22/10) | Marseille, Lyon, Rennes et Monaco marquent chacun au moins un but | 2,6 | – | – | 25 € | ⏳ |
-| 22/10 18h45 · Rennes - Juventus | Rennes (vs Juventus) et Marseille (vs Sturm Graz) ne perdent pas ? | 3,7 | – | – | 10 € | ⏳ |
 | 22/10 18h45 · Ligue Europa | Marseille, Lyon et Rennes gagnent ou font match nul (respectivement contre Sturm Graz, Hoffenheim et Juventus) | 6,5 | – | – | 20 € | ⏳ |
 | 22/10 18h45 · Ligue Europa | Plus de 59,5 buts sur les 18 matchs du jour | 3,0 | – | – | 20 € | ⏳ |
+| 22/10 18h45 · Rennes - Juventus | Rennes (vs Juventus) et Marseille (vs Sturm Graz) ne perdent pas ? | 3,7 | – | – | 10 € | ⏳ |
 | 22/10 18h45 · SK Sturm Graz - Marseille | Amine Gouiri Buteur | 2,5 | – | – | 20 € | ⏳ |
 | 22/10 16h30 · Ligue Conférence | Plus de 57,5 buts sur les 18 matchs du jour | 3,25 | – | – | 20 € | ⏳ |
 | 22/10 16h00 · C.Popov / T-J.Popov - L-R.Carnando / D.Marthin | Christo Popov / Tomas Junior Popov gagnent le premier set | 2,4 | – | – | 20 € | ⏳ |
