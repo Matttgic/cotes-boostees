@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 404,
+   "abstention": 407,
    "ecarter": 43,
    "hors_perimetre": 52,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T02:36:29+00:00",
+  "derniere_observation": "2026-10-23T03:35:40+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 52,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 149,
+   "reference_absente": 152,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 500,
+  "observes": 503,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T02:36:29+00:00",
+ "derniere_observation": "2026-10-23T03:35:40+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -29615,6 +29615,117 @@
    "id": "winamax|725366293|2248120645",
    "match": "Talia Gibson - Ashlyn Krueger",
    "pari": "Ashlyn Krueger gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|725517269|2248593521": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T06:30+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 25.0,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T03:35:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725517269|2248593521",
+   "match": "Nikoloz Basilashvili - Adrian Mannarino",
+   "pari": "Adrian Mannarino gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|725518083|2248595519": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T09:15+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 17.5,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T03:35:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725518083|2248595519",
+   "match": "Daniil Medvedev - Terence Atmane",
+   "pari": "Terence Atmane remporte au moins un set",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|725522351|2248606535": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T07:30+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 3.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T03:35:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725522351|2248606535",
+   "match": "Leylah Fernandez - Ekaterina Alexandrova",
+   "pari": "Plus de 2,5 sets lors du match",
    "premiere_selection": null,
    "sport": "Tennis"
   }
