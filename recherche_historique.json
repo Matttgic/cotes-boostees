@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-23T07:34:03+00:00",
+ "derniere_observation": "2026-10-23T07:42:33+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2950,6 +2950,15 @@
      "date": "2026-10-23T07:33:19+00:00",
      "ev_modele_pct": null,
      "id": "winamax|725602558|2248850812",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725624885|2248914344": {
+     "date": "2026-10-23T07:41:49+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725624885|2248914344",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -5908,6 +5917,15 @@
      "mise": null,
      "p_modele": 0.338734,
      "regle": null
+    },
+    "winamax|725624885|2248914344": {
+     "date": "2026-10-23T07:41:49+00:00",
+     "ev_modele_pct": 1.438,
+     "id": "winamax|725624885|2248914344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289822,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -8862,6 +8880,15 @@
      "mise": null,
      "p_modele": 0.338734,
      "regle": null
+    },
+    "winamax|725624885|2248914344": {
+     "date": "2026-10-23T07:41:49+00:00",
+     "ev_modele_pct": 1.438,
+     "id": "winamax|725624885|2248914344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289822,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -11815,6 +11842,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.338734,
+     "regle": null
+    },
+    "winamax|725624885|2248914344": {
+     "date": "2026-10-23T07:41:49+00:00",
+     "ev_modele_pct": 1.438,
+     "id": "winamax|725624885|2248914344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.289822,
      "regle": null
     }
    }
@@ -20684,6 +20720,22 @@
    "mise_max_supposee": null,
    "pari": "Alaves gagne et plus de 2,5 buts dans le match",
    "premiere_vue": "2026-10-23T07:32:13+00:00",
+   "sport": "Football"
+  },
+  "winamax|725624885|2248914344": {
+   "available_at": "2026-10-23T07:41:49+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 2.9,
+   "debut": "2026-10-23T18:45+00:00",
+   "disponible": true,
+   "id": "winamax|725624885|2248914344",
+   "long_terme": false,
+   "match": "Brest - Nice",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "L. Ajorque ou E. Wahi marque au moins un but en 1ère mi-temps",
+   "premiere_vue": "2026-10-23T07:40:47+00:00",
    "sport": "Football"
   }
  },
