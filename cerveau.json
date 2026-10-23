@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 412,
+   "abstention": 416,
    "ecarter": 43,
    "hors_perimetre": 52,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T05:33:53+00:00",
+  "derniere_observation": "2026-10-23T06:33:03+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 52,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 157,
+   "reference_absente": 161,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 508,
+  "observes": 512,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T05:33:53+00:00",
+ "derniere_observation": "2026-10-23T06:33:03+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -9112,6 +9112,43 @@
    "pari": "R. Kolo Muani décisif et les deux équipes marquent",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|195898824|732659559": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-23T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195898824|732659559",
+   "match": "A.Fils - A.Michelsen",
+   "pari": "A.Fils gagne le 1er set 6-4 ou 7-5 ou 7-6 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -29647,6 +29684,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 22.8,
+      "horizon_heures": 0.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725517269|2248593521",
@@ -29795,6 +29858,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 3.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725551416|2248707943",
@@ -29913,6 +30002,117 @@
    "pari": "Corentin Moutet gagne le premier set",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|725562327|2248742019": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T15:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.587,
+      "hausse_pct": 16.0,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725562327|2248742019",
+   "match": "Saudi Pro League",
+   "pari": "Al-Ittihad FC et Al-Hilal marquent chacun le 1er but (respectivement contre Diriyah Club et Al-Qadsiah)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|725566763|2248754817": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.1,
+      "hausse_pct": 15.9,
+      "horizon_heures": 12.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725566763|2248754817",
+   "match": "Ipswich Town - Nottingham Forest",
+   "pari": "Nottingham Forest gagne le match 0-1, 0-2 ou 0-3",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|725584216|2248801398": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T18:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.76,
+      "hausse_pct": 17.8,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T06:33:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725584216|2248801398",
+   "match": "Ligue 2 BKT®",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
