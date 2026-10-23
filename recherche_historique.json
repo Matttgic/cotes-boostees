@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-23T16:33:37+00:00",
+ "derniere_observation": "2026-10-23T17:32:19+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3157,6 +3157,15 @@
      "date": "2026-10-23T16:32:52+00:00",
      "ev_modele_pct": null,
      "id": "winamax|725945373|2249824012",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|725968248|2249890098": {
+     "date": "2026-10-23T17:31:34+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725968248|2249890098",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6322,6 +6331,15 @@
      "mise": null,
      "p_modele": 0.230095,
      "regle": null
+    },
+    "winamax|725968248|2249890098": {
+     "date": "2026-10-23T17:31:34+00:00",
+     "ev_modele_pct": -23.211,
+     "id": "winamax|725968248|2249890098",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274247,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -9483,6 +9501,15 @@
      "mise": null,
      "p_modele": 0.230095,
      "regle": null
+    },
+    "winamax|725968248|2249890098": {
+     "date": "2026-10-23T17:31:34+00:00",
+     "ev_modele_pct": -23.211,
+     "id": "winamax|725968248|2249890098",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274247,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -12643,6 +12670,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.230095,
+     "regle": null
+    },
+    "winamax|725968248|2249890098": {
+     "date": "2026-10-23T17:31:34+00:00",
+     "ev_modele_pct": -23.211,
+     "id": "winamax|725968248|2249890098",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.274247,
      "regle": null
     }
    }
@@ -21881,6 +21917,22 @@
    "pari": "T. Simonsen buteur et Rouen gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-23T16:31:43+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|725968248|2249890098": {
+   "available_at": "2026-10-23T17:31:34+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.5,
+   "debut": "2026-10-24T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|725968248|2249890098",
+   "long_terme": false,
+   "match": "Milwaukee Brewers - Tampa Bay Rays",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Jackson Chourio marque au moins 1 run et Milwaukee Brewers gagne le match",
+   "premiere_vue": "2026-10-23T17:30:56+00:00",
+   "sport": "Baseball"
   }
  },
  "resultats": [

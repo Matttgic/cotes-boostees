@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 444,
+   "abstention": 445,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T16:31:43+00:00",
+  "derniere_observation": "2026-10-23T17:30:56+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 189,
+   "reference_absente": 190,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 542,
+  "observes": 543,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T16:31:43+00:00",
+ "derniere_observation": "2026-10-23T17:30:56+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -31103,6 +31103,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 1.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T17:30:56+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725629955|2248927302",
@@ -31432,6 +31458,43 @@
    "pari": "T. Simonsen buteur et Rouen gagne (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|725968248|2249890098": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T00:00+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 6.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T17:30:56+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725968248|2249890098",
+   "match": "Milwaukee Brewers - Tampa Bay Rays",
+   "pari": "Jackson Chourio marque au moins 1 run et Milwaukee Brewers gagne le match",
+   "premiere_selection": null,
+   "sport": "Baseball"
   }
  },
  "modele": "observation-v1",
