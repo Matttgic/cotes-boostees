@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 437,
+   "abstention": 442,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T14:33:26+00:00",
+  "derniere_observation": "2026-10-23T15:32:37+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 182,
+   "reference_absente": 187,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 535,
+  "observes": 540,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T14:33:26+00:00",
+ "derniere_observation": "2026-10-23T15:32:37+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -9666,6 +9666,43 @@
    "id": "unibet|195918725|732808608",
    "match": "SA Spurs - HOU Rockets",
    "pari": "Victor Wembanyama : 20 points ou +, 10 rebonds ou +, 3 passes ou +",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|195923661|732829129": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-23T23:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 7.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T15:32:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195923661|732829129",
+   "match": "BOS Celtics - NY Knicks",
+   "pari": "NBA - Jayson Tatum & Jalen Brunson marquent 25 Points ou + chacun",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -31145,6 +31182,154 @@
    "id": "winamax|725868616|2249593573",
    "match": "Boston Celtics - New York Knicks",
    "pari": "Jayson Tatum marque au moins 25 points et Boston Celtics gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725888231|2249651630": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T18:15+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 2.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T15:32:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725888231|2249651630",
+   "match": "Olympiakos - Fenerbahce",
+   "pari": "Plus de 179,5 points lors du match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725896980|2249677599": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T15:32:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725896980|2249677599",
+   "match": "Miami Heat - Detroit Pistons",
+   "pari": "Miami Heat gagne et plus de 225,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725913547|2249726337": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T17:30+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.072,
+      "hausse_pct": 20.7,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T15:32:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725913547|2249726337",
+   "match": "Pro D2",
+   "pari": "Chaque équipe à domicile gagne (6 matchs à partir de 19h30)",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|725919035|2249743453": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T01:40+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.262,
+      "hausse_pct": 22.6,
+      "horizon_heures": 10.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T15:32:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725919035|2249743453",
+   "match": "NBA",
+   "pari": "V. Wembanyama et L. Doncic marquent au moins 30 points chacun (respectivement contre Houston Rockets et Los Angeles Clippers)",
    "premiere_selection": null,
    "sport": "Basketball"
   }
