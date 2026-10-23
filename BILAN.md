@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 23/10 10h39 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 23/10 11h38 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -167,21 +167,21 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 257 en attente · cote moy
 | 23/10 20h45 · Paris Basketball - Valence Basket | Paris Basketball gagne à la mi-temps et à la fin du match | 4,0 | – | – | 20 € | ⏳ |
 | 23/10 20h45 · Brest - OGC Nice | OGC Nice gagne et Elye Wahi marque au moins 1+ buts | 6,0 | – | – | 5 € | ⏳ |
 | 23/10 20h45 · Brest - OGC Nice | Brest gagne et les deux équipes marquent | 3,75 | – | – | 9.09 € | ⏳ |
-| 23/10 20h30 · Luca van Assche - Lorenzo Musetti | Luca van Assche remporte le match sur le score exact de 2-1 en sets | 6,0 | – | – | 5 € | ⏳ |
 | 23/10 20h30 · Stuttgart - Borussia M'Gladbach | Stuttgart gagne sans encaisser de but | 3,0 | – | – | 20 € | ⏳ |
+| 23/10 20h30 · Luca van Assche - Lorenzo Musetti | Luca van Assche remporte le match sur le score exact de 2-1 en sets | 6,0 | – | – | 5 € | ⏳ |
 | 23/10 20h00 · Ligue 2 - 22/10 | Plus de 1,5 buts dans chacun des 5 matchs de 20:00 | 3,45 | – | – | 25 € | ⏳ |
-| 23/10 20h00 · TOUS VAINQUEURS | Metz, En Avant Guingamp, Nancy et Pau FC (Ligue 2 - 23.10.2026) | 16,0 | – | – | 1.66 € | ⏳ |
 | 23/10 20h00 · Ligue 2 BKT® | Plus de 1,5 buts dans chacun des 5 matchs du jour | 3,25 | – | – | 20 € | ⏳ |
+| 23/10 20h00 · TOUS VAINQUEURS | Metz, En Avant Guingamp, Nancy et Pau FC (Ligue 2 - 23.10.2026) | 16,0 | – | – | 1.66 € | ⏳ |
 | 23/10 19h00 · Narbonne - CA Brive | CA Brive gagne par au moins 14 points d'écart | 2,85 | – | – | 20 € | ⏳ |
 | 23/10 18h30 · A.Fils - A.Michelsen | A.Fils gagne le 1er set 6-4 ou 7-5 ou 7-6 ? | 2,7 | – | – | 25 € | ⏳ |
-| 23/10 18h30 · Arthur Fils - Alex Michelsen | Chaque joueur au moins 10+ aces et plus de 2.5 sets dans le match | 5,5 | – | – | 5.55 € | ⏳ |
 | 23/10 18h30 · Arthur Fils - Alex Michelsen | Arthur Fils gagne et plus de 22,5 jeux dans le match | 3,0 | – | – | 20 € | ⏳ |
+| 23/10 18h30 · Arthur Fils - Alex Michelsen | Chaque joueur au moins 10+ aces et plus de 2.5 sets dans le match | 5,5 | – | – | 5.55 € | ⏳ |
 | 23/10 17h30 · Liiga | Plus de 4,5 buts dans chacun des 4 matchs à 17h30 | 4,0 | – | – | 20 € | ⏳ |
 | 23/10 17h30 · Saudi Pro League | Al-Ittihad FC et Al-Hilal marquent chacun le 1er but (respectivement contre Diriyah Club et Al-Qadsiah) | 3,0 | – | – | 20 € | ⏳ |
 | 23/10 15h30 · Al-Faisaly - Al Nassr | Cristiano Ronaldo premier buteur du match | 3,75 | – | – | 20 € | ⏳ |
-| 23/10 14h00 · Clement Chidekh - Francisco Cerundolo | Clement Chidekh gagne et plus de 22.5 jeux | 4,25 | – | – | 7.69 € | ⏳ |
-| 23/10 14h00 · Corentin Moutet - Tommy Paul | Corentin Moutet remporte le match sur le score exact de 2-0 en sets | 7,5 | – | – | 3.84 € | ⏳ |
 | 23/10 14h00 · Corentin Moutet - Tommy Paul | Corentin Moutet gagne le premier set | 3,0 | – | – | 20 € | ⏳ |
+| 23/10 14h00 · Corentin Moutet - Tommy Paul | Corentin Moutet remporte le match sur le score exact de 2-0 en sets | 7,5 | – | – | 3.84 € | ⏳ |
+| 23/10 14h00 · Clement Chidekh - Francisco Cerundolo | Clement Chidekh gagne et plus de 22.5 jeux | 4,25 | – | – | 7.69 € | ⏳ |
 | 23/10 13h00 · Elena Rybakina - Katarzyna Kawa | Elena Rybakina gagne et plus de 17.5 jeux | 2,05 | – | – | 23.8 € | ⏳ |
 | 23/10 12h30 · Perth Wildcats - Melbourne United | Cole Anthony marque au moins 25 points et Melbourne United gagne | 2,65 | – | – | 20 € | ⏳ |
 | 23/10 11h15 · Daniil Medvedev - Terence Atmane | Terence Atmane remporte au moins un set | 2,35 | – | – | 20 € | ⏳ |
