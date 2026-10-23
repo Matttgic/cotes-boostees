@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 433,
+   "abstention": 437,
    "ecarter": 43,
-   "hors_perimetre": 53,
+   "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T13:34:23+00:00",
+  "derniere_observation": "2026-10-23T14:33:26+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,16 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
+   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 178,
+   "reference_absente": 182,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 530,
+  "observes": 535,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T13:34:23+00:00",
+ "derniere_observation": "2026-10-23T14:33:26+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1532,6 +1533,117 @@
    "id": "betsson|94406247.1|395866764.1",
    "match": "Marseille - Le Havre",
    "pari": "Amine Harit PASSEUR DECISIF",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94457090.1|396038449.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-23T17:00+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.96,
+      "hausse_pct": 19.9,
+      "horizon_heures": 2.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94457090.1|396038449.1",
+   "match": "Cobolli, Flavio - Nakashima, Brandon",
+   "pari": "Nakashima gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "betsson|94457461.1|396039584.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-24T11:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.94,
+      "hausse_pct": 10.5,
+      "horizon_heures": 20.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94457461.1|396039584.1",
+   "match": "Aston Villa - Manchester City",
+   "pari": "Rayan Cherki Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|94457895.1|396040760.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-26T19:30+00:00",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.49,
+      "hausse_pct": 14.5,
+      "horizon_heures": 76.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "hors_fenetre",
+     "raisons": [
+      "Événement hors fenêtre d'évaluation de 72 heures"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94457895.1|396040760.1",
+   "match": "Paris SG - Lyon",
+   "pari": "Maghnes Akliouche Buteur!",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -9519,6 +9631,43 @@
    "pari": "A.Fils gagne le 1er set 6-4 ou 7-5 ou 7-6 ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195918725|732808608": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-24T01:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195918725|732808608",
+   "match": "SA Spurs - HOU Rockets",
+   "pari": "Victor Wembanyama : 20 points ou +, 10 rebonds ou +, 3 passes ou +",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -30576,6 +30725,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 5.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.971,
+      "hausse_pct": 25.9,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725592040|2248822915",
@@ -30828,6 +31003,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 3.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725629955|2248927302",
@@ -30907,6 +31108,43 @@
    "id": "winamax|725782748|2249346841",
    "match": "Milwaukee Bucks - Chicago Bulls",
    "pari": "Tyler Herro marque au moins 20 points et Milwaukee Bucks gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725868616|2249593573": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T23:10+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 19.6,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T14:33:26+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725868616|2249593573",
+   "match": "Boston Celtics - New York Knicks",
+   "pari": "Jayson Tatum marque au moins 25 points et Boston Celtics gagne",
    "premiere_selection": null,
    "sport": "Basketball"
   }
