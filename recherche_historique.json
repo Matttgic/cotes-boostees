@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-23T15:34:22+00:00",
+ "derniere_observation": "2026-10-23T16:33:37+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -232,6 +232,15 @@
      "date": "2026-10-21T16:53:56+00:00",
      "ev_modele_pct": null,
      "id": "genybet|12288265|4867470902",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "genybet|12299164|4878049369": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": null,
+     "id": "genybet|12299164|4878049369",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3143,6 +3152,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|725945373|2249824012": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|725945373|2249824012",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -3378,6 +3396,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299164|4878049369": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -8.087,
+     "id": "genybet|12299164|4878049369",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.51063,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -6286,6 +6313,15 @@
      "mise": null,
      "p_modele": 0.217093,
      "regle": null
+    },
+    "winamax|725945373|2249824012": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|725945373|2249824012",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -6521,6 +6557,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299164|4878049369": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -8.087,
+     "id": "genybet|12299164|4878049369",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.51063,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -9429,6 +9474,15 @@
      "mise": null,
      "p_modele": 0.217093,
      "regle": null
+    },
+    "winamax|725945373|2249824012": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|725945373|2249824012",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -9664,6 +9718,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299164|4878049369": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -8.087,
+     "id": "genybet|12299164|4878049369",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.51063,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -12572,6 +12635,15 @@
      "mise": null,
      "p_modele": 0.217093,
      "regle": null
+    },
+    "winamax|725945373|2249824012": {
+     "date": "2026-10-23T16:32:52+00:00",
+     "ev_modele_pct": -19.467,
+     "id": "winamax|725945373|2249824012",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230095,
+     "regle": null
     }
    }
   }
@@ -13063,6 +13135,22 @@
    "mise_max_supposee": false,
    "pari": "Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €)",
    "premiere_vue": "2026-10-21T16:53:01+00:00",
+   "sport": "Football"
+  },
+  "genybet|12299164|4878049369": {
+   "available_at": "2026-10-23T16:32:52+00:00",
+   "bookmaker": "Genybet",
+   "cote_boostee_initiale": 1.8,
+   "cote_origine": null,
+   "debut": "2026-10-23T18:45+00:00",
+   "disponible": true,
+   "id": "genybet|12299164|4878049369",
+   "long_terme": false,
+   "match": "Brest / Nice : Plus de 2,5 buts (mise max 10 €)",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "Brest / Nice : Plus de 2,5 buts (mise max 10 €)",
+   "premiere_vue": "2026-10-23T16:31:43+00:00",
    "sport": "Football"
   },
   "netbet|12231955|7443639753": {
@@ -21777,6 +21865,22 @@
    "pari": "V. Wembanyama et L. Doncic marquent au moins 30 points chacun (respectivement contre Houston Rockets et Los Angeles Clippers)",
    "premiere_vue": "2026-10-23T15:32:37+00:00",
    "sport": "Basketball"
+  },
+  "winamax|725945373|2249824012": {
+   "available_at": "2026-10-23T16:32:52+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.0,
+   "debut": "2026-10-23T18:30+00:00",
+   "disponible": true,
+   "id": "winamax|725945373|2249824012",
+   "long_terme": false,
+   "match": "Rouen - Angers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "T. Simonsen buteur et Rouen gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-23T16:31:43+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [

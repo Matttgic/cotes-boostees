@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 442,
+   "abstention": 444,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T15:32:37+00:00",
+  "derniere_observation": "2026-10-23T16:31:43+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 187,
+   "reference_absente": 189,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 540,
+  "observes": 542,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T15:32:37+00:00",
+ "derniere_observation": "2026-10-23T16:31:43+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1937,6 +1937,43 @@
    "id": "genybet|12288265|4867470902",
    "match": "Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €)",
    "pari": "Bayern Munich / Arsenal : Plus de 2,5 buts (mise max 10 €)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12299164|4878049369": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-23T18:45+00:00",
+   "historique": [
+    {
+     "cote": 1.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12299164|4878049369",
+   "match": "Brest / Nice : Plus de 2,5 buts (mise max 10 €)",
+   "pari": "Brest / Nice : Plus de 2,5 buts (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -31214,6 +31251,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 11.8,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725888231|2249651630",
@@ -31332,6 +31395,43 @@
    "pari": "V. Wembanyama et L. Doncic marquent au moins 30 points chacun (respectivement contre Houston Rockets et Los Angeles Clippers)",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|725945373|2249824012": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T18:30+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 16.7,
+      "horizon_heures": 2.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725945373|2249824012",
+   "match": "Rouen - Angers",
+   "pari": "T. Simonsen buteur et Rouen gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
