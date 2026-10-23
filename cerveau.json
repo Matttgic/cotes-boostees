@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 416,
+   "abstention": 422,
    "ecarter": 43,
-   "hors_perimetre": 52,
+   "hors_perimetre": 53,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T06:33:03+00:00",
+  "derniere_observation": "2026-10-23T07:32:13+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 52,
+   "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 161,
+   "reference_absente": 167,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 512,
+  "observes": 519,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T06:33:03+00:00",
+ "derniere_observation": "2026-10-23T07:32:13+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3166,6 +3166,80 @@
    "pari": "Spurs gagne et Wembanyama marque au moins 30 points et 13 rebonds",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "olybet|31324538|7384241605": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 11.2,
+      "long_terme": false,
+      "mise_max": 9.09,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324538|7384241605",
+   "match": "Brest - OGC Nice",
+   "pari": "Brest gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31324539|7384249852": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T18:45+00:00",
+   "historique": [
+    {
+     "cote": 6.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 11.2,
+      "long_terme": false,
+      "mise_max": 5.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324539|7384249852",
+   "match": "Brest - OGC Nice",
+   "pari": "OGC Nice gagne et Elye Wahi marque au moins 1+ buts",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|193080176|719100363": {
    "bookmaker": "Unibet",
@@ -8890,6 +8964,80 @@
    "pari": "B.Nakashima gagne et plus de 22,5 jeux dans le match ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|195825899|732218368": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-23T18:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195825899|732218368",
+   "match": "Brest - Nice",
+   "pari": "Brest ou Nice gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|195825905|732218390": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-23T18:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.45,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 16.9,
+      "horizon_heures": 10.5,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|195825905|732218390",
+   "match": "Ligue 2 - 22/10",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs de 20:00",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|195833145|732266304": {
    "bookmaker": "Unibet",
@@ -29821,6 +29969,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.55,
+      "hausse_pct": 12.7,
+      "horizon_heures": 1.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|725550043|2248704068",
@@ -30111,6 +30285,117 @@
    "id": "winamax|725584216|2248801398",
    "match": "Ligue 2 BKT®",
    "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|725587235|2248811382": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725587235|2248811382",
+   "match": "Paris Basketball - Valence Basket",
+   "pari": "Paris Basketball gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|725592040|2248822915": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T15:30+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.428,
+      "hausse_pct": 16.7,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725592040|2248822915",
+   "match": "Liiga",
+   "pari": "Plus de 4,5 buts dans chacun des 4 matchs à 17h30",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|725602558|2248850812": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 11.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T07:32:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725602558|2248850812",
+   "match": "Alaves - Malaga",
+   "pari": "Alaves gagne et plus de 2,5 buts dans le match",
    "premiere_selection": null,
    "sport": "Football"
   }
