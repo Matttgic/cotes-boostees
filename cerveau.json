@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 423,
+   "abstention": 432,
    "ecarter": 43,
    "hors_perimetre": 53,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-23T07:40:47+00:00",
+  "derniere_observation": "2026-10-23T08:39:51+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 53,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 168,
+   "reference_absente": 177,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 520,
+  "observes": 529,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-23T07:40:47+00:00",
+ "derniere_observation": "2026-10-23T08:39:51+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3166,6 +3166,228 @@
    "pari": "Spurs gagne et Wembanyama marque au moins 30 points et 13 rebonds",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "olybet|31324426|7384180693": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T11:00+00:00",
+   "historique": [
+    {
+     "cote": 2.05,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 23.8,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324426|7384180693",
+   "match": "Elena Rybakina - Katarzyna Kawa",
+   "pari": "Elena Rybakina gagne et plus de 17.5 jeux",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31324448|7384189518": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T12:00+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 7.69,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324448|7384189518",
+   "match": "Clement Chidekh - Francisco Cerundolo",
+   "pari": "Clement Chidekh gagne et plus de 22.5 jeux",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31324462|7384197469": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T12:00+00:00",
+   "historique": [
+    {
+     "cote": 7.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 3.84,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324462|7384197469",
+   "match": "Corentin Moutet - Tommy Paul",
+   "pari": "Corentin Moutet remporte le match sur le score exact de 2-0 en sets",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31324482|7384213943": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T16:30+00:00",
+   "historique": [
+    {
+     "cote": 5.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.8,
+      "long_terme": false,
+      "mise_max": 5.55,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324482|7384213943",
+   "match": "Arthur Fils - Alex Michelsen",
+   "pari": "Chaque joueur au moins 10+ aces et plus de 2.5 sets dans le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31324510|7384227992": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T18:00+00:00",
+   "historique": [
+    {
+     "cote": 16.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.3,
+      "long_terme": false,
+      "mise_max": 1.66,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324510|7384227992",
+   "match": "TOUS VAINQUEURS",
+   "pari": "Metz, En Avant Guingamp, Nancy et Pau FC (Ligue 2 - 23.10.2026)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31324519|7384233737": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-23T18:30+00:00",
+   "historique": [
+    {
+     "cote": 6.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 5.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31324519|7384233737",
+   "match": "Luca van Assche - Lorenzo Musetti",
+   "pari": "Luca van Assche remporte le match sur le score exact de 2-1 en sets",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "olybet|31324538|7384241605": {
    "bookmaker": "OlyBet",
@@ -30435,6 +30657,117 @@
    "pari": "L. Ajorque ou E. Wahi marque au moins un but en 1ère mi-temps",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|725626699|2248918669": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T17:00+00:00",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 8.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725626699|2248918669",
+   "match": "Narbonne - CA Brive",
+   "pari": "CA Brive gagne par au moins 14 points d'écart",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|725629955|2248927302": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T18:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 7.1,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725629955|2248927302",
+   "match": "Stuttgart - Borussia M'Gladbach",
+   "pari": "Stuttgart gagne sans encaisser de but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|725630061|2248927551": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-23T09:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.465,
+      "hausse_pct": 21.7,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-23T08:39:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|725630061|2248927551",
+   "match": "Open de France",
+   "pari": "Alex Lanier et Christo Popov gagnent chacun leur match 2-0 (respectivement contre Tomas Junior Popov et Kodai Naraoka)",
+   "premiere_selection": null,
+   "sport": "Badminton"
   }
  },
  "modele": "observation-v1",
