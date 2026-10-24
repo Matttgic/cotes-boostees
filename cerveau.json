@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 477,
+   "abstention": 481,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-24T11:21:10+00:00",
+  "derniere_observation": "2026-10-24T12:20:17+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 54,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 222,
+   "reference_absente": 226,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 575,
+  "observes": 579,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-24T11:21:10+00:00",
+ "derniere_observation": "2026-10-24T12:20:17+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -10448,6 +10448,80 @@
    "pari": "A.Fils remporte le 1er set et plus de 9,5 jeux dans le set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|196024392|733235501": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-24T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 14.6,
+      "horizon_heures": 6.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:20:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196024392|733235501",
+   "match": "Toulon - Pau",
+   "pari": "Toulon gagne et le duo R.Marta / T.Attissogbé marque au moins 1 essai ?",
+   "premiere_selection": null,
+   "sport": "Rugby"
+  },
+  "unibet|196024604|733236215": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-24T14:35:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:20:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196024604|733236215",
+   "match": "Toulouse - Perpignan",
+   "pari": "Le trio A.Capuozzo/M.Lebel/T.Thomas marque 3 essais ou +",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -32860,6 +32934,80 @@
    "pari": "Nantes marque au moins 37 buts",
    "premiere_selection": null,
    "sport": "Handball"
+  },
+  "winamax|726610870|2251883173": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T17:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.4,
+      "hausse_pct": 17.6,
+      "horizon_heures": 4.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:20:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726610870|2251883173",
+   "match": "Atlanta Dream - Golden State Valkyries",
+   "pari": "Angel Reese marque au moins 20 points et Atlanta Dream gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|726624973|2251928460": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 12.5,
+      "horizon_heures": 6.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:20:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726624973|2251928460",
+   "match": "Saint-Etienne - Nantes",
+   "pari": "Irvin Cardona buteur et Saint-Etienne gagne",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
