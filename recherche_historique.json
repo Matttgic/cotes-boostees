@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T02:41:23+00:00",
+ "derniere_observation": "2026-10-24T03:40:37+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3193,6 +3193,24 @@
      "date": "2026-10-24T02:40:39+00:00",
      "ev_modele_pct": null,
      "id": "winamax|726278639|2250906959",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726329505|2251070485": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726329505|2251070485",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726343145|2251106259": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726343145|2251106259",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6394,6 +6412,24 @@
      "mise": null,
      "p_modele": 0.279915,
      "regle": null
+    },
+    "winamax|726329505|2251070485": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 5.72,
+     "id": "winamax|726329505|2251070485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.352401,
+     "regle": null
+    },
+    "winamax|726343145|2251106259": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 25.854,
+     "id": "winamax|726343145|2251106259",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547191,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -9591,6 +9627,24 @@
      "mise": null,
      "p_modele": 0.279915,
      "regle": null
+    },
+    "winamax|726329505|2251070485": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 5.72,
+     "id": "winamax|726329505|2251070485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.352401,
+     "regle": null
+    },
+    "winamax|726343145|2251106259": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 25.854,
+     "id": "winamax|726343145|2251106259",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547191,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -12787,6 +12841,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.279915,
+     "regle": null
+    },
+    "winamax|726329505|2251070485": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 5.72,
+     "id": "winamax|726329505|2251070485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.352401,
+     "regle": null
+    },
+    "winamax|726343145|2251106259": {
+     "date": "2026-10-24T03:39:52+00:00",
+     "ev_modele_pct": 25.854,
+     "id": "winamax|726343145|2251106259",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547191,
      "regle": null
     }
    }
@@ -22089,6 +22161,38 @@
    "pari": "Alex Lanier et Christo Popov gagnent chacun leur match 2-0 (respectivement contre Mohamed Zaki Ubaidillah et Zhe An Hu)",
    "premiere_vue": "2026-10-24T02:40:09+00:00",
    "sport": "Badminton"
+  },
+  "winamax|726329505|2251070485": {
+   "available_at": "2026-10-24T03:39:52+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.416,
+   "debut": "2026-10-24T07:30+00:00",
+   "disponible": true,
+   "id": "winamax|726329505|2251070485",
+   "long_terme": false,
+   "match": "Super League",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Shenzhen Peng City - Shanghai Shenhua, Wuhan Three Towns FC - Shandong Taishan et Qingdao West Coast - Yunnan Yukun",
+   "premiere_vue": "2026-10-24T03:39:11+00:00",
+   "sport": "Football"
+  },
+  "winamax|726343145|2251106259": {
+   "available_at": "2026-10-24T03:39:52+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.3,
+   "cote_origine": 2.0,
+   "debut": "2026-10-24T09:30+00:00",
+   "disponible": true,
+   "id": "winamax|726343145|2251106259",
+   "long_terme": false,
+   "match": "Elena Rybakina - Diana Shnaider",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Elena Rybakina gagne 2-0",
+   "premiere_vue": "2026-10-24T03:39:11+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
