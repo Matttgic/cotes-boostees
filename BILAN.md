@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 24/10 20h40 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 24/10 21h33 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -174,13 +174,13 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 326 en attente · cote moy
 | 25/10 00h10 · Charlotte Hornets - Miami Heat | Giannis Antetokounmpo réalise une performance points + rebonds + passes décisives d'au moins 50 | 2,55 | – | – | 20 € | ⏳ |
 | 25/10 00h00 · CHA Hornets - MIA Heat | NBA - G.Antetokounmpo marque 29pts ou + et N.Reid marque 16pts ou + | 2,4 | – | – | 25 € | ⏳ |
 | 24/10 23h30 · New York City FC - Inter Miami | Lionel Messi marque 2 buts ou plus | 4,3 | – | – | 20 € | ⏳ |
+| 24/10 22h15 · Alex Volkanovski - Movsar Evloev | Alex Volkanovski gagne par KO, KO technique ou disqualification | 5,75 | – | – | 20 € | ⏳ |
 | 24/10 21h45 · New Jersey Devils - Los Angeles Kings | N. Hischier buteur et New Jersey Devils gagne (hors prol. et TAB) | 4,25 | – | – | 20 € | ⏳ |
-| 24/10 21h30 · Alex Volkanovski - Movsar Evloev | Alex Volkanovski gagne par KO, KO technique ou disqualification | 5,75 | – | – | 20 € | ⏳ |
+| 24/10 21h45 · Petr Yan - Merab Dvalishvili | Merab Dvalishvili gagne par décision | 3,3 | – | – | 20 € | ⏳ |
 | 24/10 21h20 · A.Volkov - M.Elvoev | A.Volkanovski gagne aux points | 2,95 | – | – | 25 € | ⏳ |
 | 24/10 21h00 · Toulon - Pau | Toulon gagne et le duo R.Marta / T.Attissogbé marque au moins 1 essai ? | 2,75 | – | – | 25 € | ⏳ |
 | 24/10 21h00 · RC Toulon - Section Paloise | Plus de 8,5 essais lors du match | 2,75 | – | – | 20 € | ⏳ |
 | 24/10 21h00 · Atletico Madrid - Deportivo La Corogne | Atletico Madrid marque au moins 4 buts contre Deportivo La Corogne | 4,0 | – | – | 20 € | ⏳ |
-| 24/10 21h00 · Petr Yan - Merab Dvalishvili | Merab Dvalishvili gagne par décision | 3,3 | – | – | 20 € | ⏳ |
 | 24/10 21h00 · Atletico Madrid - Deportivo La Corogne | Atletico Madrid gagne par 3+ buts d'écart et Julian Alvarez buteur | 4,0 | – | – | 8.33 € | ⏳ |
 | 24/10 20h45 · Lens - Paris FC | Le duo F.Thauvin / L.Sinayoko cumule plus de 1,5 buts et/ou passes décisives (remboursé si non titulaires) | 2,45 | – | – | 25 € | ⏳ |
 | 24/10 20h45 · Lens - Paris FC | Florian Thauvin marque au moins un but ou fait au moins une passe décisive et Lens gagne ou fait match nul | 2,5 | – | – | 20 € | ⏳ |
