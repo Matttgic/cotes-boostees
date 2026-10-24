@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 495,
+   "abstention": 498,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-24T15:43:11+00:00",
+  "derniere_observation": "2026-10-24T16:41:52+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 54,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 240,
+   "reference_absente": 243,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 593,
+  "observes": 596,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-24T15:43:11+00:00",
+ "derniere_observation": "2026-10-24T16:41:52+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -33290,6 +33290,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 5.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T16:41:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|726680016|2252096930",
@@ -33430,6 +33456,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-24T14:44:00+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T16:41:52+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -33630,6 +33682,117 @@
    "pari": "Plus de 8,5 essais lors du match",
    "premiere_selection": null,
    "sport": "Rugby à XV"
+  },
+  "winamax|726824350|2252564209": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T16:41:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726824350|2252564209",
+   "match": "DC United - Cincinnati FC",
+   "pari": "Les deux équipes marquent en première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|726856424|2252658049": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T21:30+00:00",
+   "historique": [
+    {
+     "cote": 4.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.8,
+      "hausse_pct": 13.2,
+      "horizon_heures": 4.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T16:41:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726856424|2252658049",
+   "match": "New York City FC - Inter Miami",
+   "pari": "Lionel Messi marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|726871780|2252704844": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T23:10+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 17.6,
+      "horizon_heures": 6.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T16:41:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726871780|2252704844",
+   "match": "Edmonton Oilers - Toronto Maple Leafs",
+   "pari": "Leon Draisaitl buteur et Edmonton Oilers gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
