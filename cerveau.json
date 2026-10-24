@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 463,
+   "abstention": 475,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-24T07:24:39+00:00",
+  "derniere_observation": "2026-10-24T08:23:47+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 54,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 208,
+   "reference_absente": 220,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 561,
+  "observes": 573,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-24T07:24:39+00:00",
+ "derniere_observation": "2026-10-24T08:23:47+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2350,6 +2350,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "netbet|12295527|7491324196": {
+   "bookmaker": "NetBet",
+   "debut": "2026-10-24T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12295527|7491324196",
+   "match": "Lens/Paris FC - Thauvin ou Sinayoko premier buteur",
+   "pari": "Lens/Paris FC - Thauvin ou Sinayoko premier buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "olybet|31215805|7330210853": {
    "bookmaker": "OlyBet",
    "debut": "2026-10-14T05:15+00:00",
@@ -3726,6 +3763,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "olybet|31336571|7390067748": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T13:30+00:00",
+   "historique": [
+    {
+     "cote": 9.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 3.12,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336571|7390067748",
+   "match": "TOUS VAINQUEURS",
+   "pari": "Leipzig, 1.Cologne, Mayence et Augsburg (Bundesliga - 24.10.2026)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "olybet|31336589|7390079072": {
    "bookmaker": "OlyBet",
    "debut": "2026-10-24T14:00+00:00",
@@ -3763,6 +3837,43 @@
    "premiere_selection": null,
    "sport": "Football"
   },
+  "olybet|31336635|7390095920": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T16:00+00:00",
+   "historique": [
+    {
+     "cote": 4.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.6,
+      "long_terme": false,
+      "mise_max": 6.66,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336635|7390095920",
+   "match": "Naples - AS Roma",
+   "pari": "AS Roma gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "olybet|31336647|7390112073": {
    "bookmaker": "OlyBet",
    "debut": "2026-10-24T16:30+00:00",
@@ -3797,6 +3908,154 @@
    "id": "olybet|31336647|7390112073",
    "match": "Chelsea - Tottenham",
    "pari": "Chelsea gagne par 2+ buts d'écart et Joao Pedro buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31336668|7390123323": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T16:30+00:00",
+   "historique": [
+    {
+     "cote": 7.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 8.1,
+      "long_terme": false,
+      "mise_max": 4.16,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336668|7390123323",
+   "match": "Dortmund - Eintracht Francfort",
+   "pari": "Serhou Guirassy marque dans chaque mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31336746|7390193948": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T18:45+00:00",
+   "historique": [
+    {
+     "cote": 7.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 4.16,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336746|7390193948",
+   "match": "LES DEUX JOUEURS MARQUENT",
+   "pari": "Franjo Ivanovic et Lassine Sinayoko marquent chacun au moins 1+ but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31336759|7390199995": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T18:45+00:00",
+   "historique": [
+    {
+     "cote": 11.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 2.5,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336759|7390199995",
+   "match": "Lens - Paris FC",
+   "pari": "Florian Thauvin marque au moins 1+ buts et fait au moins 1+ passes décisives",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31336765|7390204336": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-24T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 8.33,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31336765|7390204336",
+   "match": "Atletico Madrid - Deportivo La Corogne",
+   "pari": "Atletico Madrid gagne par 3+ buts d'écart et Julian Alvarez buteur",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -10152,6 +10411,43 @@
    "pari": "Dom Young et Hugo Savala marquent au moins 1 essai chacun",
    "premiere_selection": null,
    "sport": "Rugby à XIII"
+  },
+  "unibet|196011354|733172825": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-24T16:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 15.9,
+      "horizon_heures": 8.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196011354|733172825",
+   "match": "A.Fils - JL.Struff",
+   "pari": "A.Fils remporte le 1er set et plus de 9,5 jeux dans le set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -32254,6 +32550,43 @@
    "premiere_selection": null,
    "sport": "Rugby à XV"
   },
+  "winamax|726440808|2251411051": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T13:30+00:00",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 8.5,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726440808|2251411051",
+   "match": "Leipzig - Elversberg",
+   "pari": "Christopher Nkunku buteur et Leipzig gagne",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "winamax|726448476|2251430603": {
    "bookmaker": "Winamax",
    "debut": "2026-10-24T16:00+00:00",
@@ -32288,6 +32621,117 @@
    "id": "winamax|726448476|2251430603",
    "match": "Chelsea - Tottenham",
    "pari": "Chelsea gagne le match 2-1, 3-1 ou 4-1",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|726455053|2251447697": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T12:00+00:00",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.05,
+      "hausse_pct": 11.5,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726455053|2251447697",
+   "match": "Dijon - Rodez",
+   "pari": "Dijon gagne par au moins 2 buts d'écart",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|726462214|2251467266": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726462214|2251467266",
+   "match": "Daniil Medvedev - Alexander Bublik",
+   "pari": "Alexander Bublik gagne le premier set et le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|726482100|2251515989": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T15:00+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T08:23:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726482100|2251515989",
+   "match": "Naples - AS Rome",
+   "pari": "Plus de 1,5 buts lors de la première mi-temps du match",
    "premiere_selection": null,
    "sport": "Football"
   }
