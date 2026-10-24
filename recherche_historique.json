@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T01:42:00+00:00",
+ "derniere_observation": "2026-10-24T02:41:23+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3175,6 +3175,24 @@
      "date": "2026-10-23T17:31:34+00:00",
      "ev_modele_pct": null,
      "id": "winamax|725968248|2249890098",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726273853|2250894428": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726273853|2250894428",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726278639|2250906959": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726278639|2250906959",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6358,6 +6376,24 @@
      "mise": null,
      "p_modele": 0.274247,
      "regle": null
+    },
+    "winamax|726273853|2250894428": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -8.172,
+     "id": "winamax|726273853|2250894428",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.374809,
+     "regle": null
+    },
+    "winamax|726278639|2250906959": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -16.026,
+     "id": "winamax|726278639|2250906959",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.279915,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -9537,6 +9573,24 @@
      "mise": null,
      "p_modele": 0.274247,
      "regle": null
+    },
+    "winamax|726273853|2250894428": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -8.172,
+     "id": "winamax|726273853|2250894428",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.374809,
+     "regle": null
+    },
+    "winamax|726278639|2250906959": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -16.026,
+     "id": "winamax|726278639|2250906959",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.279915,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -12715,6 +12769,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.274247,
+     "regle": null
+    },
+    "winamax|726273853|2250894428": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -8.172,
+     "id": "winamax|726273853|2250894428",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.374809,
+     "regle": null
+    },
+    "winamax|726278639|2250906959": {
+     "date": "2026-10-24T02:40:39+00:00",
+     "ev_modele_pct": -16.026,
+     "id": "winamax|726278639|2250906959",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.279915,
      "regle": null
     }
    }
@@ -21985,6 +22057,38 @@
    "pari": "Jackson Chourio marque au moins 1 run et Milwaukee Brewers gagne le match",
    "premiere_vue": "2026-10-23T17:30:56+00:00",
    "sport": "Baseball"
+  },
+  "winamax|726273853|2250894428": {
+   "available_at": "2026-10-24T02:40:39+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.45,
+   "cote_origine": 2.15,
+   "debut": "2026-10-24T06:35+00:00",
+   "disponible": true,
+   "id": "winamax|726273853|2250894428",
+   "long_terme": false,
+   "match": "Angleterre - France",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 64,5 points lors du match",
+   "premiere_vue": "2026-10-24T02:40:09+00:00",
+   "sport": "Rugby à XIII"
+  },
+  "winamax|726278639|2250906959": {
+   "available_at": "2026-10-24T02:40:39+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.585,
+   "debut": "2026-10-24T15:00+00:00",
+   "disponible": true,
+   "id": "winamax|726278639|2250906959",
+   "long_terme": false,
+   "match": "Open de France",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Alex Lanier et Christo Popov gagnent chacun leur match 2-0 (respectivement contre Mohamed Zaki Ubaidillah et Zhe An Hu)",
+   "premiere_vue": "2026-10-24T02:40:09+00:00",
+   "sport": "Badminton"
   }
  },
  "resultats": [
