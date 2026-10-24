@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 481,
+   "abstention": 484,
    "ecarter": 43,
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-24T12:45:46+00:00",
+  "derniere_observation": "2026-10-24T13:44:54+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 54,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 226,
+   "reference_absente": 229,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 579,
+  "observes": 582,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-24T12:45:46+00:00",
+ "derniere_observation": "2026-10-24T13:44:54+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -33060,6 +33060,117 @@
    "pari": "Irvin Cardona buteur et Saint-Etienne gagne",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|726680016|2252096930": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T22:10+00:00",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 13.3,
+      "horizon_heures": 8.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T13:44:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726680016|2252096930",
+   "match": "Charlotte Hornets - Miami Heat",
+   "pari": "Giannis Antetokounmpo réalise une performance points + rebonds + passes décisives d'au moins 50",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|726688026|2252125336": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.026,
+      "hausse_pct": 19.0,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T13:44:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726688026|2252125336",
+   "match": "NBA",
+   "pari": "Cleveland Cavaliers et Philadelphia 76ers gagnent chacun par au moins 12 points d'écart (respectivement contre Brooklyn Nets et Milwaukee Bucks)",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|726714870|2252217331": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-24T16:30+00:00",
+   "historique": [
+    {
+     "cote": 2.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.94,
+      "hausse_pct": 10.8,
+      "horizon_heures": 2.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T13:44:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|726714870|2252217331",
+   "match": "Arthur Fils - Jan-Lennard Struff",
+   "pari": "Au moins un Tie-break lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
