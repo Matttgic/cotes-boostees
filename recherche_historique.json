@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T19:34:42+00:00",
+ "derniere_observation": "2026-10-24T20:33:55+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3652,6 +3652,24 @@
      "date": "2026-10-24T17:41:58+00:00",
      "ev_modele_pct": null,
      "id": "winamax|726877913|2252725777",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|727060600|2253262717": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|727060600|2253262717",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|727064338|2253274261": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|727064338|2253274261",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7312,6 +7330,24 @@
      "mise": null,
      "p_modele": 0.230136,
      "regle": null
+    },
+    "winamax|727060600|2253262717": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": 2.845,
+     "id": "winamax|727060600|2253262717",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.514224,
+     "regle": null
+    },
+    "winamax|727064338|2253274261": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": -16.21,
+     "id": "winamax|727064338|2253274261",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239399,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -10968,6 +11004,24 @@
      "mise": null,
      "p_modele": 0.230136,
      "regle": null
+    },
+    "winamax|727060600|2253262717": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": 2.845,
+     "id": "winamax|727060600|2253262717",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.514224,
+     "regle": null
+    },
+    "winamax|727064338|2253274261": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": -16.21,
+     "id": "winamax|727064338|2253274261",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239399,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -14623,6 +14677,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.230136,
+     "regle": null
+    },
+    "winamax|727060600|2253262717": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": 2.845,
+     "id": "winamax|727060600|2253262717",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.514224,
+     "regle": null
+    },
+    "winamax|727064338|2253274261": {
+     "date": "2026-10-24T20:33:12+00:00",
+     "ev_modele_pct": -16.21,
+     "id": "winamax|727064338|2253274261",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.239399,
      "regle": null
     }
    }
@@ -24757,6 +24829,38 @@
    "pari": "FC Dallas et Vancouver Whitecaps gagnent chacun leur match (respectivement contre San Jose Earthquakes et Colorado Rapids)",
    "premiere_vue": "2026-10-24T17:40:58+00:00",
    "sport": "Football"
+  },
+  "winamax|727060600|2253262717": {
+   "available_at": "2026-10-24T20:33:12+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.0,
+   "cote_origine": 1.716,
+   "debut": "2026-10-25T02:30+00:00",
+   "disponible": true,
+   "id": "winamax|727060600|2253262717",
+   "long_terme": false,
+   "match": "MLS",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Chaque équipe marque lors des matchs suivants : San Diego FC - Seattle Sounders et Portland Timbers - Charlotte FC",
+   "premiere_vue": "2026-10-24T20:32:35+00:00",
+   "sport": "Football"
+  },
+  "winamax|727064338|2253274261": {
+   "available_at": "2026-10-24T20:33:12+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 2.982,
+   "debut": "2026-10-25T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|727064338|2253274261",
+   "long_terme": false,
+   "match": "NBA",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Anthony Davis et Nikola Jokic marquent au moins 25 points chacun (respectivement contre Chicago Bulls et New Orleans Pelicans)",
+   "premiere_vue": "2026-10-24T20:32:35+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
