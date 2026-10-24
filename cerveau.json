@@ -6,7 +6,7 @@
    "hors_perimetre": 54,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-24T12:20:17+00:00",
+  "derniere_observation": "2026-10-24T12:45:46+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-24T12:20:17+00:00",
+ "derniere_observation": "2026-10-24T12:45:46+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -32705,6 +32705,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 6.4,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:45:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|726440808|2251411051",
@@ -32845,6 +32871,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-24T11:21:10+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.576,
+      "hausse_pct": 16.5,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-24T12:45:46+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
