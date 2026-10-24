@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T16:43:27+00:00",
+ "derniere_observation": "2026-10-24T17:42:40+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3634,6 +3634,24 @@
      "date": "2026-10-24T16:42:45+00:00",
      "ev_modele_pct": null,
      "id": "winamax|726871780|2252704844",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726873662|2252710537": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726873662|2252710537",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726877913|2252725777": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726877913|2252725777",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7276,6 +7294,24 @@
      "mise": null,
      "p_modele": 0.277048,
      "regle": null
+    },
+    "winamax|726873662|2252710537": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -11.417,
+     "id": "winamax|726873662|2252710537",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322119,
+     "regle": null
+    },
+    "winamax|726877913|2252725777": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -7.946,
+     "id": "winamax|726877913|2252725777",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230136,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -10914,6 +10950,24 @@
      "mise": null,
      "p_modele": 0.277048,
      "regle": null
+    },
+    "winamax|726873662|2252710537": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -11.417,
+     "id": "winamax|726873662|2252710537",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322119,
+     "regle": null
+    },
+    "winamax|726877913|2252725777": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -7.946,
+     "id": "winamax|726877913|2252725777",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230136,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -14551,6 +14605,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.277048,
+     "regle": null
+    },
+    "winamax|726873662|2252710537": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -11.417,
+     "id": "winamax|726873662|2252710537",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322119,
+     "regle": null
+    },
+    "winamax|726877913|2252725777": {
+     "date": "2026-10-24T17:41:58+00:00",
+     "ev_modele_pct": -7.946,
+     "id": "winamax|726877913|2252725777",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.230136,
      "regle": null
     }
    }
@@ -24653,6 +24725,38 @@
    "pari": "Leon Draisaitl buteur et Edmonton Oilers gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-24T16:41:52+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|726873662|2252710537": {
+   "available_at": "2026-10-24T17:41:58+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.3,
+   "debut": "2026-10-25T00:10+00:00",
+   "disponible": true,
+   "id": "winamax|726873662|2252710537",
+   "long_terme": false,
+   "match": "Dallas Mavericks - San Antonio Spurs",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Victor Wembanyama marque au moins 30 points et San Antonio Spurs gagne",
+   "premiere_vue": "2026-10-24T17:40:58+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|726877913|2252725777": {
+   "available_at": "2026-10-24T17:41:58+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.608,
+   "debut": "2026-10-25T00:30+00:00",
+   "disponible": true,
+   "id": "winamax|726877913|2252725777",
+   "long_terme": false,
+   "match": "MLS",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "FC Dallas et Vancouver Whitecaps gagnent chacun leur match (respectivement contre San Jose Earthquakes et Colorado Rapids)",
+   "premiere_vue": "2026-10-24T17:40:58+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
