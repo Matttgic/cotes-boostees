@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T08:26:05+00:00",
+ "derniere_observation": "2026-10-24T09:24:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3427,6 +3427,15 @@
      "date": "2026-10-24T08:25:24+00:00",
      "ev_modele_pct": null,
      "id": "winamax|726482100|2251515989",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726489541|2251533465": {
+     "date": "2026-10-24T09:24:08+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726489541|2251533465",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6862,6 +6871,15 @@
      "mise": null,
      "p_modele": 0.362023,
      "regle": null
+    },
+    "winamax|726489541|2251533465": {
+     "date": "2026-10-24T09:24:08+00:00",
+     "ev_modele_pct": -16.751,
+     "id": "winamax|726489541|2251533465",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346871,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -10293,6 +10311,15 @@
      "mise": null,
      "p_modele": 0.362023,
      "regle": null
+    },
+    "winamax|726489541|2251533465": {
+     "date": "2026-10-24T09:24:08+00:00",
+     "ev_modele_pct": -16.751,
+     "id": "winamax|726489541|2251533465",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346871,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -13723,6 +13750,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.362023,
+     "regle": null
+    },
+    "winamax|726489541|2251533465": {
+     "date": "2026-10-24T09:24:08+00:00",
+     "ev_modele_pct": -16.751,
+     "id": "winamax|726489541|2251533465",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346871,
      "regle": null
     }
    }
@@ -23457,6 +23493,22 @@
    "pari": "Plus de 1,5 buts lors de la première mi-temps du match",
    "premiere_vue": "2026-10-24T08:23:47+00:00",
    "sport": "Football"
+  },
+  "winamax|726489541|2251533465": {
+   "available_at": "2026-10-24T09:24:08+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.4,
+   "cote_origine": 2.25,
+   "debut": "2026-10-24T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|726489541|2251533465",
+   "long_terme": false,
+   "match": "Nantes - Chambéry",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Nantes marque au moins 37 buts",
+   "premiere_vue": "2026-10-24T09:22:49+00:00",
+   "sport": "Handball"
   }
  },
  "resultats": [
