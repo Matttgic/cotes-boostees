@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-24T10:23:52+00:00",
+ "derniere_observation": "2026-10-24T11:22:36+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3418,6 +3418,15 @@
      "date": "2026-10-24T08:25:24+00:00",
      "ev_modele_pct": null,
      "id": "winamax|726462214|2251467266",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|726479357|2251509381": {
+     "date": "2026-10-24T11:21:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|726479357|2251509381",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6863,6 +6872,15 @@
      "p_modele": 0.398483,
      "regle": null
     },
+    "winamax|726479357|2251509381": {
+     "date": "2026-10-24T11:21:51+00:00",
+     "ev_modele_pct": 3.946,
+     "id": "winamax|726479357|2251509381",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.319832,
+     "regle": null
+    },
     "winamax|726482100|2251515989": {
      "date": "2026-10-24T08:25:24+00:00",
      "ev_modele_pct": -5.874,
@@ -10303,6 +10321,15 @@
      "p_modele": 0.398483,
      "regle": null
     },
+    "winamax|726479357|2251509381": {
+     "date": "2026-10-24T11:21:51+00:00",
+     "ev_modele_pct": 3.946,
+     "id": "winamax|726479357|2251509381",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.319832,
+     "regle": null
+    },
     "winamax|726482100|2251515989": {
      "date": "2026-10-24T08:25:24+00:00",
      "ev_modele_pct": -5.874,
@@ -13741,6 +13768,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.398483,
+     "regle": null
+    },
+    "winamax|726479357|2251509381": {
+     "date": "2026-10-24T11:21:51+00:00",
+     "ev_modele_pct": 3.946,
+     "id": "winamax|726479357|2251509381",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.319832,
      "regle": null
     },
     "winamax|726482100|2251515989": {
@@ -23477,6 +23513,22 @@
    "pari": "Alexander Bublik gagne le premier set et le match",
    "premiere_vue": "2026-10-24T08:23:47+00:00",
    "sport": "Tennis"
+  },
+  "winamax|726479357|2251509381": {
+   "available_at": "2026-10-24T11:21:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.644,
+   "debut": "2026-10-24T13:30+00:00",
+   "disponible": true,
+   "id": "winamax|726479357|2251509381",
+   "long_terme": false,
+   "match": "Bundesliga",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Chaque équipe à domicile gagne ou fait match nul (5 matchs à 15h30)",
+   "premiere_vue": "2026-10-24T11:21:10+00:00",
+   "sport": "Football"
   },
   "winamax|726482100|2251515989": {
    "available_at": "2026-10-24T08:25:24+00:00",
