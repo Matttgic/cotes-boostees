@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 25/10 06h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 25/10 07h12 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -138,7 +138,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 333 en attente · cote moy
 | Badminton | 2 / 7 | 40 € | -40,00 € | -100,0 % | 0 % |
 | Baseball | 7 / 10 | 140 € | -92,00 € | -65,7 % | 14 % |
 | Basketball | 13 / 83 | 265 € | -68,00 € | -25,7 % | 25 % |
-| Football | 159 / 326 | 3212 € | -35,03 € | -1,1 % | 33 % |
+| Football | 159 / 327 | 3212 € | -35,03 € | -1,1 % | 33 % |
 | Football Américain | 6 / 13 | 120 € | -120,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 3 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 3 / 4 | 60 € | -14,00 € | -23,3 % | 33 % |
@@ -148,7 +148,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 333 en attente · cote moy
 | Rugby | 6 / 11 | 150 € | -87,50 € | -58,3 % | 17 % |
 | Rugby à XIII | 4 / 6 | 95 € | -40,00 € | -42,1 % | 25 % |
 | Rugby à XV | 9 / 13 | 180 € | +84,00 € | +46,7 % | 56 % |
-| Tennis | 40 / 89 | 855 € | +559,75 € | +65,5 % | 55 % |
+| Tennis | 40 / 88 | 855 € | +559,75 € | +65,5 % | 55 % |
 | Tennis de table | 6 / 6 | 120 € | -25,00 € | -20,8 % | 17 % |
 | UFC/MMA | 0 / 1 | 0 € | +0,00 € | – | – |
 
