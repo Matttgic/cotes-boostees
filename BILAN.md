@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 25/10 13h37 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 25/10 14h37 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -105,8 +105,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 365 en attente · cote moy
 | 14.7 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.5 € | 0 / 1 | 0 € | +0,00 € | – | – |
+| 2.63 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.77 € | 0 / 2 | 0 € | +0,00 € | – | – |
-| 2.94 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 20 € | 228 / 435 | 4560 € | -361,00 € | -7,9 % | 29 % |
 | 20.83 € | 1 / 1 | 21 € | +25,00 € | +120,0 % | 100 % |
 | 23.8 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -197,7 +197,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 365 en attente · cote moy
 | 25/10 15h00 · Liverpool - Brighton | Liverpool gagne et les deux équipes marquent | 3,6 | – | – | 20 € | ⏳ |
 | 25/10 15h00 · Monaco - Lille | Paris Brunner marque au moins un but en 1ère mi-temps | 5,0 | – | – | 20 € | ⏳ |
 | 25/10 15h00 · LES DEUX JOUEURS MARQUENT | Paris Brunner et Olivier Giroud marquent chacun au moins 1+ but | 8,75 | – | – | 3.22 € | ⏳ |
-| 25/10 15h00 · TOUS VAINQUEURS | Manchester United, Newcastle et Brentford (Premier League - 25.10.2026) | 9,0 | – | – | 2.94 € | ⏳ |
+| 25/10 15h00 · TOUS VAINQUEURS | Manchester United, Newcastle et Brentford (Premier League - 25.10.2026) | 9,0 | – | – | 2.63 € | ⏳ |
 | 25/10 15h00 · Liverpool - Brighton | Liverpool gagne par 2+ buts d'écart et Bradley Barcola buteur | 6,5 | – | – | 4.54 € | ⏳ |
 | 25/10 15h00 · CHACUN MARQUE LE PREMIER BUT DU MATCH | Alexander Isak et Igor Thiago | 24,0 | – | – | 1.08 € | ⏳ |
 | 25/10 15h00 · Monaco - Lille | Monaco gagne 2-0 | 10,0 | – | – | 20 € | ⏳ |
