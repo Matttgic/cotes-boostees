@@ -1,7 +1,7 @@
 {
  "boosts_total": 673,
  "cache_betsson": {
-  "essais": 3,
+  "essais": 1,
   "session": "a8a86e4f"
  },
  "cache_unibet": {},
@@ -43,18 +43,17 @@
    "decisions_enregistrees": 0,
    "nouveaux_boosts": 0
   },
-  "date": "2026-10-25T21:43:04+00:00",
+  "date": "2026-10-25T22:38:36+00:00",
   "evaluation": {
    "approx": 0,
    "decomposes": 0,
-   "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
-   "echecs_decomposition": 2,
+   "echecs_decomposition": 0,
    "evalues": 0,
    "exactes": 0,
    "non_evaluables": 0
   },
   "long_terme_winamax_corriges": 0,
-  "octets_proxy": 693042,
+  "octets_proxy": 688160,
   "recherche": {
    "reglements": 293,
    "version": "replay-v1"
@@ -70,9 +69,75 @@
    "soumis": 15
   },
   "reglements_manuels": 0,
-  "requetes": 20
+  "requetes": 18
  },
  "journal": [
+  {
+   "bookmakers": {
+    "betsson": {
+     "boosts_en_ligne": 3,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "genybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "netbet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "olybet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "unibet": {
+     "boosts_en_ligne": 0,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    },
+    "winamax": {
+     "boosts_en_ligne": 3,
+     "cotes_modifiees": 0,
+     "nouveaux": 0
+    }
+   },
+   "cerveau": {
+    "boosts_observes": 652,
+    "decisions_enregistrees": 0,
+    "nouveaux_boosts": 0
+   },
+   "date": "2026-10-25T22:38:36+00:00",
+   "evaluation": {
+    "approx": 0,
+    "decomposes": 0,
+    "echecs_decomposition": 0,
+    "evalues": 0,
+    "exactes": 0,
+    "non_evaluables": 0
+   },
+   "long_terme_winamax_corriges": 0,
+   "octets_proxy": 688160,
+   "recherche": {
+    "reglements": 293,
+    "version": "replay-v1"
+   },
+   "reglement": {
+    "derniere_erreur": "RateLimitError : Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}",
+    "erreurs": 15,
+    "fournisseur": "openai",
+    "inconnus": 0,
+    "jetons": {},
+    "recherches": 0,
+    "regles": 0,
+    "soumis": 15
+   },
+   "reglements_manuels": 0,
+   "requetes": 18
+  },
   {
    "bookmakers": {
     "betsson": {
@@ -13358,78 +13423,7 @@
    },
    "reglements_manuels": 0,
    "requetes": 20
-  },
-  {
-   "bookmakers": {
-    "betsson": {
-     "boosts_en_ligne": 4,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "genybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "netbet": {
-     "boosts_en_ligne": 1,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "olybet": {
-     "boosts_en_ligne": 0,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "unibet": {
-     "boosts_en_ligne": 8,
-     "cotes_modifiees": 0,
-     "nouveaux": 0
-    },
-    "winamax": {
-     "boosts_en_ligne": 13,
-     "cotes_modifiees": 2,
-     "nouveaux": 0
-    }
-   },
-   "cerveau": {
-    "boosts_observes": 341,
-    "decisions_enregistrees": 2,
-    "nouveaux_boosts": 0
-   },
-   "date": "2026-10-18T09:58:18+00:00",
-   "evaluation": {
-    "approx": 6,
-    "decomposes": 0,
-    "echecs_decomposition": 0,
-    "evalues": 23,
-    "exactes": 0,
-    "non_evaluables": 17,
-    "requetes_pulsescore": 13
-   },
-   "long_terme_winamax_corriges": 0,
-   "octets_proxy": 847996,
-   "recherche": {
-    "reglements": 289,
-    "version": "replay-v1"
-   },
-   "reglement": {
-    "erreurs": 0,
-    "fournisseur": "openai",
-    "inconnus": 1,
-    "jetons": {
-     "gpt-6.1-sol": {
-      "entree": 20923,
-      "sortie": 243
-     }
-    },
-    "recherches": 2,
-    "regles": 0,
-    "soumis": 1
-   },
-   "reglements_manuels": 0,
-   "requetes": 20
   }
  ],
- "octets_proxy_total": 328038939
+ "octets_proxy_total": 328727099
 }
