@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 534,
+   "abstention": 535,
    "ecarter": 43,
    "hors_perimetre": 55,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-25T09:16:05+00:00",
+  "derniere_observation": "2026-10-25T10:15:14+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 55,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 279,
+   "reference_absente": 280,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 633,
+  "observes": 634,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-25T09:16:05+00:00",
+ "derniere_observation": "2026-10-25T10:15:14+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -4265,6 +4265,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-25T07:17:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 8.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 3.24,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T10:15:14+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -11299,6 +11325,43 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|196152138|733785457": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-25T20:05:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 20.0,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T10:15:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196152138|733785457",
+   "match": "La Rochelle - Bordeaux",
+   "pari": "La Rochelle gagne et le duo D.Niniashvili/L.Bielle-Biarrey marque au moins 1 essai",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "unibet|196152521|733787128": {
    "bookmaker": "Unibet",

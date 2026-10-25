@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-25T09:18:15+00:00",
+ "derniere_observation": "2026-10-25T10:17:23+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1429,6 +1429,15 @@
      "date": "2026-10-25T08:18:03+00:00",
      "ev_modele_pct": null,
      "id": "unibet|196151138|733778082",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|196152138|733785457": {
+     "date": "2026-10-25T10:16:39+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|196152138|733785457",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -5396,6 +5405,15 @@
      "p_modele": 0.534745,
      "regle": null
     },
+    "unibet|196152138|733785457": {
+     "date": "2026-10-25T10:16:39+00:00",
+     "ev_modele_pct": 0.421,
+     "id": "unibet|196152138|733785457",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.41842,
+     "regle": null
+    },
     "unibet|196152521|733787128": {
      "date": "2026-10-25T09:17:32+00:00",
      "ev_modele_pct": -18.657,
@@ -9358,6 +9376,15 @@
      "p_modele": 0.534745,
      "regle": null
     },
+    "unibet|196152138|733785457": {
+     "date": "2026-10-25T10:16:39+00:00",
+     "ev_modele_pct": 0.421,
+     "id": "unibet|196152138|733785457",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.41842,
+     "regle": null
+    },
     "unibet|196152521|733787128": {
      "date": "2026-10-25T09:17:32+00:00",
      "ev_modele_pct": -18.657,
@@ -13318,6 +13345,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.534745,
+     "regle": null
+    },
+    "unibet|196152138|733785457": {
+     "date": "2026-10-25T10:16:39+00:00",
+     "ev_modele_pct": 0.421,
+     "id": "unibet|196152138|733785457",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.41842,
      "regle": null
     },
     "unibet|196152521|733787128": {
@@ -19878,6 +19914,22 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_vue": "2026-10-25T08:17:00+00:00",
    "sport": "Tennis"
+  },
+  "unibet|196152138|733785457": {
+   "available_at": "2026-10-25T10:16:39+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.4,
+   "cote_origine": 2.0,
+   "debut": "2026-10-25T20:05:00.000Z",
+   "disponible": true,
+   "id": "unibet|196152138|733785457",
+   "long_terme": false,
+   "match": "La Rochelle - Bordeaux",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "La Rochelle gagne et le duo D.Niniashvili/L.Bielle-Biarrey marque au moins 1 essai",
+   "premiere_vue": "2026-10-25T10:15:14+00:00",
+   "sport": "Rugby"
   },
   "unibet|196152521|733787128": {
    "available_at": "2026-10-25T09:17:32+00:00",
