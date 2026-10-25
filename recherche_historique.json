@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-25T19:05:20+00:00",
+ "derniere_observation": "2026-10-25T19:45:59+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -169,6 +169,24 @@
      "date": "2026-10-23T14:34:10+00:00",
      "ev_modele_pct": null,
      "id": "betsson|94457895.1|396040760.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|94678690.1|396857642.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|94678690.1|396857642.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|94678788.1|396858038.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|94678788.1|396858038.1",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4289,6 +4307,24 @@
      "p_modele": 0.387396,
      "regle": null
     },
+    "betsson|94678690.1|396857642.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 42.032,
+     "id": "betsson|94678690.1|396857642.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.507255,
+     "regle": null
+    },
+    "betsson|94678788.1|396858038.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 24.668,
+     "id": "betsson|94678788.1|396858038.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.656148,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -8404,6 +8440,24 @@
      "p_modele": 0.387396,
      "regle": null
     },
+    "betsson|94678690.1|396857642.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 42.032,
+     "id": "betsson|94678690.1|396857642.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.507255,
+     "regle": null
+    },
+    "betsson|94678788.1|396858038.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 24.668,
+     "id": "betsson|94678788.1|396858038.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.656148,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -12517,6 +12571,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.387396,
+     "regle": null
+    },
+    "betsson|94678690.1|396857642.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 42.032,
+     "id": "betsson|94678690.1|396857642.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.507255,
+     "regle": null
+    },
+    "betsson|94678788.1|396858038.1": {
+     "date": "2026-10-25T19:45:16+00:00",
+     "ev_modele_pct": 24.668,
+     "id": "betsson|94678788.1|396858038.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.656148,
      "regle": null
     },
     "genybet|12255022|4841413055": {
@@ -16840,6 +16912,38 @@
    "pari": "Maghnes Akliouche Buteur!",
    "premiere_vue": "2026-10-23T14:33:26+00:00",
    "sport": "Football"
+  },
+  "betsson|94678690.1|396857642.1": {
+   "available_at": "2026-10-25T19:45:16+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.45,
+   "debut": "2026-10-26T13:40+00:00",
+   "disponible": true,
+   "id": "betsson|94678690.1|396857642.1",
+   "long_terme": false,
+   "match": "Rune, Holger - Halys, Quentin",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Holger Rune gagne 2-0",
+   "premiere_vue": "2026-10-25T19:44:47+00:00",
+   "sport": "Tennis"
+  },
+  "betsson|94678788.1|396858038.1": {
+   "available_at": "2026-10-25T19:45:16+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 1.9,
+   "cote_origine": 1.77,
+   "debut": "2026-10-27T11:00+00:00",
+   "disponible": true,
+   "id": "betsson|94678788.1|396858038.1",
+   "long_terme": false,
+   "match": "Djokovic, Novak - Humbert, Ugo",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Novak Djokovic gagne 2-0",
+   "premiere_vue": "2026-10-25T19:44:47+00:00",
+   "sport": "Tennis"
   },
   "genybet|12255022|4841413055": {
    "available_at": "2026-10-15T16:08:04+00:00",
