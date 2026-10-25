@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-25T10:17:23+00:00",
+ "derniere_observation": "2026-10-25T11:16:06+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -3967,6 +3967,15 @@
      "date": "2026-10-25T09:17:32+00:00",
      "ev_modele_pct": null,
      "id": "winamax|727355720|2254214011",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|727434515|2254416163": {
+     "date": "2026-10-25T11:15:25+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|727434515|2254416163",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7942,6 +7951,15 @@
      "mise": null,
      "p_modele": 0.245,
      "regle": null
+    },
+    "winamax|727434515|2254416163": {
+     "date": "2026-10-25T11:15:25+00:00",
+     "ev_modele_pct": -16.785,
+     "id": "winamax|727434515|2254416163",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.237756,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -11913,6 +11931,15 @@
      "mise": null,
      "p_modele": 0.245,
      "regle": null
+    },
+    "winamax|727434515|2254416163": {
+     "date": "2026-10-25T11:15:25+00:00",
+     "ev_modele_pct": -16.785,
+     "id": "winamax|727434515|2254416163",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.237756,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -15883,6 +15910,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.245,
+     "regle": null
+    },
+    "winamax|727434515|2254416163": {
+     "date": "2026-10-25T11:15:25+00:00",
+     "ev_modele_pct": -16.785,
+     "id": "winamax|727434515|2254416163",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.237756,
      "regle": null
     }
    }
@@ -26593,6 +26629,22 @@
    "pari": "Bayern Munich gagne par au moins 3 buts d'écart",
    "premiere_vue": "2026-10-25T09:16:05+00:00",
    "sport": "Football"
+  },
+  "winamax|727434515|2254416163": {
+   "available_at": "2026-10-25T11:15:25+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.0,
+   "debut": "2026-10-25T21:10+00:00",
+   "disponible": true,
+   "id": "winamax|727434515|2254416163",
+   "long_terme": false,
+   "match": "Utah Jazz - Los Angeles Lakers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Luka Doncic réalise une performance points + rebonds + passes décisives d'au moins 55",
+   "premiere_vue": "2026-10-25T11:14:27+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 535,
+   "abstention": 536,
    "ecarter": 43,
    "hors_perimetre": 55,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-25T10:15:14+00:00",
+  "derniere_observation": "2026-10-25T11:14:27+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 55,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 280,
+   "reference_absente": 281,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 634,
+  "observes": 635,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-25T10:15:14+00:00",
+ "derniere_observation": "2026-10-25T11:14:27+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -35030,6 +35030,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.45,
+      "hausse_pct": 10.1,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T11:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|727211691|2253779865",
@@ -35407,6 +35433,43 @@
    "pari": "Bayern Munich gagne par au moins 3 buts d'écart",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|727434515|2254416163": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-25T21:10+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 16.7,
+      "horizon_heures": 9.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T11:14:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|727434515|2254416163",
+   "match": "Utah Jazz - Los Angeles Lakers",
+   "pari": "Luka Doncic réalise une performance points + rebonds + passes décisives d'au moins 55",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
