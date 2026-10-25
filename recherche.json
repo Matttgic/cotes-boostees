@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-25T11:16:06+00:00",
+ "derniere_observation": "2026-10-25T12:14:47+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 657,
+ "observations": 659,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -7637,6 +7637,30 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.333333,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.408163,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.342466,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -14142,6 +14166,30 @@
        "motif": "filtre",
        "p_modele": 0.237756,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -9.602,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.32285,
+       "p_prior": 0.408163,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -14.168,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.245234,
+       "p_prior": 0.342466,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -20959,6 +21007,30 @@
        "p_prior": 0.333333,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -9.602,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.32285,
+       "p_prior": 0.408163,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -14.168,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.245234,
+       "p_prior": 0.342466,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -27180,6 +27252,30 @@
        "motif": "filtre",
        "p_modele": 0.237756,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -9.602,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.32285,
+       "p_prior": 0.408163,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -14.168,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.245234,
+       "p_prior": 0.342466,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -34911,6 +35007,30 @@
        "p_prior": 0.333333,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.408163,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.342466,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -42229,6 +42349,30 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": null,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196156973|733807076",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.408163,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-25T12:14:02+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|727461650|2254500991",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.342466,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -50917,6 +51061,30 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.333333,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.408163,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.342466,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -60055,6 +60223,30 @@
       "motif": "filtre",
       "p_modele": 0.237756,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -9.602,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.32285,
+      "p_prior": 0.408163,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -14.168,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.245234,
+      "p_prior": 0.342466,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -70072,6 +70264,30 @@
       "p_prior": 0.333333,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -9.602,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.32285,
+      "p_prior": 0.408163,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -14.168,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.245234,
+      "p_prior": 0.342466,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -78584,6 +78800,30 @@
       "motif": "filtre",
       "p_modele": 0.237756,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -9.602,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.32285,
+      "p_prior": 0.408163,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -14.168,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.245234,
+      "p_prior": 0.342466,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -88987,6 +89227,30 @@
       "p_prior": 0.333333,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.408163,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.342466,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -98573,6 +98837,30 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196156973|733807076",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.408163,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-25T12:14:02+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|727461650|2254500991",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.342466,
       "regle": null,
       "regles_entrainement": 288
      }

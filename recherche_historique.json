@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-25T11:16:06+00:00",
+ "derniere_observation": "2026-10-25T12:14:47+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1447,6 +1447,15 @@
      "date": "2026-10-25T09:17:32+00:00",
      "ev_modele_pct": null,
      "id": "unibet|196152521|733787128",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|196156973|733807076": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|196156973|733807076",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -3980,6 +3989,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|727461650|2254500991": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|727461650|2254500991",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -5430,6 +5448,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.266699,
+     "regle": null
+    },
+    "unibet|196156973|733807076": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -9.602,
+     "id": "unibet|196156973|733807076",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.32285,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -7960,6 +7987,15 @@
      "mise": null,
      "p_modele": 0.237756,
      "regle": null
+    },
+    "winamax|727461650|2254500991": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -14.168,
+     "id": "winamax|727461650|2254500991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.245234,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -9410,6 +9446,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.266699,
+     "regle": null
+    },
+    "unibet|196156973|733807076": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -9.602,
+     "id": "unibet|196156973|733807076",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.32285,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -11940,6 +11985,15 @@
      "mise": null,
      "p_modele": 0.237756,
      "regle": null
+    },
+    "winamax|727461650|2254500991": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -14.168,
+     "id": "winamax|727461650|2254500991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.245234,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -13390,6 +13444,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.266699,
+     "regle": null
+    },
+    "unibet|196156973|733807076": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -9.602,
+     "id": "unibet|196156973|733807076",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.32285,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -15919,6 +15982,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.237756,
+     "regle": null
+    },
+    "winamax|727461650|2254500991": {
+     "date": "2026-10-25T12:14:02+00:00",
+     "ev_modele_pct": -14.168,
+     "id": "winamax|727461650|2254500991",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.245234,
      "regle": null
     }
    }
@@ -19982,6 +20054,22 @@
    "pari": "M.Verstappen réalise le tour le plus rapide ?",
    "premiere_vue": "2026-10-25T09:16:05+00:00",
    "sport": "Formule 1"
+  },
+  "unibet|196156973|733807076": {
+   "available_at": "2026-10-25T12:14:02+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.45,
+   "debut": "2026-10-25T13:30:00.000Z",
+   "disponible": true,
+   "id": "unibet|196156973|733807076",
+   "long_terme": false,
+   "match": "NO Saints - PIT Steelers",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "NFL PARIS - Kendre Miller et Jaylen Warren marquent 2 touchdowns ou plus en cumulé",
+   "premiere_vue": "2026-10-25T12:13:33+00:00",
+   "sport": "Foot américain"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -26644,6 +26732,22 @@
    "mise_max_supposee": null,
    "pari": "Luka Doncic réalise une performance points + rebonds + passes décisives d'au moins 55",
    "premiere_vue": "2026-10-25T11:14:27+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|727461650|2254500991": {
+   "available_at": "2026-10-25T12:14:02+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 2.92,
+   "debut": "2026-10-25T23:10+00:00",
+   "disponible": true,
+   "id": "winamax|727461650|2254500991",
+   "long_terme": false,
+   "match": "NBA",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "A. Edwards, J. Brunson et S. Gilgeous-Alexander marquent au moins 25 points chacun (respectivement contre Toronto Raptors, Orlando Magic et Los Angeles Clippers)",
+   "premiere_vue": "2026-10-25T12:13:33+00:00",
    "sport": "Basketball"
   }
  },
