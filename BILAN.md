@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 25/10 18h05 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 25/10 19h05 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -185,13 +185,13 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 378 en attente · cote moy
 | 25/10 21h05 · La Rochelle - Bordeaux-Bègles | La Rochelle gagne et plus de 52,5 points dans le match | 2,6 | – | – | 20 € | ⏳ |
 | 25/10 21h00 · GP Etats-Unis 2026 | M.Verstappen réalise le tour le plus rapide ? | 3,05 | – | – | 25 € | ⏳ |
 | 25/10 21h00 · FC Barcelone - Real Madrid | Le trio K.Mbappé / L.Yamal / Raphinha marque plus de 2,5 buts (remboursé si non titulaires) | 2,6 | – | – | 25 € | ⏳ |
-| 25/10 21h00 · FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €) | FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €) | 2,25 | – | – | 10 € | ⏳ |
 | 25/10 21h00 · Grand Prix des Etats-Unis | Charles Leclerc termine dans le Top 2 | 3,3 | – | – | 20 € | ⏳ |
 | 25/10 21h00 · FC Barcelone - Real Madrid | Lamine Yamal marque 2 buts ou plus | 6,0 | – | – | 20 € | ⏳ |
 | 25/10 21h00 · FC Barcelone - Real Madrid | Real Madrid gagne et Kylian Mbappe marque au moins 2+ buts | 10,0 | – | – | 2.77 € | ⏳ |
 | 25/10 21h00 · FC Barcelone - Real Madrid | FC Barcelone gagne et Raphinha marque au moins 2+ buts | 5,25 | – | – | 5.88 € | ⏳ |
 | 25/10 21h00 · FC Barcelone - Real Madrid | Lamine Yamal marque au moins 1+ buts et fait au moins 1+ passes décisives | 4,75 | – | – | 6.66 € | ⏳ |
 | 25/10 21h00 · FC Barcelone / Real Madrid : Mbappé ou Yamal : premier buteur ? | FC Barcelone / Real Madrid : Mbappé ou Yamal : premier buteur ? | 3,0 | – | – | 10 € | ⏳ |
+| 25/10 21h00 · FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €) | FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €) | 2,25 | – | – | 10 € | ⏳ |
 | 25/10 20h45 · Udinese - Milan AC | Milan AC gagne et les deux équipes marquent | 4,0 | – | – | 20 € | ⏳ |
 | 25/10 18h00 · Synerglace Ligue Magnus | Plus de 4,5 buts lors de chacun des matchs suivants : Anglet - Marseille, Amiens - Bordeaux et Gap - Nice (prol. et TAB inclus) | 2,3 | – | – | 20 € | ⏳ |
 | 25/10 18h00 · Lecce - Juventus | Juventus marque dans les deux mi-temps | 2,4 | – | – | 20 € | ⏳ |
