@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 545,
+   "abstention": 549,
    "ecarter": 43,
    "hors_perimetre": 55,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-25T14:39:09+00:00",
+  "derniere_observation": "2026-10-25T15:38:12+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 55,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 290,
+   "reference_absente": 294,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 644,
+  "observes": 648,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-25T14:39:09+00:00",
+ "derniere_observation": "2026-10-25T15:38:12+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -11549,6 +11549,43 @@
    "id": "unibet|196174734|733882729",
    "match": "UTA Jazz - LA Lakers",
    "pari": "NBA - Luka Doncic compile 30pts ou +, 7rbds ou +, 7passes ou +",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|196181383|733909450": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-25T21:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 14.5,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T15:38:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196181383|733909450",
+   "match": "UTA Jazz - LA Lakers",
+   "pari": "NBA - Luka Doncic : 30 points ou +, 7 rebonds ou +, 7 passes ou +",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -35826,6 +35863,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 4.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T15:38:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|727593170|2254897619",
@@ -35907,6 +35970,117 @@
    "pari": "Juventus marque dans les deux mi-temps",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|727598639|2254914895": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-25T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 10.0,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T15:38:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|727598639|2254914895",
+   "match": "Grand Prix des Etats-Unis",
+   "pari": "Charles Leclerc termine dans le Top 2",
+   "premiere_selection": null,
+   "sport": "Formule 1"
+  },
+  "winamax|727614921|2254964650": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-25T17:00+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.937,
+      "hausse_pct": 18.7,
+      "horizon_heures": 1.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T15:38:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|727614921|2254964650",
+   "match": "Synerglace Ligue Magnus",
+   "pari": "Plus de 4,5 buts lors de chacun des matchs suivants : Anglet - Marseille, Amiens - Bordeaux et Gap - Nice (prol. et TAB inclus)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|727620368|2254982163": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-25T20:05+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 10.6,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T15:38:12+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|727620368|2254982163",
+   "match": "La Rochelle - Bordeaux-Bègles",
+   "pari": "La Rochelle gagne et plus de 52,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
   }
  },
  "modele": "observation-v1",
