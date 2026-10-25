@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 549,
+   "abstention": 551,
    "ecarter": 43,
    "hors_perimetre": 55,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-25T16:37:24+00:00",
+  "derniere_observation": "2026-10-25T17:05:59+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 55,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 294,
+   "reference_absente": 296,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 648,
+  "observes": 650,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-25T16:37:24+00:00",
+ "derniere_observation": "2026-10-25T17:05:59+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2088,6 +2088,43 @@
    "id": "genybet|12299217|4882914520",
    "match": "Chelsea / Tottenham : Les 2 équipes marquent (mise max 10 €)",
    "pari": "Chelsea / Tottenham : Les 2 équipes marquent (mise max 10 €)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12299218|4886651144": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-25T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T17:05:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12299218|4886651144",
+   "match": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
+   "pari": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -36185,6 +36222,43 @@
    "pari": "La Rochelle gagne et plus de 52,5 points dans le match",
    "premiere_selection": null,
    "sport": "Rugby à XV"
+  },
+  "winamax|727708158|2255268359": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-26T00:20+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 17.6,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-25T17:05:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|727708158|2255268359",
+   "match": "Seattle Seahawks - Kansas City Chiefs",
+   "pari": "Kenneth Walker Ill marque au moins un touchdown et Kansas City Chiefs gagne",
+   "premiere_selection": null,
+   "sport": "Football Américain"
   }
  },
  "modele": "observation-v1",

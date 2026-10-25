@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-25T16:38:55+00:00",
+ "derniere_observation": "2026-10-25T17:07:25+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -250,6 +250,15 @@
      "date": "2026-10-24T15:44:17+00:00",
      "ev_modele_pct": null,
      "id": "genybet|12299217|4882914520",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "genybet|12299218|4886651144": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": null,
+     "id": "genybet|12299218|4886651144",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4097,6 +4106,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|727708158|2255268359": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|727708158|2255268359",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -4350,6 +4368,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299218|4886651144": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -9.417,
+     "id": "genybet|12299218|4886651144",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.402591,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -8194,6 +8221,15 @@
      "mise": null,
      "p_modele": 0.338594,
      "regle": null
+    },
+    "winamax|727708158|2255268359": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -20.907,
+     "id": "winamax|727708158|2255268359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263644,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -8447,6 +8483,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299218|4886651144": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -9.417,
+     "id": "genybet|12299218|4886651144",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.402591,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -12291,6 +12336,15 @@
      "mise": null,
      "p_modele": 0.338594,
      "regle": null
+    },
+    "winamax|727708158|2255268359": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -20.907,
+     "id": "winamax|727708158|2255268359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263644,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -12544,6 +12598,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.580644,
+     "regle": null
+    },
+    "genybet|12299218|4886651144": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -9.417,
+     "id": "genybet|12299218|4886651144",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.402591,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -16388,6 +16451,15 @@
      "mise": null,
      "p_modele": 0.338594,
      "regle": null
+    },
+    "winamax|727708158|2255268359": {
+     "date": "2026-10-25T17:06:42+00:00",
+     "ev_modele_pct": -20.907,
+     "id": "winamax|727708158|2255268359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.263644,
+     "regle": null
     }
    }
   }
@@ -16911,6 +16983,22 @@
    "mise_max_supposee": false,
    "pari": "Chelsea / Tottenham : Les 2 équipes marquent (mise max 10 €)",
    "premiere_vue": "2026-10-24T15:43:11+00:00",
+   "sport": "Football"
+  },
+  "genybet|12299218|4886651144": {
+   "available_at": "2026-10-25T17:06:42+00:00",
+   "bookmaker": "Genybet",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": null,
+   "debut": "2026-10-25T20:00+00:00",
+   "disponible": true,
+   "id": "genybet|12299218|4886651144",
+   "long_terme": false,
+   "match": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
+   "premiere_vue": "2026-10-25T17:05:59+00:00",
    "sport": "Football"
   },
   "netbet|12231955|7443639753": {
@@ -27321,6 +27409,22 @@
    "pari": "La Rochelle gagne et plus de 52,5 points dans le match",
    "premiere_vue": "2026-10-25T15:38:12+00:00",
    "sport": "Rugby à XV"
+  },
+  "winamax|727708158|2255268359": {
+   "available_at": "2026-10-25T17:06:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.55,
+   "debut": "2026-10-26T00:20+00:00",
+   "disponible": true,
+   "id": "winamax|727708158|2255268359",
+   "long_terme": false,
+   "match": "Seattle Seahawks - Kansas City Chiefs",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Kenneth Walker Ill marque au moins un touchdown et Kansas City Chiefs gagne",
+   "premiere_vue": "2026-10-25T17:05:59+00:00",
+   "sport": "Football Américain"
   }
  },
  "resultats": [
