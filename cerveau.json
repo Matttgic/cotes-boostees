@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 581,
+   "abstention": 584,
    "ecarter": 43,
    "hors_perimetre": 56,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-26T14:48:29+00:00",
+  "derniere_observation": "2026-10-26T15:16:46+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 56,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 326,
+   "reference_absente": 329,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 681,
+  "observes": 684,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-26T14:48:29+00:00",
+ "derniere_observation": "2026-10-26T15:16:46+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -37666,6 +37666,117 @@
    "pari": "Stephen Curry termine meilleur marqueur du match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|728350112|2257291453": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-27T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 11.8,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T15:16:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|728350112|2257291453",
+   "match": "Oklahoma City Thunder - Phoenix Suns",
+   "pari": "Shai Gilgeous-Alexander marque au moins 30 points et distribue au moins 7 passes décisives",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|728353109|2257299880": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-27T00:10+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 14.5,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T15:16:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|728353109|2257299880",
+   "match": "Golden State Valkyries - Atlanta Dream",
+   "pari": "Angel Reese marque au moins 15 points et Atlanta Dream gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|728361142|2257327855": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-26T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T15:16:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|728361142|2257327855",
+   "match": "Santa Clara - Benfica",
+   "pari": "Benfica gagne par au moins 3 buts d'écart",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
