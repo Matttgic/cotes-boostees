@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-26T11:52:31+00:00",
+ "derniere_observation": "2026-10-26T12:51:41+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4318,6 +4318,15 @@
      "date": "2026-10-26T11:51:49+00:00",
      "ev_modele_pct": null,
      "id": "winamax|728241003|2256978882",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728245632|2256991271": {
+     "date": "2026-10-26T12:50:55+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728245632|2256991271",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -8644,6 +8653,15 @@
      "mise": null,
      "p_modele": 0.33857,
      "regle": null
+    },
+    "winamax|728245632|2256991271": {
+     "date": "2026-10-26T12:50:55+00:00",
+     "ev_modele_pct": -8.79,
+     "id": "winamax|728245632|2256991271",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.2606,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -12966,6 +12984,15 @@
      "mise": null,
      "p_modele": 0.33857,
      "regle": null
+    },
+    "winamax|728245632|2256991271": {
+     "date": "2026-10-26T12:50:55+00:00",
+     "ev_modele_pct": -8.79,
+     "id": "winamax|728245632|2256991271",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.2606,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -17287,6 +17314,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.33857,
+     "regle": null
+    },
+    "winamax|728245632|2256991271": {
+     "date": "2026-10-26T12:50:55+00:00",
+     "ev_modele_pct": -8.79,
+     "id": "winamax|728245632|2256991271",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.2606,
      "regle": null
     }
    }
@@ -28636,6 +28672,22 @@
    "mise_max_supposee": null,
    "pari": "Mohamed Salah buteur et Trabzonspor gagne",
    "premiere_vue": "2026-10-26T11:51:03+00:00",
+   "sport": "Football"
+  },
+  "winamax|728245632|2256991271": {
+   "available_at": "2026-10-26T12:50:55+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.2,
+   "debut": "2026-10-26T16:00+00:00",
+   "disponible": true,
+   "id": "winamax|728245632|2256991271",
+   "long_terme": false,
+   "match": "Besiktas - Istanbul Basaksehir",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Besiktas gagne le match 1:0, 2:0 ou 3:0",
+   "premiere_vue": "2026-10-26T12:50:13+00:00",
    "sport": "Football"
   }
  },
