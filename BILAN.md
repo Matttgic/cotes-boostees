@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 26/10 16h16 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 26/10 17h16 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -112,8 +112,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 412 en attente · cote moy
 | 20 € | 228 / 467 | 4560 € | -361,00 € | -7,9 % | 29 % |
 | 20.83 € | 1 / 1 | 21 € | +25,00 € | +120,0 % | 100 % |
 | 23.8 € | 0 / 1 | 0 € | +0,00 € | – | – |
-| 25 € | 52 / 164 | 1300 € | +31,25 € | +2,4 % | 39 % |
-| 26.31 € | 0 / 1 | 0 € | +0,00 € | – | – |
+| 25 € | 52 / 165 | 1300 € | +31,25 € | +2,4 % | 39 % |
 | 3.12 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 3.22 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 3.84 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -199,7 +198,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 412 en attente · cote moy
 | 26/10 19h30 · Paris SG - Lyon | Paris SG gagne sans encaiser de but & D. Doué passeur décisif | 7,0 | – | – | 4.16 € | ⏳ |
 | 26/10 19h30 · Paris SG - Lyon | Paris SG gagne par 3 buts ou plus | 3,3 | – | – | 10.86 € | ⏳ |
 | 26/10 19h00 · L. Van Assche - L. Tien | Van Assche gagne & les 2 joueurs remportent un set | 6,0 | – | – | 5 € | ⏳ |
-| 26/10 19h00 · D. Stricker - C. Ruud | Ruud gagne 2 sets à 0 | 2,25 | – | – | 26.31 € | ⏳ |
+| 26/10 19h00 · D. Stricker - C. Ruud | Ruud gagne 2 sets à 0 | 2,25 | – | – | 25 € | ⏳ |
 | 26/10 18h40 · Luciano Darderi - Matteo Arnaldi | Matteo Arnaldi gagne 2-1 | 4,0 | – | – | 20 € | ⏳ |
 | 26/10 18h30 · Duo buteur | Le duo V. Osimhen & V. Muriqi marque 2 buts ou plus | 3,0 | – | – | 12.5 € | ⏳ |
 | 26/10 17h00 · Besiktas - Istanbul Basaksehir | Besiktas gagne le match 1:0, 2:0 ou 3:0 | 3,5 | – | – | 20 € | ⏳ |
