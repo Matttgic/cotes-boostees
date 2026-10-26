@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-26T02:18:25+00:00",
+ "derniere_observation": "2026-10-26T03:17:41+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4129,6 +4129,24 @@
      "date": "2026-10-25T17:06:42+00:00",
      "ev_modele_pct": null,
      "id": "winamax|727708158|2255268359",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728026229|2256365269": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728026229|2256365269",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728032356|2256386344": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728032356|2256386344",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -8266,6 +8284,24 @@
      "mise": null,
      "p_modele": 0.263644,
      "regle": null
+    },
+    "winamax|728026229|2256365269": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|728026229|2256365269",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|728032356|2256386344": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": -25.231,
+     "id": "winamax|728032356|2256386344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.287572,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -12399,6 +12435,24 @@
      "mise": null,
      "p_modele": 0.263644,
      "regle": null
+    },
+    "winamax|728026229|2256365269": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|728026229|2256365269",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|728032356|2256386344": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": -25.231,
+     "id": "winamax|728032356|2256386344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.287572,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -16531,6 +16585,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.263644,
+     "regle": null
+    },
+    "winamax|728026229|2256365269": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": 33.859,
+     "id": "winamax|728026229|2256365269",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411874,
+     "regle": null
+    },
+    "winamax|728032356|2256386344": {
+     "date": "2026-10-26T03:16:57+00:00",
+     "ev_modele_pct": -25.231,
+     "id": "winamax|728032356|2256386344",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.287572,
      "regle": null
     }
    }
@@ -27529,6 +27601,38 @@
    "pari": "Kenneth Walker Ill marque au moins un touchdown et Kansas City Chiefs gagne",
    "premiere_vue": "2026-10-25T17:05:59+00:00",
    "sport": "Football Américain"
+  },
+  "winamax|728026229|2256365269": {
+   "available_at": "2026-10-26T03:16:57+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.75,
+   "debut": "2026-10-26T13:40+00:00",
+   "disponible": true,
+   "id": "winamax|728026229|2256365269",
+   "long_terme": false,
+   "match": "Holger Rune - Quentin Halys",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Quentin Halys gagne 2-0",
+   "premiere_vue": "2026-10-26T03:16:32+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|728032356|2256386344": {
+   "available_at": "2026-10-26T03:16:57+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.6,
+   "cote_origine": 2.4,
+   "debut": "2026-10-26T09:30+00:00",
+   "disponible": true,
+   "id": "winamax|728032356|2256386344",
+   "long_terme": false,
+   "match": "Samsung Lions - KIA Tigers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 10,5 runs lors du match",
+   "premiere_vue": "2026-10-26T03:16:32+00:00",
+   "sport": "Baseball"
   }
  },
  "resultats": [
