@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 566,
+   "abstention": 573,
    "ecarter": 43,
    "hors_perimetre": 56,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-26T09:52:47+00:00",
+  "derniere_observation": "2026-10-26T10:51:51+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 56,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 311,
+   "reference_absente": 318,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 666,
+  "observes": 673,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-26T09:52:47+00:00",
+ "derniere_observation": "2026-10-26T10:51:51+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -4826,6 +4826,265 @@
    "id": "olybet|31346811|7395550043",
    "match": "Fribourg - Bayern Munich",
    "pari": "Bayern Munich remporte les deux mi-temps et Michael Olise fait une passe décisive",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31356958|7401053211": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T13:00+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.1,
+      "long_terme": false,
+      "mise_max": 7.14,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31356958|7401053211",
+   "match": "H. Rune - Q. Halys",
+   "pari": "Halys gagne & plus de 21.5 aces dans le match ( 26.10.2026)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31356982|7401058467": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T18:00+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31356982|7401058467",
+   "match": "D. Stricker - C. Ruud",
+   "pari": "Ruud gagne 2 sets à 0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31356985|7401064559": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T18:00+00:00",
+   "historique": [
+    {
+     "cote": 6.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 5.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31356985|7401064559",
+   "match": "L. Van Assche - L. Tien",
+   "pari": "Van Assche gagne & les 2 joueurs remportent un set",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31357000|7401074111": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T18:30+00:00",
+   "historique": [
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.6,
+      "long_terme": false,
+      "mise_max": 10.86,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31357000|7401074111",
+   "match": "Paris SG - Lyon",
+   "pari": "Paris SG gagne par 3 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31357011|7401077685": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T18:30+00:00",
+   "historique": [
+    {
+     "cote": 7.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.6,
+      "long_terme": false,
+      "mise_max": 4.16,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31357011|7401077685",
+   "match": "Paris SG - Lyon",
+   "pari": "Paris SG gagne sans encaiser de but & D. Doué passeur décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31357023|7401083274": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T17:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 12.5,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31357023|7401083274",
+   "match": "Duo buteur",
+   "pari": "Le duo V. Osimhen & V. Muriqi marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31357046|7401086564": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-26T15:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 11.11,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31357046|7401086564",
+   "match": "Caykur Rizespor - Trabzonspor",
+   "pari": "Trabzonspor gagne & M. Salah buteur",
    "premiere_selection": null,
    "sport": "Football"
   },
