@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-26T10:53:29+00:00",
+ "derniere_observation": "2026-10-26T11:52:31+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4309,6 +4309,15 @@
      "date": "2026-10-26T08:54:28+00:00",
      "ev_modele_pct": null,
      "id": "winamax|728139013|2256711522",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728241003|2256978882": {
+     "date": "2026-10-26T11:51:49+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728241003|2256978882",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -8626,6 +8635,15 @@
      "mise": null,
      "p_modele": 0.236243,
      "regle": null
+    },
+    "winamax|728241003|2256978882": {
+     "date": "2026-10-26T11:51:49+00:00",
+     "ev_modele_pct": -6.893,
+     "id": "winamax|728241003|2256978882",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33857,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -12939,6 +12957,15 @@
      "mise": null,
      "p_modele": 0.236243,
      "regle": null
+    },
+    "winamax|728241003|2256978882": {
+     "date": "2026-10-26T11:51:49+00:00",
+     "ev_modele_pct": -6.893,
+     "id": "winamax|728241003|2256978882",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33857,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -17251,6 +17278,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.236243,
+     "regle": null
+    },
+    "winamax|728241003|2256978882": {
+     "date": "2026-10-26T11:51:49+00:00",
+     "ev_modele_pct": -6.893,
+     "id": "winamax|728241003|2256978882",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.33857,
      "regle": null
     }
    }
@@ -28585,6 +28621,22 @@
    "pari": "George Pickens marque au moins un touchdown et Dallas Cowboys gagne",
    "premiere_vue": "2026-10-26T08:53:33+00:00",
    "sport": "Football Américain"
+  },
+  "winamax|728241003|2256978882": {
+   "available_at": "2026-10-26T11:51:49+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.5,
+   "debut": "2026-10-26T16:00+00:00",
+   "disponible": true,
+   "id": "winamax|728241003|2256978882",
+   "long_terme": false,
+   "match": "Rizespor - Trabzonspor",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Mohamed Salah buteur et Trabzonspor gagne",
+   "premiere_vue": "2026-10-26T11:51:03+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
