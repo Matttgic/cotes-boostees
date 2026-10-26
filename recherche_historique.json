@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-26T16:17:36+00:00",
+ "derniere_observation": "2026-10-26T17:16:46+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -286,6 +286,15 @@
      "date": "2026-10-25T17:06:42+00:00",
      "ev_modele_pct": null,
      "id": "genybet|12299218|4886651144",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "genybet|12315814|4889631424": {
+     "date": "2026-10-26T17:16:01+00:00",
+     "ev_modele_pct": null,
+     "id": "genybet|12315814|4889631424",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -4703,6 +4712,15 @@
      "p_modele": 0.402591,
      "regle": null
     },
+    "genybet|12315814|4889631424": {
+     "date": "2026-10-26T17:16:01+00:00",
+     "ev_modele_pct": -9.847,
+     "id": "genybet|12315814|4889631424",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.360611,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -9115,6 +9133,15 @@
      "p_modele": 0.402591,
      "regle": null
     },
+    "genybet|12315814|4889631424": {
+     "date": "2026-10-26T17:16:01+00:00",
+     "ev_modele_pct": -9.847,
+     "id": "genybet|12315814|4889631424",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.360611,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -13525,6 +13552,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.402591,
+     "regle": null
+    },
+    "genybet|12315814|4889631424": {
+     "date": "2026-10-26T17:16:01+00:00",
+     "ev_modele_pct": -9.847,
+     "id": "genybet|12315814|4889631424",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.360611,
      "regle": null
     },
     "netbet|12231955|7443639753": {
@@ -18235,6 +18271,22 @@
    "mise_max_supposee": false,
    "pari": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
    "premiere_vue": "2026-10-25T17:05:59+00:00",
+   "sport": "Football"
+  },
+  "genybet|12315814|4889631424": {
+   "available_at": "2026-10-26T17:16:01+00:00",
+   "bookmaker": "Genybet",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": null,
+   "debut": "2026-10-26T19:30+00:00",
+   "disponible": true,
+   "id": "genybet|12315814|4889631424",
+   "long_terme": false,
+   "match": "Désiré Doué - Lyon",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "Désiré Doué (vs Lyon) buteur ou son remplaçant (mise max 10 €)",
+   "premiere_vue": "2026-10-26T17:15:18+00:00",
    "sport": "Football"
   },
   "netbet|12231955|7443639753": {

@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 584,
+   "abstention": 585,
    "ecarter": 43,
    "hors_perimetre": 56,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-26T16:16:03+00:00",
+  "derniere_observation": "2026-10-26T17:15:18+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 56,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 329,
+   "reference_absente": 330,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 684,
+  "observes": 685,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-26T16:16:03+00:00",
+ "derniere_observation": "2026-10-26T17:15:18+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2236,6 +2236,43 @@
    "id": "genybet|12299218|4886651144",
    "match": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
    "pari": "FC Barcelone / Real Madrid : Plus de 4,5 buts (mise max 10 €)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12315814|4889631424": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-26T19:30+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.2,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T17:15:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12315814|4889631424",
+   "match": "Désiré Doué - Lyon",
+   "pari": "Désiré Doué (vs Lyon) buteur ou son remplaçant (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -5050,6 +5087,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-26T10:51:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 12.5,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T17:15:18+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -37252,6 +37315,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.05,
+      "hausse_pct": 11.5,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T17:15:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|728123719|2256674965",
@@ -37626,6 +37715,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T17:15:18+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|728322408|2257214181",
@@ -37840,6 +37955,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-26T15:16:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 10.0,
+      "horizon_heures": 1.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-26T17:15:18+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
