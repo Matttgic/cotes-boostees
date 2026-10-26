@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 26/10 09h53 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 26/10 10h52 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -179,9 +179,9 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 394 en attente · cote moy
 | 26/10 20h45 · Ligue 2 - 26/10 | Les deux équipes marquent dans chacun des matchs suivants : Boulogne - Reims et Montpellier - Red Star | 3,15 | – | – | 25 € | ⏳ |
 | 26/10 20h45 · Paris SG - Lyon | D.Doué décisif et son équipe gagne de 2 buts ou + (remboursé si non titulaire) | 2,55 | – | – | 25 € | ⏳ |
 | 26/10 20h45 · Ligue 2 BKT® | Plus de 2,5 buts lors de chacun des matchs suivants : US Boulogne - Reims et Montpellier - Red Star | 3,75 | – | – | 20 € | ⏳ |
-| 26/10 20h30 · PSG/Lyon - F.Torres ou Doué premier buteur | PSG/Lyon - F.Torres ou Doué premier buteur | 2,9 | – | – | 10 € | ⏳ |
 | 26/10 20h30 · Paris SG - Lyon | Paris SG gagne et plus de 3,5 buts dans le match | 2,35 | – | – | 20 € | ⏳ |
 | 26/10 20h30 · Paris SG - Lyon | Désiré Doué marque au moins un but en 1ère mi-temps | 4,25 | – | – | 20 € | ⏳ |
+| 26/10 20h30 · PSG/Lyon - F.Torres ou Doué premier buteur | PSG/Lyon - F.Torres ou Doué premier buteur | 2,9 | – | – | 10 € | ⏳ |
 | 26/10 20h30 · Paris SG - Lyon | Maghnes Akliouche Buteur! | 2,85 | – | – | 20 € | ⏳ |
 | 26/10 19h30 · Galatasaray - Fenerbahce | Galatasaray gagne et les deux équipes marquent | 3,4 | – | – | 20 € | ⏳ |
 | 26/10 18h40 · Luciano Darderi - Matteo Arnaldi | Matteo Arnaldi gagne 2-1 | 4,0 | – | – | 20 € | ⏳ |
