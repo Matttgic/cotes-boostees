@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-27T22:27:36+00:00",
+ "derniere_observation": "2026-10-27T23:26:37+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4732,6 +4732,15 @@
      "date": "2026-10-27T21:27:35+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729339394|2260486768",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729362802|2260564034": {
+     "date": "2026-10-27T23:25:44+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729362802|2260564034",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9472,6 +9481,15 @@
      "mise": null,
      "p_modele": 0.193804,
      "regle": null
+    },
+    "winamax|729362802|2260564034": {
+     "date": "2026-10-27T23:25:44+00:00",
+     "ev_modele_pct": -11.278,
+     "id": "winamax|729362802|2260564034",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186783,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -14208,6 +14226,15 @@
      "mise": null,
      "p_modele": 0.193804,
      "regle": null
+    },
+    "winamax|729362802|2260564034": {
+     "date": "2026-10-27T23:25:44+00:00",
+     "ev_modele_pct": -11.278,
+     "id": "winamax|729362802|2260564034",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186783,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -18943,6 +18970,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.193804,
+     "regle": null
+    },
+    "winamax|729362802|2260564034": {
+     "date": "2026-10-27T23:25:44+00:00",
+     "ev_modele_pct": -11.278,
+     "id": "winamax|729362802|2260564034",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.186783,
      "regle": null
     }
    }
@@ -31061,6 +31097,22 @@
    "pari": "Cole Caufield buteur et Montreal Canadiens gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-27T21:26:59+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|729362802|2260564034": {
+   "available_at": "2026-10-27T23:25:44+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.75,
+   "cote_origine": 3.75,
+   "debut": "2026-10-28T00:10+00:00",
+   "disponible": true,
+   "id": "winamax|729362802|2260564034",
+   "long_terme": false,
+   "match": "San Antonio Spurs - Sacramento Kings",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Victor Wembanyama réalise une performance points + rebonds + passes décisives d'au moins 50",
+   "premiere_vue": "2026-10-27T23:25:20+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
