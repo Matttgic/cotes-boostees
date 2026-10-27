@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-27T09:23:41+00:00",
+ "derniere_observation": "2026-10-27T10:22:41+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4588,6 +4588,24 @@
      "date": "2026-10-27T08:23:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|728820741|2259002300",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728879363|2259158472": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728879363|2259158472",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728888524|2259181105": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728888524|2259181105",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9184,6 +9202,24 @@
      "mise": null,
      "p_modele": 0.546969,
      "regle": null
+    },
+    "winamax|728879363|2259158472": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -18.341,
+     "id": "winamax|728879363|2259158472",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.23331,
+     "regle": null
+    },
+    "winamax|728888524|2259181105": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -6.67,
+     "id": "winamax|728888524|2259181105",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18666,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -13776,6 +13812,24 @@
      "mise": null,
      "p_modele": 0.546969,
      "regle": null
+    },
+    "winamax|728879363|2259158472": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -18.341,
+     "id": "winamax|728879363|2259158472",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.23331,
+     "regle": null
+    },
+    "winamax|728888524|2259181105": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -6.67,
+     "id": "winamax|728888524|2259181105",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18666,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -18367,6 +18421,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.546969,
+     "regle": null
+    },
+    "winamax|728879363|2259158472": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -18.341,
+     "id": "winamax|728879363|2259158472",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.23331,
+     "regle": null
+    },
+    "winamax|728888524|2259181105": {
+     "date": "2026-10-27T10:21:57+00:00",
+     "ev_modele_pct": -6.67,
+     "id": "winamax|728888524|2259181105",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18666,
      "regle": null
     }
    }
@@ -30213,6 +30285,38 @@
    "pari": "Flavio Cobolli gagne 2-0",
    "premiere_vue": "2026-10-27T08:22:46+00:00",
    "sport": "Tennis"
+  },
+  "winamax|728879363|2259158472": {
+   "available_at": "2026-10-27T10:21:57+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.05,
+   "debut": "2026-10-27T16:00+00:00",
+   "disponible": true,
+   "id": "winamax|728879363|2259158472",
+   "long_terme": false,
+   "match": "Dubai - Paris Basketball",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Paris Basketball ne perd pas ou perd de 7 points ou moins et Tyson Etienne marque au moins 15 points",
+   "premiere_vue": "2026-10-27T10:21:06+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|728888524|2259181105": {
+   "available_at": "2026-10-27T10:21:57+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.0,
+   "cote_origine": 4.428,
+   "debut": "2026-10-27T19:45+00:00",
+   "disponible": true,
+   "id": "winamax|728888524|2259181105",
+   "long_terme": false,
+   "match": "Coupe d'Allemagne",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Chaque équipe à domicile gagne (4 matchs à 20h45) (hors prol. et TAB)",
+   "premiere_vue": "2026-10-27T10:21:06+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
