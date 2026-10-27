@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 607,
+   "abstention": 609,
    "ecarter": 43,
    "hors_perimetre": 57,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-27T12:19:21+00:00",
+  "derniere_observation": "2026-10-27T13:18:28+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 57,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 352,
+   "reference_absente": 354,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 708,
+  "observes": 710,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-27T12:19:21+00:00",
+ "derniere_observation": "2026-10-27T13:18:28+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -1871,6 +1871,43 @@
    "pari": "Aleksandar Vezenkov marque 25 points ou +",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "betsson|94750864.1|397136468.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-10-27T14:10+00:00",
+   "historique": [
+    {
+     "cote": 1.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.64,
+      "hausse_pct": 9.8,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T13:18:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|94750864.1|397136468.1",
+   "match": "Mpetshi Perricard, Giovanni - Fils, Arthur",
+   "pari": "Arthur Fils gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "genybet|12255022|4841413055": {
    "bookmaker": "Genybet",
@@ -5311,6 +5348,43 @@
    "id": "olybet|31357046|7401086564",
    "match": "Caykur Rizespor - Trabzonspor",
    "pari": "Trabzonspor gagne & M. Salah buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31371024|7408383548": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-27T18:45+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 5.4,
+      "long_terme": false,
+      "mise_max": 8.33,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T13:18:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31371024|7408383548",
+   "match": "DFB Pokal",
+   "pari": "Over 2.5 goals in each match",
    "premiere_selection": null,
    "sport": "Football"
   },
