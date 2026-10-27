@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 613,
+   "abstention": 616,
    "ecarter": 43,
-   "hors_perimetre": 57,
+   "hors_perimetre": 58,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-27T15:19:35+00:00",
+  "derniere_observation": "2026-10-27T16:18:41+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 57,
+   "long_terme": 58,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 358,
+   "reference_absente": 361,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 714,
+  "observes": 718,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-27T15:19:35+00:00",
+ "derniere_observation": "2026-10-27T16:18:41+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -12628,6 +12628,43 @@
    "pari": "Les 2 joueurs gagnent un set ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|196400238|735274234": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-28T00:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 7.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T16:18:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196400238|735274234",
+   "match": "NY Knicks - DET Pistons",
+   "pari": "NBA - Jalen Brunson finit meilleur marqueur du match",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -39719,6 +39756,117 @@
    "pari": "Sporting Portugal gagne le match 1-0, 2-0 ou 3-0 (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|729110418|2259808406": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-27T23:40+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 11.1,
+      "horizon_heures": 7.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T16:18:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729110418|2259808406",
+   "match": "Boston Celtics - Brooklyn Nets",
+   "pari": "Jayson Tatum et Michael Porter Jr. marquent au moins 25 points chacun",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|729115897|2259823819": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.373,
+      "hausse_pct": 13.8,
+      "horizon_heures": 7.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T16:18:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729115897|2259823819",
+   "match": "NBA",
+   "pari": "San Antonio Spurs et New York Knicks gagnent chacun par au moins 7 points d'écart (respectivement contre Sacramento Kings et Detroit Pistons)",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|729119429|2259835359": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T03:10+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 11.6,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-27T16:18:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729119429|2259835359",
+   "match": "Los Angeles Lakers - Portland Trail Blazers",
+   "pari": "Luka Doncic marque au moins 30 points et Los Angeles Lakers gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
