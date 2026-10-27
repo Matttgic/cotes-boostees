@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 27/10 14h18 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 27/10 14h21 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -190,8 +190,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 438 en attente · cote moy
 | 27/10 17h00 · Dubai - Paris Basketball | Paris Basketball ne perd pas ou perd de 7 points ou moins et Tyson Etienne marque au moins 15 points | 3,5 | – | – | 20 € | ⏳ |
 | 27/10 17h00 · Dubai Basketball - Paris Basketball | Elie Okobo marque 15 points ou + | 2,25 | – | – | 20 € | ⏳ |
 | 27/10 15h10 · G.Mpetshi - A.Fils | Les 2 joueurs gagnent un set ? | 2,5 | – | – | 25 € | ⏳ |
-| 27/10 15h10 · Mpetshi Perricard, Giovanni - Fils, Arthur | Arthur Fils gagne 2-0 | 1,8 | – | – | 20 € | ⏳ |
 | 27/10 15h10 · Giovanni Mpetshi Perricard - Arthur Fils | Arthur Fils mène après 4 jeux lors du match | 4,0 | – | – | 20 € | ⏳ |
+| 27/10 15h10 · Mpetshi Perricard, Giovanni - Fils, Arthur | Arthur Fils gagne 2-0 | 1,8 | – | – | 20 € | ⏳ |
 | 27/10 15h00 · Salavat Yulaev Ufa - Sotchi | Sheldon Rempal marque au moins 2 points | 2,25 | – | – | 20 € | ⏳ |
 | 27/10 14h40 · Karen Khachanov - Carlos Alcaraz | Carlos Alcaraz gagne et plus de 21,5 jeux dans le match | 2,4 | – | – | 20 € | ⏳ |
 | 27/10 13h10 · Jerome Kym - Arthur Rinderknech | Arthur Rinderknech gagne 2-0 | 3,6 | – | – | 20 € | ⏳ |
