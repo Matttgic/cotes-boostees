@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-27T14:21:55+00:00",
+ "derniere_observation": "2026-10-27T15:20:52+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4651,6 +4651,24 @@
      "date": "2026-10-27T11:20:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|728907769|2259231274",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729066948|2259687734": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729066948|2259687734",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729069843|2259695958": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729069843|2259695958",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9310,6 +9328,24 @@
      "mise": null,
      "p_modele": 0.358612,
      "regle": null
+    },
+    "winamax|729066948|2259687734": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -10.879,
+     "id": "winamax|729066948|2259687734",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178242,
+     "regle": null
+    },
+    "winamax|729069843|2259695958": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -7.735,
+     "id": "winamax|729069843|2259695958",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.283892,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -13965,6 +14001,24 @@
      "mise": null,
      "p_modele": 0.358612,
      "regle": null
+    },
+    "winamax|729066948|2259687734": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -10.879,
+     "id": "winamax|729066948|2259687734",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178242,
+     "regle": null
+    },
+    "winamax|729069843|2259695958": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -7.735,
+     "id": "winamax|729069843|2259695958",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.283892,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -18619,6 +18673,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.358612,
+     "regle": null
+    },
+    "winamax|729066948|2259687734": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -10.879,
+     "id": "winamax|729066948|2259687734",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178242,
+     "regle": null
+    },
+    "winamax|729069843|2259695958": {
+     "date": "2026-10-27T15:20:03+00:00",
+     "ev_modele_pct": -7.735,
+     "id": "winamax|729069843|2259695958",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.283892,
      "regle": null
     }
    }
@@ -30577,6 +30649,38 @@
    "pari": "Sheldon Rempal marque au moins 2 points",
    "premiere_vue": "2026-10-27T11:20:11+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|729066948|2259687734": {
+   "available_at": "2026-10-27T15:20:03+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.0,
+   "cote_origine": 3.796,
+   "debut": "2026-10-27T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|729066948|2259687734",
+   "long_terme": false,
+   "match": "Synerglace Ligue Magnus",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 4,5 buts dans chacun des 6 matchs du jour (prol. et TAB inclus)",
+   "premiere_vue": "2026-10-27T15:19:35+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|729069843|2259695958": {
+   "available_at": "2026-10-27T15:20:03+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.95,
+   "debut": "2026-10-27T20:15+00:00",
+   "disponible": true,
+   "id": "winamax|729069843|2259695958",
+   "long_terme": false,
+   "match": "Sporting Portugal - Maritimo",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sporting Portugal gagne le match 1-0, 2-0 ou 3-0 (hors prol. et TAB)",
+   "premiere_vue": "2026-10-27T15:19:35+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
