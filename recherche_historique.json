@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-27T10:22:41+00:00",
+ "derniere_observation": "2026-10-27T11:21:25+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4606,6 +4606,15 @@
      "date": "2026-10-27T10:21:57+00:00",
      "ev_modele_pct": null,
      "id": "winamax|728888524|2259181105",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|728907769|2259231274": {
+     "date": "2026-10-27T11:20:38+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|728907769|2259231274",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9220,6 +9229,15 @@
      "mise": null,
      "p_modele": 0.18666,
      "regle": null
+    },
+    "winamax|728907769|2259231274": {
+     "date": "2026-10-27T11:20:38+00:00",
+     "ev_modele_pct": -19.312,
+     "id": "winamax|728907769|2259231274",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.358612,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -13830,6 +13848,15 @@
      "mise": null,
      "p_modele": 0.18666,
      "regle": null
+    },
+    "winamax|728907769|2259231274": {
+     "date": "2026-10-27T11:20:38+00:00",
+     "ev_modele_pct": -19.312,
+     "id": "winamax|728907769|2259231274",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.358612,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -18439,6 +18466,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.18666,
+     "regle": null
+    },
+    "winamax|728907769|2259231274": {
+     "date": "2026-10-27T11:20:38+00:00",
+     "ev_modele_pct": -19.312,
+     "id": "winamax|728907769|2259231274",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.358612,
      "regle": null
     }
    }
@@ -30317,6 +30353,22 @@
    "pari": "Chaque équipe à domicile gagne (4 matchs à 20h45) (hors prol. et TAB)",
    "premiere_vue": "2026-10-27T10:21:06+00:00",
    "sport": "Football"
+  },
+  "winamax|728907769|2259231274": {
+   "available_at": "2026-10-27T11:20:38+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 2.05,
+   "debut": "2026-10-27T14:00+00:00",
+   "disponible": true,
+   "id": "winamax|728907769|2259231274",
+   "long_terme": false,
+   "match": "Salavat Yulaev Ufa - Sotchi",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sheldon Rempal marque au moins 2 points",
+   "premiere_vue": "2026-10-27T11:20:11+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
