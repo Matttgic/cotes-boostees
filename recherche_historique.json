@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T08:53:32+00:00",
+ "derniere_observation": "2026-10-28T09:52:39+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4831,6 +4831,15 @@
      "date": "2026-10-28T08:52:45+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729604953|2261265460",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729609605|2261275400": {
+     "date": "2026-10-28T09:51:54+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729609605|2261275400",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9725,6 +9734,15 @@
      "p_modele": 0.204758,
      "regle": null
     },
+    "winamax|729609605|2261275400": {
+     "date": "2026-10-28T09:51:54+00:00",
+     "ev_modele_pct": 19.179,
+     "id": "winamax|729609605|2261275400",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297947,
+     "regle": null
+    },
     "winamax|729615733|2261290776": {
      "date": "2026-10-28T08:52:45+00:00",
      "ev_modele_pct": -7.397,
@@ -14614,6 +14632,15 @@
      "p_modele": 0.204758,
      "regle": null
     },
+    "winamax|729609605|2261275400": {
+     "date": "2026-10-28T09:51:54+00:00",
+     "ev_modele_pct": 19.179,
+     "id": "winamax|729609605|2261275400",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297947,
+     "regle": null
+    },
     "winamax|729615733|2261290776": {
      "date": "2026-10-28T08:52:45+00:00",
      "ev_modele_pct": -7.397,
@@ -19501,6 +19528,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.204758,
+     "regle": null
+    },
+    "winamax|729609605|2261275400": {
+     "date": "2026-10-28T09:51:54+00:00",
+     "ev_modele_pct": 19.179,
+     "id": "winamax|729609605|2261275400",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297947,
      "regle": null
     },
     "winamax|729615733|2261290776": {
@@ -31865,6 +31901,22 @@
    "pari": "Simon Gauzy gagne le premier set",
    "premiere_vue": "2026-10-28T08:51:40+00:00",
    "sport": "Tennis de table"
+  },
+  "winamax|729609605|2261275400": {
+   "available_at": "2026-10-28T09:51:54+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 2.837,
+   "debut": "2026-10-28T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|729609605|2261275400",
+   "long_terme": false,
+   "match": "Coupe d'Allemagne",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 8 matchs du jour",
+   "premiere_vue": "2026-10-28T09:50:45+00:00",
+   "sport": "Football"
   },
   "winamax|729615733|2261290776": {
    "available_at": "2026-10-28T08:52:45+00:00",
