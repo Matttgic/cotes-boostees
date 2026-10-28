@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T03:48:31+00:00",
+ "derniere_observation": "2026-10-28T04:47:39+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4750,6 +4750,15 @@
      "date": "2026-10-28T03:47:47+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729503106|2260982506",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729508347|2260999272": {
+     "date": "2026-10-28T04:46:50+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729508347|2260999272",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9508,6 +9517,15 @@
      "mise": null,
      "p_modele": 0.523705,
      "regle": null
+    },
+    "winamax|729508347|2260999272": {
+     "date": "2026-10-28T04:46:50+00:00",
+     "ev_modele_pct": -18.83,
+     "id": "winamax|729508347|2260999272",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26184,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -14262,6 +14280,15 @@
      "mise": null,
      "p_modele": 0.523705,
      "regle": null
+    },
+    "winamax|729508347|2260999272": {
+     "date": "2026-10-28T04:46:50+00:00",
+     "ev_modele_pct": -18.83,
+     "id": "winamax|729508347|2260999272",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26184,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -19015,6 +19042,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.523705,
+     "regle": null
+    },
+    "winamax|729508347|2260999272": {
+     "date": "2026-10-28T04:46:50+00:00",
+     "ev_modele_pct": -18.83,
+     "id": "winamax|729508347|2260999272",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26184,
      "regle": null
     }
    }
@@ -31165,6 +31201,22 @@
    "pari": "Exactement 3 sets lors du match",
    "premiere_vue": "2026-10-28T03:47:21+00:00",
    "sport": "Tennis"
+  },
+  "winamax|729508347|2260999272": {
+   "available_at": "2026-10-28T04:46:50+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.1,
+   "cote_origine": 2.75,
+   "debut": "2026-10-28T10:30+00:00",
+   "disponible": true,
+   "id": "winamax|729508347|2260999272",
+   "long_terme": false,
+   "match": "Perth Wildcats - Sydney Kings",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sydney Kings gagne et plus de 189,5 points dans le match",
+   "premiere_vue": "2026-10-28T04:46:19+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
