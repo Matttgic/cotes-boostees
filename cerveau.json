@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 646,
+   "abstention": 648,
    "ecarter": 43,
    "hors_perimetre": 59,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-28T14:10:15+00:00",
+  "derniere_observation": "2026-10-28T15:09:30+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 59,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 391,
+   "reference_absente": 393,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 749,
+  "observes": 751,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-28T14:10:15+00:00",
+ "derniere_observation": "2026-10-28T15:09:30+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -5572,6 +5572,80 @@
    "pari": "Over 4.5 goals in the match",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "olybet|31383026|7414342176": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-28T17:30+00:00",
+   "historique": [
+    {
+     "cote": 4.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 8.06,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T15:09:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31383026|7414342176",
+   "match": "ALL TO WIN",
+   "pari": "AC Milan, Inter Milan & Naples (Serie A / 28.10.2026)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31383029|7414348988": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-10-28T18:30+00:00",
+   "historique": [
+    {
+     "cote": 3.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 3.3,
+      "long_terme": false,
+      "mise_max": 9.61,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T15:09:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31383029|7414348988",
+   "match": "H. Hurkacz - H. Rune",
+   "pari": "Hurkacz gagne et plus de 2.5 sets",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "unibet|193080176|719100363": {
    "bookmaker": "Unibet",
@@ -40675,6 +40749,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 9.1,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T15:09:30+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|729595333|2261240343",
@@ -40741,6 +40841,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.08,
+      "hausse_pct": 20.1,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T15:09:30+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
