@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T11:50:21+00:00",
+ "derniere_observation": "2026-10-28T12:49:28+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4912,6 +4912,15 @@
      "date": "2026-10-28T11:49:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729759004|2261657791",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729771195|2261689183": {
+     "date": "2026-10-28T12:48:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729771195|2261689183",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9832,6 +9841,15 @@
      "mise": null,
      "p_modele": 0.313934,
      "regle": null
+    },
+    "winamax|729771195|2261689183": {
+     "date": "2026-10-28T12:48:42+00:00",
+     "ev_modele_pct": 2.598,
+     "id": "winamax|729771195|2261689183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.48856,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -14748,6 +14766,15 @@
      "mise": null,
      "p_modele": 0.313934,
      "regle": null
+    },
+    "winamax|729771195|2261689183": {
+     "date": "2026-10-28T12:48:42+00:00",
+     "ev_modele_pct": 2.598,
+     "id": "winamax|729771195|2261689183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.48856,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -19663,6 +19690,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.313934,
+     "regle": null
+    },
+    "winamax|729771195|2261689183": {
+     "date": "2026-10-28T12:48:42+00:00",
+     "ev_modele_pct": 2.598,
+     "id": "winamax|729771195|2261689183",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.48856,
      "regle": null
     }
    }
@@ -32117,6 +32153,22 @@
    "pari": "Sasha Vezenkov marque au moins 20 points et Olympiakos gagne",
    "premiere_vue": "2026-10-28T11:49:04+00:00",
    "sport": "Basketball"
+  },
+  "winamax|729771195|2261689183": {
+   "available_at": "2026-10-28T12:48:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.1,
+   "cote_origine": 1.795,
+   "debut": "2026-10-28T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|729771195|2261689183",
+   "long_terme": false,
+   "match": "Coupe d'Allemagne",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Stuttgart et Fribourg marquent chacun au moins 2 buts (respectivement contre Paderborn et Wolfsbourg) (hors prol. et TAB)",
+   "premiere_vue": "2026-10-28T12:48:15+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
