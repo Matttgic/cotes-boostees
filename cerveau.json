@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 628,
+   "abstention": 637,
    "ecarter": 43,
-   "hors_perimetre": 58,
+   "hors_perimetre": 59,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-28T07:52:28+00:00",
+  "derniere_observation": "2026-10-28T08:51:40+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 58,
+   "long_terme": 59,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 373,
+   "reference_absente": 382,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 730,
+  "observes": 740,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-28T07:52:28+00:00",
+ "derniere_observation": "2026-10-28T08:51:40+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -12666,6 +12666,80 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|196388511|735213397": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-28T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.39,
+      "hausse_pct": 15.1,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196388511|735213397",
+   "match": "Liverpool - Chelsea",
+   "pari": "Liverpool ou Chelsea gagne et au moins 4 buts marqués dans le match ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|196389222|735219537": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-28T17:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.93,
+      "hausse_pct": 16.0,
+      "horizon_heures": 8.6,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196389222|735219537",
+   "match": "CB - Serie A (28/10)",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|196400238|735274234": {
    "bookmaker": "Unibet",
    "debut": "2026-10-28T00:00:00.000Z",
@@ -12702,6 +12776,43 @@
    "pari": "NBA - Jalen Brunson finit meilleur marqueur du match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|196475623|735683207": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-28T14:10:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 5.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196475623|735683207",
+   "match": "N.Djokovic - U.Humbert",
+   "pari": "Les 2 joueurs gagnent un set ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -40364,6 +40475,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 8.8,
+      "horizon_heures": 6.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|729574677|2261187859",
@@ -40517,6 +40654,265 @@
    "id": "winamax|729604625|2261264784",
    "match": "Serie A",
    "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Genoa - Juventus et Monza - Naples",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729604953|2261265460": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T18:05+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 19.4,
+      "horizon_heures": 9.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729604953|2261265460",
+   "match": "Tomokazu Harimoto - Simon Gauzy",
+   "pari": "Simon Gauzy gagne le premier set",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
+  },
+  "winamax|729615733|2261290776": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 8.7,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729615733|2261290776",
+   "match": "Liverpool - Chelsea",
+   "pari": "Liverpool gagne la première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729618746|2261297365": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T19:30+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.95,
+      "hausse_pct": 13.9,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729618746|2261297365",
+   "match": "Manchester City - Brighton",
+   "pari": "Manchester City gagne le match 2-1, 3-1 ou 4-1 (hors TAB)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729620629|2261301769": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T19:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 10.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729620629|2261301769",
+   "match": "ASVEL - Partizan Belgrade",
+   "pari": "ASVEL gagne et plus de 168,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|729641726|2261350385": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T17:30+00:00",
+   "historique": [
+    {
+     "cote": 4.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.7,
+      "hausse_pct": 10.8,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729641726|2261350385",
+   "match": "Milan AC - Bologne",
+   "pari": "Milan AC gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729644967|2261357983": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729644967|2261357983",
+   "match": "Bayern Munich - Magdebourg",
+   "pari": "Plus de 2,5 buts lors de la première mi-temps du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729648981|2261368353": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T08:51:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729648981|2261368353",
+   "match": "OL Lyonnes (F) - Inter (F)",
+   "pari": "OL Lyonnes (F) marque au moins 5 buts",
    "premiere_selection": null,
    "sport": "Football"
   }
