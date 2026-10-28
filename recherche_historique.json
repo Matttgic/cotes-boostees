@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T21:54:06+00:00",
+ "derniere_observation": "2026-10-28T22:53:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5083,6 +5083,24 @@
      "date": "2026-10-28T21:53:19+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730227467|2263088326",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730229903|2263099385": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730229903|2263099385",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730241841|2263139683": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730241841|2263139683",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10174,6 +10192,24 @@
      "mise": null,
      "p_modele": 0.47377,
      "regle": null
+    },
+    "winamax|730229903|2263099385": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|730229903|2263099385",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|730241841|2263139683": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": -15.281,
+     "id": "winamax|730241841|2263139683",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313774,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -15261,6 +15297,24 @@
      "mise": null,
      "p_modele": 0.47377,
      "regle": null
+    },
+    "winamax|730229903|2263099385": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|730229903|2263099385",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|730241841|2263139683": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": -15.281,
+     "id": "winamax|730241841|2263139683",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313774,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -20347,6 +20401,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.47377,
+     "regle": null
+    },
+    "winamax|730229903|2263099385": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": 25.65,
+     "id": "winamax|730229903|2263099385",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.502599,
+     "regle": null
+    },
+    "winamax|730241841|2263139683": {
+     "date": "2026-10-28T22:52:17+00:00",
+     "ev_modele_pct": -15.281,
+     "id": "winamax|730241841|2263139683",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313774,
      "regle": null
     }
    }
@@ -33105,6 +33177,38 @@
    "pari": "Elise Mertens gagne 2-0",
    "premiere_vue": "2026-10-28T21:52:40+00:00",
    "sport": "Tennis"
+  },
+  "winamax|730229903|2263099385": {
+   "available_at": "2026-10-28T22:52:17+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.2,
+   "debut": "2026-10-29T01:30+00:00",
+   "disponible": true,
+   "id": "winamax|730229903|2263099385",
+   "long_terme": false,
+   "match": "Alycia Parks - Kimberly Birrell",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Exactement 3 sets lors du match",
+   "premiere_vue": "2026-10-28T22:51:43+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|730241841|2263139683": {
+   "available_at": "2026-10-28T22:52:17+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.7,
+   "cote_origine": 2.35,
+   "debut": "2026-10-29T01:30+00:00",
+   "disponible": true,
+   "id": "winamax|730241841|2263139683",
+   "long_terme": false,
+   "match": "Dallas Mavericks - Oklahoma City Thunder",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Oklahoma City Thunder gagne et plus de 227,5 points dans le match",
+   "premiere_vue": "2026-10-28T22:51:43+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
