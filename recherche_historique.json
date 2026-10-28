@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T18:09:46+00:00",
+ "derniere_observation": "2026-10-28T18:56:46+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5038,6 +5038,15 @@
      "date": "2026-10-28T18:08:53+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730010519|2262412821",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730099765|2262675209": {
+     "date": "2026-10-28T18:55:56+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730099765|2262675209",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10084,6 +10093,15 @@
      "mise": null,
      "p_modele": 0.297149,
      "regle": null
+    },
+    "winamax|730099765|2262675209": {
+     "date": "2026-10-28T18:55:56+00:00",
+     "ev_modele_pct": -20.878,
+     "id": "winamax|730099765|2262675209",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.304317,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -15126,6 +15144,15 @@
      "mise": null,
      "p_modele": 0.297149,
      "regle": null
+    },
+    "winamax|730099765|2262675209": {
+     "date": "2026-10-28T18:55:56+00:00",
+     "ev_modele_pct": -20.878,
+     "id": "winamax|730099765|2262675209",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.304317,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -20167,6 +20194,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.297149,
+     "regle": null
+    },
+    "winamax|730099765|2262675209": {
+     "date": "2026-10-28T18:55:56+00:00",
+     "ev_modele_pct": -20.878,
+     "id": "winamax|730099765|2262675209",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.304317,
      "regle": null
     }
    }
@@ -32844,6 +32880,22 @@
    "mise_max_supposee": null,
    "pari": "L. Draisaitl buteur et Edmonton Oilers gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-28T18:06:50+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|730099765|2262675209": {
+   "available_at": "2026-10-28T18:55:56+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.6,
+   "cote_origine": 2.35,
+   "debut": "2026-10-29T01:10+00:00",
+   "disponible": true,
+   "id": "winamax|730099765|2262675209",
+   "long_terme": false,
+   "match": "Colorado Avalanche - New Jersey Devils",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "M. Necas + J. Hughes + N. MacKinnon marquent 2 buts ou plus (hors prol. et TAB)",
+   "premiere_vue": "2026-10-28T18:55:17+00:00",
    "sport": "Hockey sur glace"
   }
  },
