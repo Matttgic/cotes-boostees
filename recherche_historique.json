@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T10:51:27+00:00",
+ "derniere_observation": "2026-10-28T11:50:21+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4903,6 +4903,15 @@
      "date": "2026-10-28T10:50:41+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729714472|2261541401",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729759004|2261657791": {
+     "date": "2026-10-28T11:49:38+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729759004|2261657791",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9814,6 +9823,15 @@
      "mise": null,
      "p_modele": 0.369495,
      "regle": null
+    },
+    "winamax|729759004|2261657791": {
+     "date": "2026-10-28T11:49:38+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|729759004|2261657791",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -14721,6 +14739,15 @@
      "mise": null,
      "p_modele": 0.369495,
      "regle": null
+    },
+    "winamax|729759004|2261657791": {
+     "date": "2026-10-28T11:49:38+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|729759004|2261657791",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -19627,6 +19654,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.369495,
+     "regle": null
+    },
+    "winamax|729759004|2261657791": {
+     "date": "2026-10-28T11:49:38+00:00",
+     "ev_modele_pct": -13.668,
+     "id": "winamax|729759004|2261657791",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.313934,
      "regle": null
     }
    }
@@ -32065,6 +32101,22 @@
    "pari": "Adrian Mannarino gagne le premier set",
    "premiere_vue": "2026-10-28T10:49:49+00:00",
    "sport": "Tennis"
+  },
+  "winamax|729759004|2261657791": {
+   "available_at": "2026-10-28T11:49:38+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.35,
+   "debut": "2026-10-28T17:30+00:00",
+   "disponible": true,
+   "id": "winamax|729759004|2261657791",
+   "long_terme": false,
+   "match": "Besiktas - Olympiakos",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sasha Vezenkov marque au moins 20 points et Olympiakos gagne",
+   "premiere_vue": "2026-10-28T11:49:04+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
