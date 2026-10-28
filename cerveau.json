@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 655,
+   "abstention": 659,
    "ecarter": 43,
    "hors_perimetre": 59,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-28T20:53:32+00:00",
+  "derniere_observation": "2026-10-28T21:52:40+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 59,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 400,
+   "reference_absente": 404,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 758,
+  "observes": 762,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-28T20:53:32+00:00",
+ "derniere_observation": "2026-10-28T21:52:40+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -41968,6 +41968,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 16.4,
+      "horizon_heures": 2.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T21:52:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|729984858|2262332716",
@@ -42049,6 +42075,154 @@
    "pari": "M. Necas + J. Hughes + N. MacKinnon marquent 2 buts ou plus (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|730211289|2263029090": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T23:30+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 1.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T21:52:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730211289|2263029090",
+   "match": "Inter Miami - Cincinnati FC",
+   "pari": "Lionel Messi marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|730217374|2263047070": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T00:30+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T21:52:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730217374|2263047070",
+   "match": "Bahia - Sao Paulo",
+   "pari": "Bahia gagne la première mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|730222699|2263069608": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T03:00+00:00",
+   "historique": [
+    {
+     "cote": 3.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 11.7,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T21:52:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730222699|2263069608",
+   "match": "Club América - Club Tijuana",
+   "pari": "Club América gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|730227467|2263088326": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T03:30+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 12.8,
+      "horizon_heures": 5.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T21:52:40+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730227467|2263088326",
+   "match": "Leylah Fernandez - Elise Mertens",
+   "pari": "Elise Mertens gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
