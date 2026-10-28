@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T09:52:39+00:00",
+ "derniere_observation": "2026-10-28T10:51:27+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -4894,6 +4894,15 @@
      "date": "2026-10-28T08:52:45+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729648981|2261368353",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729714472|2261541401": {
+     "date": "2026-10-28T10:50:41+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729714472|2261541401",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -9796,6 +9805,15 @@
      "mise": null,
      "p_modele": 0.305704,
      "regle": null
+    },
+    "winamax|729714472|2261541401": {
+     "date": "2026-10-28T10:50:41+00:00",
+     "ev_modele_pct": 33.018,
+     "id": "winamax|729714472|2261541401",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.369495,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -14694,6 +14712,15 @@
      "mise": null,
      "p_modele": 0.305704,
      "regle": null
+    },
+    "winamax|729714472|2261541401": {
+     "date": "2026-10-28T10:50:41+00:00",
+     "ev_modele_pct": 33.018,
+     "id": "winamax|729714472|2261541401",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.369495,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -19591,6 +19618,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.305704,
+     "regle": null
+    },
+    "winamax|729714472|2261541401": {
+     "date": "2026-10-28T10:50:41+00:00",
+     "ev_modele_pct": 33.018,
+     "id": "winamax|729714472|2261541401",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.369495,
      "regle": null
     }
    }
@@ -32013,6 +32049,22 @@
    "pari": "OL Lyonnes (F) marque au moins 5 buts",
    "premiere_vue": "2026-10-28T08:51:40+00:00",
    "sport": "Football"
+  },
+  "winamax|729714472|2261541401": {
+   "available_at": "2026-10-28T10:50:41+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.6,
+   "cote_origine": 3.1,
+   "debut": "2026-10-28T14:50+00:00",
+   "disponible": true,
+   "id": "winamax|729714472|2261541401",
+   "long_terme": false,
+   "match": "Jakub Mensik - Adrian Mannarino",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Adrian Mannarino gagne le premier set",
+   "premiere_vue": "2026-10-28T10:49:49+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
