@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-28T17:09:07+00:00",
+ "derniere_observation": "2026-10-28T18:09:46+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5020,6 +5020,24 @@
      "date": "2026-10-28T16:09:33+00:00",
      "ev_modele_pct": null,
      "id": "winamax|729925894|2262152359",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|729984858|2262332716": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|729984858|2262332716",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730010519|2262412821": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730010519|2262412821",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10048,6 +10066,24 @@
      "mise": null,
      "p_modele": 0.182524,
      "regle": null
+    },
+    "winamax|729984858|2262332716": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -22.753,
+     "id": "winamax|729984858|2262332716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.280898,
+     "regle": null
+    },
+    "winamax|730010519|2262412821": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -18.284,
+     "id": "winamax|730010519|2262412821",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297149,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -15072,6 +15108,24 @@
      "mise": null,
      "p_modele": 0.182524,
      "regle": null
+    },
+    "winamax|729984858|2262332716": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -22.753,
+     "id": "winamax|729984858|2262332716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.280898,
+     "regle": null
+    },
+    "winamax|730010519|2262412821": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -18.284,
+     "id": "winamax|730010519|2262412821",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297149,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -20095,6 +20149,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.182524,
+     "regle": null
+    },
+    "winamax|729984858|2262332716": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -22.753,
+     "id": "winamax|729984858|2262332716",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.280898,
+     "regle": null
+    },
+    "winamax|730010519|2262412821": {
+     "date": "2026-10-28T18:08:53+00:00",
+     "ev_modele_pct": -18.284,
+     "id": "winamax|730010519|2262412821",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.297149,
      "regle": null
     }
    }
@@ -32741,6 +32813,38 @@
    "pari": "Alexis Lebrun et Jia Nan Yuan gagnent chacun leur match (respectivement contre Patrick Franziska et Sabine Winter)",
    "premiere_vue": "2026-10-28T16:08:39+00:00",
    "sport": "Tennis de table"
+  },
+  "winamax|729984858|2262332716": {
+   "available_at": "2026-10-28T18:08:53+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.45,
+   "debut": "2026-10-29T00:10+00:00",
+   "disponible": true,
+   "id": "winamax|729984858|2262332716",
+   "long_terme": false,
+   "match": "Tampa Bay Rays - Milwaukee Brewers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Les deux équipes marquent chacune au moins 3 runs",
+   "premiere_vue": "2026-10-28T18:06:50+00:00",
+   "sport": "Baseball"
+  },
+  "winamax|730010519|2262412821": {
+   "available_at": "2026-10-28T18:08:53+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.4,
+   "debut": "2026-10-29T00:40+00:00",
+   "disponible": true,
+   "id": "winamax|730010519|2262412821",
+   "long_terme": false,
+   "match": "Edmonton Oilers - Calgary Flames",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "L. Draisaitl buteur et Edmonton Oilers gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-28T18:06:50+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
