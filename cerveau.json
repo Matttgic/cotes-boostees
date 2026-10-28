@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 623,
+   "abstention": 628,
    "ecarter": 43,
    "hors_perimetre": 58,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-28T06:53:23+00:00",
+  "derniere_observation": "2026-10-28T07:52:28+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 58,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 368,
+   "reference_absente": 373,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 725,
+  "observes": 730,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-28T06:53:23+00:00",
+ "derniere_observation": "2026-10-28T07:52:28+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -40334,6 +40334,191 @@
    "pari": "Sydney Kings gagne et plus de 189,5 points dans le match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|729574677|2261187859": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T15:05+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729574677|2261187859",
+   "match": "Flavien Coton - Woojin Jang",
+   "pari": "Flavien Coton gagne le match",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
+  },
+  "winamax|729589844|2261227515": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T17:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.856,
+      "hausse_pct": 13.8,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729589844|2261227515",
+   "match": "ATP Bale",
+   "pari": "Taylor Fritz et Hubert Hurkacz gagnent chacun leur match 2-0 (respectivement contre Rinky Hijikata et Holger Rune)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|729595333|2261240343": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T17:30+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 9.5,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729595333|2261240343",
+   "match": "Venise - Inter Milan",
+   "pari": "Inter Milan gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729597940|2261247048": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T17:30+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.7,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729597940|2261247048",
+   "match": "Milan AC - Bologne",
+   "pari": "Milan AC gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|729604625|2261264784": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-28T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.268,
+      "hausse_pct": 14.7,
+      "horizon_heures": 11.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-28T07:52:28+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|729604625|2261264784",
+   "match": "Serie A",
+   "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Genoa - Juventus et Monza - Naples",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
