@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 661,
+   "abstention": 665,
    "ecarter": 43,
    "hors_perimetre": 59,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-29T04:14:39+00:00",
+  "derniere_observation": "2026-10-29T05:13:46+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 59,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 406,
+   "reference_absente": 410,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 764,
+  "observes": 768,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-29T04:14:39+00:00",
+ "derniere_observation": "2026-10-29T05:13:46+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -42321,6 +42321,154 @@
    "id": "winamax|730241841|2263139683",
    "match": "Dallas Mavericks - Oklahoma City Thunder",
    "pari": "Oklahoma City Thunder gagne et plus de 227,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|730376819|2263566161": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T05:30+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.002,
+      "hausse_pct": 17.4,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T05:13:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730376819|2263566161",
+   "match": "WTA Tokyo",
+   "pari": "Naomi Osaka et Elena Rybakina gagnent chacune leur match 2-0 (respectivement contre Mia Pohankova et Yulia Putintseva)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|730378086|2263570055": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T11:00+00:00",
+   "historique": [
+    {
+     "cote": 5.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.0,
+      "hausse_pct": 25.0,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T05:13:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730378086|2263570055",
+   "match": "Valentin Vacherot - Rafael Jodar",
+   "pari": "Rafael Jodar gagne le premier set 7-5 ou 7-6",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|730380958|2263577882": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.614,
+      "hausse_pct": 20.5,
+      "horizon_heures": 7.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T05:13:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730380958|2263577882",
+   "match": "ATP Vienne",
+   "pari": "A. Fils et C. Alcaraz gagnent chacun leur match 2-0 (respectivement contre A. Michelsen et N. Basilashvili)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|730382062|2263580630": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T09:00+00:00",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 3.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T05:13:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730382062|2263580630",
+   "match": "Brisbane Bullets - Cairns Taipans",
+   "pari": "Cairns Taipans gagne par au moins 6 points d'écart",
    "premiere_selection": null,
    "sport": "Basketball"
   }
