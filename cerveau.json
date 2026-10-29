@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 665,
+   "abstention": 666,
    "ecarter": 43,
-   "hors_perimetre": 59,
+   "hors_perimetre": 60,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-29T07:56:49+00:00",
+  "derniere_observation": "2026-10-29T08:55:58+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 59,
+   "long_terme": 60,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 410,
+   "reference_absente": 411,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 768,
+  "observes": 770,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-29T07:56:49+00:00",
+ "derniere_observation": "2026-10-29T08:55:58+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -13036,6 +13036,43 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|196494731|735786518": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-29T17:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 8.6,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T08:55:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196494731|735786518",
+   "match": "CB - Serie A (29/10)",
+   "pari": "Plus de 2,5 buts dans chacun des 2 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|196499674|735806685": {
    "bookmaker": "Unibet",
    "debut": "2026-10-28T23:00:00.000Z",
@@ -13072,6 +13109,43 @@
    "pari": "NBA - Jaylen Brown : 20 points ou +, 5 rebonds ou +, 3 passes ou +",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|196595726|736222250": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-29T13:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 14.6,
+      "horizon_heures": 4.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T08:55:58+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196595726|736222250",
+   "match": "A.Michelsen - A.Fils",
+   "pari": "A.Fils remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -42456,6 +42530,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-29T05:13:46+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 16.0,
+      "horizon_heures": 0.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T08:55:58+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [

@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T07:58:03+00:00",
+ "derniere_observation": "2026-10-29T08:57:14+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1780,6 +1780,15 @@
      "date": "2026-10-28T16:09:33+00:00",
      "ev_modele_pct": null,
      "id": "unibet|196499674|735806685",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|196595726|736222250": {
+     "date": "2026-10-29T08:56:25+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|196595726|736222250",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6926,6 +6935,15 @@
      "p_modele": 0.315463,
      "regle": null
     },
+    "unibet|196595726|736222250": {
+     "date": "2026-10-29T08:56:25+00:00",
+     "ev_modele_pct": 30.876,
+     "id": "unibet|196595726|736222250",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.475914,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -12067,6 +12085,15 @@
      "p_modele": 0.315463,
      "regle": null
     },
+    "unibet|196595726|736222250": {
+     "date": "2026-10-29T08:56:25+00:00",
+     "ev_modele_pct": 30.876,
+     "id": "unibet|196595726|736222250",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.475914,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -17206,6 +17233,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.315463,
+     "regle": null
+    },
+    "unibet|196595726|736222250": {
+     "date": "2026-10-29T08:56:25+00:00",
+     "ev_modele_pct": 30.876,
+     "id": "unibet|196595726|736222250",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.475914,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -25267,6 +25303,22 @@
    "premiere_vue": "2026-10-28T08:51:40+00:00",
    "sport": "Tennis"
   },
+  "unibet|196494731|735786518": {
+   "available_at": "2026-10-29T08:56:25+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.35,
+   "cote_origine": 2.05,
+   "debut": "2026-10-29T17:30:00.000Z",
+   "disponible": true,
+   "id": "unibet|196494731|735786518",
+   "long_terme": true,
+   "match": "CB - Serie A (29/10)",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Plus de 2,5 buts dans chacun des 2 matchs du jour",
+   "premiere_vue": "2026-10-29T08:55:58+00:00",
+   "sport": "Football"
+  },
   "unibet|196499674|735806685": {
    "available_at": "2026-10-28T16:09:33+00:00",
    "bookmaker": "Unibet",
@@ -25282,6 +25334,22 @@
    "pari": "NBA - Jaylen Brown : 20 points ou +, 5 rebonds ou +, 3 passes ou +",
    "premiere_vue": "2026-10-28T16:08:39+00:00",
    "sport": "Basketball"
+  },
+  "unibet|196595726|736222250": {
+   "available_at": "2026-10-29T08:56:25+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.4,
+   "debut": "2026-10-29T13:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|196595726|736222250",
+   "long_terme": false,
+   "match": "A.Michelsen - A.Fils",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "A.Fils remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_vue": "2026-10-29T08:55:58+00:00",
+   "sport": "Tennis"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
