@@ -226,15 +226,8 @@ def verdict_boost(b: dict, r: dict, legs: list[dict], maintenant: datetime) -> d
 
 
 def jambes_du_boost(b: dict) -> list[dict] | None:
-    legs = analyser(b.get("pari"), b.get("match"), b.get("sport"))
-    if legs:
-        return legs
-    # jambes déjà calculées par l'IA (format compatible pour les types gérés ici)
-    ex = b.get("jambes") or []
-    if ex and all(j.get("type") in ("resultat", "vainqueur", "total", "total_equipe", "handicap", "les_deux_marquent",
-                                    "joueur", "score_sets") for j in ex) and len({(j.get("equipe_1"), j.get("equipe_2")) for j in ex}) == 1:
-        return [{**j, "joueurs": None, "mode": None} for j in ex]
-    return None
+    # Uniquement nos règles : les jambes IA oublient parfois une partie du pari (« ou match nul », « ou »)
+    return analyser(b.get("pari"), b.get("match"), b.get("sport")) or None
 
 
 def a_regler(base: dict[str, dict], maintenant: datetime) -> list[dict]:
