@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T14:18:16+00:00",
+ "derniere_observation": "2026-10-29T15:17:35+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5263,6 +5263,24 @@
      "date": "2026-10-29T14:17:27+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730684034|2264475536",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730692889|2264498212": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730692889|2264498212",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730722172|2264579359": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730722172|2264579359",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10534,6 +10552,24 @@
      "mise": null,
      "p_modele": 0.26722,
      "regle": null
+    },
+    "winamax|730692889|2264498212": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 28.641,
+     "id": "winamax|730692889|2264498212",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547407,
+     "regle": null
+    },
+    "winamax|730722172|2264579359": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|730722172|2264579359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492394,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -15801,6 +15837,24 @@
      "mise": null,
      "p_modele": 0.26722,
      "regle": null
+    },
+    "winamax|730692889|2264498212": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 28.641,
+     "id": "winamax|730692889|2264498212",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547407,
+     "regle": null
+    },
+    "winamax|730722172|2264579359": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|730722172|2264579359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492394,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21067,6 +21121,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.26722,
+     "regle": null
+    },
+    "winamax|730692889|2264498212": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 28.641,
+     "id": "winamax|730692889|2264498212",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.547407,
+     "regle": null
+    },
+    "winamax|730722172|2264579359": {
+     "date": "2026-10-29T15:16:47+00:00",
+     "ev_modele_pct": 23.099,
+     "id": "winamax|730722172|2264579359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492394,
      "regle": null
     }
    }
@@ -34161,6 +34233,38 @@
    "pari": "Donovan Mitchell et Nickeil Alexander-Walker marquent au moins 20 points chacun",
    "premiere_vue": "2026-10-29T14:17:00+00:00",
    "sport": "Basketball"
+  },
+  "winamax|730692889|2264498212": {
+   "available_at": "2026-10-29T15:16:47+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.35,
+   "cote_origine": 2.0,
+   "debut": "2026-10-29T16:00+00:00",
+   "disponible": true,
+   "id": "winamax|730692889|2264498212",
+   "long_terme": false,
+   "match": "Arthur Fery - Lorenzo Musetti",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Moins de 20,5 jeux lors du match",
+   "premiere_vue": "2026-10-29T15:16:06+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|730722172|2264579359": {
+   "available_at": "2026-10-29T15:16:47+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.25,
+   "debut": "2026-10-30T17:00+00:00",
+   "disponible": true,
+   "id": "winamax|730722172|2264579359",
+   "long_terme": false,
+   "match": "Novak Djokovic - Jan-Lennard Struff",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Novak Djokovic gagne et plus de 22,5 jeux dans le match",
+   "premiere_vue": "2026-10-29T15:16:06+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
