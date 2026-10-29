@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T19:44:19+00:00",
+ "derniere_observation": "2026-10-29T20:43:06+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5389,6 +5389,15 @@
      "date": "2026-10-29T19:13:32+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730887389|2265098485",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730924832|2265212520": {
+     "date": "2026-10-29T20:42:18+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730924832|2265212520",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10786,6 +10795,15 @@
      "mise": null,
      "p_modele": 0.257808,
      "regle": null
+    },
+    "winamax|730924832|2265212520": {
+     "date": "2026-10-29T20:42:18+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|730924832|2265212520",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16179,6 +16197,15 @@
      "mise": null,
      "p_modele": 0.257808,
      "regle": null
+    },
+    "winamax|730924832|2265212520": {
+     "date": "2026-10-29T20:42:18+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|730924832|2265212520",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21571,6 +21598,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.257808,
+     "regle": null
+    },
+    "winamax|730924832|2265212520": {
+     "date": "2026-10-29T20:42:18+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|730924832|2265212520",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
      "regle": null
     }
    }
@@ -34889,6 +34925,22 @@
    "pari": "Ottawa Senators et San Jose Sharks gagnent chacun leur match (respectivement contre Los Angeles Kings et Vancouver Canucks) (prol. et TAB inclus)",
    "premiere_vue": "2026-10-29T19:12:39+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|730924832|2265212520": {
+   "available_at": "2026-10-29T20:42:18+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-10-30T02:10+00:00",
+   "disponible": true,
+   "id": "winamax|730924832|2265212520",
+   "long_terme": false,
+   "match": "Portland Trail Blazers - Memphis Grizzlies",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Damian Lillard marque au moins 25 points",
+   "premiere_vue": "2026-10-29T20:41:57+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
