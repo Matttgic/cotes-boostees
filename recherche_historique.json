@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T13:19:03+00:00",
+ "derniere_observation": "2026-10-29T14:18:16+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5254,6 +5254,15 @@
      "date": "2026-10-29T11:54:18+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730580523|2264171413",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730684034|2264475536": {
+     "date": "2026-10-29T14:17:27+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730684034|2264475536",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10516,6 +10525,15 @@
      "mise": null,
      "p_modele": 0.322636,
      "regle": null
+    },
+    "winamax|730684034|2264475536": {
+     "date": "2026-10-29T14:17:27+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|730684034|2264475536",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -15774,6 +15792,15 @@
      "mise": null,
      "p_modele": 0.322636,
      "regle": null
+    },
+    "winamax|730684034|2264475536": {
+     "date": "2026-10-29T14:17:27+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|730684034|2264475536",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21031,6 +21058,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.322636,
+     "regle": null
+    },
+    "winamax|730684034|2264475536": {
+     "date": "2026-10-29T14:17:27+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|730684034|2264475536",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
      "regle": null
     }
    }
@@ -34109,6 +34145,22 @@
    "pari": "Flavio Cobolli gagne 2-1",
    "premiere_vue": "2026-10-29T11:53:20+00:00",
    "sport": "Tennis"
+  },
+  "winamax|730684034|2264475536": {
+   "available_at": "2026-10-29T14:17:27+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.7,
+   "debut": "2026-10-30T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|730684034|2264475536",
+   "long_terme": false,
+   "match": "Atlanta Hawks - Cleveland Cavaliers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Donovan Mitchell et Nickeil Alexander-Walker marquent au moins 20 points chacun",
+   "premiere_vue": "2026-10-29T14:17:00+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
