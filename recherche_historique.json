@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T10:55:49+00:00",
+ "derniere_observation": "2026-10-29T11:55:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1816,6 +1816,15 @@
      "date": "2026-10-29T08:56:25+00:00",
      "ev_modele_pct": null,
      "id": "unibet|196595726|736222250",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|196602408|736307316": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|196602408|736307316",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -5240,6 +5249,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|730580523|2264171413": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730580523|2264171413",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -7059,6 +7077,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|196602408|736307316": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 3.599,
+     "id": "unibet|196602408|736307316",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43166,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -10480,6 +10507,15 @@
      "mise": null,
      "p_modele": 0.20383,
      "regle": null
+    },
+    "winamax|730580523|2264171413": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 35.507,
+     "id": "winamax|730580523|2264171413",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322636,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -12299,6 +12335,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|196602408|736307316": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 3.599,
+     "id": "unibet|196602408|736307316",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43166,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -15720,6 +15765,15 @@
      "mise": null,
      "p_modele": 0.20383,
      "regle": null
+    },
+    "winamax|730580523|2264171413": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 35.507,
+     "id": "winamax|730580523|2264171413",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322636,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -17539,6 +17593,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.475914,
+     "regle": null
+    },
+    "unibet|196602408|736307316": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 3.599,
+     "id": "unibet|196602408|736307316",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.43166,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -20959,6 +21022,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.20383,
+     "regle": null
+    },
+    "winamax|730580523|2264171413": {
+     "date": "2026-10-29T11:54:18+00:00",
+     "ev_modele_pct": 35.507,
+     "id": "winamax|730580523|2264171413",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.322636,
      "regle": null
     }
    }
@@ -25758,6 +25830,22 @@
    "pari": "A.Fils remporte le 1er set 6-3 ou 6-4 ?",
    "premiere_vue": "2026-10-29T08:55:58+00:00",
    "sport": "Tennis"
+  },
+  "unibet|196602408|736307316": {
+   "available_at": "2026-10-29T11:54:18+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.4,
+   "cote_origine": 2.05,
+   "debut": "2026-10-29T19:45:00.000Z",
+   "disponible": true,
+   "id": "unibet|196602408|736307316",
+   "long_terme": false,
+   "match": "Fiorentina - Atalanta",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "N.Krstovic décisif et les deux équipes marquent (remboursé si non titulaire)",
+   "premiere_vue": "2026-10-29T11:53:20+00:00",
+   "sport": "Football"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -34005,6 +34093,22 @@
    "pari": "Nadir Hifi marque au moins 20 points et Paris Basketball gagne",
    "premiere_vue": "2026-10-29T10:54:09+00:00",
    "sport": "Basketball"
+  },
+  "winamax|730580523|2264171413": {
+   "available_at": "2026-10-29T11:54:18+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.2,
+   "cote_origine": 3.6,
+   "debut": "2026-10-29T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|730580523|2264171413",
+   "long_terme": false,
+   "match": "Flavio Cobolli - Matteo Berrettini",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Flavio Cobolli gagne 2-1",
+   "premiere_vue": "2026-10-29T11:53:20+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [

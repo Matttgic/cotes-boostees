@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 676,
+   "abstention": 678,
    "ecarter": 43,
    "hors_perimetre": 60,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-29T10:54:09+00:00",
+  "derniere_observation": "2026-10-29T11:53:20+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 60,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 421,
+   "reference_absente": 423,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 780,
+  "observes": 782,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-29T10:54:09+00:00",
+ "derniere_observation": "2026-10-29T11:53:20+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -13257,6 +13257,43 @@
    "pari": "A.Fils remporte le 1er set 6-3 ou 6-4 ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|196602408|736307316": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-29T19:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 17.1,
+      "horizon_heures": 7.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T11:53:20+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196602408|736307316",
+   "match": "Fiorentina - Atalanta",
+   "pari": "N.Krstovic décisif et les deux équipes marquent (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -42967,6 +43004,43 @@
    "pari": "Nadir Hifi marque au moins 20 points et Paris Basketball gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|730580523|2264171413": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 16.7,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T11:53:20+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730580523|2264171413",
+   "match": "Flavio Cobolli - Matteo Berrettini",
+   "pari": "Flavio Cobolli gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
