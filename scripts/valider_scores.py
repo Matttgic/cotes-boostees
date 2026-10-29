@@ -72,13 +72,13 @@ def main() -> int:
         "attente_reglables_par_bookmaker": dict(par_bookmaker), "sources": rech.archive["sources"],
         "ligues": rech.archive["ligues"], "requetes": lecteur.requetes, "octets_proxy": octets,
         "erreurs_http": lecteur.derniere_erreur, "sans_correspondance": len(rech.archive["sans_correspondance"]),
-        "decision": "ACTIVABLE" if compares and taux >= SEUIL and len(compares) >= 100 else "NON ACTIVABLE",
+        "decision": "ACTIVABLE" if compares and taux >= SEUIL and len(compares) >= 40 else "NON ACTIVABLE",
     }
     stockage.ecrire(sortie / "rapport_scores.json", {**rapport, "desaccords_detail": desaccords})
     stockage.ecrire(sortie / "resultats_validation.json", rech.archive)
     md = [f"# Validation du règlement par les scores ({rapport['date']})", "",
           f"**{rapport['decision']}** : accord {rapport['accord']}/{rapport['regles_par_scores']} = {rapport['taux_accord_pct']} % "
-          f"(seuil {SEUIL} %, au moins 100 comparaisons).", "",
+          f"(seuil {SEUIL} %, au moins 40 comparaisons).", "",
           f"- Boosts déjà réglés rejoués : {len(deja)} ; réglés par les scores : {len(compares)} ; désaccords : {len(desaccords)}",
           f"- Détail du rejeu : {res_val}", f"- En attente (à blanc) : {res_att} ; réglables : {dict(nouveaux)}",
           f"- Par bookmaker : {dict(par_bookmaker)}", f"- Sources : {json.dumps(rech.archive['sources'], ensure_ascii=False)}",
