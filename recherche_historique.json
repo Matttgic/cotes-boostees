@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T18:15:22+00:00",
+ "derniere_observation": "2026-10-29T19:14:23+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5380,6 +5380,15 @@
      "date": "2026-10-29T18:14:33+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730831825|2264913895",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730887389|2265098485": {
+     "date": "2026-10-29T19:13:32+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730887389|2265098485",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10768,6 +10777,15 @@
      "mise": null,
      "p_modele": 0.229887,
      "regle": null
+    },
+    "winamax|730887389|2265098485": {
+     "date": "2026-10-29T19:13:32+00:00",
+     "ev_modele_pct": -22.657,
+     "id": "winamax|730887389|2265098485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.257808,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16152,6 +16170,15 @@
      "mise": null,
      "p_modele": 0.229887,
      "regle": null
+    },
+    "winamax|730887389|2265098485": {
+     "date": "2026-10-29T19:13:32+00:00",
+     "ev_modele_pct": -22.657,
+     "id": "winamax|730887389|2265098485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.257808,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21535,6 +21562,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.229887,
+     "regle": null
+    },
+    "winamax|730887389|2265098485": {
+     "date": "2026-10-29T19:13:32+00:00",
+     "ev_modele_pct": -22.657,
+     "id": "winamax|730887389|2265098485",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.257808,
      "regle": null
     }
    }
@@ -34836,6 +34872,22 @@
    "mise_max_supposee": null,
    "pari": "Jason Robertson buteur et Dallas Stars gagne (hors TAB)",
    "premiere_vue": "2026-10-29T18:13:31+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|730887389|2265098485": {
+   "available_at": "2026-10-29T19:13:32+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.71,
+   "debut": "2026-10-30T02:10+00:00",
+   "disponible": true,
+   "id": "winamax|730887389|2265098485",
+   "long_terme": false,
+   "match": "NHL",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Ottawa Senators et San Jose Sharks gagnent chacun leur match (respectivement contre Los Angeles Kings et Vancouver Canucks) (prol. et TAB inclus)",
+   "premiere_vue": "2026-10-29T19:12:39+00:00",
    "sport": "Hockey sur glace"
   }
  },
