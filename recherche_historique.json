@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-29T22:41:30+00:00",
+ "derniere_observation": "2026-10-29T23:40:38+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5425,6 +5425,15 @@
      "date": "2026-10-29T20:42:18+00:00",
      "ev_modele_pct": null,
      "id": "winamax|730924832|2265212520",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|730991790|2265438517": {
+     "date": "2026-10-29T23:39:54+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|730991790|2265438517",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10858,6 +10867,15 @@
      "mise": null,
      "p_modele": 0.251604,
      "regle": null
+    },
+    "winamax|730991790|2265438517": {
+     "date": "2026-10-29T23:39:54+00:00",
+     "ev_modele_pct": -16.098,
+     "id": "winamax|730991790|2265438517",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18645,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16287,6 +16305,15 @@
      "mise": null,
      "p_modele": 0.251604,
      "regle": null
+    },
+    "winamax|730991790|2265438517": {
+     "date": "2026-10-29T23:39:54+00:00",
+     "ev_modele_pct": -16.098,
+     "id": "winamax|730991790|2265438517",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18645,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21715,6 +21742,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.251604,
+     "regle": null
+    },
+    "winamax|730991790|2265438517": {
+     "date": "2026-10-29T23:39:54+00:00",
+     "ev_modele_pct": -16.098,
+     "id": "winamax|730991790|2265438517",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.18645,
      "regle": null
     }
    }
@@ -35096,6 +35132,22 @@
    "mise_max_supposee": null,
    "pari": "Damian Lillard marque au moins 25 points",
    "premiere_vue": "2026-10-29T20:41:57+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|730991790|2265438517": {
+   "available_at": "2026-10-29T23:39:54+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.75,
+   "debut": "2026-10-30T00:05+00:00",
+   "disponible": true,
+   "id": "winamax|730991790|2265438517",
+   "long_terme": false,
+   "match": "New Orleans Pelicans - Sacramento Kings",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Zion Williamson termine meilleur marqueur du match et son équipe gagne",
+   "premiere_vue": "2026-10-29T23:39:23+00:00",
    "sport": "Basketball"
   }
  },
