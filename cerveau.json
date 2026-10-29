@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 681,
+   "abstention": 684,
    "ecarter": 43,
    "hors_perimetre": 60,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-29T15:16:06+00:00",
+  "derniere_observation": "2026-10-29T16:15:17+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 60,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 426,
+   "reference_absente": 429,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 785,
+  "observes": 788,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-29T15:16:06+00:00",
+ "derniere_observation": "2026-10-29T16:15:17+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -13294,6 +13294,43 @@
    "pari": "N.Krstovic décisif et les deux équipes marquent (remboursé si non titulaire)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|196613744|736366172": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-30T00:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 7.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T16:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196613744|736366172",
+   "match": "ATL Hawks - CLE Cavaliers",
+   "pari": "NBA - Jalen Johnson ou Donovan Mitchell marque 30pts ou +",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -43204,6 +43241,80 @@
    "pari": "Novak Djokovic gagne et plus de 22,5 jeux dans le match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|730742773|2264640740": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.168,
+      "hausse_pct": 10.7,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T16:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730742773|2264640740",
+   "match": "Coupe du Roi",
+   "pari": "Athletic Bilbao et FC Séville gagnent chacun par au moins 4 buts d'écart (respectivement contre AE Prat et AD Sporting Hortaleza) (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|730747886|2264655378": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-29T18:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-29T16:15:17+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|730747886|2264655378",
+   "match": "Al-Nassr - Al-Kholood",
+   "pari": "Cristiano Ronaldo marque au moins un but en 1ère mi-temps (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
