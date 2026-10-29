@@ -1,0 +1,159 @@
+{
+ "accord": 27,
+ "attente_reglables": {
+  "gagné": 25,
+  "perdu": 54
+ },
+ "attente_reglables_par_bookmaker": {
+  "Betsson": 7,
+  "OlyBet": 7,
+  "Unibet": 3,
+  "Winamax": 62
+ },
+ "boosts_rejoues": 293,
+ "date": "2026-10-29T15:25:57+00:00",
+ "decision": "NON ACTIVABLE",
+ "desaccords": 1,
+ "desaccords_detail": [
+  {
+   "bookmaker": "Winamax",
+   "explication_ia": "Le Sporting a gagné et les deux équipes ont marqué : les deux conditions du pari sont remplies.",
+   "explication_scores": "score 1-3 ; score 1-3",
+   "id": "winamax|715133265|2216491796",
+   "match": "Braga - Sporting Portugal",
+   "pari": "Braga ou Sporting Portugal gagne et les deux équipes marquent",
+   "score": "SC Braga 1-3 Sporting CP",
+   "verdict_ia_ou_manuel": "gagné",
+   "verdict_scores": "perdu"
+  }
+ ],
+ "erreurs_http": {
+  "api.sofascore.com": "HTTP 403"
+ },
+ "ligues": {
+  "": {
+   "espn": 21,
+   "livescore": 192
+  },
+  "ATP 1000 Shanghai": {
+   "livescore": 1
+  },
+  "ATP 250 Lyon": {
+   "livescore": 1
+  },
+  "ATP 500 Bâle": {
+   "livescore": 3
+  },
+  "ATP Brussels - Hard. Special Bets": {
+   "livescore": 1
+  },
+  "ATP Bâle - Dur": {
+   "livescore": 1
+  },
+  "ATP Lyon - Paris spéciaux": {
+   "livescore": 2
+  },
+  "Bundesliga - Allemagne": {
+   "espn": 1
+  },
+  "Conference League": {
+   "espn": 1
+  },
+  "Cotes Boostées Bale": {
+   "livescore": 1
+  },
+  "Cotes Boostées Lyon H": {
+   "livescore": 3
+  },
+  "Cotes Boostées Shanghai": {
+   "livescore": 2
+  },
+  "EFL Cup": {
+   "livescore": 1
+  },
+  "Euroligue": {
+   "livescore": 1
+  },
+  "Europa League": {
+   "espn": 1
+  },
+  "La Liga": {
+   "espn": 1
+  },
+  "Ligue 1 McDonald's®": {
+   "espn": 2
+  },
+  "Ligue 1 McDonald's® - France": {
+   "espn": 4
+  },
+  "Ligue des Champions": {
+   "espn": 5
+  },
+  "Premier League": {
+   "espn": 1
+  },
+  "Premier League - Angleterre": {
+   "espn": 3
+  },
+  "Serie A": {
+   "espn": 2
+  },
+  "Serie A - Italie": {
+   "espn": 1
+  },
+  "Super Lig": {
+   "espn": 1
+  },
+  "WTA 500 Ningbo": {
+   "livescore": 1
+  },
+  "WTA Ningbo - Hard. Special bets": {
+   "livescore": 1
+  }
+ },
+ "octets_proxy": 7211029,
+ "regles_par_scores": 28,
+ "requetes": 772,
+ "resume_attente": {
+  "examines": 424,
+  "non_analysables": 199,
+  "non_tranches": 113,
+  "regles": 79,
+  "sans_resultat": 33
+ },
+ "resume_validation": {
+  "examines": 287,
+  "non_analysables": 172,
+  "non_tranches": 64,
+  "regles": 28,
+  "sans_resultat": 23
+ },
+ "sans_correspondance": 53,
+ "seuil_pct": 98.0,
+ "sources": {
+  "espn": {
+   "dernier_succes": "2026-10-29T15:25:57+00:00",
+   "echecs": 0,
+   "ok": 82,
+   "vides": 4
+  },
+  "livescore": {
+   "dernier_succes": "2026-10-29T15:25:57+00:00",
+   "echecs": 0,
+   "ok": 77,
+   "vides": 0
+  },
+  "nhl": {
+   "dernier_succes": "2026-10-29T15:25:57+00:00",
+   "echecs": 0,
+   "ok": 17,
+   "vides": 0
+  },
+  "sofascore": {
+   "echecs": 0,
+   "ok": 0,
+   "vides": 160
+  }
+ },
+ "taux_accord_pct": 96.43
+}
