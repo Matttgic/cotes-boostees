@@ -25,8 +25,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from boosts import (betsson, cerveau, evaluation, olybet, rapport, reglement, simulation, sportnco,  # noqa: E402
-                    stockage, unibet, winamax, recherche_strategies)
+from boosts import (betsson, cerveau, evaluation, olybet, rapport, reglement, reglement_scores,  # noqa: E402
+                    simulation, sportnco, stockage, unibet, winamax, recherche_strategies)
 from boosts.acces import Navigateur, masquer  # noqa: E402
 
 COLLECTEURS = {"winamax": winamax.collecter, "unibet": unibet.collecter, "olybet": olybet.collecter,
@@ -92,6 +92,14 @@ def main() -> int:
         stockage.ecrire(dossier / "reglements_manuels.json", {})
     manuels = stockage.charger(dossier / "reglements_manuels.json")
     passage["reglements_manuels"] = reglement.appliquer_manuels(base, manuels, maintenant)
+    # puis les sites de scores (sans IA) : activé par la variable REGLEMENT_SCORES=oui (voir README)
+    if os.environ.get("REGLEMENT_SCORES", "").strip().lower() == "oui":
+        try:
+            passage["reglement_scores"] = reglement_scores.regler_depuis_dossier(base, dossier)
+        except Exception as e:  # une panne des sites de scores ne casse pas la collecte
+            passage["reglement_scores"] = {"erreur": masquer(f"{type(e).__name__} : {e}")[:300]}
+            print("Règlement par scores : ERREUR", masquer(traceback.format_exc())[-1500:], file=sys.stderr)
+        print("Règlement par scores :", passage["reglement_scores"])
     if reglement.fournisseur():
         try:
             passage["reglement"] = reglement.regler(base)

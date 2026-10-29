@@ -61,6 +61,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           REGLEMENT_MODELE: ${{ vars.REGLEMENT_MODELE }}
+          REGLEMENT_SCORES: ${{ vars.REGLEMENT_SCORES }}
         run: python scripts/collecte.py
 
       - name: Publier sur la branche « donnees »
@@ -75,7 +76,7 @@ jobs:
           # pas de déploiement Vercel à chaque passage (quota de 100 déploiements par jour)
           [ -f vercel.json ] || echo '{"git": {"deploymentEnabled": false}}' > vercel.json
           git add boosts.json etat.json bilan.json BILAN.md reglements_manuels.json cerveau.json vercel.json
-          for fichier in recherche_historique.json recherche.json RECHERCHE.md; do
+          for fichier in recherche_historique.json recherche.json RECHERCHE.md resultats.json; do
             if [ -f "$fichier" ]; then git add "$fichier"; fi
           done
           git commit -q -m "Collecte $(date -u +%F_%H%M)" || { echo "Rien de nouveau"; exit 0; }

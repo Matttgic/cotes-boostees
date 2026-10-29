@@ -135,6 +135,22 @@ séparé, contre A, démarre le 13/10/2026 à 20:20 UTC. Les autres stratégies 
 Diagnostic des boosts non évaluables :
 `scripts/diagnostic_valeur.py` (workflow « Sonde des sources »).
 
+## Règlement par les sites de scores (sans IA)
+
+`boosts/reglement_scores.py` règle les boosts avec les résultats réels lus sur SofaScore, ESPN, l'API officielle de la
+NHL et LiveScore (`boosts/scores/`), sans clé d'IA. Le texte du pari est analysé par règles (`boosts/analyse_pari.py`) :
+ce qui n'est pas reconnu (plusieurs matchs, « premier buteur », remboursements spéciaux…) reste en attente, jamais deviné.
+Un résultat doit être confirmé par une seconde source (ou venir de la NHL) ; deux sources en désaccord = pas de règlement.
+
+- **Archive** `resultats.json` (branche `donnees`) : tous les matchs retrouvés (score, mi-temps, buteurs, stats), la
+  fiabilité de chaque source, la source qui a servi pour chaque ligue et les matchs jamais retrouvés (noms à ajouter dans
+  `boosts/scores/noms.py`).
+- **Activation** : variable de dépôt `REGLEMENT_SCORES=oui` (Settings → Secrets and variables → Actions → Variables),
+  après lecture du rapport de validation. Sans cette variable, la collecte ne change pas.
+- **Validation** : workflow « Validation du règlement par les scores » (`scripts/valider_scores.py`) : rejoue les boosts
+  déjà réglés par l'IA, compare les verdicts, publie `RAPPORT_SCORES.md` sur la branche `rapport-scores`.
+  Seuil d'activation : 98 % d'accord sur au moins 100 paris comparés.
+
 ## Sondes
 
 Workflow « Sonde des sources » (lancé à la main) : `scripts/sonde.py` (PulseScore : pas de boosts ;
