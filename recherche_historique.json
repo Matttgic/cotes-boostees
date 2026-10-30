@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-30T03:57:25+00:00",
+ "derniere_observation": "2026-10-30T04:56:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5461,6 +5461,15 @@
      "date": "2026-10-30T02:57:41+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731105959|2265804177",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731136781|2265895605": {
+     "date": "2026-10-30T04:55:59+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731136781|2265895605",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10930,6 +10939,15 @@
      "mise": null,
      "p_modele": 0.256829,
      "regle": null
+    },
+    "winamax|731136781|2265895605": {
+     "date": "2026-10-30T04:55:59+00:00",
+     "ev_modele_pct": 25.339,
+     "id": "winamax|731136781|2265895605",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.557064,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16395,6 +16413,15 @@
      "mise": null,
      "p_modele": 0.256829,
      "regle": null
+    },
+    "winamax|731136781|2265895605": {
+     "date": "2026-10-30T04:55:59+00:00",
+     "ev_modele_pct": 25.339,
+     "id": "winamax|731136781|2265895605",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.557064,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21859,6 +21886,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.256829,
+     "regle": null
+    },
+    "winamax|731136781|2265895605": {
+     "date": "2026-10-30T04:55:59+00:00",
+     "ev_modele_pct": 25.339,
+     "id": "winamax|731136781|2265895605",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.557064,
      "regle": null
     }
    }
@@ -35305,6 +35341,22 @@
    "pari": "Auckland City marque dans les deux mi-temps",
    "premiere_vue": "2026-10-30T02:56:59+00:00",
    "sport": "Football"
+  },
+  "winamax|731136781|2265895605": {
+   "available_at": "2026-10-30T04:55:59+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 1.96,
+   "debut": "2026-10-30T12:30+00:00",
+   "disponible": true,
+   "id": "winamax|731136781|2265895605",
+   "long_terme": false,
+   "match": "Adrian Mannarino - Daniil Medvedev",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Adrian Mannarino remporte au moins un set",
+   "premiere_vue": "2026-10-30T04:55:15+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
