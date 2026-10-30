@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-30T13:10:38+00:00",
+ "derniere_observation": "2026-10-30T14:10:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5632,6 +5632,15 @@
      "date": "2026-10-30T12:53:59+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731326386|2266436630",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731417767|2266701566": {
+     "date": "2026-10-30T14:09:18+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731417767|2266701566",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11272,6 +11281,15 @@
      "mise": null,
      "p_modele": 0.321952,
      "regle": null
+    },
+    "winamax|731417767|2266701566": {
+     "date": "2026-10-30T14:09:18+00:00",
+     "ev_modele_pct": -18.977,
+     "id": "winamax|731417767|2266701566",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.180051,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16908,6 +16926,15 @@
      "mise": null,
      "p_modele": 0.321952,
      "regle": null
+    },
+    "winamax|731417767|2266701566": {
+     "date": "2026-10-30T14:09:18+00:00",
+     "ev_modele_pct": -18.977,
+     "id": "winamax|731417767|2266701566",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.180051,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -22543,6 +22570,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.321952,
+     "regle": null
+    },
+    "winamax|731417767|2266701566": {
+     "date": "2026-10-30T14:09:18+00:00",
+     "ev_modele_pct": -18.977,
+     "id": "winamax|731417767|2266701566",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.180051,
      "regle": null
     }
    }
@@ -36309,6 +36345,22 @@
    "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
    "premiere_vue": "2026-10-30T12:53:27+00:00",
    "sport": "Football"
+  },
+  "winamax|731417767|2266701566": {
+   "available_at": "2026-10-30T14:09:18+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.75,
+   "debut": "2026-10-30T16:30+00:00",
+   "disponible": true,
+   "id": "winamax|731417767|2266701566",
+   "long_terme": false,
+   "match": "Shanghai Dragons - Barys Astana",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "David Chen buteur et Shanghai Dragons gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-10-30T14:08:36+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
