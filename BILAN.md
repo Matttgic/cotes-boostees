@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 30/10 19h05 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 30/10 19h40 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -198,8 +198,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 566 en attente · cote moy
 | 30/10 23h10 · Vegas Golden Knights - New Jersey Devils | Vegas Golden Knights gagne et plus de 5,5 buts dans le match (hors prol. et TAB) | 4,0 | – | – | 20 € | ⏳ |
 | 30/10 21h15 · Casa Pia - Sporting Portugal | Sporting Portugal gagne les deux mi-temps | 2,75 | – | – | 20 € | ⏳ |
 | 30/10 21h05 · Lille - Lens | Lille ou Lens gagne et les deux équipes marquent | 2,75 | – | – | 25 € | ⏳ |
-| 30/10 21h05 · Lille/Lens - F.Thauvin décisif ? | Lille/Lens - F.Thauvin décisif ? | 2,3 | – | – | 10 € | ⏳ |
 | 30/10 21h05 · Lille - Lens | Lille ou Lens gagne et plus de 3,5 buts dans le match | 4,0 | – | – | 20 € | ⏳ |
+| 30/10 21h05 · Lille/Lens - F.Thauvin décisif ? | Lille/Lens - F.Thauvin décisif ? | 2,3 | – | – | 10 € | ⏳ |
 | 30/10 21h05 · Lille/Lens - F.Thauvin décisif ? | Lille/Lens - F.Thauvin décisif ? | 2,2 | – | – | 10 € | ⏳ |
 | 30/10 21h05 · Florian Thauvin - Lille | Florian Thauvin (vs Lille) buteur ou passeur décisif (mise max 10 €) | 2,3 | – | – | 10 € | ⏳ |
 | 30/10 21h00 · Villarreal - Espanyol Barcelone | Villarreal gagne par au moins 3 buts d'écart | 3,4 | – | – | 20 € | ⏳ |
