@@ -15,30 +15,30 @@ Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées un
 
 ## Hypothèse I — essai prospectif
 
-Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (659 pour l'instant).
+Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (663 pour l'instant).
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI |
 |---|---|---|---|---|
-| **A — tout miser** | 144 / 659 | 2937 € | +75,67 € | +2,6 % |
-| **I — cotes modérées, un boost/match** | 93 / 385 | 930 € | +30,00 € | +3,2 % |
+| **A — tout miser** | 144 / 663 | 2937 € | +75,67 € | +2,6 % |
+| **I — cotes modérées, un boost/match** | 93 / 387 | 930 € | +30,00 € | +3,2 % |
 Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 30/10 10h56 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 30/10 11h55 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 293 / 841 | 6002 € | **-235,78 €** | **-3,9 %** | -706,50 € |
+| **A — tout miser** | 293 / 845 | 6002 € | **-235,78 €** | **-3,9 %** | -706,50 € |
 | **B-exacte (EV ≥ 5 %)** | 2 / 2 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B-approx (EV ≥ 5 %)** | 5 / 7 | 100 € | **+125,00 €** | **+125,0 %** | -20,00 € |
-| **C — 10 € maximum** | 293 / 841 | 2925 € | **-96,95 €** | **-3,3 %** | -337,50 € |
-| **D — cote 1,60–3,50** | 209 / 586 | 2090 € | **-4,50 €** | **-0,2 %** | -238,00 € |
-| **E — dans les 48 h** | 291 / 763 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
+| **C — 10 € maximum** | 293 / 845 | 2925 € | **-96,95 €** | **-3,3 %** | -337,50 € |
+| **D — cote 1,60–3,50** | 209 / 589 | 2090 € | **-4,50 €** | **-0,2 %** | -238,00 € |
+| **E — dans les 48 h** | 291 / 767 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 1 / 1 | 5 € | **-4,96 €** | **-100,0 %** | -4,96 € |
-| **H — un boost/match** | 261 / 676 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
-| **I — cotes modérées, un boost/match** | 182 / 475 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
+| **H — un boost/match** | 261 / 679 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
+| **I — cotes modérées, un boost/match** | 182 / 477 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
 | **B — valeur ≥ +5 %** | 2 / 2 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B0 — valeur ≥ 0 %** | 3 / 3 | 50 € | **-50,00 €** | **-100,0 %** | -50,00 € |
 | **J — filtre quotidien choisi avec les résultats passés** | 44 / 54 | 424 € | **+19,39 €** | **+4,6 %** | -122,83 € |
@@ -56,7 +56,7 @@ J/K/L/M utilisent un replay chronologique après 30 règlements d'apprentissage,
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moyenne 3,42 · pire série perdante 22
+A en détail : 93 gagnés, 196 perdus, 4 remboursés, 552 en attente · cote moyenne 3,42 · pire série perdante 22
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -72,7 +72,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | EV 5 à 10 % (exacte) | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | EV < 0 (approx) | 40 / 45 | 802 € | -386,70 € | -48,2 % | 20 % |
 | EV < 0 (exacte) | 45 / 46 | 895 € | +237,00 € | +26,5 % | 41 % |
-| non évaluable | 196 / 736 | 4070 € | -212,33 € | -5,2 % | 32 % |
+| non évaluable | 196 / 740 | 4070 € | -212,33 € | -5,2 % | 32 % |
 
 ### A par bookmaker
 
@@ -81,7 +81,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | Betsson | 7 / 36 | 140 € | +26,00 € | +18,6 % | 43 % |
 | Genybet | 3 / 15 | 30 € | -10,00 € | -33,3 % | 33 % |
 | NetBet | 3 / 12 | 30 € | -2,50 € | -8,3 % | 33 % |
-| OlyBet | 7 / 62 | 82 € | +106,47 € | +129,8 % | 71 % |
+| OlyBet | 7 / 66 | 82 € | +106,47 € | +129,8 % | 71 % |
 | Unibet | 52 / 180 | 1300 € | +31,25 € | +2,4 % | 39 % |
 | Winamax | 221 / 536 | 4420 € | -387,00 € | -8,8 % | 29 % |
 
@@ -90,7 +90,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 63 | 0 € | +0,00 € | – | – |
-| match | 293 / 778 | 6002 € | -235,78 € | -3,9 % | 32 % |
+| match | 293 / 782 | 6002 € | -235,78 € | -3,9 % | 32 % |
 
 ### A par mise max
 
@@ -99,11 +99,11 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | 1.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 1.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 10 € | 7 / 33 | 70 € | +12,50 € | +17,9 % | 43 % |
-| 11.11 € | 1 / 2 | 11 € | -11,11 € | -100,0 % | 0 % |
+| 11.11 € | 1 / 3 | 11 € | -11,11 € | -100,0 % | 0 % |
 | 11.62 € | 1 / 1 | 12 € | +29,05 € | +250,0 % | 100 % |
-| 12.5 € | 0 / 2 | 0 € | +0,00 € | – | – |
+| 12.5 € | 0 / 3 | 0 € | +0,00 € | – | – |
 | 13.15 € | 0 / 2 | 0 € | +0,00 € | – | – |
-| 13.88 € | 1 / 2 | 14 € | +24,98 € | +180,0 % | 100 % |
+| 13.88 € | 1 / 3 | 14 € | +24,98 € | +180,0 % | 100 % |
 | 14.7 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 16.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -131,6 +131,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | 7.69 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 8.06 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 8.33 € | 1 / 4 | 8 € | -8,33 € | -100,0 % | 0 % |
+| 8.92 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 9.09 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 9.25 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 9.61 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -140,8 +141,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 10 et + | 3 / 13 | 60 € | -60,00 € | -100,0 % | 0 % |
-| 2 – 3 | 124 / 351 | 2650 € | +191,98 € | +7,2 % | 43 % |
-| 3 – 5 | 151 / 398 | 3012 € | -387,76 € | -12,9 % | 25 % |
+| 2 – 3 | 124 / 352 | 2650 € | +191,98 € | +7,2 % | 43 % |
+| 3 – 5 | 151 / 401 | 3012 € | -387,76 € | -12,9 % | 25 % |
 | 5 – 10 | 13 / 57 | 260 € | +40,00 € | +15,4 % | 23 % |
 | < 2 | 2 / 22 | 20 € | -20,00 € | -100,0 % | 0 % |
 
@@ -153,7 +154,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | Baseball | 7 / 14 | 140 € | -92,00 € | -65,7 % | 14 % |
 | Basketball | 13 / 117 | 265 € | -68,00 € | -25,7 % | 25 % |
 | Foot américain | 0 / 1 | 0 € | +0,00 € | – | – |
-| Football | 159 / 434 | 3212 € | -35,03 € | -1,1 % | 33 % |
+| Football | 159 / 438 | 3212 € | -35,03 € | -1,1 % | 33 % |
 | Football Américain | 6 / 17 | 120 € | -120,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 5 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 3 / 5 | 60 € | -14,00 € | -23,3 % | 33 % |
@@ -172,7 +173,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
-| 2026-10 | 293 / 839 | 6002 € | -235,78 € | -3,9 % | 32 % |
+| 2026-10 | 293 / 843 | 6002 € | -235,78 € | -3,9 % | 32 % |
 | 2026-11 | 0 / 2 | 0 € | +0,00 € | – | – |
 
 ### Derniers paris
@@ -181,7 +182,11 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 |---|---|---|---|---|---|---|
 | 01/11 17h30 · Liverpool - Arsenal | Bradley Barcola Buteur | 4,1 | – | – | 20 € | ⏳ |
 | 01/11 17h15 · Lyon - Angers | Ernest Nuamah Buteur! | 2,7 | – | – | 20 € | ⏳ |
+| 31/10 21h00 · Barcelone - Alaves | Barcelone gagne par au moins 4 buts | 3,0 | – | – | 12.5 € | ⏳ |
+| 31/10 20h45 · AC Milan - Inter Milan | Inter Milan gagne et plus de 2.5 buts | 2,8 | – | – | 13.88 € | ⏳ |
+| 31/10 18h30 · Bayern Munich - Dortmund | H. Kane et M. Olise buteurs | 3,8 | – | – | 8.92 € | ⏳ |
 | 31/10 16h00 · Manchester City - Brighton | Rayan Cherki Buteur! | 3,0 | – | – | 20 € | ⏳ |
+| 31/10 13h30 · Chelsea - Manchester United | Chelsea gagne et les 2 équipes marquent | 3,25 | – | – | 11.11 € | ⏳ |
 | 31/10 13h30 · Chelsea - Manchester United | Bryan Mbeumo buteur! | 3,5 | – | – | 20 € | ⏳ |
 | 30/10 21h15 · Casa Pia - Sporting Portugal | Sporting Portugal gagne les deux mi-temps | 2,75 | – | – | 20 € | ⏳ |
 | 30/10 21h05 · Lille - Lens | Lille ou Lens gagne et les deux équipes marquent | 2,75 | – | – | 25 € | ⏳ |
@@ -215,9 +220,5 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 548 en attente · cote moy
 | 29/10 21h45 · Benfica - Gil Vicente | Benfica gagne le match 1-0, 2-0 ou 3-0 (hors prol. et TAB) | 3,1 | – | – | 20 € | ⏳ |
 | 29/10 21h00 · Coupe du Roi | Athletic Bilbao et FC Séville gagnent chacun par au moins 4 buts d'écart (respectivement contre AE Prat et AD Sporting Hortaleza) (hors prol. et TAB) | 2,4 | – | – | 20 € | ⏳ |
 | 29/10 20h45 · Fiorentina - Atalanta | N.Krstovic décisif et les deux équipes marquent (remboursé si non titulaire) | 2,4 | – | – | 25 € | ⏳ |
-| 29/10 20h45 · Fiorentina - Atalanta | Fiorentina gagne par au moins 2 buts d'écart | 4,25 | – | – | 20 € | ⏳ |
-| 29/10 20h45 · Fiorentina - Atalanta | Les 2 équipes marquent et plus de 3.5 buts | 2,5 | – | – | 16.66 € | ⏳ |
-| 29/10 20h45 · Everton / Newcastle : Les 2 équipes marquent (mise max 10 €) | Everton / Newcastle : Les 2 équipes marquent (mise max 10 €) | 1,7 | – | – | 10 € | ⏳ |
-| 29/10 20h05 · Maccabi Tel-Aviv - Paris Basketball | Nadir Hifi marque au moins 20 points et Paris Basketball gagne | 4,0 | – | – | 20 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).
