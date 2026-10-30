@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-30T14:10:04+00:00",
+ "derniere_observation": "2026-10-30T15:09:06+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5641,6 +5641,24 @@
      "date": "2026-10-30T14:09:18+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731417767|2266701566",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731455234|2266809083": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731455234|2266809083",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731466002|2266838361": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731466002|2266838361",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11290,6 +11308,24 @@
      "mise": null,
      "p_modele": 0.180051,
      "regle": null
+    },
+    "winamax|731455234|2266809083": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.554,
+     "id": "winamax|731455234|2266809083",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290878,
+     "regle": null
+    },
+    "winamax|731466002|2266838361": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.068,
+     "id": "winamax|731466002|2266838361",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.273106,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16935,6 +16971,24 @@
      "mise": null,
      "p_modele": 0.180051,
      "regle": null
+    },
+    "winamax|731455234|2266809083": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.554,
+     "id": "winamax|731455234|2266809083",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290878,
+     "regle": null
+    },
+    "winamax|731466002|2266838361": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.068,
+     "id": "winamax|731466002|2266838361",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.273106,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -22579,6 +22633,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.180051,
+     "regle": null
+    },
+    "winamax|731455234|2266809083": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.554,
+     "id": "winamax|731455234|2266809083",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290878,
+     "regle": null
+    },
+    "winamax|731466002|2266838361": {
+     "date": "2026-10-30T15:08:14+00:00",
+     "ev_modele_pct": -18.068,
+     "id": "winamax|731466002|2266838361",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.273106,
      "regle": null
     }
    }
@@ -36361,6 +36433,38 @@
    "pari": "David Chen buteur et Shanghai Dragons gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-30T14:08:36+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|731455234|2266809083": {
+   "available_at": "2026-10-30T15:08:14+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": 2.444,
+   "debut": "2026-10-30T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|731455234|2266809083",
+   "long_terme": false,
+   "match": "Synerglace Ligue Magnus",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Rouen et Grenoble gagnent chacun par au moins 2 buts d'écart (respectivement contre Chamonix et Bordeaux)",
+   "premiere_vue": "2026-10-30T15:07:47+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|731466002|2266838361": {
+   "available_at": "2026-10-30T15:08:14+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.65,
+   "debut": "2026-10-30T17:30+00:00",
+   "disponible": true,
+   "id": "winamax|731466002|2266838361",
+   "long_terme": false,
+   "match": "Anadolu Efes - Panathinaikos",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Sylvain Francisco marque au moins 15 points et Panathinaikos gagne",
+   "premiere_vue": "2026-10-30T15:07:47+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
