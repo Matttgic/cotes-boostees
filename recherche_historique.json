@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-30T11:55:48+00:00",
+ "derniere_observation": "2026-10-30T12:54:45+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5623,6 +5623,15 @@
      "date": "2026-10-30T06:59:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731175004|2266033581",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731326386|2266436630": {
+     "date": "2026-10-30T12:53:59+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731326386|2266436630",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11254,6 +11263,15 @@
      "mise": null,
      "p_modele": 0.228437,
      "regle": null
+    },
+    "winamax|731326386|2266436630": {
+     "date": "2026-10-30T12:53:59+00:00",
+     "ev_modele_pct": 12.683,
+     "id": "winamax|731326386|2266436630",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321952,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16881,6 +16899,15 @@
      "mise": null,
      "p_modele": 0.228437,
      "regle": null
+    },
+    "winamax|731326386|2266436630": {
+     "date": "2026-10-30T12:53:59+00:00",
+     "ev_modele_pct": 12.683,
+     "id": "winamax|731326386|2266436630",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321952,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -22507,6 +22534,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.228437,
+     "regle": null
+    },
+    "winamax|731326386|2266436630": {
+     "date": "2026-10-30T12:53:59+00:00",
+     "ev_modele_pct": 12.683,
+     "id": "winamax|731326386|2266436630",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321952,
      "regle": null
     }
    }
@@ -36257,6 +36293,22 @@
    "pari": "Tomas Junior Popov gagne le match 2-1",
    "premiere_vue": "2026-10-30T06:58:42+00:00",
    "sport": "Badminton"
+  },
+  "winamax|731326386|2266436630": {
+   "available_at": "2026-10-30T12:53:59+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 2.633,
+   "debut": "2026-10-30T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|731326386|2266436630",
+   "long_terme": false,
+   "match": "Ligue 2 BKT®",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs du jour",
+   "premiere_vue": "2026-10-30T12:53:27+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
