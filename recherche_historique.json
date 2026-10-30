@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-30T04:56:48+00:00",
+ "derniere_observation": "2026-10-30T05:55:34+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5470,6 +5470,24 @@
      "date": "2026-10-30T04:55:59+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731136781|2265895605",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731152152|2265937964": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731152152|2265937964",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731154210|2265952930": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731154210|2265952930",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -10948,6 +10966,24 @@
      "mise": null,
      "p_modele": 0.557064,
      "regle": null
+    },
+    "winamax|731152152|2265937964": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.761,
+     "id": "winamax|731152152|2265937964",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.409529,
+     "regle": null
+    },
+    "winamax|731154210|2265952930": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.35,
+     "id": "winamax|731154210|2265952930",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.284265,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -16422,6 +16458,24 @@
      "mise": null,
      "p_modele": 0.557064,
      "regle": null
+    },
+    "winamax|731152152|2265937964": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.761,
+     "id": "winamax|731152152|2265937964",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.409529,
+     "regle": null
+    },
+    "winamax|731154210|2265952930": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.35,
+     "id": "winamax|731154210|2265952930",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.284265,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -21895,6 +21949,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.557064,
+     "regle": null
+    },
+    "winamax|731152152|2265937964": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.761,
+     "id": "winamax|731152152|2265937964",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.409529,
+     "regle": null
+    },
+    "winamax|731154210|2265952930": {
+     "date": "2026-10-30T05:54:48+00:00",
+     "ev_modele_pct": -3.35,
+     "id": "winamax|731154210|2265952930",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.284265,
      "regle": null
     }
    }
@@ -35357,6 +35429,38 @@
    "pari": "Adrian Mannarino remporte au moins un set",
    "premiere_vue": "2026-10-30T04:55:15+00:00",
    "sport": "Tennis"
+  },
+  "winamax|731152152|2265937964": {
+   "available_at": "2026-10-30T05:54:48+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.35,
+   "cote_origine": 2.1,
+   "debut": "2026-10-30T18:00+00:00",
+   "disponible": true,
+   "id": "winamax|731152152|2265937964",
+   "long_terme": false,
+   "match": "Le Havre - Paris SG",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Paris SG gagne et les deux équipes marquent",
+   "premiere_vue": "2026-10-30T05:54:21+00:00",
+   "sport": "Football"
+  },
+  "winamax|731154210|2265952930": {
+   "available_at": "2026-10-30T05:54:48+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.4,
+   "cote_origine": 2.95,
+   "debut": "2026-10-30T20:00+00:00",
+   "disponible": true,
+   "id": "winamax|731154210|2265952930",
+   "long_terme": false,
+   "match": "Villarreal - Espanyol Barcelone",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Villarreal gagne par au moins 3 buts d'écart",
+   "premiere_vue": "2026-10-30T05:54:21+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [

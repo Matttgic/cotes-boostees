@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 702,
+   "abstention": 704,
    "ecarter": 43,
    "hors_perimetre": 60,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-30T04:55:15+00:00",
+  "derniere_observation": "2026-10-30T05:54:21+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 60,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 447,
+   "reference_absente": 449,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 806,
+  "observes": 808,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-30T04:55:15+00:00",
+ "derniere_observation": "2026-10-30T05:54:21+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -44059,6 +44059,80 @@
    "pari": "Adrian Mannarino remporte au moins un set",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|731152152|2265937964": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-30T18:00+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 12.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-30T05:54:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|731152152|2265937964",
+   "match": "Le Havre - Paris SG",
+   "pari": "Paris SG gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|731154210|2265952930": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-30T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 15.3,
+      "horizon_heures": 14.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-30T05:54:21+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|731154210|2265952930",
+   "match": "Villarreal - Espanyol Barcelone",
+   "pari": "Villarreal gagne par au moins 3 buts d'écart",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
