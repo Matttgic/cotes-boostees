@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 725,
+   "abstention": 728,
    "ecarter": 43,
    "hors_perimetre": 61,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-30T16:06:50+00:00",
+  "derniere_observation": "2026-10-30T17:06:01+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 61,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 470,
+   "reference_absente": 473,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 830,
+  "observes": 833,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-30T16:06:50+00:00",
+ "derniere_observation": "2026-10-30T17:06:01+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2791,6 +2791,43 @@
    "id": "genybet|12333444|4901637770",
    "match": "Everton / Newcastle : Les 2 équipes marquent (mise max 10 €)",
    "pari": "Everton / Newcastle : Les 2 équipes marquent (mise max 10 €)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12339105|4906559960": {
+   "bookmaker": "Genybet",
+   "debut": "2026-10-30T20:05+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 3.0,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-30T17:06:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12339105|4906559960",
+   "match": "Florian Thauvin - Lille",
+   "pari": "Florian Thauvin (vs Lille) buteur ou passeur décisif (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -45205,6 +45242,80 @@
    "id": "winamax|731509439|2266968202",
    "match": "Toronto Raptors - Orlando Magic",
    "pari": "Franz Wagner + Scottie Barnes marquent 55 points ou plus",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|731553729|2267099110": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-30T23:10+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 6.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-30T17:06:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|731553729|2267099110",
+   "match": "Florida Panthers - Winnipeg Jets",
+   "pari": "Brady Tkachuk buteur et Florida Panthers gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|731554775|2267102385": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T02:10+00:00",
+   "historique": [
+    {
+     "cote": 3.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.274,
+      "hausse_pct": 17.6,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-30T17:06:01+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|731554775|2267102385",
+   "match": "NBA",
+   "pari": "Denver Nuggets et Los Angeles Lakers gagnent chacun par au moins 5 points d'écart (respectivement contre Phoenix Suns et Golden State Warriors)",
    "premiere_selection": null,
    "sport": "Basketball"
   }
