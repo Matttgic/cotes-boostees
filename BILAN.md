@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 31/10 20h43 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 31/10 21h03 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -188,8 +188,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 604 en attente · cote moy
 | 01/11 02h05 · Monterrey - Club Tijuana | Monterrey gagne le match 1-0, 2-0 ou 3-0 | 3,5 | – | – | 20 € | ⏳ |
 | 01/11 01h40 · Houston Rockets - Oklahoma City Thunder | Kevin Durant marque au moins 25 points et Houston Rockets gagne | 3,0 | – | – | 20 € | ⏳ |
 | 01/11 01h10 · San Antonio Spurs - Minnesota Timberwolves | Victor Wembanyama + LaMelo Ball marquent 55 points ou plus | 3,5 | – | – | 20 € | ⏳ |
-| 01/11 01h00 · GS Valkyries - ATL Dream | WNBA - Gabby Williams marque 22pts ou plus | 3,0 | – | – | 25 € | ⏳ |
 | 01/11 01h00 · MIL Bucks - CLE Cavaliers | NBA - Donovan Mitchell et James Harden marquent 20pts ou + chacun | 2,6 | – | – | 25 € | ⏳ |
+| 01/11 01h00 · GS Valkyries - ATL Dream | WNBA - Gabby Williams marque 22pts ou plus | 3,0 | – | – | 25 € | ⏳ |
 | 01/11 01h00 · Golden State Valkyries - Atlanta Dream | Gabby Williams et Angel Reese marquent au moins 15 points chacune | 2,5 | – | – | 20 € | ⏳ |
 | 31/10 23h10 · Charlotte Hornets - Philadelphia 76ers | Brandon Miller et Jaylen Brown marquent au moins 25 points chacun | 3,25 | – | – | 20 € | ⏳ |
 | 31/10 21h10 · Los Angeles Kings - Buffalo Sabres | A. Panarin + A. Kempe + T. Thompson marquent buts ou plus (avec Garantie Golden Goal) | 2,9 | – | – | 20 € | ⏳ |
