@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T03:30:22+00:00",
+ "derniere_observation": "2026-10-31T04:29:18+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5749,6 +5749,15 @@
      "date": "2026-10-30T18:05:56+00:00",
      "ev_modele_pct": null,
      "id": "winamax|731588638|2267208845",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|731939903|2268326670": {
+     "date": "2026-10-31T04:28:36+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|731939903|2268326670",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11506,6 +11515,15 @@
      "mise": null,
      "p_modele": 0.382828,
      "regle": null
+    },
+    "winamax|731939903|2268326670": {
+     "date": "2026-10-31T04:28:36+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|731939903|2268326670",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -17259,6 +17277,15 @@
      "mise": null,
      "p_modele": 0.382828,
      "regle": null
+    },
+    "winamax|731939903|2268326670": {
+     "date": "2026-10-31T04:28:36+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|731939903|2268326670",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -23011,6 +23038,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.382828,
+     "regle": null
+    },
+    "winamax|731939903|2268326670": {
+     "date": "2026-10-31T04:28:36+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|731939903|2268326670",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
      "regle": null
     }
    }
@@ -36985,6 +37021,22 @@
    "pari": "Chaque équipe marque lors des matchs suivants : Kashima Antlers - Cerezo Osaka et Vissel Kobe - Nagoya Grampus",
    "premiere_vue": "2026-10-30T18:05:05+00:00",
    "sport": "Football"
+  },
+  "winamax|731939903|2268326670": {
+   "available_at": "2026-10-31T04:28:36+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 1.98,
+   "debut": "2026-10-31T14:00+00:00",
+   "disponible": true,
+   "id": "winamax|731939903|2268326670",
+   "long_terme": false,
+   "match": "Daniil Medvedev - Carlos Alcaraz",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Carlos Alcaraz gagne 2-0",
+   "premiere_vue": "2026-10-31T04:28:09+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
