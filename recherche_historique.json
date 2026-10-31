@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T22:03:15+00:00",
+ "derniere_observation": "2026-10-31T23:02:23+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6091,6 +6091,15 @@
      "date": "2026-10-31T21:03:39+00:00",
      "ev_modele_pct": null,
      "id": "winamax|732581146|2270396298",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|732653622|2270619440": {
+     "date": "2026-10-31T23:01:39+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|732653622|2270619440",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12190,6 +12199,15 @@
      "mise": null,
      "p_modele": 0.306395,
      "regle": null
+    },
+    "winamax|732653622|2270619440": {
+     "date": "2026-10-31T23:01:39+00:00",
+     "ev_modele_pct": 32.331,
+     "id": "winamax|732653622|2270619440",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.330827,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -18285,6 +18303,15 @@
      "mise": null,
      "p_modele": 0.306395,
      "regle": null
+    },
+    "winamax|732653622|2270619440": {
+     "date": "2026-10-31T23:01:39+00:00",
+     "ev_modele_pct": 32.331,
+     "id": "winamax|732653622|2270619440",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.330827,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -24379,6 +24406,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.306395,
+     "regle": null
+    },
+    "winamax|732653622|2270619440": {
+     "date": "2026-10-31T23:01:39+00:00",
+     "ev_modele_pct": 32.331,
+     "id": "winamax|732653622|2270619440",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.330827,
      "regle": null
     }
    }
@@ -38993,6 +39029,22 @@
    "pari": "Les deux équipes marquent en première mi-temps",
    "premiere_vue": "2026-10-31T21:02:56+00:00",
    "sport": "Football"
+  },
+  "winamax|732653622|2270619440": {
+   "available_at": "2026-10-31T23:01:39+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.5,
+   "debut": "2026-11-01T08:30+00:00",
+   "disponible": true,
+   "id": "winamax|732653622|2270619440",
+   "long_terme": false,
+   "match": "Lilli Tagger - Harriet Dart",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Lilli Tagger gagne 2-1",
+   "premiere_vue": "2026-10-31T23:01:08+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
