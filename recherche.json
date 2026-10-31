@@ -732,13 +732,13 @@
    "debut_evaluation": "2026-10-10T06:00:45+00:00",
    "global": {
     "boosts_sans_mise_max": 0,
-    "cote_moyenne": 3.33,
-    "en_attente": 3,
+    "cote_moyenne": 3.31,
+    "en_attente": 4,
     "ev_moyenne_pct": null,
     "gagnes": 1,
     "gain_net": -17.5,
     "mise_totale": 50.0,
-    "paris": 8,
+    "paris": 9,
     "paris_avec_ev": 0,
     "perdus": 4,
     "pire_baisse": -30.0,
@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-31T08:26:19+00:00",
+ "derniere_observation": "2026-10-31T09:25:37+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 874,
+ "observations": 876,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -10157,6 +10157,30 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.333333,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.37037,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -19260,6 +19284,30 @@
        "motif": "filtre",
        "p_modele": 0.278773,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -6.159,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.360927,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -7.142,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.299543,
+       "p_prior": 0.37037,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -28597,6 +28645,30 @@
        "p_prior": 0.333333,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -6.159,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.360927,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -7.142,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.299543,
+       "p_prior": 0.37037,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -37338,6 +37410,30 @@
        "motif": "filtre",
        "p_modele": 0.278773,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -6.159,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.360927,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -7.142,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.299543,
+       "p_prior": 0.37037,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -47589,6 +47685,30 @@
        "p_prior": 0.333333,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.37037,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -57427,6 +57547,30 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": null,
        "p_prior": 0.333333,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "netbet|12327807|7519914551",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T09:24:55+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "unibet|196787726|737288943",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.37037,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -68635,6 +68779,30 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.333333,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.37037,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -80371,6 +80539,30 @@
       "motif": "filtre",
       "p_modele": 0.278773,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -6.159,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.360927,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -7.142,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.299543,
+      "p_prior": 0.37037,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -92908,6 +93100,30 @@
       "p_prior": 0.333333,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -6.159,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.360927,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -7.142,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.299543,
+      "p_prior": 0.37037,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -103940,6 +104156,30 @@
       "motif": "filtre",
       "p_modele": 0.278773,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -6.159,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.360927,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -7.142,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.299543,
+      "p_prior": 0.37037,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -116863,6 +117103,30 @@
       "p_prior": 0.333333,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.37037,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -128969,6 +129233,30 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.333333,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "netbet|12327807|7519914551",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T09:24:55+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "unibet|196787726|737288943",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.37037,
       "regle": null,
       "regles_entrainement": 288
      }
