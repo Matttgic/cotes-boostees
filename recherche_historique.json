@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T15:48:19+00:00",
+ "derniere_observation": "2026-10-31T16:47:28+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -439,6 +439,15 @@
      "date": "2026-10-31T15:43:39+00:00",
      "ev_modele_pct": null,
      "id": "genybet|12339111|4911552684",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "genybet|12339111|4911773229": {
+     "date": "2026-10-31T16:46:45+00:00",
+     "ev_modele_pct": null,
+     "id": "genybet|12339111|4911773229",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -6431,6 +6440,15 @@
      "p_modele": 0.543325,
      "regle": null
     },
+    "genybet|12339111|4911773229": {
+     "date": "2026-10-31T16:46:45+00:00",
+     "ev_modele_pct": -7.635,
+     "id": "genybet|12339111|4911773229",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.543325,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -12418,6 +12436,15 @@
      "p_modele": 0.543325,
      "regle": null
     },
+    "genybet|12339111|4911773229": {
+     "date": "2026-10-31T16:46:45+00:00",
+     "ev_modele_pct": -7.635,
+     "id": "genybet|12339111|4911773229",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.543325,
+     "regle": null
+    },
     "netbet|12231955|7443639753": {
      "date": "2026-10-14T09:00:13+00:00",
      "ev_modele_pct": -24.415,
@@ -18400,6 +18427,15 @@
      "date": "2026-10-31T15:43:39+00:00",
      "ev_modele_pct": -7.635,
      "id": "genybet|12339111|4911552684",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.543325,
+     "regle": null
+    },
+    "genybet|12339111|4911773229": {
+     "date": "2026-10-31T16:46:45+00:00",
+     "ev_modele_pct": -7.635,
+     "id": "genybet|12339111|4911773229",
      "joue": false,
      "mise": null,
      "p_modele": 0.543325,
@@ -24807,6 +24843,22 @@
    "mise_max_supposee": false,
    "pari": "Harry Kane (vs Dortmund) buteur (mise max 10 €)",
    "premiere_vue": "2026-10-31T15:43:04+00:00",
+   "sport": "Football"
+  },
+  "genybet|12339111|4911773229": {
+   "available_at": "2026-10-31T16:46:45+00:00",
+   "bookmaker": "Genybet",
+   "cote_boostee_initiale": 1.7,
+   "cote_origine": null,
+   "debut": "2026-10-31T17:30+00:00",
+   "disponible": true,
+   "id": "genybet|12339111|4911773229",
+   "long_terme": false,
+   "match": "Harry Kane - Dortmund",
+   "mise_max": 10.0,
+   "mise_max_supposee": false,
+   "pari": "Harry Kane (vs Dortmund) buteur (mise max 10 €)",
+   "premiere_vue": "2026-10-31T16:46:13+00:00",
    "sport": "Football"
   },
   "netbet|12231955|7443639753": {
