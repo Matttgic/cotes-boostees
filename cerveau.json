@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 757,
+   "abstention": 759,
    "ecarter": 43,
    "hors_perimetre": 63,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-31T15:43:04+00:00",
+  "derniere_observation": "2026-10-31T15:47:09+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 63,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 502,
+   "reference_absente": 504,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 864,
+  "observes": 866,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-31T15:43:04+00:00",
+ "derniere_observation": "2026-10-31T15:47:09+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -46671,6 +46671,80 @@
    "id": "winamax|732301979|2269510284",
    "match": "Boston Bruins - Chicago Blackhawks",
    "pari": "D. Pastrnak buteur et Boston Bruins gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|732368613|2269737665": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T00:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 8.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T15:47:09+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732368613|2269737665",
+   "match": "Golden State Valkyries - Atlanta Dream",
+   "pari": "Gabby Williams et Angel Reese marquent au moins 15 points chacune",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|732379396|2269770477": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T20:10+00:00",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 9.4,
+      "horizon_heures": 4.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T15:47:09+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732379396|2269770477",
+   "match": "Los Angeles Kings - Buffalo Sabres",
+   "pari": "A. Panarin + A. Kempe + T. Thompson marquent buts ou plus (avec Garantie Golden Goal)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
   }

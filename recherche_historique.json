@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T15:44:24+00:00",
+ "derniere_observation": "2026-10-31T15:48:19+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5965,6 +5965,24 @@
      "date": "2026-10-31T14:44:44+00:00",
      "ev_modele_pct": null,
      "id": "winamax|732301979|2269510284",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|732368613|2269737665": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|732368613|2269737665",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|732379396|2269770477": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|732379396|2269770477",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11938,6 +11956,24 @@
      "mise": null,
      "p_modele": 0.253785,
      "regle": null
+    },
+    "winamax|732368613|2269737665": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -17.529,
+     "id": "winamax|732368613|2269737665",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329885,
+     "regle": null
+    },
+    "winamax|732379396|2269770477": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -23.314,
+     "id": "winamax|732379396|2269770477",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264433,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -17907,6 +17943,24 @@
      "mise": null,
      "p_modele": 0.253785,
      "regle": null
+    },
+    "winamax|732368613|2269737665": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -17.529,
+     "id": "winamax|732368613|2269737665",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329885,
+     "regle": null
+    },
+    "winamax|732379396|2269770477": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -23.314,
+     "id": "winamax|732379396|2269770477",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264433,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -23875,6 +23929,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.253785,
+     "regle": null
+    },
+    "winamax|732368613|2269737665": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -17.529,
+     "id": "winamax|732368613|2269737665",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.329885,
+     "regle": null
+    },
+    "winamax|732379396|2269770477": {
+     "date": "2026-10-31T15:47:36+00:00",
+     "ev_modele_pct": -23.314,
+     "id": "winamax|732379396|2269770477",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264433,
      "regle": null
     }
    }
@@ -38264,6 +38336,38 @@
    "mise_max_supposee": null,
    "pari": "D. Pastrnak buteur et Boston Bruins gagne (hors prol. et TAB)",
    "premiere_vue": "2026-10-31T14:44:00+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|732368613|2269737665": {
+   "available_at": "2026-10-31T15:47:36+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.25,
+   "debut": "2026-11-01T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|732368613|2269737665",
+   "long_terme": false,
+   "match": "Golden State Valkyries - Atlanta Dream",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Gabby Williams et Angel Reese marquent au moins 15 points chacune",
+   "premiere_vue": "2026-10-31T15:47:09+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|732379396|2269770477": {
+   "available_at": "2026-10-31T15:47:36+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.9,
+   "cote_origine": 2.65,
+   "debut": "2026-10-31T20:10+00:00",
+   "disponible": true,
+   "id": "winamax|732379396|2269770477",
+   "long_terme": false,
+   "match": "Los Angeles Kings - Buffalo Sabres",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "A. Panarin + A. Kempe + T. Thompson marquent buts ou plus (avec Garantie Golden Goal)",
+   "premiere_vue": "2026-10-31T15:47:09+00:00",
    "sport": "Hockey sur glace"
   }
  },
