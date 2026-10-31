@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-10-31T17:46:45+00:00",
+ "derniere_observation": "2026-10-31T18:45:43+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 890,
+ "observations": 894,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -10337,6 +10337,54 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.377358,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.350877,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.25,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.227273,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -19620,6 +19668,54 @@
        "motif": "filtre",
        "p_modele": 0.264433,
        "p_prior": 0.377358,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.37,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.295342,
+       "p_prior": 0.350877,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -16.223,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.279257,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -1.478,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.207414,
+       "p_prior": 0.25,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -24.314,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.151371,
+       "p_prior": 0.227273,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -29137,6 +29233,54 @@
        "p_prior": 0.377358,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.37,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.295342,
+       "p_prior": 0.350877,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -16.223,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.279257,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -1.478,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.207414,
+       "p_prior": 0.25,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -24.314,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.151371,
+       "p_prior": 0.227273,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -38058,6 +38202,54 @@
        "motif": "filtre",
        "p_modele": 0.264433,
        "p_prior": 0.377358,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 3.37,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.295342,
+       "p_prior": 0.350877,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -16.223,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.279257,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -1.478,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.207414,
+       "p_prior": 0.25,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": -24.314,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": 0.151371,
+       "p_prior": 0.227273,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -48489,6 +48681,54 @@
        "p_prior": 0.377358,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.350877,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.25,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.227273,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -58507,6 +58747,54 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": null,
        "p_prior": 0.377358,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732482974|2270107114",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.350877,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732488761|2270123549",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.384615,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732493305|2270138551",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.25,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-10-31T18:45:01+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "winamax|732494929|2270143396",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.227273,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -69895,6 +70183,54 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.377358,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.350877,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.25,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.227273,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -81811,6 +82147,54 @@
       "motif": "filtre",
       "p_modele": 0.264433,
       "p_prior": 0.377358,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.37,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.295342,
+      "p_prior": 0.350877,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -16.223,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.279257,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -1.478,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.207414,
+      "p_prior": 0.25,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -24.314,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.151371,
+      "p_prior": 0.227273,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -94528,6 +94912,54 @@
       "p_prior": 0.377358,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.37,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.295342,
+      "p_prior": 0.350877,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -16.223,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.279257,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -1.478,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.207414,
+      "p_prior": 0.25,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -24.314,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.151371,
+      "p_prior": 0.227273,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -105740,6 +106172,54 @@
       "motif": "filtre",
       "p_modele": 0.264433,
       "p_prior": 0.377358,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 3.37,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.295342,
+      "p_prior": 0.350877,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -16.223,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.279257,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -1.478,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.207414,
+      "p_prior": 0.25,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": -24.314,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": 0.151371,
+      "p_prior": 0.227273,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -118843,6 +119323,54 @@
       "p_prior": 0.377358,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.350877,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.25,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.227273,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -131129,6 +131657,54 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.377358,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732482974|2270107114",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.350877,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732488761|2270123549",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.384615,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732493305|2270138551",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.25,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-10-31T18:45:01+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "winamax|732494929|2270143396",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.227273,
       "regle": null,
       "regles_entrainement": 288
      }
