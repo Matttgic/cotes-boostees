@@ -3,10 +3,10 @@
   "decisions_courantes": {
    "abstention": 751,
    "ecarter": 43,
-   "hors_perimetre": 62,
+   "hors_perimetre": 63,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-31T11:46:34+00:00",
+  "derniere_observation": "2026-10-31T12:45:42+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 62,
+   "long_terme": 63,
    "marche_non_cote": 41,
    "match_introuvable": 91,
    "reference_absente": 496,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 857,
+  "observes": 858,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-31T11:46:34+00:00",
+ "derniere_observation": "2026-10-31T12:45:42+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -14143,6 +14143,43 @@
    "id": "unibet|196676295|736746126",
    "match": "Milan AC - Inter Milan",
    "pari": "Au moins 2 des 4 joueurs marquent : M.Thuram / F.Pio Esposito / G.Ramos / C.Pulisic (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|196676344|736746415": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-31T14:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 16.7,
+      "horizon_heures": 1.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T12:45:42+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196676344|736746415",
+   "match": "Top Football Européen - 31/10",
+   "pari": "Au moins 3 des 5 joueurs marquent : N.Fullkrug/ P.Schick / I.Thiago / B.Brobbey / E.Haaland (Remboursé si non titulaires)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -45873,6 +45910,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-10-31T07:25:32+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 0.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T12:45:42+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
