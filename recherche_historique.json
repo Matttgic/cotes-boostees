@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T09:25:37+00:00",
+ "derniere_observation": "2026-10-31T09:50:01+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2032,6 +2032,15 @@
      "date": "2026-10-31T09:24:55+00:00",
      "ev_modele_pct": null,
      "id": "unibet|196787726|737288943",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|196791079|737310341": {
+     "date": "2026-10-31T09:49:19+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|196791079|737310341",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7925,6 +7934,15 @@
      "p_modele": 0.299543,
      "regle": null
     },
+    "unibet|196791079|737310341": {
+     "date": "2026-10-31T09:49:19+00:00",
+     "ev_modele_pct": 31.021,
+     "id": "unibet|196791079|737310341",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524085,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -13813,6 +13831,15 @@
      "p_modele": 0.299543,
      "regle": null
     },
+    "unibet|196791079|737310341": {
+     "date": "2026-10-31T09:49:19+00:00",
+     "ev_modele_pct": 31.021,
+     "id": "unibet|196791079|737310341",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524085,
+     "regle": null
+    },
     "winamax|718720488|2227799757": {
      "date": "2026-10-14T04:42:26+00:00",
      "ev_modele_pct": -3.029,
@@ -19699,6 +19726,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.299543,
+     "regle": null
+    },
+    "unibet|196791079|737310341": {
+     "date": "2026-10-31T09:49:19+00:00",
+     "ev_modele_pct": 31.021,
+     "id": "unibet|196791079|737310341",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.524085,
      "regle": null
     },
     "winamax|718720488|2227799757": {
@@ -28766,6 +28802,22 @@
    "pari": "Perpignan gagne et Théo Forner marque au moins un essai",
    "premiere_vue": "2026-10-31T09:23:59+00:00",
    "sport": "Rugby"
+  },
+  "unibet|196791079|737310341": {
+   "available_at": "2026-10-31T09:49:19+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.15,
+   "debut": "2026-10-31T14:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|196791079|737310341",
+   "long_terme": false,
+   "match": "D.Medvedev - C.Alcaraz",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "Y aura-t-il un Tie-break dans le match ? Oui",
+   "premiere_vue": "2026-10-31T09:48:25+00:00",
+   "sport": "Tennis"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
