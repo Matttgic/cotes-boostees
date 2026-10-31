@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 749,
+   "abstention": 751,
    "ecarter": 43,
    "hors_perimetre": 62,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-31T10:47:30+00:00",
+  "derniere_observation": "2026-10-31T11:46:34+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 62,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 494,
+   "reference_absente": 496,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 855,
+  "observes": 857,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-31T10:47:30+00:00",
+ "derniere_observation": "2026-10-31T11:46:34+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -46018,6 +46018,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T11:46:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|732006589|2268644907",
@@ -46166,6 +46192,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 6.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.653,
+      "hausse_pct": 28.9,
+      "horizon_heures": 2.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T11:46:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|732023298|2268690277",
@@ -46234,6 +46286,80 @@
    "id": "winamax|732027337|2268700922",
    "match": "Milan AC - Inter Milan",
    "pari": "Milan AC ou Inter Milan gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732120324|2268943664": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T13:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T11:46:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732120324|2268943664",
+   "match": "Annecy - Montpellier",
+   "pari": "Plus de 3,5 buts lors du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732163725|2269070508": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 12.2,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T11:46:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732163725|2269070508",
+   "match": "Troyes - Le Mans",
+   "pari": "0-0 à la mi-temps",
    "premiere_selection": null,
    "sport": "Football"
   }

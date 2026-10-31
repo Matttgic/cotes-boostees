@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-10-31T10:48:42+00:00",
+ "derniere_observation": "2026-10-31T11:47:50+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -5893,6 +5893,24 @@
      "date": "2026-10-31T08:25:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|732027337|2268700922",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|732120324|2268943664": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|732120324|2268943664",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|732163725|2269070508": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|732163725|2269070508",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -11794,6 +11812,24 @@
      "mise": null,
      "p_modele": 0.278773,
      "regle": null
+    },
+    "winamax|732120324|2268943664": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -6.433,
+     "id": "winamax|732120324|2268943664",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.311891,
+     "regle": null
+    },
+    "winamax|732163725|2269070508": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -4.794,
+     "id": "winamax|732163725|2269070508",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346203,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -17691,6 +17727,24 @@
      "mise": null,
      "p_modele": 0.278773,
      "regle": null
+    },
+    "winamax|732120324|2268943664": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -6.433,
+     "id": "winamax|732120324|2268943664",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.311891,
+     "regle": null
+    },
+    "winamax|732163725|2269070508": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -4.794,
+     "id": "winamax|732163725|2269070508",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346203,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -23587,6 +23641,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.278773,
+     "regle": null
+    },
+    "winamax|732120324|2268943664": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -6.433,
+     "id": "winamax|732120324|2268943664",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.311891,
+     "regle": null
+    },
+    "winamax|732163725|2269070508": {
+     "date": "2026-10-31T11:47:07+00:00",
+     "ev_modele_pct": -4.794,
+     "id": "winamax|732163725|2269070508",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.346203,
      "regle": null
     }
    }
@@ -37832,6 +37904,38 @@
    "mise_max_supposee": null,
    "pari": "Milan AC ou Inter Milan gagne et plus de 3,5 buts dans le match",
    "premiere_vue": "2026-10-31T08:24:49+00:00",
+   "sport": "Football"
+  },
+  "winamax|732120324|2268943664": {
+   "available_at": "2026-10-31T11:47:07+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.7,
+   "debut": "2026-10-31T13:00+00:00",
+   "disponible": true,
+   "id": "winamax|732120324|2268943664",
+   "long_terme": false,
+   "match": "Annecy - Montpellier",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 3,5 buts lors du match",
+   "premiere_vue": "2026-10-31T11:46:34+00:00",
+   "sport": "Football"
+  },
+  "winamax|732163725|2269070508": {
+   "available_at": "2026-10-31T11:47:07+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.45,
+   "debut": "2026-10-31T19:45+00:00",
+   "disponible": true,
+   "id": "winamax|732163725|2269070508",
+   "long_terme": false,
+   "match": "Troyes - Le Mans",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "0-0 à la mi-temps",
+   "premiere_vue": "2026-10-31T11:46:34+00:00",
    "sport": "Football"
   }
  },
