@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 741,
+   "abstention": 746,
    "ecarter": 43,
-   "hors_perimetre": 61,
+   "hors_perimetre": 62,
    "selectionner": 1
   },
-  "derniere_observation": "2026-10-31T07:25:32+00:00",
+  "derniere_observation": "2026-10-31T08:24:49+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 61,
+   "long_terme": 62,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 486,
+   "reference_absente": 491,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 846,
+  "observes": 852,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-10-31T07:25:32+00:00",
+ "derniere_observation": "2026-10-31T08:24:49+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -13997,6 +13997,117 @@
    "pari": "A.Fils remporte le 1er set et le match ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|196676247|736745915": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-31T15:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 16.7,
+      "horizon_heures": 6.6,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196676247|736745915",
+   "match": "Premier League - 31/10",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs de 16:00",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|196676271|736746059": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-31T17:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 17.1,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196676271|736746059",
+   "match": "Bayern Munich - Dortmund",
+   "pari": "H.Kane buteur et M.Olise passeur décisif (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|196676295|736746126": {
+   "bookmaker": "Unibet",
+   "debut": "2026-10-31T19:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 16.7,
+      "horizon_heures": 11.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196676295|736746126",
+   "match": "Milan AC - Inter Milan",
+   "pari": "Au moins 2 des 4 joueurs marquent : M.Thuram / F.Pio Esposito / G.Ramos / C.Pulisic (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|196692748|736843132": {
    "bookmaker": "Unibet",
@@ -45849,6 +45960,117 @@
    "id": "winamax|732014433|2268665068",
    "match": "Udinese - AS Rome",
    "pari": "AS Rome gagne le match 0-1 ou 0-2 ou 0-3",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732019564|2268680776": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T15:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.162,
+      "hausse_pct": 27.2,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732019564|2268680776",
+   "match": "Premier League",
+   "pari": "Plus de 1,5 buts dans chacun des 5 matchs à 16h",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732023298|2268690277": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T14:30+00:00",
+   "historique": [
+    {
+     "cote": 5.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.214,
+      "hausse_pct": 30.5,
+      "horizon_heures": 6.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732023298|2268690277",
+   "match": "Bundesliga",
+   "pari": "Les 2 équipes marquent dans chacun des 5 matchs à 15h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732027337|2268700922": {
+   "bookmaker": "Winamax",
+   "debut": "2026-10-31T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 8.3,
+      "horizon_heures": 11.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-10-31T08:24:49+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732027337|2268700922",
+   "match": "Milan AC - Inter Milan",
+   "pari": "Milan AC ou Inter Milan gagne et plus de 3,5 buts dans le match",
    "premiere_selection": null,
    "sport": "Football"
   }
