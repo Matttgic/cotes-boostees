@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-01T19:18:11+00:00",
+ "derniere_observation": "2026-11-01T19:47:11+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6370,6 +6370,15 @@
      "date": "2026-11-01T18:18:17+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733316606|2272652574",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733405693|2272908166": {
+     "date": "2026-11-01T19:46:28+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733405693|2272908166",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12748,6 +12757,15 @@
      "mise": null,
      "p_modele": 0.242092,
      "regle": null
+    },
+    "winamax|733405693|2272908166": {
+     "date": "2026-11-01T19:46:28+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|733405693|2272908166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -19122,6 +19140,15 @@
      "mise": null,
      "p_modele": 0.242092,
      "regle": null
+    },
+    "winamax|733405693|2272908166": {
+     "date": "2026-11-01T19:46:28+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|733405693|2272908166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -25495,6 +25522,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.242092,
+     "regle": null
+    },
+    "winamax|733405693|2272908166": {
+     "date": "2026-11-01T19:46:28+00:00",
+     "ev_modele_pct": -8.289,
+     "id": "winamax|733405693|2272908166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305704,
      "regle": null
     }
    }
@@ -40621,6 +40657,22 @@
    "pari": "Max Verstappen termine dans le Top 2",
    "premiere_vue": "2026-11-01T18:17:47+00:00",
    "sport": "Formule 1"
+  },
+  "winamax|733405693|2272908166": {
+   "available_at": "2026-11-01T19:46:28+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.75,
+   "debut": "2026-11-02T00:00+00:00",
+   "disponible": true,
+   "id": "winamax|733405693|2272908166",
+   "long_terme": false,
+   "match": "New England Revolution - Inter Miami CF",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Lionel Messi buteur et Inter Miami gagne",
+   "premiere_vue": "2026-11-01T19:45:59+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [

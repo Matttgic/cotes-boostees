@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 802,
+   "abstention": 803,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-01T19:16:59+00:00",
+  "derniere_observation": "2026-11-01T19:45:59+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 547,
+   "reference_absente": 548,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 910,
+  "observes": 911,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-01T19:16:59+00:00",
+ "derniere_observation": "2026-11-01T19:45:59+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -48531,6 +48531,43 @@
    "pari": "Max Verstappen termine dans le Top 2",
    "premiere_selection": null,
    "sport": "Formule 1"
+  },
+  "winamax|733405693|2272908166": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T00:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 9.1,
+      "horizon_heures": 4.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T19:45:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733405693|2272908166",
+   "match": "New England Revolution - Inter Miami CF",
+   "pari": "Lionel Messi buteur et Inter Miami gagne",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
