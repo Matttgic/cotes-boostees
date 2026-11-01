@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-01T14:23:12+00:00",
+ "derniere_observation": "2026-11-01T15:23:03+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6325,6 +6325,15 @@
      "date": "2026-11-01T14:22:30+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733122746|2272045819",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733154997|2272146812": {
+     "date": "2026-11-01T15:22:21+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733154997|2272146812",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12658,6 +12667,15 @@
      "mise": null,
      "p_modele": 0.203655,
      "regle": null
+    },
+    "winamax|733154997|2272146812": {
+     "date": "2026-11-01T15:22:21+00:00",
+     "ev_modele_pct": -20.485,
+     "id": "winamax|733154997|2272146812",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.338364,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -18987,6 +19005,15 @@
      "mise": null,
      "p_modele": 0.203655,
      "regle": null
+    },
+    "winamax|733154997|2272146812": {
+     "date": "2026-11-01T15:22:21+00:00",
+     "ev_modele_pct": -20.485,
+     "id": "winamax|733154997|2272146812",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.338364,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -25315,6 +25342,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.203655,
+     "regle": null
+    },
+    "winamax|733154997|2272146812": {
+     "date": "2026-11-01T15:22:21+00:00",
+     "ev_modele_pct": -20.485,
+     "id": "winamax|733154997|2272146812",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.338364,
      "regle": null
     }
    }
@@ -40360,6 +40396,22 @@
    "mise_max_supposee": null,
    "pari": "Leon Draisaitl buteur et Edmonton Oilers gagne (hors prol. et TAB)",
    "premiere_vue": "2026-11-01T14:21:21+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|733154997|2272146812": {
+   "available_at": "2026-11-01T15:22:21+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.35,
+   "cote_origine": 2.15,
+   "debut": "2026-11-01T18:10+00:00",
+   "disponible": true,
+   "id": "winamax|733154997|2272146812",
+   "long_terme": false,
+   "match": "Carolina Hurricanes - Winnipeg Jets",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Carolina Hurricanes gagne le 1er tiers-temps et le match (hors prol. et TAB)",
+   "premiere_vue": "2026-11-01T15:20:21+00:00",
    "sport": "Hockey sur glace"
   }
  },
