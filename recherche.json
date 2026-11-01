@@ -1569,7 +1569,7 @@
    }
   }
  ],
- "derniere_observation": "2026-11-01T15:23:03+00:00",
+ "derniere_observation": "2026-11-01T16:21:02+00:00",
  "limites": [
   "Rejeu rétrospectif choisi après consultation de ce même historique.",
   "Règlements automatiques non vérifiés indépendamment.",
@@ -1580,7 +1580,7 @@
   "Les combinés peuvent partager des rencontres non identifiables par leurs seuls libellés."
  ],
  "minimum_apprentissage": 30,
- "observations": 928,
+ "observations": 929,
  "prospectif": {
   "banque_initiale": 1000.0,
   "date_debut": "2026-10-14T00:00:00+00:00",
@@ -10781,6 +10781,18 @@
        "motif": "filtre",
        "p_modele": null,
        "p_prior": 0.465116,
+       "regle": "sport:tennis:3-5",
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "filtre",
+       "p_modele": null,
+       "p_prior": 0.617284,
        "regle": "sport:tennis:3-5",
        "regles_entrainement": 288
       }
@@ -20521,6 +20533,18 @@
        "motif": "filtre",
        "p_modele": 0.338364,
        "p_prior": 0.465116,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 44.35,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": 0.601459,
+       "p_prior": 0.617284,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -30482,6 +30506,18 @@
        "p_prior": 0.465116,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 44.35,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": 0.601459,
+       "p_prior": 0.617284,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -39847,6 +39883,18 @@
        "motif": "filtre",
        "p_modele": 0.338364,
        "p_prior": 0.465116,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": 44.35,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": 0.601459,
+       "p_prior": 0.617284,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -50722,6 +50770,18 @@
        "p_prior": 0.465116,
        "regle": null,
        "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.617284,
+       "regle": null,
+       "regles_entrainement": 288
       }
      ],
      "dispersion_roi_90_pct": [
@@ -61184,6 +61244,18 @@
        "motif": "exposition_ou_mise_insuffisante",
        "p_modele": null,
        "p_prior": 0.465116,
+       "regle": null,
+       "regles_entrainement": 288
+      },
+      {
+       "date": "2026-11-01T16:20:18+00:00",
+       "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+       "ev_modele_pct": null,
+       "id": "betsson|95114663.1|398355229.1",
+       "joue": false,
+       "motif": "exposition_ou_mise_insuffisante",
+       "p_modele": null,
+       "p_prior": 0.617284,
        "regle": null,
        "regles_entrainement": 288
       }
@@ -73016,6 +73088,18 @@
       "motif": "filtre",
       "p_modele": null,
       "p_prior": 0.465116,
+      "regle": "sport:tennis:3-5",
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "filtre",
+      "p_modele": null,
+      "p_prior": 0.617284,
       "regle": "sport:tennis:3-5",
       "regles_entrainement": 288
      }
@@ -85389,6 +85473,18 @@
       "motif": "filtre",
       "p_modele": 0.338364,
       "p_prior": 0.465116,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 44.35,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": 0.601459,
+      "p_prior": 0.617284,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -98550,6 +98646,18 @@
       "p_prior": 0.465116,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 44.35,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": 0.601459,
+      "p_prior": 0.617284,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -110206,6 +110314,18 @@
       "motif": "filtre",
       "p_modele": 0.338364,
       "p_prior": 0.465116,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": 44.35,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": 0.601459,
+      "p_prior": 0.617284,
       "regle": null,
       "regles_entrainement": 288
      }
@@ -123753,6 +123873,18 @@
       "p_prior": 0.465116,
       "regle": null,
       "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.617284,
+      "regle": null,
+      "regles_entrainement": 288
      }
     ],
     "dispersion_roi_90_pct": [
@@ -136483,6 +136615,18 @@
       "motif": "exposition_ou_mise_insuffisante",
       "p_modele": null,
       "p_prior": 0.465116,
+      "regle": null,
+      "regles_entrainement": 288
+     },
+     {
+      "date": "2026-11-01T16:20:18+00:00",
+      "dernier_resultat_utilise": "2026-10-18T15:58:47+00:00",
+      "ev_modele_pct": null,
+      "id": "betsson|95114663.1|398355229.1",
+      "joue": false,
+      "motif": "exposition_ou_mise_insuffisante",
+      "p_modele": null,
+      "p_prior": 0.617284,
       "regle": null,
       "regles_entrainement": 288
      }
