@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 780,
+   "abstention": 789,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-01T08:22:29+00:00",
+  "derniere_observation": "2026-11-01T09:21:37+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 525,
+   "reference_absente": 534,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 888,
+  "observes": 897,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-01T08:22:29+00:00",
+ "derniere_observation": "2026-11-01T09:21:37+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3383,6 +3383,43 @@
    "id": "netbet|12316607|7516780083",
    "match": "Lille/Lens - F.Thauvin décisif ?",
    "pari": "Lille/Lens - F.Thauvin décisif ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12327798|7523848260": {
+   "bookmaker": "NetBet",
+   "debut": "2026-11-01T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12327798|7523848260",
+   "match": "L'OM gagne par au moins 2 buts d'écart ? - Toulouse",
+   "pari": "L'OM gagne par au moins 2 buts d'écart ? (v Toulouse)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -14689,6 +14726,43 @@
    "pari": "Marcus Thuram buteur et les deux équipes marquent (remboursé si non titulaire)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|196915948|737891161": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-01T13:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 15.9,
+      "horizon_heures": 3.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|196915948|737891161",
+   "match": "A.De Minaur - C.Alcaraz",
+   "pari": "C.Alcaraz remporte le 1er set 6-3 ou 6-4 ? Oui",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -47611,6 +47685,265 @@
    "id": "winamax|732884858|2271348264",
    "match": "Racing Santander - Real Madrid",
    "pari": "Kylian Mbappé premier buteur du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732888643|2271357581": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T16:15+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.584,
+      "hausse_pct": 16.1,
+      "horizon_heures": 6.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732888643|2271357581",
+   "match": "Ligue 1 McDonald's®",
+   "pari": "Chaque équipe marque lors des matchs suivants : Lyon - Angers et Paris FC - Monaco",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732893148|2271369786": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T14:00+00:00",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.101,
+      "hausse_pct": 14.2,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732893148|2271369786",
+   "match": "Serie A",
+   "pari": "Lazio Rome et Frosinone marquent chacun le 1er but (respectivement contre Cagliari et Torino)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732897329|2271380916": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T18:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732897329|2271380916",
+   "match": "Boca Juniors - River Plate",
+   "pari": "Les deux équipes marquent et le match ne se termine pas par un match nul",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|732905320|2271401464": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T14:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 18.2,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732905320|2271401464",
+   "match": "Jiri Lehecka - Valentin Vacherot",
+   "pari": "Valentin Vacherot gagne le premier set et le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|732913596|2271421818": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T18:00+00:00",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 12.5,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732913596|2271421818",
+   "match": "Buffalo Bills - Baltimore Ravens",
+   "pari": "Buffalo Bills gagne et plus de 54,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|732918416|2271433217": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T21:25+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732918416|2271433217",
+   "match": "Denver Broncos - Kansas City Chiefs",
+   "pari": "Kenneth Walker III marque au moins un touchdown et Kansas City Chiefs gagne",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|732922242|2271444224": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T09:21:37+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|732922242|2271444224",
+   "match": "Juventus - Naples",
+   "pari": "Naples gagne la première mi-temps",
    "premiere_selection": null,
    "sport": "Football"
   }
