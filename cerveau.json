@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 800,
+   "abstention": 802,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-01T17:18:42+00:00",
+  "derniere_observation": "2026-11-01T18:17:47+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 545,
+   "reference_absente": 547,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 908,
+  "observes": 910,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-01T17:18:42+00:00",
+ "derniere_observation": "2026-11-01T18:17:47+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2241,6 +2241,43 @@
    "pari": "Franco Mastantuono Décisif",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "betsson|95147753.1|398489632.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-02T12:20+00:00",
+   "historique": [
+    {
+     "cote": 2.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.83,
+      "hausse_pct": 14.8,
+      "horizon_heures": 18.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T18:17:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95147753.1|398489632.1",
+   "match": "Norrie, Cameron - Arnaldi, Matteo",
+   "pari": "Cameron Norrie gagne 2 sets à 0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "genybet|12255022|4841413055": {
    "bookmaker": "Genybet",
@@ -48457,6 +48494,43 @@
    "pari": "Carolina Hurricanes gagne le 1er tiers-temps et le match (hors prol. et TAB)",
    "premiere_selection": null,
    "sport": "Hockey sur glace"
+  },
+  "winamax|733316606|2272652574": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-01T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 10.7,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-01T18:17:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733316606|2272652574",
+   "match": "Grand Prix de Mexico",
+   "pari": "Max Verstappen termine dans le Top 2",
+   "premiere_selection": null,
+   "sport": "Formule 1"
   }
  },
  "modele": "observation-v1",
