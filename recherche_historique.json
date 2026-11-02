@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-02T09:22:58+00:00",
+ "derniere_observation": "2026-11-02T10:21:54+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6460,6 +6460,15 @@
      "date": "2026-11-02T08:22:56+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733664999|2273747763",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733718598|2273883701": {
+     "date": "2026-11-02T10:21:09+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733718598|2273883701",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12928,6 +12937,15 @@
      "mise": null,
      "p_modele": 0.524333,
      "regle": null
+    },
+    "winamax|733718598|2273883701": {
+     "date": "2026-11-02T10:21:09+00:00",
+     "ev_modele_pct": 23.659,
+     "id": "winamax|733718598|2273883701",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.35331,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -19392,6 +19410,15 @@
      "mise": null,
      "p_modele": 0.524333,
      "regle": null
+    },
+    "winamax|733718598|2273883701": {
+     "date": "2026-11-02T10:21:09+00:00",
+     "ev_modele_pct": 23.659,
+     "id": "winamax|733718598|2273883701",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.35331,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -25855,6 +25882,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.524333,
+     "regle": null
+    },
+    "winamax|733718598|2273883701": {
+     "date": "2026-11-02T10:21:09+00:00",
+     "ev_modele_pct": 23.659,
+     "id": "winamax|733718598|2273883701",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.35331,
      "regle": null
     }
    }
@@ -41140,6 +41176,22 @@
    "mise_max_supposee": null,
    "pari": "Luca Van Assche gagne 2-0",
    "premiere_vue": "2026-11-02T08:22:13+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|733718598|2273883701": {
+   "available_at": "2026-11-02T10:21:09+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.25,
+   "debut": "2026-11-02T13:30+00:00",
+   "disponible": true,
+   "id": "winamax|733718598|2273883701",
+   "long_terme": false,
+   "match": "Mattia Bellucci - Lorenzo Sonego",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Mattia Bellucci gagne 2-0",
+   "premiere_vue": "2026-11-02T10:20:27+00:00",
    "sport": "Tennis"
   }
  },
