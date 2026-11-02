@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 831,
+   "abstention": 836,
    "ecarter": 43,
-   "hors_perimetre": 65,
+   "hors_perimetre": 66,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-02T16:15:22+00:00",
+  "derniere_observation": "2026-11-02T17:12:50+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 65,
+   "long_terme": 66,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 576,
+   "reference_absente": 581,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 940,
+  "observes": 946,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-02T16:15:22+00:00",
+ "derniere_observation": "2026-11-02T17:12:50+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3050,6 +3050,43 @@
    "id": "genybet|12339111|4911773229",
    "match": "Harry Kane - Dortmund",
    "pari": "Harry Kane (vs Dortmund) buteur (mise max 10 €)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "genybet|12354316|4918205448": {
+   "bookmaker": "Genybet",
+   "debut": "2026-11-02T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "genybet|12354316|4918205448",
+   "match": "Lorient / Brest : Plus de 2,5 buts (mise max 10 €)",
+   "pari": "Lorient / Brest : Plus de 2,5 buts (mise max 10 €)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -15242,6 +15279,43 @@
    "id": "unibet|197073933|738804134",
    "match": "LA Lakers - MIA Heat",
    "pari": "Luka Doncic termine meilleur marqueur du match et son équipe gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "unibet|197095682|738949170": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T01:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 8.3,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197095682|738949170",
+   "match": "HOU Rockets - BOS Celtics",
+   "pari": "NBA - Jayson Tatum termine meilleur marqueur du match",
    "premiere_selection": null,
    "sport": "Basketball"
   },
@@ -49667,6 +49741,154 @@
    "pari": "Jayson Tatum marque au moins 25 points et Boston Celtics gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|733939339|2274499312": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T00:15+00:00",
+   "historique": [
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 7.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733939339|2274499312",
+   "match": "Independiente Rivadavia - Banfield",
+   "pari": "Independiente Rivadavia gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|733967476|2274581500": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 7.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733967476|2274581500",
+   "match": "Boston Bruins - Vegas Golden Knights",
+   "pari": "M. Stone, J. Eichel et M. Marner marquent chacun au moins 1 point (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|733969938|2274588874": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T01:10+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 17.6,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733969938|2274588874",
+   "match": "Boston Bruins - Vegas Golden Knights",
+   "pari": "N. MacKinnon buteur et Colorado Avalanche gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|733974037|2274602789": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T01:15+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 16.7,
+      "horizon_heures": 8.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T17:12:50+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733974037|2274602789",
+   "match": "Bucaramanga - Atletico Nacional",
+   "pari": "Atletico Nacional marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
