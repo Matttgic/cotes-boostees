@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 806,
+   "abstention": 808,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-02T06:23:56+00:00",
+  "derniere_observation": "2026-11-02T07:23:06+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 551,
+   "reference_absente": 553,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 914,
+  "observes": 916,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-02T06:23:56+00:00",
+ "derniere_observation": "2026-11-02T07:23:06+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -48705,6 +48705,80 @@
    "pari": "Katie Boulter gagne 2-0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|733652857|2273715245": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T10:00+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.98,
+      "hausse_pct": 13.6,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T07:23:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733652857|2273715245",
+   "match": "Lorenzo Musetti - Hubert Hurkacz",
+   "pari": "Plus de 2,5 sets lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|733654895|2273720827": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T08:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 1.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T07:23:06+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733654895|2273720827",
+   "match": "Melbourne United - New Zealand Breakers",
+   "pari": "Plus de 199,5 points lors du match",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",

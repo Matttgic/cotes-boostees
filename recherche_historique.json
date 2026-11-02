@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-02T06:25:06+00:00",
+ "derniere_observation": "2026-11-02T07:24:14+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6406,6 +6406,24 @@
      "date": "2026-11-01T22:43:58+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733478888|2273150667",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733652857|2273715245": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733652857|2273715245",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733654895|2273720827": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733654895|2273720827",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12820,6 +12838,24 @@
      "mise": null,
      "p_modele": 0.492793,
      "regle": null
+    },
+    "winamax|733652857|2273715245": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|733652857|2273715245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
+     "regle": null
+    },
+    "winamax|733654895|2273720827": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|733654895|2273720827",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -19230,6 +19266,24 @@
      "mise": null,
      "p_modele": 0.492793,
      "regle": null
+    },
+    "winamax|733652857|2273715245": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|733652857|2273715245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
+     "regle": null
+    },
+    "winamax|733654895|2273720827": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|733654895|2273720827",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -25639,6 +25693,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.492793,
+     "regle": null
+    },
+    "winamax|733652857|2273715245": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": 24.193,
+     "id": "winamax|733652857|2273715245",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.55197,
+     "regle": null
+    },
+    "winamax|733654895|2273720827": {
+     "date": "2026-11-02T07:23:28+00:00",
+     "ev_modele_pct": -19.834,
+     "id": "winamax|733654895|2273720827",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.26722,
      "regle": null
     }
    }
@@ -40829,6 +40901,38 @@
    "pari": "Katie Boulter gagne 2-0",
    "premiere_vue": "2026-11-01T22:43:25+00:00",
    "sport": "Tennis"
+  },
+  "winamax|733652857|2273715245": {
+   "available_at": "2026-11-02T07:23:28+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 1.98,
+   "debut": "2026-11-02T10:00+00:00",
+   "disponible": true,
+   "id": "winamax|733652857|2273715245",
+   "long_terme": false,
+   "match": "Lorenzo Musetti - Hubert Hurkacz",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 2,5 sets lors du match",
+   "premiere_vue": "2026-11-02T07:23:06+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|733654895|2273720827": {
+   "available_at": "2026-11-02T07:23:28+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.7,
+   "debut": "2026-11-02T08:30+00:00",
+   "disponible": true,
+   "id": "winamax|733654895|2273720827",
+   "long_terme": false,
+   "match": "Melbourne United - New Zealand Breakers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 199,5 points lors du match",
+   "premiere_vue": "2026-11-02T07:23:06+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
