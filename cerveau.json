@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 821,
+   "abstention": 826,
    "ecarter": 43,
-   "hors_perimetre": 64,
+   "hors_perimetre": 65,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-02T14:17:03+00:00",
+  "derniere_observation": "2026-11-02T15:16:14+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 64,
+   "long_terme": 65,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 566,
+   "reference_absente": 571,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 929,
+  "observes": 935,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-02T14:17:03+00:00",
+ "derniere_observation": "2026-11-02T15:16:14+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2278,6 +2278,80 @@
    "pari": "Cameron Norrie gagne 2 sets à 0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "betsson|95191271.1|398657500.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-03T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.77,
+      "hausse_pct": 18.6,
+      "horizon_heures": 26.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95191271.1|398657500.1",
+   "match": "Galatasaray - Stuttgart",
+   "pari": "Rafael Leao Décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95191583.1|398658208.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 28.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95191583.1|398658208.1",
+   "match": "Villarreal - Paris SG",
+   "pari": "Désiré Doué Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "genybet|12255022|4841413055": {
    "bookmaker": "Genybet",
@@ -6595,6 +6669,80 @@
    "id": "olybet|31403846|7424718960",
    "match": "AC Milan - Inter Milan",
    "pari": "Inter Milan gagne et plus de 2.5 buts",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31435714|7441260016": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-02T19:30+00:00",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 4.2,
+      "long_terme": false,
+      "mise_max": 17.24,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31435714|7441260016",
+   "match": "U. Humbert - B. Van De Zandschulp",
+   "pari": "Humbert gagne 2 sets 0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31435721|7441269077": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-02T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 4.5,
+      "long_terme": false,
+      "mise_max": 14.7,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31435721|7441269077",
+   "match": "Lorient - Brest",
+   "pari": "Les 2 équipes marquent et plus de 2.5 buts",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -15059,6 +15207,43 @@
    "pari": "B - K.Khachanov gagne et plus de 22,5 jeux dans le match ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|197073933|738804134": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T03:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 16.7,
+      "horizon_heures": 11.7,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197073933|738804134",
+   "match": "LA Lakers - MIA Heat",
+   "pari": "Luka Doncic termine meilleur marqueur du match et son équipe gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -49260,6 +49445,43 @@
    "pari": "Newcastle gagne et les deux équipes marquent",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|733890456|2274353606": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T19:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 4.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T15:16:14+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733890456|2274353606",
+   "match": "Ugo Humbert - Botic van de Zandschulp",
+   "pari": "Ugo Humbert gagne et plus de 22,5 jeux dans le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
