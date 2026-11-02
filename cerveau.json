@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 818,
+   "abstention": 821,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-02T13:17:57+00:00",
+  "derniere_observation": "2026-11-02T14:17:03+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 563,
+   "reference_absente": 566,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 926,
+  "observes": 929,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-02T13:17:57+00:00",
+ "derniere_observation": "2026-11-02T14:17:03+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -49149,6 +49149,117 @@
    "pari": "Titouan Droguet gagne 2-1",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|733858377|2274258035": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T18:00+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T14:17:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733858377|2274258035",
+   "match": "Denis Shapovalov - Karen Khachanov",
+   "pari": "Karen Khachanov gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|733864926|2274280547": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T01:10+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T14:17:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733864926|2274280547",
+   "match": "Seattle Seahawks - Chicago Bears",
+   "pari": "Jaxon Smith-Njigba marque au moins un touchdown et Seattle Seahawks gagne",
+   "premiere_selection": null,
+   "sport": "Football Américain"
+  },
+  "winamax|733870961|2274298349": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.25,
+      "hausse_pct": 15.4,
+      "horizon_heures": 5.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T14:17:03+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733870961|2274298349",
+   "match": "Newcastle - Everton",
+   "pari": "Newcastle gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
