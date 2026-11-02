@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 02/11 09h22 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 02/11 10h21 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -183,7 +183,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 648 en attente · cote moy
 | 03/11 11h00 · ATP Paris | Carlos Alcaraz remporte le tournoi | 3,5 | – | – | 20 € | ⏳ |
 | 02/11 20h45 · Lorient - Brest | Ib.Baldé ou L.Ajorque buteur et les 2 équipes marquent ? (Remboursé si non titulaire(s)) | 2,55 | – | – | 25 € | ⏳ |
 | 02/11 20h30 · U.Humbert - Van De Zandsch | U.Humbert gagne le 1er set 6-3 ou 6-4 ? | 3,1 | – | – | 25 € | ⏳ |
-| 02/11 19h00 · D.Shapovalov - K.Khachanov | B - K.Khachanov gagne et plus de 22,5 jeux dans le match ? | 3,1 | – | – | 25 € | ⏳ |
+| 02/11 19h00 · D.Shapovalov - K.Khachanov | K.Khachanov gagne et plus de 22,5 jeux dans le match ? | 3,1 | – | – | 25 € | ⏳ |
 | 02/11 18h30 · Sassuolo - Fiorentina | Franco Mastantuono Décisif | 2,4 | – | – | 20 € | ⏳ |
 | 02/11 13h20 · Norrie, Cameron - Arnaldi, Matteo | Cameron Norrie gagne 2 sets à 0 | 2,1 | – | – | 20 € | ⏳ |
 | 02/11 12h10 · Luca Van Assche - Mariano Navone | Luca Van Assche gagne 2-0 | 2,5 | – | – | 20 € | ⏳ |
