@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 02/11 19h11 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 02/11 20h11 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Mis à jour le 02/11 19h11 (heure de Paris). Argent fictif : A/B à la mise max 
 | **B-approx (EV ≥ 5 %)** | 5 / 7 | 100 € | **+125,00 €** | **+125,0 %** | -20,00 € |
 | **C — 10 € maximum** | 293 / 968 | 2925 € | **-96,95 €** | **-3,3 %** | -337,50 € |
 | **D — cote 1,60–3,50** | 209 / 689 | 2090 € | **-4,50 €** | **-0,2 %** | -238,00 € |
-| **E — dans les 48 h** | 291 / 885 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
+| **E — dans les 48 h** | 291 / 884 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 1 / 1 | 5 € | **-4,96 €** | **-100,0 %** | -4,96 € |
 | **H — un boost/match** | 261 / 785 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
@@ -181,9 +181,9 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 675 en attente · cote moy
 
 | Match | Pari | Cote | Juste | EV | Mise | Résultat |
 |---|---|---|---|---|---|---|
+| 04/11 11h00 · ATP Paris | Carlos Alcaraz remporte le tournoi | 3,5 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · Villarreal - Paris SG | Désiré Doué Buteur | 2,35 | – | – | 20 € | ⏳ |
 | 03/11 18h45 · Galatasaray - Stuttgart | Rafael Leao Décisif | 2,1 | – | – | 20 € | ⏳ |
-| 03/11 11h00 · ATP Paris | Carlos Alcaraz remporte le tournoi | 3,5 | – | – | 20 € | ⏳ |
 | 03/11 04h00 · LA Lakers - MIA Heat | Luka Doncic termine meilleur marqueur du match et son équipe gagne | 2,45 | – | – | 25 € | ⏳ |
 | 03/11 02h40 · Houston Rockets - Boston Celtics | Jayson Tatum marque au moins 25 points et Boston Celtics gagne | 3,5 | – | – | 20 € | ⏳ |
 | 03/11 02h35 · San Antonio Spurs - Utah Jazz | Victor Wenbanyama marque au moins 20 points, prend au moins 10 rebonds et réalise au moins 3 contres | 2,85 | – | – | 20 € | ⏳ |
