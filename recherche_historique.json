@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-02T11:20:48+00:00",
+ "derniere_observation": "2026-11-02T12:20:29+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6487,6 +6487,24 @@
      "date": "2026-11-02T11:20:04+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733771328|2274016285",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733783826|2274047299": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733783826|2274047299",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733813960|2274123054": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733813960|2274123054",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -12982,6 +13000,24 @@
      "mise": null,
      "p_modele": 0.33857,
      "regle": null
+    },
+    "winamax|733783826|2274047299": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": -5.443,
+     "id": "winamax|733783826|2274047299",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290943,
+     "regle": null
+    },
+    "winamax|733813960|2274123054": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|733813960|2274123054",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -19473,6 +19509,24 @@
      "mise": null,
      "p_modele": 0.33857,
      "regle": null
+    },
+    "winamax|733783826|2274047299": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": -5.443,
+     "id": "winamax|733783826|2274047299",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290943,
+     "regle": null
+    },
+    "winamax|733813960|2274123054": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|733813960|2274123054",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -25963,6 +26017,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.33857,
+     "regle": null
+    },
+    "winamax|733783826|2274047299": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": -5.443,
+     "id": "winamax|733783826|2274047299",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.290943,
+     "regle": null
+    },
+    "winamax|733813960|2274123054": {
+     "date": "2026-11-02T12:19:43+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|733813960|2274123054",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
      "regle": null
     }
    }
@@ -41297,6 +41369,38 @@
    "pari": "Ludovic Ajorque marque au moins un but ou fait au moins une passe décisive",
    "premiere_vue": "2026-11-02T11:19:40+00:00",
    "sport": "Football"
+  },
+  "winamax|733783826|2274047299": {
+   "available_at": "2026-11-02T12:19:43+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.884,
+   "debut": "2026-11-02T19:45+00:00",
+   "disponible": true,
+   "id": "winamax|733783826|2274047299",
+   "long_terme": false,
+   "match": "Ligue 2 BKT®",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 2,5 buts dans chacun des 2 matchs du jour",
+   "premiere_vue": "2026-11-02T12:18:47+00:00",
+   "sport": "Football"
+  },
+  "winamax|733813960|2274123054": {
+   "available_at": "2026-11-02T12:19:43+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-11-02T14:30+00:00",
+   "disponible": true,
+   "id": "winamax|733813960|2274123054",
+   "long_terme": false,
+   "match": "Kyrian Jacquet - Tomas Machac",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Kyrian Jacquet gagne le premier set et le match",
+   "premiere_vue": "2026-11-02T12:18:47+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
