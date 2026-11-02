@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-02T12:20:29+00:00",
+ "derniere_observation": "2026-11-02T13:19:24+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6505,6 +6505,15 @@
      "date": "2026-11-02T12:19:43+00:00",
      "ev_modele_pct": null,
      "id": "winamax|733813960|2274123054",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|733815689|2274127813": {
+     "date": "2026-11-02T13:18:35+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|733815689|2274127813",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -13018,6 +13027,15 @@
      "mise": null,
      "p_modele": 0.398483,
      "regle": null
+    },
+    "winamax|733815689|2274127813": {
+     "date": "2026-11-02T13:18:35+00:00",
+     "ev_modele_pct": 33.317,
+     "id": "winamax|733815689|2274127813",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29626,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -19527,6 +19545,15 @@
      "mise": null,
      "p_modele": 0.398483,
      "regle": null
+    },
+    "winamax|733815689|2274127813": {
+     "date": "2026-11-02T13:18:35+00:00",
+     "ev_modele_pct": 33.317,
+     "id": "winamax|733815689|2274127813",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29626,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -26035,6 +26062,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.398483,
+     "regle": null
+    },
+    "winamax|733815689|2274127813": {
+     "date": "2026-11-02T13:18:35+00:00",
+     "ev_modele_pct": 33.317,
+     "id": "winamax|733815689|2274127813",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.29626,
      "regle": null
     }
    }
@@ -41400,6 +41436,22 @@
    "mise_max_supposee": null,
    "pari": "Kyrian Jacquet gagne le premier set et le match",
    "premiere_vue": "2026-11-02T12:18:47+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|733815689|2274127813": {
+   "available_at": "2026-11-02T13:18:35+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.95,
+   "debut": "2026-11-02T15:40+00:00",
+   "disponible": true,
+   "id": "winamax|733815689|2274127813",
+   "long_terme": false,
+   "match": "Alex Molcan - Titouan Droguet",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Titouan Droguet gagne 2-1",
+   "premiere_vue": "2026-11-02T13:17:57+00:00",
    "sport": "Tennis"
   }
  },
