@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 808,
+   "abstention": 812,
    "ecarter": 43,
    "hors_perimetre": 64,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-02T07:23:06+00:00",
+  "derniere_observation": "2026-11-02T08:22:13+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 64,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 553,
+   "reference_absente": 557,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 916,
+  "observes": 920,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-02T07:23:06+00:00",
+ "derniere_observation": "2026-11-02T08:22:13+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -14948,6 +14948,117 @@
    "pari": "NBA - Luka Doncic et Scottie Barnes marquent 25pts ou + chacun",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197039635|738519734": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-02T19:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 15.9,
+      "horizon_heures": 11.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T08:22:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197039635|738519734",
+   "match": "Lorient - Brest",
+   "pari": "Ib.Baldé ou L.Ajorque buteur et les 2 équipes marquent ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197043709|738559366": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-02T19:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 14.8,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T08:22:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197043709|738559366",
+   "match": "U.Humbert - Van De Zandsch",
+   "pari": "U.Humbert gagne le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|197044193|738563072": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-02T18:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 14.8,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T08:22:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197044193|738563072",
+   "match": "D.Shapovalov - K.Khachanov",
+   "pari": "B - K.Khachanov gagne et plus de 22,5 jeux dans le match ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -48779,6 +48890,43 @@
    "pari": "Plus de 199,5 points lors du match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|733664999|2273747763": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-02T11:10+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 19.0,
+      "horizon_heures": 2.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-02T08:22:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|733664999|2273747763",
+   "match": "Luca Van Assche - Mariano Navone",
+   "pari": "Luca Van Assche gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
