@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 848,
+   "abstention": 857,
    "ecarter": 43,
-   "hors_perimetre": 66,
+   "hors_perimetre": 68,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-03T07:57:15+00:00",
+  "derniere_observation": "2026-11-03T08:56:22+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 66,
+   "long_terme": 68,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 593,
+   "reference_absente": 602,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 958,
+  "observes": 969,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-03T07:57:15+00:00",
+ "derniere_observation": "2026-11-03T08:56:22+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3642,6 +3642,43 @@
    "id": "netbet|12327807|7519914551",
    "match": "Bayern/Dortmund et Milan AC/Inter Milan : Les 4 équipes marquent au moins un but ?",
    "pari": "Bayern/Dortmund et Milan AC/Inter Milan : Les 4 équipes marquent au moins un but ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12351067|7530038912": {
+   "bookmaker": "NetBet",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12351067|7530038912",
+   "match": "D.Doué décisif et le PSG gagne ? - Villarreal",
+   "pari": "D.Doué décisif et le PSG gagne ? (v Villarreal)",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -15245,6 +15282,191 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|197049724|738613985": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197049724|738613985",
+   "match": "Bodø/Glimt - Lille",
+   "pari": "Lille gagne ou fait match nul et les 2 équipes marquent ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197050122|738615537": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197050122|738615537",
+   "match": "Atl. Madrid - Bayern Munich",
+   "pari": "Ju.Alvarez ou H.Kane 1er buteur du match ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197050314|738616186": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197050314|738616186",
+   "match": "FC Barcelone - Aston Villa",
+   "pari": "FC Barcelone gagne les 2 mi-temps ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197050467|738617052": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 11.1,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197050467|738617052",
+   "match": "CB - Ligue des Champions (03/11)",
+   "pari": "Au moins 2 joueurs marquent dans le trio L.Yamal/D.Doué/M.Thuram ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197050623|738617838": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 14.6,
+      "horizon_heures": 8.8,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197050623|738617838",
+   "match": "CB - Ligue des Champions (03/11)",
+   "pari": "Au moins 6 équipes marquent chacune 3 buts ou plus sur l'ensemble des 9 matchs du jour ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|197073933|738804134": {
    "bookmaker": "Unibet",
    "debut": "2026-11-03T03:00:00.000Z",
@@ -15318,6 +15540,80 @@
    "pari": "NBA - Jayson Tatum termine meilleur marqueur du match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197169926|739411465": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T12:20:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 16.7,
+      "horizon_heures": 3.4,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197169926|739411465",
+   "match": "N.Djokovic - V.Vacherot",
+   "pari": "N.Djokovic remporte le 1er set 6-3 ou 6-4 ? Oui",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|197170410|739416359": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-03T19:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 13.8,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197170410|739416359",
+   "match": "C.Ruud - R.Jodar",
+   "pari": "C.Ruud remporte le 1er set et le match ? Oui",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -50541,6 +50837,117 @@
    "pari": "Lille marque le 1er but",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|734396273|2276242973": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734396273|2276242973",
+   "match": "Feyenoord - Inter Milan",
+   "pari": "Inter Milan gagne le match 2-1, 3-1 ou 4-1",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|734408157|2276283541": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T16:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.888,
+      "hausse_pct": 12.5,
+      "horizon_heures": 7.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734408157|2276283541",
+   "match": "KHL",
+   "pari": "Shanghai Dragons et Neftekhimik Niznekamsk marquent chacun au moins 3 buts (respectivement contre Cherepovets et Sotchi) (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|734416218|2276303476": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T15:40+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 6.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T08:56:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734416218|2276303476",
+   "match": "Jan-Lennard Struff - Arthur Gea",
+   "pari": "Arthur Gea gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
