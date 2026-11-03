@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 857,
+   "abstention": 862,
    "ecarter": 43,
    "hors_perimetre": 68,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-03T10:54:46+00:00",
+  "derniere_observation": "2026-11-03T11:53:52+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 68,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 602,
+   "reference_absente": 607,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 969,
+  "observes": 974,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-03T10:54:46+00:00",
+ "derniere_observation": "2026-11-03T11:53:52+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -6817,6 +6817,117 @@
    "id": "olybet|31435721|7441269077",
    "match": "Lorient - Brest",
    "pari": "Les 2 équipes marquent et plus de 2.5 buts",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31445746|7446796683": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-03T19:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 14.28,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31445746|7446796683",
+   "match": "Bodo Glimt - Lille",
+   "pari": "Lille to draw or win & over 1.5 goals in the match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31445748|7446798355": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-03T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 8.33,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31445748|7446798355",
+   "match": "Villarreal - Paris SG",
+   "pari": "Paris SG to win both halves",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31445749|7446800546": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-03T19:00+00:00",
+   "historique": [
+    {
+     "cote": 8.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 3.57,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31445749|7446800546",
+   "match": "Villarreal - Paris SG",
+   "pari": "Paris SG to win to nil & F. Torres to score a goal",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -50645,6 +50756,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 13.2,
+      "horizon_heures": 5.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|734375430|2276181997",
@@ -50748,6 +50885,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 8.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -50948,6 +51111,80 @@
    "pari": "Arthur Gea gagne 2-0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|734523570|2276598412": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T18:30+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 6.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734523570|2276598412",
+   "match": "Cholet - Paris Basketball",
+   "pari": "Paris Basketball gagne et plus de 176,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|734527906|2276610365": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T19:50+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 7.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T11:53:52+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734527906|2276610365",
+   "match": "Tomislav Pucar - Flavien Coton",
+   "pari": "Flavien Coton gagne le premier set par au moins 4 points d'écart",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
   }
  },
  "modele": "observation-v1",
