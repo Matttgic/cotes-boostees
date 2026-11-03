@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-03T14:52:44+00:00",
+ "derniere_observation": "2026-11-03T15:19:45+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6928,6 +6928,24 @@
      "date": "2026-11-03T11:54:34+00:00",
      "ev_modele_pct": null,
      "id": "winamax|734527906|2276610365",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734654817|2276963497": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734654817|2276963497",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734673590|2277014046": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734673590|2277014046",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -13864,6 +13882,24 @@
      "mise": null,
      "p_modele": 0.272077,
      "regle": null
+    },
+    "winamax|734654817|2276963497": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": 27.537,
+     "id": "winamax|734654817|2276963497",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411409,
+     "regle": null
+    },
+    "winamax|734673590|2277014046": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": -17.843,
+     "id": "winamax|734673590|2277014046",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298752,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -20796,6 +20832,24 @@
      "mise": null,
      "p_modele": 0.272077,
      "regle": null
+    },
+    "winamax|734654817|2276963497": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": 27.537,
+     "id": "winamax|734654817|2276963497",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411409,
+     "regle": null
+    },
+    "winamax|734673590|2277014046": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": -17.843,
+     "id": "winamax|734673590|2277014046",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298752,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -27727,6 +27781,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.272077,
+     "regle": null
+    },
+    "winamax|734654817|2276963497": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": 27.537,
+     "id": "winamax|734654817|2276963497",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.411409,
+     "regle": null
+    },
+    "winamax|734673590|2277014046": {
+     "date": "2026-11-03T15:18:56+00:00",
+     "ev_modele_pct": -17.843,
+     "id": "winamax|734673590|2277014046",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.298752,
      "regle": null
     }
    }
@@ -43909,6 +43981,38 @@
    "pari": "Flavien Coton gagne le premier set par au moins 4 points d'écart",
    "premiere_vue": "2026-11-03T11:53:52+00:00",
    "sport": "Tennis de table"
+  },
+  "winamax|734654817|2276963497": {
+   "available_at": "2026-11-03T15:18:56+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.1,
+   "cote_origine": 2.75,
+   "debut": "2026-11-03T15:45+00:00",
+   "disponible": true,
+   "id": "winamax|734654817|2276963497",
+   "long_terme": false,
+   "match": "Benjamin Bonzi - Taylor Fritz",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Benjamin Bonzi gagne le premier set",
+   "premiere_vue": "2026-11-03T15:18:22+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|734673590|2277014046": {
+   "available_at": "2026-11-03T15:18:56+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.45,
+   "debut": "2026-11-03T19:00+00:00",
+   "disponible": true,
+   "id": "winamax|734673590|2277014046",
+   "long_terme": false,
+   "match": "Strasbourg - Cibona Zagreb",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Strasbourg gagne et plus de 169,5 points dans le match",
+   "premiere_vue": "2026-11-03T15:18:22+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
