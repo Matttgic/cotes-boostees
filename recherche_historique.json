@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-03T15:19:45+00:00",
+ "derniere_observation": "2026-11-03T16:19:01+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6946,6 +6946,24 @@
      "date": "2026-11-03T15:18:56+00:00",
      "ev_modele_pct": null,
      "id": "winamax|734673590|2277014046",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734682648|2277039318": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734682648|2277039318",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734690924|2277062582": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734690924|2277062582",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -13900,6 +13918,24 @@
      "mise": null,
      "p_modele": 0.298752,
      "regle": null
+    },
+    "winamax|734682648|2277039318": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -17.433,
+     "id": "winamax|734682648|2277039318",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.165134,
+     "regle": null
+    },
+    "winamax|734690924|2277062582": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734690924|2277062582",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -20850,6 +20886,24 @@
      "mise": null,
      "p_modele": 0.298752,
      "regle": null
+    },
+    "winamax|734682648|2277039318": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -17.433,
+     "id": "winamax|734682648|2277039318",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.165134,
+     "regle": null
+    },
+    "winamax|734690924|2277062582": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734690924|2277062582",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -27799,6 +27853,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.298752,
+     "regle": null
+    },
+    "winamax|734682648|2277039318": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -17.433,
+     "id": "winamax|734682648|2277039318",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.165134,
+     "regle": null
+    },
+    "winamax|734690924|2277062582": {
+     "date": "2026-11-03T16:18:13+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734690924|2277062582",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
      "regle": null
     }
    }
@@ -44013,6 +44085,38 @@
    "pari": "Strasbourg gagne et plus de 169,5 points dans le match",
    "premiere_vue": "2026-11-03T15:18:22+00:00",
    "sport": "Basketball"
+  },
+  "winamax|734682648|2277039318": {
+   "available_at": "2026-11-03T16:18:13+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 5.0,
+   "cote_origine": 4.2,
+   "debut": "2026-11-03T18:00+00:00",
+   "disponible": true,
+   "id": "winamax|734682648|2277039318",
+   "long_terme": false,
+   "match": "PAOK - BC Roma",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Cedi Osman et Nico Mannion marquent au moins 20 points chacun",
+   "premiere_vue": "2026-11-03T16:17:34+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|734690924|2277062582": {
+   "available_at": "2026-11-03T16:18:13+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-11-04T00:30+00:00",
+   "disponible": true,
+   "id": "winamax|734690924|2277062582",
+   "long_terme": false,
+   "match": "Internacional - Coritiba",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Internacional gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_vue": "2026-11-03T16:17:34+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
