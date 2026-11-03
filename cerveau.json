@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 845,
+   "abstention": 848,
    "ecarter": 43,
    "hors_perimetre": 66,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-03T06:58:11+00:00",
+  "derniere_observation": "2026-11-03T07:57:15+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 66,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 590,
+   "reference_absente": 593,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 955,
+  "observes": 958,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-03T06:58:11+00:00",
+ "derniere_observation": "2026-11-03T07:57:15+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -50286,6 +50286,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 16.0,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|734373048|2276174312",
@@ -50402,6 +50428,117 @@
    "id": "winamax|734381113|2276201473",
    "match": "Atletico Madrid - Bayern Munich",
    "pari": "Harry Kane marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|734386242|2276215278": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 14.3,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734386242|2276215278",
+   "match": "FC Barcelone - Aston Villa",
+   "pari": "Raphinha premier buteur du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|734391719|2276229423": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.35,
+      "hausse_pct": 11.9,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734391719|2276229423",
+   "match": "Manchester United - AS Rome",
+   "pari": "AS Rome gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|734394649|2276236113": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-03T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|734394649|2276236113",
+   "match": "Bodø/Glimt - Lille",
+   "pari": "Lille marque le 1er but",
    "premiere_selection": null,
    "sport": "Football"
   }
