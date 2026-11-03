@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-03T05:51:13+00:00",
+ "derniere_observation": "2026-11-03T06:50:25+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -6712,6 +6712,24 @@
      "date": "2026-11-03T05:50:28+00:00",
      "ev_modele_pct": null,
      "id": "winamax|734348694|2276025092",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734372395|2276172666": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734372395|2276172666",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|734373048|2276174312": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|734373048|2276174312",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -13432,6 +13450,24 @@
      "mise": null,
      "p_modele": 0.380662,
      "regle": null
+    },
+    "winamax|734372395|2276172666": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.072,
+     "id": "winamax|734372395|2276172666",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261141,
+     "regle": null
+    },
+    "winamax|734373048|2276174312": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734373048|2276174312",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -20148,6 +20184,24 @@
      "mise": null,
      "p_modele": 0.380662,
      "regle": null
+    },
+    "winamax|734372395|2276172666": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.072,
+     "id": "winamax|734372395|2276172666",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261141,
+     "regle": null
+    },
+    "winamax|734373048|2276174312": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734373048|2276174312",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -26863,6 +26917,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.380662,
+     "regle": null
+    },
+    "winamax|734372395|2276172666": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.072,
+     "id": "winamax|734372395|2276172666",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261141,
+     "regle": null
+    },
+    "winamax|734373048|2276174312": {
+     "date": "2026-11-03T06:49:42+00:00",
+     "ev_modele_pct": -2.486,
+     "id": "winamax|734373048|2276174312",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.325048,
      "regle": null
     }
    }
@@ -42629,6 +42701,38 @@
    "pari": "Novak Djokovic gagne 2-1",
    "premiere_vue": "2026-11-03T05:50:05+00:00",
    "sport": "Tennis"
+  },
+  "winamax|734372395|2276172666": {
+   "available_at": "2026-11-03T06:49:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.75,
+   "cote_origine": 3.2,
+   "debut": "2026-11-03T17:45+00:00",
+   "disponible": true,
+   "id": "winamax|734372395|2276172666",
+   "long_terme": false,
+   "match": "Shakhtar Donetsk - Sporting Portugal",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Luis Suarez marque au moins un but en 1ère mi-temps",
+   "premiere_vue": "2026-11-03T06:49:15+00:00",
+   "sport": "Football"
+  },
+  "winamax|734373048|2276174312": {
+   "available_at": "2026-11-03T06:49:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-11-03T17:45+00:00",
+   "disponible": true,
+   "id": "winamax|734373048|2276174312",
+   "long_terme": false,
+   "match": "Galatasaray - Stuttgart",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Galatasaray gagne et les deux équipes marquent",
+   "premiere_vue": "2026-11-03T06:49:15+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
