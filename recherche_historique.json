@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-03T11:55:17+00:00",
+ "derniere_observation": "2026-11-03T12:54:13+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -322,6 +322,24 @@
      "date": "2026-11-02T15:17:20+00:00",
      "ev_modele_pct": null,
      "id": "betsson|95191583.1|398658208.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|95238830.1|398834672.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|95238830.1|398834672.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|95239668.1|398837134.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|95239668.1|398837134.1",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7241,6 +7259,24 @@
      "p_modele": 0.459426,
      "regle": null
     },
+    "betsson|95238830.1|398834672.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": -3.365,
+     "id": "betsson|95238830.1|398834672.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.238606,
+     "regle": null
+    },
+    "betsson|95239668.1|398837134.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": 16.354,
+     "id": "betsson|95239668.1|398837134.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.129282,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -14155,6 +14191,24 @@
      "p_modele": 0.459426,
      "regle": null
     },
+    "betsson|95238830.1|398834672.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": -3.365,
+     "id": "betsson|95238830.1|398834672.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.238606,
+     "regle": null
+    },
+    "betsson|95239668.1|398837134.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": 16.354,
+     "id": "betsson|95239668.1|398837134.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.129282,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -21067,6 +21121,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.459426,
+     "regle": null
+    },
+    "betsson|95238830.1|398834672.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": -3.365,
+     "id": "betsson|95238830.1|398834672.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.238606,
+     "regle": null
+    },
+    "betsson|95239668.1|398837134.1": {
+     "date": "2026-11-03T12:53:32+00:00",
+     "ev_modele_pct": 16.354,
+     "id": "betsson|95239668.1|398837134.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.129282,
      "regle": null
     },
     "genybet|12255022|4841413055": {
@@ -28307,6 +28379,38 @@
    "mise_max_supposee": false,
    "pari": "Désiré Doué Buteur",
    "premiere_vue": "2026-11-02T15:16:14+00:00",
+   "sport": "Football"
+  },
+  "betsson|95238830.1|398834672.1": {
+   "available_at": "2026-11-03T12:53:32+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 4.05,
+   "cote_origine": null,
+   "debut": "2026-11-04T17:45+00:00",
+   "disponible": true,
+   "id": "betsson|95238830.1|398834672.1",
+   "long_terme": false,
+   "match": "Fenerbahçe Istanbul - Liverpool",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Bradley Barcola Passeur décisif",
+   "premiere_vue": "2026-11-03T12:52:55+00:00",
+   "sport": "Football"
+  },
+  "betsson|95239668.1|398837134.1": {
+   "available_at": "2026-11-03T12:53:32+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 9.0,
+   "cote_origine": 7.65,
+   "debut": "2026-11-04T17:45+00:00",
+   "disponible": true,
+   "id": "betsson|95239668.1|398837134.1",
+   "long_terme": false,
+   "match": "AEK Athènes - Real Madrid",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Real Madrid gagne 2-1",
+   "premiere_vue": "2026-11-03T12:52:55+00:00",
    "sport": "Football"
   },
   "genybet|12255022|4841413055": {

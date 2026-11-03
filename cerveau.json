@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 862,
+   "abstention": 864,
    "ecarter": 43,
    "hors_perimetre": 68,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-03T11:53:52+00:00",
+  "derniere_observation": "2026-11-03T12:52:55+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 68,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 607,
+   "reference_absente": 609,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 974,
+  "observes": 976,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-03T11:53:52+00:00",
+ "derniere_observation": "2026-11-03T12:52:55+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2350,6 +2350,80 @@
    "id": "betsson|95191583.1|398658208.1",
    "match": "Villarreal - Paris SG",
    "pari": "Désiré Doué Buteur",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95238830.1|398834672.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-04T17:45+00:00",
+   "historique": [
+    {
+     "cote": 4.05,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 28.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T12:52:55+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95238830.1|398834672.1",
+   "match": "Fenerbahçe Istanbul - Liverpool",
+   "pari": "Bradley Barcola Passeur décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95239668.1|398837134.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-04T17:45+00:00",
+   "historique": [
+    {
+     "cote": 9.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 7.65,
+      "hausse_pct": 17.6,
+      "horizon_heures": 28.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T12:52:55+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95239668.1|398837134.1",
+   "match": "AEK Athènes - Real Madrid",
+   "pari": "Real Madrid gagne 2-1",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -50711,6 +50785,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-03T07:57:15+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 14.0,
+      "horizon_heures": 4.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-03T12:52:55+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
