@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 03/11 09h56 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 03/11 10h55 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -182,17 +182,17 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 697 en attente · cote moy
 | Match | Pari | Cote | Juste | EV | Mise | Résultat |
 |---|---|---|---|---|---|---|
 | 04/11 11h00 · ATP Paris | Carlos Alcaraz remporte le tournoi | 3,5 | – | – | 20 € | ⏳ |
+| 03/11 21h00 · CB - Ligue des Champions (03/11) | Au moins 2 joueurs marquent dans le trio L.Yamal/D.Doué/M.Thuram ? (Remboursé si non titulaire(s)) | 2,4 | – | – | 25 € | ⏳ |
 | 03/11 21h00 · FC Barcelone - Aston Villa | FC Barcelone gagne les 2 mi-temps ? | 2,35 | – | – | 25 € | ⏳ |
 | 03/11 21h00 · Atl. Madrid - Bayern Munich | Ju.Alvarez ou H.Kane 1er buteur du match ? (Remboursé si non titulaire(s)) | 2,8 | – | – | 25 € | ⏳ |
 | 03/11 21h00 · Bodø/Glimt - Lille | Lille gagne ou fait match nul et les 2 équipes marquent ? | 2,8 | – | – | 25 € | ⏳ |
-| 03/11 21h00 · CB - Ligue des Champions (03/11) | Au moins 2 joueurs marquent dans le trio L.Yamal/D.Doué/M.Thuram ? (Remboursé si non titulaire(s)) | 2,4 | – | – | 25 € | ⏳ |
-| 03/11 21h00 · D.Doué décisif et le PSG gagne ? - Villarreal | D.Doué décisif et le PSG gagne ? (v Villarreal) | 2,15 | – | – | 10 € | ⏳ |
 | 03/11 21h00 · Feyenoord - Inter Milan | Inter Milan gagne le match 2-1, 3-1 ou 4-1 | 4,5 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · Bodø/Glimt - Lille | Lille marque le 1er but | 2,5 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · Manchester United - AS Rome | AS Rome gagne et plus de 2,5 buts dans le match | 3,75 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · FC Barcelone - Aston Villa | Raphinha premier buteur du match | 4,0 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · Atletico Madrid - Bayern Munich | Harry Kane marque 2 buts ou plus | 5,0 | – | – | 20 € | ⏳ |
 | 03/11 21h00 · Villarreal - Paris SG | Paris SG gagne les deux mi-temps | 4,0 | – | – | 20 € | ⏳ |
+| 03/11 21h00 · D.Doué décisif et le PSG gagne ? - Villarreal | D.Doué décisif et le PSG gagne ? (v Villarreal) | 2,15 | – | – | 10 € | ⏳ |
 | 03/11 21h00 · Villarreal - Paris SG | Désiré Doué Buteur | 2,35 | – | – | 20 € | ⏳ |
 | 03/11 20h30 · C.Ruud - R.Jodar | C.Ruud remporte le 1er set et le match ? Oui | 3,3 | – | – | 25 € | ⏳ |
 | 03/11 18h45 · CB - Ligue des Champions (03/11) | Au moins 6 équipes marquent chacune 3 buts ou plus sur l'ensemble des 9 matchs du jour ? | 2,75 | – | – | 25 € | ⏳ |
