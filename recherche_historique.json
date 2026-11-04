@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T19:42:12+00:00",
+ "derniere_observation": "2026-11-04T20:41:16+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7378,6 +7378,24 @@
      "date": "2026-11-04T18:05:08+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735549948|2279590600",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735685202|2279993985": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735685202|2279993985",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735687753|2280000789": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735687753|2280000789",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14764,6 +14782,24 @@
      "mise": null,
      "p_modele": 0.296851,
      "regle": null
+    },
+    "winamax|735685202|2279993985": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -17.381,
+     "id": "winamax|735685202|2279993985",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305996,
+     "regle": null
+    },
+    "winamax|735687753|2280000789": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -16.218,
+     "id": "winamax|735687753|2280000789",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310303,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22146,6 +22182,24 @@
      "mise": null,
      "p_modele": 0.296851,
      "regle": null
+    },
+    "winamax|735685202|2279993985": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -17.381,
+     "id": "winamax|735685202|2279993985",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305996,
+     "regle": null
+    },
+    "winamax|735687753|2280000789": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -16.218,
+     "id": "winamax|735687753|2280000789",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310303,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29527,6 +29581,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.296851,
+     "regle": null
+    },
+    "winamax|735685202|2279993985": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -17.381,
+     "id": "winamax|735685202|2279993985",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.305996,
+     "regle": null
+    },
+    "winamax|735687753|2280000789": {
+     "date": "2026-11-04T20:40:30+00:00",
+     "ev_modele_pct": -16.218,
+     "id": "winamax|735687753|2280000789",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310303,
      "regle": null
     }
    }
@@ -46541,6 +46613,38 @@
    "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Seattle Kraken - Calgary Flames et Los Angeles Kings - San Jose Sharks (hors prol. et TAB)",
    "premiere_vue": "2026-11-04T18:04:09+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|735685202|2279993985": {
+   "available_at": "2026-11-04T20:40:30+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.7,
+   "cote_origine": 2.4,
+   "debut": "2026-11-05T02:10+00:00",
+   "disponible": true,
+   "id": "winamax|735685202|2279993985",
+   "long_terme": false,
+   "match": "Phoenix Suns - Portland Trail Blazers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "D. Lillard, D. Booker et D. Avdija marquent au moins 20 points chacun",
+   "premiere_vue": "2026-11-04T20:40:01+00:00",
+   "sport": "Basketball"
+  },
+  "winamax|735687753|2280000789": {
+   "available_at": "2026-11-04T20:40:30+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.7,
+   "cote_origine": 2.372,
+   "debut": "2026-11-05T03:10+00:00",
+   "disponible": true,
+   "id": "winamax|735687753|2280000789",
+   "long_terme": false,
+   "match": "NBA",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 229,5 points lors de chacun des matchs suivants : Sacramento Kings - Los Angeles Lakers et Los Angeles Clippers - Miami Heat",
+   "premiere_vue": "2026-11-04T20:40:01+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
