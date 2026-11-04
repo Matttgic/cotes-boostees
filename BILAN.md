@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 04/11 19h41 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 04/11 20h40 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -105,8 +105,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 756 en attente · cote moy
 | 12.5 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 13.15 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 13.51 € | 0 / 1 | 0 € | +0,00 € | – | – |
-| 13.88 € | 1 / 4 | 14 € | +24,98 € | +180,0 % | 100 % |
-| 14.7 € | 0 / 4 | 0 € | +0,00 € | – | – |
+| 13.88 € | 1 / 3 | 14 € | +24,98 € | +180,0 % | 100 % |
+| 14.7 € | 0 / 5 | 0 € | +0,00 € | – | – |
 | 16.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 17.24 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -203,7 +203,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 756 en attente · cote moy
 | 04/11 21h00 · PSV Eindhoven - Club Bruges | PSV Eindhoven ou Club Bruges gagne et plus de 4,5 buts dans le match | 3,1 | – | – | 20 € | ⏳ |
 | 04/11 21h00 · Ligue des Champions | Arsenal et Manchester City gagnent chacun par au moins 2 buts d'écart (respectivement contre Slavia Prague et RB Leipzig) | 3,75 | – | – | 20 € | ⏳ |
 | 04/11 21h00 · Lens - Côme | Lens ne perd pas & plus 2.5 buts dans le match | 3,2 | – | – | 11.36 € | ⏳ |
-| 04/11 21h00 · TRIO BUTEUR | E.Haaland+S.Guirassy+V.Gyokeres marquent plus de 2.5 buts | 2,8 | – | – | 13.88 € | ⏳ |
+| 04/11 21h00 · TRIO BUTEUR | E.Haaland+S.Guirassy+V.Gyokeres marquent plus de 2.5 buts | 2,8 | – | – | 14.7 € | ⏳ |
 | 04/11 21h00 · F.Thauvin décisif - Côme | F.Thauvin décisif (v Côme) ? | 2,5 | – | – | 10 € | ⏳ |
 | 04/11 21h00 · Lens / Côme : Plus de 2,5 buts (mise max 10 €) | Lens / Côme : Plus de 2,5 buts (mise max 10 €) | 1,7 | – | – | 10 € | ⏳ |
 | 04/11 20h45 · Real Madrid - Panathinaikos | Kendrick Nunn et Timothe Luwawu-Cabarrot marquent au moins 15 points chacun | 2,75 | – | – | 20 € | ⏳ |
