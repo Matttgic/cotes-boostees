@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T13:09:26+00:00",
+ "derniere_observation": "2026-11-04T14:08:52+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -2455,6 +2455,15 @@
      "date": "2026-11-04T08:21:55+00:00",
      "ev_modele_pct": null,
      "id": "unibet|197181567|739530481",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "unibet|197182753|739535585": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": null,
+     "id": "unibet|197182753|739535585",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -7292,6 +7301,15 @@
      "mise": null,
      "p_modele": null,
      "regle": "sport:tennis:3-5"
+    },
+    "winamax|735391703|2279114248": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735391703|2279114248",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
     }
    },
    "K_modele": {
@@ -9750,6 +9768,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.409698,
+     "regle": null
+    },
+    "unibet|197182753|739535585": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": 1.344,
+     "id": "unibet|197182753|739535585",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321726,
      "regle": null
     },
     "unibet|197218447|739700901": {
@@ -14584,6 +14611,15 @@
      "mise": null,
      "p_modele": 0.519075,
      "regle": null
+    },
+    "winamax|735391703|2279114248": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": -19.783,
+     "id": "winamax|735391703|2279114248",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291698,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -17042,6 +17078,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.409698,
+     "regle": null
+    },
+    "unibet|197182753|739535585": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": 1.344,
+     "id": "unibet|197182753|739535585",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321726,
      "regle": null
     },
     "unibet|197218447|739700901": {
@@ -21876,6 +21921,15 @@
      "mise": null,
      "p_modele": 0.519075,
      "regle": null
+    },
+    "winamax|735391703|2279114248": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": -19.783,
+     "id": "winamax|735391703|2279114248",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291698,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -24334,6 +24388,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.409698,
+     "regle": null
+    },
+    "unibet|197182753|739535585": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": 1.344,
+     "id": "unibet|197182753|739535585",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.321726,
      "regle": null
     },
     "unibet|197218447|739700901": {
@@ -29167,6 +29230,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.519075,
+     "regle": null
+    },
+    "winamax|735391703|2279114248": {
+     "date": "2026-11-04T14:08:06+00:00",
+     "ev_modele_pct": -19.783,
+     "id": "winamax|735391703|2279114248",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.291698,
      "regle": null
     }
    }
@@ -35261,6 +35333,22 @@
    "mise_max_supposee": false,
    "pari": "Man. City gagne et plus de 3,5 buts dans le match",
    "premiere_vue": "2026-11-04T08:20:36+00:00",
+   "sport": "Football"
+  },
+  "unibet|197182753|739535585": {
+   "available_at": "2026-11-04T14:08:06+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 3.15,
+   "cote_origine": 2.7,
+   "debut": "2026-11-04T20:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|197182753|739535585",
+   "long_terme": false,
+   "match": "Lens - Como 1907",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "F.Thauvin ou A.Douvikas 1er buteur du match (Remboursé si non titulaire(s))",
+   "premiere_vue": "2026-11-04T14:07:17+00:00",
    "sport": "Football"
   },
   "unibet|197218447|739700901": {
@@ -46021,6 +46109,22 @@
    "pari": "Nico Paz marque au moins un but ou fait au moins une passe décisive",
    "premiere_vue": "2026-11-04T09:19:47+00:00",
    "sport": "Football"
+  },
+  "winamax|735391703|2279114248": {
+   "available_at": "2026-11-04T14:08:06+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.5,
+   "debut": "2026-11-05T00:15+00:00",
+   "disponible": true,
+   "id": "winamax|735391703|2279114248",
+   "long_terme": false,
+   "match": "Detroit Pistons - Philadelphia 76ers",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Philadelphia 76ers gagne par au moins 6 points d'écart contre Detroit Pistons",
+   "premiere_vue": "2026-11-04T14:07:17+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
