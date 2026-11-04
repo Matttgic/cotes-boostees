@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T15:07:44+00:00",
+ "derniere_observation": "2026-11-04T16:07:16+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7333,6 +7333,15 @@
      "date": "2026-11-04T15:06:54+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735412729|2279175522",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735437523|2279243599": {
+     "date": "2026-11-04T16:06:31+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735437523|2279243599",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14674,6 +14683,15 @@
      "mise": null,
      "p_modele": 0.291698,
      "regle": null
+    },
+    "winamax|735437523|2279243599": {
+     "date": "2026-11-04T16:06:31+00:00",
+     "ev_modele_pct": -5.618,
+     "id": "winamax|735437523|2279243599",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.269663,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22011,6 +22029,15 @@
      "mise": null,
      "p_modele": 0.291698,
      "regle": null
+    },
+    "winamax|735437523|2279243599": {
+     "date": "2026-11-04T16:06:31+00:00",
+     "ev_modele_pct": -5.618,
+     "id": "winamax|735437523|2279243599",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.269663,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29347,6 +29374,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.291698,
+     "regle": null
+    },
+    "winamax|735437523|2279243599": {
+     "date": "2026-11-04T16:06:31+00:00",
+     "ev_modele_pct": -5.618,
+     "id": "winamax|735437523|2279243599",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.269663,
      "regle": null
     }
    }
@@ -46281,6 +46317,22 @@
    "pari": "Kendrick Nunn et Timothe Luwawu-Cabarrot marquent au moins 15 points chacun",
    "premiere_vue": "2026-11-04T15:06:25+00:00",
    "sport": "Basketball"
+  },
+  "winamax|735437523|2279243599": {
+   "available_at": "2026-11-04T16:06:31+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.5,
+   "cote_origine": 3.1,
+   "debut": "2026-11-04T20:00+00:00",
+   "disponible": true,
+   "id": "winamax|735437523|2279243599",
+   "long_terme": false,
+   "match": "Lens - Côme",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Lens gagne ou fait match nul et plus de 2,5 buts dans le match",
+   "premiere_vue": "2026-11-04T16:05:41+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [

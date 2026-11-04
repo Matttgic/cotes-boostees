@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 909,
+   "abstention": 910,
    "ecarter": 43,
    "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T15:06:25+00:00",
+  "derniere_observation": "2026-11-04T16:05:41+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 654,
+   "reference_absente": 655,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1023,
+  "observes": 1024,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T15:06:25+00:00",
+ "derniere_observation": "2026-11-04T16:05:41+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -53278,6 +53278,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.272,
+      "hausse_pct": 7.8,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T16:05:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735141140|2278456581",
@@ -53570,6 +53596,43 @@
    "pari": "Kendrick Nunn et Timothe Luwawu-Cabarrot marquent au moins 15 points chacun",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|735437523|2279243599": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 3.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T16:05:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735437523|2279243599",
+   "match": "Lens - Côme",
+   "pari": "Lens gagne ou fait match nul et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
