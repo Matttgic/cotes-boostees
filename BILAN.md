@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 04/11 12h09 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 04/11 13h08 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -214,8 +214,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 746 en attente · cote moy
 | 04/11 14h40 · Novak Djokovic - Rinky Hijikata | Novak Djokovic gagne et plus de 22,5 jeux dans le match | 2,65 | – | – | 20 € | ⏳ |
 | 04/11 13h45 · Wim Verdonschot - Simon Gauzy | Simon Gauzy gagne le premier set par au moins 4 points d'écart | 3,0 | – | – | 20 € | ⏳ |
 | 04/11 13h40 · Tomas Martin Etcheverry - Alex de Minaur | Alex de Minaur gagne et plus de 21,5 jeux dans le match | 2,35 | – | – | 20 € | ⏳ |
-| 04/11 13h30 · A. Zverev - L. Musetti | Zverev gagne 2 sets 0 | 2,1 | – | – | 22.72 € | ⏳ |
 | 04/11 13h30 · ATP Paris | Carlos Alcaraz remporte le tournoi | 3,5 | – | – | 20 € | ⏳ |
+| 04/11 13h30 · A. Zverev - L. Musetti | Zverev gagne 2 sets 0 | 2,1 | – | – | 22.72 € | ⏳ |
 | 04/11 13h20 · Ignacio Buse - Daniil Medvedev | Ignacio Buse remporte au moins un set | 2,6 | – | – | 20 € | ⏳ |
 | 04/11 11h00 · ATP Paris | Quentin Halys et Arthur Rinderknech gagnent chacun au moins un set (respectivement contre Frances Tiafoe et Mattia Bellucci) | 2,1 | – | – | 20 € | ⏳ |
 | 04/11 10h00 · Brisbane Bullets - Perth Wildcats | Perth Wildcats gagne et plus de 191,5 points dans le match | 3,25 | – | – | 20 € | ⏳ |
