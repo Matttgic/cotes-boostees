@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T03:26:09+00:00",
+ "derniere_observation": "2026-11-04T04:25:29+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7063,6 +7063,15 @@
      "date": "2026-11-04T03:25:24+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735029952|2278137396",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735031253|2278141246": {
+     "date": "2026-11-04T04:24:43+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735031253|2278141246",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14134,6 +14143,15 @@
      "mise": null,
      "p_modele": 0.492793,
      "regle": null
+    },
+    "winamax|735031253|2278141246": {
+     "date": "2026-11-04T04:24:43+00:00",
+     "ev_modele_pct": 23.071,
+     "id": "winamax|735031253|2278141246",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.523705,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -21201,6 +21219,15 @@
      "mise": null,
      "p_modele": 0.492793,
      "regle": null
+    },
+    "winamax|735031253|2278141246": {
+     "date": "2026-11-04T04:24:43+00:00",
+     "ev_modele_pct": 23.071,
+     "id": "winamax|735031253|2278141246",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.523705,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -28267,6 +28294,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.492793,
+     "regle": null
+    },
+    "winamax|735031253|2278141246": {
+     "date": "2026-11-04T04:24:43+00:00",
+     "ev_modele_pct": 23.071,
+     "id": "winamax|735031253|2278141246",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.523705,
      "regle": null
     }
    }
@@ -44688,6 +44724,22 @@
    "mise_max_supposee": null,
    "pari": "Ignacio Buse remporte au moins un set",
    "premiere_vue": "2026-11-04T03:25:02+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|735031253|2278141246": {
+   "available_at": "2026-11-04T04:24:43+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.35,
+   "cote_origine": 2.1,
+   "debut": "2026-11-04T12:40+00:00",
+   "disponible": true,
+   "id": "winamax|735031253|2278141246",
+   "long_terme": false,
+   "match": "Tomas Martin Etcheverry - Alex de Minaur",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Alex de Minaur gagne et plus de 21,5 jeux dans le match",
+   "premiere_vue": "2026-11-04T04:24:10+00:00",
    "sport": "Tennis"
   }
  },
