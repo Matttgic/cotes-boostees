@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T01:47:42+00:00",
+ "derniere_observation": "2026-11-04T02:27:04+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7045,6 +7045,15 @@
      "date": "2026-11-03T17:17:43+00:00",
      "ev_modele_pct": null,
      "id": "winamax|734718675|2277144502",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735013162|2278091018": {
+     "date": "2026-11-04T02:26:13+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735013162|2278091018",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14098,6 +14107,15 @@
      "mise": null,
      "p_modele": 0.270462,
      "regle": null
+    },
+    "winamax|735013162|2278091018": {
+     "date": "2026-11-04T02:26:13+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|735013162|2278091018",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -21147,6 +21165,15 @@
      "mise": null,
      "p_modele": 0.270462,
      "regle": null
+    },
+    "winamax|735013162|2278091018": {
+     "date": "2026-11-04T02:26:13+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|735013162|2278091018",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -28195,6 +28222,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.270462,
+     "regle": null
+    },
+    "winamax|735013162|2278091018": {
+     "date": "2026-11-04T02:26:13+00:00",
+     "ev_modele_pct": -18.229,
+     "id": "winamax|735013162|2278091018",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.251604,
      "regle": null
     }
    }
@@ -44585,6 +44621,22 @@
    "pari": "Anaheim Ducks gagne et plus de 5,5 buts dans le match (hors prol. et TAB)",
    "premiere_vue": "2026-11-03T17:16:44+00:00",
    "sport": "Hockey sur glace"
+  },
+  "winamax|735013162|2278091018": {
+   "available_at": "2026-11-04T02:26:13+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-11-04T09:00+00:00",
+   "disponible": true,
+   "id": "winamax|735013162|2278091018",
+   "long_terme": false,
+   "match": "Brisbane Bullets - Perth Wildcats",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Perth Wildcats gagne et plus de 191,5 points dans le match",
+   "premiere_vue": "2026-11-04T02:25:53+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
