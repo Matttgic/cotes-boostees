@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T17:06:06+00:00",
+ "derniere_observation": "2026-11-04T18:05:52+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7360,6 +7360,24 @@
      "date": "2026-11-04T16:06:31+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735437523|2279243599",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735539764|2279555442": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735539764|2279555442",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735549948|2279590600": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735549948|2279590600",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14728,6 +14746,24 @@
      "mise": null,
      "p_modele": 0.269663,
      "regle": null
+    },
+    "winamax|735539764|2279555442": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -24.9,
+     "id": "winamax|735539764|2279555442",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187749,
+     "regle": null
+    },
+    "winamax|735549948|2279590600": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -18.366,
+     "id": "winamax|735549948|2279590600",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.296851,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22092,6 +22128,24 @@
      "mise": null,
      "p_modele": 0.269663,
      "regle": null
+    },
+    "winamax|735539764|2279555442": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -24.9,
+     "id": "winamax|735539764|2279555442",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187749,
+     "regle": null
+    },
+    "winamax|735549948|2279590600": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -18.366,
+     "id": "winamax|735549948|2279590600",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.296851,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29455,6 +29509,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.269663,
+     "regle": null
+    },
+    "winamax|735539764|2279555442": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -24.9,
+     "id": "winamax|735539764|2279555442",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.187749,
+     "regle": null
+    },
+    "winamax|735549948|2279590600": {
+     "date": "2026-11-04T18:05:08+00:00",
+     "ev_modele_pct": -18.366,
+     "id": "winamax|735549948|2279590600",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.296851,
      "regle": null
     }
    }
@@ -46437,6 +46509,38 @@
    "pari": "Lens gagne ou fait match nul et plus de 2,5 buts dans le match",
    "premiere_vue": "2026-11-04T16:05:41+00:00",
    "sport": "Football"
+  },
+  "winamax|735539764|2279555442": {
+   "available_at": "2026-11-04T18:05:08+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.0,
+   "cote_origine": 3.6,
+   "debut": "2026-11-05T00:40+00:00",
+   "disponible": true,
+   "id": "winamax|735539764|2279555442",
+   "long_terme": false,
+   "match": "Buffalo Sabres - Ottawa Senators",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Tage Thompson + Tim Stutzle marquent 2 buts ou plus (avec Garantie Golden Goal)",
+   "premiere_vue": "2026-11-04T18:04:09+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|735549948|2279590600": {
+   "available_at": "2026-11-04T18:05:08+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.402,
+   "debut": "2026-11-05T03:10+00:00",
+   "disponible": true,
+   "id": "winamax|735549948|2279590600",
+   "long_terme": false,
+   "match": "NHL",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 5,5 buts lors de chacun des matchs suivants : Seattle Kraken - Calgary Flames et Los Angeles Kings - San Jose Sharks (hors prol. et TAB)",
+   "premiere_vue": "2026-11-04T18:04:09+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [
