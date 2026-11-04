@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 882,
+   "abstention": 890,
    "ecarter": 43,
    "hors_perimetre": 68,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T06:22:19+00:00",
+  "derniere_observation": "2026-11-04T07:21:29+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 68,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 627,
+   "reference_absente": 635,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 994,
+  "observes": 1002,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T06:22:19+00:00",
+ "derniere_observation": "2026-11-04T07:21:29+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -52289,6 +52289,302 @@
    "pari": "Simon Gauzy gagne le premier set par au moins 4 points d'écart",
    "premiere_selection": null,
    "sport": "Tennis de table"
+  },
+  "winamax|735099693|2278347919": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.175,
+      "hausse_pct": 18.1,
+      "horizon_heures": 12.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735099693|2278347919",
+   "match": "Ligue des Champions",
+   "pari": "Arsenal et Manchester City gagnent chacun par au moins 2 buts d'écart (respectivement contre Slavia Prague et RB Leipzig)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735102058|2278354188": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 10.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735102058|2278354188",
+   "match": "Fenerbahce - Liverpool",
+   "pari": "Liverpool gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735103858|2278359159": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 8.8,
+      "horizon_heures": 12.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735103858|2278359159",
+   "match": "PSV Eindhoven - Club Bruges",
+   "pari": "PSV Eindhoven ou Club Bruges gagne et plus de 4,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735104343|2278360531": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T10:00+00:00",
+   "historique": [
+    {
+     "cote": 2.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.836,
+      "hausse_pct": 14.4,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735104343|2278360531",
+   "match": "ATP Paris",
+   "pari": "Quentin Halys et Arthur Rinderknech gagnent chacun au moins un set (respectivement contre Frances Tiafoe et Mattia Bellucci)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|735104831|2278361832": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 12.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735104831|2278361832",
+   "match": "Lens - Come",
+   "pari": "Lens gagne ou fait match nul et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735108193|2278370547": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 5.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 4.4,
+      "hausse_pct": 19.3,
+      "horizon_heures": 12.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735108193|2278370547",
+   "match": "Borussia Dortmund - Betis Séville",
+   "pari": "Serhou Guirassy marque 2 buts ou plus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735112262|2278381144": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 12.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735112262|2278381144",
+   "match": "FC Porto - Naples",
+   "pari": "FC Porto gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735123498|2278409345": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T13:40+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 12.8,
+      "horizon_heures": 6.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T07:21:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735123498|2278409345",
+   "match": "Novak Djokovic - Rinky Hijikata",
+   "pari": "Novak Djokovic gagne et plus de 22,5 jeux dans le match",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
