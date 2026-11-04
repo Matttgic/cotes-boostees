@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 906,
+   "abstention": 909,
    "ecarter": 43,
    "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T14:07:17+00:00",
+  "derniere_observation": "2026-11-04T15:06:25+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 651,
+   "reference_absente": 654,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1020,
+  "observes": 1023,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T14:07:17+00:00",
+ "derniere_observation": "2026-11-04T15:06:25+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -52941,6 +52941,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 4.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735103858|2278359159",
@@ -53226,6 +53252,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.336,
+      "hausse_pct": 9.2,
+      "horizon_heures": 2.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735141140|2278456581",
@@ -53374,11 +53426,148 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 11.5,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735391703|2279114248",
    "match": "Detroit Pistons - Philadelphia 76ers",
    "pari": "Philadelphia 76ers gagne par au moins 6 points d'écart contre Detroit Pistons",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|735401208|2279140863": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T02:45+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 11.1,
+      "horizon_heures": 11.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735401208|2279140863",
+   "match": "San Antonio Spurs - Dallas Mavericks",
+   "pari": "Victor Wembanyama marque au moins 30 points",
+   "premiere_selection": null,
+   "sport": "Basketball"
+  },
+  "winamax|735405581|2279156177": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T16:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 11.1,
+      "horizon_heures": 0.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735405581|2279156177",
+   "match": "Matteo Berrettini - Ugo Humbert",
+   "pari": "Ugo Humbert gagne 2-1",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|735412729|2279175522": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T15:06:25+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735412729|2279175522",
+   "match": "Real Madrid - Panathinaikos",
+   "pari": "Kendrick Nunn et Timothe Luwawu-Cabarrot marquent au moins 15 points chacun",
    "premiere_selection": null,
    "sport": "Basketball"
   }
