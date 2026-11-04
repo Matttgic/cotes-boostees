@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T08:22:40+00:00",
+ "derniere_observation": "2026-11-04T09:21:43+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7234,6 +7234,24 @@
      "date": "2026-11-04T08:21:55+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735148107|2278473142",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735165744|2278528753": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735165744|2278528753",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735166930|2278531304": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735166930|2278531304",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14476,6 +14494,24 @@
      "mise": null,
      "p_modele": 0.280235,
      "regle": null
+    },
+    "winamax|735165744|2278528753": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -5.136,
+     "id": "winamax|735165744|2278528753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.47432,
+     "regle": null
+    },
+    "winamax|735166930|2278531304": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -3.971,
+     "id": "winamax|735166930|2278531304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.519075,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -21714,6 +21750,24 @@
      "mise": null,
      "p_modele": 0.280235,
      "regle": null
+    },
+    "winamax|735165744|2278528753": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -5.136,
+     "id": "winamax|735165744|2278528753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.47432,
+     "regle": null
+    },
+    "winamax|735166930|2278531304": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -3.971,
+     "id": "winamax|735166930|2278531304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.519075,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -28951,6 +29005,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.280235,
+     "regle": null
+    },
+    "winamax|735165744|2278528753": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -5.136,
+     "id": "winamax|735165744|2278528753",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.47432,
+     "regle": null
+    },
+    "winamax|735166930|2278531304": {
+     "date": "2026-11-04T09:21:01+00:00",
+     "ev_modele_pct": -3.971,
+     "id": "winamax|735166930|2278531304",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.519075,
      "regle": null
     }
    }
@@ -45708,6 +45780,38 @@
    "mise_max_supposee": null,
    "pari": "Au moins un but marqué en première mi-temps lors de chacun des 7 matchs à 21h",
    "premiere_vue": "2026-11-04T08:20:36+00:00",
+   "sport": "Football"
+  },
+  "winamax|735165744|2278528753": {
+   "available_at": "2026-11-04T09:21:01+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.0,
+   "cote_origine": 1.84,
+   "debut": "2026-11-04T17:45+00:00",
+   "disponible": true,
+   "id": "winamax|735165744|2278528753",
+   "long_terme": false,
+   "match": "Cote Boostée Wiloo : Fenerbahce - Liverpool",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Rio Ngumoha marque au moins un but ou fait au moins une passe décisive",
+   "premiere_vue": "2026-11-04T09:19:47+00:00",
+   "sport": "Football"
+  },
+  "winamax|735166930|2278531304": {
+   "available_at": "2026-11-04T09:21:01+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 1.85,
+   "cote_origine": 1.7,
+   "debut": "2026-11-04T20:00+00:00",
+   "disponible": true,
+   "id": "winamax|735166930|2278531304",
+   "long_terme": false,
+   "match": "Cote Boostée Wiloo : Lens - Come",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Nico Paz marque au moins un but ou fait au moins une passe décisive",
+   "premiere_vue": "2026-11-04T09:19:47+00:00",
    "sport": "Football"
   }
  },

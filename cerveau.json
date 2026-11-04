@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 898,
+   "abstention": 900,
    "ecarter": 43,
    "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T08:20:36+00:00",
+  "derniere_observation": "2026-11-04T09:19:47+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 643,
+   "reference_absente": 645,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1012,
+  "observes": 1014,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T08:20:36+00:00",
+ "derniere_observation": "2026-11-04T09:19:47+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -52678,6 +52678,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 15.8,
+      "horizon_heures": 10.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T09:19:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735103858|2278359159",
@@ -52979,6 +53005,80 @@
    "id": "winamax|735148107|2278473142",
    "match": "Ligue des Champions",
    "pari": "Au moins un but marqué en première mi-temps lors de chacun des 7 matchs à 21h",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735165744|2278528753": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.84,
+      "hausse_pct": 8.7,
+      "horizon_heures": 8.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T09:19:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735165744|2278528753",
+   "match": "Cote Boostée Wiloo : Fenerbahce - Liverpool",
+   "pari": "Rio Ngumoha marque au moins un but ou fait au moins une passe décisive",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735166930|2278531304": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 1.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.7,
+      "hausse_pct": 8.8,
+      "horizon_heures": 10.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T09:19:47+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735166930|2278531304",
+   "match": "Cote Boostée Wiloo : Lens - Come",
+   "pari": "Nico Paz marque au moins un but ou fait au moins une passe décisive",
    "premiere_selection": null,
    "sport": "Football"
   }
