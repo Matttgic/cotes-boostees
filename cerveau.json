@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 900,
+   "abstention": 902,
    "ecarter": 43,
    "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T09:19:47+00:00",
+  "derniere_observation": "2026-11-04T10:18:54+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 645,
+   "reference_absente": 647,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1014,
+  "observes": 1016,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T09:19:47+00:00",
+ "derniere_observation": "2026-11-04T10:18:54+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -7202,6 +7202,80 @@
    "id": "olybet|31445749|7446800546",
    "match": "Villarreal - Paris SG",
    "pari": "Paris SG to win to nil & F. Torres to score a goal",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31456647|7452119340": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.7,
+      "long_terme": false,
+      "mise_max": 13.88,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T10:18:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31456647|7452119340",
+   "match": "TRIO GOALSCORER",
+   "pari": "E.Haaland+S.Guirassy+V.Gyokeres to score over 2.5 goals",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31456649|7452029825": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 9.7,
+      "long_terme": false,
+      "mise_max": 11.36,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T10:18:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31456649|7452029825",
+   "match": "Lens - Côme",
+   "pari": "Lens to draw or win & over 2.5 goals in the match",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -52955,6 +53029,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.278,
+      "hausse_pct": 9.7,
+      "horizon_heures": 7.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T10:18:54+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [

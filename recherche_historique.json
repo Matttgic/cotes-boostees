@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T09:21:43+00:00",
+ "derniere_observation": "2026-11-04T10:20:29+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -1303,6 +1303,24 @@
      "date": "2026-11-03T11:54:34+00:00",
      "ev_modele_pct": null,
      "id": "olybet|31445749|7446800546",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "olybet|31456647|7452119340": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": null,
+     "id": "olybet|31456647|7452119340",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "olybet|31456649|7452029825": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": null,
+     "id": "olybet|31456649|7452029825",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -8564,6 +8582,24 @@
      "p_modele": 0.133567,
      "regle": null
     },
+    "olybet|31456647|7452119340": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31456647|7452119340",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
+     "regle": null
+    },
+    "olybet|31456649|7452029825": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.69,
+     "id": "olybet|31456649|7452029825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.320905,
+     "regle": null
+    },
     "unibet|194942438|727895556": {
      "date": "2026-10-14T17:51:07+00:00",
      "ev_modele_pct": -12.277,
@@ -15820,6 +15856,24 @@
      "p_modele": 0.133567,
      "regle": null
     },
+    "olybet|31456647|7452119340": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31456647|7452119340",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
+     "regle": null
+    },
+    "olybet|31456649|7452029825": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.69,
+     "id": "olybet|31456649|7452029825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.320905,
+     "regle": null
+    },
     "unibet|194942438|727895556": {
      "date": "2026-10-14T17:51:07+00:00",
      "ev_modele_pct": -12.277,
@@ -23074,6 +23128,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.133567,
+     "regle": null
+    },
+    "olybet|31456647|7452119340": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.158,
+     "id": "olybet|31456647|7452119340",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.364849,
+     "regle": null
+    },
+    "olybet|31456649|7452029825": {
+     "date": "2026-11-04T10:19:46+00:00",
+     "ev_modele_pct": 2.69,
+     "id": "olybet|31456649|7452029825",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.320905,
      "regle": null
     },
     "unibet|194942438|727895556": {
@@ -31491,6 +31563,38 @@
    "mise_max_supposee": false,
    "pari": "Paris SG to win to nil & F. Torres to score a goal",
    "premiere_vue": "2026-11-03T11:53:52+00:00",
+   "sport": "Football"
+  },
+  "olybet|31456647|7452119340": {
+   "available_at": "2026-11-04T10:19:46+00:00",
+   "bookmaker": "OlyBet",
+   "cote_boostee_initiale": 2.8,
+   "cote_origine": null,
+   "debut": "2026-11-04T20:00+00:00",
+   "disponible": true,
+   "id": "olybet|31456647|7452119340",
+   "long_terme": false,
+   "match": "TRIO GOALSCORER",
+   "mise_max": 13.88,
+   "mise_max_supposee": false,
+   "pari": "E.Haaland+S.Guirassy+V.Gyokeres to score over 2.5 goals",
+   "premiere_vue": "2026-11-04T10:18:54+00:00",
+   "sport": "Football"
+  },
+  "olybet|31456649|7452029825": {
+   "available_at": "2026-11-04T10:19:46+00:00",
+   "bookmaker": "OlyBet",
+   "cote_boostee_initiale": 3.2,
+   "cote_origine": null,
+   "debut": "2026-11-04T20:00+00:00",
+   "disponible": true,
+   "id": "olybet|31456649|7452029825",
+   "long_terme": false,
+   "match": "Lens - Côme",
+   "mise_max": 11.36,
+   "mise_max_supposee": false,
+   "pari": "Lens to draw or win & over 2.5 goals in the match",
+   "premiere_vue": "2026-11-04T10:18:54+00:00",
    "sport": "Football"
   },
   "unibet|193080176|719100363": {
