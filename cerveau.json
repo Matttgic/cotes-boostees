@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 878,
+   "abstention": 879,
    "ecarter": 43,
    "hors_perimetre": 68,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T02:25:53+00:00",
+  "derniere_observation": "2026-11-04T03:25:02+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 68,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 623,
+   "reference_absente": 624,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 990,
+  "observes": 991,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T02:25:53+00:00",
+ "derniere_observation": "2026-11-04T03:25:02+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -52141,6 +52141,43 @@
    "pari": "Perth Wildcats gagne et plus de 191,5 points dans le match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|735029952|2278137396": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T12:20+00:00",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T03:25:02+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735029952|2278137396",
+   "match": "Ignacio Buse - Daniil Medvedev",
+   "pari": "Ignacio Buse remporte au moins un set",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",

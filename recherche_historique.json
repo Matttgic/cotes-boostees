@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T02:27:04+00:00",
+ "derniere_observation": "2026-11-04T03:26:09+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7054,6 +7054,15 @@
      "date": "2026-11-04T02:26:13+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735013162|2278091018",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735029952|2278137396": {
+     "date": "2026-11-04T03:25:24+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735029952|2278137396",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14116,6 +14125,15 @@
      "mise": null,
      "p_modele": 0.251604,
      "regle": null
+    },
+    "winamax|735029952|2278137396": {
+     "date": "2026-11-04T03:25:24+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|735029952|2278137396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492793,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -21174,6 +21192,15 @@
      "mise": null,
      "p_modele": 0.251604,
      "regle": null
+    },
+    "winamax|735029952|2278137396": {
+     "date": "2026-11-04T03:25:24+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|735029952|2278137396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492793,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -28231,6 +28258,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.251604,
+     "regle": null
+    },
+    "winamax|735029952|2278137396": {
+     "date": "2026-11-04T03:25:24+00:00",
+     "ev_modele_pct": 28.126,
+     "id": "winamax|735029952|2278137396",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.492793,
      "regle": null
     }
    }
@@ -44637,6 +44673,22 @@
    "pari": "Perth Wildcats gagne et plus de 191,5 points dans le match",
    "premiere_vue": "2026-11-04T02:25:53+00:00",
    "sport": "Basketball"
+  },
+  "winamax|735029952|2278137396": {
+   "available_at": "2026-11-04T03:25:24+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.6,
+   "cote_origine": 2.25,
+   "debut": "2026-11-04T12:20+00:00",
+   "disponible": true,
+   "id": "winamax|735029952|2278137396",
+   "long_terme": false,
+   "match": "Ignacio Buse - Daniil Medvedev",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Ignacio Buse remporte au moins un set",
+   "premiere_vue": "2026-11-04T03:25:02+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
