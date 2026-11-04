@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T20:41:16+00:00",
+ "derniere_observation": "2026-11-04T21:40:26+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7396,6 +7396,15 @@
      "date": "2026-11-04T20:40:30+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735687753|2280000789",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735704396|2280049563": {
+     "date": "2026-11-04T21:39:40+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735704396|2280049563",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14800,6 +14809,15 @@
      "mise": null,
      "p_modele": 0.310303,
      "regle": null
+    },
+    "winamax|735704396|2280049563": {
+     "date": "2026-11-04T21:39:40+00:00",
+     "ev_modele_pct": -1.808,
+     "id": "winamax|735704396|2280049563",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261845,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22200,6 +22218,15 @@
      "mise": null,
      "p_modele": 0.310303,
      "regle": null
+    },
+    "winamax|735704396|2280049563": {
+     "date": "2026-11-04T21:39:40+00:00",
+     "ev_modele_pct": -1.808,
+     "id": "winamax|735704396|2280049563",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261845,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29599,6 +29626,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.310303,
+     "regle": null
+    },
+    "winamax|735704396|2280049563": {
+     "date": "2026-11-04T21:39:40+00:00",
+     "ev_modele_pct": -1.808,
+     "id": "winamax|735704396|2280049563",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.261845,
      "regle": null
     }
    }
@@ -46645,6 +46681,22 @@
    "pari": "Plus de 229,5 points lors de chacun des matchs suivants : Sacramento Kings - Los Angeles Lakers et Los Angeles Clippers - Miami Heat",
    "premiere_vue": "2026-11-04T20:40:01+00:00",
    "sport": "Basketball"
+  },
+  "winamax|735704396|2280049563": {
+   "available_at": "2026-11-04T21:39:40+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.75,
+   "cote_origine": 3.192,
+   "debut": "2026-11-05T00:30+00:00",
+   "disponible": true,
+   "id": "winamax|735704396|2280049563",
+   "long_terme": false,
+   "match": "Serie A - Brésil",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Chaque équipe marque lors des matchs suivants : Botafogo - Atlético Mineiro et Sao Paulo - Corinthians",
+   "premiere_vue": "2026-11-04T21:39:09+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
