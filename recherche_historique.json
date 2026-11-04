@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-04T05:24:25+00:00",
+ "derniere_observation": "2026-11-04T06:23:48+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7072,6 +7072,24 @@
      "date": "2026-11-04T04:24:43+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735031253|2278141246",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735098443|2278344742": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735098443|2278344742",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735098520|2278344910": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735098520|2278344910",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14152,6 +14170,24 @@
      "mise": null,
      "p_modele": 0.523705,
      "regle": null
+    },
+    "winamax|735098443|2278344742": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -2.727,
+     "id": "winamax|735098443|2278344742",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432325,
+     "regle": null
+    },
+    "winamax|735098520|2278344910": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -18.377,
+     "id": "winamax|735098520|2278344910",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272077,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -21228,6 +21264,24 @@
      "mise": null,
      "p_modele": 0.523705,
      "regle": null
+    },
+    "winamax|735098443|2278344742": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -2.727,
+     "id": "winamax|735098443|2278344742",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432325,
+     "regle": null
+    },
+    "winamax|735098520|2278344910": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -18.377,
+     "id": "winamax|735098520|2278344910",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272077,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -28303,6 +28357,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.523705,
+     "regle": null
+    },
+    "winamax|735098443|2278344742": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -2.727,
+     "id": "winamax|735098443|2278344742",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.432325,
+     "regle": null
+    },
+    "winamax|735098520|2278344910": {
+     "date": "2026-11-04T06:23:01+00:00",
+     "ev_modele_pct": -18.377,
+     "id": "winamax|735098520|2278344910",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.272077,
      "regle": null
     }
    }
@@ -44741,6 +44813,38 @@
    "pari": "Alex de Minaur gagne et plus de 21,5 jeux dans le match",
    "premiere_vue": "2026-11-04T04:24:10+00:00",
    "sport": "Tennis"
+  },
+  "winamax|735098443|2278344742": {
+   "available_at": "2026-11-04T06:23:01+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.25,
+   "cote_origine": 2.0,
+   "debut": "2026-11-04T17:45+00:00",
+   "disponible": true,
+   "id": "winamax|735098443|2278344742",
+   "long_terme": false,
+   "match": "AEK Athènes - Real Madrid",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Real Madrid gagne les deux mi-temps",
+   "premiere_vue": "2026-11-04T06:22:19+00:00",
+   "sport": "Football"
+  },
+  "winamax|735098520|2278344910": {
+   "available_at": "2026-11-04T06:23:01+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.6,
+   "debut": "2026-11-04T12:45+00:00",
+   "disponible": true,
+   "id": "winamax|735098520|2278344910",
+   "long_terme": false,
+   "match": "Wim Verdonschot - Simon Gauzy",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Simon Gauzy gagne le premier set par au moins 4 points d'écart",
+   "premiere_vue": "2026-11-04T06:22:19+00:00",
+   "sport": "Tennis de table"
   }
  },
  "resultats": [
