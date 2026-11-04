@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 890,
+   "abstention": 898,
    "ecarter": 43,
-   "hors_perimetre": 68,
+   "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-04T07:21:29+00:00",
+  "derniere_observation": "2026-11-04T08:20:36+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 68,
+   "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 635,
+   "reference_absente": 643,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1002,
+  "observes": 1012,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-04T07:21:29+00:00",
+ "derniere_observation": "2026-11-04T08:20:36+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3890,6 +3890,43 @@
    "id": "netbet|12351067|7530038912",
    "match": "D.Doué décisif et le PSG gagne ? - Villarreal",
    "pari": "D.Doué décisif et le PSG gagne ? (v Villarreal)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12351103|7532654360": {
+   "bookmaker": "NetBet",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 11.7,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12351103|7532654360",
+   "match": "F.Thauvin décisif - Côme",
+   "pari": "F.Thauvin décisif (v Côme) ?",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -16000,6 +16037,154 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|197180307|739524279": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.7,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.35,
+      "hausse_pct": 14.9,
+      "horizon_heures": 9.4,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197180307|739524279",
+   "match": "CB - Ligue des Champions (04/11)",
+   "pari": "Plus de 1,5 buts dans chacun des 9 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197180852|739526812": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 14.0,
+      "horizon_heures": 9.4,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197180852|739526812",
+   "match": "CB - Ligue des Champions (04/11)",
+   "pari": "Au moins 3 joueurs marquent dans le quatuor K.Mbappe/E.Haaland/S.Guirassy/B.Barcola ? (Remboursé si non titulaire(s))",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197181393|739529312": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T15:30:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197181393|739529312",
+   "match": "Rennes - Olympiakos",
+   "pari": "Rennes marque dans les 2 mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197181567|739530481": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.45,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 14.0,
+      "horizon_heures": 11.7,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197181567|739530481",
+   "match": "RB Leipzig - Man. City",
+   "pari": "Man. City gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|197218447|739700901": {
    "bookmaker": "Unibet",
    "debut": "2026-11-03T20:00:00.000Z",
@@ -16036,6 +16221,80 @@
    "pari": "Désiré Doué décisif et son équipe gagne de 2 buts ou + (remboursé si non titulaire)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|197260520|739972167": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T19:30:00.000Z",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 11.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197260520|739972167",
+   "match": "A.Fils - T.Machac",
+   "pari": "A.Fils gagne le match 2-0 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|197261821|739975594": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-04T15:40:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 7.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197261821|739975594",
+   "match": "M.Berrettini - U.Humbert",
+   "pari": "U.Humbert gagne le 1er set et le match ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -52319,6 +52578,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.058,
+      "hausse_pct": 19.4,
+      "horizon_heures": 11.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735099693|2278347919",
@@ -52585,6 +52870,117 @@
    "pari": "Novak Djokovic gagne et plus de 22,5 jeux dans le match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|735130944|2278430832": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T15:30+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 12.7,
+      "horizon_heures": 7.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735130944|2278430832",
+   "match": "Rennes - Olympiakos",
+   "pari": "Rennes marque dans les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735141140|2278456581": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.55,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.354,
+      "hausse_pct": 8.3,
+      "horizon_heures": 9.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735141140|2278456581",
+   "match": "Ligue des Champions",
+   "pari": "Chaque équipe marque lors des matchs suivants : AEK Athènes - Real Madrid et Fenerbahce - Liverpool",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|735148107|2278473142": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-04T20:00+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.012,
+      "hausse_pct": 49.4,
+      "horizon_heures": 11.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-04T08:20:36+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735148107|2278473142",
+   "match": "Ligue des Champions",
+   "pari": "Au moins un but marqué en première mi-temps lors de chacun des 7 matchs à 21h",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
