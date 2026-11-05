@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-05T04:22:56+00:00",
+ "derniere_observation": "2026-11-05T05:22:30+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7405,6 +7405,24 @@
      "date": "2026-11-04T21:39:40+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735704396|2280049563",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735909158|2280690779": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735909158|2280690779",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735911322|2280696359": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735911322|2280696359",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14818,6 +14836,24 @@
      "mise": null,
      "p_modele": 0.261845,
      "regle": null
+    },
+    "winamax|735909158|2280690779": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 30.39,
+     "id": "winamax|735909158|2280690779",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.474146,
+     "regle": null
+    },
+    "winamax|735911322|2280696359": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 32.007,
+     "id": "winamax|735911322|2280696359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310605,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22227,6 +22263,24 @@
      "mise": null,
      "p_modele": 0.261845,
      "regle": null
+    },
+    "winamax|735909158|2280690779": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 30.39,
+     "id": "winamax|735909158|2280690779",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.474146,
+     "regle": null
+    },
+    "winamax|735911322|2280696359": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 32.007,
+     "id": "winamax|735911322|2280696359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310605,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29635,6 +29689,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.261845,
+     "regle": null
+    },
+    "winamax|735909158|2280690779": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 30.39,
+     "id": "winamax|735909158|2280690779",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.474146,
+     "regle": null
+    },
+    "winamax|735911322|2280696359": {
+     "date": "2026-11-05T05:21:48+00:00",
+     "ev_modele_pct": 32.007,
+     "id": "winamax|735911322|2280696359",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.310605,
      "regle": null
     }
    }
@@ -46697,6 +46769,38 @@
    "pari": "Chaque équipe marque lors des matchs suivants : Botafogo - Atlético Mineiro et Sao Paulo - Corinthians",
    "premiere_vue": "2026-11-04T21:39:09+00:00",
    "sport": "Football"
+  },
+  "winamax|735909158|2280690779": {
+   "available_at": "2026-11-05T05:21:48+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.75,
+   "cote_origine": 2.35,
+   "debut": "2026-11-05T12:20+00:00",
+   "disponible": true,
+   "id": "winamax|735909158|2280690779",
+   "long_terme": false,
+   "match": "Lorenzo Musetti - Luca Van Assche",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Luca Van Assche gagne le premier set",
+   "premiere_vue": "2026-11-05T05:21:12+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|735911322|2280696359": {
+   "available_at": "2026-11-05T05:21:48+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.25,
+   "cote_origine": 3.75,
+   "debut": "2026-11-05T11:10+00:00",
+   "disponible": true,
+   "id": "winamax|735911322|2280696359",
+   "long_terme": false,
+   "match": "Ben Shelton - Arthur Rinderknech",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Arthur Rinderknech gagne le premier set et le match",
+   "premiere_vue": "2026-11-05T05:21:12+00:00",
+   "sport": "Tennis"
   }
  },
  "resultats": [
