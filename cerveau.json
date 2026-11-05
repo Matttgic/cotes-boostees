@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 939,
+   "abstention": 940,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T13:52:29+00:00",
+  "derniere_observation": "2026-11-05T14:51:41+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -38,11 +38,11 @@
    "long_terme": 71,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 684,
+   "reference_absente": 685,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1055,
+  "observes": 1056,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T13:52:29+00:00",
+ "derniere_observation": "2026-11-05T14:51:41+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -54649,6 +54649,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 8.3,
+      "horizon_heures": 2.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T14:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|736014174|2280969821",
@@ -54860,6 +54886,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 22.8,
+      "horizon_heures": 5.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T14:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|736065716|2281109283",
@@ -54960,6 +55012,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 11.8,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T14:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|736089868|2281176301",
@@ -55004,6 +55082,43 @@
    "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Sunderland - Dinamo Zagreb et AZ Alkmaar - Juventus",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|736197343|2281501983": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T03:15+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 12.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T14:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736197343|2281501983",
+   "match": "Golden State Warriors - Miami Heat",
+   "pari": "Stephen Curry termine meilleur marqueur du match et son équipe gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|736201531|2281514603": {
    "bookmaker": "Winamax",
