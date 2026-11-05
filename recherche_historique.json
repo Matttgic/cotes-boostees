@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-05T05:22:30+00:00",
+ "derniere_observation": "2026-11-05T06:21:39+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -7423,6 +7423,24 @@
      "date": "2026-11-05T05:21:48+00:00",
      "ev_modele_pct": null,
      "id": "winamax|735911322|2280696359",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735921618|2280723922": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735921618|2280723922",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|735924230|2280733234": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|735924230|2280733234",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -14854,6 +14872,24 @@
      "mise": null,
      "p_modele": 0.310605,
      "regle": null
+    },
+    "winamax|735921618|2280723922": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": -20.589,
+     "id": "winamax|735921618|2280723922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264702,
+     "regle": null
+    },
+    "winamax|735924230|2280733234": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|735924230|2280733234",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -22281,6 +22317,24 @@
      "mise": null,
      "p_modele": 0.310605,
      "regle": null
+    },
+    "winamax|735921618|2280723922": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": -20.589,
+     "id": "winamax|735921618|2280723922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264702,
+     "regle": null
+    },
+    "winamax|735924230|2280733234": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|735924230|2280733234",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -29707,6 +29761,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.310605,
+     "regle": null
+    },
+    "winamax|735921618|2280723922": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": -20.589,
+     "id": "winamax|735921618|2280723922",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.264702,
+     "regle": null
+    },
+    "winamax|735924230|2280733234": {
+     "date": "2026-11-05T06:20:54+00:00",
+     "ev_modele_pct": 29.507,
+     "id": "winamax|735924230|2280733234",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.398483,
      "regle": null
     }
    }
@@ -46800,6 +46872,38 @@
    "mise_max_supposee": null,
    "pari": "Arthur Rinderknech gagne le premier set et le match",
    "premiere_vue": "2026-11-05T05:21:12+00:00",
+   "sport": "Tennis"
+  },
+  "winamax|735921618|2280723922": {
+   "available_at": "2026-11-05T06:20:54+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.65,
+   "debut": "2026-11-05T13:30+00:00",
+   "disponible": true,
+   "id": "winamax|735921618|2280723922",
+   "long_terme": false,
+   "match": "Avangard Omsk - CSKA Moscou",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 5,5 buts lors du match",
+   "premiere_vue": "2026-11-05T06:20:16+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|735924230|2280733234": {
+   "available_at": "2026-11-05T06:20:54+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.85,
+   "debut": "2026-11-05T14:10+00:00",
+   "disponible": true,
+   "id": "winamax|735924230|2280733234",
+   "long_terme": false,
+   "match": "Nuno Borges - Ignacio Buse",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Nuno Borges mène après 4 jeux lors du match",
+   "premiere_vue": "2026-11-05T06:20:16+00:00",
    "sport": "Tennis"
   }
  },
