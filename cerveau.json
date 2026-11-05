@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 921,
+   "abstention": 923,
    "ecarter": 43,
    "hors_perimetre": 70,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T07:19:23+00:00",
+  "derniere_observation": "2026-11-05T07:57:39+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 70,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 666,
+   "reference_absente": 668,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1035,
+  "observes": 1037,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T07:19:23+00:00",
+ "derniere_observation": "2026-11-05T07:57:39+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -3964,6 +3964,43 @@
    "id": "netbet|12351103|7532654360",
    "match": "F.Thauvin décisif - Côme",
    "pari": "F.Thauvin décisif (v Côme) ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12368754|7535760168": {
+   "bookmaker": "NetBet",
+   "debut": "2026-11-05T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T07:57:39+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12368754|7535760168",
+   "match": "Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ?",
+   "pari": "Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ?",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -16606,6 +16643,43 @@
    "pari": "Austin Reaves marque 25 points ou + et son équipe gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197366473|740452525": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T11:10:00.000Z",
+   "historique": [
+    {
+     "cote": 3.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 15.3,
+      "horizon_heures": 3.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T07:57:39+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197366473|740452525",
+   "match": "Open de Paris 2026",
+   "pari": "A.Rinderknech (face à B.Shelton) et L.van Assche (face à L.Musetti) remportent chacun au moins 1 set dans leur match ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
