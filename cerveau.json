@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 943,
+   "abstention": 948,
    "ecarter": 43,
-   "hors_perimetre": 72,
+   "hors_perimetre": 71,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T15:50:49+00:00",
+  "derniere_observation": "2026-11-05T16:31:43+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,16 +33,15 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
-   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 71,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 688,
+   "reference_absente": 693,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1059,
+  "observes": 1063,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -50,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T15:50:49+00:00",
+ "derniere_observation": "2026-11-05T16:31:43+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2631,6 +2630,32 @@
      "reference_raison": null,
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 71.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "betsson|95368484.1|399212790.1",
@@ -2638,6 +2663,43 @@
    "pari": "Keito Nakamura Décisif",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "betsson|95373072.1|399225554.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-06T10:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.76,
+      "hausse_pct": 8.7,
+      "horizon_heures": 17.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95373072.1|399225554.1",
+   "match": "Shelton, Ben - Paul, Tommy",
+   "pari": "Ben Shelton gagne 2 sets 0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "genybet|12255022|4841413055": {
    "bookmaker": "Genybet",
@@ -16940,6 +17002,43 @@
    "pari": "A.Rinderknech (face à B.Shelton) et L.van Assche (face à L.Musetti) remportent chacun au moins 1 set dans leur match ?",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "unibet|197380362|740563329": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T03:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 10.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197380362|740563329",
+   "match": "GS Warriors - MIA Heat",
+   "pari": "NBA - S.Curry ou G.Antetokounmpo marque 35 points ou +",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -55369,6 +55468,80 @@
    "id": "winamax|736269742|2281713203",
    "match": "Ligue Europa",
    "pari": "Plus de 1,5 buts dans chacun des 9 matchs à 21h00",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736288117|2281768237": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.674,
+      "hausse_pct": 30.9,
+      "horizon_heures": 3.5,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736288117|2281768237",
+   "match": "Ligue Conférence",
+   "pari": "Plus de 1,5 buts dans chacun des 9 matchs à 21h00",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736303782|2281815866": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.968,
+      "hausse_pct": 14.3,
+      "horizon_heures": 1.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T16:31:43+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736303782|2281815866",
+   "match": "Europe",
+   "pari": "Lyon, Monaco et Marseille marquent chacun au moins 1 but (respectivement contre Real Sociedad, Nordsjaelland et Bayer Leverkusen)",
    "premiere_selection": null,
    "sport": "Football"
   }
