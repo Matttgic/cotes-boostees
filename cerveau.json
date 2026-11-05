@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 923,
+   "abstention": 928,
    "ecarter": 43,
-   "hors_perimetre": 70,
+   "hors_perimetre": 71,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T07:57:39+00:00",
+  "derniere_observation": "2026-11-05T08:56:53+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 70,
+   "long_terme": 71,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 668,
+   "reference_absente": 673,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1037,
+  "observes": 1043,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T07:57:39+00:00",
+ "derniere_observation": "2026-11-05T08:56:53+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -16607,6 +16607,117 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|197267624|739998811": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.95,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 13.5,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197267624|739998811",
+   "match": "Monaco - Nordsjaelland",
+   "pari": "Monaco gagne les 2 Mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197267687|739998991": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 8.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197267687|739998991",
+   "match": "Real Sociedad - Lyon",
+   "pari": "Lyon marque le 1er but",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197267734|739999137": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197267734|739999137",
+   "match": "Leverkusen - Marseille",
+   "pari": "Marseille gagne ou fait match nul",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|197292472|740108871": {
    "bookmaker": "Unibet",
    "debut": "2026-11-05T03:00:00.000Z",
@@ -16643,6 +16754,43 @@
    "pari": "Austin Reaves marque 25 points ou + et son équipe gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197366472|740452521": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.4,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 14.3,
+      "horizon_heures": 8.8,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197366472|740452521",
+   "match": "CB - Europa League/Europa Conference",
+   "pari": "Lyon, Marseille et Monaco marquent au moins un but chacun",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|197366473|740452525": {
    "bookmaker": "Unibet",
@@ -54226,6 +54374,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.85,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 7.5,
+      "horizon_heures": 4.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|735921618|2280723922",
@@ -54270,6 +54444,80 @@
    "pari": "Nuno Borges mène après 4 jeux lors du match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|735980205|2280882921": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T12:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.2,
+      "hausse_pct": 9.4,
+      "horizon_heures": 3.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|735980205|2280882921",
+   "match": "WTT Champions Francfort",
+   "pari": "Wang Chuqin et Sora Matsushima gagnent chacun leur match 3-0 (respectivement contre Wen Ruibo et Pucar)",
+   "premiere_selection": null,
+   "sport": "Tennis de table"
+  },
+  "winamax|736014174|2280969821": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T17:45+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 12.2,
+      "horizon_heures": 8.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T08:56:53+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736014174|2280969821",
+   "match": "Milan AC - Ferencvaros",
+   "pari": "Milan AC gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
