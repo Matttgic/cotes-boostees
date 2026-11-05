@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 948,
+   "abstention": 951,
    "ecarter": 43,
-   "hors_perimetre": 71,
+   "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T16:31:43+00:00",
+  "derniere_observation": "2026-11-05T17:30:51+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 71,
+   "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 693,
+   "reference_absente": 696,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1063,
+  "observes": 1067,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T16:31:43+00:00",
+ "derniere_observation": "2026-11-05T17:30:51+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -17039,6 +17039,154 @@
    "pari": "NBA - S.Curry ou G.Antetokounmpo marque 35 points ou +",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197387400|740603050": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.9,
+      "hausse_pct": 15.8,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T17:30:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197387400|740603050",
+   "match": "Leverkusen - Marseille",
+   "pari": "le trio P.Schick / A.Gouiri / I.Paixao marque plus de 1,5 buts (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197387530|740603839": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.95,
+      "hausse_pct": 17.9,
+      "horizon_heures": 0.2,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T17:30:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197387530|740603839",
+   "match": "Real Sociedad - Lyon",
+   "pari": "Au moins 2 des 4 joueurs marquent : M.Oyarzabal / O.Oskarsson / K.Nakamura / C.Tolisso (remboursé si non titulaires)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197387588|740604137": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.15,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 14.5,
+      "horizon_heures": 2.5,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T17:30:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197387588|740604137",
+   "match": "Monaco - Nordsjaelland",
+   "pari": "Monaco gagne les 2 Mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197387637|740604526": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-05T17:45:00.000Z",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 0.2,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T17:30:51+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197387637|740604526",
+   "match": "CB - Europa League/Europa Conference",
+   "pari": "Lyon, Marseille et Monaco marquent au moins un but chacun",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -54766,6 +54914,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-05T14:51:41+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 12.0,
+      "horizon_heures": 0.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T17:30:51+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
