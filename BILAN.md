@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 05/11 11h55 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 05/11 12h54 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -202,10 +202,10 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 778 en attente · cote moy
 | 05/11 18h45 · Real Sociedad - Lyon | Corentin Tolisso delivre au moins 1 PASSE DECISIVE | 4,5 | – | – | 20 € | ⏳ |
 | 05/11 15h10 · Nuno Borges - Ignacio Buse | Nuno Borges mène après 4 jeux lors du match | 3,25 | – | – | 20 € | ⏳ |
 | 05/11 14h30 · Avangard Omsk - CSKA Moscou | Plus de 5,5 buts lors du match | 3,0 | – | – | 20 € | ⏳ |
-| 05/11 13h20 · Lorenzo Musetti - Luca Van Assche | Luca Van Assche gagne le premier set | 2,75 | – | – | 20 € | ⏳ |
+| 05/11 13h40 · Lorenzo Musetti - Luca Van Assche | Luca Van Assche gagne le premier set | 2,75 | – | – | 20 € | ⏳ |
+| 05/11 13h10 · Open de Paris 2026 | A.Rinderknech (face à B.Shelton) et L.van Assche (face à L.Musetti) remportent chacun au moins 1 set dans leur match ? | 3,4 | – | – | 25 € | ⏳ |
 | 05/11 13h00 · WTT Champions Francfort | Wang Chuqin et Sora Matsushima gagnent chacun leur match 3-0 (respectivement contre Wen Ruibo et Pucar) | 3,5 | – | – | 20 € | ⏳ |
-| 05/11 12h10 · Open de Paris 2026 | A.Rinderknech (face à B.Shelton) et L.van Assche (face à L.Musetti) remportent chacun au moins 1 set dans leur match ? | 3,4 | – | – | 25 € | ⏳ |
-| 05/11 12h10 · Ben Shelton - Arthur Rinderknech | Arthur Rinderknech gagne le premier set et le match | 4,25 | – | – | 20 € | ⏳ |
+| 05/11 13h00 · Ben Shelton - Arthur Rinderknech | Arthur Rinderknech gagne le premier set et le match | 4,25 | – | – | 20 € | ⏳ |
 | 05/11 04h10 · NBA | Plus de 229,5 points lors de chacun des matchs suivants : Sacramento Kings - Los Angeles Lakers et Los Angeles Clippers - Miami Heat | 2,7 | – | – | 20 € | ⏳ |
 | 05/11 04h10 · NHL | Plus de 5,5 buts lors de chacun des matchs suivants : Seattle Kraken - Calgary Flames et Los Angeles Kings - San Jose Sharks (hors prol. et TAB) | 2,75 | – | – | 20 € | ⏳ |
 | 05/11 04h00 · SAC Kings - LA Lakers | Austin Reaves marque 25 points ou + et son équipe gagne | 2,4 | – | – | 25 € | ⏳ |
