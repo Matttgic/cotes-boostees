@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 935,
+   "abstention": 939,
    "ecarter": 43,
-   "hors_perimetre": 71,
+   "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T12:53:23+00:00",
+  "derniere_observation": "2026-11-05T13:52:29+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -33,15 +33,16 @@
    "cote_hors_bornes": 1,
    "ev_insuffisante": 42,
    "ev_positive": 1,
+   "hors_fenetre": 1,
    "ligne_absente": 44,
    "long_terme": 71,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 680,
+   "reference_absente": 684,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1050,
+  "observes": 1055,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +50,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T12:53:23+00:00",
+ "derniere_observation": "2026-11-05T13:52:29+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2524,6 +2525,117 @@
    "id": "betsson|95260282.1|398893918.1",
    "match": "Crystal Palace - Hoffenheim",
    "pari": "Jean-Philippe Mateta buteur!",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95368186.1|399211488.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-06T16:30+00:00",
+   "historique": [
+    {
+     "cote": 7.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 5.58,
+      "hausse_pct": 34.4,
+      "horizon_heures": 26.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T13:52:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95368186.1|399211488.1",
+   "match": "Lokomotiv Moscou - FK Rubin Kazan",
+   "pari": "Lokomotiv Moscou gagne 1-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95368314.1|399211877.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-07T15:00+00:00",
+   "historique": [
+    {
+     "cote": 2.05,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.49,
+      "hausse_pct": 37.6,
+      "horizon_heures": 49.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T13:52:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95368314.1|399211877.1",
+   "match": "Arsenal - Hull City",
+   "pari": "Noni Madueke Décisif",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "betsson|95368484.1|399212790.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-08T16:15+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 1.97,
+      "hausse_pct": 16.8,
+      "horizon_heures": 74.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T13:52:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "hors_fenetre",
+     "raisons": [
+      "Événement hors fenêtre d'évaluation de 72 heures"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95368484.1|399212790.1",
+   "match": "Brest - Lyon",
+   "pari": "Keito Nakamura Décisif",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -54855,6 +54967,80 @@
    "pari": "Arthur Fils gagne 2-0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|736162147|2281396083": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T20:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.493,
+      "hausse_pct": 10.3,
+      "horizon_heures": 6.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T13:52:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736162147|2281396083",
+   "match": "Ligue Europa",
+   "pari": "Plus de 2,5 buts lors de chacun des matchs suivants : Sunderland - Dinamo Zagreb et AZ Alkmaar - Juventus",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736201531|2281514603": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T02:15+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 12.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T13:52:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736201531|2281514603",
+   "match": "Phoenix Suns - Orlando Magic",
+   "pari": "Orlando Magic gagne et plus de 220,5 points dans le match",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",
