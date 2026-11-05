@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 951,
+   "abstention": 954,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T19:29:05+00:00",
+  "derniere_observation": "2026-11-05T20:28:13+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 696,
+   "reference_absente": 699,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1067,
+  "observes": 1070,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T19:29:05+00:00",
+ "derniere_observation": "2026-11-05T20:28:13+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -55770,6 +55770,117 @@
    "pari": "Lyon, Monaco et Marseille marquent chacun au moins 1 but (respectivement contre Real Sociedad, Nordsjaelland et Bayer Leverkusen)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|736474246|2282333067": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T00:10+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.6,
+      "hausse_pct": 18.1,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T20:28:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736474246|2282333067",
+   "match": "Montreal Canadiens - Utah Mammoth",
+   "pari": "C. Caufield buteur et Montreal Canadiens gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|736476319|2282340384": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T02:40+00:00",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.65,
+      "hausse_pct": 9.4,
+      "horizon_heures": 6.2,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T20:28:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736476319|2282340384",
+   "match": "Colorado Avalanche - Nashville Predators",
+   "pari": "Colorado Avalanche gagne par au moins 3 buts d'écart",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|736482378|2282361380": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T00:10+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.45,
+      "hausse_pct": 12.2,
+      "horizon_heures": 3.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T20:28:13+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736482378|2282361380",
+   "match": "New York Rangers - Philadelphia Flyers",
+   "pari": "M. Zibanejad, A. Fox et A. Lafrenière marquent chacun au moins 1 point (avec Garantie Golden Goal)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
