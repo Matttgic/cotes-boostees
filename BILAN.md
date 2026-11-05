@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 05/11 18h30 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 05/11 19h29 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -206,8 +206,8 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 795 en attente · cote moy
 | 05/11 21h00 · Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ? | Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ? | 2,65 | – | – | 10 € | ⏳ |
 | 05/11 19h00 · Arthur Fils - Taylor Fritz | Arthur Fils gagne 2-0 | 2,75 | – | – | 20 € | ⏳ |
 | 05/11 19h00 · Matteo Berrettini - Carlos Alcaraz | Carlos Alcaraz mène après 4 jeux lors du match | 2,5 | – | – | 20 € | ⏳ |
-| 05/11 18h45 · Real Sociedad - Lyon | Au moins 2 des 4 joueurs marquent : M.Oyarzabal / O.Oskarsson / K.Nakamura / C.Tolisso (remboursé si non titulaires) | 2,3 | – | – | 25 € | ⏳ |
 | 05/11 18h45 · CB - Europa League/Europa Conference | Lyon, Marseille et Monaco marquent au moins un but chacun | 2,3 | – | – | 25 € | ⏳ |
+| 05/11 18h45 · Real Sociedad - Lyon | Au moins 2 des 4 joueurs marquent : M.Oyarzabal / O.Oskarsson / K.Nakamura / C.Tolisso (remboursé si non titulaires) | 2,3 | – | – | 25 € | ⏳ |
 | 05/11 18h45 · CB - Europa League/Europa Conference | Lyon, Marseille et Monaco marquent au moins un but chacun | 2,4 | – | – | 25 € | ⏳ |
 | 05/11 18h45 · Real Sociedad - Lyon | Lyon marque le 1er but | 2,8 | – | – | 25 € | ⏳ |
 | 05/11 18h45 · Europe | Lyon, Monaco et Marseille marquent chacun au moins 1 but (respectivement contre Real Sociedad, Nordsjaelland et Bayer Leverkusen) | 2,25 | – | – | 20 € | ⏳ |
