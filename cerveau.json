@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 931,
+   "abstention": 935,
    "ecarter": 43,
    "hors_perimetre": 71,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-05T09:55:57+00:00",
+  "derniere_observation": "2026-11-05T10:55:04+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 71,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 676,
+   "reference_absente": 680,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1046,
+  "observes": 1050,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-05T09:55:57+00:00",
+ "derniere_observation": "2026-11-05T10:55:04+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -54622,6 +54622,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.1,
+      "hausse_pct": 11.9,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T10:55:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|736046244|2281056468",
@@ -54629,6 +54655,154 @@
    "pari": "Vangelis Pavlidis marque au moins un but en 1ère mi-temps",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|736053811|2281077775": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T17:45+00:00",
+   "historique": [
+    {
+     "cote": 4.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.7,
+      "hausse_pct": 14.9,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T10:55:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736053811|2281077775",
+   "match": "Trabzonspor - Fribourg",
+   "pari": "Mohamed Salah premier buteur du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736065716|2281109283": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 9.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T10:55:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736065716|2281109283",
+   "match": "Monaco - Nordsjaelland",
+   "pari": "Monaco gagne les deux mi-temps",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736072558|2281127633": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T18:00+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 7.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T10:55:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736072558|2281127633",
+   "match": "Matteo Berrettini - Carlos Alcaraz",
+   "pari": "Carlos Alcaraz mène après 4 jeux lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|736089868|2281176301": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-05T19:30+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 7.8,
+      "horizon_heures": 8.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-05T10:55:04+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736089868|2281176301",
+   "match": "Arthur Fils - Taylor Fritz",
+   "pari": "Arthur Fils gagne 2-0",
+   "premiere_selection": null,
+   "sport": "Tennis"
   }
  },
  "modele": "observation-v1",
