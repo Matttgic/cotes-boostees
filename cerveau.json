@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 986,
+   "abstention": 987,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-06T18:08:25+00:00",
+  "derniere_observation": "2026-11-06T19:07:32+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 731,
+   "reference_absente": 732,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1102,
+  "observes": 1103,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-06T18:08:25+00:00",
+ "derniere_observation": "2026-11-06T19:07:32+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2752,6 +2752,43 @@
    "pari": "Ben Shelton gagne 2 sets 0",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "betsson|95423196.1|399408786.1": {
+   "bookmaker": "Betsson",
+   "debut": "2026-11-07T12:30+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.3,
+      "hausse_pct": 13.6,
+      "horizon_heures": 17.4,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T19:07:32+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "betsson|95423196.1|399408786.1",
+   "match": "Leeds - Tottenham",
+   "pari": "Tottenham mène à la mi-temps et gagne le match",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "genybet|12255022|4841413055": {
    "bookmaker": "Genybet",
@@ -7952,6 +7989,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-06T12:13:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 0.6,
+      "long_terme": false,
+      "mise_max": 15.62,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T19:07:32+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
