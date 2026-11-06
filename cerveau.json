@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 974,
+   "abstention": 978,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-06T11:21:54+00:00",
+  "derniere_observation": "2026-11-06T12:13:34+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 719,
+   "reference_absente": 723,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1090,
+  "observes": 1094,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-06T11:21:54+00:00",
+ "derniere_observation": "2026-11-06T12:13:34+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -2711,6 +2711,32 @@
       "type_boost": "cote boostée"
      },
      "horodatage": "2026-11-06T11:21:54+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    },
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 0.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T12:13:34+00:00",
      "mise_fictive": null,
      "motif_code": "reference_absente",
      "raisons": [
@@ -7676,6 +7702,154 @@
    "id": "olybet|31456649|7452029825",
    "match": "Lens - Côme",
    "pari": "Lens to draw or win & over 2.5 goals in the match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31480609|7463800437": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-06T18:00+00:00",
+   "historique": [
+    {
+     "cote": 3.2,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 11.36,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T12:13:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31480609|7463800437",
+   "match": "Ligue 2",
+   "pari": "Plus de 1.5 buts dans chacun des 6 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "olybet|31480622|7463807520": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-06T13:15+00:00",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 1.0,
+      "long_terme": false,
+      "mise_max": 16.66,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T12:13:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31480622|7463807520",
+   "match": "L. Van Assche - R. Hijikata",
+   "pari": "Van Assche gagne 2 sets 0 (06.11.2026",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31480630|7463838055": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-06T17:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 4.8,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T12:13:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31480630|7463838055",
+   "match": "T. Fritz - C. Alcaraz",
+   "pari": "Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "olybet|31480678|7463823699": {
+   "bookmaker": "OlyBet",
+   "debut": "2026-11-06T18:45+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 6.5,
+      "long_terme": false,
+      "mise_max": 11.9,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T12:13:34+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "olybet|31480678|7463823699",
+   "match": "Toulouse - Strasbourg",
+   "pari": "Toulouse gagne & plus de 2.5 buts dans le match",
    "premiere_selection": null,
    "sport": "Football"
   },
