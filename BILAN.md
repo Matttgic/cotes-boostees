@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 06/11 13h13 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 06/11 14h12 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -98,12 +98,12 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 822 en attente · cote moy
 |---|---|---|---|---|---|
 | 1.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 1.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
-| 10 € | 7 / 46 | 70 € | +12,50 € | +17,9 % | 43 % |
+| 10 € | 7 / 45 | 70 € | +12,50 € | +17,9 % | 43 % |
 | 11.11 € | 1 / 3 | 11 € | -11,11 € | -100,0 % | 0 % |
 | 11.36 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 11.62 € | 1 / 1 | 12 € | +29,05 € | +250,0 % | 100 % |
 | 11.9 € | 0 / 1 | 0 € | +0,00 € | – | – |
-| 12.5 € | 0 / 2 | 0 € | +0,00 € | – | – |
+| 12.5 € | 0 / 3 | 0 € | +0,00 € | – | – |
 | 13.15 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 13.51 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 13.88 € | 1 / 3 | 14 € | +24,98 € | +180,0 % | 100 % |
@@ -200,9 +200,9 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 822 en attente · cote moy
 | 06/11 19h45 · Toulouse - Strasbourg | Toulouse gagne & plus de 2.5 buts dans le match | 3,1 | – | – | 11.9 € | ⏳ |
 | 06/11 19h10 · Pro D2 | Chaque équipe à domicile gagne (7 matchs) | 3,75 | – | – | 20 € | ⏳ |
 | 06/11 19h00 · T.Fritz - C.Alcaraz | C.Alcaraz gagne et plus de 22,5 jeux dans le match ? | 2,65 | – | – | 25 € | ⏳ |
-| 06/11 19h00 · Ligue 2 | Plus de 1.5 buts dans chacun des 6 matchs du jour | 3,2 | – | – | 11.36 € | ⏳ |
 | 06/11 19h00 · ATP Paris | C. Alcaraz et C. Ruud gagnent chacun leur match 2-0 (respectivement contre T. Fritz et N. Borges) | 4,35 | – | – | 20 € | ⏳ |
-| 06/11 18h00 · T. Fritz - C. Alcaraz | Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2 | 3,5 | – | – | 10 € | ⏳ |
+| 06/11 19h00 · Ligue 2 | Plus de 1.5 buts dans chacun des 6 matchs du jour | 3,2 | – | – | 11.36 € | ⏳ |
+| 06/11 18h00 · T. Fritz - C. Alcaraz | Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2 | 3,5 | – | – | 12.5 € | ⏳ |
 | 06/11 17h30 · Lokomotiv Moscou - FK Rubin Kazan | Lokomotiv Moscou gagne 1-0 | 7,5 | – | – | 20 € | ⏳ |
 | 06/11 15h10 · L.van Assche - R.Hijikata | L.Van Assche remporte le 1er set 6-3 ou 6-4 ? | 2,95 | – | – | 25 € | ⏳ |
 | 06/11 15h10 · Luca Van Assche - Rinky Hijikata | Luca Van Assche gagne et plus de 23,5 jeux dans le match | 3,4 | – | – | 20 € | ⏳ |
