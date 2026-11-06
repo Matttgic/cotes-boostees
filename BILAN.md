@@ -25,7 +25,7 @@ Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne 
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 06/11 18h09 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 06/11 19h08 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -207,11 +207,11 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 830 en attente · cote moy
 | 06/11 20h00 · Ligue 2 BKT | Plus de 1,5 buts dans chacun des 6 matchs du jour | 4,0 | – | – | 25 € | ⏳ |
 | 06/11 20h00 · Ligue 2 BKT® | Plus de 1,5 buts dans chacun des 6 matchs du jour | 4,0 | – | – | 20 € | ⏳ |
 | 06/11 20h00 · Ligue 2 | Plus de 1.5 buts dans chacun des 6 matchs du jour | 3,2 | – | – | 11.36 € | ⏳ |
+| 06/11 19h30 · T.Fritz - C.Alcaraz | C.Alcaraz gagne et plus de 22,5 jeux dans le match ? | 2,65 | – | – | 25 € | ⏳ |
 | 06/11 19h10 · Pro D2 | Chaque équipe à domicile gagne (7 matchs) | 3,75 | – | – | 20 € | ⏳ |
-| 06/11 19h00 · T.Fritz - C.Alcaraz | C.Alcaraz gagne et plus de 22,5 jeux dans le match ? | 2,65 | – | – | 25 € | ⏳ |
-| 06/11 19h00 · Taylor Fritz / Carlos Alcaraz : Plus de 22,5 jeux (mise max 10 €) | Taylor Fritz / Carlos Alcaraz : Plus de 22,5 jeux (mise max 10 €) | 1,9 | – | – | 10 € | ⏳ |
 | 06/11 19h00 · ATP Paris | C. Alcaraz et C. Ruud gagnent chacun leur match 2-0 (respectivement contre T. Fritz et N. Borges) | 4,35 | – | – | 20 € | ⏳ |
 | 06/11 19h00 · T. Fritz - C. Alcaraz | Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2 | 3,5 | – | – | 11.11 € | ⏳ |
+| 06/11 19h00 · Taylor Fritz / Carlos Alcaraz : Plus de 22,5 jeux (mise max 10 €) | Taylor Fritz / Carlos Alcaraz : Plus de 22,5 jeux (mise max 10 €) | 1,9 | – | – | 10 € | ⏳ |
 | 06/11 17h30 · Spartak Moscou - Dynamo Moscou | A. Belyayev buteur et Spartak Moscou gagne (hors prol. et TAB) | 4,0 | – | – | 20 € | ⏳ |
 | 06/11 17h30 · Lokomotiv Moscou - FK Rubin Kazan | Lokomotiv Moscou gagne 1-0 | 7,5 | – | – | 20 € | ⏳ |
 | 06/11 15h40 · L.van Assche - R.Hijikata | L.Van Assche remporte le 1er set 6-3 ou 6-4 ? | 2,95 | – | – | 25 € | ⏳ |
