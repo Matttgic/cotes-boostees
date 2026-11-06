@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-06T22:30:37+00:00",
+ "derniere_observation": "2026-11-06T23:29:33+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -8035,6 +8035,24 @@
      "date": "2026-11-06T16:10:55+00:00",
      "ev_modele_pct": null,
      "id": "winamax|737056547|2283967108",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|737333374|2284768846": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|737333374|2284768846",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|737334758|2284773030": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|737334758|2284773030",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -16078,6 +16096,24 @@
      "mise": null,
      "p_modele": 0.338734,
      "regle": null
+    },
+    "winamax|737333374|2284768846": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.505,
+     "id": "winamax|737333374|2284768846",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178878,
+     "regle": null
+    },
+    "winamax|737334758|2284773030": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.165,
+     "id": "winamax|737334758|2284773030",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.248724,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -24117,6 +24153,24 @@
      "mise": null,
      "p_modele": 0.338734,
      "regle": null
+    },
+    "winamax|737333374|2284768846": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.505,
+     "id": "winamax|737333374|2284768846",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178878,
+     "regle": null
+    },
+    "winamax|737334758|2284773030": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.165,
+     "id": "winamax|737334758|2284773030",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.248724,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -32155,6 +32209,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.338734,
+     "regle": null
+    },
+    "winamax|737333374|2284768846": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.505,
+     "id": "winamax|737333374|2284768846",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.178878,
+     "regle": null
+    },
+    "winamax|737334758|2284773030": {
+     "date": "2026-11-06T23:28:51+00:00",
+     "ev_modele_pct": -19.165,
+     "id": "winamax|737334758|2284773030",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.248724,
      "regle": null
     }
    }
@@ -50369,6 +50441,38 @@
    "pari": "Toulouse marque dans les deux mi-temps",
    "premiere_vue": "2026-11-06T16:10:10+00:00",
    "sport": "Football"
+  },
+  "winamax|737333374|2284768846": {
+   "available_at": "2026-11-06T23:28:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 4.5,
+   "cote_origine": 3.772,
+   "debut": "2026-11-07T01:10+00:00",
+   "disponible": true,
+   "id": "winamax|737333374|2284768846",
+   "long_terme": false,
+   "match": "NHL",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Calgary Flames et Minnesota Wild gagnent chacun par au moins 2 buts d'écart (respectivement contre Anaheim Ducks et San Jose Sharks)",
+   "premiere_vue": "2026-11-06T23:28:27+00:00",
+   "sport": "Hockey sur glace"
+  },
+  "winamax|737334758|2284773030": {
+   "available_at": "2026-11-06T23:28:51+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.25,
+   "cote_origine": 2.8,
+   "debut": "2026-11-07T00:10+00:00",
+   "disponible": true,
+   "id": "winamax|737334758|2284773030",
+   "long_terme": false,
+   "match": "Buffalo Sabres - Columbus Blue Jackets",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "T. Thompson buteur et Buffalo Sabres gagne (hors prol. et TAB)",
+   "premiere_vue": "2026-11-06T23:28:27+00:00",
+   "sport": "Hockey sur glace"
   }
  },
  "resultats": [

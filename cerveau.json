@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 987,
+   "abstention": 989,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-06T22:29:20+00:00",
+  "derniere_observation": "2026-11-06T23:28:27+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 732,
+   "reference_absente": 734,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1103,
+  "observes": 1105,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-06T22:29:20+00:00",
+ "derniere_observation": "2026-11-06T23:28:27+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -57596,6 +57596,80 @@
    "pari": "Toulouse marque dans les deux mi-temps",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|737333374|2284768846": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T01:10+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.772,
+      "hausse_pct": 19.3,
+      "horizon_heures": 1.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T23:28:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737333374|2284768846",
+   "match": "NHL",
+   "pari": "Calgary Flames et Minnesota Wild gagnent chacun par au moins 2 buts d'écart (respectivement contre Anaheim Ducks et San Jose Sharks)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
+  },
+  "winamax|737334758|2284773030": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T00:10+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.8,
+      "hausse_pct": 16.1,
+      "horizon_heures": 0.7,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T23:28:27+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737334758|2284773030",
+   "match": "Buffalo Sabres - Columbus Blue Jackets",
+   "pari": "T. Thompson buteur et Buffalo Sabres gagne (hors prol. et TAB)",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",

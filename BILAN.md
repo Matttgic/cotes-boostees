@@ -2,43 +2,43 @@
 
 ## Protocole gelé (gel-1) — seuls ces résultats comptent
 
-Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées uniquement sur les boosts découverts après (821 pour l'instant).
+Règles fixées le 11/10 22h00 avant de connaître leurs résultats ; jugées uniquement sur les boosts découverts après (823 pour l'instant).
 
 | Stratégie suivie | Paris réglés | Misé | Gain net | ROI | Valeur moyenne jouée |
 |---|---|---|---|---|---|
-| **A — témoin** | 166 / 821 | 3495 € | **-241,25 €** | **-6,9 %** | -16,5 % (65 paris) |
+| **A — témoin** | 166 / 823 | 3495 € | **-241,25 €** | **-6,9 %** | -16,5 % (65 paris) |
 | **B — valeur ≥ +5 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | +5,5 % (1 paris) |
 | **B0 — valeur ≥ 0 %** | 1 / 1 | 20 € | **-20,00 €** | **-100,0 %** | +5,5 % (1 paris) |
-| **D — hypothèse (cotes 1,60–3,50)** | 120 / 612 | 1200 € | **-103,50 €** | **-8,6 %** | -16,2 % (45 paris) |
+| **D — hypothèse (cotes 1,60–3,50)** | 120 / 613 | 1200 € | **-103,50 €** | **-8,6 %** | -16,2 % (45 paris) |
 
 « Valeur moyenne jouée » : écart moyen entre la cote prise et la cote juste (Pinnacle / Betfair), sur les paris dont la valeur était calculable avant le match. Indicateur peu bruité, lisible en quelques jours ; le ROI, lui, demande des centaines de paris.
 
 ## Hypothèse I — essai prospectif
 
-Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (942 pour l'instant).
+Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis (944 pour l'instant).
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI |
 |---|---|---|---|---|
-| **A — tout miser** | 144 / 942 | 2937 € | +75,67 € | +2,6 % |
-| **I — cotes modérées, un boost/match** | 93 / 570 | 930 € | +30,00 € | +3,2 % |
+| **A — tout miser** | 144 / 944 | 2937 € | +75,67 € | +2,6 % |
+| **I — cotes modérées, un boost/match** | 93 / 571 | 930 € | +30,00 € | +3,2 % |
 Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 06/11 23h29 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 07/11 00h28 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
-| **A — tout miser** | 293 / 1124 | 6002 € | **-235,78 €** | **-3,9 %** | -706,50 € |
+| **A — tout miser** | 293 / 1126 | 6002 € | **-235,78 €** | **-3,9 %** | -706,50 € |
 | **B-exacte (EV ≥ 5 %)** | 2 / 2 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B-approx (EV ≥ 5 %)** | 5 / 7 | 100 € | **+125,00 €** | **+125,0 %** | -20,00 € |
-| **C — 10 € maximum** | 293 / 1124 | 2925 € | **-96,95 €** | **-3,3 %** | -337,50 € |
-| **D — cote 1,60–3,50** | 209 / 811 | 2090 € | **-4,50 €** | **-0,2 %** | -238,00 € |
-| **E — dans les 48 h** | 291 / 1032 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
+| **C — 10 € maximum** | 293 / 1126 | 2925 € | **-96,95 €** | **-3,3 %** | -337,50 € |
+| **D — cote 1,60–3,50** | 209 / 812 | 2090 € | **-4,50 €** | **-0,2 %** | -238,00 € |
+| **E — dans les 48 h** | 291 / 1034 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 1 / 1 | 5 € | **-4,96 €** | **-100,0 %** | -4,96 € |
-| **H — un boost/match** | 261 / 911 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
-| **I — cotes modérées, un boost/match** | 182 / 660 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
+| **H — un boost/match** | 261 / 913 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
+| **I — cotes modérées, un boost/match** | 182 / 661 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
 | **B — valeur ≥ +5 %** | 2 / 2 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B0 — valeur ≥ 0 %** | 3 / 3 | 50 € | **-50,00 €** | **-100,0 %** | -50,00 € |
 | **J — filtre quotidien choisi avec les résultats passés** | 44 / 54 | 424 € | **+19,39 €** | **+4,6 %** | -122,83 € |
@@ -56,7 +56,7 @@ J/K/L/M utilisent un replay chronologique après 30 règlements d'apprentissage,
 - **B-exacte** : seulement les boosts dont la cote juste Pinnacle (marge retirée) donne au moins +5 % d'EV, calcul exact (un seul pari, ou des matchs différents).
 - **B-approx** : idem, mais pour les combinés sur un même match (produit des probabilités, lien entre les conditions ignoré).
 
-A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moyenne 3,34 · pire série perdante 22
+A en détail : 93 gagnés, 196 perdus, 4 remboursés, 833 en attente · cote moyenne 3,34 · pire série perdante 22
 
 > Simulation uniquement. Les paris sportifs comportent un risque de perte. Joueurs Info Service : 09 74 75 13 13.
 
@@ -72,7 +72,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | EV 5 à 10 % (exacte) | 1 / 1 | 20 € | -20,00 € | -100,0 % | 0 % |
 | EV < 0 (approx) | 40 / 45 | 802 € | -386,70 € | -48,2 % | 20 % |
 | EV < 0 (exacte) | 45 / 46 | 895 € | +237,00 € | +26,5 % | 41 % |
-| non évaluable | 196 / 1019 | 4070 € | -212,33 € | -5,2 % | 32 % |
+| non évaluable | 196 / 1021 | 4070 € | -212,33 € | -5,2 % | 32 % |
 
 ### A par bookmaker
 
@@ -83,14 +83,14 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | NetBet | 3 / 18 | 30 € | -2,50 € | -8,3 % | 33 % |
 | OlyBet | 7 / 80 | 82 € | +106,47 € | +129,8 % | 71 % |
 | Unibet | 52 / 237 | 1300 € | +31,25 € | +2,4 % | 39 % |
-| Winamax | 221 / 718 | 4420 € | -387,00 € | -8,8 % | 29 % |
+| Winamax | 221 / 720 | 4420 € | -387,00 € | -8,8 % | 29 % |
 
 ### A par horizon (paris de saison réglés en fin de saison)
 
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | long terme (saison) | 0 / 74 | 0 € | +0,00 € | – | – |
-| match | 293 / 1050 | 6002 € | -235,78 € | -3,9 % | 32 % |
+| match | 293 / 1052 | 6002 € | -235,78 € | -3,9 % | 32 % |
 
 ### A par mise max
 
@@ -115,7 +115,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | 2.5 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.63 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.77 € | 0 / 2 | 0 € | +0,00 € | – | – |
-| 20 € | 228 / 768 | 4560 € | -361,00 € | -7,9 % | 29 % |
+| 20 € | 228 / 770 | 4560 € | -361,00 € | -7,9 % | 29 % |
 | 20.83 € | 1 / 1 | 21 € | +25,00 € | +120,0 % | 100 % |
 | 22.72 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 23.8 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -149,7 +149,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 |---|---|---|---|---|---|
 | 10 et + | 3 / 13 | 60 € | -60,00 € | -100,0 % | 0 % |
 | 2 – 3 | 124 / 486 | 2650 € | +191,98 € | +7,2 % | 43 % |
-| 3 – 5 | 151 / 530 | 3012 € | -387,76 € | -12,9 % | 25 % |
+| 3 – 5 | 151 / 532 | 3012 € | -387,76 € | -12,9 % | 25 % |
 | 5 – 10 | 13 / 67 | 260 € | +40,00 € | +15,4 % | 23 % |
 | < 2 | 2 / 28 | 20 € | -20,00 € | -100,0 % | 0 % |
 
@@ -165,7 +165,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | Football Américain | 6 / 20 | 120 € | -120,00 € | -100,0 % | 0 % |
 | Formule 1 | 3 / 7 | 65 € | -65,00 € | -100,0 % | 0 % |
 | Handball | 3 / 5 | 60 € | -14,00 € | -23,3 % | 33 % |
-| Hockey sur glace | 32 / 86 | 640 € | -233,00 € | -36,4 % | 22 % |
+| Hockey sur glace | 32 / 88 | 640 € | -233,00 € | -36,4 % | 22 % |
 | Judo | 2 / 2 | 40 € | -40,00 € | -100,0 % | 0 % |
 | MMA | 1 / 3 | 20 € | -20,00 € | -100,0 % | 0 % |
 | Rugby | 6 / 15 | 150 € | -87,50 € | -58,3 % | 17 % |
@@ -181,7 +181,7 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | | Paris réglés | Misé | Gain net | ROI | Réussite |
 |---|---|---|---|---|---|
 | 2026-10 | 293 / 886 | 6002 € | -235,78 € | -3,9 % | 32 % |
-| 2026-11 | 0 / 238 | 0 € | +0,00 € | – | – |
+| 2026-11 | 0 / 240 | 0 € | +0,00 € | – | – |
 
 ### Derniers paris
 
@@ -193,8 +193,10 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | 07/11 13h30 · Leeds - Tottenham | Tottenham mène à la mi-temps et gagne le match | 3,75 | – | – | 20 € | ⏳ |
 | 07/11 04h10 · Sacramento Kings - San Antonio Spurs | Victor Wembanyama marque au moins 25 points, prend au moins 10 rebonds et réalise au moins 3 contres | 2,75 | – | – | 20 € | ⏳ |
 | 07/11 04h00 · SAC Kings - SA Spurs | NBA - V.Wembanyama marque 32 pts ou + et son équipe gagne | 2,65 | – | – | 25 € | ⏳ |
+| 07/11 02h10 · NHL | Calgary Flames et Minnesota Wild gagnent chacun par au moins 2 buts d'écart (respectivement contre Anaheim Ducks et San Jose Sharks) | 4,5 | – | – | 20 € | ⏳ |
 | 07/11 02h10 · Memphis Grizzlies - Oklahoma City Thunder | Shai Gilgeous-Alexander marque au moins 30 points et distribue au moins 7 passes décisives | 2,75 | – | – | 20 € | ⏳ |
 | 07/11 01h40 · NBA | Philadelphia 76ers et Los Angeles Lakers gagnent chacun par au moins 3 points d'écart (respectivement contre Cleveland Cavaliers et Portland Trail Blazers) | 3,5 | – | – | 20 € | ⏳ |
+| 07/11 01h10 · Buffalo Sabres - Columbus Blue Jackets | T. Thompson buteur et Buffalo Sabres gagne (hors prol. et TAB) | 3,25 | – | – | 20 € | ⏳ |
 | 06/11 21h10 · Irlande - Argentine | Irlande gagne et Mack Hansen marque un essai ou + | 3,0 | – | – | 25 € | ⏳ |
 | 06/11 21h00 · Everton - Coventry | Everton gagne et les deux équipes marquent | 3,25 | – | – | 20 € | ⏳ |
 | 06/11 21h00 · FC Séville - Alaves | FC Séville gagne le match 1-0, 2-0 ou 3-0 | 3,1 | – | – | 20 € | ⏳ |
@@ -225,7 +227,5 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 831 en attente · cote moy
 | 06/11 07h00 · Zeynep Sonmez - Claire Liu | Au moins un Tie-break lors du match | 2,85 | – | – | 20 € | ⏳ |
 | 06/11 04h15 · Golden State Warriors - Miami Heat | Stephen Curry termine meilleur marqueur du match et son équipe gagne | 3,0 | – | – | 20 € | ⏳ |
 | 06/11 04h00 · GS Warriors - MIA Heat | NBA - S.Curry ou G.Antetokounmpo marque 35 points ou + | 2,4 | – | – | 25 € | ⏳ |
-| 06/11 03h40 · Colorado Avalanche - Nashville Predators | Colorado Avalanche gagne par au moins 3 buts d'écart | 2,9 | – | – | 20 € | ⏳ |
-| 06/11 03h15 · Phoenix Suns - Orlando Magic | Orlando Magic gagne et plus de 220,5 points dans le match | 3,25 | – | – | 20 € | ⏳ |
 
 ≈ : calcul approché (conditions liées sur un même match).
