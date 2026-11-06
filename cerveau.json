@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 960,
+   "abstention": 974,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-06T07:25:22+00:00",
+  "derniere_observation": "2026-11-06T08:24:29+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 705,
+   "reference_absente": 719,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1076,
+  "observes": 1090,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-06T07:25:22+00:00",
+ "derniere_observation": "2026-11-06T08:24:29+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -17003,6 +17003,80 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|197370359|740478367": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T19:45:00.000Z",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.05,
+      "hausse_pct": 14.8,
+      "horizon_heures": 11.3,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197370359|740478367",
+   "match": "Toulouse - Strasbourg",
+   "pari": "Casper Tengstedt buteur et les deux équipes marquent (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197370494|740479413": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T19:00:00.000Z",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.45,
+      "hausse_pct": 15.9,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197370494|740479413",
+   "match": "Ligue 2 BKT",
+   "pari": "Plus de 1,5 buts dans chacun des 6 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
   "unibet|197380362|740563329": {
    "bookmaker": "Unibet",
    "debut": "2026-11-06T03:00:00.000Z",
@@ -17187,6 +17261,117 @@
    "pari": "Lyon, Marseille et Monaco marquent au moins un but chacun",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|197419612|740835493": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T14:10:00.000Z",
+   "historique": [
+    {
+     "cote": 2.95,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.55,
+      "hausse_pct": 15.7,
+      "horizon_heures": 5.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197419612|740835493",
+   "match": "L.van Assche - R.Hijikata",
+   "pari": "L.Van Assche remporte le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|197420413|740838870": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T18:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.65,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.3,
+      "hausse_pct": 15.2,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197420413|740838870",
+   "match": "T.Fritz - C.Alcaraz",
+   "pari": "C.Alcaraz gagne et plus de 22,5 jeux dans le match ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "unibet|197421775|740852701": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-06T20:10:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 11.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197421775|740852701",
+   "match": "Irlande - Argentine",
+   "pari": "Irlande gagne et Mack Hansen marque un essai ou +",
+   "premiere_selection": null,
+   "sport": "Rugby"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -56155,6 +56340,339 @@
    "pari": "Luca Van Assche gagne et plus de 23,5 jeux dans le match",
    "premiere_selection": null,
    "sport": "Tennis"
+  },
+  "winamax|736752763|2283132578": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T18:00+00:00",
+   "historique": [
+    {
+     "cote": 4.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.524,
+      "hausse_pct": 23.4,
+      "horizon_heures": 9.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736752763|2283132578",
+   "match": "ATP Paris",
+   "pari": "C. Alcaraz et C. Ruud gagnent chacun leur match 2-0 (respectivement contre T. Fritz et N. Borges)",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|736754484|2283138358": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.1,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 14.8,
+      "horizon_heures": 11.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736754484|2283138358",
+   "match": "FC Séville - Alaves",
+   "pari": "FC Séville gagne le match 1-0, 2-0 ou 3-0",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736756343|2283143146": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.9,
+      "hausse_pct": 12.1,
+      "horizon_heures": 11.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736756343|2283143146",
+   "match": "Everton - Coventry",
+   "pari": "Everton gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736759535|2283151821": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.1,
+      "hausse_pct": 12.9,
+      "horizon_heures": 11.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736759535|2283151821",
+   "match": "Venise - Udinese",
+   "pari": "Venise gagne à la mi-temps et à la fin du match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736761350|2283156345": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T19:45+00:00",
+   "historique": [
+    {
+     "cote": 2.9,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 5.5,
+      "horizon_heures": 11.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736761350|2283156345",
+   "match": "Toulouse - Strasbourg",
+   "pari": "Toulouse gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736762850|2283160020": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T19:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.85,
+      "hausse_pct": 14.0,
+      "horizon_heures": 11.1,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736762850|2283160020",
+   "match": "Hambourg - Borussia M'Gladbach",
+   "pari": "Hambourg ou Borussia M'Gladbach gagne et plus de 3,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736766199|2283169108": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T18:10+00:00",
+   "historique": [
+    {
+     "cote": 3.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.787,
+      "hausse_pct": 34.6,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736766199|2283169108",
+   "match": "Pro D2",
+   "pari": "Chaque équipe à domicile gagne (7 matchs)",
+   "premiere_selection": null,
+   "sport": "Rugby à XV"
+  },
+  "winamax|736768510|2283175620": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.907,
+      "hausse_pct": 37.6,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736768510|2283175620",
+   "match": "Ligue 2 BKT®",
+   "pari": "Plus de 1,5 buts dans chacun des 6 matchs du jour",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|736777463|2283198524": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-06T14:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.686,
+      "hausse_pct": 11.7,
+      "horizon_heures": 5.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-06T08:24:29+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|736777463|2283198524",
+   "match": "Championnat du Monde (F)",
+   "pari": "Canada (F) et République Tchèque (F) gagnent chacun par au moins 4 buts d'écart (respectivement contre Suède (F) et Autriche (F) )",
+   "premiere_selection": null,
+   "sport": "Hockey sur glace"
   }
  },
  "modele": "observation-v1",
