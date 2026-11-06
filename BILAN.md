@@ -20,12 +20,12 @@ Règle figée le 13/10 22h20 ; comparaison A/I sur les boosts découverts depuis
 | Stratégie | Paris réglés | Misé | Gain net | ROI |
 |---|---|---|---|---|
 | **A — tout miser** | 144 / 933 | 2937 € | +75,67 € | +2,6 % |
-| **I — cotes modérées, un boost/match** | 93 / 565 | 930 € | +30,00 € | +3,2 % |
+| **I — cotes modérées, un boost/match** | 93 / 564 | 930 € | +30,00 € | +3,2 % |
 Le bouton I conserve aussi l'exploration historique complète ; ces chiffres ne valident pas la stratégie.
 
 ## Toutes les stratégies depuis le début (archives, non jugées)
 
-Mis à jour le 06/11 14h12 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
+Mis à jour le 06/11 15h11 (heure de Paris). Argent fictif : A/B à la mise max ; C-H avec mises plafonnées et filtres historiques. I combine D et H après lecture de l'historique ; son test prospectif séparé commence à la date documentée. Les F/G utilisent la cote du premier calcul EV.
 
 | Stratégie | Paris réglés | Misé | Gain net | ROI | Pire baisse |
 |---|---|---|---|---|---|
@@ -37,8 +37,8 @@ Mis à jour le 06/11 14h12 (heure de Paris). Argent fictif : A/B à la mise max 
 | **E — dans les 48 h** | 291 / 1023 | 2905 € | **-76,95 €** | **-2,6 %** | -337,50 € |
 | **F — EV exacte ≥ 8 %** | 0 / 0 | 0 € | **+0,00 €** | **–** | +0,00 € |
 | **G — quart Kelly** | 1 / 1 | 5 € | **-4,96 €** | **-100,0 %** | -4,96 € |
-| **H — un boost/match** | 261 / 904 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
-| **I — cotes modérées, un boost/match** | 182 / 655 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
+| **H — un boost/match** | 261 / 903 | 2605 € | **-112,95 €** | **-4,3 %** | -326,45 € |
+| **I — cotes modérées, un boost/match** | 182 / 654 | 1820 € | **-70,50 €** | **-3,9 %** | -274,50 € |
 | **B — valeur ≥ +5 %** | 2 / 2 | 40 € | **-40,00 €** | **-100,0 %** | -40,00 € |
 | **B0 — valeur ≥ 0 %** | 3 / 3 | 50 € | **-50,00 €** | **-100,0 %** | -50,00 € |
 | **J — filtre quotidien choisi avec les résultats passés** | 44 / 54 | 424 € | **+19,39 €** | **+4,6 %** | -122,83 € |
@@ -99,16 +99,17 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 822 en attente · cote moy
 | 1.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 1.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 10 € | 7 / 45 | 70 € | +12,50 € | +17,9 % | 43 % |
-| 11.11 € | 1 / 3 | 11 € | -11,11 € | -100,0 % | 0 % |
+| 11.11 € | 1 / 4 | 11 € | -11,11 € | -100,0 % | 0 % |
 | 11.36 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 11.62 € | 1 / 1 | 12 € | +29,05 € | +250,0 % | 100 % |
 | 11.9 € | 0 / 1 | 0 € | +0,00 € | – | – |
-| 12.5 € | 0 / 3 | 0 € | +0,00 € | – | – |
+| 12.5 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 13.15 € | 0 / 2 | 0 € | +0,00 € | – | – |
 | 13.51 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 13.88 € | 1 / 3 | 14 € | +24,98 € | +180,0 % | 100 % |
 | 14.7 € | 0 / 5 | 0 € | +0,00 € | – | – |
-| 16.66 € | 0 / 2 | 0 € | +0,00 € | – | – |
+| 15.62 € | 0 / 1 | 0 € | +0,00 € | – | – |
+| 16.66 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 17.24 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.08 € | 0 / 1 | 0 € | +0,00 € | – | – |
 | 2.5 € | 0 / 1 | 0 € | +0,00 € | – | – |
@@ -194,20 +195,20 @@ A en détail : 93 gagnés, 196 perdus, 4 remboursés, 822 en attente · cote moy
 | 06/11 20h45 · Toulouse - Strasbourg | Casper Tengstedt buteur et les deux équipes marquent (remboursé si non titulaire) | 3,5 | – | – | 25 € | ⏳ |
 | 06/11 20h45 · Toulouse - Strasbourg | Toulouse gagne et plus de 2,5 buts dans le match | 2,9 | – | – | 20 € | ⏳ |
 | 06/11 20h45 · Venise - Udinese | Venise gagne à la mi-temps et à la fin du match | 3,5 | – | – | 20 € | ⏳ |
+| 06/11 20h45 · Toulouse - Strasbourg | Toulouse gagne & plus de 2.5 buts dans le match | 3,1 | – | – | 11.9 € | ⏳ |
 | 06/11 20h30 · Hambourg - Borussia M'Gladbach | Hambourg ou Borussia M'Gladbach gagne et plus de 3,5 buts dans le match | 3,25 | – | – | 20 € | ⏳ |
 | 06/11 20h00 · Ligue 2 BKT | Plus de 1,5 buts dans chacun des 6 matchs du jour | 4,0 | – | – | 25 € | ⏳ |
 | 06/11 20h00 · Ligue 2 BKT® | Plus de 1,5 buts dans chacun des 6 matchs du jour | 4,0 | – | – | 20 € | ⏳ |
-| 06/11 19h45 · Toulouse - Strasbourg | Toulouse gagne & plus de 2.5 buts dans le match | 3,1 | – | – | 11.9 € | ⏳ |
+| 06/11 20h00 · Ligue 2 | Plus de 1.5 buts dans chacun des 6 matchs du jour | 3,2 | – | – | 11.36 € | ⏳ |
 | 06/11 19h10 · Pro D2 | Chaque équipe à domicile gagne (7 matchs) | 3,75 | – | – | 20 € | ⏳ |
 | 06/11 19h00 · T.Fritz - C.Alcaraz | C.Alcaraz gagne et plus de 22,5 jeux dans le match ? | 2,65 | – | – | 25 € | ⏳ |
 | 06/11 19h00 · ATP Paris | C. Alcaraz et C. Ruud gagnent chacun leur match 2-0 (respectivement contre T. Fritz et N. Borges) | 4,35 | – | – | 20 € | ⏳ |
-| 06/11 19h00 · Ligue 2 | Plus de 1.5 buts dans chacun des 6 matchs du jour | 3,2 | – | – | 11.36 € | ⏳ |
-| 06/11 18h00 · T. Fritz - C. Alcaraz | Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2 | 3,5 | – | – | 12.5 € | ⏳ |
+| 06/11 19h00 · T. Fritz - C. Alcaraz | Fritz gagne ou remporte le 1er set 6-0, 6-1 or 6-2 | 3,5 | – | – | 11.11 € | ⏳ |
 | 06/11 17h30 · Lokomotiv Moscou - FK Rubin Kazan | Lokomotiv Moscou gagne 1-0 | 7,5 | – | – | 20 € | ⏳ |
-| 06/11 15h10 · L.van Assche - R.Hijikata | L.Van Assche remporte le 1er set 6-3 ou 6-4 ? | 2,95 | – | – | 25 € | ⏳ |
+| 06/11 15h40 · L.van Assche - R.Hijikata | L.Van Assche remporte le 1er set 6-3 ou 6-4 ? | 2,95 | – | – | 25 € | ⏳ |
+| 06/11 15h15 · L. Van Assche - R. Hijikata | Van Assche gagne 2 sets 0 (06.11.2026 | 2,5 | – | – | 15.62 € | ⏳ |
 | 06/11 15h10 · Luca Van Assche - Rinky Hijikata | Luca Van Assche gagne et plus de 23,5 jeux dans le match | 3,4 | – | – | 20 € | ⏳ |
 | 06/11 15h00 · Championnat du Monde (F) | Canada (F) et République Tchèque (F) gagnent chacun par au moins 4 buts d'écart (respectivement contre Suède (F) et Autriche (F) ) | 3,0 | – | – | 20 € | ⏳ |
-| 06/11 14h15 · L. Van Assche - R. Hijikata | Van Assche gagne 2 sets 0 (06.11.2026 | 2,5 | – | – | 16.66 € | ⏳ |
 | 06/11 14h00 · Ben Shelton - Tommy Paul | Ben Shelton gagne 2-1 | 4,5 | – | – | 20 € | ⏳ |
 | 06/11 14h00 · Shelton, Ben - Paul, Tommy | Ben Shelton gagne 2 sets 0 | 3,0 | – | – | 20 € | ⏳ |
 | 06/11 09h40 · Sydney FC - Central Coast Mariners | Sydney FC gagne et les deux équipes marquent | 3,0 | – | – | 20 € | ⏳ |
