@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-07T09:11:15+00:00",
+ "derniere_observation": "2026-11-07T10:10:15+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -8215,6 +8215,15 @@
      "date": "2026-11-07T09:10:31+00:00",
      "ev_modele_pct": null,
      "id": "winamax|737619499|2285638166",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|737634715|2285681090": {
+     "date": "2026-11-07T10:09:35+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|737634715|2285681090",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -16438,6 +16447,15 @@
      "mise": null,
      "p_modele": 0.235133,
      "regle": null
+    },
+    "winamax|737634715|2285681090": {
+     "date": "2026-11-07T10:09:35+00:00",
+     "ev_modele_pct": 0.656,
+     "id": "winamax|737634715|2285681090",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.335521,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -24657,6 +24675,15 @@
      "mise": null,
      "p_modele": 0.235133,
      "regle": null
+    },
+    "winamax|737634715|2285681090": {
+     "date": "2026-11-07T10:09:35+00:00",
+     "ev_modele_pct": 0.656,
+     "id": "winamax|737634715|2285681090",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.335521,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -32875,6 +32902,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.235133,
+     "regle": null
+    },
+    "winamax|737634715|2285681090": {
+     "date": "2026-11-07T10:09:35+00:00",
+     "ev_modele_pct": 0.656,
+     "id": "winamax|737634715|2285681090",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.335521,
      "regle": null
     }
    }
@@ -51408,6 +51444,22 @@
    "mise_max_supposee": null,
    "pari": "Pau et Saint-Etienne marquent chacun au moins 2 buts (respectivement contre Nantes et Laval)",
    "premiere_vue": "2026-11-07T09:09:22+00:00",
+   "sport": "Football"
+  },
+  "winamax|737634715|2285681090": {
+   "available_at": "2026-11-07T10:09:35+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 3.0,
+   "cote_origine": 2.526,
+   "debut": "2026-11-07T14:30+00:00",
+   "disponible": true,
+   "id": "winamax|737634715|2285681090",
+   "long_terme": false,
+   "match": "Bundesliga",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Borussia Dortmund et Bayern Munich gagnent chacun par au moins 2 buts d'écart (respectivement contre Elversberg et Mayence)",
+   "premiere_vue": "2026-11-07T10:08:28+00:00",
    "sport": "Football"
   }
  },
