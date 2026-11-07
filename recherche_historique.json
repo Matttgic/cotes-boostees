@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-07T14:16:50+00:00",
+ "derniere_observation": "2026-11-07T15:16:02+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -403,6 +403,24 @@
      "date": "2026-11-06T19:08:05+00:00",
      "ev_modele_pct": null,
      "id": "betsson|95423196.1|399408786.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|95476186.1|399588020.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|95476186.1|399588020.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "betsson|95481244.1|399610693.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": null,
+     "id": "betsson|95481244.1|399610693.1",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -8654,6 +8672,24 @@
      "p_modele": 0.292921,
      "regle": null
     },
+    "betsson|95476186.1|399588020.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 3.593,
+     "id": "betsson|95476186.1|399588020.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.363485,
+     "regle": null
+    },
+    "betsson|95481244.1|399610693.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 28.459,
+     "id": "betsson|95481244.1|399610693.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.642297,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -16900,6 +16936,24 @@
      "p_modele": 0.292921,
      "regle": null
     },
+    "betsson|95476186.1|399588020.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 3.593,
+     "id": "betsson|95476186.1|399588020.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.363485,
+     "regle": null
+    },
+    "betsson|95481244.1|399610693.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 28.459,
+     "id": "betsson|95481244.1|399610693.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.642297,
+     "regle": null
+    },
     "genybet|12255022|4841413055": {
      "date": "2026-10-15T16:08:04+00:00",
      "ev_modele_pct": -5.626,
@@ -25144,6 +25198,24 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.292921,
+     "regle": null
+    },
+    "betsson|95476186.1|399588020.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 3.593,
+     "id": "betsson|95476186.1|399588020.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.363485,
+     "regle": null
+    },
+    "betsson|95481244.1|399610693.1": {
+     "date": "2026-11-07T15:15:19+00:00",
+     "ev_modele_pct": 28.459,
+     "id": "betsson|95481244.1|399610693.1",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.642297,
      "regle": null
     },
     "genybet|12255022|4841413055": {
@@ -33780,6 +33852,38 @@
    "pari": "Tottenham mène à la mi-temps et gagne le match",
    "premiere_vue": "2026-11-06T19:07:32+00:00",
    "sport": "Football"
+  },
+  "betsson|95476186.1|399588020.1": {
+   "available_at": "2026-11-07T15:15:19+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 2.85,
+   "cote_origine": 2.65,
+   "debut": "2026-11-08T14:00+00:00",
+   "disponible": true,
+   "id": "betsson|95476186.1|399588020.1",
+   "long_terme": false,
+   "match": "Rennes - Lille",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Boulaye Dia Buteur!",
+   "premiere_vue": "2026-11-07T15:14:51+00:00",
+   "sport": "Football"
+  },
+  "betsson|95481244.1|399610693.1": {
+   "available_at": "2026-11-07T15:15:19+00:00",
+   "bookmaker": "Betsson",
+   "cote_boostee_initiale": 2.0,
+   "cote_origine": 1.82,
+   "debut": "2026-11-09T11:00+00:00",
+   "disponible": true,
+   "id": "betsson|95481244.1|399610693.1",
+   "long_terme": false,
+   "match": "Vallejo, Adolfo Daniel - Humbert, Ugo",
+   "mise_max": 20.0,
+   "mise_max_supposee": false,
+   "pari": "Ugo Humbert gagne 2 sets 0",
+   "premiere_vue": "2026-11-07T15:14:51+00:00",
+   "sport": "Tennis"
   },
   "genybet|12255022|4841413055": {
    "available_at": "2026-10-15T16:08:04+00:00",
