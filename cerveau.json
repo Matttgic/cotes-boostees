@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 999,
+   "abstention": 1007,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-07T08:10:11+00:00",
+  "derniere_observation": "2026-11-07T09:09:22+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 744,
+   "reference_absente": 752,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1115,
+  "observes": 1123,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-07T08:10:11+00:00",
+ "derniere_observation": "2026-11-07T09:09:22+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -4327,6 +4327,43 @@
    "id": "netbet|12368754|7535760168",
    "match": "Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ?",
    "pari": "Bayer vs Marseille & Sociedad vs Lyon : les 4 équipes marquent ?",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "netbet|12370608|7543355498": {
+   "bookmaker": "NetBet",
+   "debut": "2026-11-07T20:05+00:00",
+   "historique": [
+    {
+     "cote": 4.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": null,
+      "hausse_pct": null,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 10.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "netbet|12370608|7543355498",
+   "match": "PSG/Troyes - Paris gagne 4/0, 5/0 ou 6/0 ?",
+   "pari": "PSG/Troyes - Paris gagne 4/0, 5/0 ou 6/0 ?",
    "premiere_selection": null,
    "sport": "Football"
   },
@@ -17998,6 +18035,43 @@
    "pari": "NBA - V.Wembanyama marque 32 pts ou + et son équipe gagne",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "unibet|197503059|741276900": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T16:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.6,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.25,
+      "hausse_pct": 15.6,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197503059|741276900",
+   "match": "C.Ruud - C.Alcaraz",
+   "pari": "C.Alcaraz gagne le 1er set 6-3 ou 6-4 ?",
+   "premiere_selection": null,
+   "sport": "Tennis"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -58090,6 +58164,228 @@
    "id": "winamax|737591482|2285559632",
    "match": "Nottingham Forest - Manchester City",
    "pari": "Manchester City gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737595240|2285572384": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T14:30+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.402,
+      "hausse_pct": 24.9,
+      "horizon_heures": 5.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737595240|2285572384",
+   "match": "Bundesliga",
+   "pari": "Plus de 2,5 buts dans chacun des 4 matchs à 15h30",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737598972|2285584222": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T20:00+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 10.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737598972|2285584222",
+   "match": "Valence - Real Madrid",
+   "pari": "Real Madrid gagne le match 0-1, 0-2 ou 0-3",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737602446|2285592091": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T19:45+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.95,
+      "hausse_pct": 10.2,
+      "horizon_heures": 10.6,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737602446|2285592091",
+   "match": "AS Rome - Sassuolo",
+   "pari": "AS Rome gagne et plus de 4,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737609994|2285612148": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T20:05+00:00",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.7,
+      "hausse_pct": 11.1,
+      "horizon_heures": 10.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737609994|2285612148",
+   "match": "Paris SG - Troyes",
+   "pari": "Paris SG gagne et plus de 4,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737615968|2285628309": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T16:00+00:00",
+   "historique": [
+    {
+     "cote": 2.75,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.5,
+      "hausse_pct": 10.0,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737615968|2285628309",
+   "match": "Casper Ruud - Carlos Alcaraz",
+   "pari": "Plus de 2,5 sets lors du match",
+   "premiere_selection": null,
+   "sport": "Tennis"
+  },
+  "winamax|737619499|2285638166": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T19:00+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.536,
+      "hausse_pct": 13.1,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T09:09:22+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737619499|2285638166",
+   "match": "Ligue 2 BKT®",
+   "pari": "Pau et Saint-Etienne marquent chacun au moins 2 buts (respectivement contre Nantes et Laval)",
    "premiere_selection": null,
    "sport": "Football"
   }
