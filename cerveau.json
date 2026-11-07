@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 1012,
+   "abstention": 1013,
    "ecarter": 43,
-   "hors_perimetre": 72,
+   "hors_perimetre": 73,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-07T15:14:51+00:00",
+  "derniere_observation": "2026-11-07T16:13:59+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -34,14 +34,14 @@
    "ev_insuffisante": 42,
    "ev_positive": 1,
    "ligne_absente": 44,
-   "long_terme": 72,
+   "long_terme": 73,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 757,
+   "reference_absente": 758,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1128,
+  "observes": 1130,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-07T15:14:51+00:00",
+ "derniere_observation": "2026-11-07T16:13:59+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -18220,6 +18220,43 @@
    "pari": "L.Sinayoko ou C.Archer buteur et les deux équipes marquent (remboursé si non titulaire)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "unibet|197531358|741414352": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T22:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "hors_perimetre",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.2,
+      "hausse_pct": 13.6,
+      "horizon_heures": 5.8,
+      "long_terme": true,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T16:13:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "long_terme",
+     "raisons": [
+      "Pari de saison ou long terme : suivi séparé, sans référence fiable"
+     ],
+     "reference_raison": null,
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197531358|741414352",
+   "match": "IND Pacers - DEN Nuggets",
+   "pari": "NBA - Nikola Jokic termine meilleur marqueur du match et son équipe gagne",
+   "premiere_selection": null,
+   "sport": "Basketball"
   },
   "winamax|714916941|2215889347": {
    "bookmaker": "Winamax",
@@ -58755,6 +58792,43 @@
    "pari": "Borussia Dortmund et Bayern Munich gagnent chacun par au moins 2 buts d'écart (respectivement contre Elversberg et Mayence)",
    "premiere_selection": null,
    "sport": "Football"
+  },
+  "winamax|737907616|2286499029": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-08T01:10+00:00",
+   "historique": [
+    {
+     "cote": 2.3,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 15.0,
+      "horizon_heures": 8.9,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T16:13:59+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737907616|2286499029",
+   "match": "Cleveland Cavaliers - New York Knicks",
+   "pari": "Jalen Brunson + Karl-Anthony Towns marquent 50 points ou plus",
+   "premiere_selection": null,
+   "sport": "Basketball"
   }
  },
  "modele": "observation-v1",

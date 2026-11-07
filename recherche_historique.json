@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-07T15:16:02+00:00",
+ "derniere_observation": "2026-11-07T16:15:25+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -8260,6 +8260,15 @@
      "date": "2026-11-07T10:09:35+00:00",
      "ev_modele_pct": null,
      "id": "winamax|737634715|2285681090",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|737907616|2286499029": {
+     "date": "2026-11-07T16:14:42+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|737907616|2286499029",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -16528,6 +16537,15 @@
      "mise": null,
      "p_modele": 0.335521,
      "regle": null
+    },
+    "winamax|737907616|2286499029": {
+     "date": "2026-11-07T16:14:42+00:00",
+     "ev_modele_pct": -12.568,
+     "id": "winamax|737907616|2286499029",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.38014,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -24791,6 +24809,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.335521,
+     "regle": null
+    },
+    "winamax|737907616|2286499029": {
+     "date": "2026-11-07T16:14:42+00:00",
+     "ev_modele_pct": -12.568,
+     "id": "winamax|737907616|2286499029",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.38014,
      "regle": null
     }
    },
@@ -33056,6 +33083,15 @@
      "mise": null,
      "p_modele": 0.335521,
      "regle": null
+    },
+    "winamax|737907616|2286499029": {
+     "date": "2026-11-07T16:14:42+00:00",
+     "ev_modele_pct": -12.568,
+     "id": "winamax|737907616|2286499029",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.38014,
+     "regle": null
     }
    }
   }
@@ -39854,6 +39890,22 @@
    "pari": "L.Sinayoko ou C.Archer buteur et les deux équipes marquent (remboursé si non titulaire)",
    "premiere_vue": "2026-11-07T14:15:45+00:00",
    "sport": "Football"
+  },
+  "unibet|197531358|741414352": {
+   "available_at": "2026-11-07T16:14:42+00:00",
+   "bookmaker": "Unibet",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.2,
+   "debut": "2026-11-07T22:00:00.000Z",
+   "disponible": true,
+   "id": "unibet|197531358|741414352",
+   "long_terme": true,
+   "match": "IND Pacers - DEN Nuggets",
+   "mise_max": 25.0,
+   "mise_max_supposee": false,
+   "pari": "NBA - Nikola Jokic termine meilleur marqueur du match et son équipe gagne",
+   "premiere_vue": "2026-11-07T16:13:59+00:00",
+   "sport": "Basketball"
   },
   "winamax|714229410|2213811052": {
    "available_at": "2026-10-08T18:11:10Z",
@@ -51669,6 +51721,22 @@
    "pari": "Borussia Dortmund et Bayern Munich gagnent chacun par au moins 2 buts d'écart (respectivement contre Elversberg et Mayence)",
    "premiere_vue": "2026-11-07T10:08:28+00:00",
    "sport": "Football"
+  },
+  "winamax|737907616|2286499029": {
+   "available_at": "2026-11-07T16:14:42+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.3,
+   "cote_origine": 2.0,
+   "debut": "2026-11-08T01:10+00:00",
+   "disponible": true,
+   "id": "winamax|737907616|2286499029",
+   "long_terme": false,
+   "match": "Cleveland Cavaliers - New York Knicks",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Jalen Brunson + Karl-Anthony Towns marquent 50 points ou plus",
+   "premiere_vue": "2026-11-07T16:13:59+00:00",
+   "sport": "Basketball"
   }
  },
  "resultats": [
