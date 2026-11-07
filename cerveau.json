@@ -1,12 +1,12 @@
 {
  "bilan": {
   "decisions_courantes": {
-   "abstention": 992,
+   "abstention": 999,
    "ecarter": 43,
    "hors_perimetre": 72,
    "selectionner": 1
   },
-  "derniere_observation": "2026-11-07T07:11:03+00:00",
+  "derniere_observation": "2026-11-07T08:10:11+00:00",
   "gagnes": 0,
   "gain_net": -10.0,
   "historique_paris": [
@@ -37,11 +37,11 @@
    "long_terme": 72,
    "marche_non_cote": 41,
    "match_introuvable": 91,
-   "reference_absente": 737,
+   "reference_absente": 744,
    "sport_non_suivi": 10
   },
   "observations_reglees": 272,
-  "observes": 1108,
+  "observes": 1115,
   "paris_en_attente": 0,
   "paris_regles": 1,
   "paris_selectionnes": 1,
@@ -49,7 +49,7 @@
   "pire_baisse": -10.0,
   "roi_pct": -100.0
  },
- "derniere_observation": "2026-11-07T07:11:03+00:00",
+ "derniere_observation": "2026-11-07T08:10:11+00:00",
  "entrees": {
   "betsson|93666744.1|393253164.1": {
    "bookmaker": "Betsson",
@@ -17777,6 +17777,43 @@
    "premiere_selection": null,
    "sport": "Tennis"
   },
+  "unibet|197421016|740841748": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T20:10:00.000Z",
+   "historique": [
+    {
+     "cote": 2.8,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.4,
+      "hausse_pct": 16.7,
+      "horizon_heures": 12.0,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197421016|740841748",
+   "match": "France - Fidji",
+   "pari": "Joyeux Anniversaire - Cameron Woki marque un essai ou +",
+   "premiere_selection": null,
+   "sport": "Rugby"
+  },
   "unibet|197421775|740852701": {
    "bookmaker": "Unibet",
    "debut": "2026-11-06T20:10:00.000Z",
@@ -17813,6 +17850,117 @@
    "pari": "Irlande gagne et Mack Hansen marque un essai ou +",
    "premiere_selection": null,
    "sport": "Rugby"
+  },
+  "unibet|197427406|740909215": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T18:00:00.000Z",
+   "historique": [
+    {
+     "cote": 2.35,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.05,
+      "hausse_pct": 14.6,
+      "horizon_heures": 9.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197427406|740909215",
+   "match": "Auxerre - Paris FC",
+   "pari": "L.Sinayoko ou C.Archer buteur et les deux équipes marquent (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197427494|740909882": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T20:05:00.000Z",
+   "historique": [
+    {
+     "cote": 2.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.15,
+      "hausse_pct": 16.3,
+      "horizon_heures": 11.9,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197427494|740909882",
+   "match": "Paris SG - Troyes",
+   "pari": "F.Torres buteur et son équipe gagne de 3 buts ou + (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "unibet|197428250|740915974": {
+   "bookmaker": "Unibet",
+   "debut": "2026-11-07T20:00:00.000Z",
+   "historique": [
+    {
+     "cote": 3.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.6,
+      "hausse_pct": 15.4,
+      "horizon_heures": 11.8,
+      "long_terme": false,
+      "mise_max": 25.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "unibet|197428250|740915974",
+   "match": "CF Valence - Real Madrid",
+   "pari": "Kylian Mbappé buteur et son équipe gagne les 2 mi-temps (remboursé si non titulaire)",
+   "premiere_selection": null,
+   "sport": "Football"
   },
   "unibet|197437090|740978401": {
    "bookmaker": "Unibet",
@@ -57800,6 +57948,32 @@
      "reference_raison": "",
      "source": [],
      "version": "observation-v1.1"
+    },
+    {
+     "cote": 2.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.0,
+      "hausse_pct": 12.5,
+      "horizon_heures": 0.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
     }
    ],
    "id": "winamax|737524463|2285354523",
@@ -57807,6 +57981,117 @@
    "pari": "Plus de 199,5 points lors du match",
    "premiere_selection": null,
    "sport": "Basketball"
+  },
+  "winamax|737581815|2285532030": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T12:30+00:00",
+   "historique": [
+    {
+     "cote": 4.0,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.5,
+      "hausse_pct": 14.3,
+      "horizon_heures": 4.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737581815|2285532030",
+   "match": "Leeds - Tottenham",
+   "pari": "Tottenham gagne et plus de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737587511|2285549940": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T15:00+00:00",
+   "historique": [
+    {
+     "cote": 3.5,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 3.0,
+      "hausse_pct": 16.7,
+      "horizon_heures": 6.8,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737587511|2285549940",
+   "match": "Arsenal - Hull City",
+   "pari": "Arsenal gagne et moins de 2,5 buts dans le match",
+   "premiere_selection": null,
+   "sport": "Football"
+  },
+  "winamax|737591482|2285559632": {
+   "bookmaker": "Winamax",
+   "debut": "2026-11-07T17:30+00:00",
+   "historique": [
+    {
+     "cote": 3.25,
+     "cote_juste": null,
+     "decision": "abstention",
+     "ev_pct": null,
+     "features": {
+      "cote_origine": 2.75,
+      "hausse_pct": 18.2,
+      "horizon_heures": 9.3,
+      "long_terme": false,
+      "mise_max": 20.0,
+      "mise_max_supposee": false,
+      "nb_conditions": 0,
+      "qualite_reference": "absente",
+      "type_boost": "cote boostée"
+     },
+     "horodatage": "2026-11-07T08:10:11+00:00",
+     "mise_fictive": null,
+     "motif_code": "reference_absente",
+     "raisons": [
+      "Probabilité de référence non exploitable"
+     ],
+     "reference_raison": "",
+     "source": [],
+     "version": "observation-v1.1"
+    }
+   ],
+   "id": "winamax|737591482|2285559632",
+   "match": "Nottingham Forest - Manchester City",
+   "pari": "Manchester City gagne et les deux équipes marquent",
+   "premiere_selection": null,
+   "sport": "Football"
   }
  },
  "modele": "observation-v1",
