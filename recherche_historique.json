@@ -1,5 +1,5 @@
 {
- "derniere_observation": "2026-11-07T17:14:20+00:00",
+ "derniere_observation": "2026-11-07T18:08:02+00:00",
  "journal_recherche": {
   "replay-v1": {
    "J_adaptative": {
@@ -8296,6 +8296,15 @@
      "date": "2026-11-07T17:13:38+00:00",
      "ev_modele_pct": null,
      "id": "winamax|737952101|2286627529",
+     "joue": false,
+     "mise": null,
+     "p_modele": null,
+     "regle": "sport:tennis:3-5"
+    },
+    "winamax|738051623|2286911166": {
+     "date": "2026-11-07T18:07:15+00:00",
+     "ev_modele_pct": null,
+     "id": "winamax|738051623|2286911166",
      "joue": false,
      "mise": null,
      "p_modele": null,
@@ -16600,6 +16609,15 @@
      "mise": null,
      "p_modele": 0.24705,
      "regle": null
+    },
+    "winamax|738051623|2286911166": {
+     "date": "2026-11-07T18:07:15+00:00",
+     "ev_modele_pct": 7.492,
+     "id": "winamax|738051623|2286911166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.429966,
+     "regle": null
     }
    },
    "L_kelly_dynamique": {
@@ -24900,6 +24918,15 @@
      "mise": null,
      "p_modele": 0.24705,
      "regle": null
+    },
+    "winamax|738051623|2286911166": {
+     "date": "2026-11-07T18:07:15+00:00",
+     "ev_modele_pct": 7.492,
+     "id": "winamax|738051623|2286911166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.429966,
+     "regle": null
     }
    },
    "M_modele_20": {
@@ -33199,6 +33226,15 @@
      "joue": false,
      "mise": null,
      "p_modele": 0.24705,
+     "regle": null
+    },
+    "winamax|738051623|2286911166": {
+     "date": "2026-11-07T18:07:15+00:00",
+     "ev_modele_pct": 7.492,
+     "id": "winamax|738051623|2286911166",
+     "joue": false,
+     "mise": null,
+     "p_modele": 0.429966,
      "regle": null
     }
    }
@@ -51893,6 +51929,22 @@
    "pari": "Pierre Gasly se qualifie en Q3",
    "premiere_vue": "2026-11-07T17:13:02+00:00",
    "sport": "Formule 1"
+  },
+  "winamax|738051623|2286911166": {
+   "available_at": "2026-11-07T18:07:15+00:00",
+   "bookmaker": "Winamax",
+   "cote_boostee_initiale": 2.5,
+   "cote_origine": 2.014,
+   "debut": "2026-11-07T21:00+00:00",
+   "disponible": true,
+   "id": "winamax|738051623|2286911166",
+   "long_terme": false,
+   "match": "MLS",
+   "mise_max": 20.0,
+   "mise_max_supposee": null,
+   "pari": "Plus de 1,5 buts dans chacun des 8 matchs à 22h00",
+   "premiere_vue": "2026-11-07T18:06:43+00:00",
+   "sport": "Football"
   }
  },
  "resultats": [
